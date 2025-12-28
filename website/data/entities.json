@@ -1,6 +1,6 @@
 {
-  "generated": "2025-12-27T22:49:07.477161Z",
-  "count": 40,
+  "generated": "2025-12-28T07:28:56.607099Z",
+  "count": 92,
   "entities": [
     {
       "id": "alan-dershowitz",
@@ -2837,6 +2837,474 @@
       "has_brief": true,
       "id": "us-treasury",
       "brief_file": "analytical_brief_united_states_department_of_the_treasury.md"
+    },
+    {
+      "name": "Alan Dershowitz",
+      "id": "alan_dershowitz",
+      "brief_file": "briefs/entity/analytical_brief_alan_dershowitz.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Allison Mack",
+      "id": "allison_mack",
+      "brief_file": "briefs/entity/analytical_brief_allison_mack.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Bill Clinton",
+      "id": "bill_clinton",
+      "brief_file": "briefs/entity/analytical_brief_bill_clinton.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Clare Bronfman",
+      "id": "clare_bronfman",
+      "brief_file": "briefs/entity/analytical_brief_clare_bronfman.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Deutsche Bank and Jeffrey Epstein",
+      "id": "deutsche_bank",
+      "brief_file": "briefs/entity/analytical_brief_deutsche_bank.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Donald Trump",
+      "id": "donald_trump",
+      "brief_file": "briefs/entity/analytical_brief_donald_trump.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Analytical Brief: Emmy Taylor",
+      "type": "person",
+      "id": "emmy_taylor",
+      "brief_file": "briefs/entity/analytical_brief_emmy_taylor.md",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Epstein Florida Case",
+      "id": "epstein_florida_case",
+      "brief_file": "briefs/entity/analytical_brief_epstein_florida_case.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Ghislaine Maxwell",
+      "id": "ghislaine_maxwell",
+      "brief_file": "briefs/entity/analytical_brief_ghislaine_maxwell.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Giuffre v. Maxwell Civil Case",
+      "id": "giuffre_v_maxwell_case",
+      "brief_file": "briefs/entity/analytical_brief_giuffre_v_maxwell_case.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Glenn Dubin",
+      "id": "glenn_dubin",
+      "brief_file": "briefs/entity/analytical_brief_glenn_dubin.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Jean",
+      "id": "jean_luc_brunel",
+      "brief_file": "briefs/entity/analytical_brief_jean_luc_brunel.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "id": "jeffrey_epstein",
+      "brief_file": "briefs/entity/analytical_brief_jeffrey_epstein.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Johanna Sjoberg",
+      "id": "johanna_sjoberg",
+      "brief_file": "briefs/entity/analytical_brief_johanna_sjoberg.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Juan Alessi",
+      "id": "juan_alessi",
+      "brief_file": "briefs/entity/analytical_brief_juan_alessi.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Les Wexner",
+      "id": "les_wexner",
+      "brief_file": "briefs/entity/analytical_brief_les_wexner.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Lesley Groff",
+      "id": "lesley_groff",
+      "brief_file": "briefs/entity/analytical_brief_lesley_groff.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Meyer Lansky",
+      "id": "meyer_lansky",
+      "brief_file": "briefs/entity/analytical_brief_meyer_lansky.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Nadia Marcinkova",
+      "id": "nadia_marcinkova",
+      "brief_file": "briefs/entity/analytical_brief_nadia_marcinkova.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Oliver North",
+      "id": "oliver_north",
+      "brief_file": "briefs/entity/analytical_brief_oliver_north.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Prince Andrew",
+      "id": "prince_andrew",
+      "brief_file": "briefs/entity/analytical_brief_prince_andrew.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Roy Cohn",
+      "id": "roy_cohn",
+      "brief_file": "briefs/entity/analytical_brief_roy_cohn.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Sarah Kellen",
+      "id": "sarah_kellen",
+      "brief_file": "briefs/entity/analytical_brief_sarah_kellen.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "The Terramar Project",
+      "id": "terramar_project",
+      "brief_file": "briefs/entity/analytical_brief_terramar_project.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Virginia Giuffre",
+      "id": "virginia_giuffre",
+      "brief_file": "briefs/entity/analytical_brief_virginia_giuffre.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "William Casey",
+      "id": "william_casey",
+      "brief_file": "briefs/entity/analytical_brief_william_casey.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Federal Bureau of Investigation (FBI)",
+      "status": "Documented to exist; details sparse",
+      "id": "fbi",
+      "brief_file": "briefs/entity/analytical_brief_fbi.md",
+      "type": "person",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Intelligence",
+      "id": "intelligence_financial_nexus",
+      "brief_file": "briefs/entity/analytical_brief_intelligence_financial_nexus.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "The Iran",
+      "id": "iran_contra",
+      "brief_file": "briefs/entity/analytical_brief_iran_contra.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Main Street",
+      "id": "main_street",
+      "brief_file": "briefs/entity/analytical_brief_main_street.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "JP Morgan Chase and Jeffrey Epstein",
+      "id": "jpmorgan_epstein",
+      "brief_file": "briefs/entity/analytical_brief_jpmorgan_epstein.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "S.J. Quinney College of Law",
+      "id": "quinney_college",
+      "brief_file": "briefs/entity/analytical_brief_quinney_college.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Keith Raniere",
+      "id": "keith_raniere",
+      "brief_file": "briefs/entity/analytical_brief_keith_raniere.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Analytical Brief: East Las Olas",
+      "type": "location (street address)",
+      "id": "east_las_olas",
+      "brief_file": "briefs/entity/analytical_brief_east_las_olas.md",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Maxwell Family Network: Cross",
+      "status": "Deceased November 5, 1991",
+      "id": "maxwell_family_network",
+      "brief_file": "briefs/entity/analytical_brief_maxwell_family_network.md",
+      "type": "person",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Analytical Brief: University Street",
+      "type": "location (institutional address)",
+      "id": "university_st",
+      "brief_file": "briefs/entity/analytical_brief_university_st.md",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "The NXIVM/Raniere Case",
+      "id": "nxivm_case",
+      "brief_file": "briefs/entity/analytical_brief_nxivm_case.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Ross Gow",
+      "id": "ross_gow",
+      "brief_file": "briefs/entity/analytical_brief_ross_gow.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "The PROMIS/INSLAW Affair",
+      "id": "promis_inslaw",
+      "brief_file": "briefs/entity/analytical_brief_promis_inslaw.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Analytical Brief: Las Olas Boulevard",
+      "type": "location (street address)",
+      "id": "las_olas_blvd",
+      "brief_file": "briefs/entity/analytical_brief_las_olas_blvd.md",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Robert Maxwell",
+      "id": "robert_maxwell",
+      "brief_file": "briefs/entity/analytical_brief_robert_maxwell.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Analytical Brief: North Andrews Avenue",
+      "id": "north-andrews-avenue",
+      "brief_file": "briefs/entity/analytical_brief_north-andrews-avenue.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Analytical Brief: Fort Lauderdale",
+      "type": "location",
+      "id": "fort_lauderdale",
+      "brief_file": "briefs/entity/analytical_brief_fort_lauderdale.md",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Jane Doe (Pseudonymous Plaintiffs)",
+      "id": "jane_doe",
+      "brief_file": "briefs/entity/analytical_brief_jane_doe.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "David Boies",
+      "id": "david_boies",
+      "brief_file": "briefs/entity/analytical_brief_david_boies.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Palm Beach",
+      "id": "palm_beach",
+      "brief_file": "briefs/entity/analytical_brief_palm_beach.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Meredith Schultz",
+      "id": "meredith_schultz",
+      "brief_file": "briefs/entity/analytical_brief_meredith_schultz.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Boies Schiller Flexner LLP",
+      "id": "boies_schiller",
+      "brief_file": "briefs/entity/analytical_brief_boies_schiller.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "West Palm Beach",
+      "id": "west_palm_beach",
+      "brief_file": "briefs/entity/analytical_brief_west_palm_beach.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Jeffrey Pagliuca",
+      "id": "jeffrey_pagliuca",
+      "brief_file": "briefs/entity/analytical_brief_jeffrey_pagliuca.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Brad Edwards",
+      "id": "brad_edwards",
+      "brief_file": "briefs/entity/analytical_brief_brad_edwards.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
+    },
+    {
+      "name": "Virginia Giuffre",
+      "id": "plaintiff_virginia_giuffre",
+      "brief_file": "briefs/entity/analytical_brief_plaintiff_virginia_giuffre.md",
+      "type": "person",
+      "status": "Unknown",
+      "connections": [],
+      "tags": []
     }
   ],
   "schema_version": "2.0",
