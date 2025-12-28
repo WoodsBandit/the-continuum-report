@@ -458,6 +458,29 @@
             border-color: var(--gold);
         }
 
+        /* View connection brief button (in dropdown) */
+        .view-connection-brief-btn {
+            display: block;
+            width: 100%;
+            margin-top: 0.75rem;
+            padding: 0.5rem 0.75rem;
+            background: rgba(201, 162, 39, 0.15);
+            border: 1px solid rgba(201, 162, 39, 0.4);
+            border-radius: 4px;
+            color: var(--gold);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .view-connection-brief-btn:hover {
+            background: rgba(201, 162, 39, 0.25);
+            border-color: var(--gold);
+        }
+
         /* Connections section header update */
         .connections-section-header {
             display: flex;
@@ -5188,6 +5211,9 @@
                                         `).join('') : '<li class="no-sources">No source documents linked</li>'}
                                     </ul>
                                 </div>
+                                <button class="view-connection-brief-btn" onclick="ConnectionsPanel.openConnectionsBrief('${node.id}', '${conn.id}'); event.stopPropagation();">
+                                    View Full Brief
+                                </button>
                             </div>
                         </li>`;
                     });
@@ -5566,38 +5592,68 @@
             },
 
             // Open the full Connections Brief document
-            openConnectionsBrief(entityId) {
+            // If targetEntityId is provided, opens pairwise brief (entity1_entity2.md)
+            // Otherwise opens single-entity brief (entity_connections.md)
+            openConnectionsBrief(entityId, targetEntityId = null) {
                 if (!entityId) {
                     console.warn('No entity ID provided');
                     return;
                 }
 
-                // Get entity name for display
-                const entity = Graph.nodes?.find(n => n.id === entityId);
-                const entityName = entity?.name || entityId;
-
-                // Normalize entity ID for file lookup
-                const normalizedId = entityId
+                // Normalize function for entity IDs
+                const normalizeId = (id) => id
                     .toLowerCase()
                     .replace(/\s+/g, '-')
                     .replace(/[^a-z0-9-]/g, '');
 
-                // Try multiple paths - webserver may serve from different roots
-                const pathsToTry = [
-                    `briefs/connections/${normalizedId}_connections.md`,
-                    `/briefs/connections/${normalizedId}_connections.md`,
-                    `/continuum/briefs/connections/${normalizedId}_connections.md`,
-                    `../briefs/connections/${normalizedId}_connections.md`
-                ];
+                // Get entity names for display
+                const entity = Graph.nodes?.find(n => n.id === entityId);
+                const entityName = entity?.name || entityId;
+                const normalizedId = normalizeId(entityId);
+
+                let pathsToTry = [];
+                let displayTitle = entityName;
+
+                if (targetEntityId) {
+                    // Pairwise brief: use alphabetical ordering for consistent naming
+                    const targetEntity = Graph.nodes?.find(n => n.id === targetEntityId);
+                    const targetName = targetEntity?.name || targetEntityId;
+                    const normalizedTargetId = normalizeId(targetEntityId);
+
+                    // Sort alphabetically for consistent file naming
+                    const [first, second] = [normalizedId, normalizedTargetId].sort();
+                    const pairwiseFilename = `${first}_${second}.md`;
+
+                    displayTitle = `${entityName} ↔ ${targetName}`;
+
+                    // Try pairwise brief paths first, then fall back to single-entity
+                    pathsToTry = [
+                        `briefs/connections/${pairwiseFilename}`,
+                        `/briefs/connections/${pairwiseFilename}`,
+                        `/continuum/briefs/connections/${pairwiseFilename}`,
+                        `../briefs/connections/${pairwiseFilename}`,
+                        // Fallback to single-entity brief
+                        `briefs/connections/${normalizedId}_connections.md`,
+                        `/briefs/connections/${normalizedId}_connections.md`
+                    ];
+                } else {
+                    // Single-entity connections brief
+                    pathsToTry = [
+                        `briefs/connections/${normalizedId}_connections.md`,
+                        `/briefs/connections/${normalizedId}_connections.md`,
+                        `/continuum/briefs/connections/${normalizedId}_connections.md`,
+                        `../briefs/connections/${normalizedId}_connections.md`
+                    ];
+                }
 
                 const tryFetch = (paths, index = 0) => {
                     if (index >= paths.length) {
                         // All paths failed
-                        this.showBriefModal(entityName, `
+                        this.showBriefModal(displayTitle, `
                             <div style="text-align: center; padding: 2rem;">
                                 <h3 style="color: var(--gold); margin-bottom: 1rem;">Connections Brief Not Available</h3>
                                 <p style="color: var(--mist); line-height: 1.6;">
-                                    The connections brief for <strong>${entityName}</strong> could not be loaded.
+                                    The connections brief for <strong>${displayTitle}</strong> could not be loaded.
                                 </p>
                                 <p style="color: var(--smoke); font-size: 0.85rem; margin-top: 1rem;">
                                     Paths tried: ${paths.join(', ')}
@@ -5614,7 +5670,7 @@
                         })
                         .then(markdown => {
                             const html = typeof marked !== 'undefined' ? marked.parse(markdown) : `<pre>${markdown}</pre>`;
-                            this.showBriefModal(entityName, html);
+                            this.showBriefModal(displayTitle, html);
                         })
                         .catch(() => tryFetch(paths, index + 1));
                 };
