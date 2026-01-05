@@ -355,8 +355,24 @@ def main():
                         help='Directory for output JSON files')
     parser.add_argument('--quiet', action='store_true',
                         help='Suppress progress output')
+    parser.add_argument('--filter-to-manifest', action='store_true',
+                        help='Only include entities that are in manifest.json (RECOMMENDED)')
+    parser.add_argument('--no-overwrite-manifest', action='store_true', default=True,
+                        help='Do not overwrite manifest.json (default: True)')
 
     args = parser.parse_args()
+
+    # ARCHITECTURAL WARNING
+    print("=" * 60)
+    print("⚠️  IMPORTANT: MANIFEST.JSON IS THE SOURCE OF TRUTH")
+    print("=" * 60)
+    print("")
+    print("Only entities listed in manifest.json should appear in the UI.")
+    print("Use --filter-to-manifest to filter entities, or run:")
+    print("  python scripts/rebuild_entities_from_manifest.py")
+    print("")
+    print("=" * 60)
+    print("")
 
     briefs_dir = Path(args.briefs_dir)
     output_dir = Path(args.output_dir)
@@ -397,15 +413,37 @@ def main():
     print("")
     connections = []  # Empty - connections come from briefs, not mentions
 
-    # Step 4: Build manifest
+    # Step 4: Filter to manifest (if requested or if manifest exists)
+    manifest_path = output_dir / 'manifest.json'
+    if args.filter_to_manifest or manifest_path.exists():
+        if manifest_path.exists():
+            with open(manifest_path, 'r', encoding='utf-8') as f:
+                existing_manifest = json.load(f)
+            manifest_ids = {b['id'] for b in existing_manifest.get('briefs', [])}
+
+            original_count = len(entities)
+            entities = {eid: e for eid, e in entities.items() if eid in manifest_ids}
+            filtered_count = len(entities)
+
+            print(f"FILTERED: {original_count} → {filtered_count} entities (manifest.json)")
+            if original_count > filtered_count:
+                print(f"  Removed {original_count - filtered_count} entities not in manifest")
+            print("")
+        else:
+            print("WARNING: --filter-to-manifest specified but manifest.json not found")
+            print("         Writing all entities (run rebuild_entities_from_manifest.py after)")
+            print("")
+
+    # Step 5: Build manifest (from filtered entities)
     manifest = build_manifest(entities, briefs_dir)
 
-    # Step 5: Prepare output data
+    # Step 6: Prepare output data
 
     # entities.json - list format for easier frontend consumption
     entities_output = {
         'generated': datetime.utcnow().isoformat() + 'Z',
         'count': len(entities),
+        'source': 'manifest.json' if args.filter_to_manifest else 'all briefs',
         'entities': list(entities.values())
     }
 
@@ -429,10 +467,14 @@ def main():
         json.dump(connections_output, f, indent=2)
     print(f"  Written: {connections_path}")
 
-    manifest_path = output_dir / 'manifest.json'
-    with open(manifest_path, 'w', encoding='utf-8') as f:
-        json.dump(manifest, f, indent=2)
-    print(f"  Written: {manifest_path}")
+    # manifest.json - PROTECTED (curated source of truth)
+    manifest_out_path = output_dir / 'manifest.json'
+    if args.no_overwrite_manifest and manifest_out_path.exists():
+        print(f"  SKIPPED: {manifest_out_path} (--no-overwrite-manifest, curated file)")
+    else:
+        with open(manifest_out_path, 'w', encoding='utf-8') as f:
+            json.dump(manifest, f, indent=2)
+        print(f"  Written: {manifest_out_path}")
 
     print("")
 

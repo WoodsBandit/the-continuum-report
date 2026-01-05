@@ -2,12 +2,74 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-05 (Session 16)
+**Last Updated:** 2026-01-05 (Session 17)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-05 — Session 17: Data Consistency & Entity Architecture Fix
+
+**Operator:** WoodsBandit
+**Duration:** ~1.5 hours
+**Primary Task:** Fix entity ID mismatches and briefless entity problem
+
+#### Summary
+
+Continued from Session 16. Two major issues fixed:
+1. **Node not found errors** - Entity ID mismatches in data files
+2. **Briefless entities appearing** - 120 entities in UI when only 40 are in manifest
+
+#### Part 1: ID Mismatch Fixes
+
+| Error | Fix |
+|-------|-----|
+| `the-terramar-project` | Changed entity ID to match connections |
+| `jp-morgan-epstein-case` | Normalized to `jpmorgan-epstein-case` |
+| `federal-bureau-of-investigation` | Normalized to `fbi` |
+| `leslie-h-wexner` | Normalized to `les-wexner` |
+
+#### Part 2: Entity Architecture Fix (MAJOR)
+
+**Root Cause:** entities.json contained 120 entities, but manifest.json (the curated source of truth) only has 40. Build process was adding all briefs as entities instead of filtering to manifest.
+
+**Architectural Principle Established:**
+```
+MANIFEST.JSON IS THE SOURCE OF TRUTH FOR WHICH ENTITIES APPEAR.
+NO ENTITY APPEARS IN THE VISUALIZATION WITHOUT BEING IN MANIFEST.JSON.
+```
+
+**Files Created:**
+| File | Purpose |
+|------|---------|
+| `scripts/rebuild_entities_from_manifest.py` | Rebuild entities.json from manifest only |
+
+**Files Modified:**
+| File | Changes |
+|------|---------|
+| `scripts/build_graph.py` | Added manifest filter, warning, overwrite protection |
+| `website/data/entities.json` | Rebuilt: 120 → 40 entities |
+| `website/data/connections.json` | Cleaned: 73 → 70 (removed FBI refs) |
+
+**Build Process Updates:**
+- `build_graph.py` now auto-filters to manifest.json if it exists
+- `build_graph.py` won't overwrite curated manifest.json by default
+- New `rebuild_entities_from_manifest.py` for explicit rebuilds
+
+#### Result
+
+Site now shows **40 entities • 70 connections** - only manifest-approved entities.
+
+#### Prevention
+
+To add a new entity to the visualization:
+1. Create the analytical brief
+2. Add entry to `manifest.json` (curated)
+3. Run `rebuild_entities_from_manifest.py`
+4. Update `connections.json` if needed
+
+---
 
 ### 2026-01-05 — Session 16: Overnight Bug Fix (Session B)
 

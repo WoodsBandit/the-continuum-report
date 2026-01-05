@@ -1,6 +1,7 @@
 {
-  "generated": "2026-01-05T05:51:44.014834Z",
-  "count": 73,
+  "generated": "2026-01-05T21:12:46.619048+00:00",
+  "count": 70,
+  "source": "filtered to manifest entities",
   "connections": [
     {
       "source": "alan-dershowitz",
@@ -543,7 +544,7 @@
     },
     {
       "source": "deutsche-bank",
-      "target": "jp-morgan-epstein-case",
+      "target": "jpmorgan-epstein-case",
       "strength": 50,
       "type": "documented",
       "evidence": [
@@ -742,42 +743,6 @@
       "brief_file": "epstein-florida-case_terramar-project.md"
     },
     {
-      "source": "federal-bureau-of-investigation",
-      "target": "jeffrey-epstein",
-      "strength": 50,
-      "type": "documented",
-      "evidence": [],
-      "bidirectional": true,
-      "source_mentions_target": true,
-      "target_mentions_source": true,
-      "summary": "> The following represents protected editorial opinion based on the documented public record.",
-      "brief_file": "fbi_epstein_investigation.md"
-    },
-    {
-      "source": "federal-bureau-of-investigation",
-      "target": "ghislaine-maxwell",
-      "strength": 50,
-      "type": "documented",
-      "evidence": [],
-      "bidirectional": true,
-      "source_mentions_target": true,
-      "target_mentions_source": true,
-      "summary": "> The following represents protected editorial opinion based on the documented public record.",
-      "brief_file": "fbi_maxwell_arrest.md"
-    },
-    {
-      "source": "federal-bureau-of-investigation",
-      "target": "leslie-h-wexner",
-      "strength": 50,
-      "type": "documented",
-      "evidence": [],
-      "bidirectional": true,
-      "source_mentions_target": true,
-      "target_mentions_source": true,
-      "summary": "> The following represents protected editorial opinion based on the documented public record.",
-      "brief_file": "fbi_wexner_coconspirator.md"
-    },
-    {
       "source": "ghislaine-maxwell",
       "target": "les-wexner",
       "strength": 50,
@@ -934,7 +899,7 @@
     },
     {
       "source": "jeffrey-epstein",
-      "target": "jp-morgan-epstein-case",
+      "target": "jpmorgan-epstein-case",
       "strength": 50,
       "type": "documented",
       "evidence": [
@@ -1108,7 +1073,7 @@
     },
     {
       "source": "giuffre-v-maxwell-case",
-      "target": "terramar-project",
+      "target": "the-terramar-project",
       "strength": 40,
       "type": "interpreted",
       "evidence": [],
@@ -1130,7 +1095,5 @@
       "summary": "Regarding the nature of the connection: In our assessment, the connection between the Epstein Florida Case and Glenn Dubin is peripheral and documentary rather than substantive. Dubin's name appears in the broader context of Epstein-related discovery but not in the specific CVRA litigation regarding the non-prosecution agreement.",
       "brief_file": "epstein-florida-case_glenn-dubin.md"
     }
-  ],
-  "source": "build_connections_from_briefs.py",
-  "note": "Connections derived ONLY from connection briefs. No connection exists without a brief."
+  ]
 }

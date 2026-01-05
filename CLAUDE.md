@@ -2,7 +2,7 @@
 
 > "For there is nothing hidden that will not be disclosed, and nothing concealed that will not be known or brought out into the open." — Luke 8:17
 
-**Last Updated:** 2025-12-26
+**Last Updated:** 2026-01-05
 **Tagline:** *Another Node in the Decentralized Intelligence Agency*
 
 ---
@@ -99,6 +99,36 @@ When foundational documents change (CLAUDE.md, REFERENCE.md), changes must casca
 
 **📄 For current strategic memos, see: [/agents/memos/index.md](/agents/memos/index.md)**
 
+### Data Architecture — Source of Truth (Non-Negotiable)
+
+⚠️ **MANIFEST.JSON IS THE SOURCE OF TRUTH FOR WHICH ENTITIES APPEAR IN THE UI.**
+
+```
+NO BRIEF = NO ENTITY
+NO MANIFEST ENTRY = NO VISUALIZATION
+```
+
+**The Rules:**
+1. **Entities:** Only entities listed in `website/data/manifest.json` appear in the Continuum visualization
+2. **Connections:** Only connections between manifest entities are valid
+3. **Briefs:** 288+ briefs exist for research, but only ~40 are curated for public display
+
+**To Add a New Entity:**
+1. Create the analytical brief in `website/briefs/entity/`
+2. Add entry to `manifest.json` (curated list)
+3. Run `python scripts/rebuild_entities_from_manifest.py`
+4. Update `connections.json` if adding connections
+
+**Build Scripts:**
+- `rebuild_entities_from_manifest.py` — Rebuilds entities.json from manifest (USE THIS)
+- `build_graph.py` — Auto-filters to manifest, won't overwrite curated manifest.json
+- `build_connections_from_briefs.py` — Builds connections from connection briefs
+
+**NEVER:**
+- ❌ Add entities directly to entities.json without manifest entry
+- ❌ Run build scripts that bypass manifest filtering
+- ❌ Assume all briefs should become visible entities
+
 ---
 
 ## Current State
@@ -108,11 +138,11 @@ When foundational documents change (CLAUDE.md, REFERENCE.md), changes must casca
 | Category | Count | Status |
 |----------|-------|--------|
 | **Source Documents (Public)** | 121 PDFs | ✅ Cited sources at thecontinuumreport.com/sources |
-| **Primary Entities** | 37 | ✅ Full analytical briefs |
+| **Manifest Entities** | 40 | ✅ Curated for UI display |
+| **Total Briefs** | 288+ | ✅ Research corpus (not all displayed) |
 | **Master Entity Index** | 2,008+ | ✅ See entities_index.md |
-| **Connections** | 131 | ⚠️ Needs audit (docs say 78) |
-| **Connection Briefs** | 86 | ✅ Template compliant |
-| **Paperless Docs** | ~292 | ✅ OCR processed, growing |
+| **Connections** | 70 | ✅ Between manifest entities only |
+| **Paperless Docs** | ~372 | ✅ OCR processed, growing |
 
 ### Major Document Collections
 

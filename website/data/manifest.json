@@ -52,7 +52,7 @@
     {"id": "roy-cohn", "name": "Roy Cohn", "type": "person", "file": "analytical_brief_roy_cohn.md"},
     {"id": "san-francisco", "name": "San Francisco, California", "type": "location", "file": "analytical_brief_san_francisco__california.md"},
     {"id": "sarah-kellen", "name": "Sarah Kellen", "type": "person", "file": "analytical_brief_sarah_kellen.md"},
-    {"id": "terramar-project", "name": "The Terramar Project", "type": "organization", "file": "analytical_brief_terramar_project.md"},
+    {"id": "the-terramar-project", "name": "The Terramar Project", "type": "organization", "file": "analytical_brief_terramar_project.md"},
     {"id": "us-treasury", "name": "United States Department of the Treasury", "type": "organization", "file": "analytical_brief_united_states_department_of_the_treasury.md"},
     {"id": "virginia-giuffre", "name": "Virginia Giuffre", "type": "person", "file": "analytical_brief_virginia_giuffre.md"},
     {"id": "william-casey", "name": "William Casey", "type": "person", "file": "analytical_brief_william_casey.md"}
