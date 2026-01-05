@@ -2,7 +2,7 @@
 
 > Fast navigation to all project resources. For full documentation, see [CLAUDE.md](CLAUDE.md).
 
-**Last Updated:** 2026-01-04 (Session 10)
+**Last Updated:** 2026-01-05 (Session 18)
 **Related:** [log.md](log.md) | [CLAUDE.md](CLAUDE.md) | [BUGS.md](BUGS.md)
 
 ---
@@ -23,7 +23,8 @@ T:\continuum\
 │   └── epstein-extraction/← Extraction pipeline & findings
 │
 ├── briefs/                ← Analytical briefs (local copies)
-│   └── entity/            ← 38 entity profiles
+│   ├── entity/            ← 38 entity profiles
+│   └── agencies/          ← 73+ federal agency research briefs (NEW)
 │
 ├── website/               ← Web-hosted content
 │   ├── sources/           ← 33,745 source PDFs
