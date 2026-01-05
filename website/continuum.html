@@ -1139,6 +1139,30 @@
             transition: background 0.2s ease;
         }
 
+        /* SOURCE REFERENCE LINKS (case numbers, books, reports) */
+        .source-link {
+            color: var(--gold);
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-underline-offset: 2px;
+            transition: all 0.2s ease;
+            padding: 0 0.15em;
+            border-radius: 2px;
+        }
+        a.source-link {
+            cursor: pointer;
+        }
+        a.source-link:hover {
+            color: var(--pure);
+            background: rgba(201, 162, 39, 0.2);
+            text-decoration-style: solid;
+        }
+        .source-link-nourl {
+            cursor: default;
+            text-decoration-style: dotted;
+            opacity: 0.85;
+        }
+
         /* ═══════════════════════════════════════════════════════════
            ENTITIES LAYER STYLES
            ═══════════════════════════════════════════════════════════ */
@@ -2491,6 +2515,8 @@
         // ============================================================
         // Global sources index for PDF availability checking
         let sourcesIndex = null;
+        // Global sources registry for auto-linking references
+        let sourcesRegistry = null;
 
         async function loadData() {
             const statusEl = document.getElementById('loadingStatus');
@@ -2514,6 +2540,17 @@
                     }
                 } catch (e) {
                     console.warn('Sources index not available:', e);
+                }
+
+                // Load sources registry for auto-linking references
+                statusEl.textContent = 'Fetching sources registry...';
+                try {
+                    const registryRes = await fetch('/data/sources.json');
+                    if (registryRes.ok) {
+                        sourcesRegistry = await registryRes.json();
+                    }
+                } catch (e) {
+                    console.warn('Sources registry not available:', e);
                 }
 
                 statusEl.textContent = 'Building graph...';
@@ -2602,6 +2639,9 @@
 
                 // Linkify ECF references throughout the brief
                 this.linkifyECFReferences(container);
+
+                // Linkify source references (case numbers, books, reports)
+                this.linkifySourceReferences(container);
             },
 
             // Convert ECF references into clickable links
@@ -2755,6 +2795,166 @@
                 PDFViewer.open({
                     ecf: ecf,
                     description: description
+                });
+            },
+
+            // Linkify source references from sources.json (case numbers, books, reports)
+            linkifySourceReferences(container) {
+                if (!sourcesRegistry) return;
+
+                // Build lookup maps from sources registry
+                const aliasMap = sourcesRegistry.aliases || {};
+                const cases = sourcesRegistry.cases || {};
+                const books = sourcesRegistry.books || {};
+                const reports = sourcesRegistry.congressionalReports || {};
+                const sources = sourcesRegistry.sources || [];
+
+                // Build a combined lookup for getting URLs
+                const getSourceUrl = (id) => {
+                    // Check sources array first (for ECF docs)
+                    const source = sources.find(s => s.id === id);
+                    if (source) {
+                        if (source.paperlessId) {
+                            return `http://192.168.1.139:8040/api/documents/${source.paperlessId}/preview/`;
+                        }
+                        return source.url || null;
+                    }
+                    // Check cases
+                    if (cases[id]) {
+                        return cases[id].url || null;
+                    }
+                    // Check books
+                    if (books[id]) {
+                        if (books[id].paperlessId) {
+                            return `http://192.168.1.139:8040/api/documents/${books[id].paperlessId}/preview/`;
+                        }
+                        return books[id].url || null;
+                    }
+                    // Check congressional reports
+                    if (reports[id]) {
+                        if (reports[id].paperlessId) {
+                            return `http://192.168.1.139:8040/api/documents/${reports[id].paperlessId}/preview/`;
+                        }
+                        return reports[id].url || null;
+                    }
+                    return null;
+                };
+
+                // Get display info for a source
+                const getSourceInfo = (id) => {
+                    if (cases[id]) return { title: cases[id].title, type: 'case' };
+                    if (books[id]) return { title: books[id].title, type: 'book' };
+                    if (reports[id]) return { title: reports[id].shortName || reports[id].title, type: 'report' };
+                    const source = sources.find(s => s.id === id);
+                    if (source) return { title: source.title || source.shortName, type: source.type };
+                    return null;
+                };
+
+                // Sort aliases by length (longest first) to match most specific first
+                const sortedAliases = Object.keys(aliasMap).sort((a, b) => b.length - a.length);
+                if (sortedAliases.length === 0) return;
+
+                // Build regex pattern from aliases (escape special chars)
+                const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const aliasPattern = new RegExp(
+                    '\\b(' + sortedAliases.map(escapeRegex).join('|') + ')\\b',
+                    'gi'
+                );
+
+                // Process all text nodes in the container
+                const walker = document.createTreeWalker(
+                    container,
+                    NodeFilter.SHOW_TEXT,
+                    null,
+                    false
+                );
+
+                const nodesToProcess = [];
+                let node;
+                while (node = walker.nextNode()) {
+                    if (aliasPattern.test(node.textContent)) {
+                        nodesToProcess.push(node);
+                    }
+                    aliasPattern.lastIndex = 0; // Reset regex
+                }
+
+                // Process each text node
+                nodesToProcess.forEach(textNode => {
+                    const text = textNode.textContent;
+                    const parent = textNode.parentNode;
+
+                    // Skip if already inside a link or source link
+                    if (parent.tagName === 'A' || parent.classList?.contains('source-link') || parent.classList?.contains('ecf-link')) {
+                        return;
+                    }
+
+                    // Create a temporary container
+                    const span = document.createElement('span');
+                    let lastIndex = 0;
+                    let hasMatches = false;
+
+                    // Reset and find all matches
+                    aliasPattern.lastIndex = 0;
+                    const matches = [];
+                    let match;
+                    while ((match = aliasPattern.exec(text)) !== null) {
+                        const matchedAlias = match[1];
+                        const sourceId = aliasMap[matchedAlias] || aliasMap[matchedAlias.toLowerCase()];
+                        // Try case-insensitive lookup
+                        const foundAlias = sortedAliases.find(a => a.toLowerCase() === matchedAlias.toLowerCase());
+                        const resolvedId = foundAlias ? aliasMap[foundAlias] : sourceId;
+                        if (resolvedId) {
+                            matches.push({
+                                fullMatch: match[0],
+                                alias: matchedAlias,
+                                sourceId: resolvedId,
+                                index: match.index
+                            });
+                        }
+                    }
+
+                    if (matches.length === 0) return;
+
+                    matches.forEach(m => {
+                        hasMatches = true;
+                        // Add text before the match
+                        if (m.index > lastIndex) {
+                            span.appendChild(document.createTextNode(text.slice(lastIndex, m.index)));
+                        }
+
+                        const url = getSourceUrl(m.sourceId);
+                        const info = getSourceInfo(m.sourceId);
+
+                        if (url) {
+                            // Create clickable link
+                            const link = document.createElement('a');
+                            link.className = 'source-link';
+                            link.href = url;
+                            link.target = '_blank';
+                            link.rel = 'noopener noreferrer';
+                            link.textContent = m.fullMatch;
+                            link.title = info ? `View: ${info.title}` : `View source`;
+                            span.appendChild(link);
+                        } else {
+                            // No URL available - just style it
+                            const styledSpan = document.createElement('span');
+                            styledSpan.className = 'source-link source-link-nourl';
+                            styledSpan.textContent = m.fullMatch;
+                            styledSpan.title = info ? info.title : 'Source document';
+                            span.appendChild(styledSpan);
+                        }
+
+                        lastIndex = m.index + m.fullMatch.length;
+                    });
+
+                    // Add remaining text
+                    if (lastIndex < text.length) {
+                        span.appendChild(document.createTextNode(text.slice(lastIndex)));
+                    }
+
+                    if (hasMatches) {
+                        parent.replaceChild(span, textNode);
+                    }
                 });
             },
 
@@ -3828,6 +4028,9 @@
                 const category = this.selectedCategory || 'people';
                 this.selectedCategory = category;  // Store it for breadcrumb
                 EntitiesLayer.show(category);
+
+                // FIX05: Update breadcrumb when navigating to entities view
+                this.updateBreadcrumb('entities', category, null);
             },
 
             async renderDocumentsView() {
@@ -5678,6 +5881,12 @@
                 `;
 
                 document.body.appendChild(modal);
+
+                // Linkify source references in the modal content
+                const bodyEl = modal.querySelector('.connections-brief-body');
+                if (bodyEl && BriefViewer.linkifySourceReferences) {
+                    BriefViewer.linkifySourceReferences(bodyEl);
+                }
 
                 // Close on escape key
                 const escHandler = (e) => {
