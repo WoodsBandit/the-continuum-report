@@ -23,15 +23,14 @@
 
 ---
 
-## Relationship Classification
+## Relationship Summary
 
 | Attribute | Value |
 |-----------|-------|
-| **Type** | [Relationship types, e.g., "Professional / Social / Financial / Alleged"] |
-| **Evidence Level** | [e.g., "Sworn (depositions)", "Documented (records)", "Alleged (court filings)"] |
+| **Type** | [Relationship types, e.g., "Professional / Social / Financial"] |
 | **Direction** | [Bidirectional / Unidirectional (A → B)] |
 | **Status** | [Current relationship status, e.g., "Historical — Subject deceased"] |
-| **Strength** | [1-100 per connections.json if applicable] |
+| **Sources** | [Number of source documents with quotes] |
 
 ---
 

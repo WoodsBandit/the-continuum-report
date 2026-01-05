@@ -355,6 +355,43 @@ New Document → Paperless (OCR + index) → Used in brief? → Export to /websi
 
 ---
 
+## Document Acquisition — MANDATORY STANDARD ⭐
+
+**⚠️ ANY Claude session tasked with acquiring documents MUST read and follow:**
+
+**📄 [/sops/SOP-005-document-acquisition-standard.md](/sops/SOP-005-document-acquisition-standard.md)**
+
+### The Cardinal Rule
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  WHEN YOU ACQUIRE A SECONDARY SOURCE (news article, investigative      │
+│  report, etc.), YOU MUST AUTOMATICALLY EXTRACT AND ACQUIRE ALL         │
+│  PRIMARY SOURCES IT CITES.                                             │
+│                                                                         │
+│  A news article is NOT complete without its underlying court filings,  │
+│  regulatory documents, and official records.                           │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Quick Reference
+
+| Source Type | Action Required |
+|-------------|-----------------|
+| **Primary Source** (court filing, regulatory doc, gov report) | Acquire → Verify → Name → Store → Log |
+| **Secondary Source** (news article, book, blog) | Acquire → **EXTRACT ALL CITATIONS** → Acquire each primary source → Create citation map |
+
+### Output Requirements
+
+Every acquisition session MUST produce:
+1. **Acquisition Report** — Summary of what was acquired
+2. **Citation Map** — For each secondary source: what primaries it cites and their status
+3. **Files placed correctly** — Primary sources in `/website/sources/{category}/`
+
+**Read the full SOP before any document acquisition work.**
+
+---
+
 ## Agent System
 
 **Architecture:** Single Claude Code session acts as Overseer; 14 specialized agents spawned via Task tool for parallel work.

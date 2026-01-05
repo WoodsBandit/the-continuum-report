@@ -120,7 +120,7 @@ while True:
       "entity2": "Acme Corporation",
       "brief_path": "/briefs/connections/John_Doe_Acme_Corporation.md",
       "relationship_type": "employment",
-      "strength": 0.85,
+      "sources_count": 3,
       "last_updated": "2025-12-20T15:45:00Z",
       "preview": "John Doe served as CFO of Acme Corporation..."
     }
@@ -423,8 +423,8 @@ FOR EACH brief_path IN approved_connection_briefs:
     # Determine primary relationship type
     relationship_type = DETERMINE_RELATIONSHIP_TYPE(content_body, metadata)
 
-    # Get relationship strength
-    strength = metadata.get("relationship_strength", 0.5)
+    # Get sources count
+    sources_count = metadata.get("sources_count", 1)
 
     # Create/update connection entry
     connection_entry = {
@@ -433,7 +433,7 @@ FOR EACH brief_path IN approved_connection_briefs:
         "entity2": entity2,
         "brief_path": f"/briefs/connections/{BASENAME(brief_path)}",
         "relationship_type": relationship_type,
-        "strength": strength,
+        "sources_count": sources_count,
         "last_updated": metadata.last_updated,
         "preview": preview
     }
@@ -1116,7 +1116,7 @@ CATCH Exception as e:
           "entity2": {"type": "string"},
           "brief_path": {"type": "string"},
           "relationship_type": {"type": "string"},
-          "strength": {"type": "number", "minimum": 0, "maximum": 1},
+          "sources_count": {"type": "integer", "minimum": 1},
           "last_updated": {"type": "string", "format": "date-time"},
           "preview": {"type": "string"}
         }

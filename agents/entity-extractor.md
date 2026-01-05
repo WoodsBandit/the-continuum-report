@@ -102,7 +102,7 @@ An independent journalist must be able to verify every extracted entity by revie
   "mention_details": {
     "ghislaine-maxwell": {
       "count": 15,
-      "strength": "documented"
+      "source_quotes": ["Quote from page X...", "Quote from page Y..."]
     }
   },
   "layer": 1
@@ -311,11 +311,15 @@ Relationship: glenn-dubin → jeffrey-epstein (social/business connection)
 - **Legal relationships:** "X represented Y"
 - **Financial relationships:** "X transferred funds to Y"
 
-**Connection Strength Levels:**
-- **documented:** Explicit statement in source (e.g., "worked for")
-- **referenced:** Co-mentioned in same context
-- **alleged:** Claimed connection, not verified
-- **inferred:** Logical but not explicitly stated (use sparingly)
+**Connection Documentation (Binary Model):**
+A connection either EXISTS in a source document or it DOESN'T. No subjective scoring.
+
+For each connection found:
+1. **Quote:** Extract the exact text showing the connection
+2. **Source:** Document ID + page number
+3. **Summary:** One-sentence description of what the source shows
+
+That's it. No "strength" levels. The source speaks for itself.
 
 #### 6. Ambiguity Handling
 **When entity identity is unclear:**
@@ -510,43 +514,34 @@ Relationship: glenn-dubin → jeffrey-epstein (social/business connection)
     ]
   },
 
-  "relationships_identified": [
+  "connections_found": [
     {
       "entity_1": "jeffrey-epstein",
       "entity_2": "nadia-marcinkova",
-      "relationship_type": "employer-employee (alleged)",
-      "strength": "documented",
-      "evidence": [
+      "summary": "Marcinkova testified she was introduced to Epstein in 2002 and traveled with him",
+      "sources": [
         {
           "page": 54,
-          "quote": "I was introduced to Jeffrey Epstein in 2002 when I was 15 years old",
-          "context": "Initial introduction"
+          "quote": "I was introduced to Jeffrey Epstein in 2002 when I was 15 years old"
         },
         {
           "page": 67,
-          "quote": "Jeffrey would often fly me on his private jet",
-          "context": "Travel arrangements"
+          "quote": "Jeffrey would often fly me on his private jet"
         }
       ],
-      "directionality": "epstein → marcinkova (person of influence → person influenced)",
-      "temporal_context": "2002-2010",
-      "notes": "Relationship began when Marcinkova was minor (age 15)"
+      "source_file": "/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
     },
     {
       "entity_1": "jeffrey-epstein",
       "entity_2": "ghislaine-maxwell",
-      "relationship_type": "associates",
-      "strength": "documented",
-      "evidence": [
+      "summary": "Maxwell described as present at Epstein properties",
+      "sources": [
         {
           "page": 89,
-          "quote": "Ghislaine was present when I first arrived at the Palm Beach house",
-          "context": "Co-presence at Epstein property"
+          "quote": "Ghislaine was present when I first arrived at the Palm Beach house"
         }
       ],
-      "directionality": "bidirectional",
-      "temporal_context": "2002 onwards",
-      "notes": "Frequent co-mentions suggest close association"
+      "source_file": "/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
     }
   ],
 
@@ -697,17 +692,14 @@ Extracted 15 entities (12 persons, 1 organization, 1 place, 1 case) and identifi
 ## Relationships Identified
 
 1. **Jeffrey Epstein → Nadia Marcinkova**
-   - Type: Employer/associate (alleged)
-   - Strength: Documented
-   - Evidence: pp. 54, 67, 89, 112 (87 total mentions)
-   - Timeline: 2002-2010
-   - Note: Relationship began when Marcinkova was minor
+   - Quote: "I was introduced to Jeffrey Epstein in 2002" (p. 54)
+   - Source: ECF 1328-44, pp. 54, 67, 89, 112
+   - Summary: Marcinkova testified she met Epstein in 2002 at age 15 and traveled with him
 
 2. **Jeffrey Epstein ↔ Ghislaine Maxwell**
-   - Type: Associates
-   - Strength: Documented
-   - Evidence: pp. 89, 102, 124 (34 co-mentions)
-   - Timeline: 2002 onwards
+   - Quote: "Ghislaine was present when I first arrived" (p. 89)
+   - Source: ECF 1328-44, pp. 89, 102, 124
+   - Summary: Maxwell described as present at Epstein properties
 
 [Additional relationships...]
 
@@ -1062,12 +1054,11 @@ Before finalizing extraction, verify:
 - [ ] Page/line specificity
 - [ ] Document availability status (public/sealed/PACER)
 
-### Relationship Mapping
-- [ ] Connection type specified
-- [ ] Strength level assigned (documented/referenced/alleged)
-- [ ] Directionality noted
-- [ ] Evidence citations included
-- [ ] Temporal context provided
+### Connection Documentation
+- [ ] Source quote extracted (verbatim)
+- [ ] Page number recorded
+- [ ] Source file path included
+- [ ] Summary written (one sentence)
 
 ### Ambiguity Resolution
 - [ ] Unclear identities flagged
@@ -1147,9 +1138,9 @@ Read: /continuum/website/sources/giuffre-v-maxwell/ecf-1328-44.pdf
 **Process:**
 1. Identify all entities present
 2. Create relationship matrix
-3. Extract evidence for each connection
-4. Assign strength levels
-5. Note temporal context
+3. Extract quote + source for each connection
+4. Write one-sentence summary for each
+5. Note temporal context if stated
 6. Generate relationship-focused extraction report
 7. Provide connection.json update recommendations
 
@@ -1178,7 +1169,7 @@ Read: /continuum/website/sources/giuffre-v-maxwell/ecf-1328-44.pdf
 | Unclear if two entities are same person | Flag as ambiguous, suggest cross-reference method |
 | Redacted information | Note redaction, extract surrounding context |
 | Conflicting dates across documents | Extract both, flag discrepancy for investigation |
-| Unclear relationship type | Use "referenced" strength, note ambiguity |
+| Unclear relationship type | Extract quote as-is, note ambiguity in summary |
 | Missing page numbers | Use section headings or paragraph numbers instead |
 | Protective order on identity | Use "Jane Doe" or case designation, do not extract real name |
 

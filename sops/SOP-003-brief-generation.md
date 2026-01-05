@@ -119,6 +119,9 @@ legal_review: "PENDING"
 ```
 
 **Connection Brief Template:** `\\192.168.1.139\continuum\templates\connection-brief-template.md`
+
+**ARCHITECTURAL PRINCIPLE:** Connection briefs are the source of truth. No connection exists without a brief. Each brief contains: quote + source + summary.
+
 ```markdown
 ---
 connection_id: "{ENTITY1}|{ENTITY2}"
@@ -126,8 +129,7 @@ entity1: "{ENTITY1}"
 entity2: "{ENTITY2}"
 brief_version: "{VERSION}"
 last_updated: "{TIMESTAMP}"
-co_mention_count: {COUNT}
-relationship_strength: {STRENGTH}
+sources_count: {COUNT}
 legal_review: "PENDING"
 ---
 
@@ -137,11 +139,10 @@ legal_review: "PENDING"
 {AUTO_GENERATED_SUMMARY}
 
 ## Connection Overview
-**Relationship Strength:** {STRENGTH_RATING}
-**Co-Mention Count:** {COUNT}
-**First Co-Mention:** {FIRST_DATE}
-**Last Co-Mention:** {LAST_DATE}
-**Primary Relationship Type:** {CONTEXT_TYPE}
+**Sources Count:** {COUNT}
+**First Documented:** {FIRST_DATE}
+**Last Documented:** {LAST_DATE}
+**Relationship Type:** {CONTEXT_TYPE}
 
 ## Evidence of Connection
 
@@ -411,7 +412,7 @@ FOR EACH brief_spec IN entity_briefs_to_generate:
             connection_contexts.append({
                 "connected_entity": conn_data.entity1 if conn_data.entity2 == entity_name else conn_data.entity2,
                 "relationship_type": DETERMINE_PRIMARY_CONTEXT_TYPE(conn_data.contexts),
-                "strength": co_occurrence.pairs[connection_id].relationship_strength
+                "sources": [c.source_id for c in conn_data.contexts]
             })
 
     # Generate brief using template and Claude
@@ -701,10 +702,9 @@ Generate an analytical intelligence brief for the connection between:
 "{connection_data.entity1}" and "{connection_data.entity2}"
 
 Connection Data:
-- Co-Mention Count: {co_occurrence_data.co_mention_count}
-- Relationship Strength: {co_occurrence_data.relationship_strength}
-- First Co-Mention: {co_occurrence_data.first_co_mention}
-- Last Co-Mention: {co_occurrence_data.last_co_mention}
+- Sources Count: {co_occurrence_data.co_mention_count}
+- First Documented: {co_occurrence_data.first_co_mention}
+- Last Documented: {co_occurrence_data.last_co_mention}
 
 Context Evidence:
 {FORMAT_CONTEXTS(contexts)}
@@ -735,8 +735,7 @@ Return complete markdown brief following template structure.
         "entity2": connection_data.entity2,
         "brief_version": "1.0",
         "last_updated": current_timestamp,
-        "co_mention_count": co_occurrence_data.co_mention_count,
-        "relationship_strength": co_occurrence_data.relationship_strength,
+        "sources_count": co_occurrence_data.co_mention_count,
         "context_sources": [c.source_id for c in contexts],
         "legal_review": "PENDING"
     }
@@ -1026,25 +1025,24 @@ ELSE:
 
 **Decision:** When do co-occurrences warrant a connection brief?
 
+**ARCHITECTURAL PRINCIPLE:** Connection briefs are the source of truth. If a connection exists in source documents with a quote, it warrants a brief.
+
 ```
 Criteria:
 1. Co-mention count >= 2 (minimum evidence threshold)
-2. At least 1 context with relevance_score >= 0.7 (substantive connection)
-3. Relationship type is NOT purely "association" (unless high strength)
+2. At least 1 context with extractable quote
+3. Source document can be hosted (linked)
 
 DECISION TREE:
 
 IF co_mention_count < 2:
     → SKIP (insufficient evidence)
 
-ELSE IF no contexts with relevance >= 0.5:
-    → SKIP (no substantive relationship)
-
-ELSE IF all contexts are type "association" AND relationship_strength < 0.7:
-    → SKIP (weak connection)
+ELSE IF no contexts with extractable quotes:
+    → SKIP (no substantive relationship to document)
 
 ELSE:
-    → CREATE brief
+    → CREATE brief with quote + source + summary
 ```
 
 ### 6.3 Legal Review Failure Handling
@@ -1381,8 +1379,7 @@ entity1: "Acme Corporation"
 entity2: "John Doe"
 brief_version: "1.0"
 last_updated: "2025-12-25T10:19:00Z"
-co_mention_count: 6
-relationship_strength: 0.85
+sources_count: 6
 context_sources: ["src_000042", "src_000245"]
 legal_review: "AUTO-APPROVED"
 legal_review_date: "2025-12-25T10:19:15Z"

@@ -221,15 +221,20 @@ When viewing an entity in Web Layer, the right panel shows:
 ```
 
 ### connections.json
+
+**ARCHITECTURAL PRINCIPLE:** Connection briefs are the source of truth. `connections.json` is DERIVED from briefs via `build_connections_from_briefs.py`. No connection exists without a corresponding brief.
+
 ```json
 {
+  "note": "Connections derived ONLY from connection briefs. No connection exists without a brief.",
   "connections": [
     {
       "source": "jeffrey-epstein",
       "target": "ghislaine-maxwell",
       "type": "documented",
-      "strength": 0.95,
-      "bidirectional": true
+      "bidirectional": true,
+      "summary": "Maxwell described as present at Epstein properties...",
+      "brief_file": "epstein_maxwell_connection.md"
     }
   ]
 }

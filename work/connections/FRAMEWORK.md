@@ -1,88 +1,70 @@
 # Connections Framework — Formalized Schema
 
-**Version:** 2.0
+**Version:** 3.0 (Updated 2026-01-05)
 **Created:** 2025-12-25
 **Based On:** `/continuum/connection_brief_reference.md`
 
 ---
 
-## Connection Types Hierarchy
+## CORE PRINCIPLE
 
-### Level 1: Evidence Basis
-
-| Type | Code | Definition |
-|------|------|------------|
-| **Documented** | `DOC` | Direct mention in court filings, depositions, sworn testimony |
-| **Referenced** | `REF` | Indirect mention or same document context |
-| **Interpreted** | `INT` | Editorial inference from documentary patterns |
-
-### Level 2: Relationship Nature (Subtypes)
-
-#### Documented Subtypes (`DOC-*`)
-
-| Subtype | Code | Definition | Example |
-|---------|------|------------|---------|
-| Employment | `DOC-EMP` | Formal employment relationship | Groff worked for Epstein |
-| Attorney-Client | `DOC-ATT` | Legal representation | Dershowitz represented Epstein |
-| Family | `DOC-FAM` | Blood or marriage relation | Ghislaine daughter of Robert Maxwell |
-| Co-Defendant | `DOC-DEF` | Named together in legal proceedings | Maxwell in Epstein indictment |
-| Co-Conspirator | `DOC-CON` | Named in NPA or indictment as co-conspirator | Wexner in FBI July 2019 email |
-| Accuser-Accused | `DOC-ACC` | Allegation relationship | Giuffre accused Prince Andrew |
-| Witness-Subject | `DOC-WIT` | Testified about another entity | Farmer testified about Maxwell |
-| Social | `DOC-SOC` | Documented social encounters | Trump at Mar-a-Lago with Epstein |
-| Financial | `DOC-FIN` | Money flows, investments, donations | Wexner POA to Epstein |
-| Institutional | `DOC-INST` | Institution investigated/arrested subject | FBI arrested Maxwell |
-
-#### Referenced Subtypes (`REF-*`)
-
-| Subtype | Code | Definition | Example |
-|---------|------|------------|---------|
-| Co-Mentioned | `REF-MEN` | Named in same document | Both in flight logs |
-| Same Proceeding | `REF-PRO` | Both involved in same case | Both named in Giuffre v. Maxwell |
-| Same Location | `REF-LOC` | Both documented at same location | Both at Little St. James |
-
-#### Interpreted Subtypes (`INT-*`)
-
-| Subtype | Code | Definition | Example |
-|---------|------|------------|---------|
-| Pattern-Inferred | `INT-PAT` | Connection implied by documentary patterns | Network analysis suggests link |
-| Temporal-Proximity | `INT-TMP` | Connected by time-based evidence | Both active 1998-2008 |
-| Network-Inferred | `INT-NET` | Connected through shared network | Both connected to same third party |
+```
+CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+No connection exists without a corresponding brief.
+Each brief contains: quote + source + summary.
+No subjective "strength" scoring.
+```
 
 ---
 
-## Connection JSON Schema (v2.0)
+## Connection Types (Relationship Nature)
+
+These categorize the **nature** of a connection, not its "strength":
+
+| Type | Code | Definition | Example |
+|------|------|------------|---------|
+| Employment | `EMP` | Formal employment relationship | Groff worked for Epstein |
+| Attorney-Client | `ATT` | Legal representation | Dershowitz represented Epstein |
+| Family | `FAM` | Blood or marriage relation | Ghislaine daughter of Robert Maxwell |
+| Co-Defendant | `DEF` | Named together in legal proceedings | Maxwell in Epstein indictment |
+| Co-Conspirator | `CON` | Named in NPA or indictment | Wexner in FBI July 2019 email |
+| Accuser-Accused | `ACC` | Allegation relationship | Giuffre accused Prince Andrew |
+| Witness-Subject | `WIT` | Testified about another entity | Farmer testified about Maxwell |
+| Social | `SOC` | Documented social encounters | Trump at Mar-a-Lago with Epstein |
+| Financial | `FIN` | Money flows, investments, donations | Wexner POA to Epstein |
+| Institutional | `INST` | Institution investigated/arrested subject | FBI arrested Maxwell |
+| Co-Mentioned | `MEN` | Named in same document | Both in flight logs |
+| Same Proceeding | `PRO` | Both involved in same case | Both named in Giuffre v. Maxwell |
+
+---
+
+## Connection JSON Schema (v3.0 - Binary Model)
+
+**Note:** `connections.json` is DERIVED from connection briefs via `build_connections_from_briefs.py`.
 
 ```json
 {
   "id": "uuid-connection-id",
   "source": "entity-id-1",
   "target": "entity-id-2",
-  "type": "documented | referenced | interpreted",
-  "subtype": "DOC-CON | DOC-EMP | etc.",
+  "type": "EMP | ATT | SOC | FIN | etc.",
   "direction": "bidirectional | source-to-target | target-to-source",
-  "strength": 0-100,
-  "dateRange": {
-    "start": "YYYY-MM-DD | YYYY-MM | YYYY",
-    "end": "YYYY-MM-DD | YYYY-MM | YYYY | ongoing | unknown",
-    "precision": "day | month | year | approximate"
-  },
   "summary": "One-sentence description of connection nature",
   "evidence": [
     {
       "ecf": "1328-44",
       "page": "54:2-17",
       "quote": "Actual quote from document",
-      "description": "Document description",
-      "filed": "MM/DD/YY"
+      "source_link": "/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
     }
   ],
-  "briefFile": "connection_brief_filename.md",
-  "created": "ISO-8601 timestamp",
-  "lastUpdated": "ISO-8601 timestamp",
-  "createdBy": "agent-name | manual"
+  "briefFile": "entity1_entity2_connection.md",
+  "sources_count": 3,
+  "lastUpdated": "ISO-8601 timestamp"
 }
 ```
+
+**Binary Model:** A connection EXISTS in sources (documented with quote) or it DOESN'T. No subjective scoring.
 
 ---
 
@@ -118,9 +100,8 @@
 | | |
 |---|---|
 | **Subjects** | [Entity 1], [Entity 2] |
-| **Connection Type** | [Full type description] |
-| **Evidence Basis** | [Number] court documents |
-| **Strength Score** | [0-100] |
+| **Connection Type** | [Type from taxonomy] |
+| **Sources** | [Number] court documents with quotes |
 
 ---
 
@@ -179,35 +160,17 @@ A reader reviewing these same documents might reasonably conclude:
 
 ---
 
-## Strength Score Calculation
-
-| Component | Points | Max |
-|-----------|--------|-----|
-| Direct ECF citation | +20 per | 60 |
-| Bidirectional mention | +15 | 15 |
-| Multiple document types | +10 | 10 |
-| Date range documented | +5 | 5 |
-| Subtype specified | +5 | 5 |
-| Quote extracted | +5 | 5 |
-
-**Total possible:** 100
-
----
-
 ## Validation Checklist
 
 For each new connection:
 
-- [ ] Type accurately reflects evidence basis
-- [ ] Subtype specified if documented
-- [ ] At least one ECF citation
-- [ ] Summary describes nature (not just "connected")
+- [ ] Connection brief exists (source of truth)
+- [ ] At least one quote extracted from source
+- [ ] Source document link (hosted PDF)
+- [ ] One-sentence summary written
+- [ ] Type specified from taxonomy
 - [ ] Direction indicated if asymmetric
-- [ ] Date range included if known
-- [ ] Strength score calculated
-- [ ] Alternative interpretations are relationship-specific
-- [ ] Added to connections.json
-- [ ] Connection brief generated (if significant)
+- [ ] `build_connections_from_briefs.py` run to update JSON
 - [ ] Entity briefs cross-referenced
 
 ---

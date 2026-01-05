@@ -1,7 +1,18 @@
 #!/usr/bin/env python3
 """
 Connection Brief Generator for The Continuum Report
-Phase 5 of 5 - Continuum.html Implementation
+
+ARCHITECTURAL PRINCIPLE:
+    CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+    No connection exists without a corresponding brief.
+    Each brief contains: quote + source + summary.
+    No subjective "strength" scoring.
+
+NOTE: This script generates templated briefs from entity data.
+For the authoritative connection derivation, use: build_connections_from_briefs.py
+
+The briefs generated here should be manually reviewed and enhanced with
+actual quotes from source documents before publication.
 """
 
 import json
@@ -35,21 +46,22 @@ def load_analytical_brief(entity_id):
     return None
 
 def get_connection_summary(entity, target_id, mention_details):
-    """Generate a summary for a specific connection"""
+    """Generate a summary for a specific connection.
+
+    NOTE: This generates a placeholder summary. The actual summary should be
+    written by an analyst after reviewing source documents.
+    """
     entity_name = entity.get('name', entity['id'])
 
     # Get mention details for this connection
     details = mention_details.get(target_id, {})
     count = details.get('count', 0)
-    strength = details.get('strength', 'associated')
 
-    # Generate summary based on strength
-    if strength == 'documented':
-        return f"Connection between {entity_name} and this entity is documented in {count} court filing reference(s). This represents a verified documentary connection established through primary source materials."
-    elif strength == 'referenced':
-        return f"Connection referenced in {count} document(s). This connection appears in source materials but may be indirect or contextual."
+    # Generate placeholder summary (to be replaced with actual quote-based summary)
+    if count > 0:
+        return f"[PLACEHOLDER: Replace with one-sentence description of connection nature based on source documents. {count} reference(s) found in entity data.]"
     else:
-        return f"Associated through mutual connections or contextual references in source materials."
+        return f"[PLACEHOLDER: Replace with one-sentence description of connection nature based on source documents.]"
 
 def generate_connection_brief(entity, entities_dict):
     """Generate complete connection brief for an entity"""
@@ -98,7 +110,8 @@ This Connection Analysis documents relationships between **{entity_name}** and o
 
         details = mention_details.get(target_id, {})
         count = details.get('count', 0)
-        strength = details.get('strength', 'associated')
+        # NOTE: 'strength' field is DEPRECATED - binary model only
+        # Connections exist (in a brief) or they don't. No scoring.
 
         summary = get_connection_summary(entity, target_id, mention_details)
 
@@ -119,6 +132,7 @@ This Connection Analysis documents relationships between **{entity_name}** and o
 """
 
         # Add evidence items
+        # NOTE: These should be replaced with ACTUAL QUOTES from source documents
         if relevant_sources:
             for src in relevant_sources[:3]:  # Limit to 3 sources per connection
                 ecf = src.get('ecf', 'Unknown')
@@ -127,11 +141,15 @@ This Connection Analysis documents relationships between **{entity_name}** and o
 
                 brief += f"""**ECF Doc. {ecf}** ({desc}, filed {filed}):
 
-> Document references connection context. See primary source for full details.
+> [PLACEHOLDER: Insert actual quote from source document establishing connection]
 
 """
         else:
-            brief += """*Source documentation derived from case materials. See Document Index for full source list.*
+            brief += """**[PLACEHOLDER: Add source with quote]**
+
+> [Insert actual quote from source document establishing connection]
+
+*Connection briefs require at least one quote with source.*
 
 """
 
@@ -140,7 +158,7 @@ This Connection Analysis documents relationships between **{entity_name}** and o
 
 *The following represents editorial commentary and opinion:*
 
-The documented connection between {entity_name} and {target_name} appears in court filings and related materials. Based on our review of available documents, this connection {"is well-established through multiple documentary references" if strength == "documented" else "is referenced in source materials" if strength == "referenced" else "may warrant further investigation to fully characterize"}.
+[PLACEHOLDER: Replace with editorial analysis based on the documented evidence. Use opinion-signaling language: "In our assessment...", "We interpret this as...", "The documentary record suggests..."]
 
 ### Alternative Interpretations
 
@@ -157,11 +175,11 @@ Readers should review primary sources to form independent conclusions.
 """
 
         # Store connection data for JSON
+        # NOTE: No 'strength' field - binary model only
         connection_data_list.append({
             'entityId': target_id,
             'summary': summary,
-            'strength': strength,
-            'count': count,
+            'sources_count': len(relevant_sources[:3]),
             'sources': [{'id': s.get('ecf'), 'title': f"ECF Doc. {s.get('ecf')}", 'date': s.get('filed')} for s in relevant_sources[:3]]
         })
 

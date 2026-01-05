@@ -4,8 +4,19 @@
 **Domain:** continuum.html — Interactive Knowledge Graph Visualization
 **Version:** 1.1
 **Created:** 2025-12-24
-**Last Updated:** 2025-12-24
+**Last Updated:** 2026-01-05
 **Status:** Production-ready agent definition
+
+---
+
+## CORE PRINCIPLE
+
+```
+CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+No connection exists without a corresponding brief.
+Each brief contains: quote + source + summary.
+No subjective "strength" scoring.
+```
 
 ---
 
@@ -679,7 +690,13 @@ Glob pattern: "continuum*.html"
 ### Data Flow
 
 ```
-entities.json + connections.json
+Source Documents (Court filings, depositions)
+        ↓
+Connection Briefs (pairwise .md files) ← SOURCE OF TRUTH
+        ↓
+build_connections_from_briefs.py
+        ↓
+connections.json (DERIVED DATA)
         ↓
 continuum.html (this file)
         ↓
@@ -691,6 +708,8 @@ Load connection briefs (briefs/connections/{id}.md)
         ↓
 Link to source PDFs (sources/{path})
 ```
+
+**Key insight:** `connections.json` is DERIVED from briefs. The brief is the source of truth.
 
 ### Related Files
 
@@ -801,3 +820,4 @@ Users are researchers, journalists, citizens trying to understand complex power 
 | Date | Change |
 |------|--------|
 | 2025-12-24 | Initial agent definition created |
+| 2026-01-05 | Added binary model principle, updated data flow |

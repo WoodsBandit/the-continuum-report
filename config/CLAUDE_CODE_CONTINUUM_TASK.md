@@ -63,12 +63,12 @@ Parse an analytical brief markdown file and extract:
 - Subject is primary entity (type: person, organization, or case based on filename)
 - Scan document for mentions of other known entities
 
-**Connection extraction:**
-- When Entity A's brief mentions Entity B → create bidirectional connection
-- Connection strength based on:
-  - Mentioned in "The Public Record" section = strong (documented)
-  - Mentioned in "Editorial Analysis" = medium (interpreted)
-  - Just name appears = weak (referenced)
+**Connection Architecture (Updated Jan 2026):**
+- **CONNECTION BRIEFS ARE THE SOURCE OF TRUTH**
+- No connection exists without a corresponding pairwise connection brief
+- `connections.json` is DERIVED from briefs via `build_connections_from_briefs.py`
+- Each connection has: quote + source + summary (binary model - exists or doesn't)
+- No subjective "strength" scoring - the source speaks for itself
 
 **Output format per entity:**
 ```json
@@ -103,17 +103,19 @@ Scan all briefs in `/continuum/briefs/` and:
   "connections": [
     {
       "source": "jeffrey-epstein",
-      "target": "ghislaine-maxwell", 
-      "strength": 95,
+      "target": "ghislaine-maxwell",
       "type": "documented",
-      "evidence": ["ECF 1328-44", "ECF 1331-12"]
+      "evidence": ["ECF 1328-44", "ECF 1331-12"],
+      "summary": "Maxwell described as present at Epstein properties...",
+      "brief_file": "epstein_maxwell_connection.md"
     },
     {
       "source": "jeffrey-epstein",
       "target": "bill-clinton",
-      "strength": 60,
-      "type": "documented", 
-      "evidence": ["Flight logs", "ECF 1320-28"]
+      "type": "documented",
+      "evidence": ["Flight logs", "ECF 1320-28"],
+      "summary": "Flight logs show Clinton traveled on Epstein aircraft...",
+      "brief_file": "epstein_clinton_connection.md"
     }
   ]
 }
@@ -164,7 +166,7 @@ async function loadData() {
 5. **Search across all entities** - Filter from loaded JSON
 6. **Click entity → show detail panel** with:
    - Summary from brief
-   - Connections with strength indicators
+   - Connections (each links to pairwise connection brief)
    - Link to full analytical brief
    - Source documents
 
@@ -235,7 +237,7 @@ Or parse the Document Classification table for explicit type.
 
 In `continuum.html`, the Systems level should show:
 - Nodes for each entity (sized by number of connections)
-- Lines between connected entities (thickness = strength)
+- Lines between connected entities (click to view connection brief)
 - Color coding by entity type:
   - Person: gold
   - Organization: purple

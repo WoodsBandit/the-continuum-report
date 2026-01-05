@@ -353,10 +353,9 @@ Task 4: Document Acquisition for source Y
 2. Wexner → Epstein: Foundation control emails (2007-2008)
 3. [etc...]
 
-### Connection Strength Assessment
-- Documented: 8 (direct court/email mentions)
-- Referenced: 3 (same document context)
-- Interpreted: 1 (pattern inference)
+### Connections Found
+- 12 connections with source quotes
+- Each connection has: quote, source document, page, summary
 
 ## Recommended Updates
 1. Add 12 connections to /continuum/website/data/connections.json
@@ -480,7 +479,7 @@ Task 4: Document Acquisition for source Y
 - [ ] **Source Verification**: All ECF citations have working links (Citation Mapper)
 - [ ] **Fact Accuracy**: Cross-referenced with primary source documents
 - [ ] **Structure Compliance**: 10-section format followed exactly
-- [ ] **Alternative Interpretations**: Minimum 5, maximum strength variations
+- [ ] **Alternative Interpretations**: Minimum 5, genuine alternatives
 - [ ] **Exculpatory Evidence**: Included where applicable (especially subject denials)
 - [ ] **Charge Status**: Prominently disclosed if subject not charged
 - [ ] **Opinion Signals**: Present on ALL analytical statements
@@ -1642,7 +1641,8 @@ WoodsDen (Overseer) ←→ File Bridge ←→ Tower (Claude Code Workers)
 - Bottom-center level indicator to prevent panel overlap
 
 **Methodology Continuity:**
-- Two-axis connection classification system (12 types × 4 evidence levels) preserved
+- Connection model: quote + source + summary (binary - exists or doesn't)
+- Relationship types (12 types) preserved for categorization
 - Five-layer legal defense structure maintained exactly
 - Canonical paths established under old system still in use
 - Alternative Interpretations requirement carried forward

@@ -107,18 +107,14 @@ jq -r '.entities[] | "\(.id)\t\(.type)\t\(.name)"' /continuum/website/data/entit
 # Count total connections
 jq '.count' /continuum/website/data/connections.json
 
-# Get connections by strength
-jq -r '.connections[] | "\(.source) → \(.target) [\(.strength)]"' /continuum/website/data/connections.json | sort -t'[' -k2 -nr
+# List connections
+jq -r '.connections[] | "\(.source) → \(.target)"' /continuum/website/data/connections.json | sort
 ```
 
 **Current Count:** 131 documented connections
 
-**Connection Types to Track:**
-- documented (strength 80-100)
-- interpreted (strength 60-79)
-- alleged (strength 40-59)
-- indirect (strength 20-39)
-- parallel (strength 0-19)
+**Binary Model:** A connection either EXISTS in a source document or it DOESN'T.
+Each connection has: quote + source + summary. No subjective "strength" scoring.
 
 ### 3. Entity Brief Count
 
@@ -221,28 +217,25 @@ echo "scale=2; ($TOTAL_BRIEFS / $TOTAL_ENTITIES) * 100" | bc
 
 ### 2. Connection Brief Coverage
 
-**Formula:**
+**ARCHITECTURAL PRINCIPLE:**
 ```
-Connection Coverage % = (Documented Connections with Briefs / High-Strength Connections) × 100
+CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+NO CONNECTION EXISTS WITHOUT A BRIEF.
 ```
-
-**Note:** Not all connections require briefs (parallel/indirect connections don't need dedicated briefs)
-
-**High-Strength Filter:** Connections with strength ≥ 80
 
 **Method:**
 ```bash
-# Count high-strength connections
-HIGH_STRENGTH=$(jq '[.connections[] | select(.strength >= 80)] | length' /continuum/website/data/connections.json)
+# Count pairwise connection briefs (source of truth)
+BRIEFS=$(ls /continuum/briefs/connections/*.md | grep -v '_connections.md$' | wc -l)
 
-# Count connection briefs (excluding _connections.md summary files)
-CONNECTION_BRIEFS=$(ls /continuum/website/briefs/connections/ | grep -v '_connections.md$' | wc -l)
+# connections.json is DERIVED from briefs via build_connections_from_briefs.py
+CONNECTIONS=$(jq '.count' /continuum/website/data/connections.json)
 
-# Calculate
-echo "scale=2; ($CONNECTION_BRIEFS / $HIGH_STRENGTH) * 100" | bc
+# These should match
+echo "Briefs: $BRIEFS | Connections: $CONNECTIONS"
 ```
 
-**Target:** 80%+ (most high-strength connections documented)
+**Target:** 100% alignment (every connection has a brief, every brief creates a connection)
 
 ### 3. Citation Verification Rate
 
@@ -341,27 +334,27 @@ comm -23 <(sort /tmp/entities.txt) <(sort /tmp/briefs.txt)
 - MEDIUM: Mentioned in 2-4 briefs
 - LOW: Mentioned in 0-1 briefs
 
-### 2. Connection Gaps (High-Strength Connections Without Briefs)
+### 2. Connection Gaps (Entities Without Pairwise Briefs)
 
 **Query:**
 ```bash
-# Extract high-strength connections
-jq -r '.connections[] | select(.strength >= 80) | "\(.source)_\(.target)"' /continuum/website/data/connections.json | sort > /tmp/high_strength.txt
+# List all entity pairs that SHOULD have briefs (from entities.json mentions)
+# Since briefs are source of truth, compare entity mentions to existing briefs
 
 # List existing connection briefs
 ls /continuum/website/briefs/connections/*.md | grep -v '_connections.md$' | sed 's|.*/||; s|\.md$||' | sort > /tmp/conn_briefs.txt
 
-# Find undocumented high-strength connections
-comm -23 /tmp/high_strength.txt /tmp/conn_briefs.txt
+# Find entity pairs mentioned in briefs that don't have pairwise connection briefs
+# This identifies gaps where connections are referenced but not fully documented
 ```
 
 **Output Format:**
 ```markdown
-### High-Strength Connections Without Briefs
+### Entity Pairs Needing Connection Briefs
 
-| Source | Target | Strength | Evidence Count | Priority |
-|--------|--------|----------|----------------|----------|
-| [source] | [target] | [strength] | [count] | [HIGH/MEDIUM] |
+| Source | Target | Mentioned In | Priority |
+|--------|--------|--------------|----------|
+| [source] | [target] | [which briefs mention this pair] | [HIGH/MEDIUM] |
 ```
 
 ### 3. Citation Gaps (Citations Without Hosted PDFs)
@@ -464,13 +457,13 @@ jq -r '.entities[] | "\(.id)\t\(.type)\t\(.layer // "untagged")"' /continuum/web
 | Metric | Count | Target | Status |
 |--------|-------|--------|--------|
 | Total Connections | [count] | 150+ | [✓/○/✗] |
-| High-Strength (≥80) | [count] | — | [note] |
-| Connection Briefs | [count] | 80% of high-strength | [✓/○/✗] |
+| Pairwise Connection Briefs | [count] | — | Source of truth |
+| connections.json entries | [count] | = briefs | Derived from briefs |
 | Connection Coverage | [%] | 80%+ | [✓/○/✗] |
 
 **Connection Type Distribution:**
 
-| Type | Strength Range | Count | % of Total |
+| Type | Source | Count | % of Total |
 |------|----------------|-------|------------|
 | Documented | 80-100 | [count] | [%] |
 | Interpreted | 60-79 | [count] | [%] |
@@ -517,7 +510,7 @@ jq -r '.entities[] | "\(.id)\t\(.type)\t\(.layer // "untagged")"' /continuum/web
 
 ### 2.2 Connection Brief Coverage
 
-**High-Strength Connections:** [count] (strength ≥ 80)
+**Pairwise Connection Briefs:** [count] (source of truth)
 **Connection Briefs:** [count]
 **Coverage:** **[XX.X%]**
 
@@ -567,14 +560,14 @@ jq -r '.entities[] | "\(.id)\t\(.type)\t\(.layer // "untagged")"' /continuum/web
 | MEDIUM | [id] | [name] | [type] | [count] briefs |
 | LOW | [id] | [name] | [type] | [count] briefs |
 
-### 3.2 High-Strength Connections Without Briefs
+### 3.2 Entity Pairs Needing Briefs
 
 **Total Gap:** [count] connections
 
-| Priority | Source | Target | Strength | Evidence |
-|----------|--------|--------|----------|----------|
-| HIGH | [entity1] | [entity2] | [strength] | [count] docs |
-| MEDIUM | [entity3] | [entity4] | [strength] | [count] docs |
+| Priority | Source | Target | Mentioned In | Action |
+|----------|--------|--------|--------------|--------|
+| HIGH | [entity1] | [entity2] | [brief names] | Create brief |
+| MEDIUM | [entity3] | [entity4] | [brief names] | Create brief |
 
 ### 3.3 Citations Without Hosted PDFs
 
@@ -664,7 +657,7 @@ jq -r '.entities[] | "\(.id)\t\(.type)\t\(.layer // "untagged")"' /continuum/web
 
 **Evidence:**
 - Entity brief coverage: [%]
-- High-strength connection coverage: [%]
+- Connection brief count (source of truth): [count]
 - Layer distribution completeness: [assessment]
 
 **Gaps:**
@@ -904,7 +897,7 @@ Every status report must answer these:
 
 **Check:**
 - All layers represented
-- High-strength connections documented
+- Connection briefs created (source of truth)
 - Network completeness (not just fragments)
 
 **Status:** [COMPREHENSIVE / DEVELOPING / FRAGMENTED]
@@ -995,7 +988,7 @@ Every status report must answer these:
 
 3. **Identify Gaps:**
    - Entities without briefs (with priority ranking)
-   - High-strength connections without briefs
+   - Entity pairs needing briefs
    - Citations without hosted PDFs
    - Layer distribution imbalances
 
@@ -1041,8 +1034,9 @@ SOURCE_PDFS=$(find /continuum/website/sources/ -name "*.pdf" -type f | wc -l)
 # 2. Calculate coverage
 BRIEF_COVERAGE=$(echo "scale=2; ($BRIEFS / $ENTITIES) * 100" | bc)
 
-HIGH_STRENGTH=$(jq '[.connections[] | select(.strength >= 80)] | length' /continuum/website/data/connections.json)
-CONN_COVERAGE=$(echo "scale=2; ($CONN_BRIEFS / $HIGH_STRENGTH) * 100" | bc)
+# connections.json is DERIVED from briefs - they should match
+CONN_JSON=$(jq '.count' /continuum/website/data/connections.json)
+echo "Briefs: $CONN_BRIEFS | JSON: $CONN_JSON (should match)"
 
 # 3. Identify gaps
 jq -r '.entities[] | select(.brief_file == null or .brief_file == "") | .id' /continuum/website/data/entities.json > /tmp/missing_briefs.txt
@@ -1056,7 +1050,7 @@ curl -s http://192.168.1.139:8040/api/documents/?page_size=1 -H "Authorization: 
 # 6. Output summary
 echo "=== PROJECT STATUS SUMMARY ==="
 echo "Entities: $ENTITIES ($BRIEF_COVERAGE% with briefs)"
-echo "Connections: $CONNECTIONS ($CONN_COVERAGE% high-strength documented)"
+echo "Connections: $CONNECTIONS (derived from briefs)"
 echo "Source PDFs: $SOURCE_PDFS"
 echo "Paperless: $PAPERLESS"
 echo ""

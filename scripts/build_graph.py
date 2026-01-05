@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
 build_graph.py - Build the complete knowledge graph from all analytical briefs
-Version 2.0 - Refactored with Shared Library
+Version 2.1 - Binary Connection Model
+
+ARCHITECTURAL PRINCIPLE:
+    CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+    No connection exists without a corresponding brief.
+    Each brief contains: quote + source + summary.
+    No subjective "strength" scoring.
 
 Usage:
     python build_graph.py [--briefs-dir PATH] [--output-dir PATH]
@@ -9,8 +15,15 @@ Usage:
 This script:
 1. Scans all briefs in the briefs directory
 2. Parses each brief using parse_brief.py
-3. Builds bidirectional connections by cross-referencing mentions
-4. Generates entities.json, connections.json, and manifest.json
+3. Generates entities.json (connections are built separately)
+4. Generates manifest.json
+
+IMPORTANT: Connections are built by build_connections_from_briefs.py, NOT this script.
+
+Changes in v2.1:
+- Removed strength scoring (binary model)
+- Connections handled by separate brief-based script
+- Strength-based functions marked DEPRECATED
 
 Changes in v2.0:
 - Structured logging with structlog (lib.logging_config)
@@ -69,20 +82,24 @@ def build_entities(briefs: List[Path]) -> Dict[str, dict]:
     return entities
 
 
-def calculate_connection_strength(
+def calculate_connection_strength_DEPRECATED(
     entity_a: dict,
     entity_b: dict,
     a_mentions_b: dict,
     b_mentions_a: dict
 ) -> int:
     """
-    Calculate connection strength (0-100) based on mutual mentions.
+    DEPRECATED: Calculate connection strength (0-100) based on mutual mentions.
 
-    Factors:
-    - Bidirectional mentions (both mention each other) = stronger
-    - Mentions in "Public Record" section = stronger (documented)
-    - Higher mention counts = stronger
+    DEPRECATED as of 2026-01:
+    The binary connection model eliminates subjective strength scoring.
+    Connections exist (in a brief) or they don't. No scoring.
+
+    Use: python scripts/build_connections_from_briefs.py
+
+    Keeping this code for reference only.
     """
+    logger.warning("calculate_connection_strength_DEPRECATED called - this should not be used")
     strength = 0
 
     # Base points for any connection
@@ -121,8 +138,19 @@ def calculate_connection_strength(
     return min(strength, 100)
 
 
-def determine_connection_type(a_mentions_b: dict, b_mentions_a: dict) -> str:
-    """Determine the connection type based on evidence quality"""
+def determine_connection_type_DEPRECATED(a_mentions_b: dict, b_mentions_a: dict) -> str:
+    """
+    DEPRECATED: Determine the connection type based on evidence quality.
+
+    DEPRECATED as of 2026-01:
+    Connection types now represent RELATIONSHIP NATURE (EMP, ATT, SOC, FIN, etc.),
+    not evidence quality. The binary model eliminates documented/referenced/interpreted.
+
+    Use: python scripts/build_connections_from_briefs.py
+
+    Keeping this code for reference only.
+    """
+    logger.warning("determine_connection_type_DEPRECATED called - this should not be used")
     # If either side has documented evidence, it's documented
     if a_mentions_b and a_mentions_b.get('strength') == 'documented':
         return 'documented'
@@ -272,15 +300,20 @@ def generate_summary(entities: Dict[str, dict], connections: List[dict]) -> str:
         lines.append(f"  - {t.capitalize()}: {c}")
     lines.append("")
 
-    # Top connections by strength
-    lines.append("TOP 15 STRONGEST CONNECTIONS:")
+    # Top connections (by source count)
+    lines.append("TOP 15 CONNECTIONS:")
     lines.append("-" * 50)
-    for conn in connections[:15]:
-        source_name = entities.get(conn['source'], {}).get('name', conn['source'])
-        target_name = entities.get(conn['target'], {}).get('name', conn['target'])
-        bidir = "<-->" if conn['bidirectional'] else " --> "
-        lines.append(f"  {source_name} {bidir} {target_name}")
-        lines.append(f"    Strength: {conn['strength']}/100 | Type: {conn['type']}")
+    if connections:
+        for conn in connections[:15]:
+            source_name = entities.get(conn['source'], {}).get('name', conn['source'])
+            target_name = entities.get(conn['target'], {}).get('name', conn['target'])
+            bidir = "<-->" if conn.get('bidirectional') else " --> "
+            lines.append(f"  {source_name} {bidir} {target_name}")
+            sources_count = conn.get('sources_count', 0)
+            conn_type = conn.get('type', 'unknown')
+            lines.append(f"    Sources: {sources_count} | Type: {conn_type}")
+    else:
+        lines.append("  (Run build_connections_from_briefs.py to generate connections)")
     lines.append("")
 
     # Most connected entities

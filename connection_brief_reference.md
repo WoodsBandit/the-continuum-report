@@ -1,7 +1,18 @@
 # Connection Brief System Reference
 
-**Generated:** 2025-12-21
+**Generated:** 2025-12-21 | **Updated:** 2026-01-05
 **Purpose:** Comprehensive reference for The Continuum Report's entity and connection system
+
+---
+
+## ARCHITECTURAL PRINCIPLE
+
+```
+CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+No connection exists without a corresponding brief.
+Each brief contains: quote + source + summary.
+No subjective "strength" scoring.
+```
 
 ---
 
@@ -74,16 +85,16 @@
   "mention_details": {
     "other-entity-id": {
       "count": 12,
-      "strength": "documented | referenced | interpreted"
+      "briefFile": "entity1_entity2_connection.md"
     }
   },
   "connections": [
     {
       "targetId": "other-entity-id",
-      "type": "documented | referenced | interpreted",
-      "count": 12,
-      "summary": "",
-      "sources": []
+      "type": "SOC | FIN | EMP | ATT | etc.",
+      "summary": "One-sentence description of connection",
+      "sources_count": 3,
+      "briefFile": "entity1_entity2_connection.md"
     }
   ],
   "tags": ["never-charged", "legal", "government"],
@@ -103,9 +114,9 @@
   "status": "Never criminally charged; civil lawsuit settled February 2022 without admission of liability",
   "tags": ["never-charged", "royalty"],
   "connections": [
-    {"targetId": "virginia-giuffre", "type": "documented", "count": 27},
-    {"targetId": "ghislaine-maxwell", "type": "documented", "count": 14},
-    {"targetId": "jeffrey-epstein", "type": "documented", "count": 10}
+    {"targetId": "virginia-giuffre", "type": "ACC", "sources_count": 27, "briefFile": "prince-andrew_virginia-giuffre.md"},
+    {"targetId": "ghislaine-maxwell", "type": "SOC", "sources_count": 14, "briefFile": "ghislaine-maxwell_prince-andrew.md"},
+    {"targetId": "jeffrey-epstein", "type": "SOC", "sources_count": 10, "briefFile": "jeffrey-epstein_prince-andrew.md"}
   ]
 }
 ```
@@ -119,9 +130,9 @@
   "status": "Settled May 2017; documents unsealed January 2024",
   "tags": ["case", "settled"],
   "connections": [
-    {"targetId": "ghislaine-maxwell", "type": "documented", "count": 18},
-    {"targetId": "jeffrey-epstein", "type": "documented", "count": 12},
-    {"targetId": "virginia-giuffre", "type": "documented", "count": 11}
+    {"targetId": "ghislaine-maxwell", "type": "DEF", "sources_count": 18},
+    {"targetId": "jeffrey-epstein", "type": "MEN", "sources_count": 12},
+    {"targetId": "virginia-giuffre", "type": "PRO", "sources_count": 11}
   ]
 }
 ```
@@ -135,8 +146,8 @@
   "status": "Dissolved 2019",
   "tags": ["organization", "dissolved"],
   "connections": [
-    {"targetId": "ghislaine-maxwell", "type": "documented", "count": 23},
-    {"targetId": "jeffrey-epstein", "type": "documented", "count": 10}
+    {"targetId": "ghislaine-maxwell", "type": "INST", "sources_count": 23, "briefFile": "ghislaine-maxwell_terramar-project.md"},
+    {"targetId": "jeffrey-epstein", "type": "FIN", "sources_count": 10, "briefFile": "jeffrey-epstein_terramar-project.md"}
   ]
 }
 ```
@@ -145,89 +156,81 @@
 
 ## 3. Connections JSON Structure
 
+**Note:** `connections.json` is DERIVED from connection briefs via `build_connections_from_briefs.py`.
+
 ### Connection Pair Schema (`connections.json`)
 
 ```json
 {
+  "id": "uuid-connection-id",
   "source": "entity-id-1",
   "target": "entity-id-2",
-  "strength": 100,
-  "type": "documented | referenced | interpreted",
-  "evidence": ["ECF 1328-19", "ECF 1331-12"],
-  "bidirectional": true,
-  "source_mentions_target": true,
-  "target_mentions_source": true
+  "type": "EMP | ATT | SOC | FIN | etc.",
+  "direction": "bidirectional | source-to-target | target-to-source",
+  "summary": "One-sentence description of connection nature",
+  "evidence": [
+    {
+      "ecf": "1328-44",
+      "page": "54:2-17",
+      "quote": "Actual quote from document",
+      "source_link": "/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+    }
+  ],
+  "briefFile": "entity1_entity2_connection.md",
+  "sources_count": 3,
+  "lastUpdated": "ISO-8601 timestamp"
 }
 ```
 
-### Strength Score Calculation
+**Binary Model:** A connection EXISTS in sources (documented with quote) or it DOESN'T. No subjective scoring.
 
-| Score Range | Meaning |
-|-------------|---------|
-| 100 | Bidirectional documented connection (both entities mention each other) |
-| 85-99 | Strong documented connection with multiple sources |
-| 50-84 | One-directional documented or bidirectional referenced |
-| 33-49 | Referenced or interpreted connections |
-| <33 | Weak/indirect connections |
+### Connection Types (Relationship Nature)
 
-### Connection Brief Schema (`connection_briefs.json`)
-
-```json
-{
-  "entity-id": {
-    "brief_path": "/continuum/briefs/connections/entity-id_connections.md",
-    "connections": [
-      {
-        "entityId": "target-entity-id",
-        "summary": "Connection description...",
-        "strength": "documented | referenced | interpreted",
-        "count": 20,
-        "sources": [
-          {"id": "1320-9", "title": "ECF Doc. 1320-9", "date": "01/03/24"}
-        ]
-      }
-    ]
-  }
-}
-```
+| Type | Code | Definition |
+|------|------|------------|
+| Employment | `EMP` | Formal employment relationship |
+| Attorney-Client | `ATT` | Legal representation |
+| Family | `FAM` | Blood or marriage relation |
+| Co-Defendant | `DEF` | Named together in legal proceedings |
+| Co-Conspirator | `CON` | Named in NPA or indictment |
+| Accuser-Accused | `ACC` | Allegation relationship |
+| Witness-Subject | `WIT` | Testified about another entity |
+| Social | `SOC` | Documented social encounters |
+| Financial | `FIN` | Money flows, investments, donations |
+| Institutional | `INST` | Institution investigated/arrested subject |
+| Co-Mentioned | `MEN` | Named in same document |
+| Same Proceeding | `PRO` | Both involved in same case |
 
 ---
 
 ## 4. Connection Types Taxonomy
 
-### Currently Defined Connection Types
+### Connection Types (Relationship Nature)
 
-| Type | Definition | Example |
-|------|------------|---------|
-| **documented** | Direct mention in court filings, depositions, or sworn testimony | "ECF Doc. 1328-44 contains Marcinkova deposition mentioning Epstein" |
-| **referenced** | Indirect mention or appears in same document context | "Both named in Maxwell's Rule 26 disclosures" |
-| **interpreted** | Editorial inference from documentary patterns | "Associated through mutual connections in source materials" |
+These categorize the **nature** of a connection, not subjective "strength":
 
-### Connection Type Distribution (Current Data)
+| Type | Code | Definition | Example |
+|------|------|------------|---------|
+| Employment | `EMP` | Formal employment relationship | Groff worked for Epstein |
+| Attorney-Client | `ATT` | Legal representation | Dershowitz represented Epstein |
+| Family | `FAM` | Blood or marriage relation | Ghislaine daughter of Robert Maxwell |
+| Co-Defendant | `DEF` | Named together in legal proceedings | Maxwell in Epstein indictment |
+| Co-Conspirator | `CON` | Named in NPA or indictment | Wexner in FBI July 2019 email |
+| Accuser-Accused | `ACC` | Allegation relationship | Giuffre accused Prince Andrew |
+| Witness-Subject | `WIT` | Testified about another entity | Farmer testified about Maxwell |
+| Social | `SOC` | Documented social encounters | Trump at Mar-a-Lago with Epstein |
+| Financial | `FIN` | Money flows, investments, donations | Wexner POA to Epstein |
+| Institutional | `INST` | Institution investigated/arrested subject | FBI arrested Maxwell |
+| Co-Mentioned | `MEN` | Named in same document | Both in flight logs |
+| Same Proceeding | `PRO` | Both involved in same case | Both named in Giuffre v. Maxwell |
 
-From `connections.json` (78 total connections):
+### Binary Model
 
-| Type | Count | Percentage |
-|------|-------|------------|
-| documented | 52 | 67% |
-| referenced | 15 | 19% |
-| interpreted | 11 | 14% |
+A connection either EXISTS in a source document or it DOESN'T:
+- **EXISTS:** Documented with quote + source + summary in connection brief
+- **DOESN'T EXIST:** No connection brief, no connection
 
-### Missing Connection Types (Gap)
-
-The current taxonomy lacks granularity for:
-
-| Suggested Type | Use Case |
-|----------------|----------|
-| **employer-employee** | Formal employment relationship |
-| **family** | Blood or marriage relation |
-| **legal-representation** | Attorney-client relationship |
-| **financial** | Money flows, investments, donations |
-| **social** | Documented social encounters |
-| **co-defendant** | Named together in legal proceedings |
-| **co-conspirator** | Named in NPA or indictment |
-| **accuser-accused** | Allegation relationship |
-| **witness** | Testified about another entity |
+No subjective scoring. No "strength" levels. No "evidence levels."
 
 ---
 
@@ -316,7 +319,7 @@ The current taxonomy lacks granularity for:
 ## Connection: [Target Entity Name]
 
 ### Summary
-[Connection strength and count summary]
+[One-sentence description of connection nature and type]
 
 ### Documented Evidence
 **ECF Doc. XXXX-XX** ([Description], filed [Date]):
@@ -457,76 +460,41 @@ A reader reviewing these same documents might reasonably conclude:
 
 ---
 
-## 9. Normalization Recommendations
+## 9. Implementation Guidelines
 
-### Phase 1: Taxonomy Expansion
+### Connection Brief Creation
 
-Add new connection types to capture relationship nature:
+For each connection:
+1. Find quote in source document establishing connection
+2. Create pairwise connection brief in `/briefs/connections/`
+3. Run `python scripts/build_connections_from_briefs.py`
+4. Verify connection appears on website
 
-```json
-{
-  "connectionTypes": {
-    "documented": {
-      "subtypes": [
-        "employer-employee",
-        "attorney-client",
-        "family",
-        "co-defendant",
-        "co-conspirator",
-        "accuser-accused",
-        "witness-subject",
-        "social-documented",
-        "financial-documented"
-      ]
-    },
-    "referenced": {
-      "subtypes": [
-        "co-mentioned",
-        "same-proceeding",
-        "same-location"
-      ]
-    },
-    "interpreted": {
-      "subtypes": [
-        "pattern-inferred",
-        "temporal-proximity",
-        "network-inferred"
-      ]
-    }
-  }
-}
-```
-
-### Phase 2: Connection Schema Enhancement
+### Connection JSON Schema (Derived from Briefs)
 
 ```json
 {
-  "targetId": "entity-id",
-  "type": "documented",
-  "subtype": "employer-employee",
+  "id": "uuid-connection-id",
+  "source": "entity-id-1",
+  "target": "entity-id-2",
+  "type": "EMP | ATT | SOC | FIN | etc.",
   "direction": "bidirectional | source-to-target | target-to-source",
-  "dateRange": {
-    "start": "1998",
-    "end": "2008",
-    "precision": "year | month | day | unknown"
-  },
-  "count": 12,
-  "summary": "Specific description of this connection",
-  "sources": [
+  "summary": "One-sentence description of connection nature",
+  "evidence": [
     {
       "ecf": "1328-44",
       "page": "54:2-17",
       "quote": "Actual quote from document",
-      "description": "Marcinkova Deposition - employment discussed"
+      "source_link": "/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
     }
   ],
-  "natureOfConnection": "Employee/assistant relationship documented in testimony"
+  "briefFile": "entity1_entity2_connection.md",
+  "sources_count": 3,
+  "lastUpdated": "ISO-8601 timestamp"
 }
 ```
 
-### Phase 3: Entity Type Expansion
-
-Add new entity types:
+### Entity Type Taxonomy
 
 ```json
 {
@@ -542,24 +510,26 @@ Add new entity types:
 }
 ```
 
-### Phase 4: Connection Brief Generation Rules
+### Connection Brief Quality Standards
 
-1. **Extract actual quotes** from source documents instead of generic placeholders
-2. **Tailor alternative interpretations** to the specific relationship type
-3. **Include date ranges** when relationship timeframe is known
-4. **Specify direction** for asymmetric relationships (e.g., accuser → accused)
-5. **Cross-reference** with entity analytical briefs
+1. **Extract actual quotes** — No generic "Document references connection" placeholders
+2. **Relationship-specific alternatives** — Tailor to connection type, not copy-paste
+3. **Cite page numbers** — ECF doc + page:line when possible
+4. **Date precision** — Note if approximate vs. exact
+5. **Direction matters** — Accuser→Accused is different from Accused→Accuser
 
-### Phase 5: Validation Checklist
+### Validation Checklist
 
-For each connection:
+For each new connection:
 
-- [ ] Connection type accurately reflects documentary basis
-- [ ] At least one source citation with ECF number
-- [ ] Summary describes nature of connection (not just count)
+- [ ] Connection brief exists (source of truth)
+- [ ] At least one quote extracted from source
+- [ ] Source document link (hosted PDF)
+- [ ] One-sentence summary written
+- [ ] Type specified from taxonomy
 - [ ] Direction indicated if asymmetric
-- [ ] Date range included if known
-- [ ] Alternative interpretations are relationship-specific
+- [ ] `build_connections_from_briefs.py` run to update JSON
+- [ ] Entity briefs cross-referenced
 
 ---
 
