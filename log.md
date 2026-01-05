@@ -2,12 +2,52 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-05 (Session 14)
+**Last Updated:** 2026-01-05 (Session 15)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+### 2026-01-05 — Session 15: Mossad-CIA Document Acquisition (SOP-005)
+
+**Operator:** WoodsBandit
+**Duration:** ~2 hours
+**Primary Task:** Research Mossad-CIA connections, acquire source documents following SOP-005
+
+#### Summary
+
+Created SOP-005 (Document Acquisition Standard) establishing mandatory workflow for primary source acquisition. Applied SOP to first major research topic: Mossad-CIA intelligence connections. Successfully acquired 3 primary source documents (~79.5 MB total). Identified additional sources requiring manual download from CIA FOIA.
+
+#### Round 1 Acquisitions
+
+| Document | Size | Source |
+|----------|------|--------|
+| House Judiciary INSLAW Affair Report (1992) | 49.2 MB | archives.gov |
+| Senate BCCI Affair Report (1992) | 2.5 MB | publicintelligence.net |
+| Church Committee Book II (1976) | 27.8 MB | intelligence.senate.gov |
+
+#### Key Findings
+
+- **Ben-Menashe Mossad testimony** in INSLAW report documents Israeli intelligence role in PROMIS software distribution
+- **BCCI Senate report** documents CIA knowledge of bank operations, includes "BCCI and Kissinger Associates" chapter
+- **Church Committee** establishes patterns of CIA domestic operations and foreign liaison relationships
+
+#### Files Changed
+
+| File | Change |
+|------|--------|
+| `T:\sops\SOP-005-document-acquisition-standard.md` | NEW - Mandatory document acquisition workflow |
+| `T:\CLAUDE.md` | Added Document Acquisition section with Cardinal Rule |
+| `T:\website\sources\congressional\*.pdf` | 3 new primary source documents |
+| `T:\reports\acquisition-report-2026-01-05.md` | NEW - Session acquisition summary |
+
+#### Pending
+
+- CIA FOIA documents (anti-automation protection requires manual download)
+- Round 2: OSS/CIA foreign intelligence connections
+
+---
+
 
 ### 2026-01-05 — Session 14: Context Recovery & TODO Update
 
