@@ -2,12 +2,96 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-05 (Session 11)
+**Last Updated:** 2026-01-05 (Session 12)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-05 — Session 12: Binary Connection Model - Remove Strength Scoring
+
+**Operator:** WoodsBandit
+**Duration:** ~1 hour
+**Primary Task:** Remove all subjective strength scoring from instruction files
+
+#### Summary
+
+Completed implementation of binary connection model across all instruction files. User explicitly rejected subjective "strength" scoring: connections either exist (quote + source + summary in a brief) or they don't. No 0-100 scores, no evidence levels (documented/referenced/interpreted).
+
+#### Key Accomplishments
+
+1. **Updated Core Documentation**
+   - `UNIFIED_STANDARDS.md` - Created as single source of truth
+   - `connection_brief_reference.md` - Updated schemas to binary model
+   - `FRAMEWORK.md` - Removed evidence basis hierarchy
+
+2. **Updated SOPs**
+   - `SOP-002-context-extraction.md` - Removed relationship_strength calculation
+   - `SOP-003-brief-generation.md` - Removed strength from templates
+   - `SOP-004-publication.md` - Changed strength to sources_count
+
+3. **Updated Scripts**
+   - `build_connections_from_briefs.py` - Replaced strength with sources_count
+   - `build_graph.py` - Deprecated strength functions
+   - `parse_brief.py` - Deprecated determine_connection_strength
+   - `analyze_gaps.py` - Updated reports to use sources_count
+   - `sync_connections_from_graph.py` - Changed to sources_count
+   - `generate_connection_briefs.py` - Removed strength-based logic
+
+4. **Updated Agents**
+   - `visualization-expert.md` - Added data flow diagram
+   - `connection-builder.md` - Updated workflow notes
+   - `overseer.md`, `cross-reference-finder.md`, `entity-extractor.md`, `project-status-tracker.md`
+
+5. **Updated Templates**
+   - `connection-brief.md` - Removed Evidence Level and Strength fields
+
+#### Files Changed
+
+| File | Change |
+|------|--------|
+| `T:\UNIFIED_STANDARDS.md` | NEW - Single source of truth document |
+| `T:\connection_brief_reference.md` | Updated JSON schemas, connection types |
+| `T:\work\connections\FRAMEWORK.md` | v3.0 - Binary model |
+| `T:\sops\SOP-002-context-extraction.md` | Removed relationship_strength |
+| `T:\sops\SOP-003-brief-generation.md` | Removed strength from templates |
+| `T:\sops\SOP-004-publication.md` | Changed to sources_count |
+| `T:\templates\connection-brief.md` | Removed strength fields |
+| `T:\scripts\build_connections_from_briefs.py` | sources_count replaces strength |
+| `T:\scripts\build_graph.py` | v2.1 - Deprecated strength functions |
+| `T:\scripts\parse_brief.py` | Deprecated determine_connection_strength |
+| `T:\scripts\analyze_gaps.py` | Updated report output |
+| `T:\scripts\sync_connections_from_graph.py` | Changed to sources_count |
+| `T:\scripts\generate_connection_briefs.py` | Removed strength logic |
+| `T:\agents\visualization-expert.md` | Added binary model principle |
+| `T:\agents\connection-builder.md` | Updated workflow |
+| `T:\source_link_audit.md` | Updated JSON examples |
+
+#### Architectural Principle
+
+```
+CONNECTION BRIEFS ARE THE SOURCE OF TRUTH.
+No connection exists without a corresponding brief.
+Each brief contains: quote + source + summary.
+No subjective "strength" scoring.
+```
+
+#### Binary Model
+
+| Old (Removed) | New (Binary) |
+|---------------|--------------|
+| `strength: 85` | `sources_count: 3` |
+| `type: "documented"` | `type: "SOC"` (relationship nature) |
+| Evidence levels | Quote + Source + Summary |
+
+#### Git Commit
+
+- Commit: `e382c9d`
+- Message: "Disable server automations + script improvements"
+- Pushed to: https://github.com/WoodsBandit/the-continuum-report
+
+---
 
 ### 2026-01-05 — Session 11: Architectural Fix - Connection Briefs as Source of Truth
 
