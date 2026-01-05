@@ -2,12 +2,69 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-04 (Session 9)
+**Last Updated:** 2026-01-05 (Session 11)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-05 — Session 11: Architectural Fix - Connection Briefs as Source of Truth
+
+**Operator:** WoodsBandit
+**Duration:** ~1 hour
+**Primary Task:** Fix connection data architecture so briefs are the source of truth
+
+#### Summary
+
+Major architectural fix addressing the disconnect between connection briefs and website data. Previously, connections were created from text mentions in analytical briefs (regex matching), creating 321 connections with 195 having empty summaries. Now connections are ONLY derived from connection brief files.
+
+#### Key Accomplishments
+
+1. **Diagnosed the Problem**
+   - Traced data flow through `build_graph.py`, `parse_brief.py`, `sync_connection_data.py`
+   - Found `build_connections()` was creating orphan connections from text mentions
+   - 195 of 321 connections had no corresponding brief
+
+2. **Created `scripts/build_connections_from_briefs.py`**
+   - New authoritative script for building connections
+   - Parses 74 connection briefs
+   - Extracts Editorial Analysis as summary
+   - Writes `connections.json` and updates `entities.json`
+
+3. **Modified `scripts/build_graph.py`**
+   - Disabled mention-based connection creation
+   - Renamed function to `build_connections_from_mentions_DEPRECATED`
+   - Added architectural note directing to new script
+
+4. **Rebuilt Data Files**
+   - connections.json: 321 → 73 connections (briefs only)
+   - Empty summaries: 195 → 0
+   - All connections now have Editorial Analysis summaries
+
+#### Files Changed
+
+| File | Change |
+|------|--------|
+| `scripts/build_connections_from_briefs.py` | NEW - Authoritative connection builder |
+| `scripts/build_graph.py` | Modified - Deprecated mention-based connections |
+| `website/data/connections.json` | Rebuilt from briefs (321→73) |
+| `website/data/entities.json` | Rebuilt connections (0 empty summaries) |
+
+#### Architectural Principle Established
+
+```
+SOURCE DOCS → CONNECTION BRIEF CREATED → JSON DERIVED → UI
+              (gate: no brief = no connection)
+```
+
+#### Git Commit
+
+- Commit: `9cc9db4`
+- Message: "Architectural fix: Connection briefs are now source of truth"
+- Pushed to: https://github.com/WoodsBandit/the-continuum-report
+
+---
 
 ### 2026-01-04 — Session 10: Bug Documentation, GitHub Setup & Agent Workflows
 
