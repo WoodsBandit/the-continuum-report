@@ -37,24 +37,26 @@
 | [ ] | OCR FBI Vault PDFs (8 files, ~12MB) | session_log:367 | Blocking FBI theme completion |
 | [ ] | DOJ Dec 2025 Rolling Releases (~30,000 pages) | session_log:237 | Ongoing through Dec 31, 2025 |
 
-### Website Fixes (FIX01-FIX14)
+### Website Fixes (FIX01-FIX14) — COMPLETED 2026-01-05
 
 | Status | Fix | Issue | Complexity |
 |--------|-----|-------|------------|
-| [ ] | FIX01 | Detail panel content cut off by header | CSS |
-| [ ] | FIX02 | GOV box subtitle overflows bounds | CSS/Data |
-| [ ] | FIX03 | Cards cut off when not fullscreen | CSS |
-| [ ] | FIX04 | Side panel click shows wrong view | JS Logic |
-| [ ] | FIX05 | [CATEGORY] placeholder in breadcrumb | JS Logic |
-| [ ] | FIX06 | Blank main area after card click | JS Logic |
-| [ ] | FIX07 | FINANCIAL filter shows 0 entities | Data/Logic |
-| [ ] | FIX08 | Connection dropdown empty | Data Structure |
-| [ ] | FIX09 | Connection briefs not loading | Path/Server |
-| [ ] | FIX10 | Entity colors don't match spec | JS/CSS |
-| [ ] | FIX11 | Progressive web building | JS |
-| [ ] | FIX12 | Reposition controls | CSS |
-| [ ] | FIX13 | Macro colors | CSS |
-| [ ] | FIX14 | Equal node size | JS |
+| [x] | FIX01 | Detail panel content cut off by header | CSS |
+| [x] | FIX02 | GOV box subtitle overflows bounds | CSS/Data |
+| [x] | FIX03 | Cards cut off when not fullscreen | CSS |
+| [x] | FIX04 | Side panel click shows wrong view | JS Logic |
+| [x] | FIX05 | [CATEGORY] placeholder in breadcrumb | JS Logic |
+| [x] | FIX06 | Blank main area after card click | JS Logic |
+| [x] | FIX07 | FINANCIAL filter shows 0 entities | Data/Logic |
+| [x] | FIX08 | Connection dropdown empty | Data Structure |
+| [x] | FIX09 | Connection briefs not loading | Path/Server |
+| [x] | FIX10 | Entity colors don't match spec | JS/CSS |
+| [x] | FIX11 | Progressive web building | JS |
+| [x] | FIX12 | Reposition controls | CSS |
+| [x] | FIX13 | Macro colors | CSS |
+| [x] | FIX14 | Equal node size | JS |
+
+*All fixes verified in Session 16 overnight operation. FIX05 was the only missing fix; others were already applied.*
 
 ### Website Infrastructure
 
@@ -144,6 +146,7 @@
 
 | Completed | Task | Verified By |
 |-----------|------|-------------|
+| 2026-01-05 | Website bug fixes FIX01-FIX14 (14 issues resolved) | Session 16 |
 | 2026-01-05 | Binary connection model implementation (removed all strength scoring) | Session 12 |
 | 2026-01-05 | Server automation cleanup (disabled cron jobs, improved scripts) | Session 13 |
 | 2026-01-04 | Project Consolidation & Audit | consolidation session |
@@ -194,14 +197,14 @@
 | Category | Count |
 |----------|-------|
 | Critical Priority | 3 (1 fixed) |
-| High Priority | 22 |
+| High Priority | 8 |
 | Medium Priority | 14 |
 | Low Priority / Backlog | 14+ |
-| Completed (tracked) | 17 |
+| Completed (tracked) | 18 |
 | Blocked | 3 |
-| **Total Outstanding** | **53+** |
+| **Total Outstanding** | **39+** |
 
 ---
 
 *This document should be updated by every Claude session that completes or discovers tasks.*
-*Last Updated: 2026-01-05*
+*Last Updated: 2026-01-05 (Session 16)*

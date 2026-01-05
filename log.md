@@ -2,12 +2,45 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-05 (Session 15)
+**Last Updated:** 2026-01-05 (Session 16)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-05 — Session 16: Overnight Bug Fix (Session B)
+
+**Operator:** WoodsBandit
+**Duration:** ~45 min
+**Primary Task:** Complete FIX01-14 website bug fixes as Session B of dual-session overnight operation
+
+#### Summary
+
+Session B of overnight bug fix operation. Tower server was initially unreachable; worked on local copy. Found 13 of 14 fixes already applied. Applied FIX05 (breadcrumb update call). When Tower came back online, synced changes and merged to master.
+
+#### Fix Status
+
+| Fix | Description | Status |
+|-----|-------------|--------|
+| FIX01-04 | CSS + Navigation | Already applied |
+| FIX05 | Breadcrumb update | **Fixed by Session B** |
+| FIX06-14 | Data/Visual polish | Already applied |
+
+#### Files Changed
+
+| File | Change |
+|------|--------|
+| `website/continuum.html` | Added updateBreadcrumb() call to renderEntitiesView() |
+
+#### Git
+
+- Branch: `fix/overnight-bugfix`
+- Commit: `1453e3f`
+- Merged to master and pushed
+
+---
+
 ### 2026-01-05 — Session 15: Mossad-CIA Document Acquisition (SOP-005)
 
 **Operator:** WoodsBandit
