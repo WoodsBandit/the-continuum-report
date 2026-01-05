@@ -1,6 +1,6 @@
 {
-  "generated": "2025-12-23T07:59:36.228877Z",
-  "count": 131,
+  "generated": "2026-01-05T05:51:44.014834Z",
+  "count": 73,
   "connections": [
     {
       "source": "alan-dershowitz",
@@ -8,56 +8,48 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1328-19",
-        "ECF 1331-12",
-        "ECF 1320-9",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "1328-19",
+        "1331-12",
+        "1327-12"
       ],
       "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": true,
+      "summary": "In our assessment, the Dershowitz-Giuffre relationship represents one of the most contentious and publicly contested accusations arising from the Epstein matter. Unlike many other accused individuals who declined public comment, Dershowitz mounted an aggressive public defense, calling Giuffre a \"serial liar\" and initiating his own legal actions.",
+      "brief_file": "alan-dershowitz_virginia-giuffre.md"
     },
     {
       "source": "bill-clinton",
       "target": "virginia-giuffre",
       "strength": 100,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1328-44",
-        "ECF 1320-28",
-        "ECF 1331-18",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "1320-28",
+        "1328-44",
+        "1331-18"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
-    },
-    {
-      "source": "deutsche-bank",
-      "target": "jeffrey-epstein",
-      "strength": 100,
-      "type": "documented",
-      "evidence": [
-        "NYSDFS Consent Order 2020"
-      ]
+      "target_mentions_source": false,
+      "summary": "In our assessment, the documentary record regarding the Bill Clinton-Virginia Giuffre connection presents a notably unusual situation: a connection that exists primarily through Giuffre's media statements and manuscript, which were then vigorously rebutted in court filings.",
+      "brief_file": "bill-clinton_virginia-giuffre.md"
     },
     {
       "source": "emmy-taylor",
       "target": "virginia-giuffre",
       "strength": 100,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1320-10",
-        "ECF 1328-12",
-        "ECF 1320-28",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "1320-10",
+        "1328-12",
+        "1320-28",
+        "1327-12"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "In our assessment, the Emmy Taylor-Virginia Giuffre connection represents a relationship documented primarily through Giuffre's testimony and media accounts, without Taylor's own perspective available in the record.",
+      "brief_file": "emmy-taylor_virginia-giuffre.md"
     },
     {
       "source": "epstein-florida-case",
@@ -65,15 +57,15 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1330-1",
-        "ECF 1325-3",
-        "ECF 1331-4",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Jane Doe #3 and #4 Motion for Joinder",
+        "Declaration of Paul G. Cassell",
+        "Motion re Sanctions (spoliation testimony)"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "The Epstein Florida Case represents the first major attempt to prosecute Jeffrey Epstein for sex trafficking crimes. In our assessment, this connection is foundational because it establishes Epstein as the central subject of federal investigation and the primary defendant in the controversial 2008 Non-Prosecution Agreement.",
+      "brief_file": "epstein-florida-case_jeffrey-epstein.md"
     },
     {
       "source": "ghislaine-maxwell",
@@ -81,15 +73,15 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1331-12",
-        "ECF 1320-6",
-        "ECF 1327-12",
-        "ECF 1327-25",
-        "ECF 1331-4"
+        "Motion to Compel (Maxwell deposition quotes)",
+        "Defendant's Submission Regarding Search Terms",
+        "Sarah Ransome Affidavit"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "In our assessment, Maxwell's role as defendant in Giuffre v. Maxwell is foundational to understanding both her eventual criminal conviction and the public documentary record of the Epstein scandal.",
+      "brief_file": "ghislaine-maxwell_giuffre-v-maxwell-case.md"
     },
     {
       "source": "ghislaine-maxwell",
@@ -97,14 +89,15 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1331-12",
-        "ECF 1320-6",
-        "ECF 1327-12",
-        "ECF 1331-32"
+        "1331-12",
+        "1320-6",
+        "1328-19"
       ],
       "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": true,
+      "summary": "In our assessment, the documentary record establishes that Ghislaine Maxwell and Jeffrey Epstein maintained an extraordinarily close professional and personal relationship spanning approximately 17 years (1992-2009). The nature of this relationship appears to have evolved from romantic partnership to what multiple witnesses characterized as a coordinated operation.",
+      "brief_file": "ghislaine-maxwell_jeffrey-epstein.md"
     },
     {
       "source": "ghislaine-maxwell",
@@ -112,14 +105,15 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1331-12",
-        "ECF 1320-6",
-        "ECF 1327-12",
-        "ECF 1327-14"
+        "1331-12",
+        "1327-12",
+        "1320-6"
       ],
       "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": true,
+      "summary": "In our assessment, the documentary record establishes that Ghislaine Maxwell and Prince Andrew had a social relationship that extended to Maxwell's London townhome, where the now-infamous photograph with Virginia Giuffre was taken.",
+      "brief_file": "ghislaine-maxwell_prince-andrew.md"
     },
     {
       "source": "ghislaine-maxwell",
@@ -127,54 +121,30 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1331-12",
-        "ECF 1320-6",
-        "ECF 1327-12",
-        "ECF 1331-19"
+        "1331-12",
+        "1320-6",
+        "1328-19"
       ],
       "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": true
-    },
-    {
-      "source": "jpmorgan-epstein-case",
-      "target": "jeffrey-epstein",
-      "strength": 100,
-      "type": "documented",
-      "evidence": [
-        "USVI Complaint"
-      ],
-      "bidirectional": true,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "jpmorgan-epstein-case",
-      "target": "jeffrey-epstein",
-      "strength": 100,
-      "type": "documented",
-      "evidence": [
-        "USVI Complaint"
-      ],
-      "bidirectional": true,
-      "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": true,
+      "summary": "In our assessment, the documentary record from Giuffre v. Maxwell presents a comprehensive picture of an accuser-accused relationship that became the subject of extensive civil litigation and ultimately contributed to a federal criminal prosecution.",
+      "brief_file": "ghislaine-maxwell_virginia-giuffre.md"
     },
     {
       "source": "lesley-groff",
       "target": "sarah-kellen",
       "strength": 100,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1331-31",
-        "ECF 1328-34",
-        "ECF 1331-34",
-        "ECF 1327-25",
-        "ECF 1331-13"
+        "1331-31",
+        "1328-34"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "In our assessment, the Lesley Groff-Sarah Kellen connection represents a relationship defined by shared legal status rather than documented interaction between the two individuals.",
+      "brief_file": "lesley-groff_sarah-kellen.md"
     },
     {
       "source": "prince-andrew",
@@ -182,130 +152,107 @@
       "strength": 100,
       "type": "documented",
       "evidence": [
-        "ECF 1327-14",
-        "ECF 1327-12",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "1327-14",
+        "1327-12",
+        "1320-6",
+        "1328-19"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
-    },
-    {
-      "source": "robert-maxwell",
-      "target": "ghislaine-maxwell",
-      "strength": 100,
-      "type": "documented",
-      "evidence": [
-        "Public records"
-      ],
-      "bidirectional": true,
-      "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "In our assessment, the documented record presents a significant accusation by Virginia Giuffre against Prince Andrew that was never adjudicated on its merits. The case settled before any discovery or trial could test the allegations.",
+      "brief_file": "prince-andrew_virginia-giuffre.md"
     },
     {
       "source": "sarah-kellen",
       "target": "virginia-giuffre",
       "strength": 100,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1327-25",
-        "ECF 1331-13",
-        "ECF 1327-21",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "1327-25",
+        "1331-13",
+        "1327-12",
+        "1327-21"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "In our assessment, the Sarah Kellen-Virginia Giuffre connection represents a relationship defined primarily by legal positioning rather than direct documented interaction between the two individuals.",
+      "brief_file": "sarah-kellen_virginia-giuffre.md"
     },
     {
-      "source": "johanna-sjoberg",
-      "target": "jeffrey-epstein",
+      "source": "jeffrey-epstein",
+      "target": "johanna-sjoberg",
       "strength": 95,
       "type": "documented",
       "evidence": [
-        "Maxwell trial testimony"
-      ]
+        "Sjoberg Deposition (May 18, 2016)"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "In our assessment, the Epstein-Sjoberg connection represents a documented victim-perpetrator relationship corroborated by sworn testimony in multiple proceedings.",
+      "brief_file": "jeffrey-epstein_johanna-sjoberg.md"
     },
     {
-      "source": "juan-alessi",
-      "target": "jeffrey-epstein",
+      "source": "jeffrey-epstein",
+      "target": "juan-alessi",
       "strength": 95,
       "type": "documented",
       "evidence": [
-        "Maxwell trial testimony",
-        "Depositions"
-      ]
-    },
-    {
-      "source": "les-wexner",
-      "target": "jeffrey-epstein",
-      "strength": 95,
-      "type": "documented",
-      "evidence": [
-        "Financial records",
-        "Power of attorney"
-      ]
-    },
-    {
-      "source": "emmy-taylor",
-      "target": "sarah-kellen",
-      "strength": 94,
-      "type": "documented",
-      "evidence": [
-        "ECF 1320-10",
-        "ECF 1328-12",
-        "ECF 1320-28",
-        "ECF 1327-25",
-        "ECF 1331-13"
+        "Motion to Compel (Alessi testimony quotes)",
+        "Alessi Deposition (June 1, 2016)"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "In our assessment, Juan Alessi represents one of the most significant first-hand witnesses to operations at Epstein's Palm Beach residence due to his extended employment and position as house manager.",
+      "brief_file": "jeffrey-epstein_juan-alessi.md"
     },
     {
-      "source": "prince-andrew",
-      "target": "sarah-kellen",
-      "strength": 94,
+      "source": "epstein-florida-case",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 90,
       "type": "documented",
       "evidence": [
-        "ECF 1327-14",
-        "ECF 1327-12",
-        "ECF 1327-25",
-        "ECF 1331-13"
+        "Jane Doe #3 and #4 Motion for Joinder (Florida case)",
+        "Declaration of Paul G. Cassell",
+        "Plaintiff's Response re Sanctions"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "Regarding the legal relationship: In our assessment, the Epstein Florida Case and Giuffre v. Maxwell are deeply interconnected proceedings that together form the primary documentary record of the Epstein trafficking operation. Evidence and testimony from each case informed the other.",
+      "brief_file": "epstein-florida-case_giuffre-v-maxwell-case.md"
     },
     {
-      "source": "jean-luc-brunel",
-      "target": "jeffrey-epstein",
+      "source": "ghislaine-maxwell",
+      "target": "johanna-sjoberg",
       "strength": 90,
       "type": "documented",
       "evidence": [
-        "Court records",
-        "French indictment"
-      ]
+        "Sjoberg Deposition (May 18, 2016)"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "In our assessment, the Maxwell-Sjoberg connection represents one of the victim-perpetrator relationships that led to Maxwell's criminal conviction.",
+      "brief_file": "ghislaine-maxwell_johanna-sjoberg.md"
     },
     {
-      "source": "johanna-sjoberg",
-      "target": "ghislaine-maxwell",
+      "source": "ghislaine-maxwell",
+      "target": "juan-alessi",
       "strength": 90,
       "type": "documented",
       "evidence": [
-        "Maxwell trial testimony"
-      ]
-    },
-    {
-      "source": "juan-alessi",
-      "target": "ghislaine-maxwell",
-      "strength": 90,
-      "type": "documented",
-      "evidence": [
-        "Maxwell trial testimony"
-      ]
+        "Motion to Compel (Alessi testimony quotes)",
+        "Alessi Deposition (June 1, 2016)"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "In our assessment, Alessi's testimony regarding Maxwell is significant because it places her at the Palm Beach residence during relevant periods and describes her role in household activities.",
+      "brief_file": "ghislaine-maxwell_juan-alessi.md"
     },
     {
       "source": "giuffre-v-maxwell-case",
@@ -313,14 +260,15 @@
       "strength": 89,
       "type": "documented",
       "evidence": [
-        "ECF 1327-25",
-        "ECF 1331-4",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Declaration of Paul G. Cassell (Jane Doe cases)",
+        "Sarah Ransome Affidavit",
+        "Flight Log Exhibits"
       ],
-      "bidirectional": true,
+      "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": false,
+      "summary": "In our assessment, while Epstein was not a party to Giuffre v. Maxwell, his alleged conduct permeates the case. The litigation exists because Giuffre made allegations about Epstein's trafficking operation and Maxwell's role in it.",
+      "brief_file": "giuffre-v-maxwell-case_jeffrey-epstein.md"
     },
     {
       "source": "jeffrey-epstein",
@@ -328,33 +276,164 @@
       "strength": 89,
       "type": "documented",
       "evidence": [
-        "ECF 1331-32",
-        "ECF 1331-12",
-        "ECF 1331-11",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "1331-12",
+        "1331-32",
+        "1328-19",
+        "1320-6",
+        "1330-1"
       ],
       "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": true
+      "target_mentions_source": true,
+      "summary": "In our assessment, the Jeffrey Epstein-Virginia Giuffre connection represents the central relationship in the Giuffre v. Maxwell litigation and the broader network of cases that emerged from the Epstein scandal.",
+      "brief_file": "jeffrey-epstein_virginia-giuffre.md"
     },
     {
-      "source": "jean-luc-brunel",
-      "target": "ghislaine-maxwell",
+      "source": "giuffre-v-maxwell-case",
+      "target": "prince-andrew",
+      "strength": 85,
+      "type": "documented",
+      "evidence": [
+        "Discovery Request Responses",
+        "Counsel Correspondence",
+        "Court Filing",
+        "Court Filing"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding Prince Andrew's role in the case: In our assessment, Prince Andrew was a central figure in Giuffre v. Maxwell even though he was not a party. Giuffre's allegations against Maxwell included claims that Maxwell trafficked her to Prince Andrew, making Maxwell's communications with Prince Andrew directly relevant to the truth or falsity of Giuffre's allegations.",
+      "brief_file": "giuffre-v-maxwell-case_prince-andrew.md"
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "sarah-kellen",
       "strength": 80,
       "type": "documented",
       "evidence": [
-        "Court records"
-      ]
+        "Discovery Request Responses",
+        "Maxwell Deposition",
+        "Banasiak Deposition",
+        "Plaintiff's Opposition to Motion in Limine",
+        "Court Filing"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding Kellen's significance in the case: In our assessment, Sarah Kellen was a significant figure in the Giuffre v. Maxwell documentary record. Her deposition was taken (though she invoked Fifth Amendment), and she appears repeatedly in case filings as a person of interest.",
+      "brief_file": "giuffre-v-maxwell-case_sarah-kellen.md"
     },
     {
-      "source": "jpmorgan-epstein-case",
-      "target": "deutsche-bank",
+      "source": "giuffre-v-maxwell-case",
+      "target": "nadia-marcinkova",
+      "strength": 75,
+      "type": "documented",
+      "evidence": [
+        "Discovery Request Responses",
+        "Sarah Ransome Letter Motion and Affidavit",
+        "Plaintiff's Opposition to Motion in Limine",
+        "Sarah Ransome Affidavit"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding Marcinkova's role in the litigation: In our assessment, Marcinkova was a significant witness in Giuffre v. Maxwell. Her deposition was taken, though she invoked Fifth Amendment privileges on substantive questions, limiting the information obtained.",
+      "brief_file": "giuffre-v-maxwell-case_nadia-marcinkova.md"
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "lesley-groff",
       "strength": 70,
       "type": "documented",
       "evidence": [
-        "USVI Complaint"
-      ]
+        "Deposition Transcript (co-conspirator reference)",
+        "Jane Doe #3 and #4 Motion (Florida case context)",
+        "Declaration of Paul G. Cassell (NPA background)"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding the co-conspirator designation: In our assessment, Lesley Groff's designation as an unindicted co-conspirator in the Epstein Florida case NPA is a significant legal fact. This designation meant she received federal immunity as part of Epstein's plea arrangement.",
+      "brief_file": "epstein-florida-case_lesley-groff.md"
+    },
+    {
+      "source": "prince-andrew",
+      "target": "sarah-kellen",
+      "strength": 60,
+      "type": "referenced",
+      "evidence": [
+        "Discovery Request Responses",
+        "Counsel Correspondence"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding the documentary connection: In our assessment, the connection between Prince Andrew and Sarah Kellen is documentary rather than direct. Both appear on the same discovery request list, indicating Giuffre sought communications with each of them. This establishes they were both relevant to her claims against Maxwell.",
+      "brief_file": "prince-andrew_sarah-kellen.md"
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "lesley-groff",
+      "strength": 55,
+      "type": "documented",
+      "evidence": [
+        "Deposition Transcript (co-conspirator reference)",
+        "Court Filing (Jane Doe 43 case reference)",
+        "Email Exhibit"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding the documentary record: In our assessment, the Giuffre v. Maxwell case produced limited direct references to Lesley Groff. Only 3-4 documents directly reference her, making this a thin evidentiary basis for any assessment.",
+      "brief_file": "giuffre-v-maxwell-case_lesley-groff.md"
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "epstein-florida-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Motion for Joinder",
+        "Discovery Disclosures"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Alan Dershowitz's connection to the Epstein Florida Case is that of defense attorney:",
+      "brief_file": "alan-dershowitz_epstein-florida-case.md"
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Defendant's Search Term Submissions",
+        "Discovery Disclosures",
+        "Sarah Ransome Affidavit"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Dershowitz-Maxwell connection appears primarily through the Epstein network rather than as a direct bilateral relationship. In our assessment:",
+      "brief_file": "alan-dershowitz_ghislaine-maxwell.md"
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Motion for Joinder",
+        "Defamation Settlement Reference",
+        "Discovery Requests",
+        "Sarah Ransome Affidavit"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Dershowitz's connection to the Giuffre v. Maxwell case is as a subject of allegations within the litigation:",
+      "brief_file": "alan-dershowitz_giuffre-v-maxwell-case.md"
     },
     {
       "source": "alan-dershowitz",
@@ -362,46 +441,163 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1328-19",
-        "ECF 1331-12",
-        "ECF 1320-9",
-        "ECF 1331-32"
+        "Motion for Joinder",
+        "Discovery Disclosures",
+        "Sarah Ransome Affidavit"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Dershowitz-Epstein connection presents two distinct documented relationships:",
+      "brief_file": "alan-dershowitz_jeffrey-epstein.md"
+    },
+    {
+      "source": "bill-clinton",
+      "target": "epstein-florida-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Maxwell's Opposition / Giuffre Acknowledgment"
       ],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "Bill Clinton's connection to the Epstein Florida Case is tangential at most:",
+      "brief_file": "bill-clinton_epstein-florida-case.md"
     },
     {
       "source": "bill-clinton",
       "target": "ghislaine-maxwell",
       "strength": 50,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1328-44",
-        "ECF 1320-28",
-        "ECF 1331-18",
-        "ECF 1331-12",
-        "ECF 1320-6"
+        "Maxwell's Opposition / Freeh Report",
+        "Maxwell's Rule 26 Disclosures"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Clinton-Maxwell connection in the documentary record centers on Giuffre's claims that Maxwell transported Clinton to Epstein's island:",
+      "brief_file": "bill-clinton_ghislaine-maxwell.md"
+    },
+    {
+      "source": "bill-clinton",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Maxwell's Opposition / Freeh Report",
+        "Discovery Requests",
+        "Deposition Transcript"
       ],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "Bill Clinton's connection to the Giuffre v. Maxwell case is as a referenced individual in discovery and exhibits:",
+      "brief_file": "bill-clinton_giuffre-v-maxwell-case.md"
     },
     {
       "source": "bill-clinton",
       "target": "jeffrey-epstein",
       "strength": 50,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1328-44",
-        "ECF 1320-28",
-        "ECF 1331-18",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Maxwell's Opposition / Freeh Report",
+        "Marcinkova Deposition",
+        "Confidential Deposition Transcript"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Clinton-Epstein connection in the documentary record presents a notably balanced picture:",
+      "brief_file": "bill-clinton_jeffrey-epstein.md"
+    },
+    {
+      "source": "bill-clinton",
+      "target": "the-terramar-project",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Financial Discovery Request"
       ],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "The Clinton-Terramar connection appears solely as a grouping in a financial discovery request:",
+      "brief_file": "bill-clinton_terramar-project.md"
+    },
+    {
+      "source": "deutsche-bank",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "$150 million penalty, July 2020",
+        "Paragraphs 71-72 citing Deutsche Bank findings"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The Deutsche Bank case represents documented regulatory findings of compliance failures. Deutsche Bank accepted Epstein as a client in 2013, two years after JP Morgan terminated him and five years after his Florida conviction.",
+      "brief_file": "deutsche-bank_jeffrey-epstein.md"
+    },
+    {
+      "source": "deutsche-bank",
+      "target": "jp-morgan-epstein-case",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "References to Deutsche Bank at Paragraphs 71-72",
+        "Deutsche Bank penalty, July 2020"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The connection between Deutsche Bank and the JP Morgan case is contextual—both banks maintained relationships with Epstein, but at different times. Deutsche Bank accepted Epstein after JP Morgan terminated him, suggesting Epstein sought alternative banking services after losing access to JP Morgan.",
+      "brief_file": "deutsche-bank_jpmorgan-epstein-case.md"
+    },
+    {
+      "source": "donald-trump",
+      "target": "epstein-florida-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Juan Alessi Deposition"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Donald Trump's connection to the Epstein Florida Case is essentially non-existent in the documentary record:",
+      "brief_file": "donald-trump_epstein-florida-case.md"
+    },
+    {
+      "source": "donald-trump",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Juan Alessi Deposition"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The Trump-Maxwell connection in the Giuffre v. Maxwell documentary record is largely inferential:",
+      "brief_file": "donald-trump_ghislaine-maxwell.md"
+    },
+    {
+      "source": "donald-trump",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Juan Alessi Deposition",
+        "Motion to Quash"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Donald Trump's connection to the Giuffre v. Maxwell case is minimal:",
+      "brief_file": "donald-trump_giuffre-v-maxwell-case.md"
     },
     {
       "source": "donald-trump",
@@ -409,13 +605,61 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1328-42",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Juan Alessi Deposition",
+        "Epstein's Motion to Quash"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Trump-Epstein connection in the Giuffre v. Maxwell documentary record is notably limited:",
+      "brief_file": "donald-trump_jeffrey-epstein.md"
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "epstein-florida-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Discovery Requests"
       ],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "Emmy Taylor's connection to the Epstein Florida Case is inferential:",
+      "brief_file": "emmy-taylor_epstein-florida-case.md"
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Deposition Time Allocations",
+        "Maxwell's Opposition re Depositions",
+        "Discovery Dispute Filing"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record clearly establishes Emmy Taylor as Ghislaine Maxwell's personal assistant. Court documents explicitly identify Taylor as \"Ghislaine's blonde British assistant.\"",
+      "brief_file": "emmy-taylor_ghislaine-maxwell.md"
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Deposition Allocations",
+        "Maxwell Opposition",
+        "Discovery Requests",
+        "Deposition Transcript"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Emmy Taylor was a significant witness in the Giuffre v. Maxwell case:",
+      "brief_file": "emmy-taylor_giuffre-v-maxwell-case.md"
     },
     {
       "source": "emmy-taylor",
@@ -423,15 +667,33 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1320-10",
-        "ECF 1328-12",
-        "ECF 1320-28",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Deposition Time Allocations",
+        "Maxwell's Opposition re Depositions",
+        "Discovery Dispute Filing",
+        "Deposition Transcript Excerpts"
       ],
-      "bidirectional": false,
+      "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": true,
+      "summary": "In our assessment, the documentary record establishes that Emmy Taylor worked in proximity to Jeffrey Epstein through her role as Ghislaine Maxwell's assistant. Deposition testimony places Taylor at Epstein's Palm Beach residence during activities described as \"massages.\"",
+      "brief_file": "emmy-taylor_jeffrey-epstein.md"
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "sarah-kellen",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Deposition Allocations",
+        "Maxwell Opposition",
+        "Discovery Requests",
+        "Co-Conspirator References"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Taylor-Kellen connection exists through their parallel positions in the Epstein network:",
+      "brief_file": "emmy-taylor_sarah-kellen.md"
     },
     {
       "source": "epstein-florida-case",
@@ -439,15 +701,15 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1330-1",
-        "ECF 1325-3",
-        "ECF 1331-4",
-        "ECF 1331-12",
-        "ECF 1320-6"
+        "Jane Doe #3 and #4 Motion for Joinder",
+        "Declaration of Paul G. Cassell (NPA discussion)",
+        "Motion re Sanctions (Maxwell warrant-day call)"
       ],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "In our assessment, Maxwell's connection to the Epstein Florida Case is significant for two reasons: her apparent protection under the NPA's co-conspirator immunity, and testimony suggesting her awareness of the investigation.",
+      "brief_file": "epstein-florida-case_ghislaine-maxwell.md"
     },
     {
       "source": "epstein-florida-case",
@@ -455,15 +717,159 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1327-25",
-        "ECF 1331-13",
-        "ECF 1327-21",
-        "ECF 1330-1",
-        "ECF 1325-3"
+        "Banasiak Deposition (civil case reference)",
+        "Deposition Transcript (co-conspirator identification)",
+        "Declaration of Paul G. Cassell"
       ],
       "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "In our assessment, Sarah Kellen's connection to the Epstein Florida Case is defined by her explicit designation as an \"unindicted co-conspirator\" in the 2008 Non-Prosecution Agreement.",
+      "brief_file": "epstein-florida-case_sarah-kellen.md"
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "the-terramar-project",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Epstein January 2015 Email"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The documentary record does not establish a direct connection between the Epstein Florida case (2008) and The Terramar Project (founded 2012). The connection is temporal and contextual—both involve individuals associated with Epstein, but at different times and in different contexts.",
+      "brief_file": "epstein-florida-case_terramar-project.md"
+    },
+    {
+      "source": "federal-bureau-of-investigation",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "> The following represents protected editorial opinion based on the documented public record.",
+      "brief_file": "fbi_epstein_investigation.md"
+    },
+    {
+      "source": "federal-bureau-of-investigation",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "> The following represents protected editorial opinion based on the documented public record.",
+      "brief_file": "fbi_maxwell_arrest.md"
+    },
+    {
+      "source": "federal-bureau-of-investigation",
+      "target": "leslie-h-wexner",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "> The following represents protected editorial opinion based on the documented public record.",
+      "brief_file": "fbi_wexner_coconspirator.md"
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "les-wexner",
+      "strength": 50,
+      "type": "interpreted",
+      "evidence": [
+        "References to Wexner properties",
+        "Property attendance references"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The documentary record suggests the Maxwell-Wexner connection was indirect, mediated through their respective relationships with Jeffrey Epstein. Witness accounts reference Maxwell's presence at Wexner-connected properties, likely reflecting her role in Epstein's social circle.",
+      "brief_file": "ghislaine-maxwell_les-wexner.md"
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "lesley-groff",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Deposition Testimony - co-conspirator identification",
+        "Court Filing - Jane Doe 43 case reference"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes that Ghislaine Maxwell and Lesley Groff were named as co-defendants in civil litigation arising from allegations related to Jeffrey Epstein. This places them within the same orbit of individuals alleged to have facilitated Epstein's activities.",
+      "brief_file": "ghislaine-maxwell_lesley-groff.md"
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "nadia-marcinkova",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Deposition Testimony - co-conspirator identification",
+        "Letter Motion with Sarah Ransome Affidavit"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record places both Ghislaine Maxwell and Nadia Marcinkova within Epstein's network. Sarah Ransome's affidavit describes Maxwell exercising a supervisory role over girls at Epstein's island while also describing Marcinkova's presence during sexual activities.",
+      "brief_file": "ghislaine-maxwell_nadia-marcinkova.md"
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "robert-maxwell",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Criminal conviction establishing relevance",
+        "Family relationship documentation",
+        "\"The INSLAW Affair\" (1992)"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Maxwell family connection represents a verified documentary link between Robert Maxwell (whose alleged intelligence connections have been examined in congressional investigations and published accounts) and Ghislaine Maxwell (who was convicted of crimes related to Jeffrey Epstein's operation).",
+      "brief_file": "ghislaine-maxwell_robert-maxwell.md"
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "sarah-kellen",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Discovery Dispute Filing",
+        "Maxwell Deposition",
+        "Court Filing - Jane Doe 43 case reference"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record places both Ghislaine Maxwell and Sarah Kellen within Jeffrey Epstein's network, and they were named as co-defendants in civil litigation arising from allegations related to Epstein's activities.",
+      "brief_file": "ghislaine-maxwell_sarah-kellen.md"
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "the-terramar-project",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Discovery Request for Email Accounts",
+        "Declaration re: Subpoenas",
+        "Maxwell Email from Terramar Account",
+        "Email Communications with Terramar Signature"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The documentary record clearly establishes Ghislaine Maxwell as the founder and operator of The Terramar Project. She used Terramar email accounts for communications during 2015 when allegations against her first became public.",
+      "brief_file": "ghislaine-maxwell_terramar-project.md"
     },
     {
       "source": "ghislaine-maxwell",
@@ -471,62 +877,92 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1320-3",
-        "ECF 1328-44",
-        "ECF 1327-21",
-        "ECF 1331-12",
-        "ECF 1320-6"
+        "Maxwell Deposition Excerpts",
+        "Maxwell Deposition Excerpts"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Dubin-Maxwell connection is the most clearly documented of the Dubin relationships in this record:",
+      "brief_file": "glenn-dubin_ghislaine-maxwell.md"
+    },
+    {
+      "source": "glenn-dubin",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Marcinkova Deposition"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Dubin-Epstein connection in the documentary record is minimal:",
+      "brief_file": "glenn-dubin_jeffrey-epstein.md"
     },
     {
       "source": "ghislaine-maxwell",
-      "target": "nadia-marcinkova",
+      "target": "jean-luc-brunel",
       "strength": 50,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1331-32",
-        "ECF 1331-12",
-        "ECF 1331-13",
-        "ECF 1320-6"
+        "Court Filing — Inner Circle",
+        "Deposition with Fifth Amendment"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Brunel-Maxwell connection exists primarily through their parallel roles in the Epstein network:",
+      "brief_file": "jean-luc-brunel_ghislaine-maxwell.md"
     },
     {
-      "source": "ghislaine-maxwell",
-      "target": "sarah-kellen",
+      "source": "jean-luc-brunel",
+      "target": "jeffrey-epstein",
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1327-25",
-        "ECF 1331-13",
-        "ECF 1327-21",
-        "ECF 1331-12",
-        "ECF 1320-6"
+        "Court Filing — \"Inner Circle\"",
+        "Deposition Motion Practice",
+        "Subpoena Served on Brunel",
+        "Fifth Amendment Invocations"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Brunel-Epstein connection represents one of the most extensively documented relationships in the Epstein network:",
+      "brief_file": "jean-luc-brunel_jeffrey-epstein.md"
     },
     {
-      "source": "ghislaine-maxwell",
-      "target": "terramar-project",
+      "source": "jeffrey-epstein",
+      "target": "jp-morgan-epstein-case",
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1330-5",
-        "ECF 1330-21",
-        "ECF 1330-9",
-        "ECF 1331-12",
-        "ECF 1320-6"
+        "Federal court filing, December 27, 2022",
+        "Class action settled June 2023 ($290 million)",
+        "USVI settlement June 2023 ($75 million)"
       ],
       "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Jeffrey Epstein is the central subject of the JP Morgan litigation. The USVI alleged that his accounts at JP Morgan were used primarily for trafficking activities—a severe allegation that, if true, means a major U.S. bank processed transactions principally related to criminal enterprise.",
+      "brief_file": "jeffrey-epstein_jpmorgan-epstein-case.md"
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "les-wexner",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Public letter to L Brands employees",
+        "L Brands corporate disclosures",
+        "Property transfer investigation"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The Wexner-Epstein relationship represents one of the most unusual financial arrangements in modern business history. A billionaire founder of a major retail empire granted sweeping power of attorney to an individual with limited documented financial background.",
+      "brief_file": "jeffrey-epstein_les-wexner.md"
     },
     {
       "source": "jeffrey-epstein",
@@ -534,15 +970,15 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1331-31",
-        "ECF 1328-34",
-        "ECF 1331-34",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Deposition Testimony - co-conspirator identification",
+        "Court Filing - Jane Doe 43 case reference",
+        "Email Exhibit"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes Lesley Groff as an assistant to Jeffrey Epstein who handled communications on his behalf. An email exhibit shows a third party (Sarah Ransome) communicating through Groff to reach Epstein, indicating Groff functioned as an intermediary.",
+      "brief_file": "jeffrey-epstein_lesley-groff.md"
     },
     {
       "source": "jeffrey-epstein",
@@ -550,13 +986,16 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1331-32",
-        "ECF 1331-12",
-        "ECF 1331-13"
+        "Deposition Testimony - co-conspirator identification",
+        "Letter Motion with Sarah Ransome Affidavit",
+        "Plaintiff's Opposition to Motion in Limine",
+        "Sarah Ransome Affidavit"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes that Nadia Marcinkova traveled on Epstein's aircraft and was present at his properties. Flight logs document her travel with Epstein. A sworn affidavit describes her presence during sexual activities at Epstein's locations.",
+      "brief_file": "jeffrey-epstein_nadia-marcinkova.md"
     },
     {
       "source": "jeffrey-epstein",
@@ -564,14 +1003,14 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1327-14",
-        "ECF 1327-12",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Defendant's Submission Regarding Search Terms",
+        "Counsel Correspondence"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes that Jeffrey Epstein and Prince Andrew were social associates. Prince Andrew has publicly acknowledged this association, expressing \"regret\" for it in his 2022 settlement statement.",
+      "brief_file": "jeffrey-epstein_prince-andrew.md"
     },
     {
       "source": "jeffrey-epstein",
@@ -579,469 +1018,119 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1327-25",
-        "ECF 1331-13",
-        "ECF 1327-21",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Discovery Dispute Filing",
+        "Janusz Banasiak Deposition",
+        "Deposition Testimony - co-conspirator identification",
+        "Plaintiff's Opposition to Motion in Limine",
+        "Court Filing - Jane Doe 43 case reference"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes Sarah Kellen as Jeffrey Epstein's assistant and scheduler. She was designated an unindicted co-conspirator in Epstein's 2008 federal non-prosecution agreement alongside Adriana Ross, Lesley Groff, and Nadia Marcinkova.",
+      "brief_file": "jeffrey-epstein_sarah-kellen.md"
     },
     {
       "source": "jeffrey-epstein",
-      "target": "terramar-project",
+      "target": "the-terramar-project",
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "ECF 1330-5",
-        "ECF 1330-21",
-        "ECF 1330-9",
-        "ECF 1331-32",
-        "ECF 1331-12"
+        "Financial Discovery Requests",
+        "Epstein January 2015 Email"
       ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes that Jeffrey Epstein and The Terramar Project are connected primarily through Ghislaine Maxwell. Epstein's January 2015 email encouraged Maxwell to continue her ocean conservation activities, referencing a Swedish ocean ambassador and ocean conferences.",
+      "brief_file": "jeffrey-epstein_terramar-project.md"
     },
     {
       "source": "nadia-marcinkova",
       "target": "virginia-giuffre",
       "strength": 50,
-      "type": "documented",
+      "type": "referenced",
       "evidence": [
-        "ECF 1331-32",
-        "ECF 1331-12",
-        "ECF 1331-13",
-        "ECF 1331-19",
-        "ECF 1320-6"
+        "Discovery Dispute Filing",
+        "Deposition Testimony - co-conspirator identification",
+        "Plaintiff's Opposition to Motion in Limine"
       ],
-      "bidirectional": false,
+      "bidirectional": true,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": true,
+      "summary": "The documentary record establishes that both Virginia Giuffre and Nadia Marcinkova were within Jeffrey Epstein's network during overlapping time periods. Giuffre, as plaintiff in the civil litigation, sought to depose Marcinkova, who invoked Fifth Amendment privileges on substantive questions. These invocations reflect constitutionally protected rights and should not be interpreted as evidence of wrongdoing. Witnesses may invoke Fifth Amendment protections for many reasons, including on advic...",
+      "brief_file": "nadia-marcinkova_virginia-giuffre.md"
     },
     {
-      "source": "epstein-florida-case",
-      "target": "nadia-marcinkova",
-      "strength": 48,
-      "type": "documented",
-      "evidence": [
-        "ECF 1331-32",
-        "ECF 1331-12",
-        "ECF 1331-13",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "ghislaine-maxwell",
-      "target": "lesley-groff",
-      "strength": 48,
-      "type": "documented",
-      "evidence": [
-        "ECF 1331-31",
-        "ECF 1328-34",
-        "ECF 1331-34",
-        "ECF 1331-12",
-        "ECF 1320-6"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "giuffre-v-maxwell-case",
-      "target": "prince-andrew",
-      "strength": 48,
-      "type": "documented",
-      "evidence": [
-        "ECF 1327-14",
-        "ECF 1327-12",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "bill-clinton",
-      "target": "terramar-project",
-      "strength": 44,
-      "type": "documented",
-      "evidence": [
-        "ECF 1330-5",
-        "ECF 1330-21",
-        "ECF 1330-9",
-        "ECF 1328-44",
-        "ECF 1320-28"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "donald-trump",
-      "target": "ghislaine-maxwell",
-      "strength": 40,
-      "type": "interpreted",
-      "evidence": [
-        "ECF 1328-42",
-        "ECF 1331-12",
-        "ECF 1320-6"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "donald-trump",
-      "target": "giuffre-v-maxwell-case",
-      "strength": 40,
-      "type": "interpreted",
-      "evidence": [
-        "ECF 1328-42",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "emmy-taylor",
-      "target": "ghislaine-maxwell",
-      "strength": 40,
-      "type": "interpreted",
-      "evidence": [
-        "ECF 1320-10",
-        "ECF 1328-12",
-        "ECF 1320-28",
-        "ECF 1331-12",
-        "ECF 1320-6"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "epstein-florida-case",
-      "target": "lesley-groff",
-      "strength": 40,
-      "type": "interpreted",
-      "evidence": [
-        "ECF 1331-31",
-        "ECF 1328-34",
-        "ECF 1331-34",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "giuffre-v-maxwell-case",
-      "target": "terramar-project",
-      "strength": 40,
-      "type": "interpreted",
-      "evidence": [
-        "ECF 1330-5",
-        "ECF 1330-21",
-        "ECF 1330-9",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "les-wexner",
-      "target": "ghislaine-maxwell",
-      "strength": 40,
-      "type": "interpreted",
-      "evidence": [
-        "Secondary sources"
-      ]
-    },
-    {
-      "source": "terramar-project",
+      "source": "the-terramar-project",
       "target": "virginia-giuffre",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Discovery Request for Email Accounts",
+        "Declaration re: Subpoenas"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "The documentary record does not establish a direct relationship between The Terramar Project and Virginia Giuffre. The organization appears in the Giuffre v. Maxwell litigation only as a subject of discovery—Giuffre's attorneys sought Maxwell's Terramar communications and issued subpoenas to the organization.",
+      "brief_file": "terramar-project_virginia-giuffre.md"
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "nadia-marcinkova",
+      "strength": 48,
+      "type": "documented",
+      "evidence": [
+        "Deposition Transcript (co-conspirator identification)",
+        "Declaration of Paul G. Cassell",
+        "Plaintiff's Opposition (Fifth Amendment reference)"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "In our assessment, Nadia Marcinkova's connection to the Epstein Florida Case raises particularly complex questions due to unresolved issues about her own potential victimization.",
+      "brief_file": "epstein-florida-case_nadia-marcinkova.md"
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "glenn-dubin",
+      "strength": 45,
+      "type": "referenced",
+      "evidence": [
+        "Discovery Request Responses"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false,
+      "summary": "Regarding the nature of references: In our assessment, Glenn Dubin's appearance in the Giuffre v. Maxwell documentary record reflects his status as a known associate of Jeffrey Epstein. This social connection made communications with him relevant to discovery.",
+      "brief_file": "giuffre-v-maxwell-case_glenn-dubin.md"
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "terramar-project",
       "strength": 40,
       "type": "interpreted",
-      "evidence": [
-        "ECF 1330-5",
-        "ECF 1330-21",
-        "ECF 1330-9",
-        "ECF 1331-19",
-        "ECF 1320-6"
-      ],
+      "evidence": [],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "bill-clinton",
-      "target": "giuffre-v-maxwell-case",
-      "strength": 33,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1328-44",
-        "ECF 1320-28",
-        "ECF 1331-18",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "emmy-taylor",
-      "target": "giuffre-v-maxwell-case",
-      "strength": 33,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1320-10",
-        "ECF 1328-12",
-        "ECF 1320-28",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "giuffre-v-maxwell-case",
-      "target": "glenn-dubin",
-      "strength": 33,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1320-3",
-        "ECF 1328-44",
-        "ECF 1327-21",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "giuffre-v-maxwell-case",
-      "target": "nadia-marcinkova",
-      "strength": 33,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1331-32",
-        "ECF 1331-12",
-        "ECF 1331-13",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "giuffre-v-maxwell-case",
-      "target": "sarah-kellen",
-      "strength": 33,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1327-25",
-        "ECF 1331-13",
-        "ECF 1327-21",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "alan-dershowitz",
-      "target": "epstein-florida-case",
-      "strength": 32,
-      "type": "interpreted",
-      "evidence": [
-        "ECF 1328-19",
-        "ECF 1331-12",
-        "ECF 1320-9",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "alan-dershowitz",
-      "target": "ghislaine-maxwell",
-      "strength": 31,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1328-19",
-        "ECF 1331-12",
-        "ECF 1320-9",
-        "ECF 1320-6"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "epstein-florida-case",
-      "target": "giuffre-v-maxwell-case",
-      "strength": 31,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1330-1",
-        "ECF 1325-3",
-        "ECF 1331-4",
-        "ECF 1327-25"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "giuffre-v-maxwell-case",
-      "target": "lesley-groff",
-      "strength": 31,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1331-31",
-        "ECF 1328-34",
-        "ECF 1331-34",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "alan-dershowitz",
-      "target": "giuffre-v-maxwell-case",
-      "strength": 29,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1328-19",
-        "ECF 1331-12",
-        "ECF 1320-9",
-        "ECF 1327-25",
-        "ECF 1331-4"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "bill-clinton",
-      "target": "epstein-florida-case",
-      "strength": 27,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1328-44",
-        "ECF 1320-28",
-        "ECF 1331-18",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "donald-trump",
-      "target": "epstein-florida-case",
-      "strength": 27,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1328-42",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
-    },
-    {
-      "source": "emmy-taylor",
-      "target": "epstein-florida-case",
-      "strength": 27,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1320-10",
-        "ECF 1328-12",
-        "ECF 1320-28",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "Regarding the connection type: In our assessment, the connection between Giuffre v. Maxwell and the Terramar Project is indirect and interpretive. Terramar was Maxwell's organization during the litigation period, but the case itself focused on events predating Terramar's existence.",
+      "brief_file": "giuffre-v-maxwell-case_terramar-project.md"
     },
     {
       "source": "epstein-florida-case",
       "target": "glenn-dubin",
-      "strength": 27,
+      "strength": 30,
       "type": "referenced",
-      "evidence": [
-        "ECF 1320-3",
-        "ECF 1328-44",
-        "ECF 1327-21",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "epstein-florida-case",
-      "target": "terramar-project",
-      "strength": 27,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1330-5",
-        "ECF 1330-21",
-        "ECF 1330-9",
-        "ECF 1330-1",
-        "ECF 1325-3"
-      ],
-      "bidirectional": false,
-      "source_mentions_target": false,
-      "target_mentions_source": true
-    },
-    {
-      "source": "glenn-dubin",
-      "target": "jeffrey-epstein",
-      "strength": 27,
-      "type": "referenced",
-      "evidence": [
-        "ECF 1320-3",
-        "ECF 1328-44",
-        "ECF 1327-21",
-        "ECF 1331-32",
-        "ECF 1331-12"
-      ],
+      "evidence": [],
       "bidirectional": false,
       "source_mentions_target": true,
-      "target_mentions_source": false
+      "target_mentions_source": false,
+      "summary": "Regarding the nature of the connection: In our assessment, the connection between the Epstein Florida Case and Glenn Dubin is peripheral and documentary rather than substantive. Dubin's name appears in the broader context of Epstein-related discovery but not in the specific CVRA litigation regarding the non-prosecution agreement.",
+      "brief_file": "epstein-florida-case_glenn-dubin.md"
     }
   ],
-  "merge_info": {
-    "merged_at": "2025-12-23T07:59:36.228930Z",
-    "dev_count": 95,
-    "website_count": 121,
-    "website_only_added": 36,
-    "canonical_source": "/continuum/data/connections.json"
-  }
+  "source": "build_connections_from_briefs.py",
+  "note": "Connections derived ONLY from connection briefs. No connection exists without a brief."
 }

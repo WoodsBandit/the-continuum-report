@@ -138,8 +138,18 @@ def determine_connection_type(a_mentions_b: dict, b_mentions_a: dict) -> str:
     return 'referenced'
 
 
-def build_connections(entities: Dict[str, dict]) -> List[dict]:
-    """Build connections list from entity mentions"""
+def build_connections_from_mentions_DEPRECATED(entities: Dict[str, dict]) -> List[dict]:
+    """
+    DEPRECATED: Build connections from text mentions.
+
+    This function is DEPRECATED as of 2026-01.
+    Connections should ONLY be derived from connection briefs.
+
+    Use: python scripts/build_connections_from_briefs.py
+
+    Keeping this code for reference only.
+    """
+    logger.warning("build_connections_from_mentions_DEPRECATED called - this should not be used")
     connections = []
     processed_pairs = set()
 
@@ -339,11 +349,20 @@ def main():
     print(f"Parsed {len(entities)} entities")
     print("")
 
-    # Step 3: Build connections
-    print("Building connections...")
-    connections = build_connections(entities)
-    print(f"Created {len(connections)} connections")
+    # Step 3: Connections - HANDLED BY SEPARATE SCRIPT
+    # =========================================================================
+    # ARCHITECTURAL CHANGE (2026-01):
+    # Connections are NO LONGER derived from text mentions in analytical briefs.
+    # Connection briefs are the SOURCE OF TRUTH.
+    #
+    # Run: python scripts/build_connections_from_briefs.py
+    #
+    # This ensures: NO CONNECTION EXISTS WITHOUT A BRIEF.
+    # =========================================================================
+    print("NOTE: Connections are built separately from connection briefs.")
+    print("      Run: python scripts/build_connections_from_briefs.py")
     print("")
+    connections = []  # Empty - connections come from briefs, not mentions
 
     # Step 4: Build manifest
     manifest = build_manifest(entities, briefs_dir)
