@@ -77,8 +77,7 @@ while True:
       "co_mention_count": 5,
       "sources": ["src_000042", "src_000103", "src_000245"],
       "first_co_mention": "2025-01-15",
-      "last_co_mention": "2025-12-20",
-      "relationship_strength": 0.85
+      "last_co_mention": "2025-12-20"
     }
   }
 }
@@ -398,31 +397,21 @@ FOR EACH pair_key IN co_occurrences:
         existing_pair.co_mention_count = len(merged_sources)
         existing_pair.last_co_mention = current_date
 
-        # Update relationship strength (based on source count and recency)
-        # More sources = stronger relationship
-        # Recent mentions = higher weight
-        existing_pair.relationship_strength = CALCULATE_RELATIONSHIP_STRENGTH(
-            source_count=len(merged_sources),
-            last_mention=current_date,
-            first_mention=existing_pair.first_co_mention
-        )
+        # NOTE: No strength scoring - binary model
+        # Connection exists (in a brief with quote+source+summary) or it doesn't
 
         LOG INFO: "Updated co-occurrence: {pair_key} (now {len(merged_sources)} sources)"
 
     ELSE:
         # CREATE new pair
+        # NOTE: No strength scoring - binary model
         co_occurrence_index.pairs[pair_key] = {
             "entity1": new_pair["entity1"],
             "entity2": new_pair["entity2"],
             "co_mention_count": len(new_pair["sources"]),
             "sources": list(new_pair["sources"]),
             "first_co_mention": current_date,
-            "last_co_mention": current_date,
-            "relationship_strength": CALCULATE_RELATIONSHIP_STRENGTH(
-                source_count=len(new_pair["sources"]),
-                last_mention=current_date,
-                first_mention=current_date
-            )
+            "last_co_mention": current_date
         }
 
         LOG INFO: "Created new co-occurrence: {pair_key}"
@@ -435,32 +424,13 @@ WRITE co_occurrence_index to \\192.168.1.139\continuum\indexes\co_occurrence.jso
 LOG INFO: "Co-occurrence index updated"
 ```
 
-**Relationship Strength Calculation:**
-```python
-def CALCULATE_RELATIONSHIP_STRENGTH(source_count, last_mention, first_mention):
-    # Base strength from source count (logarithmic scale)
-    import math
-    base_strength = min(0.5 + (math.log(source_count + 1) / 10), 0.9)
+**Note on Relationship Strength (DEPRECATED):**
 
-    # Recency bonus (mentions in last 30 days get boost)
-    days_since_last = (datetime.now() - last_mention).days
-    if days_since_last <= 30:
-        recency_bonus = 0.1
-    elif days_since_last <= 90:
-        recency_bonus = 0.05
-    else:
-        recency_bonus = 0
+As of 2026-01, The Continuum Report uses a **binary connection model**:
+- A connection EXISTS (documented with quote + source + summary in a connection brief)
+- Or it DOESN'T EXIST (no connection brief)
 
-    # Longevity factor (long-term connections are more significant)
-    days_span = (last_mention - first_mention).days
-    if days_span > 365:
-        longevity_bonus = 0.05
-    else:
-        longevity_bonus = 0
-
-    strength = min(base_strength + recency_bonus + longevity_bonus, 1.0)
-    return round(strength, 2)
-```
+No subjective strength scoring. The source documents speak for themselves.
 
 ### Step 7: Update Connection Contexts
 
@@ -694,7 +664,6 @@ IF windows overlap:
 - New entity pairs added
 - Existing pairs updated with new sources
 - Co-mention counts updated
-- Relationship strength scores calculated
 
 **Updated Connection Contexts:**
 `\\192.168.1.139\continuum\indexes\connection_contexts.json`

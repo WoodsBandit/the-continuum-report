@@ -24,9 +24,10 @@
    - Identify undocumented relationships
 
 2. **Add Connections to Data**
-   - Update `/data/connections.json` with new connections
+   - Create connection briefs (source of truth)
+   - Run `build_connections_from_briefs.py` to update JSON
    - Follow schema in `/work/connections/FRAMEWORK.md`
-   - Calculate strength scores per framework
+   - NOTE: No strength scoring - binary model only
 
 3. **Generate Connection Briefs**
    - Create connection brief .md files for significant relationships

@@ -50,12 +50,13 @@ def parse_connection_brief(brief_path: Path) -> Optional[Dict]:
         - summary: editorial analysis (first paragraph)
         - full_summary: complete editorial analysis
         - relationship_type: from classification table
-        - evidence_level: from classification table
         - direction: bidirectional/unidirectional
         - status: relationship status
-        - strength: connection strength (1-100)
+        - sources_count: number of source documents
         - sources: list of source documents
         - brief_file: filename
+
+    NOTE: No "strength" scoring - binary model only.
     """
     content = brief_path.read_text(encoding='utf-8')
     filename = brief_path.stem
@@ -110,10 +111,9 @@ def parse_connection_brief(brief_path: Path) -> Optional[Dict]:
 
     # Extract Relationship Classification table
     relationship_type = ""
-    evidence_level = ""
     direction = "bidirectional"
     status = ""
-    strength = 50  # default
+    # NOTE: No strength scoring - binary model only
 
     classification_match = re.search(
         r'## Relationship Classification\s*\n+\|[^\n]+\|\s*\n\|[-|\s]+\|\s*\n((?:\|[^\n]+\|\s*\n)+)',
@@ -130,17 +130,11 @@ def parse_connection_brief(brief_path: Path) -> Optional[Dict]:
 
                 if 'type' in key and 'document' not in key:
                     relationship_type = value
-                elif 'evidence' in key:
-                    evidence_level = value
                 elif 'direction' in key:
                     direction = value.lower()
                 elif 'status' in key:
                     status = value
-                elif 'strength' in key:
-                    # Extract number from value like "100 (per connections.json)"
-                    strength_match = re.search(r'(\d+)', value)
-                    if strength_match:
-                        strength = int(strength_match.group(1))
+                # NOTE: 'strength' and 'evidence level' are DEPRECATED - skip them
 
     # Extract Editorial Analysis section
     editorial_match = re.search(
@@ -204,15 +198,9 @@ def parse_connection_brief(brief_path: Path) -> Optional[Dict]:
     # Determine if bidirectional
     is_bidirectional = 'bidirectional' in direction.lower()
 
-    # Determine connection type from evidence level
-    conn_type = 'documented'
-    if evidence_level:
-        if 'sworn' in evidence_level.lower() or 'documented' in evidence_level.lower():
-            conn_type = 'documented'
-        elif 'alleged' in evidence_level.lower() or 'interpreted' in evidence_level.lower():
-            conn_type = 'interpreted'
-        else:
-            conn_type = 'referenced'
+    # Connection type from relationship_type (use first type if multiple)
+    # NOTE: No evidence level - binary model only
+    conn_type = relationship_type.split('/')[0].strip() if relationship_type else 'SOC'
 
     return {
         'entity1': entity1,
@@ -222,10 +210,9 @@ def parse_connection_brief(brief_path: Path) -> Optional[Dict]:
         'summary': summary,
         'full_summary': full_summary,
         'relationship_type': relationship_type,
-        'evidence_level': evidence_level,
         'direction': direction,
         'status': status,
-        'strength': strength,
+        'sources_count': len(sources),  # Binary model: count sources, no strength scoring
         'type': conn_type,
         'bidirectional': is_bidirectional,
         'sources': sources,
@@ -274,20 +261,20 @@ def build_connections_json(briefs: List[Dict]) -> Dict:
         connection = {
             'source': pair[0],
             'target': pair[1],
-            'strength': brief['strength'],
+            'sources_count': brief['sources_count'],  # Binary model: count sources, no strength scoring
             'type': brief['type'],
             'evidence': evidence,
             'bidirectional': brief['bidirectional'],
             'source_mentions_target': True,  # Brief exists, so documented
             'target_mentions_source': brief['bidirectional'],
-            'summary': brief['summary'],  # NEW: Include summary in connections.json
+            'summary': brief['summary'],
             'brief_file': brief['brief_file']
         }
 
         connections.append(connection)
 
-    # Sort by strength descending
-    connections.sort(key=lambda x: -x['strength'])
+    # Sort by sources_count descending (most documented connections first)
+    connections.sort(key=lambda x: -x['sources_count'])
 
     return {
         'generated': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),

@@ -200,14 +200,16 @@ openECFDocument(ecf) {
 
 ### connections.json
 
+**Note:** `connections.json` is DERIVED from connection briefs. No subjective strength scoring.
+
 Stores entity-to-entity connections with evidence array:
 
 ```json
 {
   "source": "bill-clinton",
   "target": "virginia-giuffre",
-  "strength": 100,
-  "type": "documented",
+  "sources_count": 5,
+  "type": "SOC",
   "evidence": [
     "ECF 1328-44",
     "ECF 1320-28",
@@ -215,7 +217,8 @@ Stores entity-to-entity connections with evidence array:
     "ECF 1331-19",
     "ECF 1320-6"
   ],
-  "bidirectional": true
+  "bidirectional": true,
+  "brief_file": "bill-clinton_virginia-giuffre.md"
 }
 ```
 
@@ -228,9 +231,8 @@ Stores connection details with structured source objects:
 ```json
 {
   "entityId": "virginia-giuffre",
-  "summary": "Connection between Alan Dershowitz and this entity is documented in 20 court filing reference(s).",
-  "strength": "documented",
-  "count": 20,
+  "summary": "One-sentence description of connection nature based on source documents.",
+  "sources_count": 3,
   "sources": [
     {
       "id": "1320-9",
@@ -245,6 +247,8 @@ Stores connection details with structured source objects:
   ]
 }
 ```
+
+**Note:** No "strength" field - binary model only. Connections exist (in a brief) or they don't.
 
 ### entities.json (referenced, not shown)
 

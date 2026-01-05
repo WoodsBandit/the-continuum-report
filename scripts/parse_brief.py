@@ -323,8 +323,18 @@ def find_entity_mentions(content: str, self_id: str) -> dict:
     return mentions
 
 
-def determine_connection_strength(mention_data: dict) -> str:
-    """Determine connection strength based on mention context"""
+def determine_connection_strength_DEPRECATED(mention_data: dict) -> str:
+    """
+    DEPRECATED: Determine connection strength based on mention context.
+
+    DEPRECATED as of 2026-01:
+    The binary connection model eliminates subjective strength scoring.
+    Connections exist (in a brief) or they don't. No scoring.
+
+    Use: python scripts/build_connections_from_briefs.py
+
+    Keeping this code for backwards compatibility only.
+    """
     if mention_data['in_public_record']:
         return 'documented'
     elif mention_data['in_editorial']:
@@ -384,7 +394,9 @@ def parse_brief(filepath: str) -> dict:
         'mention_details': {
             eid: {
                 'count': data['count'],
-                'strength': determine_connection_strength(data),
+                'in_public_record': data.get('in_public_record', False),
+                'in_editorial': data.get('in_editorial', False),
+                # NOTE: No 'strength' field - binary model only
             }
             for eid, data in mentions_data.items()
         },

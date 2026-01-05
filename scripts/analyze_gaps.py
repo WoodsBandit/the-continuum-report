@@ -78,13 +78,13 @@ def analyze_weak_connections(connections, co_occurrence):
         else:
             co_count = 0
 
-        # Flag weak connections (co-count < 2)
+        # Flag connections with few co-occurrences (co-count < 2)
         if co_count < 2:
             weak_connections.append({
                 'source': source,
                 'target': target,
                 'co_occurrence': co_count,
-                'strength': conn.get('strength', 'unknown'),
+                'sources_count': conn.get('sources_count', 0),  # Binary model: no strength scoring
                 'type': conn.get('type', 'unknown'),
                 'evidence': conn.get('evidence', [])
             })
@@ -190,7 +190,7 @@ def generate_report(entity_registry, source_mentions, co_occurrence, connections
         for item in weak[:20]:
             report.append(f"\n### {item['source']} → {item['target']}")
             report.append(f"- **Co-occurrence:** {item['co_occurrence']}")
-            report.append(f"- **Strength:** {item['strength']}")
+            report.append(f"- **Sources:** {item['sources_count']}")
             report.append(f"- **Type:** {item['type']}")
             report.append(f"- **Evidence:** {', '.join(item['evidence'][:3])}")
 

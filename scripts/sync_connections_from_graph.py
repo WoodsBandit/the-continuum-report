@@ -55,8 +55,8 @@ def load_connections_graph() -> Dict[str, List[dict]]:
     for conn in connections:
         source = conn.get('source')
         target = conn.get('target')
-        conn_type = conn.get('type', 'referenced')
-        strength = conn.get('strength', 50)
+        conn_type = conn.get('type', 'SOC')
+        sources_count = conn.get('sources_count', 0)  # Binary model: no strength scoring
         description = conn.get('description', '')
 
         if not source or not target:
@@ -68,7 +68,7 @@ def load_connections_graph() -> Dict[str, List[dict]]:
         graph[source].append({
             'targetId': target,
             'type': conn_type,
-            'strength': strength,
+            'sources_count': sources_count,
             'description': description,
             'summary': '',
             'sources': []
@@ -80,7 +80,7 @@ def load_connections_graph() -> Dict[str, List[dict]]:
         graph[target].append({
             'targetId': source,
             'type': conn_type,
-            'strength': strength,
+            'sources_count': sources_count,
             'description': description,
             'summary': '',
             'sources': []
