@@ -204,3 +204,93 @@ All acquired documents verified per SOP-005:
 ---
 
 *The Continuum Report — Another Node in the Decentralized Intelligence Agency*
+
+---
+
+# Round 2: OSS/CIA Foreign Intelligence Connections
+
+**Request:** OSS/CIA connections with foreign nationals, connections to all foreign intelligence agencies, exploring global governance narrative
+
+---
+
+## Round 2 Summary
+
+| Metric | Count |
+|--------|-------|
+| Documents Acquired | 11 |
+| **Total File Size** | **~13 MB** |
+| Category | `intelligence/` |
+
+---
+
+## Round 2 Acquisitions
+
+### OSS/CIA & Operation Paperclip
+
+| File | Size | Source |
+|------|------|--------|
+| `operation-paperclip-cia-review.pdf` | 207 KB | CIA CSI |
+| `operation-paperclip-fbi.pdf` | 2.0 MB | Black Vault |
+
+### NATO Stay-Behind Networks (Operation Gladio)
+
+| File | Size | Source |
+|------|------|--------|
+| `natos-secret-armies-ganser.pdf` | 2.9 MB | libcom.org |
+| `gladio-approach-ganser.pdf` | 164 KB | Seton Hall Journal |
+| `nato-secret-armies-eth.pdf` | 32 KB | ETH Zurich |
+| `parallel-history-nato-warsaw-pact.pdf` | 320 KB | SIPER |
+
+### Five Eyes / UKUSA Alliance
+
+| File | Size | Source |
+|------|------|--------|
+| `ukusa-highlights-guide.pdf` | 165 KB | UK National Archives |
+| `ukusa-history-harvard.pdf` | 1.1 MB | Harvard DASH |
+
+### James Angleton & CIA Counterintelligence
+
+| File | Size | Source |
+|------|------|--------|
+| `cia-angleton-phenomenon-2009.pdf` | 249 KB | CIA CSI |
+| `dni-counterintelligence-reader-vol3.pdf` | 3.4 MB | DNI/NCSC |
+| `cia-studies-intelligence-2024.pdf` | 2.5 MB | CIA CSI |
+
+---
+
+## Key Thematic Findings
+
+### 1. Angleton-Mossad "Special Relationship"
+- FBI report documents "frequent personal liaison contacts" with Mossad
+- Mossad was Angleton's "primary source" of information
+- Israeli intelligence "cleared matters with Angleton" before dissemination
+- Church Committee testimony reveals Israeli officer in Havana as CIA channel
+
+### 2. OSS/CIA Foreign National Integration
+- Operation Paperclip brought 1,500+ German scientists/technicians to US
+- OSS personnel files (35,000+ files, 750,000 pages) declassified 2008
+- German intelligence personnel integrated into newly formed CIA
+
+### 3. NATO Stay-Behind Networks
+- Gladio coordinated through Allied Clandestine Committee (ACC)
+- Networks covered all European NATO members plus neutral countries
+- Last ACC meeting: October 24, 1990 in Brussels
+
+### 4. Five Eyes Intelligence Alliance
+- BRUSA/UKUSA agreement signed March 5, 1946
+- Foundation for modern Five Eyes alliance
+
+---
+
+## Combined Acquisition Totals
+
+| Round | Documents | Size |
+|-------|-----------|------|
+| Round 1 (Congressional) | 3 | ~79.5 MB |
+| Round 2 (Intelligence) | 11 | ~13 MB |
+| **Total** | **14** | **~92.5 MB** |
+
+---
+
+**Report Updated:** 2026-01-05
+**Status:** Round 2 Complete
