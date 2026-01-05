@@ -769,7 +769,7 @@ Once documents are acquired:
 
 ```
 1. Source files in /continuum/website/sources/ are served directly by website
-2. Copy source PDFs to Paperless inbox for OCR and indexing:
+2. **MANDATORY:** Copy source PDFs to Paperless for OCR and indexing:
     - /continuum/paperless-inbox/ OR
     - Paperless web upload
 3. Paperless webhook triggers Stage 1 of pipeline
@@ -823,6 +823,7 @@ If acquired documents relate to existing briefs:
 - [ ] Acquisition report written
 - [ ] All files in correct locations
 - [ ] Manifests updated
+- [ ] **MANDATORY: All PDFs uploaded to Paperless** (via inbox or API)
 - [ ] Pending items documented
 ```
 
