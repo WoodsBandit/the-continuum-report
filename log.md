@@ -2,12 +2,31 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-05 (Session 12)
+**Last Updated:** 2026-01-05 (Session 13)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-05 — Session 13: Server Automation Cleanup
+
+**Operator:** WoodsBandit
+**Duration:** ~30 min
+**Primary Task:** Disable automatic services on Tower to prevent RAM exhaustion
+
+#### Summary
+
+Reviewed all automated services on Tower server and disabled non-essential ones. Nomifactory-CEu and ollama Docker autostart disabled. User Scripts not installed, no custom cron jobs found.
+
+#### Key Changes
+
+- Nomifactory-CEu autostart: DISABLED (~2.55 GiB RAM)
+- ollama autostart: DISABLED (4-8 GiB when loading models)
+- Created DISABLED_AUTOMATIONS_2026-01-05.md
+
+---
+
 
 ### 2026-01-05 — Session 12: Binary Connection Model - Remove Strength Scoring
 
