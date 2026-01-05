@@ -1,0 +1,140 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Version control
+.svn
+.hg
+
+# IDE and editors
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings
+*.sublime-workspace
+*.sublime-project
+
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Documentation
+docs/
+*.md
+LICENSE
+README*
+
+# Testing
+tests/
+test_*
+*_test.py
+.pytest_cache
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.circleci
+jenkins/
+azure-pipelines.yml
+
+# Cloud and deployment
+.terraform
+terraform.tfstate*
+.env
+.env.local
+.env.*.local
+
+# Database and logs
+*.db
+*.log
+logs/
+
+# Data that shouldn't be in image
+downloads/
+documents/
+reports/
+entity_data/
+checkpoints/
+cache/
+briefs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# OS specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Node modules (if any frontend)
+node_modules/
+npm-debug.log
+
+# Docker files (don't include in image)
+docker/
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Development files
+.claude
+.env.example
+SESSION_LOG.md
+SESSION_START_PROMPT.md
+setup-*.sh
+
+# Archive/backup directories
+_archive/
+*_backup*
+*_archive*
+-md_backups/
+
+# Large assessment/documentation files
+ASSESSMENT_COMPLETE.txt
+CONTINUUM_REPORT_INFRASTRUCTURE_ASSESSMENT.md
+FILE_ORGANIZATION_ANALYSIS.md
+IMPLEMENTATION_ROADMAP.md
+CLAUDE.md
+*.ipynb

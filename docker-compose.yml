@@ -1,0 +1,196 @@
+version: '3.8'
+
+# The Continuum Report - Docker Compose Configuration
+# Production-ready with networking, volumes, and environment variable management
+
+services:
+  # ==========================================================================
+  # MAIN APPLICATION SERVICE
+  # ==========================================================================
+  continuum:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: continuum-pipeline
+    image: continuum-report:latest
+    restart: unless-stopped
+
+    # Environment variables
+    environment:
+      # Paperless-ngx Configuration
+      PAPERLESS_URL: ${PAPERLESS_URL:-http://paperless:8000}
+      PAPERLESS_TOKEN: ${PAPERLESS_TOKEN}
+      PAPERLESS_TIMEOUT: ${PAPERLESS_TIMEOUT:-30}
+
+      # Ollama Configuration
+      OLLAMA_URL: ${OLLAMA_URL:-http://ollama:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-mistral}
+      OLLAMA_CONTEXT_SIZE: ${OLLAMA_CONTEXT_SIZE:-1024}
+      OLLAMA_TIMEOUT: ${OLLAMA_TIMEOUT:-600}
+
+      # Directory Configuration
+      CONTINUUM_BASE_DIR: /continuum
+
+      # Website Configuration
+      WEBSITE_BASE_URL: ${WEBSITE_BASE_URL:-https://thecontinuumreport.com}
+
+      # Processing Configuration
+      MAX_DOCUMENTS_TO_SEARCH: ${MAX_DOCUMENTS_TO_SEARCH:-9999}
+      MAX_DOCUMENTS_FOR_ENTITIES: ${MAX_DOCUMENTS_FOR_ENTITIES:-9999}
+
+      # Python Settings
+      PYTHONUNBUFFERED: 1
+      PYTHONDONTWRITEBYTECODE: 1
+
+    # Volume mounts for persistent data
+    volumes:
+      # Data persistence
+      - continuum-entity-data:/continuum/entity_data
+      - continuum-reports:/continuum/reports
+      - continuum-checkpoints:/continuum/checkpoints
+      - continuum-documents:/continuum/documents
+
+      # Shared configuration (read-only)
+      - ./scripts:/continuum/scripts:ro
+
+    # Network configuration
+    networks:
+      - continuum-network
+
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8G
+        reservations:
+          cpus: '2'
+          memory: 4G
+
+    # Logging configuration
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+        labels: "service=continuum"
+
+    # Dependencies - wait for external services
+    depends_on:
+      - paperless
+      - ollama
+
+  # ==========================================================================
+  # PAPERLESS-NGX SERVICE (Optional - for containerized setup)
+  # ==========================================================================
+  paperless:
+    image: ghcr.io/paperless-ngx/paperless-ngx:2.0.0
+    container_name: continuum-paperless
+    restart: unless-stopped
+
+    environment:
+      PAPERLESS_SECRET_KEY: ${PAPERLESS_SECRET_KEY:-changeme-insecure-key}
+      PAPERLESS_URL: ${PAPERLESS_URL_EXTERNAL:-http://localhost:8040}
+      PAPERLESS_CONSUMPTION_DIR: /paperless/consume
+      PAPERLESS_DATA_DIR: /paperless/data
+      PAPERLESS_LOGGING_DIR: /paperless/log
+      PAPERLESS_MEDIA_ROOT: /paperless/media
+      # Disable web interface for API-only access
+      PAPERLESS_ENABLE_COMPRESSION: "false"
+
+    volumes:
+      - paperless-data:/paperless/data
+      - paperless-media:/paperless/media
+      - paperless-log:/paperless/log
+      - paperless-consume:/paperless/consume
+
+    networks:
+      - continuum-network
+
+    ports:
+      - "8040:8000"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 2G
+
+  # ==========================================================================
+  # OLLAMA SERVICE (Optional - for containerized setup)
+  # ==========================================================================
+  ollama:
+    image: ollama/ollama:latest
+    container_name: continuum-ollama
+    restart: unless-stopped
+
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+
+    volumes:
+      - ollama-models:/root/.ollama
+
+    networks:
+      - continuum-network
+
+    ports:
+      - "11434:11434"
+
+    # GPU support (uncomment if running on GPU host)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+    deploy:
+      resources:
+        limits:
+          cpus: '8'
+          memory: 16G
+        reservations:
+          cpus: '4'
+          memory: 8G
+
+# =============================================================================
+# NETWORKS
+# =============================================================================
+networks:
+  continuum-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
+
+# =============================================================================
+# VOLUMES
+# =============================================================================
+volumes:
+  # Continuum data volumes
+  continuum-entity-data:
+    driver: local
+  continuum-reports:
+    driver: local
+  continuum-checkpoints:
+    driver: local
+  continuum-documents:
+    driver: local
+
+  # Paperless volumes
+  paperless-data:
+    driver: local
+  paperless-media:
+    driver: local
+  paperless-log:
+    driver: local
+  paperless-consume:
+    driver: local
+
+  # Ollama models volume
+  ollama-models:
+    driver: local

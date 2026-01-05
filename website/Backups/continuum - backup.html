@@ -1,0 +1,2328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Continuum | The Continuum Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --void: #0a0a0b;
+            --deep: #12101a;
+            --mystic: #2d2445;
+            --gold: #c9a227;
+            --gold-dim: rgba(201, 162, 39, 0.4);
+            --gold-glow: rgba(201, 162, 39, 0.6);
+            --smoke: #9a9a9a;
+            --mist: #c4c4c4;
+            --pure: #f5f5f5;
+            --purple: #8b6fc0;
+            --purple-dim: rgba(139, 111, 192, 0.3);
+
+            --color-person: #c9a227;
+            --color-organization: #8b6fc0;
+            --color-case: #60a5fa;
+            --color-location: #4ade80;
+        }
+
+        html, body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--void);
+            color: var(--mist);
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* LOADING STATE */
+        #loadingOverlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: var(--void);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: opacity 0.5s;
+        }
+        #loadingOverlay.hidden { opacity: 0; pointer-events: none; }
+        .loading-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            color: var(--gold);
+            letter-spacing: 0.3em;
+            margin-bottom: 2rem;
+        }
+        .loading-spinner {
+            width: 50px; height: 50px;
+            border: 2px solid var(--purple-dim);
+            border-top-color: var(--gold);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        .loading-status {
+            margin-top: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--smoke);
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* HEADER */
+        header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1.5rem;
+            background: rgba(10, 10, 11, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--gold-dim);
+            z-index: 100;
+        }
+        .logo {
+            font-family: 'Cinzel', serif;
+            font-size: 1rem;
+            letter-spacing: 0.2em;
+            color: var(--gold);
+            text-decoration: none;
+        }
+        .search-container { position: relative; width: 300px; }
+        #searchInput {
+            width: 100%;
+            padding: 0.5rem 1rem 0.5rem 2.5rem;
+            background: rgba(45, 36, 69, 0.6);
+            border: 1px solid var(--purple-dim);
+            border-radius: 20px;
+            color: var(--pure);
+            font-size: 0.9rem;
+        }
+        #searchInput:focus { outline: none; border-color: var(--gold); }
+        #searchInput::placeholder { color: var(--smoke); }
+        .search-icon {
+            position: absolute;
+            left: 0.75rem; top: 50%;
+            transform: translateY(-50%);
+            color: var(--smoke);
+            width: 18px; height: 18px;
+        }
+        .header-stats {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--smoke);
+        }
+        .header-stats span { color: var(--gold); }
+
+        /* GRAPH */
+        #graphContainer {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: radial-gradient(ellipse at center, rgba(45, 36, 69, 0.1) 0%, transparent 70%);
+        }
+        #graphSvg { width: 100%; height: 100%; cursor: grab; }
+        #graphSvg:active { cursor: grabbing; }
+        .link { fill: none; transition: stroke 0.3s, stroke-width 0.3s, opacity 0.3s; }
+        .link.highlighted { stroke: var(--gold) !important; }
+        .link.dimmed { opacity: 0.1; }
+        .node { cursor: pointer; transition: opacity 0.3s; }
+        .node.dimmed { opacity: 0.15; }
+        .node-circle { fill: var(--deep); stroke-width: 2; transition: all 0.3s; }
+        .node.active .node-circle { stroke-width: 3; filter: drop-shadow(0 0 10px var(--gold-glow)); }
+        .node.pinned .node-circle { stroke-dasharray: 4 2; }
+        .node.pinned .node-label::after { content: ' 📌'; font-size: 9px; }
+        .node-label {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11px; fill: var(--mist);
+            text-anchor: middle; pointer-events: none;
+            transition: fill 0.3s, font-size 0.3s;
+        }
+        .node.active .node-label { fill: var(--pure); font-size: 13px; font-weight: 500; }
+        .node.highlighted .node-label { fill: var(--pure); }
+        .node-type-indicator {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 9px; fill: var(--smoke);
+            text-anchor: middle; text-transform: uppercase;
+        }
+
+        /* DETAIL PANEL */
+        #detailPanel {
+            position: fixed;
+            right: -420px; top: 60px;
+            width: 400px;
+            max-height: calc(100vh - 80px);
+            background: rgba(18, 16, 26, 0.98);
+            border: 1px solid var(--gold-dim);
+            border-right: none;
+            border-radius: 12px 0 0 12px;
+            overflow: hidden;
+            transition: right 0.3s ease;
+            z-index: 200;
+        }
+        #detailPanel.active { right: 0; }
+        .detail-header {
+            padding: 1.25rem;
+            background: rgba(201, 162, 39, 0.1);
+            border-bottom: 1px solid var(--gold-dim);
+        }
+        .detail-type {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+        .detail-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.3rem;
+            color: var(--pure);
+            line-height: 1.3;
+        }
+        .detail-status {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--smoke);
+            margin-top: 0.5rem;
+            line-height: 1.4;
+        }
+        .detail-close {
+            position: absolute;
+            top: 1rem; right: 1rem;
+            width: 32px; height: 32px;
+            background: rgba(139, 111, 192, 0.3);
+            border: none; border-radius: 50%;
+            color: var(--mist); font-size: 1.2rem;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .detail-close:hover { background: var(--gold); color: var(--void); }
+        .detail-content {
+            padding: 1.25rem;
+            overflow-y: auto;
+            max-height: calc(100vh - 240px);
+        }
+        .detail-content p { margin-bottom: 1rem; line-height: 1.7; font-size: 0.95rem; }
+        .detail-section {
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--purple-dim);
+        }
+        .detail-section h4 {
+            font-family: 'Cinzel', serif;
+            font-size: 0.85rem;
+            color: var(--gold);
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        .connection-list { list-style: none; }
+        .connection-item {
+            padding: 0.6rem 0;
+            border-bottom: 1px solid rgba(139, 111, 192, 0.1);
+            cursor: pointer;
+            transition: background 0.2s;
+            margin: 0 -1.25rem;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .connection-item:hover { background: rgba(201, 162, 39, 0.1); }
+        .connection-item:last-child { border-bottom: none; }
+        .connection-name { color: var(--pure); font-weight: 500; }
+        .connection-meta { display: flex; align-items: center; gap: 0.75rem; }
+        .connection-type { font-size: 0.65rem; color: var(--smoke); text-transform: uppercase; }
+        .connection-evidence {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .connection-evidence.documented {
+            background: rgba(201, 162, 39, 0.25);
+            color: var(--gold);
+        }
+        .connection-evidence.referenced {
+            background: rgba(139, 111, 192, 0.25);
+            color: var(--purple);
+        }
+        .connection-evidence.associated {
+            background: rgba(154, 154, 154, 0.2);
+            color: var(--smoke);
+        }
+        .source-list { list-style: none; }
+        .source-item {
+            padding: 0.5rem 0;
+            font-size: 0.85rem;
+            border-bottom: 1px solid rgba(139, 111, 192, 0.1);
+            cursor: pointer;
+            transition: background 0.2s;
+            margin: 0 -1.25rem;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
+        }
+        .source-item:hover { background: rgba(201, 162, 39, 0.1); }
+        .source-item:last-child { border-bottom: none; }
+        .source-ecf {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--gold);
+        }
+        .source-desc { color: var(--smoke); font-size: 0.8rem; }
+
+        /* ACTION BUTTONS */
+        .action-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            margin-right: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            background: rgba(201, 162, 39, 0.2);
+            border: 1px solid var(--gold-dim);
+            border-radius: 6px;
+            color: var(--gold);
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.85rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .action-btn:hover { background: var(--gold); color: var(--void); }
+        .action-btn svg { width: 16px; height: 16px; }
+
+        /* BRIEF VIEWER MODAL */
+        #briefViewer {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(10, 10, 11, 0.98);
+            z-index: 500;
+            display: none;
+            flex-direction: column;
+        }
+        #briefViewer.active { display: flex; }
+        .brief-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background: rgba(18, 16, 26, 0.95);
+            border-bottom: 1px solid var(--gold-dim);
+            flex-shrink: 0;
+        }
+        .brief-header-left {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .brief-back-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(139, 111, 192, 0.2);
+            border: 1px solid var(--purple-dim);
+            border-radius: 6px;
+            color: var(--mist);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .brief-back-btn:hover { background: var(--purple); color: var(--pure); }
+        .brief-title-bar {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            color: var(--gold);
+        }
+        .brief-nav {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .brief-nav-btn {
+            padding: 0.5rem 1rem;
+            background: rgba(45, 36, 69, 0.6);
+            border: 1px solid var(--purple-dim);
+            border-radius: 6px;
+            color: var(--mist);
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .brief-nav-btn:hover { border-color: var(--gold); color: var(--gold); }
+        .brief-nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .brief-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2rem 4rem;
+        }
+        .brief-content {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(18, 16, 26, 0.6);
+            border: 1px solid var(--purple-dim);
+            border-radius: 12px;
+            padding: 3rem;
+        }
+        .brief-loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            color: var(--smoke);
+        }
+        .brief-loading .loading-spinner { width: 40px; height: 40px; margin-bottom: 1rem; }
+
+        /* BRIEF MARKDOWN STYLES */
+        .brief-content h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--gold-dim);
+        }
+        .brief-content h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4rem;
+            color: var(--pure);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--purple-dim);
+        }
+        .brief-content h3 {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .brief-content h4 {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--mist);
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .brief-content p {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--mist);
+            margin-bottom: 1.25rem;
+        }
+        .brief-content blockquote {
+            margin: 1.5rem 0;
+            padding: 1.25rem 1.5rem;
+            background: rgba(201, 162, 39, 0.08);
+            border-left: 3px solid var(--gold);
+            border-radius: 0 8px 8px 0;
+        }
+        .brief-content blockquote p {
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        .brief-content blockquote p:last-child { margin-bottom: 0; }
+        .brief-content ul, .brief-content ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        .brief-content li {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: var(--mist);
+            margin-bottom: 0.5rem;
+        }
+        .brief-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+        .brief-content th, .brief-content td {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--purple-dim);
+            text-align: left;
+        }
+        .brief-content th {
+            background: rgba(139, 111, 192, 0.2);
+            font-weight: 600;
+            color: var(--pure);
+        }
+        .brief-content td { color: var(--mist); }
+        .brief-content tr:nth-child(even) td { background: rgba(45, 36, 69, 0.2); }
+        .brief-content strong { color: var(--pure); font-weight: 600; }
+        .brief-content em { font-style: italic; }
+        .brief-content hr {
+            border: none;
+            height: 1px;
+            background: var(--purple-dim);
+            margin: 2rem 0;
+        }
+        .brief-content code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85em;
+            background: rgba(45, 36, 69, 0.6);
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+            color: var(--gold);
+        }
+        .brief-content a {
+            color: var(--gold);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .brief-content a:hover { color: var(--pure); }
+
+        /* Entity links in brief content */
+        .entity-mention {
+            color: var(--gold);
+            cursor: pointer;
+            border-bottom: 1px dotted var(--gold-dim);
+            transition: all 0.2s;
+        }
+        .entity-mention:hover {
+            background: rgba(201, 162, 39, 0.2);
+            border-bottom-color: var(--gold);
+        }
+
+        /* PDF VIEWER MODAL */
+        #pdfViewer {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(10, 10, 11, 0.98);
+            z-index: 600;
+            display: none;
+            flex-direction: column;
+        }
+        #pdfViewer.active { display: flex; }
+        .pdf-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background: rgba(18, 16, 26, 0.95);
+            border-bottom: 1px solid var(--gold-dim);
+            flex-shrink: 0;
+            gap: 1rem;
+        }
+        .pdf-header-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex: 1;
+            min-width: 0;
+        }
+        .pdf-title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--gold);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .pdf-header-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+        .pdf-close-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(139, 111, 192, 0.2);
+            border: 1px solid var(--purple-dim);
+            border-radius: 6px;
+            color: var(--mist);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .pdf-close-btn:hover { background: var(--purple); color: var(--pure); }
+        .pdf-container {
+            flex: 1;
+            background: #1a1a1a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .pdf-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .pdf-canvas-wrapper {
+            flex: 1;
+            width: 100%;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .pdf-canvas-wrapper canvas {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            /* Width and height set via JS for crisp retina rendering */
+        }
+        .pdf-nav-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: rgba(18, 16, 26, 0.95);
+            border-top: 1px solid var(--purple-dim);
+            flex-shrink: 0;
+        }
+        .pdf-nav-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            background: rgba(139, 111, 192, 0.2);
+            border: 1px solid var(--purple-dim);
+            border-radius: 8px;
+            color: var(--mist);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .pdf-nav-btn:hover:not(:disabled) {
+            background: var(--purple);
+            color: var(--pure);
+            border-color: var(--purple);
+        }
+        .pdf-nav-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        .pdf-page-info {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--mist);
+            min-width: 80px;
+            text-align: center;
+        }
+        .pdf-zoom-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-left: 1rem;
+            padding-left: 1rem;
+            border-left: 1px solid var(--purple-dim);
+        }
+        .pdf-zoom-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: rgba(45, 36, 69, 0.6);
+            border: 1px solid var(--purple-dim);
+            border-radius: 6px;
+            color: var(--mist);
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .pdf-zoom-btn:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+        .pdf-download-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--gold);
+            border: none;
+            border-radius: 6px;
+            color: var(--void);
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .pdf-download-link:hover { background: var(--pure); }
+        .pdf-placeholder {
+            text-align: center;
+            color: var(--smoke);
+            padding: 2rem;
+        }
+        .pdf-placeholder h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+        .pdf-placeholder p { margin-bottom: 1rem; }
+        .pdf-download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: var(--gold);
+            border: none;
+            border-radius: 6px;
+            color: var(--void);
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .pdf-download-btn:hover { background: var(--pure); }
+        .pacer-verify {
+            display: inline-block;
+            padding: 0.6rem 1rem;
+            background: rgba(201, 162, 39, 0.15);
+            border: 1px solid var(--gold);
+            border-radius: 6px;
+            color: var(--mist);
+            font-size: 0.9rem;
+        }
+        .pacer-verify em { color: var(--gold); }
+        .pdf-loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem;
+            color: var(--smoke);
+        }
+        .pdf-loading .loading-spinner {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 1rem;
+        }
+        .pdf-error {
+            text-align: center;
+            padding: 2rem;
+            color: var(--smoke);
+        }
+        .pdf-error h3 {
+            color: #ef4444;
+            margin-bottom: 1rem;
+        }
+
+        /* Mobile PDF viewer optimizations */
+        @media (max-width: 768px) {
+            .pdf-header {
+                padding: 0.75rem 1rem;
+                flex-wrap: wrap;
+            }
+            .pdf-header-left {
+                width: 100%;
+                margin-bottom: 0.5rem;
+            }
+            .pdf-title {
+                font-size: 0.8rem;
+            }
+            .pdf-header-controls {
+                width: 100%;
+                justify-content: space-between;
+            }
+            .pdf-close-btn span {
+                display: none;
+            }
+            .pdf-nav-controls {
+                padding: 0.75rem;
+                gap: 0.75rem;
+            }
+            .pdf-nav-btn {
+                width: 48px;
+                height: 48px;
+                font-size: 1.3rem;
+            }
+            .pdf-zoom-controls {
+                display: none;
+            }
+            .pdf-canvas-wrapper {
+                padding: 0.5rem;
+            }
+        }
+
+        /* ECF CLICKABLE LINKS */
+        .ecf-link {
+            color: var(--gold);
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-underline-offset: 2px;
+            transition: all 0.2s ease;
+            padding: 0 0.15em;
+            border-radius: 2px;
+        }
+        .ecf-link:hover {
+            color: var(--pure);
+            background: rgba(201, 162, 39, 0.2);
+            text-decoration-style: solid;
+        }
+        .ecf-table-row:hover {
+            background: rgba(201, 162, 39, 0.1) !important;
+        }
+        .ecf-table-row td {
+            transition: background 0.2s ease;
+        }
+
+        /* LEGEND */
+        #legend {
+            position: fixed;
+            bottom: 1.5rem; left: 1.5rem;
+            display: flex;
+            gap: 1.25rem;
+            padding: 0.75rem 1rem;
+            background: rgba(18, 16, 26, 0.9);
+            border: 1px solid var(--purple-dim);
+            border-radius: 8px;
+            z-index: 50;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.75rem;
+            color: var(--smoke);
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .legend-item:hover { color: var(--pure); }
+        .legend-item.active { color: var(--pure); }
+        .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+        /* CONTROLS */
+        #controls {
+            position: fixed;
+            bottom: 1.5rem; right: 1.5rem;
+            display: flex;
+            gap: 0.5rem;
+            z-index: 50;
+        }
+        .control-btn {
+            width: 40px; height: 40px;
+            background: rgba(18, 16, 26, 0.9);
+            border: 1px solid var(--purple-dim);
+            border-radius: 8px;
+            color: var(--mist);
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        .control-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+        /* TOOLTIP */
+        #tooltip {
+            position: fixed;
+            padding: 0.6rem 0.85rem;
+            background: rgba(18, 16, 26, 0.95);
+            border: 1px solid var(--gold);
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: var(--pure);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+            max-width: 280px;
+        }
+        #tooltip.visible { opacity: 1; }
+        #tooltip .tooltip-type {
+            font-size: 0.65rem;
+            color: var(--smoke);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.2rem;
+        }
+        #tooltip .tooltip-name { font-weight: 500; margin-bottom: 0.3rem; }
+        #tooltip .tooltip-connections { font-size: 0.75rem; color: var(--smoke); }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header { padding: 0.5rem 1rem; }
+            .logo { font-size: 0.8rem; }
+            .search-container { width: 180px; }
+            .header-stats { display: none; }
+            #detailPanel { width: 100%; right: -100%; border-radius: 0; }
+            #legend {
+                bottom: auto; top: 70px; left: 0.5rem;
+                flex-wrap: wrap; gap: 0.75rem; padding: 0.5rem 0.75rem;
+            }
+            .legend-item { font-size: 0.65rem; }
+            #controls { bottom: 1rem; right: 1rem; }
+            .brief-container { padding: 1rem; }
+            .brief-content { padding: 1.5rem; }
+            .brief-header { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div id="loadingOverlay">
+        <div class="loading-title">THE CONTINUUM</div>
+        <div class="loading-spinner"></div>
+        <div class="loading-status" id="loadingStatus">Loading knowledge graph...</div>
+    </div>
+
+    <header>
+        <a href="/" class="logo">TCR</a>
+        <div class="search-container">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="searchInput" placeholder="Filter entities...">
+        </div>
+        <div class="header-stats">
+            <span id="entityCount">0</span> entities · <span id="connectionCount">0</span> connections
+        </div>
+    </header>
+
+    <div id="graphContainer">
+        <svg id="graphSvg"></svg>
+    </div>
+
+    <div id="detailPanel">
+        <button class="detail-close" id="closeDetail">&times;</button>
+        <div class="detail-header">
+            <div class="detail-type" id="detailType">Person</div>
+            <h2 class="detail-title" id="detailTitle">Entity Name</h2>
+            <div class="detail-status" id="detailStatus"></div>
+        </div>
+        <div class="detail-content" id="detailContent"></div>
+    </div>
+
+    <!-- Brief Viewer Modal -->
+    <div id="briefViewer">
+        <div class="brief-header">
+            <div class="brief-header-left">
+                <button class="brief-back-btn" id="closeBrief">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Back to Graph
+                </button>
+                <span class="brief-title-bar" id="briefTitleBar">Analytical Brief</span>
+            </div>
+            <div class="brief-nav">
+                <button class="brief-nav-btn" id="briefPrev" disabled>Previous</button>
+                <button class="brief-nav-btn" id="briefNext" disabled>Next</button>
+            </div>
+        </div>
+        <div class="brief-container">
+            <div class="brief-content" id="briefContent">
+                <div class="brief-loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading analytical brief...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PDF Viewer Modal -->
+    <div id="pdfViewer">
+        <div class="pdf-header">
+            <div class="pdf-header-left">
+                <span class="pdf-title" id="pdfTitle">Document Viewer</span>
+            </div>
+            <div class="pdf-header-controls">
+                <a href="#" class="pdf-download-link" id="pdfDownloadLink" target="_blank" style="display: none;">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download
+                </a>
+                <button class="pdf-close-btn" id="closePdf">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                    <span>Close</span>
+                </button>
+            </div>
+        </div>
+        <div class="pdf-container" id="pdfContainer">
+            <div class="pdf-placeholder">
+                <h3>Document Viewer</h3>
+                <p>PDF viewer will appear here when documents are available.</p>
+            </div>
+        </div>
+        <div class="pdf-nav-controls" id="pdfNavControls" style="display: none;">
+            <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous Page">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18l-6-6 6-6"/>
+                </svg>
+            </button>
+            <span class="pdf-page-info" id="pdfPageInfo">1 / 1</span>
+            <button class="pdf-nav-btn" id="pdfNextPage" title="Next Page">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+            <div class="pdf-zoom-controls">
+                <button class="pdf-zoom-btn" id="pdfZoomOut" title="Zoom Out">−</button>
+                <button class="pdf-zoom-btn" id="pdfZoomIn" title="Zoom In">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="legend">
+        <div class="legend-item active" data-type="all">
+            <div class="legend-dot" style="background: var(--pure)"></div>
+            All
+        </div>
+        <div class="legend-item" data-type="person">
+            <div class="legend-dot" style="background: var(--color-person)"></div>
+            Person
+        </div>
+        <div class="legend-item" data-type="organization">
+            <div class="legend-dot" style="background: var(--color-organization)"></div>
+            Organization
+        </div>
+        <div class="legend-item" data-type="case">
+            <div class="legend-dot" style="background: var(--color-case)"></div>
+            Case
+        </div>
+    </div>
+
+    <div id="controls">
+        <button class="control-btn" id="zoomIn" title="Zoom In">+</button>
+        <button class="control-btn" id="zoomOut" title="Zoom Out">&minus;</button>
+        <button class="control-btn" id="resetView" title="Reset View">&#x27F2;</button>
+    </div>
+
+    <div id="tooltip">
+        <div class="tooltip-type"></div>
+        <div class="tooltip-name"></div>
+        <div class="tooltip-connections"></div>
+    </div>
+
+    <script>
+        // Configure marked.js
+        marked.setOptions({
+            breaks: true,
+            gfm: true
+        });
+
+        // ============================================================
+        // DATA LOADING
+        // ============================================================
+        // Global sources index for PDF availability checking
+        let sourcesIndex = null;
+
+        async function loadData() {
+            const statusEl = document.getElementById('loadingStatus');
+            try {
+                statusEl.textContent = 'Fetching entities...';
+                const entitiesRes = await fetch('/data/entities.json');
+                if (!entitiesRes.ok) throw new Error('Failed to load entities.json');
+                const entitiesData = await entitiesRes.json();
+
+                statusEl.textContent = 'Fetching connections...';
+                const connectionsRes = await fetch('/data/connections.json');
+                if (!connectionsRes.ok) throw new Error('Failed to load connections.json');
+                const connectionsData = await connectionsRes.json();
+
+                // Load sources index for PDF availability
+                statusEl.textContent = 'Fetching sources index...';
+                try {
+                    const sourcesRes = await fetch('/sources/index.json');
+                    if (sourcesRes.ok) {
+                        sourcesIndex = await sourcesRes.json();
+                    }
+                } catch (e) {
+                    console.warn('Sources index not available:', e);
+                }
+
+                statusEl.textContent = 'Building graph...';
+                return {
+                    entities: entitiesData.entities,
+                    connections: connectionsData.connections
+                };
+            } catch (error) {
+                console.error('Error loading data:', error);
+                throw error;
+            }
+        }
+
+        // ============================================================
+        // BRIEF VIEWER
+        // ============================================================
+        const BriefViewer = {
+            currentEntity: null,
+            entityList: [],
+            currentIndex: -1,
+
+            async open(entity) {
+                this.currentEntity = entity;
+                this.currentIndex = this.entityList.findIndex(e => e.id === entity.id);
+                this.updateNavButtons();
+
+                const viewer = document.getElementById('briefViewer');
+                const content = document.getElementById('briefContent');
+                const titleBar = document.getElementById('briefTitleBar');
+
+                titleBar.textContent = entity.name;
+                content.innerHTML = `
+                    <div class="brief-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading analytical brief...</p>
+                    </div>
+                `;
+                viewer.classList.add('active');
+
+                try {
+                    const briefPath = `/briefs/${entity.brief_file}`;
+                    const response = await fetch(briefPath);
+
+                    if (!response.ok) {
+                        throw new Error(`Brief not found: ${briefPath}`);
+                    }
+
+                    const markdown = await response.text();
+                    const html = this.renderMarkdown(markdown);
+                    content.innerHTML = html;
+
+                    // Add click handlers for entity mentions
+                    this.linkifyEntityMentions(content);
+
+                } catch (error) {
+                    console.error('Error loading brief:', error);
+                    content.innerHTML = `
+                        <div style="text-align: center; padding: 3rem;">
+                            <h2 style="color: var(--gold); margin-bottom: 1rem;">Brief Not Available</h2>
+                            <p style="color: var(--smoke); margin-bottom: 1.5rem;">
+                                The analytical brief for ${entity.name} could not be loaded.
+                            </p>
+                            <p style="color: var(--smoke); font-size: 0.9rem;">
+                                Expected location: /briefs/${entity.brief_file}
+                            </p>
+                        </div>
+                    `;
+                }
+            },
+
+            renderMarkdown(markdown) {
+                return marked.parse(markdown);
+            },
+
+            linkifyEntityMentions(container) {
+                // Get all known entity names
+                const entityNames = {};
+                this.entityList.forEach(e => {
+                    entityNames[e.name.toLowerCase()] = e;
+                    // Also add common variations
+                    const nameParts = e.name.split(' ');
+                    if (nameParts.length > 1) {
+                        entityNames[nameParts[nameParts.length - 1].toLowerCase()] = e;
+                    }
+                });
+
+                // Linkify ECF references throughout the brief
+                this.linkifyECFReferences(container);
+            },
+
+            // Convert ECF references into clickable links
+            linkifyECFReferences(container) {
+                // Regex patterns to match various ECF reference formats
+                const ecfPatterns = [
+                    /ECF\s+(?:Doc(?:ument)?\.?\s*)?(\d{3,4}(?:-\d{1,3})?)/gi,
+                    /ECF\s+#?\s*(\d{3,4}(?:-\d{1,3})?)/gi,
+                    /Document\s+(\d{3,4}-\d{1,3})/gi,
+                    /Doc\.\s*(\d{3,4}-\d{1,3})/gi
+                ];
+
+                // Combined pattern for all formats
+                const combinedPattern = /(?:ECF\s+(?:Doc(?:ument)?\.?\s*)?#?\s*|Document\s+|Doc\.\s*)(\d{3,4}(?:-\d{1,3})?)/gi;
+
+                // Process all text nodes in the container
+                const walker = document.createTreeWalker(
+                    container,
+                    NodeFilter.SHOW_TEXT,
+                    null,
+                    false
+                );
+
+                const nodesToProcess = [];
+                let node;
+                while (node = walker.nextNode()) {
+                    if (combinedPattern.test(node.textContent)) {
+                        nodesToProcess.push(node);
+                    }
+                    combinedPattern.lastIndex = 0; // Reset regex
+                }
+
+                // Process each text node
+                nodesToProcess.forEach(textNode => {
+                    const text = textNode.textContent;
+                    const parent = textNode.parentNode;
+
+                    // Skip if already inside a link or ECF link
+                    if (parent.tagName === 'A' || parent.classList?.contains('ecf-link')) {
+                        return;
+                    }
+
+                    // Create a temporary container
+                    const span = document.createElement('span');
+                    let lastIndex = 0;
+                    let match;
+                    let hasMatches = false;
+
+                    // Reset and find all matches
+                    combinedPattern.lastIndex = 0;
+                    const matches = [];
+                    while ((match = combinedPattern.exec(text)) !== null) {
+                        matches.push({
+                            fullMatch: match[0],
+                            ecf: match[1],
+                            index: match.index
+                        });
+                    }
+
+                    if (matches.length === 0) return;
+
+                    matches.forEach(m => {
+                        hasMatches = true;
+                        // Add text before the match
+                        if (m.index > lastIndex) {
+                            span.appendChild(document.createTextNode(text.slice(lastIndex, m.index)));
+                        }
+
+                        // Create clickable ECF link
+                        const ecfLink = document.createElement('span');
+                        ecfLink.className = 'ecf-link';
+                        ecfLink.textContent = m.fullMatch;
+                        ecfLink.dataset.ecf = m.ecf;
+                        ecfLink.title = `View ECF ${m.ecf}`;
+                        ecfLink.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            this.openECFDocument(m.ecf);
+                        });
+
+                        span.appendChild(ecfLink);
+                        lastIndex = m.index + m.fullMatch.length;
+                    });
+
+                    // Add remaining text
+                    if (lastIndex < text.length) {
+                        span.appendChild(document.createTextNode(text.slice(lastIndex)));
+                    }
+
+                    if (hasMatches) {
+                        parent.replaceChild(span, textNode);
+                    }
+                });
+
+                // Also make table cells with ECF numbers clickable
+                this.linkifySourceTables(container);
+            },
+
+            // Make source document tables clickable
+            linkifySourceTables(container) {
+                const tables = container.querySelectorAll('table');
+                tables.forEach(table => {
+                    const rows = table.querySelectorAll('tbody tr, tr');
+                    rows.forEach(row => {
+                        const cells = row.querySelectorAll('td');
+                        if (cells.length >= 2) {
+                            const firstCell = cells[0];
+                            const text = firstCell.textContent.trim();
+
+                            // Check if first cell contains an ECF reference
+                            // Handles: 1320-9, 1329-0_1, 1328-44, etc.
+                            const ecfMatch = text.match(/^(\d{3,4}(?:-\d{1,3})?(?:_\d+)?)$/);
+                            if (ecfMatch) {
+                                // Normalize ECF: remove underscore suffix for lookup
+                                const ecfRaw = ecfMatch[1];
+                                const ecf = ecfRaw.replace(/_\d+$/, '');
+
+                                // Make the entire row clickable
+                                row.classList.add('ecf-table-row');
+                                row.style.cursor = 'pointer';
+                                row.title = `View ECF ${ecf}`;
+                                row.addEventListener('click', (e) => {
+                                    if (e.target.tagName !== 'A') {
+                                        e.preventDefault();
+                                        this.openECFDocument(ecf);
+                                    }
+                                });
+
+                                // Also wrap the ECF number in the cell
+                                if (!firstCell.querySelector('.ecf-link')) {
+                                    firstCell.innerHTML = `<span class="ecf-link" data-ecf="${ecf}">${text}</span>`;
+                                }
+                            }
+                        }
+                    });
+                });
+            },
+
+            // Open ECF document in PDF viewer
+            openECFDocument(ecf) {
+                // Get description from current entity's sources if available
+                let description = 'Court Document';
+                if (this.currentEntity && this.currentEntity.sources) {
+                    const sourceDoc = this.currentEntity.sources.find(s => s.ecf === ecf);
+                    if (sourceDoc) {
+                        description = sourceDoc.description || 'Court Document';
+                    }
+                }
+
+                // Open the PDF viewer with this ECF
+                PDFViewer.open({
+                    ecf: ecf,
+                    description: description
+                });
+            },
+
+            close() {
+                document.getElementById('briefViewer').classList.remove('active');
+                this.currentEntity = null;
+            },
+
+            updateNavButtons() {
+                const prevBtn = document.getElementById('briefPrev');
+                const nextBtn = document.getElementById('briefNext');
+
+                prevBtn.disabled = this.currentIndex <= 0;
+                nextBtn.disabled = this.currentIndex >= this.entityList.length - 1;
+            },
+
+            prev() {
+                if (this.currentIndex > 0) {
+                    const prevEntity = this.entityList[this.currentIndex - 1];
+                    if (prevEntity.brief_file) {
+                        this.open(prevEntity);
+                    }
+                }
+            },
+
+            next() {
+                if (this.currentIndex < this.entityList.length - 1) {
+                    const nextEntity = this.entityList[this.currentIndex + 1];
+                    if (nextEntity.brief_file) {
+                        this.open(nextEntity);
+                    }
+                }
+            }
+        };
+
+        // ============================================================
+        // PDF VIEWER (with pdf.js for mobile support)
+        // ============================================================
+        const PDFViewer = {
+            // State
+            pdfDoc: null,
+            currentPage: 1,
+            totalPages: 0,
+            scale: 1.5,
+            currentPdfPath: null,
+            rendering: false,
+
+            // Case folder mappings - most briefs cite Giuffre v. Maxwell
+            caseInfo: {
+                'giuffre-v-maxwell': {
+                    citation: 'Giuffre v. Maxwell, No. 15-cv-07433-LAP (S.D.N.Y.)',
+                    pacer: 'https://pacer.uscourts.gov'
+                },
+                'epstein-sdny': {
+                    citation: 'United States v. Epstein, No. 19-cr-00490 (S.D.N.Y.)',
+                    pacer: 'https://pacer.uscourts.gov'
+                },
+                'maxwell-criminal': {
+                    citation: 'United States v. Maxwell, No. 20-cr-00330 (S.D.N.Y.)',
+                    pacer: 'https://pacer.uscourts.gov'
+                }
+            },
+
+            init() {
+                // Set up pdf.js worker
+                if (typeof pdfjsLib !== 'undefined') {
+                    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+                }
+
+                // Bind navigation controls
+                document.getElementById('pdfPrevPage').addEventListener('click', () => this.prevPage());
+                document.getElementById('pdfNextPage').addEventListener('click', () => this.nextPage());
+                document.getElementById('pdfZoomIn').addEventListener('click', () => this.zoomIn());
+                document.getElementById('pdfZoomOut').addEventListener('click', () => this.zoomOut());
+            },
+
+            // Check if PDF is available in sources index
+            isPdfAvailable(ecf) {
+                if (!sourcesIndex || !sourcesIndex.cases) return { available: false, caseFolder: null };
+
+                // Search all cases for this ECF number
+                for (const [folder, caseData] of Object.entries(sourcesIndex.cases)) {
+                    const doc = caseData.documents.find(d => d.ecf === ecf);
+                    if (doc && doc.available) {
+                        return { available: true, caseFolder: folder, filename: doc.filename };
+                    }
+                }
+                return { available: false, caseFolder: 'giuffre-v-maxwell' }; // Default case for PACER link
+            },
+
+            // Check if on mobile device
+            isMobile() {
+                return window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            },
+
+            async open(source) {
+                const viewer = document.getElementById('pdfViewer');
+                const container = document.getElementById('pdfContainer');
+                const title = document.getElementById('pdfTitle');
+                const navControls = document.getElementById('pdfNavControls');
+                const downloadLink = document.getElementById('pdfDownloadLink');
+
+                title.textContent = `ECF ${source.ecf} - ${source.description}`;
+
+                // Reset state
+                this.pdfDoc = null;
+                this.currentPage = 1;
+                this.totalPages = 0;
+                this.scale = this.isMobile() ? 1.0 : 1.5;
+
+                // Check PDF availability from pre-loaded index
+                const pdfStatus = this.isPdfAvailable(source.ecf);
+                const caseFolder = pdfStatus.caseFolder || 'giuffre-v-maxwell';
+                const caseData = this.caseInfo[caseFolder];
+
+                if (pdfStatus.available) {
+                    const pdfPath = `/sources/${caseFolder}/${pdfStatus.filename}`;
+                    this.currentPdfPath = pdfPath;
+
+                    // Show download link
+                    downloadLink.href = pdfPath;
+                    downloadLink.style.display = 'flex';
+
+                    // Show loading state
+                    container.innerHTML = `
+                        <div class="pdf-loading">
+                            <div class="loading-spinner"></div>
+                            <p>Loading document...</p>
+                        </div>
+                    `;
+                    navControls.style.display = 'none';
+
+                    viewer.classList.add('active');
+
+                    // Try to load with pdf.js
+                    await this.loadPDF(pdfPath, container, source, caseData);
+                } else {
+                    // PDF not available - show PACER verification link
+                    downloadLink.style.display = 'none';
+                    navControls.style.display = 'none';
+
+                    container.innerHTML = `
+                        <div class="pdf-placeholder">
+                            <h3>ECF Document ${source.ecf}</h3>
+                            <p><strong>${source.description}</strong></p>
+                            <p style="margin-top: 1.5rem; font-size: 0.95rem; color: var(--smoke);">
+                                This document is not yet available in our archive.
+                            </p>
+                            <p style="margin-top: 1.5rem;">
+                                <span class="pacer-verify">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 0.5rem;">
+                                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                                    </svg>
+                                    Verify via PACER: <em>${caseData.citation}</em>
+                                </span>
+                            </p>
+                            <p style="margin-top: 1.5rem; font-size: 0.85rem;">
+                                <a href="${caseData.pacer}" target="_blank" rel="noopener" style="color: var(--gold);">
+                                    Access PACER →
+                                </a>
+                            </p>
+                        </div>
+                    `;
+
+                    viewer.classList.add('active');
+                }
+            },
+
+            async loadPDF(pdfPath, container, source, caseData) {
+                // Check if pdf.js is available
+                if (typeof pdfjsLib === 'undefined') {
+                    // Fallback to iframe for desktop, download for mobile
+                    this.showFallback(pdfPath, container, source, caseData);
+                    return;
+                }
+
+                try {
+                    // Load the PDF document
+                    const loadingTask = pdfjsLib.getDocument(pdfPath);
+                    this.pdfDoc = await loadingTask.promise;
+                    this.totalPages = this.pdfDoc.numPages;
+
+                    // Set up the canvas container
+                    container.innerHTML = `<div class="pdf-canvas-wrapper" id="pdfCanvasWrapper"><canvas id="pdfCanvas"></canvas></div>`;
+
+                    // Show navigation controls
+                    document.getElementById('pdfNavControls').style.display = 'flex';
+                    this.updatePageInfo();
+
+                    // Render the first page
+                    await this.renderPage(this.currentPage);
+
+                    // Add touch/pinch zoom support for mobile
+                    this.setupTouchZoom();
+
+                } catch (error) {
+                    console.error('Error loading PDF with pdf.js:', error);
+                    // Fallback
+                    this.showFallback(pdfPath, container, source, caseData);
+                }
+            },
+
+            showFallback(pdfPath, container, source, caseData) {
+                const navControls = document.getElementById('pdfNavControls');
+                navControls.style.display = 'none';
+
+                if (this.isMobile()) {
+                    // On mobile, show download button prominently
+                    container.innerHTML = `
+                        <div class="pdf-placeholder">
+                            <h3>ECF Document ${source.ecf}</h3>
+                            <p><strong>${source.description}</strong></p>
+                            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                                Source: <em>${caseData.citation}</em>
+                            </p>
+                            <p style="margin-top: 1.5rem; color: var(--smoke);">
+                                For the best viewing experience on mobile, open this document in your device's PDF viewer.
+                            </p>
+                            <p style="margin-top: 1.5rem;">
+                                <a href="${pdfPath}" target="_blank" class="pdf-download-btn">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                                    </svg>
+                                    Open in PDF Viewer
+                                </a>
+                            </p>
+                        </div>
+                    `;
+                } else {
+                    // On desktop, use iframe
+                    container.innerHTML = `<iframe src="${pdfPath}" title="ECF ${source.ecf}"></iframe>`;
+                }
+            },
+
+            async renderPage(pageNum) {
+                if (!this.pdfDoc || this.rendering) return;
+
+                this.rendering = true;
+                const canvas = document.getElementById('pdfCanvas');
+                const ctx = canvas.getContext('2d');
+
+                try {
+                    const page = await this.pdfDoc.getPage(pageNum);
+
+                    // Get device pixel ratio for crisp rendering on retina/high-DPI displays
+                    const pixelRatio = window.devicePixelRatio || 1;
+
+                    // Calculate base scale based on container width for mobile
+                    let baseScale = this.scale;
+                    if (this.isMobile()) {
+                        const wrapper = document.getElementById('pdfCanvasWrapper');
+                        const wrapperWidth = wrapper.clientWidth - 20; // Account for padding
+                        const baseViewport = page.getViewport({ scale: 1 });
+                        baseScale = Math.min(wrapperWidth / baseViewport.width, this.scale);
+                    }
+
+                    // Create viewport at base scale for CSS dimensions
+                    const cssViewport = page.getViewport({ scale: baseScale });
+
+                    // Create viewport at higher resolution for crisp rendering
+                    const renderScale = baseScale * pixelRatio;
+                    const renderViewport = page.getViewport({ scale: renderScale });
+
+                    // Set canvas dimensions at high resolution
+                    canvas.width = renderViewport.width;
+                    canvas.height = renderViewport.height;
+
+                    // Set CSS dimensions at logical size (this creates crisp rendering)
+                    canvas.style.width = cssViewport.width + 'px';
+                    canvas.style.height = cssViewport.height + 'px';
+
+                    const renderContext = {
+                        canvasContext: ctx,
+                        viewport: renderViewport
+                    };
+
+                    await page.render(renderContext).promise;
+                    this.updatePageInfo();
+
+                } catch (error) {
+                    console.error('Error rendering page:', error);
+                }
+
+                this.rendering = false;
+            },
+
+            updatePageInfo() {
+                const pageInfo = document.getElementById('pdfPageInfo');
+                const prevBtn = document.getElementById('pdfPrevPage');
+                const nextBtn = document.getElementById('pdfNextPage');
+
+                pageInfo.textContent = `${this.currentPage} / ${this.totalPages}`;
+                prevBtn.disabled = this.currentPage <= 1;
+                nextBtn.disabled = this.currentPage >= this.totalPages;
+            },
+
+            prevPage() {
+                if (this.currentPage > 1) {
+                    this.currentPage--;
+                    this.renderPage(this.currentPage);
+                    // Scroll to top of canvas
+                    document.getElementById('pdfCanvasWrapper')?.scrollTo(0, 0);
+                }
+            },
+
+            nextPage() {
+                if (this.currentPage < this.totalPages) {
+                    this.currentPage++;
+                    this.renderPage(this.currentPage);
+                    // Scroll to top of canvas
+                    document.getElementById('pdfCanvasWrapper')?.scrollTo(0, 0);
+                }
+            },
+
+            zoomIn() {
+                this.scale = Math.min(this.scale + 0.25, 3);
+                this.renderPage(this.currentPage);
+            },
+
+            zoomOut() {
+                this.scale = Math.max(this.scale - 0.25, 0.5);
+                this.renderPage(this.currentPage);
+            },
+
+            setupTouchZoom() {
+                const wrapper = document.getElementById('pdfCanvasWrapper');
+                if (!wrapper) return;
+
+                let initialDistance = 0;
+                let initialScale = this.scale;
+
+                wrapper.addEventListener('touchstart', (e) => {
+                    if (e.touches.length === 2) {
+                        initialDistance = Math.hypot(
+                            e.touches[0].pageX - e.touches[1].pageX,
+                            e.touches[0].pageY - e.touches[1].pageY
+                        );
+                        initialScale = this.scale;
+                    }
+                }, { passive: true });
+
+                wrapper.addEventListener('touchmove', (e) => {
+                    if (e.touches.length === 2 && initialDistance > 0) {
+                        const currentDistance = Math.hypot(
+                            e.touches[0].pageX - e.touches[1].pageX,
+                            e.touches[0].pageY - e.touches[1].pageY
+                        );
+                        const ratio = currentDistance / initialDistance;
+                        const newScale = Math.min(Math.max(initialScale * ratio, 0.5), 3);
+
+                        if (Math.abs(newScale - this.scale) > 0.1) {
+                            this.scale = newScale;
+                            this.renderPage(this.currentPage);
+                        }
+                    }
+                }, { passive: true });
+
+                wrapper.addEventListener('touchend', () => {
+                    initialDistance = 0;
+                }, { passive: true });
+            },
+
+            close() {
+                const viewer = document.getElementById('pdfViewer');
+                const navControls = document.getElementById('pdfNavControls');
+                const downloadLink = document.getElementById('pdfDownloadLink');
+
+                viewer.classList.remove('active');
+                navControls.style.display = 'none';
+                downloadLink.style.display = 'none';
+
+                // Clean up
+                this.pdfDoc = null;
+                this.currentPage = 1;
+                this.totalPages = 0;
+                this.currentPdfPath = null;
+            }
+        };
+
+        // ============================================================
+        // GRAPH VISUALIZATION
+        // ============================================================
+        const Graph = {
+            svg: null,
+            g: null,
+            simulation: null,
+            nodes: [],
+            links: [],
+            zoom: null,
+            activeNode: null,
+            filterType: 'all',
+
+            colors: {
+                person: '#c9a227',
+                organization: '#8b6fc0',
+                case: '#60a5fa',
+                location: '#4ade80'
+            },
+
+            async init() {
+                try {
+                    const data = await loadData();
+                    this.buildGraph(data);
+                    document.getElementById('loadingOverlay').classList.add('hidden');
+                } catch (error) {
+                    this.showError(error.message);
+                }
+            },
+
+            buildGraph(data) {
+                this.svg = d3.select('#graphSvg');
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                this.g = this.svg.append('g');
+
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => this.g.attr('transform', event.transform));
+                this.svg.call(this.zoom);
+
+                this.nodes = data.entities.map(e => {
+                    const connectionCount = data.connections.filter(
+                        c => c.source === e.id || c.target === e.id
+                    ).length;
+                    return {
+                        ...e,
+                        radius: this.getRadius(e.type, connectionCount),
+                        connectionCount
+                    };
+                });
+
+                // Store entity list for brief navigation
+                BriefViewer.entityList = this.nodes.filter(n => n.brief_file).sort((a, b) =>
+                    a.name.localeCompare(b.name)
+                );
+
+                this.links = data.connections.map(c => ({
+                    source: c.source,
+                    target: c.target,
+                    strength: c.strength,
+                    type: c.type,
+                    bidirectional: c.bidirectional,
+                    evidence: c.evidence
+                }));
+
+                // Pre-calculate stable positions before rendering
+                // Run simulation silently for 300 iterations to find equilibrium
+                this.simulation = d3.forceSimulation(this.nodes)
+                    .force('link', d3.forceLink(this.links)
+                        .id(d => d.id)
+                        .distance(d => 150 - (d.strength / 3))
+                        .strength(d => 0.3 + (d.strength / 200)))
+                    .force('charge', d3.forceManyBody()
+                        .strength(d => -200 - (d.connectionCount * 20))
+                        .distanceMax(500))
+                    .force('center', d3.forceCenter(width / 2, height / 2))
+                    .force('collision', d3.forceCollide()
+                        .radius(d => d.radius + 25)
+                        .strength(1)
+                        .iterations(3))
+                    .stop(); // Don't start automatically
+
+                // Run 300 iterations silently to find stable positions
+                for (let i = 0; i < 300; i++) {
+                    this.simulation.tick();
+                }
+
+                // Now start with very low alpha for minimal movement
+                // High decay = settles quickly, low alpha = minimal bouncing
+                this.simulation
+                    .alpha(0.01)
+                    .alphaDecay(0.08)
+                    .alphaMin(0.001)
+                    .velocityDecay(0.4)
+                    .on('tick', () => this.tick())
+                    .restart();
+
+                this.linkElements = this.g.append('g')
+                    .attr('class', 'links')
+                    .selectAll('line')
+                    .data(this.links)
+                    .enter()
+                    .append('line')
+                    .attr('class', 'link')
+                    .attr('stroke', d => this.getLinkColor(d))
+                    .attr('stroke-width', d => this.getLinkWidth(d))
+                    .attr('stroke-opacity', d => d.bidirectional || d.type === 'documented' ? 0.7 : 0.4);
+
+                this.nodeElements = this.g.append('g')
+                    .attr('class', 'nodes')
+                    .selectAll('g')
+                    .data(this.nodes)
+                    .enter()
+                    .append('g')
+                    .attr('class', 'node')
+                    .call(d3.drag()
+                        .on('start', (event, d) => this.dragStart(event, d))
+                        .on('drag', (event, d) => this.dragging(event, d))
+                        .on('end', (event, d) => this.dragEnd(event, d)))
+                    .on('click', (event, d) => this.selectNode(d))
+                    .on('dblclick', (event, d) => {
+                        event.stopPropagation();
+                        this.releaseNode(d);
+                    })
+                    .on('mouseenter', (event, d) => this.showTooltip(event, d))
+                    .on('mouseleave', () => this.hideTooltip());
+
+                this.nodeElements.append('circle')
+                    .attr('class', 'node-circle')
+                    .attr('r', d => d.radius)
+                    .attr('stroke', d => this.colors[d.type] || this.colors.person);
+
+                this.nodeElements.append('text')
+                    .attr('class', 'node-label')
+                    .attr('dy', d => d.radius + 15)
+                    .text(d => this.truncateLabel(d.name));
+
+                this.nodeElements.append('text')
+                    .attr('class', 'node-type-indicator')
+                    .attr('dy', 4)
+                    .text(d => this.getTypeIcon(d.type));
+
+                document.getElementById('entityCount').textContent = this.nodes.length;
+                document.getElementById('connectionCount').textContent = this.links.length;
+
+                setTimeout(() => this.resetView(), 500);
+            },
+
+            showError(message) {
+                document.getElementById('loadingOverlay').innerHTML = `
+                    <div style="text-align: center; padding: 2rem; max-width: 400px;">
+                        <h3 style="color: #ef4444; margin-bottom: 1rem;">Failed to Load Data</h3>
+                        <p style="color: var(--smoke);">${message}</p>
+                    </div>
+                `;
+            },
+
+            getRadius(type, connectionCount) {
+                const baseRadii = { person: 22, organization: 20, case: 20, location: 18 };
+                return (baseRadii[type] || 20) + Math.min(connectionCount, 10);
+            },
+
+            getLinkColor(link) {
+                // Color based on evidence type
+                if (link.bidirectional || link.type === 'documented') {
+                    return 'rgba(201, 162, 39, 0.6)'; // Gold - Documented
+                }
+                if (link.type === 'interpreted' || link.strength >= 50) {
+                    return 'rgba(139, 111, 192, 0.5)'; // Purple - Referenced
+                }
+                return 'rgba(154, 154, 154, 0.4)'; // Gray - Associated
+            },
+
+            getLinkWidth(link) {
+                // Width based on evidence type
+                if (link.bidirectional || link.type === 'documented') {
+                    return 2.5; // Documented - thickest
+                }
+                if (link.type === 'interpreted' || link.strength >= 50) {
+                    return 1.5; // Referenced
+                }
+                return 1; // Associated - thinnest
+            },
+
+            getTypeIcon(type) {
+                const icons = { person: 'PER', organization: 'ORG', case: 'CASE', location: 'LOC' };
+                return icons[type] || '?';
+            },
+
+            truncateLabel(name) {
+                return name.length > 22 ? name.substring(0, 20) + '...' : name;
+            },
+
+            tick() {
+                this.linkElements
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+                this.nodeElements
+                    .attr('transform', d => `translate(${d.x}, ${d.y})`)
+                    .classed('pinned', d => d.userPositioned);
+            },
+
+            dragStart(event, d) {
+                // Gentle simulation for non-pinned nodes
+                if (!event.active) this.simulation.alphaTarget(0.1).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+                d.userPositioned = true;
+                d._dragging = true;
+            },
+
+            dragging(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+
+                // Push overlapping nodes with cascade effect
+                this.pushNodesAway(d, event.x, event.y, d.radius + 50, new Set([d.id]));
+
+                // Very gentle alpha for non-pinned nodes
+                this.simulation.alpha(0.05);
+            },
+
+            // Recursively push nodes away, handling chain reactions
+            pushNodesAway(sourceNode, fromX, fromY, minSeparation, alreadyPushed) {
+                const nodesToPush = [];
+
+                this.nodes.forEach(other => {
+                    if (alreadyPushed.has(other.id)) return;
+
+                    const dx = other.x - fromX;
+                    const dy = other.y - fromY;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    const minDist = minSeparation + other.radius;
+
+                    if (dist < minDist && dist > 0) {
+                        // Calculate push direction (away from source)
+                        const pushDist = minDist - dist + 5; // +5 for a little extra clearance
+                        const pushX = (dx / dist) * pushDist;
+                        const pushY = (dy / dist) * pushDist;
+
+                        // Move the other node
+                        other.x += pushX;
+                        other.y += pushY;
+
+                        // If it's pinned, update its pinned position too
+                        if (other.userPositioned) {
+                            other.fx = other.x;
+                            other.fy = other.y;
+                        }
+
+                        // Track this node for cascade check
+                        nodesToPush.push(other);
+                        alreadyPushed.add(other.id);
+                    }
+                });
+
+                // Cascade: each pushed node may need to push others
+                nodesToPush.forEach(pushed => {
+                    this.pushNodesAway(pushed, pushed.x, pushed.y, pushed.radius + 25, alreadyPushed);
+                });
+            },
+
+            dragEnd(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0);
+                d._dragging = false;
+                // Node stays pinned where user placed it
+            },
+
+            // Double-click to release a node from its fixed position
+            releaseNode(d) {
+                d.fx = null;
+                d.fy = null;
+                d.userPositioned = false;
+                // Gentle restart - node drifts back naturally without bouncing
+                this.simulation.alpha(0.05).restart();
+            },
+
+            selectNode(node) {
+                this.activeNode = node;
+
+                const connectedIds = new Set([node.id]);
+                const connectionData = {};
+
+                this.links.forEach(link => {
+                    const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+                    const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+                    if (sourceId === node.id) {
+                        connectedIds.add(targetId);
+                        connectionData[targetId] = link;
+                    }
+                    if (targetId === node.id) {
+                        connectedIds.add(sourceId);
+                        connectionData[sourceId] = link;
+                    }
+                });
+
+                this.nodeElements
+                    .classed('active', d => d.id === node.id)
+                    .classed('highlighted', d => connectedIds.has(d.id) && d.id !== node.id)
+                    .classed('dimmed', d => !connectedIds.has(d.id));
+
+                this.linkElements
+                    .classed('highlighted', d => {
+                        const sid = typeof d.source === 'object' ? d.source.id : d.source;
+                        const tid = typeof d.target === 'object' ? d.target.id : d.target;
+                        return sid === node.id || tid === node.id;
+                    })
+                    .classed('dimmed', d => {
+                        const sid = typeof d.source === 'object' ? d.source.id : d.source;
+                        const tid = typeof d.target === 'object' ? d.target.id : d.target;
+                        return sid !== node.id && tid !== node.id;
+                    });
+
+                this.showDetail(node, connectedIds, connectionData);
+            },
+
+            clearSelection() {
+                this.activeNode = null;
+                this.nodeElements.classed('active', false).classed('highlighted', false).classed('dimmed', false);
+                this.linkElements.classed('highlighted', false).classed('dimmed', false);
+                document.getElementById('detailPanel').classList.remove('active');
+            },
+
+            showDetail(node, connectedIds, connectionData) {
+                const panel = document.getElementById('detailPanel');
+                document.getElementById('detailType').textContent = node.type.toUpperCase();
+                document.getElementById('detailType').style.color = this.colors[node.type];
+                document.getElementById('detailTitle').textContent = node.name;
+                document.getElementById('detailStatus').textContent = node.status || '';
+
+                let html = '';
+
+                if (node.summary) {
+                    html += `<p>${node.summary}</p>`;
+                }
+
+                // Action buttons
+                html += '<div class="action-buttons">';
+                if (node.brief_file) {
+                    html += `
+                        <button class="action-btn" onclick="BriefViewer.open(Graph.activeNode)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+                                <polyline points="14,2 14,8 20,8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <line x1="10" y1="9" x2="8" y2="9"/>
+                            </svg>
+                            View Full Brief
+                        </button>
+                    `;
+                }
+                html += '</div>';
+
+                // Connections
+                const connections = this.nodes.filter(n => connectedIds.has(n.id) && n.id !== node.id);
+                if (connections.length > 0) {
+                    // Sort by evidence quality: documented > referenced > associated
+                    connections.sort((a, b) => {
+                        const linkA = connectionData[a.id];
+                        const linkB = connectionData[b.id];
+                        const orderA = linkA?.bidirectional ? 0 : (linkA?.type === 'documented' ? 1 : 2);
+                        const orderB = linkB?.bidirectional ? 0 : (linkB?.type === 'documented' ? 1 : 2);
+                        return orderA - orderB;
+                    });
+
+                    html += `<div class="detail-section">
+                        <h4>Connections (${connections.length})</h4>
+                        <ul class="connection-list">`;
+
+                    connections.forEach(conn => {
+                        const link = connectionData[conn.id];
+                        // Determine evidence label based on connection data
+                        let evidenceLabel, evidenceClass;
+                        if (link?.bidirectional || link?.type === 'documented') {
+                            evidenceLabel = 'Documented';
+                            evidenceClass = 'documented';
+                        } else if (link?.type === 'interpreted' || link?.strength >= 50) {
+                            evidenceLabel = 'Referenced';
+                            evidenceClass = 'referenced';
+                        } else {
+                            evidenceLabel = 'Associated';
+                            evidenceClass = 'associated';
+                        }
+
+                        html += `<li class="connection-item" data-entity="${conn.id}">
+                            <div>
+                                <div class="connection-name">${conn.name}</div>
+                                <div class="connection-type" style="color: ${this.colors[conn.type]}">${conn.type}</div>
+                            </div>
+                            <div class="connection-meta">
+                                <span class="connection-evidence ${evidenceClass}">${evidenceLabel}</span>
+                            </div>
+                        </li>`;
+                    });
+                    html += '</ul></div>';
+                }
+
+                // Source documents
+                if (node.sources && node.sources.length > 0) {
+                    html += `<div class="detail-section">
+                        <h4>Source Documents (${node.sources.length})</h4>
+                        <ul class="source-list">`;
+
+                    node.sources.slice(0, 10).forEach((source, i) => {
+                        html += `<li class="source-item" data-source-index="${i}">
+                            <span class="source-ecf">ECF ${source.ecf}</span>
+                            <span class="source-desc"> - ${source.description}</span>
+                        </li>`;
+                    });
+
+                    if (node.sources.length > 10) {
+                        html += `<li class="source-item" style="color: var(--smoke); cursor: default;">
+                            + ${node.sources.length - 10} more documents
+                        </li>`;
+                    }
+                    html += '</ul></div>';
+                }
+
+                document.getElementById('detailContent').innerHTML = html;
+
+                // Connection click handlers
+                document.querySelectorAll('.connection-item').forEach(item => {
+                    item.addEventListener('click', () => {
+                        const targetNode = this.nodes.find(n => n.id === item.dataset.entity);
+                        if (targetNode) this.selectNode(targetNode);
+                    });
+                });
+
+                // Source document click handlers
+                document.querySelectorAll('.source-item[data-source-index]').forEach(item => {
+                    item.addEventListener('click', () => {
+                        const idx = parseInt(item.dataset.sourceIndex);
+                        if (node.sources && node.sources[idx]) {
+                            PDFViewer.open(node.sources[idx]);
+                        }
+                    });
+                });
+
+                panel.classList.add('active');
+
+                // Hide tooltip when detail panel opens (fixes mobile overlap)
+                this.hideTooltip();
+            },
+
+            showTooltip(event, node) {
+                // Don't show tooltip if detail panel is open (prevents overlap on mobile)
+                if (document.getElementById('detailPanel').classList.contains('active')) {
+                    return;
+                }
+
+                const tooltip = document.getElementById('tooltip');
+                tooltip.querySelector('.tooltip-type').textContent = node.type;
+                tooltip.querySelector('.tooltip-type').style.color = this.colors[node.type];
+                tooltip.querySelector('.tooltip-name').textContent = node.name;
+
+                let connectionText = `${node.connectionCount} connection${node.connectionCount !== 1 ? 's' : ''}`;
+                if (node.userPositioned) {
+                    connectionText += ' · 📌 Pinned (double-click to release)';
+                }
+                tooltip.querySelector('.tooltip-connections').textContent = connectionText;
+
+                tooltip.style.left = (event.pageX + 15) + 'px';
+                tooltip.style.top = (event.pageY - 10) + 'px';
+                tooltip.classList.add('visible');
+            },
+
+            hideTooltip() {
+                document.getElementById('tooltip').classList.remove('visible');
+            },
+
+            filterByType(type) {
+                this.filterType = type;
+                document.querySelectorAll('.legend-item').forEach(item => {
+                    item.classList.toggle('active', item.dataset.type === type);
+                });
+
+                if (type === 'all') {
+                    this.nodeElements.classed('dimmed', false);
+                    this.linkElements.classed('dimmed', false);
+                    return;
+                }
+
+                const matchingIds = new Set();
+                this.nodes.forEach(node => {
+                    if (node.type === type) matchingIds.add(node.id);
+                });
+
+                const expandedIds = new Set(matchingIds);
+                this.links.forEach(link => {
+                    const sid = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tid = typeof link.target === 'object' ? link.target.id : link.target;
+                    if (matchingIds.has(sid)) expandedIds.add(tid);
+                    if (matchingIds.has(tid)) expandedIds.add(sid);
+                });
+
+                this.nodeElements.classed('dimmed', d => !expandedIds.has(d.id));
+                this.linkElements.classed('dimmed', d => {
+                    const sid = typeof d.source === 'object' ? d.source.id : d.source;
+                    const tid = typeof d.target === 'object' ? d.target.id : d.target;
+                    return !expandedIds.has(sid) || !expandedIds.has(tid);
+                });
+            },
+
+            filterNodes(query) {
+                const q = query.toLowerCase().trim();
+                if (!q) {
+                    this.filterByType(this.filterType);
+                    return;
+                }
+
+                const matchingIds = new Set();
+                this.nodes.forEach(node => {
+                    if (node.name.toLowerCase().includes(q) ||
+                        node.type.toLowerCase().includes(q) ||
+                        (node.status && node.status.toLowerCase().includes(q))) {
+                        matchingIds.add(node.id);
+                    }
+                });
+
+                const expandedIds = new Set(matchingIds);
+                this.links.forEach(link => {
+                    const sid = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tid = typeof link.target === 'object' ? link.target.id : link.target;
+                    if (matchingIds.has(sid)) expandedIds.add(tid);
+                    if (matchingIds.has(tid)) expandedIds.add(sid);
+                });
+
+                this.nodeElements.classed('dimmed', d => !expandedIds.has(d.id));
+                this.linkElements.classed('dimmed', d => {
+                    const sid = typeof d.source === 'object' ? d.source.id : d.source;
+                    const tid = typeof d.target === 'object' ? d.target.id : d.target;
+                    return !expandedIds.has(sid) || !expandedIds.has(tid);
+                });
+            },
+
+            zoomIn() {
+                this.svg.transition().duration(300).call(this.zoom.scaleBy, 1.3);
+            },
+
+            zoomOut() {
+                this.svg.transition().duration(300).call(this.zoom.scaleBy, 0.7);
+            },
+
+            resetView() {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+                this.nodes.forEach(node => {
+                    if (node.x < minX) minX = node.x;
+                    if (node.x > maxX) maxX = node.x;
+                    if (node.y < minY) minY = node.y;
+                    if (node.y > maxY) maxY = node.y;
+                });
+
+                const padding = 100;
+                const contentWidth = maxX - minX + padding * 2;
+                const contentHeight = maxY - minY + padding * 2;
+                const scale = Math.min(width / contentWidth, height / contentHeight, 1.5) * 0.85;
+                const centerX = (minX + maxX) / 2;
+                const centerY = (minY + maxY) / 2;
+
+                this.svg.transition().duration(500).call(
+                    this.zoom.transform,
+                    d3.zoomIdentity.translate(width / 2, height / 2).scale(scale).translate(-centerX, -centerY)
+                );
+                this.clearSelection();
+            }
+        };
+
+        // ============================================================
+        // EVENT LISTENERS
+        // ============================================================
+        document.addEventListener('DOMContentLoaded', () => {
+            Graph.init();
+            PDFViewer.init();
+
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                Graph.filterNodes(e.target.value);
+            });
+
+            document.querySelectorAll('.legend-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    document.getElementById('searchInput').value = '';
+                    Graph.filterByType(item.dataset.type);
+                });
+            });
+
+            document.getElementById('closeDetail').addEventListener('click', () => Graph.clearSelection());
+            document.getElementById('zoomIn').addEventListener('click', () => Graph.zoomIn());
+            document.getElementById('zoomOut').addEventListener('click', () => Graph.zoomOut());
+            document.getElementById('resetView').addEventListener('click', () => Graph.resetView());
+
+            // Brief viewer
+            document.getElementById('closeBrief').addEventListener('click', () => BriefViewer.close());
+            document.getElementById('briefPrev').addEventListener('click', () => BriefViewer.prev());
+            document.getElementById('briefNext').addEventListener('click', () => BriefViewer.next());
+
+            // PDF viewer
+            document.getElementById('closePdf').addEventListener('click', () => PDFViewer.close());
+
+            // Keyboard shortcuts
+            document.addEventListener('keydown', (e) => {
+                // Close modals on Escape
+                if (e.key === 'Escape') {
+                    if (document.getElementById('pdfViewer').classList.contains('active')) {
+                        PDFViewer.close();
+                    } else if (document.getElementById('briefViewer').classList.contains('active')) {
+                        BriefViewer.close();
+                    } else {
+                        Graph.clearSelection();
+                        document.getElementById('searchInput').value = '';
+                        Graph.filterByType('all');
+                    }
+                }
+
+                // PDF navigation
+                if (document.getElementById('pdfViewer').classList.contains('active')) {
+                    if (e.key === 'ArrowLeft') PDFViewer.prevPage();
+                    if (e.key === 'ArrowRight') PDFViewer.nextPage();
+                    if (e.key === '+' || e.key === '=') PDFViewer.zoomIn();
+                    if (e.key === '-') PDFViewer.zoomOut();
+                    return; // Don't process other shortcuts when PDF viewer is open
+                }
+
+                // Brief navigation
+                if (document.getElementById('briefViewer').classList.contains('active')) {
+                    if (e.key === 'ArrowLeft') BriefViewer.prev();
+                    if (e.key === 'ArrowRight') BriefViewer.next();
+                }
+
+                // Graph zoom (when not in modals)
+                if (!document.getElementById('briefViewer').classList.contains('active') &&
+                    !document.getElementById('pdfViewer').classList.contains('active')) {
+                    if (e.key === '+' || e.key === '=') Graph.zoomIn();
+                    if (e.key === '-') Graph.zoomOut();
+                    if (e.key === '0') Graph.resetView();
+                }
+            });
+
+            window.addEventListener('resize', () => {
+                if (Graph.simulation) {
+                    Graph.simulation
+                        .force('center', d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
+                        .alpha(0.3)
+                        .restart();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

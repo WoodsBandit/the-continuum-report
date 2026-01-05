@@ -1,0 +1,2291 @@
+{
+  "generated": "2025-12-20",
+  "entities": {
+    "alan-dershowitz": {
+      "brief_path": "/continuum/briefs/connections/alan-dershowitz_connections.md",
+      "connections": [
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Alan Dershowitz and this entity is documented in 20 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 20,
+          "sources": [
+            {
+              "id": "1320-9",
+              "title": "ECF Doc. 1320-9",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Alan Dershowitz and this entity is documented in 12 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 12,
+          "sources": [
+            {
+              "id": "1320-9",
+              "title": "ECF Doc. 1320-9",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection referenced in 3 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1320-9",
+              "title": "ECF Doc. 1320-9",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "nadia-marcinkova",
+          "summary": "Connection between Alan Dershowitz and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-9",
+              "title": "ECF Doc. 1320-9",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 2 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1320-9",
+              "title": "ECF Doc. 1320-9",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-9",
+              "title": "ECF Doc. 1320-9",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            }
+          ]
+        }
+      ]
+    },
+    "bill-clinton": {
+      "brief_path": "/continuum/briefs/connections/bill-clinton_connections.md",
+      "connections": [
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Bill Clinton and this entity is documented in 12 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 12,
+          "sources": [
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-4",
+              "title": "ECF Doc. 1327-4",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-23",
+              "title": "ECF Doc. 1328-23",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Bill Clinton and this entity is documented in 14 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 14,
+          "sources": [
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-4",
+              "title": "ECF Doc. 1327-4",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-23",
+              "title": "ECF Doc. 1328-23",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Bill Clinton and this entity is documented in 13 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 13,
+          "sources": [
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-4",
+              "title": "ECF Doc. 1327-4",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-23",
+              "title": "ECF Doc. 1328-23",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "nadia-marcinkova",
+          "summary": "Connection between Bill Clinton and this entity is documented in 4 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-4",
+              "title": "ECF Doc. 1327-4",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-23",
+              "title": "ECF Doc. 1328-23",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 4 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-4",
+              "title": "ECF Doc. 1327-4",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-23",
+              "title": "ECF Doc. 1328-23",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection referenced in 1 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-4",
+              "title": "ECF Doc. 1327-4",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-23",
+              "title": "ECF Doc. 1328-23",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "donald-trump": {
+      "brief_path": "/continuum/briefs/connections/donald-trump_connections.md",
+      "connections": [
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Donald Trump and this entity is documented in 14 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 14,
+          "sources": [
+            {
+              "id": "1328-42",
+              "title": "ECF Doc. 1328-42",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-36",
+              "title": "ECF Doc. 1331-36",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1328-42",
+              "title": "ECF Doc. 1328-42",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-36",
+              "title": "ECF Doc. 1331-36",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1328-42",
+              "title": "ECF Doc. 1328-42",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-36",
+              "title": "ECF Doc. 1331-36",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1328-42",
+              "title": "ECF Doc. 1328-42",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-36",
+              "title": "ECF Doc. 1331-36",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection referenced in 1 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1328-42",
+              "title": "ECF Doc. 1328-42",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-36",
+              "title": "ECF Doc. 1331-36",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "emmy-taylor": {
+      "brief_path": "/continuum/briefs/connections/emmy-taylor_connections.md",
+      "connections": [
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 11,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 5 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "bill-clinton",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 3 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 4 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "prince-andrew",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "alan-dershowitz",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "glenn-dubin",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "sarah-kellen",
+          "summary": "Connection between Emmy Taylor and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection referenced in 1 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-28",
+              "title": "ECF Doc. 1320-28",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1325-4",
+              "title": "ECF Doc. 1325-4",
+              "date": "01/04/24"
+            }
+          ]
+        }
+      ]
+    },
+    "epstein-florida-case": {
+      "brief_path": "/continuum/briefs/connections/epstein-florida-case_connections.md",
+      "connections": [
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Epstein Florida Case and this entity is documented in 18 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 18,
+          "sources": [
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            },
+            {
+              "id": "1328-18",
+              "title": "ECF Doc. 1328-18",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1330-1",
+              "title": "ECF Doc. 1330-1",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Epstein Florida Case and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": [
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            },
+            {
+              "id": "1328-18",
+              "title": "ECF Doc. 1328-18",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1330-1",
+              "title": "ECF Doc. 1330-1",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection referenced in 3 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            },
+            {
+              "id": "1328-18",
+              "title": "ECF Doc. 1328-18",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1330-1",
+              "title": "ECF Doc. 1330-1",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 3 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1325-3",
+              "title": "ECF Doc. 1325-3",
+              "date": "01/04/24"
+            },
+            {
+              "id": "1328-18",
+              "title": "ECF Doc. 1328-18",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1330-1",
+              "title": "ECF Doc. 1330-1",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "ghislaine-maxwell": {
+      "brief_path": "/continuum/briefs/connections/ghislaine-maxwell_connections.md",
+      "connections": [
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Ghislaine Maxwell and this entity is documented in 11 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 11,
+          "sources": []
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection between Ghislaine Maxwell and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": []
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Ghislaine Maxwell and this entity is documented in 5 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 5,
+          "sources": []
+        },
+        {
+          "entityId": "prince-andrew",
+          "summary": "Connection between Ghislaine Maxwell and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": []
+        }
+      ]
+    },
+    "giuffre-v-maxwell-case": {
+      "brief_path": "/continuum/briefs/connections/giuffre-v-maxwell-case_connections.md",
+      "connections": [
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Giuffre v. Maxwell Civil Case and this entity is documented in 18 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 18,
+          "sources": [
+            {
+              "id": "1327-22",
+              "title": "ECF Doc. 1327-22",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-23",
+              "title": "ECF Doc. 1327-23",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-24",
+              "title": "ECF Doc. 1327-24",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Giuffre v. Maxwell Civil Case and this entity is documented in 12 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 12,
+          "sources": [
+            {
+              "id": "1327-22",
+              "title": "ECF Doc. 1327-22",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-23",
+              "title": "ECF Doc. 1327-23",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-24",
+              "title": "ECF Doc. 1327-24",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Giuffre v. Maxwell Civil Case and this entity is documented in 11 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 11,
+          "sources": [
+            {
+              "id": "1327-22",
+              "title": "ECF Doc. 1327-22",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-23",
+              "title": "ECF Doc. 1327-23",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-24",
+              "title": "ECF Doc. 1327-24",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "glenn-dubin": {
+      "brief_path": "/continuum/briefs/connections/glenn-dubin_connections.md",
+      "connections": [
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Glenn Dubin and this entity is documented in 20 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 20,
+          "sources": [
+            {
+              "id": "1320-3",
+              "title": "ECF Doc. 1320-3",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-21",
+              "title": "ECF Doc. 1327-21",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-44",
+              "title": "ECF Doc. 1328-44",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "nadia-marcinkova",
+          "summary": "Connection between Glenn Dubin and this entity is documented in 7 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 7,
+          "sources": [
+            {
+              "id": "1320-3",
+              "title": "ECF Doc. 1320-3",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-21",
+              "title": "ECF Doc. 1327-21",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-44",
+              "title": "ECF Doc. 1328-44",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection referenced in 4 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-3",
+              "title": "ECF Doc. 1320-3",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-21",
+              "title": "ECF Doc. 1327-21",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-44",
+              "title": "ECF Doc. 1328-44",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 4 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-3",
+              "title": "ECF Doc. 1320-3",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-21",
+              "title": "ECF Doc. 1327-21",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-44",
+              "title": "ECF Doc. 1328-44",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection referenced in 1 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-3",
+              "title": "ECF Doc. 1320-3",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-21",
+              "title": "ECF Doc. 1327-21",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-44",
+              "title": "ECF Doc. 1328-44",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection referenced in 1 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-3",
+              "title": "ECF Doc. 1320-3",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-21",
+              "title": "ECF Doc. 1327-21",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1328-44",
+              "title": "ECF Doc. 1328-44",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "jeffrey-epstein": {
+      "brief_path": "/continuum/briefs/connections/jeffrey-epstein_connections.md",
+      "connections": [
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Jeffrey Epstein and this entity is documented in 9 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 9,
+          "sources": [
+            {
+              "id": "1331-11",
+              "title": "ECF Doc. 1331-11",
+              "date": null
+            },
+            {
+              "id": "1331-12",
+              "title": "ECF Doc. 1331-12",
+              "date": null
+            },
+            {
+              "id": "1331-32",
+              "title": "ECF Doc. 1331-32",
+              "date": null
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection between Jeffrey Epstein and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": [
+            {
+              "id": "1331-11",
+              "title": "ECF Doc. 1331-11",
+              "date": null
+            },
+            {
+              "id": "1331-12",
+              "title": "ECF Doc. 1331-12",
+              "date": null
+            },
+            {
+              "id": "1331-32",
+              "title": "ECF Doc. 1331-32",
+              "date": null
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection referenced in 2 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1331-11",
+              "title": "ECF Doc. 1331-11",
+              "date": null
+            },
+            {
+              "id": "1331-12",
+              "title": "ECF Doc. 1331-12",
+              "date": null
+            },
+            {
+              "id": "1331-32",
+              "title": "ECF Doc. 1331-32",
+              "date": null
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 2 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1331-11",
+              "title": "ECF Doc. 1331-11",
+              "date": null
+            },
+            {
+              "id": "1331-12",
+              "title": "ECF Doc. 1331-12",
+              "date": null
+            },
+            {
+              "id": "1331-32",
+              "title": "ECF Doc. 1331-32",
+              "date": null
+            }
+          ]
+        }
+      ]
+    },
+    "lesley-groff": {
+      "brief_path": "/continuum/briefs/connections/lesley-groff_connections.md",
+      "connections": [
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Lesley Groff and this entity is documented in 8 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 8,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "sarah-kellen",
+          "summary": "Connection between Lesley Groff and this entity is documented in 3 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Lesley Groff and this entity is documented in 4 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "nadia-marcinkova",
+          "summary": "Connection between Lesley Groff and this entity is documented in 2 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection referenced in 3 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 3 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1328-34",
+              "title": "ECF Doc. 1328-34",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-30",
+              "title": "ECF Doc. 1331-30",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1331-31",
+              "title": "ECF Doc. 1331-31",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "nadia-marcinkova": {
+      "brief_path": "/continuum/briefs/connections/nadia-marcinkova_connections.md",
+      "connections": [
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 8 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 8,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "alan-dershowitz",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 3 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 5 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "sarah-kellen",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 2 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 4 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 4 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "lesley-groff",
+          "summary": "Connection between Nadia Marcinkova and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-25",
+              "title": "ECF Doc. 1327-25",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "prince-andrew": {
+      "brief_path": "/continuum/briefs/connections/prince-andrew_connections.md",
+      "connections": [
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Prince Andrew and this entity is documented in 27 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 27,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Prince Andrew and this entity is documented in 14 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 14,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Prince Andrew and this entity is documented in 10 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 10,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection between Prince Andrew and this entity is documented in 4 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "bill-clinton",
+          "summary": "Connection between Prince Andrew and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "alan-dershowitz",
+          "summary": "Connection between Prince Andrew and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "glenn-dubin",
+          "summary": "Connection between Prince Andrew and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "sarah-kellen",
+          "summary": "Connection between Prince Andrew and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "emmy-taylor",
+          "summary": "Connection between Prince Andrew and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-12",
+              "title": "ECF Doc. 1320-12",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-19",
+              "title": "ECF Doc. 1320-19",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-40",
+              "title": "ECF Doc. 1320-40",
+              "date": "01/03/24"
+            }
+          ]
+        }
+      ]
+    },
+    "sarah-kellen": {
+      "brief_path": "/continuum/briefs/connections/sarah-kellen_connections.md",
+      "connections": [
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 10 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 10,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 9 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 9,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 5 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 5 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "nadia-marcinkova",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 3 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "lesley-groff",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 3 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 3,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection referenced in 4 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 4,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "bill-clinton",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "prince-andrew",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "alan-dershowitz",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "glenn-dubin",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "emmy-taylor",
+          "summary": "Connection between Sarah Kellen and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-8",
+              "title": "ECF Doc. 1320-8",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-10",
+              "title": "ECF Doc. 1320-10",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-13",
+              "title": "ECF Doc. 1320-13",
+              "date": "01/03/24"
+            }
+          ]
+        }
+      ]
+    },
+    "terramar-project": {
+      "brief_path": "/continuum/briefs/connections/terramar-project_connections.md",
+      "connections": [
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between The Terramar Project and this entity is documented in 23 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 23,
+          "sources": [
+            {
+              "id": "1320-1",
+              "title": "ECF Doc. 1320-1",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-2",
+              "title": "ECF Doc. 1327-2",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-12",
+              "title": "ECF Doc. 1327-12",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between The Terramar Project and this entity is documented in 10 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 10,
+          "sources": [
+            {
+              "id": "1320-1",
+              "title": "ECF Doc. 1320-1",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-2",
+              "title": "ECF Doc. 1327-2",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-12",
+              "title": "ECF Doc. 1327-12",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "virginia-giuffre",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1320-1",
+              "title": "ECF Doc. 1320-1",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-2",
+              "title": "ECF Doc. 1327-2",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-12",
+              "title": "ECF Doc. 1327-12",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 5,
+          "sources": [
+            {
+              "id": "1320-1",
+              "title": "ECF Doc. 1320-1",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-2",
+              "title": "ECF Doc. 1327-2",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-12",
+              "title": "ECF Doc. 1327-12",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "bill-clinton",
+          "summary": "Connection between The Terramar Project and this entity is documented in 2 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1320-1",
+              "title": "ECF Doc. 1320-1",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-2",
+              "title": "ECF Doc. 1327-2",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-12",
+              "title": "ECF Doc. 1327-12",
+              "date": "01/05/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Connection referenced in 1 document(s). This connection appears in source materials but may be indirect or contextual.",
+          "strength": "referenced",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-1",
+              "title": "ECF Doc. 1320-1",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1327-2",
+              "title": "ECF Doc. 1327-2",
+              "date": "01/05/24"
+            },
+            {
+              "id": "1327-12",
+              "title": "ECF Doc. 1327-12",
+              "date": "01/05/24"
+            }
+          ]
+        }
+      ]
+    },
+    "virginia-giuffre": {
+      "brief_path": "/continuum/briefs/connections/virginia-giuffre_connections.md",
+      "connections": [
+        {
+          "entityId": "ghislaine-maxwell",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 30 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 30,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "jeffrey-epstein",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "giuffre-v-maxwell-case",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 6 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 6,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "bill-clinton",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "prince-andrew",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "alan-dershowitz",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "glenn-dubin",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "sarah-kellen",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "emmy-taylor",
+          "summary": "Connection between Virginia Giuffre and this entity is documented in 1 court filing reference(s). This represents a verified documentary connection established through primary source materials.",
+          "strength": "documented",
+          "count": 1,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        },
+        {
+          "entityId": "epstein-florida-case",
+          "summary": "Associated through mutual connections or contextual references in source materials.",
+          "strength": "interpreted",
+          "count": 2,
+          "sources": [
+            {
+              "id": "1320-6",
+              "title": "ECF Doc. 1320-6",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-34",
+              "title": "ECF Doc. 1320-34",
+              "date": "01/03/24"
+            },
+            {
+              "id": "1320-36",
+              "title": "ECF Doc. 1320-36",
+              "date": "01/03/24"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

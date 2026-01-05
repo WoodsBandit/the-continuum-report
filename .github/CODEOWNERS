@@ -1,0 +1,39 @@
+# Code ownership for The Continuum Report
+# See https://help.github.com/articles/about-code-owners
+
+# Default owners for entire repository
+* @continuum-report-team
+
+# CI/CD pipelines
+.github/ @continuum-report-team
+
+# Documentation
+*.md @continuum-report-team
+/docs/ @continuum-report-team
+
+# Python source code
+/scripts/ @continuum-report-team
+/src/ @continuum-report-team
+
+# Tests
+/tests/ @continuum-report-team
+
+# Configuration files
+pyproject.toml @continuum-report-team
+requirements.txt @continuum-report-team
+setup.py @continuum-report-team
+setup.cfg @continuum-report-team
+Dockerfile @continuum-report-team
+.dockerignore @continuum-report-team
+docker-compose.yml @continuum-report-team
+
+# Security and compliance
+.env.example @continuum-report-team
+.gitignore @continuum-report-team
+LICENSE @continuum-report-team
+
+# Build and packaging
+MANIFEST.in @continuum-report-team
+build/ @continuum-report-team
+dist/ @continuum-report-team
+*.egg-info/ @continuum-report-team

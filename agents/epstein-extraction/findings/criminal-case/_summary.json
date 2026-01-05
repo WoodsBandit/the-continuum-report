@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-24T09:30:41.856393",
+  "input_dir": "T:/website/sources/maxwell-criminal/",
+  "output_dir": "T:/agents/epstein-extraction/findings/criminal-case/",
+  "total_files": 4,
+  "processed": 4,
+  "failed": 0,
+  "total_people": 38,
+  "total_orgs": 0,
+  "total_locations": 4,
+  "total_dates": 23,
+  "total_quotes": 0,
+  "files": [
+    {
+      "file": "T:\\website\\sources\\maxwell-criminal\\maxwell-sentencing-memo-defense-2022-06.pdf",
+      "pages": 3,
+      "people": 13,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 6,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\maxwell-criminal\\maxwell-superseding-indictment-2021-03-29.pdf",
+      "pages": 2,
+      "people": 8,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 9,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\maxwell-criminal\\maxwell-sentencing-memo-govt-2022-06.pdf",
+      "pages": 4,
+      "people": 17,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 8,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\maxwell-criminal\\ghislaine-maxwell-indictment-2020-07-02.pdf",
+      "pages": 18,
+      "people": 0,
+      "orgs": 0,
+      "locations": 0,
+      "dates": 0,
+      "quotes": 0
+    }
+  ]
+}

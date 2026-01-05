@@ -1,0 +1,65 @@
+version: 2
+updates:
+  # Python dependencies
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "03:00"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "continuum-report-team"
+    assignees:
+      - "continuum-report-team"
+    labels:
+      - "dependencies"
+      - "python"
+    commit-message:
+      prefix: "chore(deps):"
+      prefix-development: "chore(deps-dev):"
+      include: "scope"
+    allow:
+      - dependency-type: "all"
+    ignore:
+      # Ignore major version updates for stable projects
+      - dependency-name: "requests"
+        update-types:
+          - "version-update:semver-major"
+      - dependency-name: "pydantic"
+        update-types:
+          - "version-update:semver-major"
+
+  # GitHub Actions
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "continuum-report-team"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "ci:"
+      include: "scope"
+
+  # Docker
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: wednesday
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "continuum-report-team"
+    labels:
+      - "dependencies"
+      - "docker"
+    commit-message:
+      prefix: "ci(docker):"
+      include: "scope"

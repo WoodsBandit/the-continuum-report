@@ -1,0 +1,117 @@
+{
+  "generated": "2025-12-16T01:17:54.256556Z",
+  "briefs_directory": "/continuum/briefs",
+  "total_entities": 15,
+  "entities_by_type": {
+    "person": 12,
+    "organization": 1,
+    "case": 2
+  },
+  "briefs": [
+    {
+      "id": "alan-dershowitz",
+      "name": "Alan Dershowitz",
+      "type": "person",
+      "file": "analytical_brief_alan_dershowitz.md",
+      "parsed": "2025-12-16T01:17:54.194357Z"
+    },
+    {
+      "id": "bill-clinton",
+      "name": "Bill Clinton",
+      "type": "person",
+      "file": "analytical_brief_bill_clinton.md",
+      "parsed": "2025-12-16T01:17:54.199577Z"
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "type": "person",
+      "file": "analytical_brief_donald_trump.md",
+      "parsed": "2025-12-16T01:17:54.202443Z"
+    },
+    {
+      "id": "emmy-taylor",
+      "name": "Emmy Taylor",
+      "type": "person",
+      "file": "analytical_brief_emmy_taylor.md",
+      "parsed": "2025-12-16T01:17:54.206316Z"
+    },
+    {
+      "id": "epstein-florida-case",
+      "name": "Epstein Florida Case",
+      "type": "case",
+      "file": "analytical_brief_epstein_florida_case.md",
+      "parsed": "2025-12-16T01:17:54.210963Z"
+    },
+    {
+      "id": "ghislaine-maxwell",
+      "name": "Ghislaine Maxwell",
+      "type": "person",
+      "file": "analytical_brief_ghislaine_maxwell.md",
+      "parsed": "2025-12-16T01:17:54.214941Z"
+    },
+    {
+      "id": "giuffre-v-maxwell-case",
+      "name": "Giuffre v. Maxwell Civil Case",
+      "type": "case",
+      "file": "analytical_brief_giuffre_v_maxwell_case.md",
+      "parsed": "2025-12-16T01:17:54.219307Z"
+    },
+    {
+      "id": "glenn-dubin",
+      "name": "Glenn Dubin",
+      "type": "person",
+      "file": "analytical_brief_glenn_dubin.md",
+      "parsed": "2025-12-16T01:17:54.222994Z"
+    },
+    {
+      "id": "jeffrey-epstein",
+      "name": "Jeffrey Epstein",
+      "type": "person",
+      "file": "analytical_brief_jeffrey_epstein.md",
+      "parsed": "2025-12-16T01:17:54.227511Z"
+    },
+    {
+      "id": "lesley-groff",
+      "name": "Lesley Groff",
+      "type": "person",
+      "file": "analytical_brief_lesley_groff.md",
+      "parsed": "2025-12-16T01:17:54.230998Z"
+    },
+    {
+      "id": "nadia-marcinkova",
+      "name": "Nadia Marcinkova",
+      "type": "person",
+      "file": "analytical_brief_nadia_marcinkova.md",
+      "parsed": "2025-12-16T01:17:54.236529Z"
+    },
+    {
+      "id": "prince-andrew",
+      "name": "Prince Andrew",
+      "type": "person",
+      "file": "analytical_brief_prince_andrew.md",
+      "parsed": "2025-12-16T01:17:54.241486Z"
+    },
+    {
+      "id": "sarah-kellen",
+      "name": "Sarah Kellen",
+      "type": "person",
+      "file": "analytical_brief_sarah_kellen.md",
+      "parsed": "2025-12-16T01:17:54.246288Z"
+    },
+    {
+      "id": "terramar-project",
+      "name": "The Terramar Project",
+      "type": "organization",
+      "file": "analytical_brief_terramar_project.md",
+      "parsed": "2025-12-16T01:17:54.251515Z"
+    },
+    {
+      "id": "virginia-giuffre",
+      "name": "Virginia Giuffre",
+      "type": "person",
+      "file": "analytical_brief_virginia_giuffre.md",
+      "parsed": "2025-12-16T01:17:54.255702Z"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+/**
+ * The Continuum Report - Design Tokens
+ * =====================================
+ * Canonical CSS custom properties (variables) for the entire site.
+ *
+ * Usage: Add <link rel="stylesheet" href="/styles/tokens.css"> to HTML files
+ * before other stylesheets to inherit these tokens.
+ *
+ * Last Updated: 2025-12-25
+ */
+
+:root {
+    /* ============================================
+       CORE PALETTE (used across all pages)
+       ============================================ */
+
+    /* Backgrounds - Dark to Light */
+    --void-black: #0a0a0b;      /* Primary background, deepest dark */
+    --deep-purple: #1a1025;     /* Secondary background */
+    --royal-purple: #2d1f3d;    /* Tertiary background, cards */
+    --mystic-purple: #4a3660;   /* Accent backgrounds */
+    --soft-purple: #6b5280;     /* Muted accent, borders */
+
+    /* Gold Accents - Primary brand color */
+    --ancient-gold: #c9a227;    /* Primary accent, links, highlights */
+    --light-gold: #e8d48b;      /* Secondary accent */
+    --pale-gold: #f5e6b3;       /* Tertiary accent, subtle highlights */
+
+    /* Text Colors */
+    --smoke: #a8a8a8;           /* Muted text, captions */
+    --mist: #d4d4d4;            /* Body text */
+    --pure: #f8f8f8;            /* Headings, high contrast text */
+
+    /* ============================================
+       RGBA VARIANTS (for overlays, glows)
+       ============================================ */
+    --gold-dim: rgba(201, 162, 39, 0.4);
+    --gold-glow: rgba(201, 162, 39, 0.6);
+    --purple-dim: rgba(139, 111, 192, 0.3);
+    --purple-glow: rgba(107, 82, 128, 0.5);
+
+    /* ============================================
+       CONTINUUM APP SHORTHAND ALIASES
+       (used by continuum.html for brevity)
+       ============================================ */
+    --void: var(--void-black);
+    --deep: #12101a;            /* Slightly different from deep-purple */
+    --mystic: #2d2445;          /* Slightly different from royal-purple */
+    --gold: var(--ancient-gold);
+    --purple: #8b6fc0;          /* Brighter purple for graph elements */
+
+    /* ============================================
+       ENTITY TYPE COLORS (continuum.html)
+       ============================================ */
+
+    /* Semantic Type Colors */
+    --color-person: #c9a227;        /* Persons (gold) */
+    --color-organization: #8b6fc0;  /* Organizations (purple) */
+    --color-case: #60a5fa;          /* Legal cases (blue) */
+    --color-location: #4ade80;      /* Locations (green) */
+
+    /* Detailed Entity Subtypes */
+    --entity-person-gov: #E57373;   /* Person: Government Employee (red) */
+    --entity-person-ceo: #4DD0E1;   /* Person: CEO/Board (teal) */
+    --entity-person-other: #FFD54F; /* Person: Other (yellow) */
+    --entity-org-banking: #81C784;  /* Org: Banking/Financial (green) */
+    --entity-org-media: #F48FB1;    /* Org: Media (pink) */
+    --entity-org-gov: #5C6BC0;      /* Org: Government (dark blue) */
+    --entity-org-other: #9575CD;    /* Org: Other (purple) */
+    --entity-case: #FFB74D;         /* Case (orange) */
+    --entity-general: #9E9E9E;      /* Unknown/General (gray) */
+
+    /* Macro Category Border Colors */
+    --macro-people: #FFD54F;
+    --macro-gov: #5C6BC0;
+    --macro-media: #F48FB1;
+    --macro-financial: #81C784;
+
+    /* ============================================
+       TYPOGRAPHY
+       ============================================ */
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Cormorant Garamond', serif;
+    --font-ui: 'Source Sans 3', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* ============================================
+       SPACING (future use)
+       ============================================ */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+
+    /* ============================================
+       TRANSITIONS
+       ============================================ */
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    /* ============================================
+       BORDERS & SHADOWS
+       ============================================ */
+    --border-subtle: 1px solid rgba(107, 82, 128, 0.2);
+    --border-gold: 1px solid rgba(201, 162, 39, 0.3);
+    --glow-gold: 0 0 20px rgba(201, 162, 39, 0.3);
+    --glow-purple: 0 0 20px rgba(139, 111, 192, 0.3);
+}
+
+/* ================================================
+   DARK MODE (already default, but explicit)
+   ================================================ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+}

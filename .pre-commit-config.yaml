@@ -1,0 +1,166 @@
+# =============================================================================
+# The Continuum Report - Pre-commit Configuration
+# =============================================================================
+# Modern Python code quality hooks (2024/2025 best practices)
+#
+# Installation:
+#   pip install pre-commit
+#   pre-commit install
+#
+# Manual run:
+#   pre-commit run --all-files
+#
+# Update hooks:
+#   pre-commit autoupdate
+
+# Minimum pre-commit version required
+minimum_pre_commit_version: "4.0.0"
+
+# Default settings for all hooks
+default_install_hook_types: [pre-commit, commit-msg]
+default_stages: [pre-commit]
+
+repos:
+  # =============================================================================
+  # GENERAL CODE QUALITY
+  # =============================================================================
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      # Whitespace and file fixes
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+      # File validation
+      - id: check-yaml
+        args: [--unsafe]  # Allow custom YAML tags
+      - id: check-toml
+      - id: check-json
+        exclude: ^\.vscode/
+
+      # Git hygiene
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: [--maxkb=1000]
+      - id: no-commit-to-branch
+        args: [--branch, main, --branch, master]
+
+      # Python-specific
+      - id: check-ast
+      - id: check-docstring-first
+      - id: debug-statements
+      - id: name-tests-test
+        args: [--pytest-test-first]
+
+  # =============================================================================
+  # RUFF - Fast Python Linter & Formatter (replaces black, isort, flake8)
+  # =============================================================================
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.4
+    hooks:
+      # Linting with auto-fix
+      - id: ruff
+        name: ruff (lint)
+        args: [--fix, --exit-non-zero-on-fix]
+        types_or: [python, pyi]
+
+      # Code formatting (replaces black)
+      - id: ruff-format
+        name: ruff (format)
+        types_or: [python, pyi]
+
+  # =============================================================================
+  # MYPY - Static Type Checking
+  # =============================================================================
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.13.0
+    hooks:
+      - id: mypy
+        name: mypy (type check)
+        additional_dependencies:
+          - pydantic>=2.5.0
+          - pydantic-settings>=2.1.0
+          - types-requests>=2.32.0
+        args:
+          - --config-file=pyproject.toml
+          - --ignore-missing-imports
+        # Only run on changed files for speed
+        pass_filenames: true
+        # Exclude tests initially (relax type requirements)
+        exclude: ^tests/
+
+  # =============================================================================
+  # SECRET DETECTION
+  # =============================================================================
+
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        name: detect-secrets (scan for secrets)
+        args:
+          - --baseline
+          - .secrets.baseline
+        exclude: |
+          (?x)^(
+            \.env\.example|
+            .*\.lock|
+            .*\.md|
+            tests/.*
+          )$
+
+  # =============================================================================
+  # ADDITIONAL PYTHON CHECKS
+  # =============================================================================
+
+  # Security-focused static analysis
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.8.0
+    hooks:
+      - id: bandit
+        name: bandit (security check)
+        args:
+          - -c
+          - pyproject.toml
+          - --recursive
+          - scripts/
+          - src/
+        additional_dependencies: ["bandit[toml]"]
+
+  # Check for common Python security issues
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.30.0
+    hooks:
+      - id: check-github-workflows
+        name: validate GitHub workflows
+
+  # =============================================================================
+  # DOCUMENTATION QUALITY
+  # =============================================================================
+
+  # Spell checking for code comments and docs
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        name: codespell (spell check)
+        args:
+          - --ignore-words-list=datas,fpr
+          - --skip=*.json,*.lock,*.md
+        exclude: ^(\.git|\.venv|venv|__pycache__|\.mypy_cache)/
+
+# =============================================================================
+# CI CONFIGURATION
+# =============================================================================
+# For CI environments, you can skip certain hooks:
+#   SKIP=mypy pre-commit run --all-files
+#
+# Or run specific hooks:
+#   pre-commit run ruff --all-files
+#   pre-commit run mypy --all-files

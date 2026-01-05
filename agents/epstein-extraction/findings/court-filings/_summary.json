@@ -1,0 +1,879 @@
+{
+  "timestamp": "2025-12-24T09:30:41.322188",
+  "input_dir": "T:/website/sources/giuffre-v-maxwell/",
+  "output_dir": "T:/agents/epstein-extraction/findings/court-filings/",
+  "total_files": 96,
+  "processed": 96,
+  "failed": 0,
+  "total_people": 5067,
+  "total_orgs": 2,
+  "total_locations": 206,
+  "total_dates": 3073,
+  "total_quotes": 1063,
+  "files": [
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-1.pdf",
+      "pages": 2,
+      "people": 3,
+      "orgs": 0,
+      "locations": 0,
+      "dates": 3,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-11.pdf",
+      "pages": 4,
+      "people": 28,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 11,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-10.pdf",
+      "pages": 28,
+      "people": 106,
+      "orgs": 0,
+      "locations": 6,
+      "dates": 59,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-16.pdf",
+      "pages": 3,
+      "people": 19,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 4,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-14.pdf",
+      "pages": 3,
+      "people": 7,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 5,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-15.pdf",
+      "pages": 27,
+      "people": 37,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 180,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-19.pdf",
+      "pages": 22,
+      "people": 25,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 22,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-17.pdf",
+      "pages": 25,
+      "people": 49,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 55,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-20.pdf",
+      "pages": 11,
+      "people": 55,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 16,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-2.pdf",
+      "pages": 10,
+      "people": 41,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 11,
+      "quotes": 7
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-18.pdf",
+      "pages": 40,
+      "people": 189,
+      "orgs": 1,
+      "locations": 2,
+      "dates": 55,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-21.pdf",
+      "pages": 15,
+      "people": 51,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 21,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-22.pdf",
+      "pages": 3,
+      "people": 23,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 8,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-23.pdf",
+      "pages": 10,
+      "people": 14,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 12,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-25.pdf",
+      "pages": 4,
+      "people": 25,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 11,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-24.pdf",
+      "pages": 16,
+      "people": 53,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 24,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-26.pdf",
+      "pages": 10,
+      "people": 13,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 12,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-13.pdf",
+      "pages": 45,
+      "people": 215,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 205,
+      "quotes": 6
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-27.pdf",
+      "pages": 15,
+      "people": 50,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 23,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-29.pdf",
+      "pages": 6,
+      "people": 6,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 6,
+      "quotes": 22
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-28.pdf",
+      "pages": 32,
+      "people": 124,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 71,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-3.pdf",
+      "pages": 6,
+      "people": 14,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 7,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-12.pdf",
+      "pages": 179,
+      "people": 126,
+      "orgs": 0,
+      "locations": 5,
+      "dates": 181,
+      "quotes": 7
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-34.pdf",
+      "pages": 4,
+      "people": 32,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 19,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-33.pdf",
+      "pages": 24,
+      "people": 94,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 49,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-35.pdf",
+      "pages": 12,
+      "people": 1,
+      "orgs": 0,
+      "locations": 0,
+      "dates": 12,
+      "quotes": 139
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-31.pdf",
+      "pages": 24,
+      "people": 85,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 35,
+      "quotes": 18
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-36.pdf",
+      "pages": 3,
+      "people": 28,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 15,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-37.pdf",
+      "pages": 48,
+      "people": 169,
+      "orgs": 0,
+      "locations": 8,
+      "dates": 62,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-32.pdf",
+      "pages": 27,
+      "people": 63,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 36,
+      "quotes": 28
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-30.pdf",
+      "pages": 27,
+      "people": 31,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 55,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-40.pdf",
+      "pages": 19,
+      "people": 168,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 25,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-6.pdf",
+      "pages": 10,
+      "people": 44,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 26,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-39.pdf",
+      "pages": 35,
+      "people": 71,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 201,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-38.pdf",
+      "pages": 89,
+      "people": 0,
+      "orgs": 0,
+      "locations": 0,
+      "dates": 89,
+      "quotes": 747
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-4.pdf",
+      "pages": 17,
+      "people": 25,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 18,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-9.pdf",
+      "pages": 10,
+      "people": 36,
+      "orgs": 0,
+      "locations": 6,
+      "dates": 21,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-8.pdf",
+      "pages": 12,
+      "people": 80,
+      "orgs": 1,
+      "locations": 3,
+      "dates": 29,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-5.pdf",
+      "pages": 56,
+      "people": 68,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 57,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1325-3.pdf",
+      "pages": 10,
+      "people": 36,
+      "orgs": 0,
+      "locations": 6,
+      "dates": 21,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1320-7.pdf",
+      "pages": 9,
+      "people": 31,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 12,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1325-1.pdf",
+      "pages": 21,
+      "people": 60,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 27,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1325-4.pdf",
+      "pages": 6,
+      "people": 31,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 9,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-12.pdf",
+      "pages": 11,
+      "people": 61,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 28,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-14.pdf",
+      "pages": 4,
+      "people": 12,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 5,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-13.pdf",
+      "pages": 13,
+      "people": 4,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 26,
+      "quotes": 7
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-22.pdf",
+      "pages": 5,
+      "people": 13,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 7,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-23.pdf",
+      "pages": 4,
+      "people": 11,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 6,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-21.pdf",
+      "pages": 11,
+      "people": 19,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 16,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-19.pdf",
+      "pages": 21,
+      "people": 102,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 57,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-2.pdf",
+      "pages": 13,
+      "people": 4,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 26,
+      "quotes": 7
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-24.pdf",
+      "pages": 6,
+      "people": 12,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 8,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-25.pdf",
+      "pages": 12,
+      "people": 21,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 14,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-4.pdf",
+      "pages": 4,
+      "people": 16,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 6,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-14.pdf",
+      "pages": 7,
+      "people": 9,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 8,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-15.pdf",
+      "pages": 6,
+      "people": 30,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 9,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-16.pdf",
+      "pages": 8,
+      "people": 41,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 10,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-17.pdf",
+      "pages": 6,
+      "people": 33,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 7,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-19.pdf",
+      "pages": 4,
+      "people": 14,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 9,
+      "quotes": 24
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-12.pdf",
+      "pages": 35,
+      "people": 32,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 36,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-24.pdf",
+      "pages": 4,
+      "people": 30,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 13,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1327-28.pdf",
+      "pages": 38,
+      "people": 71,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 43,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-25.pdf",
+      "pages": 10,
+      "people": 16,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 11,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-23.pdf",
+      "pages": 22,
+      "people": 105,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 44,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-34.pdf",
+      "pages": 7,
+      "people": 17,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 8,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-31.pdf",
+      "pages": 13,
+      "people": 62,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 25,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-18.pdf",
+      "pages": 50,
+      "people": 198,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 85,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-37.pdf",
+      "pages": 11,
+      "people": 19,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 12,
+      "quotes": 2
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-42.pdf",
+      "pages": 5,
+      "people": 31,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 6,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-43.pdf",
+      "pages": 8,
+      "people": 31,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 8,
+      "quotes": 1
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-7.pdf",
+      "pages": 12,
+      "people": 54,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 38,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-8.pdf",
+      "pages": 4,
+      "people": 36,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 20,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-4.pdf",
+      "pages": 40,
+      "people": 94,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 61,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-5.pdf",
+      "pages": 45,
+      "people": 109,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 81,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1328-44.pdf",
+      "pages": 14,
+      "people": 103,
+      "orgs": 0,
+      "locations": 5,
+      "dates": 19,
+      "quotes": 11
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-14.pdf",
+      "pages": 7,
+      "people": 16,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 8,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-1.pdf",
+      "pages": 13,
+      "people": 62,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 25,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-5.pdf",
+      "pages": 2,
+      "people": 1,
+      "orgs": 0,
+      "locations": 0,
+      "dates": 4,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-2.pdf",
+      "pages": 40,
+      "people": 111,
+      "orgs": 0,
+      "locations": 6,
+      "dates": 46,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-21.pdf",
+      "pages": 11,
+      "people": 35,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 15,
+      "quotes": 3
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-4.pdf",
+      "pages": 27,
+      "people": 147,
+      "orgs": 0,
+      "locations": 5,
+      "dates": 48,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-9.pdf",
+      "pages": 6,
+      "people": 29,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 12,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-3.pdf",
+      "pages": 26,
+      "people": 193,
+      "orgs": 0,
+      "locations": 4,
+      "dates": 68,
+      "quotes": 6
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1330-22.pdf",
+      "pages": 22,
+      "people": 34,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 44,
+      "quotes": 4
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-11.pdf",
+      "pages": 8,
+      "people": 32,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 9,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-18.pdf",
+      "pages": 8,
+      "people": 15,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 10,
+      "quotes": 2
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-19.pdf",
+      "pages": 12,
+      "people": 64,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 16,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-13.pdf",
+      "pages": 22,
+      "people": 87,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 26,
+      "quotes": 3
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-12.pdf",
+      "pages": 10,
+      "people": 64,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 23,
+      "quotes": 3
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-30.pdf",
+      "pages": 19,
+      "people": 76,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 29,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-36.pdf",
+      "pages": 10,
+      "people": 59,
+      "orgs": 0,
+      "locations": 3,
+      "dates": 22,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-32.pdf",
+      "pages": 4,
+      "people": 14,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 5,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-31.pdf",
+      "pages": 27,
+      "people": 10,
+      "orgs": 0,
+      "locations": 0,
+      "dates": 27,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-34.pdf",
+      "pages": 10,
+      "people": 31,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 13,
+      "quotes": 0
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-35.pdf",
+      "pages": 11,
+      "people": 55,
+      "orgs": 0,
+      "locations": 1,
+      "dates": 17,
+      "quotes": 6
+    },
+    {
+      "file": "T:\\website\\sources\\giuffre-v-maxwell\\ecf-1331-4.pdf",
+      "pages": 21,
+      "people": 96,
+      "orgs": 0,
+      "locations": 2,
+      "dates": 34,
+      "quotes": 0
+    }
+  ]
+}

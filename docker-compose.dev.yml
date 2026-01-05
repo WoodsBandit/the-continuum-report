@@ -1,0 +1,230 @@
+version: '3.8'
+
+# The Continuum Report - Development Configuration
+# Override base docker-compose.yml for local development with live code reload
+
+services:
+  continuum:
+    # Build configuration for development
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+
+    # Override with development settings
+    environment:
+      # Paperless-ngx Configuration (local defaults)
+      PAPERLESS_URL: http://paperless:8000
+      PAPERLESS_TOKEN: ${PAPERLESS_TOKEN:-dev-token}
+      PAPERLESS_TIMEOUT: 30
+
+      # Ollama Configuration (local defaults)
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-mistral}
+      OLLAMA_CONTEXT_SIZE: 512  # Reduced for dev
+      OLLAMA_TIMEOUT: 600
+
+      # Directory Configuration
+      CONTINUUM_BASE_DIR: /continuum
+
+      # Python Debug Settings
+      PYTHONUNBUFFERED: 1
+      PYTHONDONTWRITEBYTECODE: 0  # Allow bytecode for development
+      PYTHONDEBUG: 1
+      LOG_LEVEL: DEBUG
+
+    # Volume configuration for live reload
+    volumes:
+      # Live code reload - mount scripts directory
+      - ./scripts:/continuum/scripts
+
+      # Data persistence across runs
+      - continuum-entity-data:/continuum/entity_data
+      - continuum-reports:/continuum/reports
+      - continuum-checkpoints:/continuum/checkpoints
+      - continuum-documents:/continuum/documents
+
+    # Keep container running for development
+    stdin_open: true
+    tty: true
+
+    # Development networking
+    networks:
+      - continuum-network
+
+    # Reduced resource limits for development
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 2G
+
+    # Override command to keep container alive for manual execution
+    command: /bin/bash
+
+    # More verbose logging for development
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "5"
+
+  # ==========================================================================
+  # DEVELOPMENT SUPPORT SERVICES
+  # ==========================================================================
+
+  # Interactive shell with all dependencies
+  cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: continuum-cli
+    image: continuum-report:dev
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      PYTHONDONTWRITEBYTECODE: 0
+      LOG_LEVEL: DEBUG
+
+      PAPERLESS_URL: http://paperless:8000
+      PAPERLESS_TOKEN: ${PAPERLESS_TOKEN:-dev-token}
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-mistral}
+      CONTINUUM_BASE_DIR: /continuum
+
+    volumes:
+      - ./scripts:/continuum/scripts
+      - continuum-entity-data:/continuum/entity_data
+      - continuum-reports:/continuum/reports
+      - continuum-checkpoints:/continuum/checkpoints
+      - continuum-documents:/continuum/documents
+
+    networks:
+      - continuum-network
+
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+    depends_on:
+      - paperless
+      - ollama
+
+  # Lightweight test runner
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: continuum-tests
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      LOG_LEVEL: DEBUG
+
+      PAPERLESS_URL: http://paperless:8000
+      PAPERLESS_TOKEN: ${PAPERLESS_TOKEN:-dev-token}
+      OLLAMA_URL: http://ollama:11434
+      CONTINUUM_BASE_DIR: /continuum
+
+    volumes:
+      - ./scripts:/continuum/scripts
+      - ./tests:/continuum/tests
+      - continuum-entity-data:/continuum/entity_data
+
+    networks:
+      - continuum-network
+
+    command: ["python", "-m", "pytest", "/continuum/tests", "-v", "--tb=short"]
+    depends_on:
+      - paperless
+      - ollama
+
+  # ==========================================================================
+  # MINIMAL PAPERLESS FOR DEVELOPMENT
+  # ==========================================================================
+  paperless:
+    image: ghcr.io/paperless-ngx/paperless-ngx:2.0.0
+    container_name: continuum-paperless-dev
+    restart: unless-stopped
+
+    environment:
+      PAPERLESS_SECRET_KEY: dev-insecure-key
+      PAPERLESS_URL: http://localhost:8040
+      PAPERLESS_ENABLE_COMPRESSION: "false"
+      PAPERLESS_TIME_ZONE: UTC
+      PAPERLESS_LOGGING_LEVEL: WARNING
+
+    volumes:
+      - paperless-data:/paperless/data
+      - paperless-media:/paperless/media
+      - paperless-log:/paperless/log
+
+    networks:
+      - continuum-network
+
+    ports:
+      - "8040:8000"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+
+  # ==========================================================================
+  # MINIMAL OLLAMA FOR DEVELOPMENT
+  # ==========================================================================
+  ollama:
+    image: ollama/ollama:latest
+    container_name: continuum-ollama-dev
+    restart: unless-stopped
+
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+
+    volumes:
+      - ollama-models:/root/.ollama
+
+    networks:
+      - continuum-network
+
+    ports:
+      - "11434:11434"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+
+# =============================================================================
+# NETWORKS AND VOLUMES (same as production)
+# =============================================================================
+networks:
+  continuum-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
+
+volumes:
+  continuum-entity-data:
+    driver: local
+  continuum-reports:
+    driver: local
+  continuum-checkpoints:
+    driver: local
+  continuum-documents:
+    driver: local
+
+  paperless-data:
+    driver: local
+  paperless-media:
+    driver: local
+  paperless-log:
+    driver: local
+
+  ollama-models:
+    driver: local

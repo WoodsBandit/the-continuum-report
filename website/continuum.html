@@ -2312,20 +2312,6 @@
     <div id="entitiesLayer" class="entities-layer" style="display: none;">
 
         <!-- Filter Search Bar (SEPARATE from top global search) -->
-        <div class="entities-search-container">
-            <span class="entities-search-icon">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"/>
-                    <path d="m21 21-4.35-4.35"/>
-                </svg>
-            </span>
-            <input type="text"
-                   id="entitiesFilterSearch"
-                   class="entities-filter-search"
-                   placeholder="Filter by name, tags, connections..."
-                   autocomplete="off">
-            <span class="entities-result-count" id="entitiesResultCount"></span>
-        </div>
 
         <!-- Zoomable/Pannable Card Container -->
         <div class="entities-viewport" id="entitiesViewport">
@@ -4083,26 +4069,18 @@
                 if (!grid) return;
 
                 // Get entities from Graph.nodes (loaded from data)
-                const allEntities = Graph.nodes || [];
+                // FILTER: Only show entities that have approved briefs
+                const allEntities = (Graph.nodes || []).filter(e => e.brief);
 
                 // Category filter logic - checks tags, names, and summaries
                 const categoryFilters = {
                     'people': (e) => e.type === 'person',
                     'gov': (e) => {
-                        const tagStr = (e.tags || []).join(' ').toLowerCase();
-                        const nameStr = (e.name || '').toLowerCase();
+                        const tags = (e.tags || []).map(t => t.toLowerCase());
                         const summaryStr = (e.summary || '').toLowerCase();
-                        return tagStr.includes('government') ||
-                               tagStr.includes('gov') ||
-                               tagStr.includes('agency') ||
-                               tagStr.includes('cia') ||
-                               tagStr.includes('fbi') ||
-                               tagStr.includes('intelligence') ||
-                               tagStr.includes('prosecutor') ||
-                               tagStr.includes('official') ||
-                               summaryStr.includes('government') ||
-                               summaryStr.includes(' cia ') ||
-                               summaryStr.includes(' fbi ') ||
+                        const govTags = ['government', 'gov', 'agency', 'cia', 'fbi', 'intelligence', 'prosecutor', 'official', 'federal-judiciary', 'doj', 'state-attorney', 'judge', 'politician', 'foreign-official'];
+                        return tags.some(tag => govTags.includes(tag)) ||
+                               /\b(government|cia|fbi)\b/.test(summaryStr) ||
                                (e.type === 'organization' && e.subtype === 'government');
                     },
                     'media': (e) => {

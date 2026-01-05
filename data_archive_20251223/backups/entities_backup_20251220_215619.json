@@ -1,0 +1,1437 @@
+{
+  "generated": "2025-12-16T01:17:54.256573Z",
+  "count": 15,
+  "entities": [
+    {
+      "id": "alan-dershowitz",
+      "name": "Alan Dershowitz",
+      "type": "person",
+      "status": "Never criminally charged; categorically denies all allegations of misconduct",
+      "summary": "Alan Dershowitz is a prominent American lawyer, legal scholar, and emeritus professor at Harvard Law School who appears in court documents in multiple capacities: as a member of Jeffrey Epstein's criminal defense team during the 2008 non-prosecution agreement negotiations, and as a subject of sexual abuse allegations made by Virginia Giuffre. Dershowitz has categorically and repeatedly denied all allegations of misconduct. Defamation litigation between Dershowitz and Giuffre's attorneys was sett...",
+      "full_summary": "Alan Dershowitz is a prominent American lawyer, legal scholar, and emeritus professor at Harvard Law School who appears in court documents in multiple capacities: as a member of Jeffrey Epstein's criminal defense team during the 2008 non-prosecution agreement negotiations, and as a subject of sexual abuse allegations made by Virginia Giuffre. Dershowitz has categorically and repeatedly denied all allegations of misconduct. Defamation litigation between Dershowitz and Giuffre's attorneys was settled in 2016. No criminal charges have ever been filed against Dershowitz related to these allegations.",
+      "brief_file": "analytical_brief_alan_dershowitz.md",
+      "brief_url": "/briefs/alan-dershowitz.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.) and related cases",
+      "sources": [
+        {
+          "ecf": "1320-9",
+          "description": "Motion for Joinder (Jane Doe #3 & #4)",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-40",
+          "description": "Maxwell's Rule 26 Disclosures",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1325-3",
+          "description": "Motion for Joinder",
+          "filed": "01/04/24"
+        },
+        {
+          "ecf": "1327-12",
+          "description": "Defendant's Submission Regarding Search Terms",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-19",
+          "description": "Media Exhibits",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-31",
+          "description": "Motion Filing",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1329-0",
+          "description": "Court Order",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-1",
+          "description": "Declaration of Paul G. Cassell",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-12",
+          "description": "Affidavit of Sarah Ransome",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1328-19",
+        "1331-12",
+        "1320-9",
+        "1320-40",
+        "1328-31"
+      ],
+      "mentions": [
+        "virginia-giuffre",
+        "jeffrey-epstein",
+        "ghislaine-maxwell",
+        "nadia-marcinkova",
+        "giuffre-v-maxwell-case",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 12,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 3,
+          "strength": "referenced"
+        },
+        "virginia-giuffre": {
+          "count": 20,
+          "strength": "documented"
+        },
+        "nadia-marcinkova": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 2,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 1,
+          "strength": "interpreted"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.194357Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_alan_dershowitz.md"
+    },
+    {
+      "id": "bill-clinton",
+      "name": "Bill Clinton",
+      "type": "person",
+      "status": "No allegations of illegal conduct in analyzed court filings",
+      "summary": "William Jefferson Clinton, the 42nd President of the United States, appears in court documents from the Giuffre v. Maxwell civil defamation case. Based on our review, Virginia Giuffre made public claims about Clinton traveling to Jeffrey Epstein's private island. Maxwell's defense submitted a report from former FBI Director Louis Freeh concluding Clinton was not present on the island during the relevant time period. In our assessment of all analyzed documents, no allegations of sexual misconduct...",
+      "full_summary": "William Jefferson Clinton, the 42nd President of the United States, appears in court documents from the Giuffre v. Maxwell civil defamation case. Based on our review, Virginia Giuffre made public claims about Clinton traveling to Jeffrey Epstein's private island. Maxwell's defense submitted a report from former FBI Director Louis Freeh concluding Clinton was not present on the island during the relevant time period. In our assessment of all analyzed documents, no allegations of sexual misconduct by Clinton appear in the court filings.",
+      "brief_file": "analytical_brief_bill_clinton.md",
+      "brief_url": "/briefs/bill-clinton.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-28",
+          "description": "Maxwell's Opposition to Extending Deposition Deadline",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1327-4",
+          "description": "Maxwell's Initial Rule 26(a)(1)(A) Disclosures",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-23",
+          "description": "Plaintiff's Response re Financial Protective Order",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-44",
+          "description": "Sealed Composite Exhibit 9 - Nadia Marcinkova Deposition",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-18",
+          "description": "Sealed Exhibit F - Confidential Deposition Transcript",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1328-44",
+        "1320-28",
+        "1331-18"
+      ],
+      "mentions": [
+        "jeffrey-epstein",
+        "virginia-giuffre",
+        "ghislaine-maxwell",
+        "nadia-marcinkova",
+        "giuffre-v-maxwell-case",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 12,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 13,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 14,
+          "strength": "documented"
+        },
+        "nadia-marcinkova": {
+          "count": 4,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 4,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 1,
+          "strength": "referenced"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.199577Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_bill_clinton.md"
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "type": "person",
+      "status": "No allegations of misconduct in analyzed court filings",
+      "summary": "Donald Trump, the 45th President of the United States, appears in limited references within court documents from the Giuffre v. Maxwell civil defamation case. Based on our review of all analyzed documents, testimony from Epstein's former house manager establishes that Trump visited Epstein's Palm Beach residence for meals but did not stay overnight. No allegations of misconduct by Trump appear in the analyzed court filings.",
+      "full_summary": "Donald Trump, the 45th President of the United States, appears in limited references within court documents from the Giuffre v. Maxwell civil defamation case. Based on our review of all analyzed documents, testimony from Epstein's former house manager establishes that Trump visited Epstein's Palm Beach residence for meals but did not stay overnight. No allegations of misconduct by Trump appear in the analyzed court filings.",
+      "brief_file": "analytical_brief_donald_trump.md",
+      "brief_url": "/briefs/donald-trump.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1328-42",
+          "description": "Deposition of Juan Alessi (Epstein's house manager)",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-36",
+          "description": "Epstein's Motion to Quash Trial Subpoena",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1328-42"
+      ],
+      "mentions": [
+        "jeffrey-epstein",
+        "ghislaine-maxwell",
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 14,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 5,
+          "strength": "interpreted"
+        },
+        "virginia-giuffre": {
+          "count": 5,
+          "strength": "interpreted"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 5,
+          "strength": "interpreted"
+        },
+        "epstein-florida-case": {
+          "count": 1,
+          "strength": "referenced"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.202443Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_donald_trump.md"
+    },
+    {
+      "id": "emmy-taylor",
+      "name": "Emmy Taylor",
+      "type": "person",
+      "status": "Never charged with any crime",
+      "summary": "Emmy Taylor appears in court documents from the Giuffre v. Maxwell civil defamation case as an assistant to Ghislaine Maxwell. Based on our review, deposition testimony describes her presence at Epstein's Palm Beach residence and contains allegations regarding activities described as \"massages.\" She is also referenced in Virginia Giuffre's account of a dinner involving Bill Clinton on Epstein's island. Emmy Taylor has never been charged with any crime. Her own account of events does not appear i...",
+      "full_summary": "Emmy Taylor appears in court documents from the Giuffre v. Maxwell civil defamation case as an assistant to Ghislaine Maxwell. Based on our review, deposition testimony describes her presence at Epstein's Palm Beach residence and contains allegations regarding activities described as \"massages.\" She is also referenced in Virginia Giuffre's account of a dinner involving Bill Clinton on Epstein's island. Emmy Taylor has never been charged with any crime. Her own account of events does not appear in the analyzed documents.",
+      "brief_file": "analytical_brief_emmy_taylor.md",
+      "brief_url": "/briefs/emmy-taylor.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-10",
+          "description": "Deposition Time Allocations",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-28",
+          "description": "Maxwell's Opposition re Depositions",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1325-4",
+          "description": "Deposition Schedule",
+          "filed": "01/04/24"
+        },
+        {
+          "ecf": "1327-12",
+          "description": "Discovery Dispute Filing",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-12",
+          "description": "Deposition Transcript Excerpts",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-25",
+          "description": "Deposition Transcript Excerpts",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-37",
+          "description": "Deposition Transcript Excerpts",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1320-10",
+        "1328-12",
+        "1320-28",
+        "1327-12"
+      ],
+      "mentions": [
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "virginia-giuffre",
+        "bill-clinton",
+        "giuffre-v-maxwell-case",
+        "prince-andrew",
+        "alan-dershowitz",
+        "glenn-dubin",
+        "sarah-kellen",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 5,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 11,
+          "strength": "interpreted"
+        },
+        "virginia-giuffre": {
+          "count": 6,
+          "strength": "documented"
+        },
+        "bill-clinton": {
+          "count": 3,
+          "strength": "documented"
+        },
+        "prince-andrew": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "alan-dershowitz": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "glenn-dubin": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "sarah-kellen": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 4,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 1,
+          "strength": "referenced"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.206316Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_emmy_taylor.md"
+    },
+    {
+      "id": "epstein-florida-case",
+      "name": "Epstein Florida Case",
+      "type": "case",
+      "status": "Unknown",
+      "summary": "The \"Epstein Florida Case\" refers to interconnected legal proceedings arising from Jeffrey Epstein's sexual abuse of underage girls in Palm Beach, Florida. The central controversy involves a secret Non-Prosecution Agreement (NPA) negotiated in 2008 between the U.S. Attorney's Office for the Southern District of Florida and Epstein, which shielded him from federal prosecution and was concealed from his victims in alleged violation of the Crime Victims' Rights Act (CVRA). The primary litigation, *...",
+      "full_summary": "The \"Epstein Florida Case\" refers to interconnected legal proceedings arising from Jeffrey Epstein's sexual abuse of underage girls in Palm Beach, Florida. The central controversy involves a secret Non-Prosecution Agreement (NPA) negotiated in 2008 between the U.S. Attorney's Office for the Southern District of Florida and Epstein, which shielded him from federal prosecution and was concealed from his victims in alleged violation of the Crime Victims' Rights Act (CVRA). The primary litigation, *Jane Doe #1 and Jane Doe #2 v. United States*, was filed on July 7, 2008, and continued for over a decade.",
+      "brief_file": "analytical_brief_epstein_florida_case.md",
+      "brief_url": "/briefs/epstein-florida-case.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.) and Florida federal court filings",
+      "sources": [
+        {
+          "ecf": "1325-3",
+          "description": "Jane Doe #3 and #4 Motion for Joinder",
+          "filed": "01/04/24"
+        },
+        {
+          "ecf": "1328-18",
+          "description": "Plaintiff's Response re Discovery",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-1",
+          "description": "Declaration of Paul G. Cassell",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-4",
+          "description": "Plaintiff's Response re Sanctions",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1320-40",
+          "description": "Maxwell's Rule 26 Disclosures",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-9",
+          "description": "Jane Doe #3 and #4 Motion (duplicate)",
+          "filed": "01/03/24"
+        }
+      ],
+      "ecf_citations": [
+        "1330-1",
+        "1325-3",
+        "1331-4"
+      ],
+      "mentions": [
+        "jeffrey-epstein",
+        "ghislaine-maxwell",
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 18,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 6,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 3,
+          "strength": "referenced"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 3,
+          "strength": "referenced"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.210963Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_epstein_florida_case.md"
+    },
+    {
+      "id": "ghislaine-maxwell",
+      "name": "Ghislaine Maxwell",
+      "type": "person",
+      "status": "Convicted December 2021; currently serving 20-year federal sentence",
+      "summary": "Ghislaine Maxwell was convicted in December 2021 on five federal charges related to recruiting and grooming underage girls for sexual abuse by Jeffrey Epstein. She is currently serving a 20-year federal prison sentence. This analytical brief synthesizes testimony, depositions, and court filings from civil litigation in *Virginia Giuffre v. Ghislaine Maxwell*, Case No. 15-cv-07433 (S.D.N.Y.), which was filed prior to Maxwell's criminal prosecution. The civil case was a defamation action filed by ...",
+      "full_summary": "Ghislaine Maxwell was convicted in December 2021 on five federal charges related to recruiting and grooming underage girls for sexual abuse by Jeffrey Epstein. She is currently serving a 20-year federal prison sentence. This analytical brief synthesizes testimony, depositions, and court filings from civil litigation in *Virginia Giuffre v. Ghislaine Maxwell*, Case No. 15-cv-07433 (S.D.N.Y.), which was filed prior to Maxwell's criminal prosecution. The civil case was a defamation action filed by Giuffre after Maxwell publicly called Giuffre's allegations \"obvious lies.\"",
+      "brief_file": "analytical_brief_ghislaine_maxwell.md",
+      "brief_url": "/briefs/ghislaine-maxwell.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [],
+      "ecf_citations": [
+        "1331-12",
+        "1320-6",
+        "1327-12"
+      ],
+      "mentions": [
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case",
+        "jeffrey-epstein",
+        "prince-andrew"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 5,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 11,
+          "strength": "documented"
+        },
+        "prince-andrew": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 6,
+          "strength": "documented"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.214941Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_ghislaine_maxwell.md"
+    },
+    {
+      "id": "giuffre-v-maxwell-case",
+      "name": "Giuffre v. Maxwell Civil Case",
+      "type": "case",
+      "status": "Settled May 2017; documents unsealed January 2024",
+      "summary": "*Giuffre v. Maxwell* was a defamation lawsuit filed by Virginia Giuffre against Ghislaine Maxwell in the Southern District of New York. The case arose after Maxwell publicly characterized Giuffre's allegations of sexual abuse and trafficking as \"obvious lies.\" The litigation produced extensive discovery, including depositions of witnesses with knowledge of Jeffrey Epstein's activities, before settling in May 2017. In January 2024, hundreds of pages of previously sealed documents were released to...",
+      "full_summary": "*Giuffre v. Maxwell* was a defamation lawsuit filed by Virginia Giuffre against Ghislaine Maxwell in the Southern District of New York. The case arose after Maxwell publicly characterized Giuffre's allegations of sexual abuse and trafficking as \"obvious lies.\" The litigation produced extensive discovery, including depositions of witnesses with knowledge of Jeffrey Epstein's activities, before settling in May 2017. In January 2024, hundreds of pages of previously sealed documents were released to the public pursuant to court order. The case's documentary record has become one of the most significant public sources of information about the Epstein trafficking operation.",
+      "brief_file": "analytical_brief_giuffre_v_maxwell_case.md",
+      "brief_url": "/briefs/giuffre-v-maxwell-case.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": null,
+      "sources": [
+        {
+          "ecf": "1327-22",
+          "description": "Deposition of Joseph Recarey",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-23",
+          "description": "Deposition of Johanna Sjoberg",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-24",
+          "description": "Deposition of John Alessi",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-25",
+          "description": "Deposition of Janusz Banasiak",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-14",
+          "description": "Deposition of David Rodgers",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-4",
+          "description": "Motion re Sanctions",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1327-25",
+        "1331-4"
+      ],
+      "mentions": [
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "virginia-giuffre"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 12,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 18,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 11,
+          "strength": "documented"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.219307Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_giuffre_v_maxwell_case.md"
+    },
+    {
+      "id": "glenn-dubin",
+      "name": "Glenn Dubin",
+      "type": "person",
+      "status": "Never charged with any crime; no allegations of misconduct in analyzed documents",
+      "summary": "Glenn Dubin, a hedge fund manager, appears in limited references within court documents from the Giuffre v. Maxwell civil defamation case. Based on our review, Maxwell acknowledged knowing Dubin through his wife Eva Dubin, whom Maxwell described as a friend. Deposition questions were asked about whether individuals were sent to provide massages to Dubin, but Maxwell denied recollection of any such instruction. Glenn Dubin has never been charged with any crime. No direct allegations of misconduct...",
+      "full_summary": "Glenn Dubin, a hedge fund manager, appears in limited references within court documents from the Giuffre v. Maxwell civil defamation case. Based on our review, Maxwell acknowledged knowing Dubin through his wife Eva Dubin, whom Maxwell described as a friend. Deposition questions were asked about whether individuals were sent to provide massages to Dubin, but Maxwell denied recollection of any such instruction. Glenn Dubin has never been charged with any crime. No direct allegations of misconduct by Dubin appear in the analyzed documents\u2014only questions posed by attorneys during depositions.",
+      "brief_file": "analytical_brief_glenn_dubin.md",
+      "brief_url": "/briefs/glenn-dubin.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-3",
+          "description": "Maxwell Deposition Excerpts",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1327-21",
+          "description": "Maxwell Deposition Excerpts",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-44",
+          "description": "Marcinkova Deposition",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1320-3",
+        "1328-44",
+        "1327-21"
+      ],
+      "mentions": [
+        "ghislaine-maxwell",
+        "nadia-marcinkova",
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case",
+        "jeffrey-epstein",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 1,
+          "strength": "referenced"
+        },
+        "ghislaine-maxwell": {
+          "count": 20,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 4,
+          "strength": "referenced"
+        },
+        "nadia-marcinkova": {
+          "count": 7,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 4,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 1,
+          "strength": "referenced"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.222994Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_glenn_dubin.md"
+    },
+    {
+      "id": "jeffrey-epstein",
+      "name": "Jeffrey Epstein",
+      "type": "person",
+      "status": "Deceased; convicted sex offender (2008); died in custody August 2019",
+      "summary": "Jeffrey Edward Epstein (1953-2019) was a financier and convicted sex offender who maintained residences in Manhattan, Palm Beach, New Mexico, Paris, and the U.S. Virgin Islands. In 2008, Epstein entered into a controversial non-prosecution agreement with federal prosecutors, pleading guilty only to state charges in Florida. He was arrested again in July 2019 on federal sex trafficking charges and died in custody on August 10, 2019, in what was officially ruled a suicide. Court documents from civ...",
+      "full_summary": "Jeffrey Edward Epstein (1953-2019) was a financier and convicted sex offender who maintained residences in Manhattan, Palm Beach, New Mexico, Paris, and the U.S. Virgin Islands. In 2008, Epstein entered into a controversial non-prosecution agreement with federal prosecutors, pleading guilty only to state charges in Florida. He was arrested again in July 2019 on federal sex trafficking charges and died in custody on August 10, 2019, in what was officially ruled a suicide. Court documents from civil litigation contain extensive allegations regarding Epstein's sexual abuse of minor females over multiple decades. Ghislaine Maxwell was convicted in 2021 of sex trafficking charges related to her role in Epstein's operation.",
+      "brief_file": "analytical_brief_jeffrey_epstein.md",
+      "brief_url": "/briefs/jeffrey-epstein.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.) and related cases",
+      "sources": [
+        {
+          "ecf": "1331-11",
+          "description": "Rodriguez Deposition Testimony",
+          "filed": null
+        },
+        {
+          "ecf": "1331-12",
+          "description": "Ransome Affidavit",
+          "filed": null
+        },
+        {
+          "ecf": "1331-32",
+          "description": "Flight Log References",
+          "filed": null
+        },
+        {
+          "ecf": "1330-1",
+          "description": "CVRA Case Background",
+          "filed": null
+        },
+        {
+          "ecf": "1325-3",
+          "description": "Jane Doe Joinder Motion",
+          "filed": null
+        }
+      ],
+      "ecf_citations": [
+        "1331-32",
+        "1331-12",
+        "1331-11",
+        "1325-3",
+        "1330-1"
+      ],
+      "mentions": [
+        "ghislaine-maxwell",
+        "epstein-florida-case",
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case"
+      ],
+      "mention_details": {
+        "ghislaine-maxwell": {
+          "count": 9,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 2,
+          "strength": "referenced"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 2,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 6,
+          "strength": "documented"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.227511Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_jeffrey_epstein.md"
+    },
+    {
+      "id": "lesley-groff",
+      "name": "Lesley Groff",
+      "type": "person",
+      "status": "Never criminally charged; named as unindicted co-conspirator in 2008 NPA",
+      "summary": "Lesley Groff appears in court documents from the Giuffre v. Maxwell civil defamation case as an assistant to Jeffrey Epstein. Based on our review, she was named as a co-conspirator in the 2008 federal non-prosecution agreement alongside Sarah Kellen, Adriana Ross, and Nadia Marcinkova. She was also named as a defendant in related civil litigation. Lesley Groff has never been criminally charged with any offense. The documentary record available to us is limited, and her own account does not appea...",
+      "full_summary": "Lesley Groff appears in court documents from the Giuffre v. Maxwell civil defamation case as an assistant to Jeffrey Epstein. Based on our review, she was named as a co-conspirator in the 2008 federal non-prosecution agreement alongside Sarah Kellen, Adriana Ross, and Nadia Marcinkova. She was also named as a defendant in related civil litigation. Lesley Groff has never been criminally charged with any offense. The documentary record available to us is limited, and her own account does not appear in the analyzed documents.",
+      "brief_file": "analytical_brief_lesley_groff.md",
+      "brief_url": "/briefs/lesley-groff.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1328-34",
+          "description": "Deposition Transcript - co-conspirator identification",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-30",
+          "description": "Court Filing",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-31",
+          "description": "Court Filing - Jane Doe 43 case reference",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-34",
+          "description": "Email Exhibit",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1331-31",
+        "1328-34",
+        "1331-34"
+      ],
+      "mentions": [
+        "jeffrey-epstein",
+        "sarah-kellen",
+        "ghislaine-maxwell",
+        "epstein-florida-case",
+        "nadia-marcinkova",
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 8,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 4,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 3,
+          "strength": "referenced"
+        },
+        "sarah-kellen": {
+          "count": 3,
+          "strength": "documented"
+        },
+        "nadia-marcinkova": {
+          "count": 2,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 3,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 5,
+          "strength": "interpreted"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.230998Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_lesley_groff.md"
+    },
+    {
+      "id": "nadia-marcinkova",
+      "name": "Nadia Marcinkova",
+      "type": "person",
+      "status": "Never criminally charged; named as unindicted co-conspirator in 2008 NPA",
+      "summary": "Nadia Marcinkova appears in court documents from the Giuffre v. Maxwell civil defamation case. Based on our review, she was named as a co-conspirator in the 2008 federal non-prosecution agreement. Flight logs place her on Epstein's aircraft. A sworn affidavit from Sarah Ransome contains allegations regarding Marcinkova's presence during sexual activities. Court filings indicate Marcinkova invoked Fifth Amendment privileges during depositions. Nadia Marcinkova has never been criminally charged wi...",
+      "full_summary": "Nadia Marcinkova appears in court documents from the Giuffre v. Maxwell civil defamation case. Based on our review, she was named as a co-conspirator in the 2008 federal non-prosecution agreement. Flight logs place her on Epstein's aircraft. A sworn affidavit from Sarah Ransome contains allegations regarding Marcinkova's presence during sexual activities. Court filings indicate Marcinkova invoked Fifth Amendment privileges during depositions. Nadia Marcinkova has never been criminally charged with any offense. Her own account does not appear in the analyzed documents, and the documents do not establish whether she herself may have been a victim of exploitation.",
+      "brief_file": "analytical_brief_nadia_marcinkova.md",
+      "brief_url": "/briefs/nadia-marcinkova.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-8",
+          "description": "Court Filing",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-10",
+          "description": "Court Filing",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1327-25",
+          "description": "Deposition of Janusz Banasiak",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-7",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-8",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-16",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-23",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-34",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-44",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-3",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-14",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-12",
+          "description": "Letter Motion with Sarah Ransome Affidavit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-13",
+          "description": "Plaintiff's Opposition to Motion in Limine",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-32",
+          "description": "Sarah Ransome Affidavit",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1331-32",
+        "1331-12",
+        "1331-13"
+      ],
+      "mentions": [
+        "jeffrey-epstein",
+        "virginia-giuffre",
+        "alan-dershowitz",
+        "ghislaine-maxwell",
+        "sarah-kellen",
+        "epstein-florida-case",
+        "giuffre-v-maxwell-case",
+        "lesley-groff"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 8,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 5,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 6,
+          "strength": "documented"
+        },
+        "alan-dershowitz": {
+          "count": 3,
+          "strength": "documented"
+        },
+        "sarah-kellen": {
+          "count": 2,
+          "strength": "documented"
+        },
+        "lesley-groff": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 4,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 4,
+          "strength": "documented"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.236529Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_nadia_marcinkova.md"
+    },
+    {
+      "id": "prince-andrew",
+      "name": "Prince Andrew",
+      "type": "person",
+      "status": "Never criminally charged; civil lawsuit settled February 2022 without admission of liability",
+      "summary": "Prince Andrew, Duke of York, is a member of the British Royal Family who became a central figure in the Jeffrey Epstein scandal through allegations made by Virginia Giuffre. Giuffre alleged she was trafficked to Prince Andrew for sexual purposes when she was 17 years old. Prince Andrew repeatedly denied all allegations. In August 2021, Giuffre filed a civil lawsuit against Prince Andrew; the case was settled in February 2022 for undisclosed terms without admission of liability. Prince Andrew was...",
+      "full_summary": "Prince Andrew, Duke of York, is a member of the British Royal Family who became a central figure in the Jeffrey Epstein scandal through allegations made by Virginia Giuffre. Giuffre alleged she was trafficked to Prince Andrew for sexual purposes when she was 17 years old. Prince Andrew repeatedly denied all allegations. In August 2021, Giuffre filed a civil lawsuit against Prince Andrew; the case was settled in February 2022 for undisclosed terms without admission of liability. Prince Andrew was stripped of his military titles and royal patronages. No criminal charges have been filed against him.",
+      "brief_file": "analytical_brief_prince_andrew.md",
+      "brief_url": "/briefs/prince-andrew.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.) and *Giuffre v. Prince Andrew*",
+      "sources": [
+        {
+          "ecf": "1320-12",
+          "description": "Court Filing",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-19",
+          "description": "Court Filing",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-40",
+          "description": "Maxwell's Rule 26 Disclosures",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1325-1",
+          "description": "Motion to Quash Trial Subpoena",
+          "filed": "01/04/24"
+        },
+        {
+          "ecf": "1327-12",
+          "description": "Defendant's Submission Regarding Search Terms",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-14",
+          "description": "Counsel Correspondence",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-19",
+          "description": "Court Filing",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-42",
+          "description": "Court Filing",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-1",
+          "description": "Court Filing",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1327-14",
+        "1327-12"
+      ],
+      "mentions": [
+        "virginia-giuffre",
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "giuffre-v-maxwell-case",
+        "bill-clinton",
+        "alan-dershowitz",
+        "glenn-dubin",
+        "sarah-kellen",
+        "emmy-taylor"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 10,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 14,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 27,
+          "strength": "documented"
+        },
+        "bill-clinton": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "alan-dershowitz": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "glenn-dubin": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "sarah-kellen": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "emmy-taylor": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 4,
+          "strength": "documented"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.241486Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_prince_andrew.md"
+    },
+    {
+      "id": "sarah-kellen",
+      "name": "Sarah Kellen",
+      "type": "person",
+      "status": "Never criminally charged; named as unindicted co-conspirator in 2008 NPA",
+      "summary": "Sarah Kellen appears in court documents from the Giuffre v. Maxwell civil defamation case as Jeffrey Epstein's assistant and scheduler. Based on our review, she was named as an unindicted co-conspirator in Epstein's 2008 federal non-prosecution agreement in Florida alongside Adriana Ross, Lesley Groff, and Nadia Marcinkova. Court filings indicate she invoked Fifth Amendment privileges during civil depositions. Sarah Kellen has never been criminally charged with any offense. Her own account of ev...",
+      "full_summary": "Sarah Kellen appears in court documents from the Giuffre v. Maxwell civil defamation case as Jeffrey Epstein's assistant and scheduler. Based on our review, she was named as an unindicted co-conspirator in Epstein's 2008 federal non-prosecution agreement in Florida alongside Adriana Ross, Lesley Groff, and Nadia Marcinkova. Court filings indicate she invoked Fifth Amendment privileges during civil depositions. Sarah Kellen has never been criminally charged with any offense. Her own account of events does not appear in the analyzed documents, and the reasons for the \"unindicted co-conspirator\" designation\u2014as well as the decision not to charge her\u2014remain outside the public record.",
+      "brief_file": "analytical_brief_sarah_kellen.md",
+      "brief_url": "/briefs/sarah-kellen.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-8",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-10",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-13",
+          "description": "Exhibit",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-21",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-24",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-27",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-28",
+          "description": "Court Document",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-32",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1325-4",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/04/24"
+        },
+        {
+          "ecf": "1327-12",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-21",
+          "description": "Exhibit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-25",
+          "description": "Exhibit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-8",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-15",
+          "description": "Exhibit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-17",
+          "description": "Deposition Transcript/Reference",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-34",
+          "description": "Exhibit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-43",
+          "description": "Exhibit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-14",
+          "description": "Exhibit",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-13",
+          "description": "Plaintiff's Opposition",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-31",
+          "description": "Court Document",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-35",
+          "description": "Subpoena",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1327-25",
+        "1331-13",
+        "1327-21",
+        "1327-12"
+      ],
+      "mentions": [
+        "jeffrey-epstein",
+        "ghislaine-maxwell",
+        "epstein-florida-case",
+        "virginia-giuffre",
+        "nadia-marcinkova",
+        "lesley-groff",
+        "giuffre-v-maxwell-case",
+        "bill-clinton",
+        "prince-andrew",
+        "alan-dershowitz",
+        "glenn-dubin",
+        "emmy-taylor"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 10,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 9,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 5,
+          "strength": "documented"
+        },
+        "bill-clinton": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "prince-andrew": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "alan-dershowitz": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "glenn-dubin": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "nadia-marcinkova": {
+          "count": 3,
+          "strength": "documented"
+        },
+        "lesley-groff": {
+          "count": 3,
+          "strength": "documented"
+        },
+        "emmy-taylor": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 4,
+          "strength": "referenced"
+        },
+        "epstein-florida-case": {
+          "count": 5,
+          "strength": "documented"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.246288Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_sarah_kellen.md"
+    },
+    {
+      "id": "terramar-project",
+      "name": "The Terramar Project",
+      "type": "organization",
+      "status": "Dissolved 2019",
+      "summary": "The Terramar Project was an ocean conservation nonprofit organization founded by Ghislaine Maxwell. Based on our review of court documents from the Giuffre v. Maxwell civil defamation case, the organization appears in email communications with Maxwell's signature during January 2015, when allegations against her first became public. The organization's email accounts were subject to discovery requests. The Terramar Project ceased operations in 2019 following Jeffrey Epstein's arrest. The document...",
+      "full_summary": "The Terramar Project was an ocean conservation nonprofit organization founded by Ghislaine Maxwell. Based on our review of court documents from the Giuffre v. Maxwell civil defamation case, the organization appears in email communications with Maxwell's signature during January 2015, when allegations against her first became public. The organization's email accounts were subject to discovery requests. The Terramar Project ceased operations in 2019 following Jeffrey Epstein's arrest. The documents we reviewed do not contain allegations of wrongdoing by the organization itself.",
+      "brief_file": "analytical_brief_terramar_project.md",
+      "brief_url": "/briefs/terramar-project.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-1",
+          "description": "Exhibit - January 10, 2015 Email",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1327-2",
+          "description": "June 30, 2016 Letter re: Search Terms",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-12",
+          "description": "Defendant's Submission Regarding Search Terms",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-13",
+          "description": "Exhibit A - Search Terms Letter",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-23",
+          "description": "Plaintiff's Response re: Financial Discovery",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1328-24",
+          "description": "Declaration re: Subpoenas",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-5",
+          "description": "January 25, 2015 Epstein Email",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-9",
+          "description": "April 22, 2015 Maxwell Email",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-21",
+          "description": "Email Communications January 2015",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1330-22",
+          "description": "Email Communications January 2015",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1330-5",
+        "1330-21",
+        "1330-9",
+        "1328-23",
+        "1327-2",
+        "1328-24",
+        "1320-1"
+      ],
+      "mentions": [
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "virginia-giuffre",
+        "giuffre-v-maxwell-case",
+        "bill-clinton",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 10,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 23,
+          "strength": "documented"
+        },
+        "virginia-giuffre": {
+          "count": 5,
+          "strength": "interpreted"
+        },
+        "bill-clinton": {
+          "count": 2,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 5,
+          "strength": "interpreted"
+        },
+        "epstein-florida-case": {
+          "count": 1,
+          "strength": "referenced"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.251515Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_terramar_project.md"
+    },
+    {
+      "id": "virginia-giuffre",
+      "name": "Virginia Giuffre",
+      "type": "person",
+      "status": "Plaintiff and alleged victim in multiple proceedings",
+      "summary": "Virginia L. Giuffre (formerly Virginia Roberts) is a central figure in litigation related to Jeffrey Epstein's sex trafficking operation. She served as the plaintiff in *Giuffre v. Maxwell*, a defamation action she brought after Maxwell publicly called her allegations \"obvious lies.\" According to court filings, Giuffre alleges she was recruited by Maxwell at age 16 or 17 while working at Mar-a-Lago and was subsequently trafficked for sexual purposes. Her testimony contributed to Maxwell's crimin...",
+      "full_summary": "Virginia L. Giuffre (formerly Virginia Roberts) is a central figure in litigation related to Jeffrey Epstein's sex trafficking operation. She served as the plaintiff in *Giuffre v. Maxwell*, a defamation action she brought after Maxwell publicly called her allegations \"obvious lies.\" According to court filings, Giuffre alleges she was recruited by Maxwell at age 16 or 17 while working at Mar-a-Lago and was subsequently trafficked for sexual purposes. Her testimony contributed to Maxwell's criminal conviction. This analytical brief focuses on her role as plaintiff and the documentary record from civil litigation.",
+      "brief_file": "analytical_brief_virginia_giuffre.md",
+      "brief_url": "/briefs/virginia-giuffre.html",
+      "document_type": "Editorial analysis of civil litigation records",
+      "primary_sources": "*Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "sources": [
+        {
+          "ecf": "1320-6",
+          "description": "Plaintiff's Reply in Support of Motion to Compel",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-34",
+          "description": "Declaration in Support of Sanctions Motion",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-36",
+          "description": "Declaration in Support of Motion to Reopen Deposition",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-37",
+          "description": "Plaintiff's Second Amended Discovery Responses",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1320-39",
+          "description": "Letter re Document Production",
+          "filed": "01/03/24"
+        },
+        {
+          "ecf": "1327-12",
+          "description": "Defendant's Submission Regarding Search Terms",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1327-19",
+          "description": "Plaintiff's Supplement to Motion for Adverse Inference",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-19",
+          "description": "Plaintiff's Motion to Compel",
+          "filed": "01/05/24"
+        },
+        {
+          "ecf": "1331-35",
+          "description": "Notice of Deposition of Sarah Ransome",
+          "filed": "01/05/24"
+        }
+      ],
+      "ecf_citations": [
+        "1331-19",
+        "1320-6",
+        "1320-39",
+        "1327-12"
+      ],
+      "mentions": [
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "giuffre-v-maxwell-case",
+        "bill-clinton",
+        "prince-andrew",
+        "alan-dershowitz",
+        "glenn-dubin",
+        "sarah-kellen",
+        "emmy-taylor",
+        "epstein-florida-case"
+      ],
+      "mention_details": {
+        "jeffrey-epstein": {
+          "count": 6,
+          "strength": "documented"
+        },
+        "ghislaine-maxwell": {
+          "count": 30,
+          "strength": "documented"
+        },
+        "bill-clinton": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "prince-andrew": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "alan-dershowitz": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "glenn-dubin": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "sarah-kellen": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "emmy-taylor": {
+          "count": 1,
+          "strength": "documented"
+        },
+        "giuffre-v-maxwell-case": {
+          "count": 6,
+          "strength": "documented"
+        },
+        "epstein-florida-case": {
+          "count": 2,
+          "strength": "interpreted"
+        }
+      },
+      "last_updated": "2025-12-16T01:17:54.255702Z",
+      "parsed_from": "/continuum/briefs/analytical_brief_virginia_giuffre.md"
+    }
+  ]
+}

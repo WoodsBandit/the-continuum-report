@@ -1,0 +1,306 @@
+{
+  "generated": "2025-12-19T00:00:00.000Z",
+  "version": "2.0",
+  "description": "Hierarchical zoom data structure for The Continuum Report - Expanded with 37 entities across 6 networks",
+
+  "layers": [
+    {
+      "id": "theological",
+      "name": "The Continuum",
+      "level": 0,
+      "verse": "Luke 8:17",
+      "description": "What is hidden will be disclosed - the eternal context for understanding patterns of power and deception",
+      "children": ["intelligence", "financial", "political", "media"]
+    },
+    {
+      "id": "intelligence",
+      "name": "Intelligence Networks",
+      "level": 1,
+      "description": "Operations involving intelligence agencies, surveillance, and covert networks",
+      "children": ["epstein-network", "intel-operations-network", "nxivm-network"],
+      "color": "#c9a227"
+    },
+    {
+      "id": "financial",
+      "name": "Financial Networks",
+      "level": 1,
+      "description": "Banking systems, offshore structures, and financial connections",
+      "children": ["financial-network"],
+      "color": "#4ade80"
+    },
+    {
+      "id": "political",
+      "name": "Political Networks",
+      "level": 1,
+      "description": "Political connections, lobbying, and influence operations",
+      "children": ["political-network"],
+      "color": "#60a5fa"
+    },
+    {
+      "id": "media",
+      "name": "Media Networks",
+      "level": 1,
+      "description": "Media control, narrative management, and information operations",
+      "children": ["media-network"],
+      "color": "#f472b6"
+    }
+  ],
+
+  "networks": [
+    {
+      "id": "epstein-network",
+      "name": "Epstein Network",
+      "level": 2,
+      "parent": "intelligence",
+      "description": "Jeffrey Epstein trafficking operation and associated individuals documented in court filings",
+      "entityCount": 19,
+      "connectionCount": 93,
+      "status": "Active - 19 analytical briefs",
+      "primaryCase": "Giuffre v. Maxwell, No. 15-cv-07433-LAP (S.D.N.Y.)",
+      "entities": [
+        "alan-dershowitz",
+        "bill-clinton",
+        "donald-trump",
+        "emmy-taylor",
+        "epstein-florida-case",
+        "ghislaine-maxwell",
+        "giuffre-v-maxwell-case",
+        "glenn-dubin",
+        "jeffrey-epstein",
+        "lesley-groff",
+        "nadia-marcinkova",
+        "prince-andrew",
+        "sarah-kellen",
+        "terramar-project",
+        "virginia-giuffre",
+        "jean-luc-brunel",
+        "johanna-sjoberg",
+        "juan-alessi",
+        "les-wexner"
+      ],
+      "color": "#c9a227"
+    },
+    {
+      "id": "intel-operations-network",
+      "name": "Intelligence Operations",
+      "level": 2,
+      "parent": "intelligence",
+      "description": "PROMIS/INSLAW, Iran-Contra, BCCI, and related intelligence operations documented in congressional investigations",
+      "entityCount": 9,
+      "connectionCount": 17,
+      "status": "Active - 9 analytical briefs",
+      "primaryCase": "Congressional Investigations (1987-1992)",
+      "entities": [
+        "cia",
+        "mossad",
+        "robert-maxwell",
+        "promis-inslaw-case",
+        "iran-contra-case",
+        "maxwell-family-network",
+        "bcci",
+        "william-casey",
+        "oliver-north"
+      ],
+      "color": "#8b6fc0"
+    },
+    {
+      "id": "financial-network",
+      "name": "Financial Systems",
+      "level": 2,
+      "parent": "financial",
+      "description": "Banking relationships, regulatory actions, and financial infrastructure documentation",
+      "entityCount": 3,
+      "connectionCount": 6,
+      "status": "Active - 3 analytical briefs",
+      "primaryCase": "USVI v. JPMorgan (2022-2023); NYSDFS Consent Order (2020)",
+      "entities": [
+        "jpmorgan-epstein-case",
+        "deutsche-bank",
+        "intelligence-financial-nexus"
+      ],
+      "color": "#4ade80"
+    },
+    {
+      "id": "political-network",
+      "name": "Political Connections",
+      "level": 2,
+      "parent": "political",
+      "description": "Roy Cohn network, historical intelligence-crime nexus, political influence operations",
+      "entityCount": 2,
+      "connectionCount": 3,
+      "status": "Active - 2 analytical briefs",
+      "primaryCase": "Historical analysis based on secondary sources",
+      "entities": [
+        "roy-cohn",
+        "meyer-lansky"
+      ],
+      "color": "#60a5fa"
+    },
+    {
+      "id": "media-network",
+      "name": "Media Operations",
+      "level": 2,
+      "parent": "media",
+      "description": "Media ownership, narrative control, and information operations",
+      "entityCount": 0,
+      "connectionCount": 0,
+      "placeholder": true,
+      "status": "Planned for future research",
+      "plannedSources": [],
+      "entities": [],
+      "color": "#f472b6"
+    },
+    {
+      "id": "nxivm-network",
+      "name": "NXIVM / Parallel Cases",
+      "level": 2,
+      "parent": "intelligence",
+      "description": "Fully-prosecuted parallel case documenting collateral-based coercion - structural comparison to Epstein operation",
+      "entityCount": 4,
+      "connectionCount": 7,
+      "status": "Active - 4 analytical briefs",
+      "primaryCase": "United States v. Keith Raniere, Case No. 18-CR-204 (E.D.N.Y.)",
+      "entities": [
+        "keith-raniere",
+        "allison-mack",
+        "clare-bronfman",
+        "nxivm-case"
+      ],
+      "color": "#ef4444"
+    }
+  ],
+
+  "zoomConfig": {
+    "thresholds": {
+      "ZOOM_OUT_TO_MACRO": 0.15,
+      "ZOOM_OUT_TO_NETWORKS": 0.4,
+      "ZOOM_IN_TO_DOCUMENTS": 1.8
+    },
+    "levels": {
+      "macro": {
+        "name": "The Continuum",
+        "scale": { "min": 0, "max": 0.15 },
+        "showLayers": true,
+        "showNetworks": false,
+        "showEntities": false,
+        "showDocuments": false
+      },
+      "networks": {
+        "name": "Networks",
+        "scale": { "min": 0.15, "max": 0.4 },
+        "showLayers": false,
+        "showNetworks": true,
+        "showEntities": false,
+        "showDocuments": false
+      },
+      "entities": {
+        "name": "Entities",
+        "scale": { "min": 0.4, "max": 1.8 },
+        "showLayers": false,
+        "showNetworks": false,
+        "showEntities": true,
+        "showDocuments": false
+      },
+      "documents": {
+        "name": "Documents",
+        "scale": { "min": 1.8, "max": 4.0 },
+        "showLayers": false,
+        "showNetworks": false,
+        "showEntities": true,
+        "showDocuments": true
+      }
+    }
+  },
+
+  "entityParents": {
+    "alan-dershowitz": "epstein-network",
+    "bill-clinton": "epstein-network",
+    "donald-trump": "epstein-network",
+    "emmy-taylor": "epstein-network",
+    "epstein-florida-case": "epstein-network",
+    "ghislaine-maxwell": "epstein-network",
+    "giuffre-v-maxwell-case": "epstein-network",
+    "glenn-dubin": "epstein-network",
+    "jeffrey-epstein": "epstein-network",
+    "lesley-groff": "epstein-network",
+    "nadia-marcinkova": "epstein-network",
+    "prince-andrew": "epstein-network",
+    "sarah-kellen": "epstein-network",
+    "terramar-project": "epstein-network",
+    "virginia-giuffre": "epstein-network",
+    "jean-luc-brunel": "epstein-network",
+    "johanna-sjoberg": "epstein-network",
+    "juan-alessi": "epstein-network",
+    "les-wexner": "epstein-network",
+    "cia": "intel-operations-network",
+    "mossad": "intel-operations-network",
+    "robert-maxwell": "intel-operations-network",
+    "promis-inslaw-case": "intel-operations-network",
+    "iran-contra-case": "intel-operations-network",
+    "maxwell-family-network": "intel-operations-network",
+    "bcci": "intel-operations-network",
+    "william-casey": "intel-operations-network",
+    "oliver-north": "intel-operations-network",
+    "jpmorgan-epstein-case": "financial-network",
+    "deutsche-bank": "financial-network",
+    "intelligence-financial-nexus": "financial-network",
+    "roy-cohn": "political-network",
+    "meyer-lansky": "political-network",
+    "keith-raniere": "nxivm-network",
+    "allison-mack": "nxivm-network",
+    "clare-bronfman": "nxivm-network",
+    "nxivm-case": "nxivm-network"
+  },
+
+  "networkParents": {
+    "epstein-network": "intelligence",
+    "intel-operations-network": "intelligence",
+    "nxivm-network": "intelligence",
+    "financial-network": "financial",
+    "political-network": "political",
+    "media-network": "media"
+  },
+
+  "crossNetworkConnections": [
+    {
+      "from": "epstein-network",
+      "to": "intel-operations-network",
+      "type": "documented",
+      "description": "Robert Maxwell (Ghislaine's father) connections to PROMIS/Mossad operations",
+      "evidence": ["Whitney Webb research", "Congressional testimony", "State funeral documentation"],
+      "status": "Active"
+    },
+    {
+      "from": "epstein-network",
+      "to": "financial-network",
+      "type": "documented",
+      "description": "JP Morgan and Deutsche Bank banking relationships",
+      "evidence": ["USVI Complaint", "NYSDFS Consent Order", "Court depositions"],
+      "status": "Active"
+    },
+    {
+      "from": "epstein-network",
+      "to": "political-network",
+      "type": "documented",
+      "description": "Roy Cohn mentored Donald Trump; political connections documented in court filings",
+      "evidence": ["Public record", "Court filings", "News accounts"],
+      "status": "Active"
+    },
+    {
+      "from": "intel-operations-network",
+      "to": "financial-network",
+      "type": "documented",
+      "description": "BCCI-CIA connections; intelligence-financial nexus",
+      "evidence": ["Senate BCCI Report 1992", "Congressional investigations"],
+      "status": "Active"
+    },
+    {
+      "from": "nxivm-network",
+      "to": "epstein-network",
+      "type": "referenced",
+      "description": "Structural parallel - collateral-based coercion documented in both operations; no direct connection established",
+      "evidence": ["Comparative analysis", "Federal court records"],
+      "status": "Analytical framework only"
+    }
+  ]
+}

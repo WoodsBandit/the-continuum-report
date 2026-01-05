@@ -1,0 +1,13 @@
+{
+  "_schema_version": "1.0",
+  "_description": "Tracks all source documents processed through the pipeline to prevent duplicate processing",
+  "_last_updated": null,
+  "sources": [],
+  "doc_265": {
+    "document_id": 265,
+    "title": "occ-consent-order-2013-01-14",
+    "processed_at": "2025-12-26T10:23:33.721116Z",
+    "entities_found": 45,
+    "extraction_summary": "This document is OCC Consent Order #2013-002 (Case AA-EC-13-04) dated January 14, 2013, against three JPMorgan Chase subsidiary banks for BSA/AML compliance deficiencies. The order identifies 22 individuals (OCC officials and bank board members who signed), 12 organizations, 8 locations, key dates, and numerous legal/regulatory document references. The banks were found to have inadequate internal controls, deficient customer due diligence, failures in suspicious activity reporting, and inadequate OFAC compliance. The order requires establishment of a Compliance Committee, comprehensive BSA/AML action plans, SAR look-backs, and enhanced monitoring systems."
+  }
+}

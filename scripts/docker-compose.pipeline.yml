@@ -1,0 +1,45 @@
+# The Continuum Report - Pipeline Docker Compose
+#
+# Usage:
+#   cd /mnt/user/continuum/scripts
+#   docker-compose -f docker-compose.pipeline.yml up -d
+#
+# View logs:
+#   docker-compose -f docker-compose.pipeline.yml logs -f
+
+version: '3.8'
+
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile.pipeline
+    container_name: continuum-pipeline
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount the continuum share
+      - /mnt/user/continuum:/continuum
+      # Mount scripts for live updates
+      - ./:/app/scripts
+    environment:
+      - PAPERLESS_URL=http://192.168.1.139:8040
+      - PAPERLESS_TOKEN=${PAPERLESS_TOKEN}
+      - OLLAMA_URL=http://192.168.1.139:11434
+      - OLLAMA_MODEL=llama3.2
+      - WEBHOOK_HOST=0.0.0.0
+      - WEBHOOK_PORT=5000
+      - PYTHONPATH=/app/scripts:/app/scripts/lib
+      - CONTINUUM_BASE_DIR=/continuum
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - continuum-net
+
+networks:
+  continuum-net:
+    driver: bridge

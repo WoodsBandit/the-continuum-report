@@ -1,0 +1,145 @@
+name: Performance Benchmarks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  benchmark:
+    name: Run Performance Benchmarks
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: |
+            requirements.txt
+            pyproject.toml
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-bench-${{ hashFiles('**/requirements.txt', '**/pyproject.toml') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e ".[test]"
+          pip install pytest-benchmark memory-profiler
+
+      - name: Run performance benchmarks
+        run: |
+          pytest tests/benchmarks/ -v --benchmark-only --benchmark-json=benchmark-results.json || true
+        continue-on-error: true
+
+      - name: Upload benchmark results
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: benchmark-results.json
+          retention-days: 30
+
+      - name: Comment benchmark results on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            if (fs.existsSync('benchmark-results.json')) {
+              const results = JSON.parse(fs.readFileSync('benchmark-results.json', 'utf8'));
+
+              let comment = '## Performance Benchmarks\n\n';
+              comment += '| Test | Mean (ms) | Stddev |\n';
+              comment += '|------|-----------|--------|\n';
+
+              results.benchmarks.forEach(bench => {
+                const mean = (bench.stats.mean * 1000).toFixed(2);
+                const stddev = (bench.stats.stddev * 1000).toFixed(2);
+                comment += `| ${bench.name} | ${mean} | ${stddev} |\n`;
+              });
+
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: comment
+              });
+            }
+
+  memory-profile:
+    name: Memory Profiling
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e ".[test]"
+          pip install memory-profiler
+
+      - name: Run memory profiling
+        run: |
+          python -m memory_profiler scripts/continuum_pipeline.py --help || true
+        continue-on-error: true
+
+  code-complexity:
+    name: Code Complexity Analysis
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install complexity tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install radon pylint
+
+      - name: Run Radon cyclomatic complexity
+        run: |
+          radon cc scripts/ -a -nb -s || true
+        continue-on-error: true
+
+      - name: Run Radon maintainability index
+        run: |
+          radon mi scripts/ -nb || true
+        continue-on-error: true
+
+      - name: Run Pylint
+        run: |
+          pylint scripts/ --exit-zero --output-format=colorized || true
+        continue-on-error: true

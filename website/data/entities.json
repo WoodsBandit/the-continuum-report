@@ -1,6 +1,6 @@
 {
-  "generated": "2025-12-28T18:54:23.717704Z",
-  "count": 101,
+  "generated": "2025-12-28T22:53:45.591386Z",
+  "count": 124,
   "entities": [
     {
       "id": "alan-dershowitz",
@@ -225,12 +225,31 @@
               "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf"
             }
           ]
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "prince-andrew",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "documented",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "never-charged",
         "legal"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_alan_dershowitz.md"
     },
     {
       "id": "allison-mack",
@@ -253,11 +272,31 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228720Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "nxivm-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "keith-raniere",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "clare-bronfman",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "nxivm-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_allison_mack.md"
     },
     {
       "id": "bcci",
@@ -279,11 +318,31 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228739Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "cia",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "intelligence-financial-nexus",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "iran-contra-case",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "organization",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_bcci.md"
     },
     {
       "id": "bill-clinton",
@@ -471,11 +530,36 @@
               "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
             }
           ]
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "terramar-project",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "prince-andrew",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "documented",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "government"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_bill_clinton.md"
     },
     {
       "id": "cia",
@@ -499,11 +583,49 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228742Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "william-casey",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "iran-contra-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "bcci",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "intelligence-financial-nexus",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "mossad",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "promis-inslaw-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "organization",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_cia.md"
     },
     {
       "id": "clare-bronfman",
@@ -526,11 +648,31 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228746Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "nxivm-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "keith-raniere",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "allison-mack",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "nxivm-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_clare_bronfman.md"
     },
     {
       "id": "deutsche-bank",
@@ -552,11 +694,36 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228749Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "documented",
+          "summary": "The Deutsche Bank case represents documented regulatory findings of compliance failures. Deutsche Bank accepted Epstein as a client in 2013, two years after JP Morgan terminated him and five years after his Florida conviction.",
+          "sources": [
+            {
+              "ecf": "$150 million penalty, July 2020",
+              "description": "Regulatory record",
+              "link": ""
+            },
+            {
+              "ecf": "Paragraphs 71-72 citing Deutsche Bank findings",
+              "description": "S.D.N.Y. Case No. 1:22-cv-10904",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "jpmorgan-epstein-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "organization",
         "financial-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_deutsche_bank.md"
     },
     {
       "id": "donald-trump",
@@ -684,13 +851,26 @@
               "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf"
             }
           ]
+        },
+        {
+          "targetId": "roy-cohn",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "juan-alessi",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "never-charged",
         "government",
         "finance"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_donald_trump.md"
     },
     {
       "id": "emmy-taylor",
@@ -983,7 +1163,8 @@
       "tags": [
         "never-charged",
         "associate"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_emmy_taylor.md"
     },
     {
       "id": "epstein-florida-case",
@@ -1135,11 +1316,143 @@
               "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf"
             }
           ]
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "documented",
+          "summary": "In our assessment, Sarah Kellen's connection to the Epstein Florida Case is defined by her explicit designation as an \"unindicted co-conspirator\" in the 2008 Non-Prosecution Agreement.",
+          "sources": [
+            {
+              "ecf": "Banasiak Deposition (civil case reference)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf"
+            },
+            {
+              "ecf": "Deposition Transcript (co-conspirator identification)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Declaration of Paul G. Cassell",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "nadia-marcinkova",
+          "type": "documented",
+          "summary": "In our assessment, Nadia Marcinkova's connection to the Epstein Florida Case raises particularly complex questions due to unresolved issues about her own potential victimization.",
+          "sources": [
+            {
+              "ecf": "Deposition Transcript (co-conspirator identification)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Declaration of Paul G. Cassell",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Opposition (Fifth Amendment reference)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "lesley-groff",
+          "type": "interpreted",
+          "summary": "Regarding the co-conspirator designation: In our assessment, Lesley Groff's designation as an unindicted co-conspirator in the Epstein Florida case NPA is a significant legal fact. This designation meant she received federal immunity as part of Epstein's plea arrangement.",
+          "sources": [
+            {
+              "ecf": "Deposition Transcript (co-conspirator reference)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Jane Doe #3 and #4 Motion (Florida case context)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Declaration of Paul G. Cassell (NPA background)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "alan-dershowitz",
+          "type": "interpreted",
+          "summary": "Alan Dershowitz's connection to the Epstein Florida Case is that of defense attorney:",
+          "sources": [
+            {
+              "ecf": "Motion for Joinder",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf"
+            },
+            {
+              "ecf": "Discovery Disclosures",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "bill-clinton",
+          "type": "referenced",
+          "summary": "Bill Clinton's connection to the Epstein Florida Case is tangential at most:",
+          "sources": [
+            {
+              "ecf": "Maxwell's Opposition / Giuffre Acknowledgment",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "donald-trump",
+          "type": "referenced",
+          "summary": "Donald Trump's connection to the Epstein Florida Case is essentially non-existent in the documentary record:",
+          "sources": [
+            {
+              "ecf": "Juan Alessi Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "referenced",
+          "summary": "Emmy Taylor's connection to the Epstein Florida Case is inferential:",
+          "sources": [
+            {
+              "ecf": "Discovery Requests",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "glenn-dubin",
+          "type": "referenced",
+          "summary": "Regarding the nature of the connection: In our assessment, the connection between the Epstein Florida Case and Glenn Dubin is peripheral and documentary rather than substantive. Dubin's name appears in the broader context of Epstein-related discovery but not in the specific CVRA litigation regarding the non-prosecution agreement.",
+          "sources": []
+        },
+        {
+          "targetId": "terramar-project",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "case"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_epstein_florida_case.md"
     },
     {
       "id": "ghislaine-maxwell",
@@ -1276,12 +1589,278 @@
               "link": "/sources/giuffre-v-maxwell/ecf-1320-6.pdf"
             }
           ]
+        },
+        {
+          "targetId": "maxwell-family-network",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "robert-maxwell",
+          "type": "documented",
+          "summary": "The Maxwell family connection represents a verified documentary link between Robert Maxwell (whose alleged intelligence connections have been examined in congressional investigations and published accounts) and Ghislaine Maxwell (who was convicted of crimes related to Jeffrey Epstein's operation).",
+          "sources": [
+            {
+              "ecf": "Criminal conviction establishing relevance",
+              "description": "S.D.N.Y.",
+              "link": ""
+            },
+            {
+              "ecf": "Family relationship documentation",
+              "description": "Public record",
+              "link": ""
+            },
+            {
+              "ecf": "\"The INSLAW Affair\" (1992)",
+              "description": "Congressional record",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "johanna-sjoberg",
+          "type": "documented",
+          "summary": "In our assessment, the Maxwell-Sjoberg connection represents one of the victim-perpetrator relationships that led to Maxwell's criminal conviction.",
+          "sources": [
+            {
+              "ecf": "Sjoberg Deposition (May 18, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "juan-alessi",
+          "type": "documented",
+          "summary": "In our assessment, Alessi's testimony regarding Maxwell is significant because it places her at the Palm Beach residence during relevant periods and describes her role in household activities.",
+          "sources": [
+            {
+              "ecf": "Motion to Compel (Alessi testimony quotes)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf"
+            },
+            {
+              "ecf": "Alessi Deposition (June 1, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "jean-luc-brunel",
+          "type": "documented",
+          "summary": "The Brunel-Maxwell connection exists primarily through their parallel roles in the Epstein network:",
+          "sources": [
+            {
+              "ecf": "Court Filing — Inner Circle",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Deposition with Fifth Amendment",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "bill-clinton",
+          "type": "documented",
+          "summary": "The Clinton-Maxwell connection in the documentary record centers on Giuffre's claims that Maxwell transported Clinton to Epstein's island:",
+          "sources": [
+            {
+              "ecf": "Maxwell's Opposition / Freeh Report",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Maxwell's Rule 26 Disclosures",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-4.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-4.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "epstein-florida-case",
+          "type": "documented",
+          "summary": "In our assessment, Maxwell's connection to the Epstein Florida Case is significant for two reasons: her apparent protection under the NPA's co-conspirator immunity, and testimony suggesting her awareness of the investigation.",
+          "sources": [
+            {
+              "ecf": "Jane Doe #3 and #4 Motion for Joinder",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Declaration of Paul G. Cassell (NPA discussion)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf"
+            },
+            {
+              "ecf": "Motion re Sanctions (Maxwell warrant-day call)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "glenn-dubin",
+          "type": "documented",
+          "summary": "The Dubin-Maxwell connection is the most clearly documented of the Dubin relationships in this record:",
+          "sources": [
+            {
+              "ecf": "Maxwell Deposition Excerpts",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-3.pdf"
+            },
+            {
+              "ecf": "Maxwell Deposition Excerpts",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "nadia-marcinkova",
+          "type": "documented",
+          "summary": "The documentary record places both Ghislaine Maxwell and Nadia Marcinkova within Epstein's network. Sarah Ransome's affidavit describes Maxwell exercising a supervisory role over girls at Epstein's island while also describing Marcinkova's presence during sexual activities.",
+          "sources": [
+            {
+              "ecf": "Deposition Testimony - co-conspirator identification",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Letter Motion with Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "documented",
+          "summary": "The documentary record places both Ghislaine Maxwell and Sarah Kellen within Jeffrey Epstein's network, and they were named as co-defendants in civil litigation arising from allegations related to Epstein's activities.",
+          "sources": [
+            {
+              "ecf": "Discovery Dispute Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Maxwell Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf"
+            },
+            {
+              "ecf": "Court Filing - Jane Doe 43 case reference",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "terramar-project",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "lesley-groff",
+          "type": "documented",
+          "summary": "The documentary record establishes that Ghislaine Maxwell and Lesley Groff were named as co-defendants in civil litigation arising from allegations related to Jeffrey Epstein. This places them within the same orbit of individuals alleged to have facilitated Epstein's activities.",
+          "sources": [
+            {
+              "ecf": "Deposition Testimony - co-conspirator identification",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Court Filing - Jane Doe 43 case reference",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "donald-trump",
+          "type": "interpreted",
+          "summary": "The Trump-Maxwell connection in the Giuffre v. Maxwell documentary record is largely inferential:",
+          "sources": [
+            {
+              "ecf": "Juan Alessi Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "interpreted",
+          "summary": "The documentary record clearly establishes Emmy Taylor as Ghislaine Maxwell's personal assistant. Court documents explicitly identify Taylor as \"Ghislaine's blonde British assistant.\"",
+          "sources": [
+            {
+              "ecf": "Deposition Time Allocations",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-10.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-10.pdf"
+            },
+            {
+              "ecf": "Maxwell's Opposition re Depositions",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Discovery Dispute Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "les-wexner",
+          "type": "interpreted",
+          "summary": "The documentary record suggests the Maxwell-Wexner connection was indirect, mediated through their respective relationships with Jeffrey Epstein. Witness accounts reference Maxwell's presence at Wexner-connected properties, likely reflecting her role in Epstein's social circle.",
+          "sources": [
+            {
+              "ecf": "References to Wexner properties",
+              "description": "SDNY 15-cv-07433",
+              "link": ""
+            },
+            {
+              "ecf": "Property attendance references",
+              "description": "Court filings",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "alan-dershowitz",
+          "type": "referenced",
+          "summary": "The Dershowitz-Maxwell connection appears primarily through the Epstein network rather than as a direct bilateral relationship. In our assessment:",
+          "sources": [
+            {
+              "ecf": "Defendant's Search Term Submissions",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Discovery Disclosures",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf"
+            },
+            {
+              "ecf": "Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf"
+            }
+          ]
         }
       ],
       "tags": [
         "convicted",
         "associate"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_ghislaine_maxwell.md"
     },
     {
       "id": "giuffre-v-maxwell-case",
@@ -1404,12 +1983,254 @@
           "count": 11,
           "summary": "",
           "sources": []
+        },
+        {
+          "targetId": "prince-andrew",
+          "type": "documented",
+          "summary": "Regarding Prince Andrew's role in the case: In our assessment, Prince Andrew was a central figure in Giuffre v. Maxwell even though he was not a party. Giuffre's allegations against Maxwell included claims that Maxwell trafficked her to Prince Andrew, making Maxwell's communications with Prince Andrew directly relevant to the truth or falsity of Giuffre's allegations.",
+          "sources": [
+            {
+              "ecf": "Discovery Request Responses",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Counsel Correspondence",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-14.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-14.pdf"
+            },
+            {
+              "ecf": "Court Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-12.pdf"
+            },
+            {
+              "ecf": "Court Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-19.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-19.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "donald-trump",
+          "type": "interpreted",
+          "summary": "Donald Trump's connection to the Giuffre v. Maxwell case is minimal:",
+          "sources": [
+            {
+              "ecf": "Juan Alessi Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf"
+            },
+            {
+              "ecf": "Motion to Quash",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-36.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-36.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "terramar-project",
+          "type": "interpreted",
+          "summary": "Regarding the connection type: In our assessment, the connection between Giuffre v. Maxwell and the Terramar Project is indirect and interpretive. Terramar was Maxwell's organization during the litigation period, but the case itself focused on events predating Terramar's existence.",
+          "sources": []
+        },
+        {
+          "targetId": "bill-clinton",
+          "type": "referenced",
+          "summary": "Bill Clinton's connection to the Giuffre v. Maxwell case is as a referenced individual in discovery and exhibits:",
+          "sources": [
+            {
+              "ecf": "Maxwell's Opposition / Freeh Report",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Discovery Requests",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Deposition Transcript",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-18.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-18.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "referenced",
+          "summary": "Emmy Taylor was a significant witness in the Giuffre v. Maxwell case:",
+          "sources": [
+            {
+              "ecf": "Deposition Allocations",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-10.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-10.pdf"
+            },
+            {
+              "ecf": "Maxwell Opposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Discovery Requests",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Deposition Transcript",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "glenn-dubin",
+          "type": "referenced",
+          "summary": "Regarding the nature of references: In our assessment, Glenn Dubin's appearance in the Giuffre v. Maxwell documentary record reflects his status as a known associate of Jeffrey Epstein. This social connection made communications with him relevant to discovery.",
+          "sources": [
+            {
+              "ecf": "Discovery Request Responses",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "nadia-marcinkova",
+          "type": "referenced",
+          "summary": "Regarding Marcinkova's role in the litigation: In our assessment, Marcinkova was a significant witness in Giuffre v. Maxwell. Her deposition was taken, though she invoked Fifth Amendment privileges on substantive questions, limiting the information obtained.",
+          "sources": [
+            {
+              "ecf": "Discovery Request Responses",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Sarah Ransome Letter Motion and Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Opposition to Motion in Limine",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf"
+            },
+            {
+              "ecf": "Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "referenced",
+          "summary": "Regarding Kellen's significance in the case: In our assessment, Sarah Kellen was a significant figure in the Giuffre v. Maxwell documentary record. Her deposition was taken (though she invoked Fifth Amendment), and she appears repeatedly in case filings as a person of interest.",
+          "sources": [
+            {
+              "ecf": "Discovery Request Responses",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Maxwell Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf"
+            },
+            {
+              "ecf": "Banasiak Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Opposition to Motion in Limine",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf"
+            },
+            {
+              "ecf": "Court Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "epstein-florida-case",
+          "type": "referenced",
+          "summary": "Regarding the legal relationship: In our assessment, the Epstein Florida Case and Giuffre v. Maxwell are deeply interconnected proceedings that together form the primary documentary record of the Epstein trafficking operation. Evidence and testimony from each case informed the other.",
+          "sources": [
+            {
+              "ecf": "Jane Doe #3 and #4 Motion for Joinder (Florida case)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Declaration of Paul G. Cassell",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Response re Sanctions",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "lesley-groff",
+          "type": "referenced",
+          "summary": "Regarding the documentary record: In our assessment, the Giuffre v. Maxwell case produced limited direct references to Lesley Groff. Only 3-4 documents directly reference her, making this a thin evidentiary basis for any assessment.",
+          "sources": [
+            {
+              "ecf": "Deposition Transcript (co-conspirator reference)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Court Filing (Jane Doe 43 case reference)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf"
+            },
+            {
+              "ecf": "Email Exhibit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-34.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "alan-dershowitz",
+          "type": "referenced",
+          "summary": "Dershowitz's connection to the Giuffre v. Maxwell case is as a subject of allegations within the litigation:",
+          "sources": [
+            {
+              "ecf": "Motion for Joinder",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf"
+            },
+            {
+              "ecf": "Defamation Settlement Reference",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-40.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-40.pdf"
+            },
+            {
+              "ecf": "Discovery Requests",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf"
+            }
+          ]
         }
       ],
       "tags": [
         "case",
         "settled"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_giuffre_v_maxwell_case.md"
     },
     {
       "id": "glenn-dubin",
@@ -1545,12 +2366,31 @@
           "count": 1,
           "summary": "Regarding the nature of the connection: In our assessment, the connection between the Epstein Florida Case and Glenn Dubin is peripheral and documentary rather than substantive. Dubin's name appears in the broader context of Epstein-related discovery but not in the specific CVRA litigation regarding the non-prosecution agreement.",
           "sources": []
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "prince-andrew",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "documented",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "never-charged",
         "finance"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_glenn_dubin.md"
     },
     {
       "id": "intelligence-financial-nexus",
@@ -1573,11 +2413,31 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228751Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "bcci",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "cia",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "jpmorgan-epstein-case",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "case",
         "financial-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_intelligence_financial_nexus.md"
     },
     {
       "id": "iran-contra-case",
@@ -1601,11 +2461,43 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228753Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "oliver-north",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "cia",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "william-casey",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "bcci",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "promis-inslaw-case",
+          "type": "indirect",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "case",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_iran_contra.md"
     },
     {
       "id": "jean-luc-brunel",
@@ -1628,11 +2520,63 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228755Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "documented",
+          "summary": "The Brunel-Epstein connection represents one of the most extensively documented relationships in the Epstein network:",
+          "sources": [
+            {
+              "ecf": "Court Filing — \"Inner Circle\"",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Deposition Motion Practice",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Subpoena Served on Brunel",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-31.pdf"
+            },
+            {
+              "ecf": "Fifth Amendment Invocations",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "documented",
+          "summary": "The Brunel-Maxwell connection exists primarily through their parallel roles in the Epstein network:",
+          "sources": [
+            {
+              "ecf": "Court Filing — Inner Circle",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Deposition with Fifth Amendment",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "virginia-giuffre",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "epstein-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_jean_luc_brunel.md"
     },
     {
       "id": "jeffrey-epstein",
@@ -1807,13 +2751,337 @@
               "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf"
             }
           ]
+        },
+        {
+          "targetId": "deutsche-bank",
+          "type": "documented",
+          "summary": "The Deutsche Bank case represents documented regulatory findings of compliance failures. Deutsche Bank accepted Epstein as a client in 2013, two years after JP Morgan terminated him and five years after his Florida conviction.",
+          "sources": [
+            {
+              "ecf": "$150 million penalty, July 2020",
+              "description": "Regulatory record",
+              "link": ""
+            },
+            {
+              "ecf": "Paragraphs 71-72 citing Deutsche Bank findings",
+              "description": "S.D.N.Y. Case No. 1:22-cv-10904",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "jpmorgan-epstein-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "johanna-sjoberg",
+          "type": "documented",
+          "summary": "In our assessment, the Epstein-Sjoberg connection represents a documented victim-perpetrator relationship corroborated by sworn testimony in multiple proceedings.",
+          "sources": [
+            {
+              "ecf": "Sjoberg Deposition (May 18, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "juan-alessi",
+          "type": "documented",
+          "summary": "In our assessment, Juan Alessi represents one of the most significant first-hand witnesses to operations at Epstein's Palm Beach residence due to his extended employment and position as house manager.",
+          "sources": [
+            {
+              "ecf": "Motion to Compel (Alessi testimony quotes)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf"
+            },
+            {
+              "ecf": "Alessi Deposition (June 1, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "les-wexner",
+          "type": "documented",
+          "summary": "The Wexner-Epstein relationship represents one of the most unusual financial arrangements in modern business history. A billionaire founder of a major retail empire granted sweeping power of attorney to an individual with limited documented financial background.",
+          "sources": [
+            {
+              "ecf": "Public letter to L Brands employees",
+              "description": "L Brands press release",
+              "link": ""
+            },
+            {
+              "ecf": "L Brands corporate disclosures",
+              "description": "SEC EDGAR",
+              "link": ""
+            },
+            {
+              "ecf": "Property transfer investigation",
+              "description": "New York Times",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "jean-luc-brunel",
+          "type": "documented",
+          "summary": "The Brunel-Epstein connection represents one of the most extensively documented relationships in the Epstein network:",
+          "sources": [
+            {
+              "ecf": "Court Filing — \"Inner Circle\"",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf"
+            },
+            {
+              "ecf": "Deposition Motion Practice",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Subpoena Served on Brunel",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-31.pdf"
+            },
+            {
+              "ecf": "Fifth Amendment Invocations",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "alan-dershowitz",
+          "type": "documented",
+          "summary": "The Dershowitz-Epstein connection presents two distinct documented relationships:",
+          "sources": [
+            {
+              "ecf": "Motion for Joinder",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf"
+            },
+            {
+              "ecf": "Discovery Disclosures",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-31.pdf"
+            },
+            {
+              "ecf": "Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "bill-clinton",
+          "type": "documented",
+          "summary": "The Clinton-Epstein connection in the documentary record presents a notably balanced picture:",
+          "sources": [
+            {
+              "ecf": "Maxwell's Opposition / Freeh Report",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Marcinkova Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+            },
+            {
+              "ecf": "Confidential Deposition Transcript",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-18.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-18.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "donald-trump",
+          "type": "documented",
+          "summary": "The Trump-Epstein connection in the Giuffre v. Maxwell documentary record is notably limited:",
+          "sources": [
+            {
+              "ecf": "Juan Alessi Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-42.pdf"
+            },
+            {
+              "ecf": "Epstein's Motion to Quash",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-36.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-36.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "emmy-taylor",
+          "type": "documented",
+          "summary": "In our assessment, the documentary record establishes that Emmy Taylor worked in proximity to Jeffrey Epstein through her role as Ghislaine Maxwell's assistant. Deposition testimony places Taylor at Epstein's Palm Beach residence during activities described as \"massages.\"",
+          "sources": [
+            {
+              "ecf": "Deposition Time Allocations",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-10.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-10.pdf"
+            },
+            {
+              "ecf": "Maxwell's Opposition re Depositions",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-28.pdf"
+            },
+            {
+              "ecf": "Discovery Dispute Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Deposition Transcript Excerpts",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-12.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "lesley-groff",
+          "type": "documented",
+          "summary": "The documentary record establishes Lesley Groff as an assistant to Jeffrey Epstein who handled communications on his behalf. An email exhibit shows a third party (Sarah Ransome) communicating through Groff to reach Epstein, indicating Groff functioned as an intermediary.",
+          "sources": [
+            {
+              "ecf": "Deposition Testimony - co-conspirator identification",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Court Filing - Jane Doe 43 case reference",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf"
+            },
+            {
+              "ecf": "Email Exhibit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-34.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "nadia-marcinkova",
+          "type": "documented",
+          "summary": "The documentary record establishes that Nadia Marcinkova traveled on Epstein's aircraft and was present at his properties. Flight logs document her travel with Epstein. A sworn affidavit describes her presence during sexual activities at Epstein's locations.",
+          "sources": [
+            {
+              "ecf": "Deposition Testimony - co-conspirator identification",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Letter Motion with Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Opposition to Motion in Limine",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf"
+            },
+            {
+              "ecf": "Sarah Ransome Affidavit",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "prince-andrew",
+          "type": "documented",
+          "summary": "The documentary record establishes that Jeffrey Epstein and Prince Andrew were social associates. Prince Andrew has publicly acknowledged this association, expressing \"regret\" for it in his 2022 settlement statement.",
+          "sources": [
+            {
+              "ecf": "Defendant's Submission Regarding Search Terms",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Counsel Correspondence",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-14.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-14.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "sarah-kellen",
+          "type": "documented",
+          "summary": "The documentary record establishes Sarah Kellen as Jeffrey Epstein's assistant and scheduler. She was designated an unindicted co-conspirator in Epstein's 2008 federal non-prosecution agreement alongside Adriana Ross, Lesley Groff, and Nadia Marcinkova.",
+          "sources": [
+            {
+              "ecf": "Discovery Dispute Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Janusz Banasiak Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf"
+            },
+            {
+              "ecf": "Deposition Testimony - co-conspirator identification",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Opposition to Motion in Limine",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf"
+            },
+            {
+              "ecf": "Court Filing - Jane Doe 43 case reference",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-31.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "terramar-project",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "robert-maxwell",
+          "type": "indirect",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "keith-raniere",
+          "type": "parallel",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "nxivm-case",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "glenn-dubin",
+          "type": "referenced",
+          "summary": "The Dubin-Epstein connection in the documentary record is minimal:",
+          "sources": [
+            {
+              "ecf": "Marcinkova Deposition",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf"
+            }
+          ]
         }
       ],
       "tags": [
         "convicted",
         "deceased",
         "finance"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_jeffrey_epstein.md"
     },
     {
       "id": "johanna-sjoberg",
@@ -1836,11 +3104,43 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228757Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "documented",
+          "summary": "In our assessment, the Epstein-Sjoberg connection represents a documented victim-perpetrator relationship corroborated by sworn testimony in multiple proceedings.",
+          "sources": [
+            {
+              "ecf": "Sjoberg Deposition (May 18, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "documented",
+          "summary": "In our assessment, the Maxwell-Sjoberg connection represents one of the victim-perpetrator relationships that led to Maxwell's criminal conviction.",
+          "sources": [
+            {
+              "ecf": "Sjoberg Deposition (May 18, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "prince-andrew",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "epstein-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_johanna_sjoberg.md"
     },
     {
       "id": "jpmorgan-epstein-case",
@@ -1862,11 +3162,37 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228759Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "jpmorgan-epstein-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "deutsche-bank",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "intelligence-financial-nexus",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "case",
         "financial-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_jpmorgan_epstein.md"
     },
     {
       "id": "juan-alessi",
@@ -1889,11 +3215,53 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228761Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "documented",
+          "summary": "In our assessment, Juan Alessi represents one of the most significant first-hand witnesses to operations at Epstein's Palm Beach residence due to his extended employment and position as house manager.",
+          "sources": [
+            {
+              "ecf": "Motion to Compel (Alessi testimony quotes)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf"
+            },
+            {
+              "ecf": "Alessi Deposition (June 1, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "documented",
+          "summary": "In our assessment, Alessi's testimony regarding Maxwell is significant because it places her at the Palm Beach residence during relevant periods and describes her role in household activities.",
+          "sources": [
+            {
+              "ecf": "Motion to Compel (Alessi testimony quotes)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf"
+            },
+            {
+              "ecf": "Alessi Deposition (June 1, 2016)",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "donald-trump",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "epstein-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_juan_alessi.md"
     },
     {
       "id": "keith-raniere",
@@ -1916,11 +3284,37 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228763Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "allison-mack",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "clare-bronfman",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "nxivm-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "parallel",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "nxivm-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_keith_raniere.md"
     },
     {
       "id": "les-wexner",
@@ -1942,11 +3336,52 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228766Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "documented",
+          "summary": "The Wexner-Epstein relationship represents one of the most unusual financial arrangements in modern business history. A billionaire founder of a major retail empire granted sweeping power of attorney to an individual with limited documented financial background.",
+          "sources": [
+            {
+              "ecf": "Public letter to L Brands employees",
+              "description": "L Brands press release",
+              "link": ""
+            },
+            {
+              "ecf": "L Brands corporate disclosures",
+              "description": "SEC EDGAR",
+              "link": ""
+            },
+            {
+              "ecf": "Property transfer investigation",
+              "description": "New York Times",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "interpreted",
+          "summary": "The documentary record suggests the Maxwell-Wexner connection was indirect, mediated through their respective relationships with Jeffrey Epstein. Witness accounts reference Maxwell's presence at Wexner-connected properties, likely reflecting her role in Epstein's social circle.",
+          "sources": [
+            {
+              "ecf": "References to Wexner properties",
+              "description": "SDNY 15-cv-07433",
+              "link": ""
+            },
+            {
+              "ecf": "Property attendance references",
+              "description": "Court filings",
+              "link": ""
+            }
+          ]
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "epstein-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_les_wexner.md"
     },
     {
       "id": "lesley-groff",
@@ -2151,7 +3586,8 @@
       "tags": [
         "never-charged",
         "associate"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_lesley_groff.md"
     },
     {
       "id": "maxwell-family-network",
@@ -2174,11 +3610,31 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228769Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "robert-maxwell",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "mossad",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "case",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_maxwell_family_network.md"
     },
     {
       "id": "meyer-lansky",
@@ -2199,11 +3655,19 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228775Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "roy-cohn",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "political-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_meyer_lansky.md"
     },
     {
       "id": "mossad",
@@ -2226,11 +3690,37 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228780Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "cia",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "robert-maxwell",
+          "type": "alleged",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "promis-inslaw-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "maxwell-family-network",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "organization",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_mossad.md"
     },
     {
       "id": "nadia-marcinkova",
@@ -2507,12 +3997,25 @@
           "count": 1,
           "summary": "",
           "sources": []
+        },
+        {
+          "targetId": "glenn-dubin",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "bill-clinton",
+          "type": "documented",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "never-charged",
         "associate"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_nadia_marcinkova.md"
     },
     {
       "id": "nxivm-case",
@@ -2535,11 +4038,37 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228784Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "allison-mack",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "clare-bronfman",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "keith-raniere",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "case",
         "nxivm-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_nxivm_case.md"
     },
     {
       "id": "oliver-north",
@@ -2562,11 +4091,25 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228787Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "iran-contra-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "william-casey",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_oliver_north.md"
     },
     {
       "id": "prince-andrew",
@@ -2824,12 +4367,19 @@
           "count": 1,
           "summary": "",
           "sources": []
+        },
+        {
+          "targetId": "johanna-sjoberg",
+          "type": "documented",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "never-charged",
         "royalty"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_prince_andrew.md"
     },
     {
       "id": "promis-inslaw-case",
@@ -2852,11 +4402,37 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228791Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "cia",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "robert-maxwell",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "mossad",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "iran-contra-case",
+          "type": "indirect",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "case",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_promis_inslaw.md"
     },
     {
       "id": "robert-maxwell",
@@ -2879,11 +4455,59 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228794Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "maxwell-family-network",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "documented",
+          "summary": "The Maxwell family connection represents a verified documentary link between Robert Maxwell (whose alleged intelligence connections have been examined in congressional investigations and published accounts) and Ghislaine Maxwell (who was convicted of crimes related to Jeffrey Epstein's operation).",
+          "sources": [
+            {
+              "ecf": "Criminal conviction establishing relevance",
+              "description": "S.D.N.Y.",
+              "link": ""
+            },
+            {
+              "ecf": "Family relationship documentation",
+              "description": "Public record",
+              "link": ""
+            },
+            {
+              "ecf": "\"The INSLAW Affair\" (1992)",
+              "description": "Congressional record",
+              "link": ""
+            }
+          ]
+        },
+        {
+          "targetId": "promis-inslaw-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "mossad",
+          "type": "alleged",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "indirect",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_robert_maxwell.md"
     },
     {
       "id": "roy-cohn",
@@ -2905,11 +4529,25 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228795Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "donald-trump",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "meyer-lansky",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "political-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_roy_cohn.md"
     },
     {
       "id": "sarah-kellen",
@@ -3338,7 +4976,8 @@
       "tags": [
         "never-charged",
         "associate"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_sarah_kellen.md"
     },
     {
       "id": "terramar-project",
@@ -3495,7 +5134,8 @@
       "tags": [
         "organization",
         "dissolved"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_terramar_project.md"
     },
     {
       "id": "virginia-giuffre",
@@ -3824,11 +5464,58 @@
           "count": 2,
           "summary": "",
           "sources": []
+        },
+        {
+          "targetId": "jean-luc-brunel",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "nadia-marcinkova",
+          "type": "documented",
+          "summary": "The documentary record establishes that both Virginia Giuffre and Nadia Marcinkova were within Jeffrey Epstein's network during overlapping time periods. Giuffre, as plaintiff in the civil litigation, sought to depose Marcinkova, who invoked Fifth Amendment privileges on substantive questions. These invocations reflect constitutionally protected rights and should not be interpreted as evidence of wrongdoing. Witnesses may invoke Fifth Amendment protections for many reasons, including on advic...",
+          "sources": [
+            {
+              "ecf": "Discovery Dispute Filing",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-12.pdf"
+            },
+            {
+              "ecf": "Deposition Testimony - co-conspirator identification",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-34.pdf"
+            },
+            {
+              "ecf": "Plaintiff's Opposition to Motion in Limine",
+              "description": "[PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf)",
+              "link": "https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-13.pdf"
+            }
+          ]
+        },
+        {
+          "targetId": "donald-trump",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "terramar-project",
+          "type": "interpreted",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "lesley-groff",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
         }
       ],
       "tags": [
         "victim-witness"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_virginia_giuffre.md"
     },
     {
       "id": "william-casey",
@@ -3851,11 +5538,31 @@
       "mention_details": {},
       "last_updated": "2025-12-23T07:59:36.228799Z",
       "parsed_from": "",
-      "connections": [],
+      "connections": [
+        {
+          "targetId": "cia",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "iran-contra-case",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "oliver-north",
+          "type": "documented",
+          "summary": "",
+          "sources": []
+        }
+      ],
       "tags": [
         "needs-enrichment",
         "intel-operations-network"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_william_casey.md"
     },
     {
       "name": "JPMorgan Chase Bank, N.A.",
@@ -3864,7 +5571,8 @@
       "last_updated": "2025-12-27T01:06:29.892386Z",
       "has_brief": true,
       "id": "jpmorgan-chase-bank",
-      "brief_file": "analytical_brief_jpmorgan_chase_bank__n_a_.md"
+      "brief_file": "analytical_brief_jpmorgan_chase_bank__n_a_.md",
+      "brief": "briefs/entity/analytical_brief_jpmorgan_chase_bank__n_a_.md"
     },
     {
       "name": "San Francisco, California",
@@ -3873,7 +5581,8 @@
       "last_updated": "2025-12-27T01:06:30.399764Z",
       "has_brief": true,
       "id": "san-francisco",
-      "brief_file": "analytical_brief_san_francisco__california.md"
+      "brief_file": "analytical_brief_san_francisco__california.md",
+      "brief": "briefs/entity/analytical_brief_san_francisco__california.md"
     },
     {
       "name": "United States Department of the Treasury",
@@ -3882,475 +5591,172 @@
       "last_updated": "2025-12-27T01:06:30.908795Z",
       "has_brief": true,
       "id": "us-treasury",
-      "brief_file": "analytical_brief_united_states_department_of_the_treasury.md"
-    },
-    {
-      "name": "Alan Dershowitz",
-      "id": "alan_dershowitz",
-      "brief_file": "briefs/entity/analytical_brief_alan_dershowitz.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Allison Mack",
-      "id": "allison_mack",
-      "brief_file": "briefs/entity/analytical_brief_allison_mack.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Bill Clinton",
-      "id": "bill_clinton",
-      "brief_file": "briefs/entity/analytical_brief_bill_clinton.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Clare Bronfman",
-      "id": "clare_bronfman",
-      "brief_file": "briefs/entity/analytical_brief_clare_bronfman.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Deutsche Bank and Jeffrey Epstein",
-      "id": "deutsche_bank",
-      "brief_file": "briefs/entity/analytical_brief_deutsche_bank.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Donald Trump",
-      "id": "donald_trump",
-      "brief_file": "briefs/entity/analytical_brief_donald_trump.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Analytical Brief: Emmy Taylor",
-      "type": "person",
-      "id": "emmy_taylor",
-      "brief_file": "briefs/entity/analytical_brief_emmy_taylor.md",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Epstein Florida Case",
-      "id": "epstein_florida_case",
-      "brief_file": "briefs/entity/analytical_brief_epstein_florida_case.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Ghislaine Maxwell",
-      "id": "ghislaine_maxwell",
-      "brief_file": "briefs/entity/analytical_brief_ghislaine_maxwell.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Giuffre v. Maxwell Civil Case",
-      "id": "giuffre_v_maxwell_case",
-      "brief_file": "briefs/entity/analytical_brief_giuffre_v_maxwell_case.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Glenn Dubin",
-      "id": "glenn_dubin",
-      "brief_file": "briefs/entity/analytical_brief_glenn_dubin.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Jean",
-      "id": "jean_luc_brunel",
-      "brief_file": "briefs/entity/analytical_brief_jean_luc_brunel.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Jeffrey Epstein",
-      "id": "jeffrey_epstein",
-      "brief_file": "briefs/entity/analytical_brief_jeffrey_epstein.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Johanna Sjoberg",
-      "id": "johanna_sjoberg",
-      "brief_file": "briefs/entity/analytical_brief_johanna_sjoberg.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Juan Alessi",
-      "id": "juan_alessi",
-      "brief_file": "briefs/entity/analytical_brief_juan_alessi.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Les Wexner",
-      "id": "les_wexner",
-      "brief_file": "briefs/entity/analytical_brief_les_wexner.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Lesley Groff",
-      "id": "lesley_groff",
-      "brief_file": "briefs/entity/analytical_brief_lesley_groff.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Meyer Lansky",
-      "id": "meyer_lansky",
-      "brief_file": "briefs/entity/analytical_brief_meyer_lansky.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Nadia Marcinkova",
-      "id": "nadia_marcinkova",
-      "brief_file": "briefs/entity/analytical_brief_nadia_marcinkova.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Oliver North",
-      "id": "oliver_north",
-      "brief_file": "briefs/entity/analytical_brief_oliver_north.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Prince Andrew",
-      "id": "prince_andrew",
-      "brief_file": "briefs/entity/analytical_brief_prince_andrew.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Roy Cohn",
-      "id": "roy_cohn",
-      "brief_file": "briefs/entity/analytical_brief_roy_cohn.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Sarah Kellen",
-      "id": "sarah_kellen",
-      "brief_file": "briefs/entity/analytical_brief_sarah_kellen.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "The Terramar Project",
-      "id": "terramar_project",
-      "brief_file": "briefs/entity/analytical_brief_terramar_project.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Virginia Giuffre",
-      "id": "virginia_giuffre",
-      "brief_file": "briefs/entity/analytical_brief_virginia_giuffre.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "William Casey",
-      "id": "william_casey",
-      "brief_file": "briefs/entity/analytical_brief_william_casey.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
+      "brief_file": "analytical_brief_united_states_department_of_the_treasury.md",
+      "brief": "briefs/entity/analytical_brief_united_states_department_of_the_treasury.md"
     },
     {
       "name": "Federal Bureau of Investigation (FBI)",
       "status": "Documented to exist; details sparse",
       "id": "fbi",
-      "brief_file": "briefs/entity/analytical_brief_fbi.md",
       "type": "person",
       "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Intelligence",
-      "id": "intelligence_financial_nexus",
-      "brief_file": "briefs/entity/analytical_brief_intelligence_financial_nexus.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "The Iran",
-      "id": "iran_contra",
-      "brief_file": "briefs/entity/analytical_brief_iran_contra.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_fbi.md"
     },
     {
       "name": "Main Street",
       "id": "main_street",
-      "brief_file": "briefs/entity/analytical_brief_main_street.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_main_street.md"
     },
     {
       "name": "JP Morgan Chase and Jeffrey Epstein",
       "id": "jpmorgan_epstein",
-      "brief_file": "briefs/entity/analytical_brief_jpmorgan_epstein.md",
+      "brief_file": "analytical_brief_jpmorgan_epstein.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_jeffrey_epstein.md"
     },
     {
       "name": "S.J. Quinney College of Law",
       "id": "quinney_college",
-      "brief_file": "briefs/entity/analytical_brief_quinney_college.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Keith Raniere",
-      "id": "keith_raniere",
-      "brief_file": "briefs/entity/analytical_brief_keith_raniere.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_quinney_college.md"
     },
     {
       "name": "Analytical Brief: East Las Olas",
       "type": "location (street address)",
       "id": "east_las_olas",
-      "brief_file": "briefs/entity/analytical_brief_east_las_olas.md",
       "status": "Unknown",
       "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Maxwell Family Network: Cross",
-      "status": "Deceased November 5, 1991",
-      "id": "maxwell_family_network",
-      "brief_file": "briefs/entity/analytical_brief_maxwell_family_network.md",
-      "type": "person",
-      "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_east_las_olas.md"
     },
     {
       "name": "Analytical Brief: University Street",
       "type": "location (institutional address)",
       "id": "university_st",
-      "brief_file": "briefs/entity/analytical_brief_university_st.md",
       "status": "Unknown",
       "connections": [],
-      "tags": []
-    },
-    {
-      "name": "The NXIVM/Raniere Case",
-      "id": "nxivm_case",
-      "brief_file": "briefs/entity/analytical_brief_nxivm_case.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_university_st.md"
     },
     {
       "name": "Ross Gow",
       "id": "ross_gow",
-      "brief_file": "briefs/entity/analytical_brief_ross_gow.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_ross_gow.md"
     },
     {
       "name": "The PROMIS/INSLAW Affair",
       "id": "promis_inslaw",
-      "brief_file": "briefs/entity/analytical_brief_promis_inslaw.md",
+      "brief_file": "analytical_brief_promis_inslaw.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Analytical Brief: Las Olas Boulevard",
-      "type": "location (street address)",
-      "id": "las_olas_blvd",
-      "brief_file": "briefs/entity/analytical_brief_las_olas_blvd.md",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Robert Maxwell",
-      "id": "robert_maxwell",
-      "brief_file": "briefs/entity/analytical_brief_robert_maxwell.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
-    },
-    {
-      "name": "Analytical Brief: North Andrews Avenue",
-      "id": "north-andrews-avenue",
-      "brief_file": "briefs/entity/analytical_brief_north-andrews-avenue.md",
-      "type": "person",
-      "status": "Unknown",
-      "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_promis_inslaw.md"
     },
     {
       "name": "Analytical Brief: Fort Lauderdale",
       "type": "location",
       "id": "fort_lauderdale",
-      "brief_file": "briefs/entity/analytical_brief_fort_lauderdale.md",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_fort_lauderdale.md"
     },
     {
       "name": "Jane Doe (Pseudonymous Plaintiffs)",
       "id": "jane_doe",
-      "brief_file": "briefs/entity/analytical_brief_jane_doe.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_jane_doe.md"
     },
     {
       "name": "David Boies",
       "id": "david_boies",
-      "brief_file": "briefs/entity/analytical_brief_david_boies.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_david_boies.md"
     },
     {
       "name": "Palm Beach",
       "id": "palm_beach",
-      "brief_file": "briefs/entity/analytical_brief_palm_beach.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_palm_beach.md"
     },
     {
       "name": "Meredith Schultz",
       "id": "meredith_schultz",
-      "brief_file": "briefs/entity/analytical_brief_meredith_schultz.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_meredith_schultz.md"
     },
     {
       "name": "Boies Schiller Flexner LLP",
       "id": "boies_schiller",
-      "brief_file": "briefs/entity/analytical_brief_boies_schiller.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_boies_schiller.md"
     },
     {
       "name": "West Palm Beach",
       "id": "west_palm_beach",
-      "brief_file": "briefs/entity/analytical_brief_west_palm_beach.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_west_palm_beach.md"
     },
     {
       "name": "Jeffrey Pagliuca",
       "id": "jeffrey_pagliuca",
-      "brief_file": "briefs/entity/analytical_brief_jeffrey_pagliuca.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_jeffrey_pagliuca.md"
     },
     {
       "name": "Brad Edwards",
       "id": "brad_edwards",
-      "brief_file": "briefs/entity/analytical_brief_brad_edwards.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_brad_edwards.md"
     },
     {
       "name": "Virginia Giuffre",
       "id": "plaintiff_virginia_giuffre",
-      "brief_file": "briefs/entity/analytical_brief_plaintiff_virginia_giuffre.md",
       "type": "person",
       "status": "Unknown",
       "connections": [],
-      "tags": []
+      "tags": [],
+      "brief": "briefs/entity/analytical_brief_virginia_giuffre.md"
     },
     {
       "id": "alfredo-rodriguez",
@@ -4358,7 +5764,6 @@
       "type": "person",
       "status": "Deceased; convicted 2010 obstruction of justice; key witness",
       "summary": "Alfredo Rodriguez served as a butler at Jeffrey Epstein's Palm Beach mansion. He provided deposition testimony in 2009 cited in Giuffre v. Maxwell. He testified to Maxwell's knowledge of young women visiting the residence. Convicted 2010 for attempting to sell Epstein's address book. Died December 2014.",
-      "brief_file": "entity/analytical_brief_alfredo_rodriguez.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4384,7 +5789,8 @@
         "witness",
         "household-staff",
         "deceased"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_alfredo_rodriguez.md"
     },
     {
       "id": "rinaldo-rizzo",
@@ -4392,7 +5798,6 @@
       "type": "person",
       "status": "Never criminally charged; witness in civil litigation",
       "summary": "Rinaldo Rizzo appears in Giuffre v. Maxwell documents as a private chef who worked for Glenn Dubin. Referenced in multiple court filings as a witness with professional access to households connected to the Epstein matter.",
-      "brief_file": "entity/analytical_brief_rinaldo_rizzo.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4411,7 +5816,8 @@
       "tags": [
         "witness",
         "household-staff"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_rinaldo_rizzo.md"
     },
     {
       "id": "stanley-pottinger",
@@ -4419,7 +5825,6 @@
       "type": "person",
       "status": "Never charged; legal representative for Virginia Giuffre",
       "summary": "J. Stanley Pottinger appears in Giuffre v. Maxwell as one of Virginia Giuffre's attorneys. Former Assistant Attorney General for Civil Rights (1973-1977). His role was legal counsel to the plaintiff.",
-      "brief_file": "entity/analytical_brief_stanley_pottinger.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4432,7 +5837,8 @@
       "tags": [
         "attorney",
         "plaintiff-counsel"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_stanley_pottinger.md"
     },
     {
       "id": "bill-richardson",
@@ -4440,7 +5846,6 @@
       "type": "person",
       "status": "Never criminally charged; deceased September 2023; denied allegations",
       "summary": "Bill Richardson, former Governor of New Mexico and U.S. Secretary of Energy, was named in allegations by Virginia Giuffre. He categorically denied the allegations. Never criminally charged. Died September 1, 2023, before the January 2024 document unsealing.",
-      "brief_file": "entity/analytical_brief_bill_richardson.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4467,7 +5872,8 @@
         "governor",
         "deceased",
         "denied-allegations"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_bill_richardson.md"
     },
     {
       "id": "annie-farmer",
@@ -4475,7 +5881,6 @@
       "type": "person",
       "status": "Victim; testified at Maxwell criminal trial as Minor Victim-2",
       "summary": "Annie Farmer testified at Ghislaine Maxwell's federal criminal trial as Minor Victim-2, waiving her anonymity. She was 16 years old when abused at Epstein's New Mexico ranch in 1996. Her sister Maria Farmer reported the abuse to FBI in 1996-1997. Maxwell was convicted on counts related to Annie Farmer's abuse.",
-      "brief_file": "entity/analytical_brief_annie_farmer.md",
       "document_type": "Editorial analysis of civil and criminal litigation records",
       "connections": [
         {
@@ -4501,7 +5906,8 @@
         "victim",
         "trial-witness",
         "maxwell-conviction"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_annie_farmer.md"
     },
     {
       "id": "sarah-ransome",
@@ -4509,7 +5915,6 @@
       "type": "person",
       "status": "Victim/witness; provided sworn affidavit in civil litigation",
       "summary": "Sarah Ransome provided a sworn affidavit in Giuffre v. Maxwell describing her experiences with Epstein and Maxwell. She was 22 (adult) in 2006 when events occurred. Her affidavit describes being 'lent out' to others and Maxwell's supervisory role. She also made allegations against Alan Dershowitz, which he denied.",
-      "brief_file": "entity/analytical_brief_sarah_ransome.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4541,7 +5946,8 @@
         "victim",
         "witness",
         "affidavit"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_sarah_ransome.md"
     },
     {
       "id": "adriana-ross",
@@ -4549,7 +5955,6 @@
       "type": "person",
       "status": "Never criminally charged; received immunity in 2008 NPA",
       "summary": "Adriana Ross was one of four women who received immunity in Epstein's 2008 Non-Prosecution Agreement along with Sarah Kellen, Nadia Marcinkova, and Lesley Groff. She invoked Fifth Amendment protections during civil depositions. Never criminally charged.",
-      "brief_file": "entity/analytical_brief_adriana_ross.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4587,7 +5992,8 @@
         "npa-immunity",
         "core-four",
         "fifth-amendment"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_adriana_ross.md"
     },
     {
       "id": "tony-figueroa",
@@ -4595,7 +6001,6 @@
       "type": "person",
       "status": "Never charged; deposed as witness in civil litigation",
       "summary": "Tony Figueroa was deposed in Giuffre v. Maxwell as a witness. He was in a relationship with Virginia Giuffre during a period relevant to her allegations. His deposition is referenced in multiple court filings. No allegations of wrongdoing against him.",
-      "brief_file": "entity/analytical_brief_tony_figueroa.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4608,7 +6013,8 @@
       "tags": [
         "witness",
         "deposed"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_tony_figueroa.md"
     },
     {
       "id": "david-copperfield",
@@ -4616,7 +6022,6 @@
       "type": "person",
       "status": "Never criminally charged; no allegations of criminal conduct in documents",
       "summary": "David Copperfield, the illusionist, appears in Giuffre v. Maxwell documents in the context of deposition questions about individuals witnesses encountered. No allegations of illegal conduct against him. His name appears alongside other prominent individuals known to have associated with Epstein.",
-      "brief_file": "entity/analytical_brief_david_copperfield.md",
       "document_type": "Editorial analysis of civil litigation records",
       "connections": [
         {
@@ -4630,7 +6035,1145 @@
         "entertainer",
         "social-association",
         "no-allegations"
-      ]
+      ],
+      "brief": "briefs/entity/analytical_brief_david_copperfield.md"
+    },
+    {
+      "id": "maria-farmer",
+      "name": "Maria Farmer",
+      "type": "person",
+      "status": "Victim/witness; first known person to report Epstein to authorities (1996)",
+      "summary": "Maria Farmer is an artist and the older sister of Annie Farmer. She is the first known person to report Jeffrey Epstein to the FBI (1996). Her complaints were not acted upon for approximately a decade. She alleges assault by both Epstein and Maxwell at Les Wexner's Ohio property.",
+      "document_type": "Editorial analysis of civil litigation records and public reporting",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "annie-farmer",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "les-wexner",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "victim",
+        "witness",
+        "first-reporter",
+        "farmer-sisters"
+      ],
+      "brief": "briefs/entity/analytical_brief_maria_farmer.md"
+    },
+    {
+      "id": "marvin-minsky",
+      "name": "Marvin Minsky",
+      "type": "person",
+      "status": "Never criminally charged; deceased January 2016; named in court documents",
+      "summary": "Marvin Minsky was a pioneering computer scientist and co-founder of the MIT AI Laboratory. He was named in Giuffre's allegations but died in January 2016 before charges against Epstein and before document unsealing. Never charged with any crime.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "scientist",
+        "deceased",
+        "mit",
+        "ai-researcher"
+      ],
+      "brief": "briefs/entity/analytical_brief_marvin_minsky.md"
+    },
+    {
+      "id": "kevin-spacey",
+      "name": "Kevin Spacey",
+      "type": "person",
+      "status": "Never charged in Epstein-related matters; mentioned in testimony regarding travel",
+      "summary": "Kevin Spacey appears in court documents regarding an Africa trip with Bill Clinton and Jeffrey Epstein for apparent charitable purposes. The testimony was 'very vague.' No allegations of misconduct in Epstein-related documents.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "bill-clinton",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "entertainer",
+        "africa-trip",
+        "no-allegations"
+      ],
+      "brief": "briefs/entity/analytical_brief_kevin_spacey.md"
+    },
+    {
+      "id": "sharon-churcher",
+      "name": "Sharon Churcher",
+      "type": "person",
+      "status": "Journalist; not a party to litigation; never charged with any crime",
+      "summary": "Sharon Churcher is a British journalist who wrote early investigative articles about Jeffrey Epstein and Virginia Giuffre for the Daily Mail. Her March 2011 article was cited extensively in court filings.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "journalist",
+        "daily-mail",
+        "early-reporting"
+      ],
+      "brief": "briefs/entity/analytical_brief_sharon_churcher.md"
+    },
+    {
+      "id": "robert-giuffre",
+      "name": "Robert Giuffre",
+      "type": "person",
+      "status": "Witness; Virginia Giuffre's father; never charged with any crime",
+      "summary": "Robert Giuffre is Virginia Giuffre's father. He worked at Mar-a-Lago where Virginia was working when she was approached by Maxwell. He appears in documents as a witness and family member.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "witness",
+        "family-member",
+        "mar-a-lago"
+      ],
+      "brief": "briefs/entity/analytical_brief_robert_giuffre.md"
+    },
+    {
+      "id": "ron-eppinger",
+      "name": "Ron Eppinger",
+      "type": "person",
+      "status": "Convicted sex trafficker; referenced in Epstein-related documents",
+      "summary": "Ron Eppinger was a convicted sex trafficker who ran 'Perfect 10' modeling agency in Miami. Virginia Giuffre was victimized by Eppinger before her recruitment by Maxwell at Mar-a-Lago.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "convicted",
+        "sex-trafficker",
+        "prior-exploiter"
+      ],
+      "brief": "briefs/entity/analytical_brief_ron_eppinger.md"
+    },
+    {
+      "id": "sky-roberts",
+      "name": "Sky Roberts",
+      "type": "person",
+      "status": "Referenced in court documents; Giuffre family member",
+      "summary": "Sky Roberts appears to be a family member of Virginia Giuffre (whose maiden name was Roberts). Referenced in discovery disclosures and court filings about family background.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "family-member",
+        "witness"
+      ],
+      "brief": "briefs/entity/analytical_brief_sky_roberts.md"
+    },
+    {
+      "id": "louella-rabuyo",
+      "name": "Louella Rabuyo",
+      "type": "person",
+      "status": "Witness; former Epstein household employee; never charged with any crime",
+      "summary": "Louella Rabuyo was a housekeeper at Epstein's Palm Beach residence. She testified that Ghislaine Maxwell called her on the morning police executed a search warrant and told her not to come to work. Her testimony is cited in spoliation discussions.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "witness",
+        "household-staff",
+        "spoliation-testimony"
+      ],
+      "brief": "briefs/entity/analytical_brief_louella_rabuyo.md"
+    },
+    {
+      "id": "janusz-banasiak",
+      "name": "Janusz Banasiak",
+      "type": "person",
+      "status": "Witness; former Epstein property caretaker; never charged with any crime",
+      "summary": "Janusz Banasiak was a property caretaker who testified that computers were removed from Epstein's Palm Beach residence before police executed a search warrant. He identified 'Adriana' and an unknown male as removing three computers.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "witness",
+        "property-caretaker",
+        "spoliation-testimony"
+      ],
+      "brief": "briefs/entity/analytical_brief_janusz_banasiak.md"
+    },
+    {
+      "id": "michael-reiter",
+      "name": "Michael Reiter",
+      "type": "person",
+      "status": "Former Palm Beach Police Chief; law enforcement official; never charged with any crime",
+      "summary": "Michael Reiter was the Palm Beach Police Chief who oversaw the initial investigation into Jeffrey Epstein in 2005-2006. His department's work was referred to federal authorities.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "law-enforcement",
+        "palm-beach-pd",
+        "investigator"
+      ],
+      "brief": "briefs/entity/analytical_brief_michael_reiter.md"
+    },
+    {
+      "id": "joseph-recarey",
+      "name": "Joseph Recarey",
+      "type": "person",
+      "status": "Former Palm Beach Police Detective; deceased (2018); never charged with any crime",
+      "summary": "Joseph Recarey was the lead Palm Beach Police detective who investigated Jeffrey Epstein. He interviewed over 30 victims. He died in May 2018 before Epstein's 2019 arrest.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "law-enforcement",
+        "palm-beach-pd",
+        "investigator",
+        "deceased"
+      ],
+      "brief": "briefs/entity/analytical_brief_joseph_recarey.md"
+    },
+    {
+      "id": "haley-robson",
+      "name": "Haley Robson",
+      "type": "person",
+      "status": "Identified as recruiter; reportedly received immunity",
+      "summary": "Haley Robson was identified in documents as a recruiter who brought other girls to Epstein. She was initially a victim herself before becoming involved in recruitment. Reportedly received $200 per girl.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "recruiter",
+        "victim-to-participant",
+        "immunity"
+      ],
+      "brief": "briefs/entity/analytical_brief_haley_robson.md"
+    },
+    {
+      "id": "courtney-wild",
+      "name": "Courtney Wild",
+      "type": "person",
+      "status": "Victim; plaintiff in Crime Victims' Rights Act litigation",
+      "summary": "Courtney Wild is an Epstein victim who publicly identified herself and was a plaintiff in CVRA litigation challenging the 2008 Non-Prosecution Agreement. The court found victims' rights were violated.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "victim",
+        "cvra-plaintiff",
+        "public-advocate"
+      ],
+      "brief": "briefs/entity/analytical_brief_courtney_wild.md"
+    },
+    {
+      "id": "darren-indyke",
+      "name": "Darren Indyke",
+      "type": "person",
+      "status": "Attorney; co-executor of Epstein estate; never charged with any crime",
+      "summary": "Darren Indyke was Jeffrey Epstein's longtime personal attorney and is now co-executor of his estate. He has managed estate matters including the victims' compensation fund.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "attorney",
+        "estate-executor",
+        "legal-representative"
+      ],
+      "brief": "briefs/entity/analytical_brief_darren_indyke.md"
+    },
+    {
+      "id": "sigrid-mccawley",
+      "name": "Sigrid McCawley",
+      "type": "person",
+      "status": "Attorney; lead counsel for Virginia Giuffre; partner at Boies Schiller Flexner",
+      "summary": "Sigrid McCawley is a partner at Boies Schiller Flexner LLP who served as lead counsel for Virginia Giuffre in the civil defamation suit against Ghislaine Maxwell. She has been a prominent voice in litigation seeking accountability on behalf of Epstein's victims.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "attorney",
+        "victims-counsel",
+        "boies-schiller"
+      ],
+      "brief": "briefs/entity/analytical_brief_sigrid_mccawley.md"
+    },
+    {
+      "id": "jack-scarola",
+      "name": "Jack Scarola",
+      "type": "person",
+      "status": "Attorney; counsel for Epstein victims in civil litigation",
+      "summary": "Jack Scarola is an attorney who has represented victims of Jeffrey Epstein in civil litigation. His work has been connected to Crime Victims' Rights Act litigation challenging the 2008 Non-Prosecution Agreement.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "attorney",
+        "victims-counsel",
+        "cvra-litigation"
+      ],
+      "brief": "briefs/entity/analytical_brief_jack_scarola.md"
+    },
+    {
+      "id": "maria-alessi",
+      "name": "Maria Alessi",
+      "type": "person",
+      "status": "Witness; wife of former Epstein employee Juan Alessi; never charged with any crime",
+      "summary": "Maria Alessi is the wife of Juan Alessi, who worked as house manager at Epstein's Palm Beach residence for approximately eleven years. She appears in documents as a potential witness due to her relationship to a key household employee.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "witness",
+        "family-member",
+        "household-connection"
+      ],
+      "brief": "briefs/entity/analytical_brief_maria_alessi.md"
+    },
+    {
+      "id": "jack-goldberger",
+      "name": "Jack Goldberger",
+      "type": "person",
+      "status": "Attorney; defense counsel for Jeffrey Epstein",
+      "summary": "Jack Goldberger is a Florida defense attorney who represented Jeffrey Epstein during the Palm Beach Police investigation and subsequent legal proceedings. He was part of Epstein's legal defense team that negotiated with prosecutors during the period leading to the 2008 Non-Prosecution Agreement.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "attorney",
+        "defense-counsel",
+        "npa-negotiations"
+      ],
+      "brief": "briefs/entity/analytical_brief_jack_goldberger.md"
+    },
+    {
+      "id": "nicole-simmons",
+      "name": "Nicole Simmons",
+      "type": "person",
+      "status": "Legal professional; referenced in court documents; never charged with any crime",
+      "summary": "Nicole Simmons appears in court documents from the Giuffre v. Maxwell litigation in what appears to be a professional legal capacity, likely as a paralegal or legal staff member involved in the litigation process.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "legal-professional",
+        "litigation-support"
+      ],
+      "brief": "briefs/entity/analytical_brief_nicole_simmons.md"
+    },
+    {
+      "id": "vicky-ward",
+      "name": "Vicky Ward",
+      "type": "person",
+      "status": "Journalist; author; not a party to litigation; never charged with any crime",
+      "summary": "Vicky Ward is a British-American journalist who wrote a profile of Jeffrey Epstein for Vanity Fair magazine in 2003. She has stated that allegations from young women were removed from the final published article by editors. Her name appears in Rule 26 disclosures as a person with relevant knowledge.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "journalist",
+        "media",
+        "witness"
+      ],
+      "brief": "briefs/entity/analytical_brief_vicky_ward.md"
+    },
+    {
+      "id": "ehud-barak",
+      "name": "Ehud Barak",
+      "type": "person",
+      "status": "Former Prime Minister of Israel; never charged with any crime in connection with Epstein matter",
+      "summary": "Ehud Barak is a former Prime Minister and Defense Minister of Israel whose name appears in court documents from the Giuffre v. Maxwell litigation. Barak has publicly acknowledged knowing Jeffrey Epstein while denying any improper conduct.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "politician",
+        "foreign-official",
+        "social-association"
+      ],
+      "brief": "briefs/entity/analytical_brief_ehud_barak.md"
+    },
+    {
+      "id": "tom-pritzker",
+      "name": "Tom Pritzker",
+      "type": "person",
+      "status": "Businessman; never charged with any crime in connection with Epstein matter",
+      "summary": "Tom Pritzker is an American businessman and executive chairman of Hyatt Hotels Corporation. His name appears in court documents from the Giuffre v. Maxwell litigation with limited detail about any relationship with Epstein.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "businessman",
+        "billionaire"
+      ],
+      "brief": "briefs/entity/analytical_brief_tom_pritzker.md"
+    },
+    {
+      "id": "james-patterson",
+      "name": "James Patterson",
+      "type": "person",
+      "status": "Author; not a party to litigation; never charged with any crime",
+      "summary": "James Patterson is a bestselling author who co-wrote 'Filthy Rich' (2016), a book about Jeffrey Epstein. His name appears in court documents in connection with his published work on the case.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "author",
+        "journalist",
+        "media"
+      ],
+      "brief": "briefs/entity/analytical_brief_james_patterson.md"
+    },
+    {
+      "id": "larry-visoski",
+      "name": "Larry Visoski",
+      "type": "person",
+      "status": "Witness; former Epstein pilot; never charged with any crime",
+      "summary": "Larry Visoski was Jeffrey Epstein's chief pilot who testified at the Ghislaine Maxwell trial. He stated he never witnessed sexual activity during flights and identified frequent passengers including Maxwell.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "david-rodgers",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "pilot",
+        "employee",
+        "witness"
+      ],
+      "brief": "briefs/entity/analytical_brief_larry_visoski.md"
+    },
+    {
+      "id": "chauntae-davies",
+      "name": "Chauntae Davies",
+      "type": "person",
+      "status": "Victim/witness; former Epstein employee; never charged with any crime",
+      "summary": "Chauntae Davies has publicly identified herself as a victim of Jeffrey Epstein. She was recruited to work as a massage therapist on Epstein's aircraft and has spoken publicly about her experiences in documentaries.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "victim",
+        "witness",
+        "public-advocate"
+      ],
+      "brief": "briefs/entity/analytical_brief_chauntae_davies.md"
+    },
+    {
+      "id": "richard-kahn",
+      "name": "Richard Kahn",
+      "type": "person",
+      "status": "Estate co-executor; never charged with any crime",
+      "summary": "Richard Kahn appears in court documents as co-executor of the Epstein estate alongside Darren Indyke. His role involves legal and financial administration of estate matters, including the victims' compensation fund.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "darren-indyke",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "estate-executor",
+        "professional"
+      ],
+      "brief": "briefs/entity/analytical_brief_richard_kahn.md"
+    },
+    {
+      "id": "frederic-fekkai",
+      "name": "Frederic Fekkai",
+      "type": "person",
+      "status": "Referenced in court documents; never charged with any crime",
+      "summary": "Frederic Fekkai is a celebrity hairstylist whose name appears incidentally in court documents from the Giuffre v. Maxwell litigation. There are no allegations against him in the documentary record.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "incidental-mention"
+      ],
+      "brief": "briefs/entity/analytical_brief_frederic_fekkai.md"
+    },
+    {
+      "id": "el-zorro-ranch",
+      "name": "El Zorro Ranch",
+      "type": "property",
+      "status": "Property; Jeffrey Epstein's New Mexico ranch",
+      "summary": "El Zorro Ranch is an approximately 8,000-acre property in Stanley, New Mexico that was owned by Jeffrey Epstein. The property appears in court documents and victim accounts as one of several locations where abuse allegedly occurred.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "property",
+        "location",
+        "new-mexico"
+      ],
+      "brief": "briefs/entity/analytical_brief_el_zorro_ranch.md"
+    },
+    {
+      "id": "kelli-ann-willis",
+      "name": "Kelli Ann Willis",
+      "type": "person",
+      "status": "Professional court reporter; never charged with any crime",
+      "summary": "Kelli Ann Willis is a professional court reporter who served as the certifying reporter for multiple depositions in the Giuffre v. Maxwell litigation. Her appearance in documents reflects professional duties, not substantive involvement.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "court-reporter",
+        "professional"
+      ],
+      "brief": "briefs/entity/analytical_brief_kelli_ann_willis.md"
+    },
+    {
+      "id": "kenneth-marra",
+      "name": "Kenneth Marra",
+      "type": "person",
+      "status": "Senior U.S. District Judge; presided over CVRA litigation",
+      "summary": "Judge Kenneth Marra is a Senior U.S. District Judge in the Southern District of Florida who presided over the Crime Victims' Rights Act litigation brought by Epstein victims. He ruled in 2019 that prosecutors violated the CVRA.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "judge",
+        "federal-judiciary",
+        "cvra-litigation"
+      ],
+      "brief": "briefs/entity/analytical_brief_kenneth_marra.md"
+    },
+    {
+      "id": "little-st-james",
+      "name": "Little St. James",
+      "type": "property",
+      "status": "Property; Jeffrey Epstein's private island in U.S. Virgin Islands",
+      "summary": "Little St. James is a private island in the U.S. Virgin Islands that was owned by Jeffrey Epstein. The island appears extensively in court documents and victim accounts as a location where abuse allegedly occurred.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "property",
+        "location",
+        "virgin-islands"
+      ],
+      "brief": "briefs/entity/analytical_brief_little_st_james.md"
+    },
+    {
+      "id": "alexander-acosta",
+      "name": "Alexander Acosta",
+      "type": "person",
+      "status": "Former U.S. Attorney; negotiated 2008 NPA; never charged with any crime",
+      "summary": "Alexander Acosta was the U.S. Attorney for the Southern District of Florida who negotiated the 2008 Non-Prosecution Agreement with Jeffrey Epstein. Judge Marra ruled in 2019 that prosecutors violated the Crime Victims' Rights Act.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "prosecutor",
+        "doj",
+        "npa-negotiations"
+      ],
+      "brief": "briefs/entity/analytical_brief_alexander_acosta.md"
+    },
+    {
+      "id": "barry-krischer",
+      "name": "Barry Krischer",
+      "type": "person",
+      "status": "Former Palm Beach County State Attorney; never charged with any crime",
+      "summary": "Barry Krischer was the State Attorney for Palm Beach County who declined to prosecute Jeffrey Epstein on serious felony charges despite recommendations from the Palm Beach Police Department.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "prosecutor",
+        "state-attorney",
+        "florida-case"
+      ],
+      "brief": "briefs/entity/analytical_brief_barry_krischer.md"
+    },
+    {
+      "id": "mar-a-lago",
+      "name": "Mar-a-Lago",
+      "type": "property",
+      "status": "Property; location referenced in recruitment accounts",
+      "summary": "Mar-a-Lago is Donald Trump's private club in Palm Beach, Florida. It appears in court documents as the location where Virginia Giuffre was working when she was allegedly recruited by Ghislaine Maxwell.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "property",
+        "location",
+        "palm-beach"
+      ],
+      "brief": "briefs/entity/analytical_brief_mar_a_lago.md"
+    },
+    {
+      "id": "flight-logs",
+      "name": "Flight Logs",
+      "type": "documentary-evidence",
+      "status": "Documentary evidence; pilot logbooks from Epstein aircraft",
+      "summary": "The Flight Logs are pilot logbooks from Jeffrey Epstein's aircraft that documented passengers on flights. These logs, maintained by pilots Larry Visoski and David Rodgers, became key evidence showing travel patterns.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "evidence",
+        "documentary",
+        "aviation"
+      ],
+      "brief": "briefs/entity/analytical_brief_flight_logs.md"
+    },
+    {
+      "id": "nyc-townhouse",
+      "name": "NYC Townhouse (9 East 71st Street)",
+      "type": "property",
+      "status": "Property; Jeffrey Epstein's Manhattan residence",
+      "summary": "The NYC Townhouse at 9 East 71st Street was Jeffrey Epstein's primary New York residence, reportedly transferred from Les Wexner. The property was raided by federal agents in 2019 and sold in 2021 for $51 million.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "les-wexner",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "property",
+        "location",
+        "manhattan"
+      ],
+      "brief": "briefs/entity/analytical_brief_nyc_townhouse.md"
+    },
+    {
+      "id": "lolita-express",
+      "name": "Lolita Express (Boeing 727)",
+      "type": "aircraft",
+      "status": "Aircraft; Jeffrey Epstein's Boeing 727",
+      "summary": "The 'Lolita Express' is the colloquial name for Jeffrey Epstein's Boeing 727 aircraft. Flight logs from this aircraft documented passengers traveling between Epstein's properties.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "flight-logs",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "aircraft",
+        "property",
+        "transportation"
+      ],
+      "brief": "briefs/entity/analytical_brief_lolita_express.md"
+    },
+    {
+      "id": "palm-beach-police",
+      "name": "Palm Beach Police Department",
+      "type": "organization",
+      "status": "Law enforcement agency; conducted original Epstein investigation",
+      "summary": "The Palm Beach Police Department conducted the original investigation of Jeffrey Epstein in 2005-2006 under Chief Michael Reiter and Detective Joseph Recarey, identifying multiple victims and recommending felony charges.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "michael-reiter",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "joseph-recarey",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "law-enforcement",
+        "organization",
+        "florida-case"
+      ],
+      "brief": "briefs/entity/analytical_brief_palm_beach.md"
+    },
+    {
+      "id": "non-prosecution-agreement",
+      "name": "Non-Prosecution Agreement (NPA)",
+      "type": "legal-document",
+      "status": "Legal document; 2008 federal agreement; CVRA violation found 2019",
+      "summary": "The 2008 Non-Prosecution Agreement between the U.S. Attorney's Office and Jeffrey Epstein granted immunity to Epstein and unnamed co-conspirators. Judge Marra ruled in 2019 it violated the Crime Victims' Rights Act.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "alexander-acosta",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "legal-document",
+        "federal",
+        "immunity"
+      ],
+      "brief": "briefs/entity/analytical_brief_non_prosecution_agreement.md"
+    },
+    {
+      "id": "gulfstream-aircraft",
+      "name": "Gulfstream Aircraft",
+      "type": "aircraft",
+      "status": "Aircraft; Jeffrey Epstein's Gulfstream jets",
+      "summary": "Jeffrey Epstein owned Gulfstream aircraft (N212JE and N120JE) in addition to the Boeing 727. These aircraft were operated by pilots David Rodgers and Larry Visoski for travel between Epstein's properties.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "jeffrey-epstein",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        },
+        {
+          "targetId": "flight-logs",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "aircraft",
+        "property",
+        "transportation"
+      ],
+      "brief": "briefs/entity/analytical_brief_gulfstream_aircraft.md"
+    },
+    {
+      "id": "maxwell-criminal-case",
+      "name": "Maxwell Criminal Case",
+      "type": "legal-case",
+      "status": "Convicted December 2021; Sentenced 20 years June 2022; Appeal denied 2024",
+      "summary": "United States v. Ghislaine Maxwell (S.D.N.Y.) was the federal criminal prosecution resulting in Maxwell's conviction on sex trafficking charges. She was sentenced to 20 years imprisonment.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "ghislaine-maxwell",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "legal-case",
+        "criminal",
+        "federal"
+      ],
+      "brief": "briefs/entity/analytical_brief_maxwell_criminal_case.md"
+    },
+    {
+      "id": "victims-refuse-silence",
+      "name": "Victims Refuse Silence",
+      "type": "organization",
+      "status": "501(c)(3) nonprofit; relaunched as SOAR in 2021",
+      "summary": "Victims Refuse Silence was a nonprofit advocacy organization founded by Virginia Giuffre in 2015 to support survivors of sex trafficking. It was relaunched as SOAR (Speak Out, Act, Reclaim) in November 2021.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [
+        {
+          "targetId": "virginia-giuffre",
+          "type": "referenced",
+          "summary": "",
+          "sources": []
+        }
+      ],
+      "tags": [
+        "organization",
+        "nonprofit",
+        "victim-advocacy"
+      ],
+      "brief": "briefs/entity/analytical_brief_victims_refuse_silence.md"
+    },
+    {
+      "id": "daily-mail",
+      "name": "Daily Mail",
+      "type": "media-organization",
+      "status": "Active news publication; not a party to litigation",
+      "summary": "The Daily Mail is a British newspaper that published extensive coverage of the Epstein case. Sharon Churcher was a key reporter. The newspaper popularized the term 'Lolita Express' in January 2015.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "media",
+        "newspaper"
+      ],
+      "brief": "briefs/entity/analytical_brief_daily_mail.md"
+    },
+    {
+      "id": "vanity-fair",
+      "name": "Vanity Fair",
+      "type": "media-organization",
+      "status": "Active publication; not a party to litigation",
+      "summary": "Vanity Fair published a 2003 profile of Jeffrey Epstein by Vicky Ward. Allegations from Annie and Maria Farmer were reportedly removed before publication.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "media",
+        "magazine"
+      ],
+      "brief": "briefs/entity/analytical_brief_vanity_fair.md"
+    },
+    {
+      "id": "victims-compensation-program",
+      "name": "Epstein Victims' Compensation Program",
+      "type": "legal-program",
+      "status": "Completed 2021; distributed $121-125 million",
+      "summary": "The Epstein Victims' Compensation Program was established by the Epstein estate and administered by Jordana Feldman. It distributed approximately $121-125 million to 135-150 survivors.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "legal-program",
+        "compensation"
+      ],
+      "brief": "briefs/entity/analytical_brief_victims_compensation_program.md"
+    },
+    {
+      "id": "salt-lake-city",
+      "name": "Salt Lake City",
+      "type": "location",
+      "status": "Location; Virginia Giuffre's residence during litigation",
+      "summary": "Salt Lake City, Utah appears in 34 documents from Giuffre v. Maxwell as Virginia Giuffre's residence during the civil litigation. The city also connects to the University of Utah S.J. Quinney College of Law through attorney Paul G. Cassell.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "location",
+        "residence"
+      ],
+      "brief": "briefs/entity/analytical_brief_salt_lake_city.md"
+    },
+    {
+      "id": "crime-victims-rights-act",
+      "name": "Crime Victims' Rights Act",
+      "type": "legal-framework",
+      "status": "18 U.S.C. Section 3771; enacted 2004",
+      "summary": "The Crime Victims' Rights Act (CVRA) is federal legislation that establishes enumerated rights for crime victims. In 2019, Judge Kenneth Marra ruled that the government violated the CVRA by failing to confer with victims before entering the 2008 Non-Prosecution Agreement with Epstein.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "legal-framework",
+        "victim-rights"
+      ],
+      "brief": "briefs/entity/analytical_brief_crime_victims_rights_act.md"
+    },
+    {
+      "id": "virgin-islands",
+      "name": "United States Virgin Islands",
+      "type": "jurisdiction",
+      "status": "U.S. territory; filed civil action against Epstein estate 2020",
+      "summary": "The U.S. Virgin Islands is significant as the location of Little St. James Island (Epstein's private island) and as the jurisdiction that filed a parens patriae lawsuit against the Epstein estate in January 2020. USVI secured settlements totaling $135M from the estate and $75M from JPMorgan.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "jurisdiction",
+        "government"
+      ],
+      "brief": "briefs/entity/analytical_brief_virgin_islands.md"
+    },
+    {
+      "id": "mc2-model-management",
+      "name": "MC2 Model Management",
+      "type": "organization",
+      "status": "Dissolved September 2019; never criminally charged as an entity",
+      "summary": "MC2 Model Management was a modeling agency founded by Jean-Luc Brunel in 2005 with financial backing from Jeffrey Epstein. The agency dissolved in September 2019 following Epstein's arrest. MC2 represented models for major retailers and maintained housing at 301 East 66th Street in New York.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "organization",
+        "modeling"
+      ],
+      "brief": "briefs/entity/analytical_brief_mc2_model_management.md"
+    },
+    {
+      "id": "1953-trust",
+      "name": "The 1953 Trust",
+      "type": "legal-entity",
+      "status": "Active irrevocable trust; subject to ongoing probate litigation",
+      "summary": "The 1953 Trust is the pour-over trust established as the primary beneficiary of Jeffrey Epstein's Last Will and Testament, signed August 8, 2019 (two days before his death). The name likely references Epstein's 1953 birth year. Estate executors Darren Indyke and Richard Kahn serve as trustees.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "legal-entity",
+        "estate"
+      ],
+      "brief": "briefs/entity/analytical_brief_1953_trust.md"
+    },
+    {
+      "id": "ehud-barak",
+      "name": "Ehud Barak",
+      "type": "person",
+      "status": "Never criminally charged; denies all allegations of wrongdoing",
+      "summary": "Ehud Barak, former Prime Minister of Israel (1999-2001), appears in court documents and public reporting in connection with Jeffrey Epstein. Barak has acknowledged meeting Epstein multiple times and visiting his island once. He has categorically denied any wrongdoing. No criminal charges have been filed against Barak related to Epstein.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "person",
+        "political-figure"
+      ],
+      "brief": "briefs/entity/analytical_brief_ehud_barak.md"
+    },
+    {
+      "id": "teala-davies",
+      "name": "Teala Davies",
+      "type": "person",
+      "status": "Self-identified victim; plaintiff in civil litigation; never criminally charged",
+      "summary": "Teala Davies is a self-identified victim of Jeffrey Epstein who spoke at the August 2019 victim impact hearing following his death. She filed a civil lawsuit (Davies v. Indyke) in November 2019 and is represented by Gloria Allred.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "person",
+        "victim"
+      ],
+      "brief": "briefs/entity/analytical_brief_teala_davies.md"
+    },
+    {
+      "id": "great-st-james",
+      "name": "Great St. James Island",
+      "type": "property",
+      "status": "Sold May 2023 for $60M combined with Little St. James",
+      "summary": "Great St. James Island is a 165-acre private island in the U.S. Virgin Islands purchased by Jeffrey Epstein in January 2016 for approximately $22.5 million. The USVI government alleged the island was used to obscure Little St. James from surveillance.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "property",
+        "location"
+      ],
+      "brief": "briefs/entity/analytical_brief_great_st_james.md"
+    },
+    {
+      "id": "berkeley-square",
+      "name": "Berkeley Square (London)",
+      "type": "location",
+      "status": "Geographic location referenced in Giuffre v. Maxwell litigation",
+      "summary": "Berkeley Square in London's Mayfair district appears in 7 documents from the Giuffre v. Maxwell litigation. The location is significant due to the photograph of Virginia Giuffre with Prince Andrew allegedly taken at a Maxwell London residence.",
+      "document_type": "Editorial analysis of civil litigation records",
+      "connections": [],
+      "tags": [
+        "location",
+        "london"
+      ],
+      "brief": "briefs/entity/analytical_brief_berkeley_square.md"
     }
   ],
   "schema_version": "2.0",

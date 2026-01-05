@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(python:*)",
+      "Bash(powershell:*)",
+      "Read(**/*.md)",
+      "Read(**/*.json)",
+      "Read(**/*.pdf)",
+      "Write(briefs/**)",
+      "Write(reports/**)",
+      "Write(agents/**)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(**/*credentials*)",
+      "Read(**/*secret*)"
+    ]
+  },
+  "env": {
+    "PROJECT_NAME": "The Continuum Report",
+    "PAPERLESS_URL": "http://192.168.1.139:8040"
+  },
+  "model": "claude-opus-4-5-20251101"
+}

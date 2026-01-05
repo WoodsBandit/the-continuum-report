@@ -1,0 +1,113 @@
+============================================================
+CONTINUUM KNOWLEDGE GRAPH SUMMARY
+============================================================
+
+Total Entities: 15
+  - Case: 2
+  - Organization: 1
+  - Person: 12
+
+Total Connections: 78
+  - Bidirectional: 22
+  - One-way: 56
+
+Connection Types:
+  - Documented: 53
+  - Referenced: 16
+  - Interpreted: 9
+
+TOP 15 STRONGEST CONNECTIONS:
+--------------------------------------------------
+  Alan Dershowitz <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Bill Clinton <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Emmy Taylor <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Epstein Florida Case <--> Jeffrey Epstein
+    Strength: 100/100 | Type: documented
+  Ghislaine Maxwell <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Ghislaine Maxwell <--> Giuffre v. Maxwell Civil Case
+    Strength: 100/100 | Type: documented
+  Ghislaine Maxwell <--> Jeffrey Epstein
+    Strength: 100/100 | Type: documented
+  Ghislaine Maxwell <--> Prince Andrew
+    Strength: 100/100 | Type: documented
+  Giuffre v. Maxwell Civil Case <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Lesley Groff <--> Sarah Kellen
+    Strength: 100/100 | Type: documented
+  Nadia Marcinkova <--> Sarah Kellen
+    Strength: 100/100 | Type: documented
+  Prince Andrew <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Sarah Kellen <--> Virginia Giuffre
+    Strength: 100/100 | Type: documented
+  Alan Dershowitz <--> Nadia Marcinkova
+    Strength: 98/100 | Type: documented
+  Lesley Groff <--> Nadia Marcinkova
+    Strength: 96/100 | Type: documented
+
+MOST CONNECTED ENTITIES:
+--------------------------------------------------
+  Virginia Giuffre (person): 14 connections
+  Jeffrey Epstein (person): 14 connections
+  Ghislaine Maxwell (person): 14 connections
+  Giuffre v. Maxwell Civil Case (case): 14 connections
+  Epstein Florida Case (case): 13 connections
+  Sarah Kellen (person): 12 connections
+  Bill Clinton (person): 10 connections
+  Emmy Taylor (person): 10 connections
+  Nadia Marcinkova (person): 10 connections
+  Alan Dershowitz (person): 9 connections
+
+ALL ENTITIES:
+--------------------------------------------------
+  [PER] Alan Dershowitz
+        Status: Never criminally charged; categorically denies all allegatio...
+        Mentions: 6 other entities
+  [PER] Bill Clinton
+        Status: No allegations of illegal conduct in analyzed court filings...
+        Mentions: 6 other entities
+  [PER] Donald Trump
+        Status: No allegations of misconduct in analyzed court filings...
+        Mentions: 5 other entities
+  [PER] Emmy Taylor
+        Status: Never charged with any crime...
+        Mentions: 10 other entities
+  [CAS] Epstein Florida Case
+        Status: Unknown...
+        Mentions: 4 other entities
+  [PER] Ghislaine Maxwell
+        Status: Convicted December 2021; currently serving 20-year federal s...
+        Mentions: 4 other entities
+  [CAS] Giuffre v. Maxwell Civil Case
+        Status: Settled May 2017; documents unsealed January 2024...
+        Mentions: 3 other entities
+  [PER] Glenn Dubin
+        Status: Never charged with any crime; no allegations of misconduct i...
+        Mentions: 6 other entities
+  [PER] Jeffrey Epstein
+        Status: Deceased; convicted sex offender (2008); died in custody Aug...
+        Mentions: 4 other entities
+  [PER] Lesley Groff
+        Status: Never criminally charged; named as unindicted co-conspirator...
+        Mentions: 7 other entities
+  [PER] Nadia Marcinkova
+        Status: Never criminally charged; named as unindicted co-conspirator...
+        Mentions: 8 other entities
+  [PER] Prince Andrew
+        Status: Never criminally charged; civil lawsuit settled February 202...
+        Mentions: 9 other entities
+  [PER] Sarah Kellen
+        Status: Never criminally charged; named as unindicted co-conspirator...
+        Mentions: 12 other entities
+  [ORG] The Terramar Project
+        Status: Dissolved 2019...
+        Mentions: 6 other entities
+  [PER] Virginia Giuffre
+        Status: Plaintiff and alleged victim in multiple proceedings...
+        Mentions: 10 other entities
+
+============================================================

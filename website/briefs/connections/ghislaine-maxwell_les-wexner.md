@@ -1,0 +1,74 @@
+# CONNECTION BRIEF: Ghislaine Maxwell ↔ Les Wexner
+
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> This document constitutes protected opinion and analysis based on public court records and witness testimony.
+> Interpretive conclusions represent editorial judgment, not assertions of undisputed fact.
+
+---
+
+## Relationship Classification
+
+| Attribute | Value |
+|-----------|-------|
+| **Type** | Social/Through Epstein |
+| **Evidence Level** | Interpreted from witness accounts |
+| **Direction** | Indirect |
+| **Status** | Historical |
+
+---
+
+## The Documented Record
+
+**The following contains only direct quotes and factual citations. No interpretation.**
+
+### Witness References
+
+Per deposition testimony referenced in Giuffre v. Maxwell:
+- Witnesses referenced Maxwell's attendance at events at Wexner properties
+- Virginia Giuffre referenced Wexner properties in deposition testimony
+
+### Indirect Connection Through Epstein
+
+The connection between Maxwell and Wexner appears to be mediated through Jeffrey Epstein:
+- Epstein managed Wexner's finances (1980s-2007)
+- Maxwell was Epstein's longtime associate
+- Both were present at properties connected to Wexner
+
+---
+
+## Editorial Analysis
+
+**The following represents the opinions and interpretations of The Continuum Report.**
+
+The documentary record suggests the Maxwell-Wexner connection was indirect, mediated through their respective relationships with Jeffrey Epstein. Witness accounts reference Maxwell's presence at Wexner-connected properties, likely reflecting her role in Epstein's social circle.
+
+We observe that the documents do not establish a direct personal or business relationship between Maxwell and Wexner independent of Epstein. Their connection appears to be a function of Epstein's position as Wexner's financial manager and Maxwell's position as Epstein's associate.
+
+Wexner has stated he severed ties with Epstein in 2007. The extent of any ongoing connection to Maxwell after that date is not documented in the materials we reviewed.
+
+---
+
+## Alternative Interpretations
+
+1. **Purely incidental:** Maxwell may have encountered Wexner only through Epstein-related social events without independent relationship.
+
+2. **Social circles:** Wealthy individuals' social circles often overlap without implying close personal relationships.
+
+3. **Property presence:** Maxwell's presence at Wexner properties may reflect Epstein's access rather than any relationship with Wexner.
+
+4. **No documented interaction:** The records do not show direct communications or dealings between Maxwell and Wexner.
+
+---
+
+## Source Documents
+
+| Document | Description | Source |
+|----------|-------------|--------|
+| Giuffre v. Maxwell Depositions | References to Wexner properties | SDNY 15-cv-07433 |
+| Witness testimony | Property attendance references | Court filings |
+
+---
+
+*Generated: 2025-12-23*
+*The Continuum Report — Another Node in the Decentralized Intelligence Agency*

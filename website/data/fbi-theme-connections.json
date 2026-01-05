@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "theme": "FBI",
+    "generated": "2025-12-25",
+    "phase": "Phase 5 - Integration",
+    "status": "Complete (with documented gaps)"
+  },
+  "theme_summary": {
+    "entity_brief": "analytical_brief_fbi.md",
+    "timeline": "fbi-investigation-timeline.md",
+    "personnel": "fbi-personnel.json",
+    "foia_package": "FBI_FOIA_REQUESTS.md"
+  },
+  "connection_briefs": [
+    {
+      "file": "fbi_epstein_investigation.md",
+      "type": "institution-entity",
+      "subjects": ["FBI", "Jeffrey Epstein"],
+      "key_events": ["2005-2007 investigation", "2008 NPA", "2019 arrest", "death investigation"]
+    },
+    {
+      "file": "fbi_wexner_coconspirator.md",
+      "type": "institution-entity",
+      "subjects": ["FBI", "Les Wexner"],
+      "key_events": ["July 2019 co-conspirator identification", "no prosecution"]
+    },
+    {
+      "file": "fbi_maxwell_arrest.md",
+      "type": "institution-entity",
+      "subjects": ["FBI", "Ghislaine Maxwell"],
+      "key_events": ["July 2020 arrest", "conviction", "sentencing"]
+    }
+  ],
+  "entity_connections": {
+    "primary": [
+      {
+        "entity": "Jeffrey Epstein",
+        "brief": "analytical_brief_jeffrey_epstein.md",
+        "connection_type": "Investigation Subject",
+        "fbi_involvement": ["2005-2007 investigation", "2019 arrest", "death investigation"],
+        "update_required": true,
+        "update_needed": "Add FBI investigation details to entity brief"
+      },
+      {
+        "entity": "Ghislaine Maxwell",
+        "brief": "analytical_brief_ghislaine_maxwell.md",
+        "connection_type": "Arrest/Prosecution",
+        "fbi_involvement": ["July 2020 arrest", "witness interviews", "evidence collection"],
+        "update_required": true,
+        "update_needed": "Add FBI arrest and investigation details"
+      },
+      {
+        "entity": "Les Wexner",
+        "brief": "analytical_brief_les_wexner.md",
+        "connection_type": "Co-Conspirator Identification",
+        "fbi_involvement": ["July 2019 email designation"],
+        "update_required": true,
+        "update_needed": "CRITICAL - Add FBI co-conspirator designation (currently missing)"
+      }
+    ],
+    "secondary": [
+      {
+        "entity": "Virginia Giuffre",
+        "brief": "analytical_brief_virginia_giuffre.md",
+        "connection_type": "Witness Contact",
+        "fbi_involvement": ["August 2014 Agent Richards contact"],
+        "update_required": false,
+        "notes": "FBI contact already documented in brief"
+      },
+      {
+        "entity": "Bill Clinton",
+        "brief": "analytical_brief_bill_clinton.md",
+        "connection_type": "Former FBI Director Investigation",
+        "fbi_involvement": ["Louis Freeh private investigation (post-FBI)"],
+        "update_required": false,
+        "notes": "Freeh report already documented in brief (exculpatory)"
+      },
+      {
+        "entity": "Roy Cohn",
+        "brief": "analytical_brief_roy_cohn.md",
+        "connection_type": "Historical (Hoover Era)",
+        "fbi_involvement": ["Alleged Hoover relationship"],
+        "update_required": false,
+        "notes": "Hoover relationship already documented in brief"
+      }
+    ],
+    "historical": [
+      {
+        "entity": "Robert Maxwell",
+        "brief": "analytical_brief_robert_maxwell.md",
+        "connection_type": "FBI Files Gap",
+        "fbi_involvement": ["FBI files not reviewed"],
+        "update_required": false,
+        "notes": "Gap documented in brief, FOIA target"
+      },
+      {
+        "entity": "Meyer Lansky",
+        "brief": "analytical_brief_meyer_lansky.md",
+        "connection_type": "FBI Files Gap",
+        "fbi_involvement": ["FBI files not reviewed"],
+        "update_required": false,
+        "notes": "Gap documented in brief, FOIA target"
+      }
+    ]
+  },
+  "theme_connections": {
+    "DOJ": {
+      "relationship": "Institutional (FBI reports to DOJ)",
+      "key_connection_points": [
+        "NPA decision-making",
+        "Prosecution/non-prosecution decisions",
+        "Co-conspirator handling"
+      ],
+      "documentation": "DOJ 33k files contain FBI-DOJ communications (pending OCR)"
+    },
+    "CIA": {
+      "relationship": "Congressional Oversight (Church Committee)",
+      "key_connection_points": [
+        "Church Committee investigated both agencies",
+        "Intelligence community coordination",
+        "Subjects with foreign intelligence ties"
+      ],
+      "documentation": "Church Committee Book V (FBI intelligence activities)"
+    },
+    "Financial_Enablers": {
+      "relationship": "Investigation/Referral",
+      "key_connection_points": [
+        "SAR referrals to FBI",
+        "Bank investigation outcomes",
+        "Wexner financial relationship"
+      ],
+      "documentation": "FBI financial crime investigation files (not acquired)"
+    },
+    "Wexner": {
+      "relationship": "Co-Conspirator Identification",
+      "key_connection_points": [
+        "July 2019 FBI NY email",
+        "No prosecution outcome",
+        "Documentation gaps"
+      ],
+      "documentation": "DOJ co-conspirator email (acquired)"
+    },
+    "Maxwell_Network": {
+      "relationship": "Arrest/Prosecution",
+      "key_connection_points": [
+        "Ghislaine Maxwell arrest (2020)",
+        "Robert Maxwell FBI files (gap)",
+        "Family intelligence connections"
+      ],
+      "documentation": "FBI 302 reports (sealed)"
+    }
+  },
+  "personnel": {
+    "documented": [
+      {
+        "name": "Louis Freeh",
+        "role": "Former FBI Director",
+        "continuum_relevance": "Private investigator for Maxwell defense (post-FBI)"
+      },
+      {
+        "name": "Jason Richards",
+        "role": "FBI Agent",
+        "continuum_relevance": "Contacted by Virginia Giuffre (2014)"
+      },
+      {
+        "name": "J. Edgar Hoover",
+        "role": "FBI Director (1924-1972)",
+        "continuum_relevance": "Alleged Roy Cohn relationship; historical context"
+      }
+    ],
+    "gaps": [
+      "2005-2007 case agents (names unknown)",
+      "2019 arrest team (names unknown)",
+      "Maxwell arrest team (names unknown)",
+      "302 report authors (names unknown)"
+    ]
+  },
+  "documentation_gaps": {
+    "critical": [
+      "FBI prosecution recommendations (2005-2007)",
+      "FBI position on NPA",
+      "FBI co-conspirator evidence",
+      "FBI 302 witness interviews"
+    ],
+    "significant": [
+      "FBI investigation files (2005-2007, 2019)",
+      "FBI-DOJ communications",
+      "FBI case agent identities"
+    ],
+    "historical": [
+      "FBI files on Roy Cohn",
+      "FBI files on Robert Maxwell",
+      "FBI files on Meyer Lansky"
+    ]
+  },
+  "blockers": {
+    "ocr_required": [
+      {
+        "collection": "FBI Vault Epstein Parts 1-8",
+        "files": 8,
+        "size": "~12MB",
+        "location": "\\\\192.168.1.139\\continuum\\downloads\\fbi-vault\\"
+      },
+      {
+        "collection": "DOJ 33k (contains FBI-DOJ communications)",
+        "files": 33564,
+        "size": "13.8GB",
+        "location": "\\\\192.168.1.139\\continuum\\downloads\\house-oversight\\extracted\\epstein-pdf\\"
+      }
+    ],
+    "pdf_too_large": [
+      {
+        "document": "Church Committee Book V",
+        "paperless_id": 220,
+        "issue": "PDF too large for current processing"
+      }
+    ],
+    "foia_required": [
+      "FBI investigation files",
+      "FBI 302 reports",
+      "FBI internal memoranda"
+    ]
+  },
+  "outputs": {
+    "phase_1": {
+      "status": "complete",
+      "files": [
+        "paperless-fbi-catalog.md",
+        "brief-fbi-references.md",
+        "FBI_THEME_PHASE1_SUMMARY.md"
+      ],
+      "note": "Task 1A blocked by OCR"
+    },
+    "phase_2": {
+      "status": "complete",
+      "files": [
+        "fbi-personnel.json",
+        "fbi-investigation-timeline.md"
+      ],
+      "note": "Task 2C blocked by PDF size"
+    },
+    "phase_3": {
+      "status": "complete",
+      "files": [
+        "analytical_brief_fbi.md",
+        "fbi_epstein_investigation.md",
+        "fbi_wexner_coconspirator.md",
+        "fbi_maxwell_arrest.md"
+      ]
+    },
+    "phase_4": {
+      "status": "complete",
+      "files": [
+        "FBI_FOIA_REQUESTS.md"
+      ]
+    },
+    "phase_5": {
+      "status": "complete",
+      "files": [
+        "fbi-theme-connections.json"
+      ]
+    }
+  },
+  "next_actions": [
+    "OCR FBI Vault PDFs for Task 1A completion",
+    "OCR DOJ 33k for FBI-DOJ communications",
+    "Update Wexner entity brief with FBI co-conspirator section (CRITICAL)",
+    "Update Epstein entity brief with FBI investigation details",
+    "Update Maxwell entity brief with FBI arrest details",
+    "File high-priority FOIA requests",
+    "Process Church Committee Book V when PDF size issue resolved"
+  ]
+}

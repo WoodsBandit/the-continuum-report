@@ -1,0 +1,184 @@
+{
+  "generated": "2025-12-18T01:00:00Z",
+  "layers": [
+    {
+      "id": "layer-1",
+      "name": "Epstein Core",
+      "level": 1,
+      "description": "Direct Epstein network documentation from court records",
+      "entity_count": 15,
+      "networks": ["epstein-network"],
+      "color": "#9333ea"
+    },
+    {
+      "id": "layer-2",
+      "name": "Intelligence Operations",
+      "level": 2,
+      "description": "Intelligence agency connections and operations documented in congressional investigations",
+      "entity_count": 5,
+      "networks": ["promis-network", "intelligence-network", "bcci-network", "iran-contra-network"],
+      "color": "#dc2626"
+    },
+    {
+      "id": "layer-3",
+      "name": "Financial Networks",
+      "level": 3,
+      "description": "Banking and financial institution connections",
+      "entity_count": 3,
+      "networks": ["banking-network", "bcci-network"],
+      "color": "#16a34a"
+    },
+    {
+      "id": "layer-4",
+      "name": "Political Networks",
+      "level": 4,
+      "description": "Political connections and influence operations",
+      "entity_count": 1,
+      "networks": ["political-network"],
+      "color": "#2563eb"
+    },
+    {
+      "id": "layer-5",
+      "name": "Parallel Cases",
+      "level": 5,
+      "description": "Similar trafficking operations and patterns",
+      "entity_count": 2,
+      "networks": ["parallel-cases-network", "nxivm-network"],
+      "color": "#d97706"
+    }
+  ],
+  "networks": [
+    {
+      "id": "epstein-network",
+      "name": "Epstein Network",
+      "layer": 1,
+      "entities": [
+        "jeffrey-epstein",
+        "ghislaine-maxwell",
+        "virginia-giuffre",
+        "bill-clinton",
+        "donald-trump",
+        "prince-andrew",
+        "alan-dershowitz",
+        "sarah-kellen",
+        "nadia-marcinkova",
+        "lesley-groff",
+        "emmy-taylor",
+        "glenn-dubin",
+        "terramar-project",
+        "giuffre-v-maxwell-case",
+        "epstein-florida-case"
+      ],
+      "parent_connections": ["intelligence-network", "financial-network"]
+    },
+    {
+      "id": "promis-network",
+      "name": "PROMIS/INSLAW Network",
+      "layer": 2,
+      "entities": ["promis-inslaw-case", "robert-maxwell"],
+      "child_connections": ["epstein-network"]
+    },
+    {
+      "id": "intelligence-network",
+      "name": "Intelligence Network",
+      "layer": 2,
+      "entities": ["robert-maxwell", "promis-inslaw-case"],
+      "child_connections": ["epstein-network"]
+    },
+    {
+      "id": "banking-network",
+      "name": "Banking Network",
+      "layer": 3,
+      "entities": ["jpmorgan", "jpmorgan-epstein-case"],
+      "child_connections": ["epstein-network"]
+    },
+    {
+      "id": "bcci-network",
+      "name": "BCCI Network",
+      "layer": 2,
+      "entities": ["bcci-affair", "cia"],
+      "child_connections": ["intelligence-network"],
+      "description": "Bank of Credit and Commerce International - documented CIA relationship"
+    },
+    {
+      "id": "iran-contra-network",
+      "name": "Iran-Contra Network",
+      "layer": 2,
+      "entities": ["iran-contra-affair", "cia"],
+      "child_connections": ["intelligence-network"],
+      "description": "The Enterprise - private covert action capability"
+    },
+    {
+      "id": "political-network",
+      "name": "Political Network",
+      "layer": 4,
+      "entities": ["roy-cohn"],
+      "child_connections": ["epstein-network"],
+      "description": "Political fixers and influence operations"
+    },
+    {
+      "id": "nxivm-network",
+      "name": "NXIVM Network",
+      "layer": 5,
+      "entities": ["nxivm-case", "keith-raniere"],
+      "child_connections": [],
+      "description": "Parallel case - coercion-based exploitation operation"
+    }
+  ],
+  "cross_layer_connections": [
+    {
+      "from": "robert-maxwell",
+      "from_layer": 2,
+      "to": "ghislaine-maxwell",
+      "to_layer": 1,
+      "type": "family",
+      "documented": true,
+      "description": "Father-daughter relationship (documented in public records)"
+    },
+    {
+      "from": "jpmorgan",
+      "from_layer": 3,
+      "to": "jeffrey-epstein",
+      "to_layer": 1,
+      "type": "financial",
+      "documented": true,
+      "description": "Banking relationship (documented in USVI v. JP Morgan complaint)"
+    },
+    {
+      "from": "promis-inslaw-case",
+      "from_layer": 2,
+      "to": "robert-maxwell",
+      "to_layer": 2,
+      "type": "alleged involvement",
+      "documented": true,
+      "description": "Congressional investigation examined Maxwell's alleged role in PROMIS distribution"
+    },
+    {
+      "from": "bcci-affair",
+      "from_layer": 2,
+      "to": "cia",
+      "to_layer": 2,
+      "type": "institutional relationship",
+      "documented": true,
+      "description": "Senate investigation documented CIA knowledge of BCCI operations"
+    },
+    {
+      "from": "iran-contra-affair",
+      "from_layer": 2,
+      "to": "cia",
+      "to_layer": 2,
+      "type": "operational support",
+      "documented": true,
+      "description": "Congressional investigation documented CIA support for Enterprise operations"
+    },
+    {
+      "from": "bcci-affair",
+      "from_layer": 2,
+      "to": "iran-contra-affair",
+      "to_layer": 2,
+      "type": "contemporary operations",
+      "documented": true,
+      "description": "Contemporary covert financing operations with overlapping networks"
+    }
+  ]
+}

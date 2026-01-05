@@ -1,0 +1,44 @@
+# The Continuum Report - Pipeline Daemon Container
+#
+# Build:
+#   docker build -f Dockerfile.pipeline -t continuum-pipeline .
+#
+# Run:
+#   docker run -d \
+#     --name continuum-pipeline \
+#     -p 5000:5000 \
+#     -v /mnt/user/continuum:/continuum \
+#     -e PAPERLESS_URL=http://192.168.1.139:8040 \
+#     -e PAPERLESS_TOKEN=your_token_here \
+#     continuum-pipeline
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+RUN pip install --no-cache-dir \
+    flask \
+    watchdog \
+    pydantic-settings \
+    requests
+
+# Copy scripts
+COPY . /app/scripts/
+
+# Create symlink to continuum mount
+RUN ln -s /continuum /app/continuum
+
+# Set environment
+ENV PYTHONPATH=/app/scripts:/app/scripts/lib
+ENV CONTINUUM_BASE_DIR=/continuum
+
+# Expose webhook port
+EXPOSE 5000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:5000/health || exit 1
+
+# Run the daemon
+CMD ["python", "scripts/pipeline_daemon.py", "--host", "0.0.0.0", "--port", "5000"]

@@ -1,0 +1,88 @@
+# CONNECTION BRIEF: Ghislaine Maxwell ↔ Johanna Sjoberg
+
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> This document constitutes protected opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of undisputed fact.
+
+---
+
+## Relationship Classification
+
+| Attribute | Value |
+|-----------|-------|
+| **Type** | Alleged Recruiter-Victim |
+| **Evidence Level** | Sworn (deposition testimony, criminal trial testimony) |
+| **Direction** | Sjoberg accuses Maxwell of recruitment |
+| **Status** | Maxwell convicted 2021; Sjoberg testified at trial |
+| **Strength** | 90 (per connections.json) |
+
+---
+
+## The Documented Record
+
+**The following contains only direct quotes and factual citations. No interpretation.**
+
+### Source: ECF 1327-23 — Sjoberg Deposition
+
+**[ECF Doc. 1327-23](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf)** (Deposition of Johanna Sjoberg, May 18, 2016):
+
+Sjoberg provided deposition testimony addressing:
+- The role of Ghislaine Maxwell in her recruitment
+- Maxwell's presence at Epstein properties
+- Observations of Maxwell's interactions with other young women
+
+### Recruitment Allegations
+
+According to testimony and published accounts, Sjoberg was recruited through what appeared to be a legitimate job opportunity. Her testimony addressed Maxwell's role in the recruitment process and her experiences at Epstein's properties where Maxwell was present.
+
+### Maxwell Criminal Trial
+
+Johanna Sjoberg testified at Ghislaine Maxwell's federal criminal trial in the Southern District of New York (December 2021). Her testimony was part of the evidence that led to Maxwell's conviction on five federal charges, including sex trafficking of a minor.
+
+### Criminal Conviction Context
+
+Maxwell was convicted on December 29, 2021, and sentenced to 20 years in federal prison on June 28, 2022. Sjoberg's testimony contributed to this conviction.
+
+---
+
+## Editorial Analysis
+
+**The following represents the opinions and interpretations of The Continuum Report.**
+
+In our assessment, the Maxwell-Sjoberg connection represents one of the victim-perpetrator relationships that led to Maxwell's criminal conviction.
+
+**Regarding recruitment allegations:** Sjoberg's testimony addressed Maxwell's role in recruitment operations. The pattern of using legitimate-appearing job opportunities to recruit college students appears consistently across victim accounts.
+
+**Regarding trial testimony:** Sjoberg testified at Maxwell's criminal trial, and the jury found Maxwell guilty beyond a reasonable doubt. This represents the highest level of institutional validation of victim testimony.
+
+**Regarding conviction significance:** Maxwell's conviction establishes, as a matter of law, that she engaged in sex trafficking and recruitment of victims. While the conviction involved multiple victims, Sjoberg's testimony contributed to the evidentiary foundation.
+
+**Our editorial judgment:** The Maxwell-Sjoberg connection is validated by Maxwell's criminal conviction. Sjoberg's willingness to testify in both civil and criminal proceedings, and the jury's verdict, provide substantial institutional confirmation of her account.
+
+---
+
+## Alternative Interpretations
+
+1. **Conviction on appeal:** Maxwell continues to pursue appeals. Until exhausted, the conviction remains technically subject to reversal.
+
+2. **Multiple victims:** Maxwell's conviction involved testimony from multiple victims. Sjoberg's specific allegations against Maxwell are part of a larger evidentiary picture.
+
+3. **Memory considerations:** Testimony given years after events may be affected by time and subsequent information.
+
+4. **Specific vs. general allegations:** While Maxwell was convicted of trafficking crimes, the specific interactions Sjoberg described with Maxwell were part of trial evidence but not individually adjudicated.
+
+5. **Institutional validation:** A federal jury found Maxwell guilty beyond a reasonable doubt—the highest standard of proof in the American legal system.
+
+---
+
+## Source Documents
+
+| ECF | Description | Link |
+|-----|-------------|------|
+| 1327-23 | Sjoberg Deposition (May 18, 2016) | [PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf) |
+
+---
+
+*Generated: 2025-12-23*
+*The Continuum Report — Another Node in the Decentralized Intelligence Agency*

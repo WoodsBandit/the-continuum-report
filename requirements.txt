@@ -1,0 +1,70 @@
+# The Continuum Report - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# =============================================================================
+# CORE DEPENDENCIES
+# =============================================================================
+
+# HTTP requests with connection pooling
+requests>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Data validation and settings management
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# =============================================================================
+# LOGGING & OBSERVABILITY
+# =============================================================================
+
+# Structured logging
+structlog>=23.2.0
+
+# =============================================================================
+# RESILIENCE & RELIABILITY
+# =============================================================================
+
+# Retry logic with exponential backoff
+tenacity>=8.2.0
+
+# =============================================================================
+# DATA PROCESSING
+# =============================================================================
+
+# JSON handling (standard library, listed for documentation)
+# json (built-in)
+
+# Regular expressions (standard library)
+# re (built-in)
+
+# =============================================================================
+# FUTURE DEPENDENCIES (Phase 2+)
+# =============================================================================
+
+# Uncomment as needed during later phases:
+
+# --- Message Queue (Phase 2) ---
+# celery>=5.3.0
+# redis>=5.0.0
+
+# --- Database (Phase 3) ---
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0
+# alembic>=1.13.0
+
+# --- Async Support (Phase 4) ---
+# httpx>=0.25.0
+# aiofiles>=23.2.0
+
+# --- Testing (Phase 5) ---
+pytest>=7.4.0
+pytest-cov>=4.1.0
+responses>=0.24.0
+pytest-mock>=3.12.0
+
+# --- Observability (Phase 6) ---
+# opentelemetry-api>=1.21.0
+# opentelemetry-sdk>=1.21.0
+# prometheus-client>=0.19.0

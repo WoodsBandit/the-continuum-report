@@ -1,0 +1,177 @@
+name: Code Quality
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+env:
+  PYTHON_VERSION: '3.11'
+  CACHE_VERSION: v1
+
+jobs:
+  quality-gates:
+    name: Quality Gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: |
+            requirements.txt
+            pyproject.toml
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-quality-${{ env.CACHE_VERSION }}-${{ hashFiles('**/requirements.txt', '**/pyproject.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-quality-${{ env.CACHE_VERSION }}-
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e ".[dev]"
+
+      - name: Run Ruff lint
+        run: ruff check scripts/ tests/ --output-format=github
+
+      - name: Run Ruff format check
+        run: ruff format --check scripts/ tests/ --diff
+
+      - name: Run mypy type checking
+        run: mypy scripts/ --install-types --non-interactive
+
+      - name: Run pytest with coverage
+        run: |
+          pytest tests/ -v \
+            --cov=scripts \
+            --cov-report=xml:coverage.xml \
+            --cov-report=term-missing \
+            --cov-fail-under=80
+
+  docs:
+    name: Documentation
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+          pip install mkdocs mkdocs-material
+
+      - name: Check for docstrings
+        run: |
+          python -c "
+          import ast
+          import os
+
+          missing_docs = []
+          for root, dirs, files in os.walk('scripts'):
+              for file in files:
+                  if file.endswith('.py'):
+                      path = os.path.join(root, file)
+                      with open(path) as f:
+                          tree = ast.parse(f.read())
+                      for node in ast.walk(tree):
+                          if isinstance(node, (ast.FunctionDef, ast.ClassDef)):
+                              if not ast.get_docstring(node):
+                                  missing_docs.append(f'{path}: {node.name}')
+
+          if missing_docs:
+              print('Missing docstrings:')
+              for doc in missing_docs:
+                  print(f'  - {doc}')
+              # Note: Not failing on this for now
+          "
+        continue-on-error: true
+
+      - name: Generate API documentation
+        run: |
+          mkdir -p docs/api
+          python -m pydoc -w scripts.continuum_pipeline || true
+        continue-on-error: true
+
+  sonarqube:
+    name: SonarQube Analysis
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -e ".[test]"
+
+      - name: Run pytest with coverage
+        run: |
+          pytest tests/ -v \
+            --cov=scripts \
+            --cov-report=xml:coverage.xml \
+            --cov-report=term-missing
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@master
+        with:
+          args: >
+            -Dsonar.projectKey=continuum-report
+            -Dsonar.sources=scripts
+            -Dsonar.tests=tests
+            -Dsonar.coverage.exclusions=**/*_test.py,**/test_*.py
+        env:
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        continue-on-error: true
+
+  pre-commit:
+    name: Pre-commit Hooks
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run pre-commit hooks
+        uses: pre-commit/action@v3

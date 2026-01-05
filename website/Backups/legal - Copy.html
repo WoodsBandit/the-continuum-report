@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial Standards | The Continuum Report</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Editorial standards, methodology, and legal notice for The Continuum Report. Our commitment to rigorous, evidence-based research.">
+    <meta name="author" content="The Continuum Report">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thecontinuumreport.com/legal.html">
+    <meta property="og:title" content="Editorial Standards | The Continuum Report">
+    <meta property="og:description" content="Our methodology, source standards, and legal framework.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='none' stroke='%23c9a227' stroke-width='2'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%23c9a227'/%3E%3C/svg%3E">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --void-black: #0a0a0b;
+            --deep-purple: #1a1025;
+            --royal-purple: #2d1f3d;
+            --mystic-purple: #4a3660;
+            --soft-purple: #6b5280;
+            --ancient-gold: #c9a227;
+            --light-gold: #e8d48b;
+            --pale-gold: #f5e6b3;
+            --smoke: #a8a8a8;
+            --mist: #d4d4d4;
+            --pure: #f8f8f8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--void-black);
+            color: var(--mist);
+            overflow-x: hidden;
+            line-height: 1.7;
+        }
+
+        /* Background */
+        .bg-atmosphere {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .bg-gradient {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(ellipse at 30% 30%, rgba(45, 31, 61, 0.3) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 70%, rgba(26, 16, 37, 0.4) 0%, transparent 50%),
+                linear-gradient(180deg, var(--void-black) 0%, var(--deep-purple) 50%, var(--void-black) 100%);
+        }
+
+        .grid-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(201, 162, 39, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(201, 162, 39, 0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+            opacity: 0.5;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(10, 10, 11, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(201, 162, 39, 0.15);
+        }
+
+        .nav-logo {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            letter-spacing: 0.3em;
+            color: var(--ancient-gold);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .nav-logo:hover {
+            text-shadow: 0 0 30px rgba(201, 162, 39, 0.5);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--smoke);
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--ancient-gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--ancient-gold);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a.active {
+            color: var(--ancient-gold);
+        }
+
+        /* Page Header */
+        .page-header {
+            padding: 12rem 4rem 6rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .page-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--ancient-gold), transparent);
+        }
+
+        .page-label {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: var(--ancient-gold);
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .page-title {
+            font-family: 'Cinzel', serif;
+            font-size: 3rem;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+            color: var(--pure);
+            margin-bottom: 1.5rem;
+        }
+
+        .page-subtitle {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.3rem;
+            font-style: italic;
+            color: var(--smoke);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Content */
+        .content-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .content-section.reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .content-section h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            color: var(--ancient-gold);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(201, 162, 39, 0.3);
+        }
+
+        .content-section h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: var(--light-gold);
+            margin: 2rem 0 1rem;
+        }
+
+        .content-section p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: var(--mist);
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section ul {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .content-section li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .content-section li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--ancient-gold);
+        }
+
+        .content-section strong {
+            color: var(--pure);
+            font-weight: 500;
+        }
+
+        .content-section em {
+            font-style: italic;
+            color: var(--light-gold);
+        }
+
+        .content-section a {
+            color: var(--ancient-gold);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(201, 162, 39, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .content-section a:hover {
+            border-bottom-color: var(--ancient-gold);
+        }
+
+        /* Highlight boxes */
+        .highlight-box {
+            background: rgba(45, 31, 61, 0.3);
+            border-left: 2px solid var(--ancient-gold);
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Legal notice box */
+        .legal-notice {
+            background: rgba(201, 162, 39, 0.08);
+            border: 1px solid rgba(201, 162, 39, 0.3);
+            padding: 2.5rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .legal-notice h3 {
+            color: var(--ancient-gold);
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.2em;
+        }
+
+        .legal-notice p {
+            margin-bottom: 1rem;
+        }
+
+        /* Quote block */
+        .quote-block {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: var(--smoke);
+            border-left: 2px solid var(--ancient-gold);
+            padding-left: 2rem;
+            margin: 2.5rem 0;
+        }
+
+        /* Effective date */
+        .effective-date {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(201, 162, 39, 0.2);
+            color: var(--smoke);
+            font-size: 0.9rem;
+        }
+
+        .effective-date em {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--smoke);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: rgba(10, 10, 11, 0.8);
+            border-top: 1px solid rgba(201, 162, 39, 0.15);
+            margin-top: 4rem;
+        }
+
+        .footer-logo {
+            font-family: 'Cinzel', serif;
+            font-size: 1rem;
+            letter-spacing: 0.3em;
+            color: var(--ancient-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            color: var(--smoke);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--ancient-gold);
+        }
+
+        .footer-dia {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 1rem;
+            color: var(--smoke);
+            margin-bottom: 1rem;
+        }
+
+        .footer-copyright {
+            font-size: 0.75rem;
+            color: rgba(168, 168, 168, 0.6);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .page-header {
+                padding: 10rem 2rem 4rem;
+            }
+
+            .page-title {
+                font-size: 2rem;
+            }
+
+            .content-section {
+                padding: 2rem 1.5rem;
+            }
+
+            .content-section h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-atmosphere">
+        <div class="bg-gradient"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="/" class="nav-logo">TCR</a>
+        <ul class="nav-links">
+            <li><a href="/continuum.html">Continuum</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/legal.html" class="active">Standards</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <span class="page-label">Legal Framework</span>
+        <h1 class="page-title">Editorial Standards</h1>
+        <p class="page-subtitle">Our methodology, source standards, and legal notice</p>
+    </header>
+
+    <!-- Mission -->
+    <section class="content-section reveal">
+        <h2>Mission Statement</h2>
+        <p>The Continuum Report is an independent, open-source intelligence research project dedicated to aggregating, organizing, and analyzing publicly available documents concerning matters of significant public interest. Our work focuses on documented connections between institutions, individuals, and events as revealed through primary source materials.</p>
+        
+        <div class="quote-block">
+            "For there is nothing hidden that will not be disclosed, and nothing concealed that will not be known or brought out into the open." — Luke 8:17
+        </div>
+
+        <p>We believe that public access to organized, well-sourced information strengthens democratic accountability and enables citizens to understand the systems that shape their world.</p>
+    </section>
+
+    <!-- Nature -->
+    <section class="content-section reveal">
+        <h2>Nature of This Publication</h2>
+        <p>The Continuum Report constitutes <strong>protected editorial and journalistic activity</strong> under the First Amendment to the United States Constitution. This project engages in:</p>
+        
+        <ul>
+            <li>Aggregation of publicly available documents including court filings, depositions, government records, FOIA releases, and published investigative journalism</li>
+            <li>Organization and indexing of information already in the public domain</li>
+            <li>Analysis and commentary on matters of public concern</li>
+            <li>Synthesis of documented connections across multiple sources</li>
+        </ul>
+
+        <p>We do not conduct original investigations, surveillance, or evidence gathering. We organize and present what already exists in the public record.</p>
+    </section>
+
+    <!-- Source Standards -->
+    <section class="content-section reveal">
+        <h2>Source Standards</h2>
+        
+        <h3>Primary Sources</h3>
+        <p>We prioritize primary source documentation:</p>
+        <ul>
+            <li><strong>Court filings and judicial records</strong> — complaints, motions, depositions, exhibits, and rulings from federal and state proceedings</li>
+            <li><strong>Government documents</strong> — FOIA releases, congressional testimony, official reports, and declassified materials</li>
+            <li><strong>Corporate filings</strong> — SEC disclosures, incorporation records, and financial statements</li>
+            <li><strong>Official records</strong> — flight logs, property records, and other documented transactions</li>
+        </ul>
+
+        <h3>Secondary Sources</h3>
+        <p>When primary sources are unavailable or require context, we reference:</p>
+        <ul>
+            <li>Published investigative journalism from established outlets</li>
+            <li>Academic research and scholarly publications</li>
+            <li>Books by credentialed investigative authors</li>
+        </ul>
+
+        <h3>Attribution Standard</h3>
+        <p>Every factual claim in our publications is attributed to its source. We do not present sourced information as original fact. The source is always identified.</p>
+    </section>
+
+    <!-- Distinguishing Categories -->
+    <section class="content-section reveal">
+        <h2>Distinguishing Fact, Allegation, and Analysis</h2>
+        <p>We maintain clear distinctions between categories of information:</p>
+
+        <div class="highlight-box">
+            <p><strong>Documented Facts</strong> — Events, transactions, relationships, or statements that are established in official records and not in dispute. Example: "Flight logs show [Person] traveled on [Date]."</p>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>Allegations</strong> — Claims made by parties in legal proceedings, journalistic reports, or other sources that have not been proven or adjudicated. Example: "The plaintiff alleged in court filings that..." We report allegations as allegations, not as established truth.</p>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>Analysis & Commentary</strong> — Our editorial interpretation of patterns, connections, or implications derived from documented sources. This represents opinion and synthesis, not factual assertion. Example: "The documented pattern suggests..." or "This raises questions about..."</p>
+        </div>
+
+        <p><strong>Inclusion of any individual in our research does not imply guilt, wrongdoing, or criminal conduct.</strong> Many individuals appear in court documents as witnesses, associates, or tangentially mentioned parties. Presence in our database reflects presence in source documents, nothing more.</p>
+    </section>
+
+    <!-- AI Research -->
+    <section class="content-section reveal">
+        <h2>AI-Assisted Research</h2>
+        <p>The Continuum Report utilizes artificial intelligence tools to assist with:</p>
+        <ul>
+            <li>Organization and categorization of large document sets</li>
+            <li>Extraction of entities (names, dates, locations) from source materials</li>
+            <li>Synthesis of information across multiple documents</li>
+            <li>Drafting of analytical summaries for human review</li>
+        </ul>
+
+        <p><strong>AI Limitations Acknowledged:</strong> AI systems can make errors. All AI-assisted output is reviewed for accuracy against source materials. AI is used as a research tool, not as an original source of facts. Any specific factual claim in our publications traces back to a human-verifiable source document, not to AI generation.</p>
+    </section>
+
+    <!-- Public Figures -->
+    <section class="content-section reveal">
+        <h2>Public Figures Standard</h2>
+        <p>Much of our research concerns public figures — individuals who have assumed roles of public prominence through politics, business, or other public activity. Under established First Amendment jurisprudence (<em>New York Times Co. v. Sullivan</em>, 376 U.S. 254 (1964)), commentary on public figures regarding matters of public concern receives the highest level of constitutional protection.</p>
+
+        <p>We report on public figures' documented actions, associations, and statements as revealed in public records. We do not intrude into purely private matters unrelated to their public roles.</p>
+    </section>
+
+    <!-- Fair Report -->
+    <section class="content-section reveal">
+        <h2>Fair Report Privilege</h2>
+        <p>Under the fair report privilege recognized in American law, we may report on the contents of official proceedings and public records — including allegations made in court filings — without liability for the underlying truth of those allegations, provided our report is fair and accurate.</p>
+
+        <p>When we report that "Plaintiff alleged X in court filing Y," we are exercising this privilege. We are reporting what the document contains, which is verifiable fact, regardless of whether the allegation itself is true.</p>
+    </section>
+
+    <!-- Corrections -->
+    <section class="content-section reveal">
+        <h2>Corrections Policy</h2>
+        <p>We are committed to accuracy. If we have made a factual error — misquoted a document, misattributed a claim, or materially misrepresented source material — we will correct it promptly upon verification.</p>
+
+        <p><strong>To request a correction:</strong></p>
+        <ul>
+            <li>Email <a href="mailto:contact@thecontinuumreport.com">contact@thecontinuumreport.com</a></li>
+            <li>Identify the specific content at issue</li>
+            <li>Provide documentation supporting the correction</li>
+        </ul>
+
+        <p>We will review all correction requests in good faith and respond within a reasonable timeframe. Corrections will be noted transparently in the affected content.</p>
+
+        <p><strong>What does not warrant correction:</strong> Disagreement with our analysis, opinion, or editorial framing is not grounds for correction. We correct factual errors, not interpretive differences.</p>
+    </section>
+
+    <!-- Legal Notice -->
+    <section class="content-section reveal">
+        <h2>Legal Notice</h2>
+        
+        <div class="legal-notice">
+            <h3>First Amendment Protected Activity</h3>
+            <p>The Continuum Report is a publication engaged in journalism, research, and commentary on matters of public concern. This activity is protected by the First Amendment to the United States Constitution and applicable state constitutional provisions.</p>
+            
+            <p>This publication constitutes the aggregation and analysis of publicly available information. We make no accusations of criminal conduct. We report what public documents contain and offer analysis clearly labeled as such.</p>
+
+            <p><strong>Notice to potential litigants:</strong> Florida Statute § 768.295 provides for recovery of attorney's fees and costs by defendants in actions arising from the exercise of constitutional free speech rights in connection with a public issue.</p>
+
+            <p>All content © The Continuum Report. Content may be reproduced with attribution for non-commercial purposes.</p>
+        </div>
+    </section>
+
+    <!-- Independence -->
+    <section class="content-section reveal">
+        <h2>Independence</h2>
+        <p>The Continuum Report is an independent project. We are not affiliated with any government agency, political organization, or commercial interest related to our subject matter. We do not accept payment or consideration from subjects of our research. Our analysis is conducted without favor.</p>
+
+        <div class="effective-date">
+            <em>Effective Date: December 2024</em>
+            <em>Last Updated: December 2024</em>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">THE CONTINUUM REPORT</div>
+        <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/continuum.html">Continuum</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/legal.html">Standards</a></li>
+        </ul>
+        <p class="footer-dia">Another Node in the Decentralized Intelligence Agency</p>
+        <p class="footer-copyright">© 2024 The Continuum Report. All source documents remain property of their original sources.</p>
+    </footer>
+
+    <script>
+        // Reveal animations on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        
+        function revealOnScroll() {
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll(); // Check on load
+    </script>
+</body>
+</html>

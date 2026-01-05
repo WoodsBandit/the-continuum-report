@@ -1,0 +1,127 @@
+# The Continuum Report - Git Ignore
+
+# =============================================================================
+# SECRETS - NEVER COMMIT THESE
+# =============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*credentials*
+*secrets*
+
+# SMB/Network credentials
+.woodsden-creds
+*.creds
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# =============================================================================
+# IDE / EDITOR
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# LOGS AND CACHES
+# =============================================================================
+logs/
+*.log
+.cache/
+*.cache
+
+# Checkpoint files (contain processing state, not secrets)
+# checkpoints/
+
+# =============================================================================
+# OPERATING SYSTEM
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# PROJECT SPECIFIC
+# =============================================================================
+
+# Large data files (should be managed separately)
+# Uncomment if you don't want these in git:
+# database/paperless/
+# cache/timeline_events/
+# sources/*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Assessment documents (generated, not source)
+# Uncomment to exclude from git:
+# EXECUTIVE_SUMMARY.md
+# CONTINUUM_REPORT_INFRASTRUCTURE_ASSESSMENT.md
+# IMPLEMENTATION_ROADMAP.md
+# QUICK_START_GUIDE.md
+# ASSESSMENT_COMPLETE.txt
+
+# Added during initial commit - exclude large binary/cache files
+database/
+cache/
+config/ollama/models/
+*.seg
+*.index
+
+# Exclude document inbox (large PDFs)
+documents/inbox/
+documents/
+website/sources/

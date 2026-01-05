@@ -1,0 +1,35 @@
+# The Continuum Report - Webhook Listener Only
+# Runs on Tower (Unraid) to receive Paperless webhooks
+#
+# Build:
+#   docker build -f Dockerfile.webhook -t continuum-webhook .
+#
+# Run:
+#   docker run -d \
+#     --name continuum-webhook \
+#     --restart unless-stopped \
+#     -p 5000:5000 \
+#     -v /mnt/user/continuum:/continuum \
+#     continuum-webhook
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install minimal dependencies (just Flask for webhook)
+RUN pip install --no-cache-dir flask requests
+
+# Copy only webhook listener and lib
+COPY webhook_listener.py /app/
+COPY lib/ /app/lib/
+
+# Environment
+ENV PYTHONPATH=/app:/app/lib
+ENV CONTINUUM_BASE_DIR=/continuum
+
+EXPOSE 5000
+
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+    CMD curl -f http://localhost:5000/health || exit 1
+
+CMD ["python", "webhook_listener.py", "--host", "0.0.0.0", "--port", "5000"]

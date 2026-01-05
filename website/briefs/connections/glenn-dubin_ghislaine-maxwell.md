@@ -1,0 +1,89 @@
+# CONNECTION BRIEF: Glenn Dubin ↔ Ghislaine Maxwell
+
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> This document constitutes protected opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of undisputed fact.
+
+---
+
+## Relationship Classification
+
+| Attribute | Value |
+|-----------|-------|
+| **Type** | Social (through Eva Dubin) |
+| **Evidence Level** | Sworn deposition testimony |
+| **Direction** | Bidirectional |
+| **Status** | Historical (Maxwell convicted 2021) |
+
+---
+
+## The Documented Record
+
+**The following contains only direct quotes and factual citations. No interpretation.**
+
+### Source: ECF 1327-21 — Maxwell Deposition on Dubin Relationship
+
+> "Q. Do you know Glenn Dubin?
+> A. I do.
+> Q. What is your relationship with Glenn Dubin?
+> MR. PAGLIUCA: Object to the form.
+> A. What do you mean what is my relationship.
+> Q. Are you friendly with him, how do you know him?
+> A. He is the husband of Eva Dubin.
+> Q. Is Eva Dubin one of your friends?
+> A. Yes.
+> Q. Did you ever send Virginia to Glenn's condo at the Breakers to give him a..."
+>
+> — [ECF Doc. 1327-21](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf), filed 01/05/24, pp. 269:12-25, 270:1-3
+
+### Source: ECF 1320-3 — Maxwell's Denial
+
+> "Q. Did you ever instruct Johanna to massage Glenn Dubin?
+> A. I don't believe -- I have no recollection of it."
+>
+> — [ECF Doc. 1320-3](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-3.pdf), filed 01/03/24, pp. 61:14-19
+
+---
+
+## Editorial Analysis
+
+**The following represents the opinions and interpretations of The Continuum Report.**
+
+The Dubin-Maxwell connection is the most clearly documented of the Dubin relationships in this record:
+
+**Friendship through Eva Dubin:** Maxwell acknowledged knowing Glenn Dubin as "the husband of Eva Dubin" and confirmed Eva Dubin is her friend. This establishes a social connection through Maxwell's friendship with Glenn Dubin's wife.
+
+**Denial of massage instructions:** When asked if she instructed anyone to massage Glenn Dubin, Maxwell stated she had "no recollection of it." While "no recollection" is not an absolute denial, it is the only substantive response in the record and is exculpatory.
+
+**Attorney questions vs. evidence:** The questions posed by counsel (regarding sending individuals to the Breakers, instructing massages) reflect areas of inquiry but do not themselves constitute evidence that such events occurred.
+
+In our assessment, the documentary record establishes a social connection between Maxwell and the Dubin family through friendship, with attorney questions about potential misconduct but no testimony establishing such misconduct occurred.
+
+---
+
+## Alternative Interpretations
+
+1. **Social friendship documented:** Maxwell's acknowledgment of friendship with Eva Dubin is the most substantive evidence—it establishes social connection without implying wrongdoing.
+
+2. **Maxwell's denial should be credited:** Her statement of "no recollection" regarding massage instructions is the only evidence on that point and is exculpatory.
+
+3. **Attorney questions are not allegations:** The questions posed reflect litigation strategy, not established facts.
+
+4. **New York social circles:** Maxwell moved in New York philanthropic and social circles where the Dubins were also prominent, explaining social connection.
+
+5. **Glenn Dubin never charged:** Despite investigation and publicity, no charges have been filed against Glenn Dubin.
+
+---
+
+## Source Documents
+
+| ECF | Description | Link |
+|-----|-------------|------|
+| 1320-3 | Maxwell Deposition Excerpts | [PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-3.pdf) |
+| 1327-21 | Maxwell Deposition Excerpts | [PDF](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-21.pdf) |
+
+---
+
+*Generated: 2025-12-23*
+*The Continuum Report — Another Node in the Decentralized Intelligence Agency*

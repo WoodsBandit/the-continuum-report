@@ -1,0 +1,1047 @@
+{
+  "generated": "2025-12-23T07:59:36.228877Z",
+  "count": 131,
+  "connections": [
+    {
+      "source": "alan-dershowitz",
+      "target": "virginia-giuffre",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1328-19",
+        "ECF 1331-12",
+        "ECF 1320-9",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "bill-clinton",
+      "target": "virginia-giuffre",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1328-44",
+        "ECF 1320-28",
+        "ECF 1331-18",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "deutsche-bank",
+      "target": "jeffrey-epstein",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "NYSDFS Consent Order 2020"
+      ]
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "virginia-giuffre",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1320-10",
+        "ECF 1328-12",
+        "ECF 1320-28",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "jeffrey-epstein",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1330-1",
+        "ECF 1325-3",
+        "ECF 1331-4",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-12",
+        "ECF 1320-6",
+        "ECF 1327-12",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "jeffrey-epstein",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-12",
+        "ECF 1320-6",
+        "ECF 1327-12",
+        "ECF 1331-32"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "prince-andrew",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-12",
+        "ECF 1320-6",
+        "ECF 1327-12",
+        "ECF 1327-14"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "virginia-giuffre",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-12",
+        "ECF 1320-6",
+        "ECF 1327-12",
+        "ECF 1331-19"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jpmorgan-epstein-case",
+      "target": "jeffrey-epstein",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "USVI Complaint"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "jpmorgan-epstein-case",
+      "target": "jeffrey-epstein",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "USVI Complaint"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "lesley-groff",
+      "target": "sarah-kellen",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-31",
+        "ECF 1328-34",
+        "ECF 1331-34",
+        "ECF 1327-25",
+        "ECF 1331-13"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "prince-andrew",
+      "target": "virginia-giuffre",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-14",
+        "ECF 1327-12",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "robert-maxwell",
+      "target": "ghislaine-maxwell",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "Public records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "sarah-kellen",
+      "target": "virginia-giuffre",
+      "strength": 100,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-25",
+        "ECF 1331-13",
+        "ECF 1327-21",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "johanna-sjoberg",
+      "target": "jeffrey-epstein",
+      "strength": 95,
+      "type": "documented",
+      "evidence": [
+        "Maxwell trial testimony"
+      ]
+    },
+    {
+      "source": "juan-alessi",
+      "target": "jeffrey-epstein",
+      "strength": 95,
+      "type": "documented",
+      "evidence": [
+        "Maxwell trial testimony",
+        "Depositions"
+      ]
+    },
+    {
+      "source": "les-wexner",
+      "target": "jeffrey-epstein",
+      "strength": 95,
+      "type": "documented",
+      "evidence": [
+        "Financial records",
+        "Power of attorney"
+      ]
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "sarah-kellen",
+      "strength": 94,
+      "type": "documented",
+      "evidence": [
+        "ECF 1320-10",
+        "ECF 1328-12",
+        "ECF 1320-28",
+        "ECF 1327-25",
+        "ECF 1331-13"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "prince-andrew",
+      "target": "sarah-kellen",
+      "strength": 94,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-14",
+        "ECF 1327-12",
+        "ECF 1327-25",
+        "ECF 1331-13"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jean-luc-brunel",
+      "target": "jeffrey-epstein",
+      "strength": 90,
+      "type": "documented",
+      "evidence": [
+        "Court records",
+        "French indictment"
+      ]
+    },
+    {
+      "source": "johanna-sjoberg",
+      "target": "ghislaine-maxwell",
+      "strength": 90,
+      "type": "documented",
+      "evidence": [
+        "Maxwell trial testimony"
+      ]
+    },
+    {
+      "source": "juan-alessi",
+      "target": "ghislaine-maxwell",
+      "strength": 90,
+      "type": "documented",
+      "evidence": [
+        "Maxwell trial testimony"
+      ]
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "jeffrey-epstein",
+      "strength": 89,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-25",
+        "ECF 1331-4",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "virginia-giuffre",
+      "strength": 89,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-32",
+        "ECF 1331-12",
+        "ECF 1331-11",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jean-luc-brunel",
+      "target": "ghislaine-maxwell",
+      "strength": 80,
+      "type": "documented",
+      "evidence": [
+        "Court records"
+      ]
+    },
+    {
+      "source": "jpmorgan-epstein-case",
+      "target": "deutsche-bank",
+      "strength": 70,
+      "type": "documented",
+      "evidence": [
+        "USVI Complaint"
+      ]
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1328-19",
+        "ECF 1331-12",
+        "ECF 1320-9",
+        "ECF 1331-32"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "bill-clinton",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1328-44",
+        "ECF 1320-28",
+        "ECF 1331-18",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "bill-clinton",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1328-44",
+        "ECF 1320-28",
+        "ECF 1331-18",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "donald-trump",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1328-42",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1320-10",
+        "ECF 1328-12",
+        "ECF 1320-28",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1330-1",
+        "ECF 1325-3",
+        "ECF 1331-4",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "sarah-kellen",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-25",
+        "ECF 1331-13",
+        "ECF 1327-21",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "glenn-dubin",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1320-3",
+        "ECF 1328-44",
+        "ECF 1327-21",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "nadia-marcinkova",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-32",
+        "ECF 1331-12",
+        "ECF 1331-13",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "sarah-kellen",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-25",
+        "ECF 1331-13",
+        "ECF 1327-21",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "terramar-project",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1330-5",
+        "ECF 1330-21",
+        "ECF 1330-9",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "lesley-groff",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-31",
+        "ECF 1328-34",
+        "ECF 1331-34",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "nadia-marcinkova",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-32",
+        "ECF 1331-12",
+        "ECF 1331-13"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "prince-andrew",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-14",
+        "ECF 1327-12",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "sarah-kellen",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-25",
+        "ECF 1331-13",
+        "ECF 1327-21",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "jeffrey-epstein",
+      "target": "terramar-project",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1330-5",
+        "ECF 1330-21",
+        "ECF 1330-9",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "nadia-marcinkova",
+      "target": "virginia-giuffre",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-32",
+        "ECF 1331-12",
+        "ECF 1331-13",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "nadia-marcinkova",
+      "strength": 48,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-32",
+        "ECF 1331-12",
+        "ECF 1331-13",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "ghislaine-maxwell",
+      "target": "lesley-groff",
+      "strength": 48,
+      "type": "documented",
+      "evidence": [
+        "ECF 1331-31",
+        "ECF 1328-34",
+        "ECF 1331-34",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "prince-andrew",
+      "strength": 48,
+      "type": "documented",
+      "evidence": [
+        "ECF 1327-14",
+        "ECF 1327-12",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "bill-clinton",
+      "target": "terramar-project",
+      "strength": 44,
+      "type": "documented",
+      "evidence": [
+        "ECF 1330-5",
+        "ECF 1330-21",
+        "ECF 1330-9",
+        "ECF 1328-44",
+        "ECF 1320-28"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "donald-trump",
+      "target": "ghislaine-maxwell",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1328-42",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "donald-trump",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1328-42",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "ghislaine-maxwell",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1320-10",
+        "ECF 1328-12",
+        "ECF 1320-28",
+        "ECF 1331-12",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "lesley-groff",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1331-31",
+        "ECF 1328-34",
+        "ECF 1331-34",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "terramar-project",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1330-5",
+        "ECF 1330-21",
+        "ECF 1330-9",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "les-wexner",
+      "target": "ghislaine-maxwell",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "Secondary sources"
+      ]
+    },
+    {
+      "source": "terramar-project",
+      "target": "virginia-giuffre",
+      "strength": 40,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1330-5",
+        "ECF 1330-21",
+        "ECF 1330-9",
+        "ECF 1331-19",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "bill-clinton",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 33,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1328-44",
+        "ECF 1320-28",
+        "ECF 1331-18",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 33,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1320-10",
+        "ECF 1328-12",
+        "ECF 1320-28",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "glenn-dubin",
+      "strength": 33,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1320-3",
+        "ECF 1328-44",
+        "ECF 1327-21",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "nadia-marcinkova",
+      "strength": 33,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1331-32",
+        "ECF 1331-12",
+        "ECF 1331-13",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "sarah-kellen",
+      "strength": 33,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1327-25",
+        "ECF 1331-13",
+        "ECF 1327-21",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "epstein-florida-case",
+      "strength": 32,
+      "type": "interpreted",
+      "evidence": [
+        "ECF 1328-19",
+        "ECF 1331-12",
+        "ECF 1320-9",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "ghislaine-maxwell",
+      "strength": 31,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1328-19",
+        "ECF 1331-12",
+        "ECF 1320-9",
+        "ECF 1320-6"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 31,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1330-1",
+        "ECF 1325-3",
+        "ECF 1331-4",
+        "ECF 1327-25"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "giuffre-v-maxwell-case",
+      "target": "lesley-groff",
+      "strength": 31,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1331-31",
+        "ECF 1328-34",
+        "ECF 1331-34",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "alan-dershowitz",
+      "target": "giuffre-v-maxwell-case",
+      "strength": 29,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1328-19",
+        "ECF 1331-12",
+        "ECF 1320-9",
+        "ECF 1327-25",
+        "ECF 1331-4"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "bill-clinton",
+      "target": "epstein-florida-case",
+      "strength": 27,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1328-44",
+        "ECF 1320-28",
+        "ECF 1331-18",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "donald-trump",
+      "target": "epstein-florida-case",
+      "strength": 27,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1328-42",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "emmy-taylor",
+      "target": "epstein-florida-case",
+      "strength": 27,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1320-10",
+        "ECF 1328-12",
+        "ECF 1320-28",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "glenn-dubin",
+      "strength": 27,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1320-3",
+        "ECF 1328-44",
+        "ECF 1327-21",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "epstein-florida-case",
+      "target": "terramar-project",
+      "strength": 27,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1330-5",
+        "ECF 1330-21",
+        "ECF 1330-9",
+        "ECF 1330-1",
+        "ECF 1325-3"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": false,
+      "target_mentions_source": true
+    },
+    {
+      "source": "glenn-dubin",
+      "target": "jeffrey-epstein",
+      "strength": 27,
+      "type": "referenced",
+      "evidence": [
+        "ECF 1320-3",
+        "ECF 1328-44",
+        "ECF 1327-21",
+        "ECF 1331-32",
+        "ECF 1331-12"
+      ],
+      "bidirectional": false,
+      "source_mentions_target": true,
+      "target_mentions_source": false
+    }
+  ],
+  "merge_info": {
+    "merged_at": "2025-12-23T07:59:36.228930Z",
+    "dev_count": 95,
+    "website_count": 121,
+    "website_only_added": 36,
+    "canonical_source": "/continuum/data/connections.json"
+  }
+}

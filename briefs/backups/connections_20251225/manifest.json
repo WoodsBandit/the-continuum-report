@@ -1,0 +1,99 @@
+{
+  "generated_at": "2025-12-20T22:26:08.430472",
+  "total_entities": 15,
+  "briefs_generated": 15,
+  "errors": 0,
+  "briefs": [
+    {
+      "entity_id": "alan-dershowitz",
+      "entity_name": "Alan Dershowitz",
+      "connection_count": 6,
+      "file_path": "/continuum/briefs/connections/alan-dershowitz_connections.md"
+    },
+    {
+      "entity_id": "bill-clinton",
+      "entity_name": "Bill Clinton",
+      "connection_count": 6,
+      "file_path": "/continuum/briefs/connections/bill-clinton_connections.md"
+    },
+    {
+      "entity_id": "donald-trump",
+      "entity_name": "Donald Trump",
+      "connection_count": 5,
+      "file_path": "/continuum/briefs/connections/donald-trump_connections.md"
+    },
+    {
+      "entity_id": "emmy-taylor",
+      "entity_name": "Emmy Taylor",
+      "connection_count": 10,
+      "file_path": "/continuum/briefs/connections/emmy-taylor_connections.md"
+    },
+    {
+      "entity_id": "epstein-florida-case",
+      "entity_name": "Epstein Florida Case",
+      "connection_count": 4,
+      "file_path": "/continuum/briefs/connections/epstein-florida-case_connections.md"
+    },
+    {
+      "entity_id": "ghislaine-maxwell",
+      "entity_name": "Ghislaine Maxwell",
+      "connection_count": 4,
+      "file_path": "/continuum/briefs/connections/ghislaine-maxwell_connections.md"
+    },
+    {
+      "entity_id": "giuffre-v-maxwell-case",
+      "entity_name": "Giuffre v. Maxwell Civil Case",
+      "connection_count": 3,
+      "file_path": "/continuum/briefs/connections/giuffre-v-maxwell-case_connections.md"
+    },
+    {
+      "entity_id": "glenn-dubin",
+      "entity_name": "Glenn Dubin",
+      "connection_count": 6,
+      "file_path": "/continuum/briefs/connections/glenn-dubin_connections.md"
+    },
+    {
+      "entity_id": "jeffrey-epstein",
+      "entity_name": "Jeffrey Epstein",
+      "connection_count": 4,
+      "file_path": "/continuum/briefs/connections/jeffrey-epstein_connections.md"
+    },
+    {
+      "entity_id": "lesley-groff",
+      "entity_name": "Lesley Groff",
+      "connection_count": 7,
+      "file_path": "/continuum/briefs/connections/lesley-groff_connections.md"
+    },
+    {
+      "entity_id": "nadia-marcinkova",
+      "entity_name": "Nadia Marcinkova",
+      "connection_count": 8,
+      "file_path": "/continuum/briefs/connections/nadia-marcinkova_connections.md"
+    },
+    {
+      "entity_id": "prince-andrew",
+      "entity_name": "Prince Andrew",
+      "connection_count": 9,
+      "file_path": "/continuum/briefs/connections/prince-andrew_connections.md"
+    },
+    {
+      "entity_id": "sarah-kellen",
+      "entity_name": "Sarah Kellen",
+      "connection_count": 12,
+      "file_path": "/continuum/briefs/connections/sarah-kellen_connections.md"
+    },
+    {
+      "entity_id": "terramar-project",
+      "entity_name": "The Terramar Project",
+      "connection_count": 6,
+      "file_path": "/continuum/briefs/connections/terramar-project_connections.md"
+    },
+    {
+      "entity_id": "virginia-giuffre",
+      "entity_name": "Virginia Giuffre",
+      "connection_count": 10,
+      "file_path": "/continuum/briefs/connections/virginia-giuffre_connections.md"
+    }
+  ],
+  "error_details": []
+}
