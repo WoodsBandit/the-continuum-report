@@ -134,7 +134,7 @@ jobs:
 
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: test-results-py${{ matrix.python-version }}
           path: test-results-py${{ matrix.python-version }}.xml
@@ -142,7 +142,7 @@ jobs:
 
       - name: Upload coverage HTML report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: coverage-report-py${{ matrix.python-version }}
           path: htmlcov/
@@ -175,7 +175,7 @@ jobs:
         run: bandit -r scripts/ -f json -o bandit-report.json || true
 
       - name: Upload Bandit report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: bandit-security-report
           path: bandit-report.json
