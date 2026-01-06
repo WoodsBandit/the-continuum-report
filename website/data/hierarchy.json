@@ -109,14 +109,16 @@
       "level": 2,
       "parent": "financial",
       "description": "Banking relationships, regulatory actions, and financial infrastructure documentation",
-      "entityCount": 3,
+      "entityCount": 5,
       "connectionCount": 6,
-      "status": "Active - 3 analytical briefs",
+      "status": "Active - 5 analytical briefs",
       "primaryCase": "USVI v. JPMorgan (2022-2023); NYSDFS Consent Order (2020)",
       "entities": [
         "jpmorgan-epstein-case",
         "deutsche-bank",
-        "intelligence-financial-nexus"
+        "intelligence-financial-nexus",
+        "jpmorgan-chase-bank",
+        "us-treasury"
       ],
       "color": "#4ade80"
     },
@@ -126,13 +128,14 @@
       "level": 2,
       "parent": "political",
       "description": "Roy Cohn network, historical intelligence-crime nexus, political influence operations",
-      "entityCount": 2,
+      "entityCount": 3,
       "connectionCount": 3,
-      "status": "Active - 2 analytical briefs",
+      "status": "Active - 3 analytical briefs",
       "primaryCase": "Historical analysis based on secondary sources",
       "entities": [
         "roy-cohn",
-        "meyer-lansky"
+        "meyer-lansky",
+        "san-francisco"
       ],
       "color": "#60a5fa"
     },
@@ -246,6 +249,9 @@
     "intelligence-financial-nexus": "financial-network",
     "roy-cohn": "political-network",
     "meyer-lansky": "political-network",
+    "san-francisco": "political-network",
+    "jpmorgan-chase-bank": "financial-network",
+    "us-treasury": "financial-network",
     "keith-raniere": "nxivm-network",
     "allison-mack": "nxivm-network",
     "clare-bronfman": "nxivm-network",
