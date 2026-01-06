@@ -4281,7 +4281,7 @@
 
                 // Get entities from Graph.nodes (loaded from data)
                 // FILTER: Only show entities that have approved briefs
-                const allEntities = (Graph.nodes || []).filter(e => e.brief);
+                const allEntities = (Graph.nodes || []).filter(e => e.brief_file);
 
                 // Category filter logic - checks tags, names, and summaries
                 const categoryFilters = {
