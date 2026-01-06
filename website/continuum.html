@@ -1653,6 +1653,14 @@
             cursor: pointer;
             transition: all 0.3s ease;
         }
+        /* Fix for D3 inline opacity overriding animations */
+        .layer-node.macro-category-box,
+        .layer-node.continuum-node {
+            opacity: 1 !important;
+        }
+        .macro-connection-line {
+            opacity: 0.6 !important;
+        }
         .layer-node:hover {
             filter: brightness(1.2);
         }
