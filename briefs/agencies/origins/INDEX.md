@@ -2,7 +2,7 @@
 
 **Created:** January 7, 2026
 **Last Updated:** January 8, 2026
-**Status:** 26 of 83 agencies completed (31%)
+**Status:** 51 of 83 agencies completed (61%)
 
 ---
 
@@ -56,19 +56,64 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 | Education | Shirley Hufstedler, Jimmy Carter | 1979 | Unknown | Democratic/Liberal | `education-origin.md` |
 | VA | Edward Derwinski, George H.W. Bush | 1989 | Polish Catholic | Republican | `va-origin.md` |
 
+### Batch 6: Intelligence Community
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| NSA | Harry Truman | 1952 | Baptist | Democratic | `nsa-origin.md` |
+| DIA | Robert McNamara, Joseph Carroll | 1961 | Presbyterian (McNamara), Catholic (Carroll) | Democratic/Bipartisan | `dia-origin.md` |
+| NRO | Eisenhower, McNamara, Dulles | 1961 | Presbyterian (Eisenhower) | Republican/Bipartisan | `nro-origin.md` |
+| NGA | William Perry, John Deutch | 1996 | Jewish (Deutch) | Democratic | `nga-origin.md` |
+| ODNI | George W. Bush, John Negroponte | 2005 | Methodist (Bush), Catholic (Negroponte) | Republican | `odni-origin.md` |
+
+### Batch 7: Law Enforcement
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| DEA | Nixon, John Bartels | 1973 | Quaker (Nixon) | Republican | `dea-origin.md` |
+| ATF | Rex Davis | 1972 | Unknown | Career official | `atf-origin.md` |
+| US Marshals | George Washington | 1789 | Episcopalian | Founding Era | `marshals-origin.md` |
+| ICE | George W. Bush, Michael Garcia | 2003 | Methodist (Bush) | Republican | `ice-origin.md` |
+| CBP | George W. Bush, Robert Bonner | 2003 | Methodist (Bush) | Republican | `cbp-origin.md` |
+| Secret Service | Lincoln, William Wood | 1865 | Lincoln (no formal church) | Republican | `secret-service-origin.md` |
+| Coast Guard | Alexander Hamilton | 1790 | Episcopalian | Federalist | `coast-guard-origin.md` |
+
+### Batch 8: Regulatory Agencies
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| FTC | Woodrow Wilson, Joseph Davies | 1914 | Presbyterian (Wilson) | Democratic/Progressive | `ftc-origin.md` |
+| FCC | FDR | 1934 | Episcopalian | Democratic | `fcc-origin.md` |
+| FDIC | FDR, Carter Glass, Henry Steagall | 1933 | Episcopalian (FDR, Glass) | Democratic | `fdic-origin.md` |
+| NLRB | Robert Wagner, FDR | 1935 | Catholic (Wagner), Episcopalian (FDR) | Democratic | `nlrb-origin.md` |
+| EEOC | LBJ, FDR Jr. | 1965 | Disciples of Christ (LBJ) | Democratic | `eeoc-origin.md` |
+| OSHA | Nixon, Williams, Steiger | 1970 | Quaker (Nixon), Catholic (Williams) | Bipartisan | `osha-origin.md` |
+| CFPB | Obama, Elizabeth Warren | 2010 | Methodist (Warren) | Democratic | `cfpb-origin.md` |
+| NRC | Gerald Ford | 1975 | Episcopalian | Republican | `nrc-origin.md` |
+
+### Batch 9: Sub-Agencies
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| FDA | Theodore Roosevelt, Harvey Wiley | 1906 | Methodist (Wiley) | Republican/Progressive | `fda-origin.md` |
+| CDC | Joseph Mountin | 1946 | Unknown | Career official | `cdc-origin.md` |
+| FAA | Eisenhower, Elwood Quesada | 1958 | Presbyterian (Eisenhower), Catholic (Quesada) | Republican | `faa-origin.md` |
+| FEMA | Jimmy Carter | 1979 | Baptist | Democratic | `fema-origin.md` |
+| NPS | Woodrow Wilson, Stephen Mather | 1916 | Presbyterian (Wilson), Congregationalist (Mather) | Bipartisan | `nps-origin.md` |
+
 ---
 
 ## KEY FINDINGS
 
 ### Religious Backgrounds of Agency Founders
-- **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps), Derwinski (VA)
-- **Presbyterian:** Woodrow Wilson (Fed), Allen Dulles (CIA), Thomas Ewing Sr. (Interior - converted to Catholic)
+- **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps), Derwinski (VA), Joseph Carroll (DIA), John Negroponte (ODNI), Elwood Quesada (FAA), Robert Wagner (NLRB), Harrison Williams (OSHA)
+- **Presbyterian:** Woodrow Wilson (Fed/FTC/NPS), Allen Dulles (CIA), Thomas Ewing Sr. (Interior), Eisenhower (NRO/FAA), McNamara (DIA)
+- **Methodist:** George W. Bush (ICE/CBP/ODNI), Elizabeth Warren (CFPB), Harvey Wiley (FDA)
+- **Episcopalian:** Frances Perkins (SSA), Oveta Culp Hobby (HHS), FDR (FCC/FDIC/NLRB), Carter Glass (FDIC), Washington (Marshals), Hamilton (Coast Guard), Gerald Ford (NRC)
+- **Baptist:** Harry Truman (NSA), Jimmy Carter (FEMA)
+- **Quaker:** Richard Nixon (DEA/OSHA)
 - **Deist:** Thomas Jefferson (State), Benjamin Franklin (USPS)
-- **Episcopalian:** Frances Perkins (SSA), Oveta Culp Hobby (HHS)
-- **Jewish:** Paul Warburg (Fed), Joseph Lieberman (DHS)
-- **Social Gospel/Humanist:** Arthur Morgan (TVA)
-- **Lapsed Catholic:** James Forrestal (Defense) - raised strict Catholic but drifted away
-- **Unknown/Not Documented:** Many others including Hamilton, Lincoln officials, Carter appointees
+- **Jewish:** Paul Warburg (Fed), Joseph Lieberman (DHS), John Deutch (NGA)
+- **Congregationalist:** Stephen Mather (NPS)
+- **Disciples of Christ:** LBJ (EEOC)
+- **Lapsed/Unaffiliated:** James Forrestal (Defense), Lincoln (Secret Service/IRS)
+- **Unknown/Not Documented:** Many others including career officials
 
 ### Political Patterns
 - **Progressive Republicans:** Theodore Roosevelt (FBI, Commerce), George Norris (TVA), William Ruckelshaus (EPA)
@@ -94,21 +139,15 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 
 ---
 
-## PENDING ORIGIN STORIES (57 agencies)
+## PENDING ORIGIN STORIES (32 agencies)
 
-### Intelligence Community
-- NSA, DIA, NRO, NGA, ODNI
+### Regulatory Agencies (9 remaining)
+- CFTC, FEC, CPSC, NTSB, OCC, FHFA, NCUA, FCA, PBGC
 
-### Law Enforcement
-- DEA, ATF, US Marshals, ICE, CBP, Secret Service, Coast Guard
+### Sub-Agencies (10 remaining)
+- CMS, NIH, BLM, FWS, Forest Service, BIA, NOAA, Census, USPTO
 
-### Regulatory Agencies
-- FTC, FCC, CFPB, NRC, CFTC, NLRB, EEOC, FEC, CPSC, NTSB, FDIC, OCC, FHFA, NCUA, FCA, PBGC, OSHA
-
-### Sub-Agencies
-- FDA, CDC, CMS, NIH, FAA, BLM, NPS, FWS, Forest Service, BIA, NOAA, FEMA, Census, USPTO
-
-### Others
+### Others (13 remaining)
 - GSA, OPM, NSF, USAID, OMB, USTR, Export-Import Bank, Amtrak, NARA, Smithsonian, FinCEN, Bureau of Prisons, CISA
 
 ---
