@@ -1,7 +1,7 @@
 {
-  "generated": "2026-01-09T02:25:06.632272+00:00",
-  "count": 70,
-  "source": "filtered to connections with existing brief files",
+  "generated": "2026-01-09T02:39:08.788074+00:00",
+  "count": 99,
+  "source": "updated with new connection briefs",
   "connections": [
     {
       "source": "alan-dershowitz",
@@ -1094,6 +1094,412 @@
       "target_mentions_source": false,
       "summary": "Regarding the nature of the connection: In our assessment, the connection between the Epstein Florida Case and Glenn Dubin is peripheral and documentary rather than substantive. Dubin's name appears in the broader context of Epstein-related discovery but not in the specific CVRA litigation regarding the non-prosecution agreement.",
       "brief_file": "epstein-florida-case_glenn-dubin.md"
+    },
+    {
+      "source": "clare-bronfman",
+      "target": "keith-raniere",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Court records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Clare Bronfman's financial backing of Keith Raniere and NXIVM documented in federal court proceedings.",
+      "brief_file": "clare-bronfman_keith-raniere.md"
+    },
+    {
+      "source": "clare-bronfman",
+      "target": "nxivm-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Court records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Clare Bronfman as defendant in NXIVM federal prosecution, sentenced to 81 months.",
+      "brief_file": "clare-bronfman_nxivm-case.md"
+    },
+    {
+      "source": "allison-mack",
+      "target": "keith-raniere",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Court records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Allison Mack's role as DOS first-line master under Keith Raniere documented in federal prosecution.",
+      "brief_file": "allison-mack_keith-raniere.md"
+    },
+    {
+      "source": "allison-mack",
+      "target": "nxivm-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Court records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Allison Mack as defendant in NXIVM case, pleaded guilty to racketeering, sentenced to 3 years.",
+      "brief_file": "allison-mack_nxivm-case.md"
+    },
+    {
+      "source": "allison-mack",
+      "target": "clare-bronfman",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Court records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Co-defendants in NXIVM federal prosecution with differing sentences reflecting cooperation levels.",
+      "brief_file": "allison-mack_clare-bronfman.md"
+    },
+    {
+      "source": "keith-raniere",
+      "target": "nxivm-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Federal court records"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Keith Raniere as primary defendant, convicted on all counts, sentenced to 120 years.",
+      "brief_file": "keith-raniere_nxivm-case.md"
+    },
+    {
+      "source": "iran-contra-case",
+      "target": "intelligence-financial-nexus",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Congressional Report"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Iran-Contra as foundational example of intelligence-financial nexus with 'The Enterprise' private network.",
+      "brief_file": "iran-contra-case_intelligence-financial-nexus.md"
+    },
+    {
+      "source": "iran-contra-case",
+      "target": "promis-inslaw-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Secondary analysis"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Parallel scandals during Reagan administration with temporal and institutional overlap.",
+      "brief_file": "iran-contra-case_promis-inslaw-case.md"
+    },
+    {
+      "source": "iran-contra-case",
+      "target": "bcci",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Secondary analysis"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "BCCI facilitated financial transactions connected to Iran-Contra operations per Kerry Committee.",
+      "brief_file": "bcci_iran-contra-case.md"
+    },
+    {
+      "source": "oliver-north",
+      "target": "iran-contra-case",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Congressional Report"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Oliver North as central operative coordinating Iran-Contra covert operations from NSC staff.",
+      "brief_file": "oliver-north_iran-contra-case.md"
+    },
+    {
+      "source": "oliver-north",
+      "target": "william-casey",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Congressional Report"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Casey-North relationship as strategic-operational axis of Iran-Contra enterprise.",
+      "brief_file": "oliver-north_william-casey.md"
+    },
+    {
+      "source": "william-casey",
+      "target": "iran-contra-case",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Congressional Report"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "CIA Director Casey's central role in Iran-Contra operations per congressional investigation.",
+      "brief_file": "william-casey_iran-contra-case.md"
+    },
+    {
+      "source": "william-casey",
+      "target": "bcci",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Senate BCCI Report"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "CIA-BCCI banking relationships documented during Casey's tenure per Kerry Committee.",
+      "brief_file": "william-casey_bcci.md"
+    },
+    {
+      "source": "william-casey",
+      "target": "intelligence-financial-nexus",
+      "strength": 50,
+      "type": "documented",
+      "evidence": [
+        "Appointment record"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Casey's Wall Street background shaped sophisticated financial architecture for covert operations.",
+      "brief_file": "william-casey_intelligence-financial-nexus.md"
+    },
+    {
+      "source": "mossad",
+      "target": "robert-maxwell",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Published accounts"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Alleged Mossad connection to Robert Maxwell examined in congressional investigation and published accounts.",
+      "brief_file": "mossad_robert-maxwell.md"
+    },
+    {
+      "source": "mossad",
+      "target": "promis-inslaw-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Congressional testimony"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Allegations of Mossad involvement in PROMIS distribution examined by House Judiciary Committee.",
+      "brief_file": "mossad_promis-inslaw-case.md"
+    },
+    {
+      "source": "mossad",
+      "target": "intelligence-financial-nexus",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "General knowledge"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Alleged intersection of Mossad operations with financial networks per congressional testimony.",
+      "brief_file": "mossad_intelligence-financial-nexus.md"
+    },
+    {
+      "source": "bcci",
+      "target": "intelligence-financial-nexus",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Senate Report"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "BCCI exemplifies intelligence-financial nexus with documented multi-service relationships.",
+      "brief_file": "bcci_intelligence-financial-nexus.md"
+    },
+    {
+      "source": "bcci",
+      "target": "promis-inslaw-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Secondary analysis"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Parallel 1992 congressional investigations examining intelligence community connections.",
+      "brief_file": "bcci_promis-inslaw-case.md"
+    },
+    {
+      "source": "cia",
+      "target": "bcci",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Senate Report (1992)"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "CIA utilized BCCI while possessing knowledge of criminal activities per Senate investigation.",
+      "brief_file": "cia_bcci.md"
+    },
+    {
+      "source": "cia",
+      "target": "iran-contra-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Congressional Report (1987)"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "CIA Director Casey played central role in Iran-Contra operations per congressional report.",
+      "brief_file": "cia_iran-contra-case.md"
+    },
+    {
+      "source": "cia",
+      "target": "promis-inslaw-case",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Congressional testimony"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Allegations of CIA involvement in PROMIS distribution examined but not definitively resolved.",
+      "brief_file": "cia_promis-inslaw-case.md"
+    },
+    {
+      "source": "cia",
+      "target": "mossad",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Multiple sources"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Publicly acknowledged intelligence partnership subject to congressional oversight.",
+      "brief_file": "cia_mossad.md"
+    },
+    {
+      "source": "promis-inslaw-case",
+      "target": "robert-maxwell",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Secondary sources"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Alleged Robert Maxwell role in PROMIS distribution examined in congressional testimony.",
+      "brief_file": "promis-inslaw-case_robert-maxwell.md"
+    },
+    {
+      "source": "promis-inslaw-case",
+      "target": "intelligence-financial-nexus",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Congressional testimony"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "PROMIS case illustrates intelligence-financial interface with private intermediaries.",
+      "brief_file": "promis-inslaw-case_intelligence-financial-nexus.md"
+    },
+    {
+      "source": "promis-inslaw-case",
+      "target": "ghislaine-maxwell",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Inference"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Indirect familial connection through Robert Maxwell; Ghislaine not in PROMIS documentation.",
+      "brief_file": "promis-inslaw-case_ghislaine-maxwell.md"
+    },
+    {
+      "source": "roy-cohn",
+      "target": "donald-trump",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Documented"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Mentor-protege and attorney-client relationship from 1973-1986 shaping Trump's tactics.",
+      "brief_file": "roy-cohn_donald-trump.md"
+    },
+    {
+      "source": "roy-cohn",
+      "target": "meyer-lansky",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Secondary sources"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Overlapping social-criminal networks in mid-20th century New York.",
+      "brief_file": "roy-cohn_meyer-lansky.md"
+    },
+    {
+      "source": "roy-cohn",
+      "target": "jeffrey-epstein",
+      "strength": 50,
+      "type": "referenced",
+      "evidence": [
+        "Analytical inference"
+      ],
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true,
+      "summary": "Indirect theoretical network connection through Trump; temporal gap makes direct contact implausible.",
+      "brief_file": "roy-cohn_jeffrey-epstein.md"
     }
   ]
 }

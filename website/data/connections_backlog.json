@@ -1,319 +1,10 @@
 {
-  "generated": "2026-01-09T02:30:15.373010+00:00",
+  "generated": "2026-01-09T03:15:00.000000+00:00",
   "description": "Connections documented in entity briefs that need connection brief files written before appearing on the site.",
   "principle": "No connection appears without a corresponding connection brief documenting the relationship.",
-  "count": 37,
+  "count": 2,
+  "note": "35 of 37 original connections completed. 2 remaining items require editorial decision due to sensitive content involving trafficking allegations.",
   "pending_connections": [
-    {
-      "source": "clare-bronfman",
-      "target": "keith-raniere",
-      "type": "referenced",
-      "evidence": [
-        "Court records"
-      ],
-      "expected_brief_file": "clare-bronfman_keith-raniere.md",
-      "summary": "Connection documented in Clare Bronfman analytical brief."
-    },
-    {
-      "source": "clare-bronfman",
-      "target": "nxivm-case",
-      "type": "referenced",
-      "evidence": [
-        "Court records"
-      ],
-      "expected_brief_file": "clare-bronfman_nxivm-case.md",
-      "summary": "Connection documented in Clare Bronfman analytical brief."
-    },
-    {
-      "source": "iran-contra-case",
-      "target": "intelligence-financial-nexus",
-      "type": "referenced",
-      "evidence": [
-        "Congressional Report"
-      ],
-      "expected_brief_file": "iran-contra-case_intelligence-financial-nexus.md",
-      "summary": "Connection documented in Iran-Contra Affair analytical brief."
-    },
-    {
-      "source": "iran-contra-case",
-      "target": "bcci",
-      "type": "referenced",
-      "evidence": [
-        "Secondary analysis"
-      ],
-      "expected_brief_file": "iran-contra-case_bcci.md",
-      "summary": "Connection documented in Iran-Contra Affair analytical brief."
-    },
-    {
-      "source": "iran-contra-case",
-      "target": "promis-inslaw-case",
-      "type": "referenced",
-      "evidence": [
-        "Secondary analysis"
-      ],
-      "expected_brief_file": "iran-contra-case_promis-inslaw-case.md",
-      "summary": "Connection documented in Iran-Contra Affair analytical brief."
-    },
-    {
-      "source": "oliver-north",
-      "target": "iran-contra-case",
-      "type": "documented",
-      "evidence": [
-        "Congressional Report"
-      ],
-      "expected_brief_file": "oliver-north_iran-contra-case.md",
-      "summary": "Connection documented in Oliver North analytical brief."
-    },
-    {
-      "source": "oliver-north",
-      "target": "william-casey",
-      "type": "documented",
-      "evidence": [
-        "Congressional Report"
-      ],
-      "expected_brief_file": "oliver-north_william-casey.md",
-      "summary": "Connection documented in Oliver North analytical brief."
-    },
-    {
-      "source": "mossad",
-      "target": "robert-maxwell",
-      "type": "referenced",
-      "evidence": [
-        "Published accounts"
-      ],
-      "expected_brief_file": "mossad_robert-maxwell.md",
-      "summary": "Connection documented in Mossad analytical brief."
-    },
-    {
-      "source": "mossad",
-      "target": "promis-inslaw-case",
-      "type": "referenced",
-      "evidence": [
-        "Congressional testimony"
-      ],
-      "expected_brief_file": "mossad_promis-inslaw-case.md",
-      "summary": "Connection documented in Mossad analytical brief."
-    },
-    {
-      "source": "mossad",
-      "target": "intelligence-financial-nexus",
-      "type": "referenced",
-      "evidence": [
-        "General knowledge"
-      ],
-      "expected_brief_file": "mossad_intelligence-financial-nexus.md",
-      "summary": "Connection documented in Mossad analytical brief."
-    },
-    {
-      "source": "bcci",
-      "target": "intelligence-financial-nexus",
-      "type": "referenced",
-      "evidence": [
-        "Senate Report"
-      ],
-      "expected_brief_file": "bcci_intelligence-financial-nexus.md",
-      "summary": "Connection documented in BCCI analytical brief."
-    },
-    {
-      "source": "bcci",
-      "target": "iran-contra-case",
-      "type": "referenced",
-      "evidence": [
-        "Senate Report"
-      ],
-      "expected_brief_file": "bcci_iran-contra-case.md",
-      "summary": "Connection documented in BCCI analytical brief."
-    },
-    {
-      "source": "bcci",
-      "target": "promis-inslaw-case",
-      "type": "referenced",
-      "evidence": [
-        "Secondary analysis"
-      ],
-      "expected_brief_file": "bcci_promis-inslaw-case.md",
-      "summary": "Connection documented in BCCI analytical brief."
-    },
-    {
-      "source": "allison-mack",
-      "target": "keith-raniere",
-      "type": "referenced",
-      "evidence": [
-        "Court records"
-      ],
-      "expected_brief_file": "allison-mack_keith-raniere.md",
-      "summary": "Connection documented in Allison Mack analytical brief."
-    },
-    {
-      "source": "allison-mack",
-      "target": "nxivm-case",
-      "type": "referenced",
-      "evidence": [
-        "Court records"
-      ],
-      "expected_brief_file": "allison-mack_nxivm-case.md",
-      "summary": "Connection documented in Allison Mack analytical brief."
-    },
-    {
-      "source": "allison-mack",
-      "target": "clare-bronfman",
-      "type": "referenced",
-      "evidence": [
-        "Court records"
-      ],
-      "expected_brief_file": "allison-mack_clare-bronfman.md",
-      "summary": "Connection documented in Allison Mack analytical brief."
-    },
-    {
-      "source": "roy-cohn",
-      "target": "donald-trump",
-      "type": "referenced",
-      "evidence": [
-        "Documented"
-      ],
-      "expected_brief_file": "roy-cohn_donald-trump.md",
-      "summary": "Connection documented in Roy Cohn analytical brief."
-    },
-    {
-      "source": "roy-cohn",
-      "target": "meyer-lansky",
-      "type": "referenced",
-      "evidence": [
-        "Secondary sources"
-      ],
-      "expected_brief_file": "roy-cohn_meyer-lansky.md",
-      "summary": "Connection documented in Roy Cohn analytical brief."
-    },
-    {
-      "source": "roy-cohn",
-      "target": "jeffrey-epstein",
-      "type": "referenced",
-      "evidence": [
-        "Analytical inference"
-      ],
-      "expected_brief_file": "roy-cohn_jeffrey-epstein.md",
-      "summary": "Connection documented in Roy Cohn analytical brief."
-    },
-    {
-      "source": "promis-inslaw-case",
-      "target": "robert-maxwell",
-      "type": "referenced",
-      "evidence": [
-        "Secondary sources"
-      ],
-      "expected_brief_file": "promis-inslaw-case_robert-maxwell.md",
-      "summary": "Connection documented in PROMIS/INSLAW Affair analytical brief."
-    },
-    {
-      "source": "promis-inslaw-case",
-      "target": "intelligence-financial-nexus",
-      "type": "referenced",
-      "evidence": [
-        "Congressional testimony"
-      ],
-      "expected_brief_file": "promis-inslaw-case_intelligence-financial-nexus.md",
-      "summary": "Connection documented in PROMIS/INSLAW Affair analytical brief."
-    },
-    {
-      "source": "promis-inslaw-case",
-      "target": "mossad",
-      "type": "referenced",
-      "evidence": [
-        "Ben-Menashe affidavit"
-      ],
-      "expected_brief_file": "promis-inslaw-case_mossad.md",
-      "summary": "Connection documented in PROMIS/INSLAW Affair analytical brief."
-    },
-    {
-      "source": "promis-inslaw-case",
-      "target": "ghislaine-maxwell",
-      "type": "referenced",
-      "evidence": [
-        "Inference"
-      ],
-      "expected_brief_file": "promis-inslaw-case_ghislaine-maxwell.md",
-      "summary": "Connection documented in PROMIS/INSLAW Affair analytical brief."
-    },
-    {
-      "source": "william-casey",
-      "target": "iran-contra-case",
-      "type": "documented",
-      "evidence": [
-        "Congressional Report"
-      ],
-      "expected_brief_file": "william-casey_iran-contra-case.md",
-      "summary": "Connection documented in William Casey analytical brief."
-    },
-    {
-      "source": "william-casey",
-      "target": "oliver-north",
-      "type": "referenced",
-      "evidence": [
-        "Congressional Report"
-      ],
-      "expected_brief_file": "william-casey_oliver-north.md",
-      "summary": "Connection documented in William Casey analytical brief."
-    },
-    {
-      "source": "william-casey",
-      "target": "bcci",
-      "type": "referenced",
-      "evidence": [
-        "Senate BCCI Report"
-      ],
-      "expected_brief_file": "william-casey_bcci.md",
-      "summary": "Connection documented in William Casey analytical brief."
-    },
-    {
-      "source": "william-casey",
-      "target": "intelligence-financial-nexus",
-      "type": "documented",
-      "evidence": [
-        "Appointment record"
-      ],
-      "expected_brief_file": "william-casey_intelligence-financial-nexus.md",
-      "summary": "Connection documented in William Casey analytical brief."
-    },
-    {
-      "source": "keith-raniere",
-      "target": "nxivm-case",
-      "type": "referenced",
-      "evidence": [
-        "Federal court records"
-      ],
-      "expected_brief_file": "keith-raniere_nxivm-case.md",
-      "summary": "Connection documented in Keith Raniere analytical brief."
-    },
-    {
-      "source": "keith-raniere",
-      "target": "clare-bronfman",
-      "type": "referenced",
-      "evidence": [
-        "Federal court records"
-      ],
-      "expected_brief_file": "keith-raniere_clare-bronfman.md",
-      "summary": "Connection documented in Keith Raniere analytical brief."
-    },
-    {
-      "source": "keith-raniere",
-      "target": "allison-mack",
-      "type": "referenced",
-      "evidence": [
-        "Federal court records"
-      ],
-      "expected_brief_file": "keith-raniere_allison-mack.md",
-      "summary": "Connection documented in Keith Raniere analytical brief."
-    },
-    {
-      "source": "meyer-lansky",
-      "target": "roy-cohn",
-      "type": "referenced",
-      "evidence": [
-        "Secondary sources"
-      ],
-      "expected_brief_file": "meyer-lansky_roy-cohn.md",
-      "summary": "Connection documented in Meyer Lansky analytical brief."
-    },
     {
       "source": "nxivm-case",
       "target": "jeffrey-epstein",
@@ -322,7 +13,9 @@
         "Comparative analysis"
       ],
       "expected_brief_file": "nxivm-case_jeffrey-epstein.md",
-      "summary": "Connection documented in NXIVM/Raniere Case analytical brief."
+      "summary": "Connection documented in NXIVM/Raniere Case analytical brief.",
+      "status": "requires_editorial_review",
+      "reason": "Comparative analysis of trafficking/coercion patterns between cases - requires careful editorial treatment"
     },
     {
       "source": "nxivm-case",
@@ -332,47 +25,41 @@
         "Comparative analysis"
       ],
       "expected_brief_file": "nxivm-case_ghislaine-maxwell.md",
-      "summary": "Connection documented in NXIVM/Raniere Case analytical brief."
-    },
-    {
-      "source": "cia",
-      "target": "bcci",
-      "type": "referenced",
-      "evidence": [
-        "Senate Report (1992)"
-      ],
-      "expected_brief_file": "cia_bcci.md",
-      "summary": "Connection documented in Central Intelligence Agency analytical brief."
-    },
-    {
-      "source": "cia",
-      "target": "iran-contra-case",
-      "type": "referenced",
-      "evidence": [
-        "Congressional Report (1987)"
-      ],
-      "expected_brief_file": "cia_iran-contra-case.md",
-      "summary": "Connection documented in Central Intelligence Agency analytical brief."
-    },
-    {
-      "source": "cia",
-      "target": "promis-inslaw-case",
-      "type": "referenced",
-      "evidence": [
-        "Congressional testimony"
-      ],
-      "expected_brief_file": "cia_promis-inslaw-case.md",
-      "summary": "Connection documented in Central Intelligence Agency analytical brief."
-    },
-    {
-      "source": "cia",
-      "target": "mossad",
-      "type": "referenced",
-      "evidence": [
-        "Multiple sources"
-      ],
-      "expected_brief_file": "cia_mossad.md",
-      "summary": "Connection documented in Central Intelligence Agency analytical brief."
+      "summary": "Connection documented in NXIVM/Raniere Case analytical brief.",
+      "status": "requires_editorial_review",
+      "reason": "Comparative analysis of organizational patterns between cases - requires careful editorial treatment"
     }
+  ],
+  "completed_connections": [
+    "clare-bronfman_keith-raniere.md",
+    "clare-bronfman_nxivm-case.md",
+    "allison-mack_keith-raniere.md",
+    "allison-mack_nxivm-case.md",
+    "allison-mack_clare-bronfman.md",
+    "keith-raniere_nxivm-case.md",
+    "iran-contra-case_intelligence-financial-nexus.md",
+    "iran-contra-case_promis-inslaw-case.md",
+    "bcci_iran-contra-case.md",
+    "oliver-north_iran-contra-case.md",
+    "oliver-north_william-casey.md",
+    "william-casey_iran-contra-case.md",
+    "william-casey_bcci.md",
+    "william-casey_intelligence-financial-nexus.md",
+    "mossad_robert-maxwell.md",
+    "mossad_promis-inslaw-case.md",
+    "mossad_intelligence-financial-nexus.md",
+    "bcci_intelligence-financial-nexus.md",
+    "bcci_promis-inslaw-case.md",
+    "cia_bcci.md",
+    "cia_iran-contra-case.md",
+    "cia_promis-inslaw-case.md",
+    "cia_mossad.md",
+    "promis-inslaw-case_robert-maxwell.md",
+    "promis-inslaw-case_intelligence-financial-nexus.md",
+    "promis-inslaw-case_ghislaine-maxwell.md",
+    "roy-cohn_donald-trump.md",
+    "roy-cohn_meyer-lansky.md",
+    "roy-cohn_jeffrey-epstein.md",
+    "meyer-lansky_roy-cohn.md"
   ]
 }
