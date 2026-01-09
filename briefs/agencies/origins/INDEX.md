@@ -2,7 +2,7 @@
 
 **Created:** January 7, 2026
 **Last Updated:** January 8, 2026
-**Status:** 51 of 83 agencies completed (61%)
+**Status:** 63 of 83 agencies completed (76%)
 
 ---
 
@@ -97,6 +97,22 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 | FEMA | Jimmy Carter | 1979 | Baptist | Democratic | `fema-origin.md` |
 | NPS | Woodrow Wilson, Stephen Mather | 1916 | Presbyterian (Wilson), Congregationalist (Mather) | Bipartisan | `nps-origin.md` |
 
+### Batch 10: Additional Agencies
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| NTSB | LBJ | 1967 | Disciples of Christ | Democratic | `ntsb-origin.md` |
+| CPSC | Nixon, Arnold Elkind | 1972 | Quaker (Nixon) | Republican | `cpsc-origin.md` |
+| NIH | Hoover, Joseph Ransdell | 1930 | Quaker (Hoover) | Republican | `nih-origin.md` |
+| Forest Service | TR, Gifford Pinchot | 1905 | Episcopalian (Pinchot) | Progressive Republican | `forest-service-origin.md` |
+| BLM | Truman | 1946 | Baptist | Democratic | `blm-origin.md` |
+| Amtrak | Nixon | 1971 | Quaker | Republican | `amtrak-origin.md` |
+| GSA | Truman, Hoover Commission | 1949 | Baptist | Democratic | `gsa-origin.md` |
+| NSF | Truman, Vannevar Bush | 1950 | Universalist (Bush), Baptist (Truman) | Bipartisan | `nsf-origin.md` |
+| Census | Jefferson (1790), Theodore Roosevelt (1902 permanent) | 1790/1902 | Deist (Jefferson) | Mixed | `census-origin.md` |
+| USPTO | Washington, Jefferson | 1790 | Episcopalian (Washington), Deist (Jefferson) | Founding Era | `uspto-origin.md` |
+| Smithsonian | James Polk, James Smithson | 1846 | Methodist (Polk), Unknown (Smithson) | Democratic | `smithsonian-origin.md` |
+| NOAA | Nixon | 1970 | Quaker | Republican | `noaa-origin.md` |
+
 ---
 
 ## KEY FINDINGS
@@ -104,24 +120,26 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 ### Religious Backgrounds of Agency Founders
 - **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps), Derwinski (VA), Joseph Carroll (DIA), John Negroponte (ODNI), Elwood Quesada (FAA), Robert Wagner (NLRB), Harrison Williams (OSHA)
 - **Presbyterian:** Woodrow Wilson (Fed/FTC/NPS), Allen Dulles (CIA), Thomas Ewing Sr. (Interior), Eisenhower (NRO/FAA), McNamara (DIA)
-- **Methodist:** George W. Bush (ICE/CBP/ODNI), Elizabeth Warren (CFPB), Harvey Wiley (FDA)
-- **Episcopalian:** Frances Perkins (SSA), Oveta Culp Hobby (HHS), FDR (FCC/FDIC/NLRB), Carter Glass (FDIC), Washington (Marshals), Hamilton (Coast Guard), Gerald Ford (NRC)
-- **Baptist:** Harry Truman (NSA), Jimmy Carter (FEMA)
-- **Quaker:** Richard Nixon (DEA/OSHA)
-- **Deist:** Thomas Jefferson (State), Benjamin Franklin (USPS)
+- **Methodist:** George W. Bush (ICE/CBP/ODNI), Elizabeth Warren (CFPB), Harvey Wiley (FDA), James Polk (Smithsonian)
+- **Episcopalian:** Frances Perkins (SSA), Oveta Culp Hobby (HHS), FDR (FCC/FDIC/NLRB), Carter Glass (FDIC), Washington (Marshals/USPTO), Hamilton (Coast Guard), Gerald Ford (NRC), Gifford Pinchot (Forest Service)
+- **Baptist:** Harry Truman (NSA/BLM/GSA), Jimmy Carter (FEMA)
+- **Quaker:** Richard Nixon (DEA/OSHA/CPSC/Amtrak/NOAA), Herbert Hoover (NIH)
+- **Deist:** Thomas Jefferson (State/Census/USPTO), Benjamin Franklin (USPS)
 - **Jewish:** Paul Warburg (Fed), Joseph Lieberman (DHS), John Deutch (NGA)
 - **Congregationalist:** Stephen Mather (NPS)
-- **Disciples of Christ:** LBJ (EEOC)
+- **Disciples of Christ:** LBJ (EEOC/NTSB)
+- **Universalist:** Vannevar Bush (NSF)
 - **Lapsed/Unaffiliated:** James Forrestal (Defense), Lincoln (Secret Service/IRS)
 - **Unknown/Not Documented:** Many others including career officials
 
 ### Political Patterns
-- **Progressive Republicans:** Theodore Roosevelt (FBI, Commerce), George Norris (TVA), William Ruckelshaus (EPA)
+- **Progressive Republicans:** Theodore Roosevelt (FBI, Commerce, Forest Service), George Norris (TVA), William Ruckelshaus (EPA)
 - **New Deal Democrats:** FDR (multiple), Frances Perkins (SSA), Joseph Kennedy (SEC)
 - **Cold War Bipartisanship:** CIA, NASA, DHS, Defense
 - **Founding Era Federalist/Anti-Federalist:** Hamilton (Treasury) vs. Jefferson (State)
-- **Great Society Democrats:** LBJ appointees (HUD, DOT)
+- **Great Society Democrats:** LBJ appointees (HUD, DOT, NTSB)
 - **Cross-Party Appointments:** Schlesinger (R) by Carter (D), Hobby (ex-D) by Eisenhower (R)
+- **Nixon's Surprising Expansion:** Despite "small government" rhetoric, Nixon created EPA, DEA, OSHA, CPSC, Amtrak, NOAA
 
 ### Historical "Firsts"
 - **Robert Weaver (HUD):** First African American Cabinet Secretary
@@ -139,16 +157,16 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 
 ---
 
-## PENDING ORIGIN STORIES (32 agencies)
+## PENDING ORIGIN STORIES (20 agencies)
 
-### Regulatory Agencies (9 remaining)
-- CFTC, FEC, CPSC, NTSB, OCC, FHFA, NCUA, FCA, PBGC
+### Regulatory Agencies (7 remaining)
+- CFTC, FEC, OCC, FHFA, NCUA, FCA, PBGC
 
-### Sub-Agencies (10 remaining)
-- CMS, NIH, BLM, FWS, Forest Service, BIA, NOAA, Census, USPTO
+### Sub-Agencies (3 remaining)
+- CMS, FWS, BIA
 
-### Others (13 remaining)
-- GSA, OPM, NSF, USAID, OMB, USTR, Export-Import Bank, Amtrak, NARA, Smithsonian, FinCEN, Bureau of Prisons, CISA
+### Others (10 remaining)
+- OPM, USAID, OMB, USTR, Export-Import Bank, NARA, FinCEN, Bureau of Prisons, CISA, SBA
 
 ---
 
