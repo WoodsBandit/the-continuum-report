@@ -148,18 +148,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-*This section identifies connections to other layers of The Continuum.*
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [CIA](/briefs/cia.html) | Operational support | Congressional Report |
-| [BCCI](/briefs/bcci.html) | Contemporary operations | Secondary analysis |
-| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Contemporary period | Secondary analysis |
-| NSC | Institutional base | Congressional Report |
-| Enterprise operators | Covert network | Congressional Report |
-
 ---
 
 ## Source Documents

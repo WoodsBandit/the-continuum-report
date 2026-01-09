@@ -114,15 +114,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Employer | Employment record |
-| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Provided testimony regarding | Court records |
-| Palm Beach residence | Place of employment | Employment record |
-| Maxwell criminal trial | Prosecution witness | Trial record |
-
 ---
 
 ## Source Documents

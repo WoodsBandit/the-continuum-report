@@ -120,16 +120,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Robert Maxwell](/briefs/robert-maxwell.html) | Alleged asset | Published accounts |
-| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Alleged involvement | Congressional testimony |
-| [CIA](/briefs/cia.html) | Allied service | General knowledge |
-
-**Note:** Some published accounts allege Mossad connections to Jeffrey Epstein, typically through Maxwell family relationships. These allegations are not supported by congressional investigation or court findings and remain speculative. We do not include this as a documented connection.
-
 ---
 
 ## Source Documents

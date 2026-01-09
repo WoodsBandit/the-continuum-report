@@ -121,15 +121,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Banking client (2013-2018) | NYSDFS Consent Order |
-| [JP Morgan](/briefs/jpmorgan-chase-bank.html) | Prior bank (relationship ended 2011) | USVI Complaint |
-| NYSDFS | Regulatory | Enforcement action | Consent Order |
-| USVI Government | Settlement | Civil recovery |
-
 ---
 
 ## Source Documents

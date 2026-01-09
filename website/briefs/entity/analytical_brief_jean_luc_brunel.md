@@ -132,15 +132,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Close associate | Court filings |
-| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Network connection | Flight logs |
-| MC2 Model Management | Business founded with Epstein funding | Published accounts |
-| Flight logs | Multiple appearances | Epstein flight records |
-
 ---
 
 ## Source Documents

@@ -130,14 +130,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Financial manager | Published accounts |
-| L Brands / Victoria's Secret | Business founder | Public record |
-| New York Mansion | Property transfer | Published accounts |
-
 ---
 
 ## Source Documents

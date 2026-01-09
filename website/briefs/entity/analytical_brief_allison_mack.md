@@ -107,15 +107,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Keith Raniere](/briefs/keith-raniere.html) | First-line master reporting to | Court records |
-| [NXIVM](/briefs/nxivm-case.html) | High-ranking member | Court records |
-| DOS | Leadership role | Court records |
-| [Clare Bronfman](/briefs/clare-bronfman.html) | Co-defendant | Court records |
-
 ---
 
 ## Source Documents

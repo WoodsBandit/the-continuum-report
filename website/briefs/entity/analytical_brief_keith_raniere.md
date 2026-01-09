@@ -129,14 +129,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [NXIVM Case](/briefs/nxivm-case.html) | Subject of prosecution | Federal court records |
-| [Clare Bronfman](/briefs/clare-bronfman.html) | Financial enabler | Federal court records |
-| [Allison Mack](/briefs/allison-mack.html) | Co-defendant | Federal court records |
-
 ---
 
 ## Source Documents

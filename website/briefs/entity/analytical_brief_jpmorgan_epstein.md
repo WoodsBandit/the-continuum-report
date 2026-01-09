@@ -111,17 +111,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-*This section identifies connections to other layers of The Continuum.*
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Banking client | USVI Complaint |
-| Jane Doe victims | Alleged facilitation | Class action |
-| Bank Secrecy Act | Alleged violations | USVI Complaint |
-| USVI Government | Enforcement action | Federal filing |
-
 ---
 
 ## Source Documents

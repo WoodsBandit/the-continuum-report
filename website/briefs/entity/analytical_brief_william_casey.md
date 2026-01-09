@@ -120,17 +120,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Central role | Congressional Report |
-| The Enterprise | Suggested creation | Congressional Report |
-| Richard Secord | Recruited at his suggestion | Congressional Report |
-| [Oliver North](/briefs/oliver-north.html) | NSC subordinate | Congressional Report |
-| [BCCI](/briefs/bcci.html) | Agency knowledge | Senate BCCI Report |
-| [CIA](/briefs/cia.html) | Director | Appointment record |
-
 ---
 
 ## Source Documents

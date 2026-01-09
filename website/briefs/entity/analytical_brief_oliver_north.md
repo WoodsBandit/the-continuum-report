@@ -123,17 +123,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Central operational figure | Congressional Report |
-| The Enterprise | Directed operations | Congressional Report |
-| [William Casey](/briefs/william-casey.html) | CIA Director (deceased) | Congressional Report |
-| John Poindexter | National Security Adviser | Congressional Report |
-| Richard Secord | Enterprise operator | Congressional Report |
-| NSC | Staff position | Employment record |
-
 ---
 
 ## Source Documents

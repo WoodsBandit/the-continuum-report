@@ -114,15 +114,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [BCCI Affair](/briefs/bcci.html) | Knowledge/relationship | Senate Report (1992) |
-| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Operational support | Congressional Report (1987) |
-| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Alleged involvement | Congressional testimony |
-| [Mossad](/briefs/mossad.html) | Allied service | Multiple sources |
-
 ---
 
 ## Congressional Investigations Referenced

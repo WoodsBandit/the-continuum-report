@@ -117,16 +117,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| Operation Underworld | Participant | Historical record |
-| U.S. Naval Intelligence | WWII collaboration | Historical record |
-| Lucky Luciano | Criminal associate | Historical record |
-| [Roy Cohn](/briefs/roy-cohn.html) | Published associations | Secondary sources |
-| Cuba gambling operations | Business operator | Historical record |
-
 ---
 
 ## Source Documents

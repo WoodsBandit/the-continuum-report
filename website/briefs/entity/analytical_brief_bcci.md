@@ -123,19 +123,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-*This section identifies connections to other layers of The Continuum.*
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [CIA](/briefs/cia.html) | Knowledge of operations | Senate Report |
-| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Contemporary operations | Senate Report |
-| Kamal Adham | Saudi intelligence | Senate Report |
-| Clark Clifford | Political protection | Senate Report |
-| Kissinger Associates | Political connections | Senate Report |
-| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Contemporary intelligence operations | Secondary analysis |
-
 ---
 
 ## Source Documents

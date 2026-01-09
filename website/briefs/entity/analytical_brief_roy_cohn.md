@@ -138,18 +138,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Donald Trump](/briefs/donald-trump.html) | Attorney/mentor | Documented |
-| Lewis Rosenstiel | Client/associate | Documented |
-| [Meyer Lansky](/briefs/meyer-lansky.html) | Network connection | Secondary sources |
-| J. Edgar Hoover | Alleged relationship | Kaufman testimony |
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Historical parallel | Analytical inference |
-
-**Note:** The connection to Jeffrey Epstein is analytical/historical, not documented direct contact. Cohn died in 1986; Epstein's documented activities began in the 1990s.
-
 ---
 
 ## Source Documents

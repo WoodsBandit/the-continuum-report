@@ -103,15 +103,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Keith Raniere](/briefs/keith-raniere.html) | Financial supporter | Court records |
-| [NXIVM](/briefs/nxivm-case.html) | Financial backer | Court records |
-| Sara Bronfman | Sister, NXIVM involvement | Public record |
-| Seagram Company | Family wealth source | Public record |
-
 ---
 
 ## Source Documents

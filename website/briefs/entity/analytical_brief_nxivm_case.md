@@ -162,17 +162,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-*This section identifies connections to other layers of The Continuum.*
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Structural parallel (no direct connection) | Comparative analysis |
-| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Structural parallel (recruitment role) | Comparative analysis |
-
-**Note:** No direct documented connections between NXIVM and Epstein network have been established. Connections listed are structural parallels for analytical purposes.
-
 ---
 
 ## Source Documents

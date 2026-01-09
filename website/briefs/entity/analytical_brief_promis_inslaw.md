@@ -129,19 +129,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-*This section identifies connections to other layers of The Continuum.*
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Robert Maxwell](/briefs/robert-maxwell.html) | Alleged PROMIS distribution | Secondary sources |
-| [CIA](/briefs/cia.html) | Alleged involvement | Congressional testimony |
-| DOJ | Congressional findings of misconduct | House Judiciary Report |
-| [Mossad](/briefs/mossad.html) | Alleged involvement | Ben-Menashe affidavit |
-| Earl Brian | Deposition testimony | Congressional record |
-| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Via Robert Maxwell family connection | Inference |
-
 ---
 
 ## Source Documents

@@ -97,14 +97,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Alleged perpetrator | Court records |
-| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Alleged recruiter | Deposition testimony |
-| [Virginia Giuffre](/briefs/virginia-giuffre.html) | Fellow alleged victim | Court records |
-
 ---
 
 ## Source Documents

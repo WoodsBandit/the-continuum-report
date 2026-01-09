@@ -140,18 +140,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Connections
-
-*This section identifies connections to other layers of The Continuum.*
-
-| Connected Entity | Connection Type | Source |
-|-----------------|-----------------|--------|
-| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Family (father) | Public record |
-| PROMIS/INSLAW Case | Subject of allegations | Congressional record |
-| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Indirect (via Ghislaine) | Inference |
-| Israeli Intelligence | Alleged relationship | Secondary sources |
-| [BCCI](/briefs/bcci.html) | Contemporary network | Published accounts |
-
 ---
 
 ## Source Documents
