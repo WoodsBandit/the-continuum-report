@@ -2,7 +2,7 @@
 
 **Created:** January 7, 2026
 **Last Updated:** January 8, 2026
-**Status:** 63 of 83 agencies completed (76%)
+**Status:** 83 of 83 agencies completed (100%) ✓
 
 ---
 
@@ -113,12 +113,40 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 | Smithsonian | James Polk, James Smithson | 1846 | Methodist (Polk), Unknown (Smithson) | Democratic | `smithsonian-origin.md` |
 | NOAA | Nixon | 1970 | Quaker | Republican | `noaa-origin.md` |
 
+### Batch 11: Regulatory & Financial Agencies
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| CFTC | Gerald Ford, Neal Smith | 1974 | Episcopalian (Ford) | Bipartisan | `cftc-origin.md` |
+| FEC | Mike Mansfield, Howard Cannon | 1974 | Catholic (Mansfield), Mormon (Cannon) | Democratic | `fec-origin.md` |
+| OCC | Salmon Chase, Lincoln | 1863 | Episcopal (Chase) | Republican | `occ-origin.md` |
+| FHFA | George W. Bush, Barney Frank, Chris Dodd | 2008 | Methodist (Bush), Catholic (Dodd) | Bipartisan | `fhfa-origin.md` |
+| NCUA | FDR (1934), Nixon (1970 independent) | 1934/1970 | Episcopalian (FDR), Quaker (Nixon) | Democratic/Republican | `ncua-origin.md` |
+| FCA | FDR, Henry Morgenthau Jr. | 1933 | Jewish (Morgenthau), Episcopalian (FDR) | Democratic | `fca-origin.md` |
+| PBGC | Gerald Ford, Jacob Javits | 1974 | Episcopalian (Ford), Jewish (Javits) | Bipartisan | `pbgc-origin.md` |
+| Ex-Im Bank | FDR, George Peek | 1934 | Episcopalian (FDR/Moore) | Democratic | `exim-origin.md` |
+
+### Batch 12: Final Agencies
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| CMS | LBJ, Wilbur Cohen, Robert Ball | 1965 | Jewish (Cohen), Methodist (Ball) | Democratic | `cms-origin.md` |
+| FWS | FDR, Ding Darling | 1940 | Congregationalist (Darling) | Republican conservationist | `fws-origin.md` |
+| BIA | John C. Calhoun | 1824 | Presbyterian→Unitarian | Democratic-Republican | `bia-origin.md` |
+| OPM | Jimmy Carter, Scotty Campbell | 1978 | Baptist (Carter) | Democratic | `opm-origin.md` |
+| USAID | JFK, Walt Rostow | 1961 | Catholic (JFK), Jewish (Rostow) | Democratic | `usaid-origin.md` |
+| OMB | Harding, Charles Dawes | 1921 | Presbyterian (Dawes) | Republican | `omb-origin.md` |
+| USTR | JFK, Christian Herter | 1962 | Catholic (JFK) | Bipartisan | `ustr-origin.md` |
+| NARA | FDR, R.D.W. Connor | 1934 | Episcopalian (FDR/Connor) | Democratic | `nara-origin.md` |
+| FinCEN | Nicholas Brady | 1990 | Unknown | Republican | `fincen-origin.md` |
+| BOP | Hoover, Sanford Bates | 1930 | Quaker (Hoover) | Republican | `bop-origin.md` |
+| CISA | Trump, Michael McCaul | 2018 | Catholic (McCaul) | Republican | `cisa-origin.md` |
+| SBA | Eisenhower, Wright Patman | 1953 | Presbyterian (Eisenhower) | Republican | `sba-origin.md` |
+
 ---
 
 ## KEY FINDINGS
 
 ### Religious Backgrounds of Agency Founders
-- **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps), Derwinski (VA), Joseph Carroll (DIA), John Negroponte (ODNI), Elwood Quesada (FAA), Robert Wagner (NLRB), Harrison Williams (OSHA)
+- **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps/USAID/USTR), Derwinski (VA), Joseph Carroll (DIA), John Negroponte (ODNI), Elwood Quesada (FAA), Robert Wagner (NLRB), Harrison Williams (OSHA), Mike Mansfield (FEC), Chris Dodd (FHFA), Michael McCaul (CISA)
 - **Presbyterian:** Woodrow Wilson (Fed/FTC/NPS), Allen Dulles (CIA), Thomas Ewing Sr. (Interior), Eisenhower (NRO/FAA), McNamara (DIA)
 - **Methodist:** George W. Bush (ICE/CBP/ODNI), Elizabeth Warren (CFPB), Harvey Wiley (FDA), James Polk (Smithsonian)
 - **Episcopalian:** Frances Perkins (SSA), Oveta Culp Hobby (HHS), FDR (FCC/FDIC/NLRB), Carter Glass (FDIC), Washington (Marshals/USPTO), Hamilton (Coast Guard), Gerald Ford (NRC), Gifford Pinchot (Forest Service)
@@ -154,19 +182,6 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 - **Akerman (DOJ):** Former Confederate turned civil rights champion; prosecuted KKK
 - **Kennedy (Peace Corps):** Counter "Ugly American"; service and sacrifice
 - **William B. Wilson (Labor):** Scottish immigrant miner who became labor advocate
-
----
-
-## PENDING ORIGIN STORIES (20 agencies)
-
-### Regulatory Agencies (7 remaining)
-- CFTC, FEC, OCC, FHFA, NCUA, FCA, PBGC
-
-### Sub-Agencies (3 remaining)
-- CMS, FWS, BIA
-
-### Others (10 remaining)
-- OPM, USAID, OMB, USTR, Export-Import Bank, NARA, FinCEN, Bureau of Prisons, CISA, SBA
 
 ---
 
