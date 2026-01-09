@@ -19,7 +19,6 @@
 | **Status** | Consent Order July 2020 ($150 million penalty); USVI settlement 2023 |
 | **Document Type** | Editorial analysis of regulatory findings and court filings |
 | **Primary Sources** | NYSDFS Consent Order (July 2020); *USVI v. JPMorgan*, Case No. 1:22-cv-10904 (S.D.N.Y.) |
-| **Continuum Layer** | Layer 3: Financial Networks |
 | **Network** | Financial |
 
 ---
@@ -122,14 +121,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Banking client (2013-2018) | NYSDFS Consent Order |
-| JP Morgan | 3 | Prior bank (relationship ended 2011) | USVI Complaint |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Banking client (2013-2018) | NYSDFS Consent Order |
+| [JP Morgan](/briefs/jpmorgan-chase-bank.html) | Prior bank (relationship ended 2011) | USVI Complaint |
 | NYSDFS | Regulatory | Enforcement action | Consent Order |
-| USVI Government | 3 | Settlement | Civil recovery |
+| USVI Government | Settlement | Civil recovery |
 
 ---
 

@@ -19,7 +19,6 @@
 | **Status** | Never charged with any crime; not a defendant in any Epstein-related case |
 | **Document Type** | Editorial analysis of civil litigation records and published accounts |
 | **Sources** | *Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.); Whitney Webb, "One Nation Under Blackmail" (2022) |
-| **Continuum Layer** | Layer 1: Epstein Core (Financial) |
 | **Network** | Epstein Network |
 
 ---
@@ -131,13 +130,13 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Financial manager | Published accounts |
-| L Brands / Victoria's Secret | 3 | Business founder | Public record |
-| New York Mansion | 1 | Property transfer | Published accounts |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Financial manager | Published accounts |
+| L Brands / Victoria's Secret | Business founder | Public record |
+| New York Mansion | Property transfer | Published accounts |
 
 ---
 

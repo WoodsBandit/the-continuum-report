@@ -133,7 +133,7 @@ The 28 source mentions of this address are entirely procedural in nature, appear
 ## Source References
 
 | Source ID | Document Title | Date | Pages |
-|-----------|---------------|------|-------|
+|-----------------|-----------------|--------|
 | ecf-1320-12 | Johanna Sjoberg Deposition Transcript | May 18, 2016 | 179 |
 | ecf-1320-17 | Discovery Responses | May 2016 | 25 |
 | ecf-1320-20 | Response to Deposition Motion | June 6, 2016 | 11 |

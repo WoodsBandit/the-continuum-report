@@ -19,7 +19,6 @@
 | **Status** | Active federal intelligence agency |
 | **Document Type** | Editorial analysis of congressional investigation records |
 | **Primary Sources** | Senate Foreign Relations Committee (BCCI, 1992); Iran-Contra Committees (1987); House Judiciary Committee (INSLAW, 1992); Church Committee (1975-1976) |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -32,7 +31,7 @@ The Central Intelligence Agency is the United States' primary foreign intelligen
 
 ## Executive Summary
 
-**Editorial Assessment:** The CIA appears in multiple Layer 2 congressional investigations as a documented participant in or knowledgeable observer of operations relevant to The Continuum. The BCCI investigation found the CIA possessed critical information about the bank's activities but failed to share it with appropriate regulators. The Iran-Contra investigation documented CIA support for "Enterprise" operations. The INSLAW investigation examined allegations of CIA involvement in PROMIS software modification and distribution. In our analytical framework, the CIA represents a recurring institutional presence in documented intelligence operations that intersect with financial networks and political influence.
+**Editorial Assessment:** The CIA appears in multiple Intelligence Operations congressional investigations as a documented participant in or knowledgeable observer of operations relevant to The Continuum. The BCCI investigation found the CIA possessed critical information about the bank's activities but failed to share it with appropriate regulators. The Iran-Contra investigation documented CIA support for "Enterprise" operations. The INSLAW investigation examined allegations of CIA involvement in PROMIS software modification and distribution. In our analytical framework, the CIA represents a recurring institutional presence in documented intelligence operations that intersect with financial networks and political influence.
 
 ---
 
@@ -95,7 +94,7 @@ The Church Committee's work established the precedent for congressional oversigh
 
 **Regarding oversight challenges:** Congressional investigations have repeatedly found that CIA activities evaded or undermined oversight mechanisms. The tension between secrecy requirements and democratic accountability remains unresolved.
 
-**Our editorial judgment:** The CIA represents a documented institutional actor in multiple Layer 2 investigations. Congressional findings establish the agency's involvement in or knowledge of operations relevant to The Continuum's analysis. However, the nature and extent of CIA involvement in specific operations varies significantly across cases.
+**Our editorial judgment:** The CIA represents a documented institutional actor in multiple Intelligence Operations investigations. Congressional findings establish the agency's involvement in or knowledge of operations relevant to The Continuum's analysis. However, the nature and extent of CIA involvement in specific operations varies significantly across cases.
 
 ---
 
@@ -115,14 +114,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| BCCI Affair | 2-3 | Knowledge/relationship | Senate Report (1992) |
-| Iran-Contra Affair | 2 | Operational support | Congressional Report (1987) |
-| PROMIS/INSLAW | 2 | Alleged involvement | Congressional testimony |
-| Mossad | 2 | Allied service | Multiple sources |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [BCCI Affair](/briefs/bcci.html) | Knowledge/relationship | Senate Report (1992) |
+| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Operational support | Congressional Report (1987) |
+| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Alleged involvement | Congressional testimony |
+| [Mossad](/briefs/mossad.html) | Allied service | Multiple sources |
 
 ---
 
@@ -153,7 +152,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 - Whitney Webb's synthesis of CIA-related material
 
 **What we did not review:**
-- Classified CIA records
 - Internal CIA assessments
 - Complete congressional hearing transcripts
 - Foreign intelligence service assessments

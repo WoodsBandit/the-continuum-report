@@ -35,7 +35,7 @@
 ### Key Personnel (Continuum-Relevant)
 
 | Name | Role | Period | Source |
-|------|------|--------|--------|
+|-----------------|-----------------|--------|
 | J. Edgar Hoover | FBI Director | 1924-1972 | Historical record |
 | Louis Freeh | FBI Director | 1993-2001 | Official record |
 | Jason Richards | FBI Agent | Active 2014 | ECF Doc. 1320-39 |

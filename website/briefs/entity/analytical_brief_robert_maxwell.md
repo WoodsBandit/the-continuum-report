@@ -19,7 +19,6 @@
 | **Status** | Died November 5, 1991; received state funeral in Israel |
 | **Document Type** | Editorial analysis of congressional records and published accounts |
 | **Primary Sources** | House Judiciary Committee "The INSLAW Affair" (1992); published biographies |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -32,7 +31,7 @@ Robert Maxwell's alleged connections to intelligence agencies were examined in c
 
 ## Executive Summary
 
-**Editorial Assessment:** Robert Maxwell represents, in our analytical framework, a potential link connecting the documented Epstein network (Layer 1) to broader intelligence operations (Layer 2). Congressional investigations examined allegations regarding his role in the distribution of PROMIS software, which was the subject of extensive controversy involving the Department of Justice and intelligence agencies. Published accounts, including Gordon Thomas's "Robert Maxwell, Israel's Superspy" (2002) and Whitney Webb's "One Nation Under Blackmail" (2022), allege extensive intelligence connections. These claims draw on various sources but remain subject to debate among researchers. His documented family relationship to Ghislaine Maxwell, who was convicted of crimes related to Jeffrey Epstein's operation, establishes a verified connection to Layer 1 of The Continuum.
+**Editorial Assessment:** Robert Maxwell represents, in our analytical framework, a potential link connecting the documented Epstein network (the Epstein Network) to broader intelligence operations (Intelligence Operations). Congressional investigations examined allegations regarding his role in the distribution of PROMIS software, which was the subject of extensive controversy involving the Department of Justice and intelligence agencies. Published accounts, including Gordon Thomas's "Robert Maxwell, Israel's Superspy" (2002) and Whitney Webb's "One Nation Under Blackmail" (2022), allege extensive intelligence connections. These claims draw on various sources but remain subject to debate among researchers. His documented family relationship to Ghislaine Maxwell, who was convicted of crimes related to Jeffrey Epstein's operation, establishes a verified connection to the Epstein Network of The Continuum.
 
 ---
 
@@ -85,7 +84,7 @@ Following his death, it was revealed that hundreds of millions of pounds had bee
 
 **Relationship:** Father-daughter (documented)
 
-Robert Maxwell was the biological father of Ghislaine Maxwell. This is an established fact of public record. Ghislaine Maxwell was convicted in December 2021 of sex trafficking charges related to Jeffrey Epstein. This family connection links Layer 2 (Intelligence Operations) to Layer 1 (Epstein Core).
+Robert Maxwell was the biological father of Ghislaine Maxwell. This is an established fact of public record. Ghislaine Maxwell was convicted in December 2021 of sex trafficking charges related to Jeffrey Epstein. This family connection links Intelligence Operations to the Epstein Network.
 
 **Source:** Public vital records; Ghislaine Maxwell federal criminal case (S.D.N.Y.)
 
@@ -121,7 +120,7 @@ This is a secondary source characterization, not a documented fact from official
 
 **Regarding the Epstein connection:** In our editorial assessment, Robert Maxwell represents a potential link between documented intelligence operations and the Epstein network through his daughter Ghislaine. However, family relationship does not establish operational connection or shared purpose. Robert Maxwell died in 1991, before the period of documented Epstein criminal activity (1990s-2000s). Any inference of operational continuity is interpretive, not documented.
 
-**Our editorial judgment:** Robert Maxwell appears to occupy a significant position in the broader network we are mapping. The congressional investigation, state funeral circumstances, published intelligence allegations, and family connection to Ghislaine Maxwell warrant his inclusion in Layer 2 of The Continuum. However, readers should note the distinction between documented facts (death, family relationships, congressional examination) and allegations (active intelligence role, PROMIS distribution).
+**Our editorial judgment:** Robert Maxwell appears to occupy a significant position in the broader network we are mapping. The congressional investigation, state funeral circumstances, published intelligence allegations, and family connection to Ghislaine Maxwell warrant his inclusion in Intelligence Operations of The Continuum. However, readers should note the distinction between documented facts (death, family relationships, congressional examination) and allegations (active intelligence role, PROMIS distribution).
 
 ---
 
@@ -141,17 +140,17 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
 *This section identifies connections to other layers of The Continuum.*
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Ghislaine Maxwell | 1 | Family (father) | Public record |
-| PROMIS/INSLAW Case | 2 | Subject of allegations | Congressional record |
-| Jeffrey Epstein | 1 | Indirect (via Ghislaine) | Inference |
-| Israeli Intelligence | 2 | Alleged relationship | Secondary sources |
-| BCCI | 2 | Contemporary network | Published accounts |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Family (father) | Public record |
+| PROMIS/INSLAW Case | Subject of allegations | Congressional record |
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Indirect (via Ghislaine) | Inference |
+| Israeli Intelligence | Alleged relationship | Secondary sources |
+| [BCCI](/briefs/bcci.html) | Contemporary network | Published accounts |
 
 ---
 
@@ -181,7 +180,6 @@ This brief is based on the following sources:
 - Federal court records regarding Ghislaine Maxwell
 
 **What we did not review:**
-- Classified intelligence documents (if any exist)
 - Maxwell family private records and correspondence
 - Israeli government archives
 - Complete FBI or DOJ files on Robert Maxwell

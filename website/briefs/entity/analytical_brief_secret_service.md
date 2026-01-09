@@ -147,7 +147,6 @@ This analysis was generated through AI-assisted review of court documents from t
 **What we did not review:**
 - The actual Louis Freeh report (only Maxwell's characterization of its conclusions)
 - Secret Service institutional policies or procedures
-- Classified or non-public Secret Service records
 - ECF 1320-30, 1327-28, and 1330-4 direct content (identified in entity index but quotes not yet extracted)
 - Any Secret Service response or official statements regarding these references
 

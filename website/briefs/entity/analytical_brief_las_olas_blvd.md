@@ -43,7 +43,7 @@ This entity is a variant of "East Las Olas" and both refer to the same geographi
 The entity appears in the following court documents from *Giuffre v. Maxwell*:
 
 | Source ID | Document Description | Pages | Filing Date |
-|-----------|---------------------|-------|-------------|
+|-----------------|-----------------|--------|
 | [ECF-1320-12](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | Deposition transcript of Johanna Sjoberg | 179 | 01/03/24 |
 | [ECF-1320-26](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-26.pdf) | Excerpted deposition transcript pages | 10 | 01/03/24 |
 | [ECF-1327-22](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-22.pdf) | Excerpted deposition transcript (Joseph Recarey) | 5 | 01/05/24 |
@@ -145,7 +145,7 @@ No substantive quotes are associated with this entity. Las Olas Boulevard appear
 ## Source References
 
 | Source ID | Title | Date | Key Context |
-|-----------|-------|------|-------------|
+|-----------------|-----------------|--------|
 | ecf-1320-12 | Johanna Sjoberg Deposition Transcript | May 18, 2016 | Court reporter certification, attorney appearances |
 | ecf-1320-26 | Excerpted Deposition Pages | May 18, 2016 | Court reporter certification |
 | ecf-1327-22 | Joseph Recarey Deposition Excerpt | June 21, 2016 | Court reporter certification |

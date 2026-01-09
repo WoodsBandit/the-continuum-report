@@ -19,7 +19,6 @@
 | **Status** | Convicted 1989 (convictions vacated 1991); immunized congressional testimony |
 | **Document Type** | Editorial analysis of congressional investigation records |
 | **Primary Sources** | Iran-Contra Congressional Report (1987); Court records |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -100,7 +99,7 @@ Following the affair, North became a conservative commentator, author, and brief
 
 **Regarding the vacated convictions:** North's convictions were vacated on procedural grounds related to the use of immunized testimony, not on the merits of the underlying evidence. The legal process did not exonerate him factually; it determined that his trial was compromised by testimony he had been compelled to give under immunity. This leaves his legal culpability officially unresolved.
 
-**Regarding the accountability pattern:** In our assessment, the North case exemplifies limited accountability for documented misconduct. Despite extensive documentation of his activities, the legal process ultimately produced no lasting criminal consequences. This pattern—documentation without accountability—appears in other Layer 2 cases.
+**Regarding the accountability pattern:** In our assessment, the North case exemplifies limited accountability for documented misconduct. Despite extensive documentation of his activities, the legal process ultimately produced no lasting criminal consequences. This pattern—documentation without accountability—appears in other Intelligence Operations cases.
 
 **Our editorial judgment:** Oliver North represents the most extensively documented operational figure in the Iran-Contra Affair. Congressional findings establish his role clearly. The vacated convictions reflect procedural issues rather than vindication of his conduct.
 
@@ -124,16 +123,16 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Iran-Contra Affair | 2 | Central operational figure | Congressional Report |
-| The Enterprise | 2 | Directed operations | Congressional Report |
-| William Casey | 2 | CIA Director (deceased) | Congressional Report |
-| John Poindexter | 2 | National Security Adviser | Congressional Report |
-| Richard Secord | 2 | Enterprise operator | Congressional Report |
-| NSC | 2 | Staff position | Employment record |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Central operational figure | Congressional Report |
+| The Enterprise | Directed operations | Congressional Report |
+| [William Casey](/briefs/william-casey.html) | CIA Director (deceased) | Congressional Report |
+| John Poindexter | National Security Adviser | Congressional Report |
+| Richard Secord | Enterprise operator | Congressional Report |
+| NSC | Staff position | Employment record |
 
 ---
 
@@ -158,7 +157,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 **What we did not review:**
 - Complete trial transcripts
-- Classified annexes to congressional report
 - North's own accounts and writings
 - Complete congressional testimony transcripts
 

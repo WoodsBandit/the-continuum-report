@@ -19,7 +19,6 @@
 | **Status** | Active national intelligence agency of Israel |
 | **Document Type** | Editorial analysis of congressional records and published accounts |
 | **Primary Sources** | House Judiciary Committee (INSLAW, 1992); Gordon Thomas, "Robert Maxwell, Israel's Superspy" (2002); Whitney Webb, "One Nation Under Blackmail" (2022) |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -101,7 +100,7 @@ Ari Ben-Menashe has claimed to be a former Mossad officer and has made various p
 
 **Regarding source reliability:** Ari Ben-Menashe's claims have been subject to credibility debates. While his affidavit was examined by Congress, some researchers question aspects of his account. Readers should evaluate his claims critically.
 
-**Our editorial judgment:** Mossad involvement in operations relevant to The Continuum is alleged in congressional testimony and published accounts but is less extensively documented than CIA involvement. The Maxwell state funeral establishes a documented Israeli government connection. Beyond this, allegations rely on sources whose reliability is debated. We include Mossad in Layer 2 analysis while noting the evidentiary limitations.
+**Our editorial judgment:** Mossad involvement in operations relevant to The Continuum is alleged in congressional testimony and published accounts but is less extensively documented than CIA involvement. The Maxwell state funeral establishes a documented Israeli government connection. Beyond this, allegations rely on sources whose reliability is debated. We include Mossad in Intelligence Operations analysis while noting the evidentiary limitations.
 
 ---
 
@@ -121,13 +120,13 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Robert Maxwell | 2 | Alleged asset | Published accounts |
-| PROMIS/INSLAW | 2 | Alleged involvement | Congressional testimony |
-| CIA | 2 | Allied service | General knowledge |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Robert Maxwell](/briefs/robert-maxwell.html) | Alleged asset | Published accounts |
+| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Alleged involvement | Congressional testimony |
+| [CIA](/briefs/cia.html) | Allied service | General knowledge |
 
 **Note:** Some published accounts allege Mossad connections to Jeffrey Epstein, typically through Maxwell family relationships. These allegations are not supported by congressional investigation or court findings and remain speculative. We do not include this as a documented connection.
 

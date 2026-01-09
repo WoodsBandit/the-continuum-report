@@ -19,7 +19,6 @@
 | **Status** | Died January 15, 1983; never convicted of major crimes in the United States |
 | **Document Type** | Editorial analysis of historical records and published accounts |
 | **Primary Sources** | Congressional investigations; Whitney Webb, "One Nation Under Blackmail" (2022); historical accounts |
-| **Continuum Layer** | Layer 2: Historical Intelligence-Crime Nexus |
 | **Network** | Historical Organized Crime / Intelligence |
 
 ---
@@ -118,15 +117,15 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Operation Underworld | 2 | Participant | Historical record |
-| U.S. Naval Intelligence | 2 | WWII collaboration | Historical record |
-| Lucky Luciano | 2 | Criminal associate | Historical record |
-| Roy Cohn | 2 | Published associations | Secondary sources |
-| Cuba gambling operations | 2 | Business operator | Historical record |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| Operation Underworld | Participant | Historical record |
+| U.S. Naval Intelligence | WWII collaboration | Historical record |
+| Lucky Luciano | Criminal associate | Historical record |
+| [Roy Cohn](/briefs/roy-cohn.html) | Published associations | Secondary sources |
+| Cuba gambling operations | Business operator | Historical record |
 
 ---
 

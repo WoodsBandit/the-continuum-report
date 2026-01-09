@@ -19,7 +19,6 @@
 | **Status** | Bank closed July 1991; Senate investigation concluded December 1992 |
 | **Document Type** | Editorial analysis of Senate Foreign Relations Committee investigation |
 | **Primary Sources** | Senate Foreign Relations Committee Report, "The BCCI Affair" (December 1992), Senators John Kerry and Hank Brown |
-| **Continuum Layer** | Layer 2: Intelligence Operations / Layer 3: Financial Networks |
 | **Network** | Intelligence / Financial |
 
 ---
@@ -32,7 +31,7 @@ BCCI was characterized by the Senate Foreign Relations Committee as "internation
 
 ## Executive Summary
 
-**Editorial Assessment:** The BCCI Affair represents a documented case where congressional investigation established that a major international bank systematically engaged in criminal activity while maintaining relationships with intelligence agencies and political figures worldwide. The Senate Foreign Relations Committee report, authored by Senator John Kerry (later Secretary of State), provides extensive documentation of BCCI's operations across multiple continents and its connections to the CIA. In our analytical framework, BCCI exemplifies the intersection of financial networks (Layer 3) and intelligence operations (Layer 2), demonstrating how banking institutions can serve as vehicles for covert activities.
+**Editorial Assessment:** The BCCI Affair represents a documented case where congressional investigation established that a major international bank systematically engaged in criminal activity while maintaining relationships with intelligence agencies and political figures worldwide. The Senate Foreign Relations Committee report, authored by Senator John Kerry (later Secretary of State), provides extensive documentation of BCCI's operations across multiple continents and its connections to the CIA. In our analytical framework, BCCI exemplifies the intersection of financial networks (Financial Networks) and intelligence operations (Intelligence Operations), demonstrating how banking institutions can serve as vehicles for covert activities.
 
 ---
 
@@ -124,18 +123,18 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
 *This section identifies connections to other layers of The Continuum.*
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| CIA | 2 | Knowledge of operations | Senate Report |
-| Iran-Contra Affair | 2 | Contemporary operations | Senate Report |
-| Kamal Adham | 2 | Saudi intelligence | Senate Report |
-| Clark Clifford | 4 | Political protection | Senate Report |
-| Kissinger Associates | 4 | Political connections | Senate Report |
-| PROMIS/INSLAW | 2 | Contemporary intelligence operations | Secondary analysis |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [CIA](/briefs/cia.html) | Knowledge of operations | Senate Report |
+| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Contemporary operations | Senate Report |
+| Kamal Adham | Saudi intelligence | Senate Report |
+| Clark Clifford | Political protection | Senate Report |
+| Kissinger Associates | Political connections | Senate Report |
+| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Contemporary intelligence operations | Secondary analysis |
 
 ---
 
@@ -165,7 +164,6 @@ This brief is based on the following sources:
 
 **What we did not review:**
 - Complete hearing transcripts
-- Classified appendices (if any)
 - Foreign government investigation reports
 - BCCI internal documents
 - Complete DOJ investigation files

@@ -3630,6 +3630,11 @@
             async transitionToLevel(targetLevel) {
                 if (this.transitioning || targetLevel === this.currentLevel) return;
 
+                // Close brief viewer if open when navigating layers
+                if (document.getElementById('briefViewer').classList.contains('active')) {
+                    BriefViewer.close();
+                }
+
                 // Lock transitions and enable cooldown
                 this.transitioning = true;
                 this.transitionCooldown = true;
@@ -6021,6 +6026,14 @@
             document.getElementById('closeBrief').addEventListener('click', () => BriefViewer.close());
             document.getElementById('briefPrev').addEventListener('click', () => BriefViewer.prev());
             document.getElementById('briefNext').addEventListener('click', () => BriefViewer.next());
+
+            // Click outside brief content to close
+            document.querySelector('.brief-container').addEventListener('click', (e) => {
+                // Only close if clicking directly on container (not on content)
+                if (e.target.classList.contains('brief-container')) {
+                    BriefViewer.close();
+                }
+            });
 
             // PDF viewer
             document.getElementById('closePdf').addEventListener('click', () => PDFViewer.close());

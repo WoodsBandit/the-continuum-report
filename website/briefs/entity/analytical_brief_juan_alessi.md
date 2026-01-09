@@ -19,7 +19,6 @@
 | **Status** | Never charged; provided testimony in civil and criminal proceedings |
 | **Document Type** | Editorial analysis of deposition testimony |
 | **Sources** | *Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.); Maxwell criminal trial |
-| **Continuum Layer** | Layer 1: Epstein Core (Witness) |
 | **Network** | Epstein Network |
 
 ---
@@ -115,14 +114,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Employer | Employment record |
-| Ghislaine Maxwell | 1 | Provided testimony regarding | Court records |
-| Palm Beach residence | 1 | Place of employment | Employment record |
-| Maxwell criminal trial | 1 | Prosecution witness | Trial record |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Employer | Employment record |
+| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Provided testimony regarding | Court records |
+| Palm Beach residence | Place of employment | Employment record |
+| Maxwell criminal trial | Prosecution witness | Trial record |
 
 ---
 

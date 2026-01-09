@@ -1,4 +1,4 @@
-# Maxwell Family Network: Cross-Layer Analysis
+# Maxwell Family Network: cross-network Analysis
 
 > **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
 >
@@ -14,25 +14,24 @@
 
 | | |
 |---|---|
-| **Subject** | Maxwell Family Network — Cross-Layer Connection Analysis |
-| **Type** | Cross-Layer Analysis |
+| **Subject** | Maxwell Family Network — cross-network Connection Analysis |
+| **Type** | cross-network Analysis |
 | **Status** | Analytical synthesis of documented relationships |
-| **Document Type** | Editorial analysis mapping Layer 1-Layer 2 connections |
+| **Document Type** | Editorial analysis mapping the Epstein Network-Intelligence Operations connections |
 | **Primary Sources** | Federal court records; Congressional investigations; Published accounts |
-| **Continuum Layers** | Layer 1 (Epstein Core) ↔ Layer 2 (Intelligence Operations) |
 | **Network** | Intelligence / Epstein Network |
 
 ---
 
 ## Statement of Purpose
 
-This analytical brief examines the documented family connection between Robert Maxwell (Layer 2: Intelligence Operations) and Ghislaine Maxwell (Layer 1: Epstein Core). The brief maps how this family relationship creates a cross-layer link in The Continuum's hierarchical framework, connecting documented intelligence-related allegations to the prosecuted Epstein operation.
+This analytical brief examines the documented family connection between Robert Maxwell (Intelligence Operations) and Ghislaine Maxwell (Epstein Network). The brief maps how this family relationship creates a cross-network link in The Continuum's network framework, connecting documented intelligence-related allegations to the prosecuted Epstein operation.
 
 ---
 
 ## Executive Summary
 
-**Editorial Assessment:** The Maxwell family connection represents the most documented cross-layer link between The Continuum's Layer 1 (Epstein Core) and Layer 2 (Intelligence Operations). Robert Maxwell, whose alleged intelligence connections are documented in congressional investigations and published accounts, was the father of Ghislaine Maxwell, who was convicted in 2021 of sex trafficking charges related to Jeffrey Epstein. This biological family relationship is undisputed public record. The analytical question is whether and to what extent Robert Maxwell's documented networks and alleged activities inform understanding of his daughter's subsequent involvement in the Epstein operation.
+**Editorial Assessment:** The Maxwell family connection represents the most documented cross-network link between The Continuum's the Epstein Network and Intelligence Operations. Robert Maxwell, whose alleged intelligence connections are documented in congressional investigations and published accounts, was the father of Ghislaine Maxwell, who was convicted in 2021 of sex trafficking charges related to Jeffrey Epstein. This biological family relationship is undisputed public record. The analytical question is whether and to what extent Robert Maxwell's documented networks and alleged activities inform understanding of his daughter's subsequent involvement in the Epstein operation.
 
 ---
 
@@ -48,7 +47,7 @@ This fact is established by:
 - Ghislaine Maxwell's own acknowledgments
 - Federal court records in Ghislaine Maxwell's criminal case
 
-### Robert Maxwell — Layer 2 Profile
+### Robert Maxwell — Intelligence Operations Profile
 
 **Status:** Deceased November 5, 1991
 **Documented elements:**
@@ -57,9 +56,9 @@ This fact is established by:
 - Received Israeli state funeral with intelligence officials present
 - Published accounts allege Mossad relationship
 
-**Layer 2 classification basis:** Congressional investigation (INSLAW) examined allegations of intelligence involvement; state funeral acknowledgment suggests official Israeli relationship; published accounts allege extensive intelligence connections.
+**Intelligence Operations classification basis:** Congressional investigation (INSLAW) examined allegations of intelligence involvement; state funeral acknowledgment suggests official Israeli relationship; published accounts allege extensive intelligence connections.
 
-### Ghislaine Maxwell — Layer 1 Profile
+### Ghislaine Maxwell — the Epstein Network Profile
 
 **Status:** Convicted December 2021; serving 20-year federal sentence
 **Documented elements:**
@@ -68,7 +67,7 @@ This fact is established by:
 - Convicted of conspiracy charges
 - Federal jury found she recruited and groomed victims for Jeffrey Epstein
 
-**Layer 1 classification basis:** Federal criminal conviction establishes direct involvement in Epstein operation as matter of law.
+**the Epstein Network classification basis:** Federal criminal conviction establishes direct involvement in Epstein operation as matter of law.
 
 ---
 
@@ -82,21 +81,21 @@ This fact is established by:
 | 1990s-2000s | Epstein operation active | Period documented in federal prosecution |
 | 2008 | Epstein Florida plea | First criminal consequences |
 | 2019 | Epstein arrest and death | Federal case opened |
-| 2021 | Ghislaine Maxwell convicted | Layer 1 involvement established as legal fact |
+| 2021 | Ghislaine Maxwell convicted | the Epstein Network involvement established as legal fact |
 
 **Note:** The proximity between Robert Maxwell's death (November 1991) and Ghislaine's documented relationship with Epstein (reportedly beginning shortly after) has been noted by various researchers.
 
 ---
 
-## Editorial Analysis: The Cross-Layer Question
+## Editorial Analysis: The cross-network Question
 
 **The following represents the opinions and interpretations of The Continuum Report.**
 
 ### The Documented Link
 
 The family relationship between Robert Maxwell and Ghislaine Maxwell is biological fact. This creates an undisputed connection between:
-- Layer 2 (Intelligence Operations) — where Robert Maxwell appears through congressional investigation and published accounts
-- Layer 1 (Epstein Core) — where Ghislaine Maxwell appears through federal criminal conviction
+- Intelligence Operations — where Robert Maxwell appears through congressional investigation and published accounts
+- the Epstein Network — where Ghislaine Maxwell appears through federal criminal conviction
 
 ### The Analytical Question
 
@@ -115,7 +114,7 @@ The interpretive question is whether Robert Maxwell's documented networks and al
 
 ### Our Editorial Position
 
-The Continuum Report notes the documented family relationship as a cross-layer connection without asserting operational continuity. The facts establish:
+The Continuum Report notes the documented family relationship as a cross-network connection without asserting operational continuity. The facts establish:
 
 1. **Robert Maxwell's documented profile** (congressional investigation, state funeral, published allegations)
 2. **Ghislaine Maxwell's criminal conviction** (federal court, beyond reasonable doubt)
@@ -133,7 +132,7 @@ Robert Maxwell had nine children. Those appearing in published accounts regardin
 
 | Name | Known Activities | Relevance |
 |------|------------------|-----------|
-| **Ghislaine Maxwell** | Convicted (2021) sex trafficking | Direct Layer 1 connection |
+| **Ghislaine Maxwell** | Convicted (2021) sex trafficking | Direct the Epstein Network connection |
 | **Isabel Maxwell** | Technology entrepreneur | Published accounts note tech connections |
 | **Christine Maxwell** | Co-founded Magellan (internet search) | Published accounts note tech connections |
 | **Kevin Maxwell** | Business; acquitted in pension trial | Business succession |
@@ -143,10 +142,10 @@ Robert Maxwell had nine children. Those appearing in published accounts regardin
 
 ---
 
-## Cross-Layer Connection Map
+## cross-network Connection Map
 
 ```
-LAYER 2: Intelligence Operations
+INTELLIGENCE OPERATIONS
 ┌─────────────────────────────────────┐
 │  Robert Maxwell                     │
 │  - INSLAW investigation             │
@@ -159,7 +158,7 @@ LAYER 2: Intelligence Operations
                   │ [Documented biological relationship]
                   │
                   ▼
-LAYER 1: Epstein Core
+EPSTEIN NETWORK
 ┌─────────────────────────────────────┐
 │  Ghislaine Maxwell                  │
 │  - CONVICTED 2021                   │
@@ -189,13 +188,13 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ## Source Documents
 
-**Layer 2 Sources (Robert Maxwell):**
+**Intelligence Operations Sources (Robert Maxwell):**
 - House Judiciary Committee, "The INSLAW Affair" (1992)
 - Gordon Thomas, "Robert Maxwell, Israel's Superspy" (2002)
 - Whitney Webb, "One Nation Under Blackmail" (2022)
 - Contemporary news accounts of death and funeral (1991)
 
-**Layer 1 Sources (Ghislaine Maxwell):**
+**the Epstein Network Sources (Ghislaine Maxwell):**
 - United States v. Ghislaine Maxwell (S.D.N.Y.)
 - Giuffre v. Maxwell, Case No. 15-cv-07433 (S.D.N.Y.)
 - Criminal trial verdict (December 2021)
@@ -205,7 +204,7 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ## Methodology Note
 
-This cross-layer analysis maps documented relationships without asserting causation. The family relationship is fact; interpretations of its significance are editorial analysis.
+This cross-network analysis maps documented relationships without asserting causation. The family relationship is fact; interpretations of its significance are editorial analysis.
 
 ---
 

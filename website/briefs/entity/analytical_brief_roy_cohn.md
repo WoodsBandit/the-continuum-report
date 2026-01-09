@@ -19,7 +19,6 @@
 | **Status** | Died August 2, 1986; disbarred June 1986 |
 | **Document Type** | Editorial analysis of published accounts and investigative journalism |
 | **Primary Sources** | Whitney Webb, "One Nation Under Blackmail" (2022); Anthony Summers investigative work; sworn testimony of Susan Kaufman |
-| **Continuum Layer** | Layer 4: Political Networks |
 | **Network** | Political / Intelligence |
 
 ---
@@ -139,15 +138,15 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Donald Trump | 1 | Attorney/mentor | Documented |
-| Lewis Rosenstiel | 4 | Client/associate | Documented |
-| Meyer Lansky | 4 | Network connection | Secondary sources |
-| J. Edgar Hoover | 2 | Alleged relationship | Kaufman testimony |
-| Jeffrey Epstein | 1 | Historical parallel | Analytical inference |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Donald Trump](/briefs/donald-trump.html) | Attorney/mentor | Documented |
+| Lewis Rosenstiel | Client/associate | Documented |
+| [Meyer Lansky](/briefs/meyer-lansky.html) | Network connection | Secondary sources |
+| J. Edgar Hoover | Alleged relationship | Kaufman testimony |
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Historical parallel | Analytical inference |
 
 **Note:** The connection to Jeffrey Epstein is analytical/historical, not documented direct contact. Cohn died in 1986; Epstein's documented activities began in the 1990s.
 

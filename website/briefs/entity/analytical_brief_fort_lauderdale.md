@@ -127,7 +127,7 @@ The city's 44 source mentions reflect its importance in the documentary record o
 ## Source References
 
 | Source ID | Document Title | Date | Pages |
-|-----------|---------------|------|-------|
+|-----------------|-----------------|--------|
 | ecf-1320-11 | Declaration re: Discovery | May 27, 2016 | 4 |
 | ecf-1320-12 | Johanna Sjoberg Deposition | May 18, 2016 | 179 |
 | ecf-1320-18 | Opposition to Motion to Compel | June 1, 2016 | 40 |

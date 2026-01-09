@@ -1,4 +1,4 @@
-# Intelligence-Financial Nexus: Cross-Layer Analysis
+# Intelligence-Financial Nexus: cross-network Analysis
 
 > **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
 >
@@ -14,19 +14,18 @@
 
 | | |
 |---|---|
-| **Subject** | Intelligence-Financial Nexus — Cross-Layer Connection Analysis |
-| **Type** | Cross-Layer Analysis |
+| **Subject** | Intelligence-Financial Nexus — cross-network Connection Analysis |
+| **Type** | cross-network Analysis |
 | **Status** | Analytical synthesis of documented relationships |
-| **Document Type** | Editorial analysis mapping Layer 2-Layer 3 connections |
+| **Document Type** | Editorial analysis mapping Intelligence Operations-Financial Networks connections |
 | **Primary Sources** | Senate BCCI Report (1992); Congressional investigations; Federal court records |
-| **Continuum Layers** | Layer 2 (Intelligence) ↔ Layer 3 (Financial) ↔ Layer 1 (Epstein Core) |
 | **Network** | Intelligence / Financial |
 
 ---
 
 ## Statement of Purpose
 
-This analytical brief examines documented connections between intelligence operations (Layer 2) and financial networks (Layer 3), and how these connections relate to the Epstein Core network (Layer 1). The brief synthesizes findings from congressional investigations (BCCI, Iran-Contra) and federal court proceedings (JP Morgan) to map institutional relationships that span multiple layers of The Continuum.
+This analytical brief examines documented connections between intelligence operations (Intelligence Operations) and financial networks (Financial Networks), and how these connections relate to the Epstein Core network (the Epstein Network). The brief synthesizes findings from congressional investigations (BCCI, Iran-Contra) and federal court proceedings (JP Morgan) to map institutional relationships that span multiple networks of The Continuum.
 
 ---
 
@@ -52,7 +51,7 @@ Key findings:
 - BCCI facilitated operations for multiple intelligence services
 - BCCI's structure was designed to evade governmental oversight
 
-**Cross-Layer Significance:** BCCI demonstrates how a bank can simultaneously serve criminal enterprises (Layer 3) while maintaining intelligence relationships (Layer 2).
+**cross-network Significance:** BCCI demonstrates how a bank can simultaneously serve criminal enterprises (Financial Networks) while maintaining intelligence relationships (Intelligence Operations).
 
 ### Iran-Contra: Private Financial Channels (1987)
 
@@ -68,7 +67,7 @@ Key findings:
 - Funds from arms sales were diverted through non-governmental channels
 - "The Enterprise" represented privatized covert action capability
 
-**Cross-Layer Significance:** Iran-Contra demonstrates how private financial infrastructure can enable intelligence operations (Layer 2) to evade oversight mechanisms.
+**cross-network Significance:** Iran-Contra demonstrates how private financial infrastructure can enable intelligence operations (Intelligence Operations) to evade oversight mechanisms.
 
 ### JP Morgan-Epstein: Bank Facilitation (2022-2023)
 
@@ -86,7 +85,7 @@ Key findings (from complaint allegations):
 - Decisions approved at "senior levels of JP Morgan"
 - Settlement: $365 million total (no admission of liability)
 
-**Cross-Layer Significance:** The JP Morgan case demonstrates alleged financial facilitation of the Epstein operation (Layer 1) by a major institution (Layer 3).
+**cross-network Significance:** The JP Morgan case demonstrates alleged financial facilitation of the Epstein operation (the Epstein Network) by a major institution (Financial Networks).
 
 ---
 
@@ -95,7 +94,7 @@ Key findings (from complaint allegations):
 ### Common Elements Across Cases
 
 | Element | BCCI | Iran-Contra | JP Morgan-Epstein |
-|---------|------|-------------|-------------------|
+|-----------------|-----------------|--------|
 | Financial institution involvement | Central | Supporting | Central |
 | Regulatory evasion | Documented | Documented | Alleged |
 | Intelligence knowledge/involvement | Documented | Documented | Not alleged |
@@ -114,10 +113,10 @@ In our editorial assessment, these cases demonstrate a recurring pattern:
 
 ---
 
-## Cross-Layer Connection Map
+## cross-network Connection Map
 
 ```
-LAYER 2: Intelligence Operations
+INTELLIGENCE OPERATIONS
 ┌─────────────────────────────────────────────────────────────┐
 │  CIA                    │  Iran-Contra Enterprise          │
 │  - BCCI knowledge       │  - Swiss bank accounts           │
@@ -139,12 +138,12 @@ LAYER 3: Financial Networks
             │ Facilitation               │ Alleged Facilitation
             │                            │
             ▼                            ▼
-LAYER 1: Epstein Core
+EPSTEIN NETWORK
 ┌─────────────────────────────────────────────────────────────┐
 │  Jeffrey Epstein Operation                                  │
 │  - JP Morgan banking relationship                           │
 │  - Financial infrastructure for trafficking                 │
-│  - Maxwell family intelligence connection (via Layer 2)     │
+│  - Maxwell family intelligence connection (via Intelligence Operations)     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -215,7 +214,7 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ## Methodology Note
 
-This cross-layer analysis synthesizes findings from separate investigations and proceedings. Each source case is documented independently; connections between cases are editorial analysis.
+This cross-network analysis synthesizes findings from separate investigations and proceedings. Each source case is documented independently; connections between cases are editorial analysis.
 
 ---
 

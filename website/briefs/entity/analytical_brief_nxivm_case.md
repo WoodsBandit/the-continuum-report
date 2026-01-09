@@ -19,7 +19,6 @@
 | **Status** | Raniere convicted June 2019; sentenced to 120 years imprisonment October 2020 |
 | **Document Type** | Editorial analysis of government sentencing memorandum |
 | **Primary Sources** | United States v. Keith Raniere, Case No. 18-CR-204 (E.D.N.Y.); Government Sentencing Memorandum |
-| **Continuum Layer** | Layer 5: Parallel Cases |
 | **Network** | Parallel Blackmail Operations |
 
 ---
@@ -126,7 +125,7 @@ Keith Raniere was sentenced to 120 years in federal prison on October 27, 2020.
 
 **Regarding the prosecution:** The NXIVM case represents a successful federal prosecution of a blackmail-based exploitation operation. The guilty verdicts and 120-year sentence demonstrate that such operations can be prosecuted when sufficient evidence is gathered and protected witnesses come forward.
 
-**Regarding Layer 5 classification:** We classify NXIVM as a "parallel case" rather than direct connection to the Epstein network. While structural similarities exist, we have not identified documented direct connections between NXIVM and Epstein operations. The case is included for comparative analysis of operational patterns.
+**Regarding parallel case classification:** We classify NXIVM as a "parallel case" rather than direct connection to the Epstein network. While structural similarities exist, we have not identified documented direct connections between NXIVM and Epstein operations. The case is included for comparative analysis of operational patterns.
 
 **Our editorial judgment:** The NXIVM case provides fully prosecuted documentation of how coercion-based exploitation operations function. The court record offers insight into recruitment, control mechanisms, and exploitation that may inform analysis of less-documented cases.
 
@@ -163,14 +162,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
 *This section identifies connections to other layers of The Continuum.*
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Structural parallel (no direct connection) | Comparative analysis |
-| Ghislaine Maxwell | 1 | Structural parallel (recruitment role) | Comparative analysis |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Structural parallel (no direct connection) | Comparative analysis |
+| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Structural parallel (recruitment role) | Comparative analysis |
 
 **Note:** No direct documented connections between NXIVM and Epstein network have been established. Connections listed are structural parallels for analytical purposes.
 

@@ -19,7 +19,6 @@
 | **Status** | Pleaded guilty April 2019; sentenced to 36 months federal imprisonment |
 | **Document Type** | Editorial analysis of federal court records |
 | **Sources** | *United States v. Keith Raniere, et al.*, Case No. 18-CR-204 (E.D.N.Y.) |
-| **Continuum Layer** | Layer 5: Parallel Cases |
 | **Network** | NXIVM |
 
 ---
@@ -108,14 +107,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Keith Raniere | 5 | First-line master reporting to | Court records |
-| NXIVM | 5 | High-ranking member | Court records |
-| DOS | 5 | Leadership role | Court records |
-| Clare Bronfman | 5 | Co-defendant | Court records |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Keith Raniere](/briefs/keith-raniere.html) | First-line master reporting to | Court records |
+| [NXIVM](/briefs/nxivm-case.html) | High-ranking member | Court records |
+| DOS | Leadership role | Court records |
+| [Clare Bronfman](/briefs/clare-bronfman.html) | Co-defendant | Court records |
 
 ---
 

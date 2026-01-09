@@ -145,7 +145,7 @@ The institution itself (S.J. Quinney College of Law, University of Utah) is not 
 ## Source References
 
 | Source ID | Document Title | Date Filed | Pages |
-|-----------|---------------|------------|-------|
+|-----------------|-----------------|--------|
 | ecf-1320-11 | Declaration re: Composite Exhibits | May 27, 2016 | 4 |
 | ecf-1320-17 | Motion Filings | 2016 | - |
 | ecf-1320-18 | Opposition to Motion to Compel | June 1, 2016 | 40 |

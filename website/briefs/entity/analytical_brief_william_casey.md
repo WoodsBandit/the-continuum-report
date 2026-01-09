@@ -19,7 +19,6 @@
 | **Status** | Director of Central Intelligence 1981-1987; died May 6, 1987 |
 | **Document Type** | Editorial analysis of congressional investigation records |
 | **Primary Sources** | Iran-Contra Congressional Report (1987); Tower Commission Report (1987) |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -97,7 +96,7 @@ The Senate investigation into BCCI documented CIA knowledge of the bank's activi
 
 **Regarding the expansion of covert operations:** Casey's tenure saw significant expansion of CIA activities, including relationships with actors later found to be problematic (such as BCCI). Whether this reflects his personal direction or broader administration policy remains debated.
 
-**Regarding institutional patterns:** In our assessment, Casey's tenure exemplifies patterns documented in Layer 2 of The Continuum: intelligence operations that evade oversight, relationships with financial institutions, and creation of deniable operational capabilities.
+**Regarding institutional patterns:** In our assessment, Casey's tenure exemplifies patterns documented in Intelligence Operations of The Continuum: intelligence operations that evade oversight, relationships with financial institutions, and creation of deniable operational capabilities.
 
 **Our editorial judgment:** William Casey represents a documented central figure in Iran-Contra operations. The congressional record establishes his involvement, though his death prevented full accounting. His tenure coincided with documented intelligence activities that would later be subjects of congressional investigation.
 
@@ -121,16 +120,16 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Iran-Contra Affair | 2 | Central role | Congressional Report |
-| The Enterprise | 2 | Suggested creation | Congressional Report |
-| Richard Secord | 2 | Recruited at his suggestion | Congressional Report |
-| Oliver North | 2 | NSC subordinate | Congressional Report |
-| BCCI | 2-3 | Agency knowledge | Senate BCCI Report |
-| CIA | 2 | Director | Appointment record |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Iran-Contra Affair](/briefs/iran-contra-case.html) | Central role | Congressional Report |
+| The Enterprise | Suggested creation | Congressional Report |
+| Richard Secord | Recruited at his suggestion | Congressional Report |
+| [Oliver North](/briefs/oliver-north.html) | NSC subordinate | Congressional Report |
+| [BCCI](/briefs/bcci.html) | Agency knowledge | Senate BCCI Report |
+| [CIA](/briefs/cia.html) | Director | Appointment record |
 
 ---
 
@@ -151,7 +150,6 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 - Tower Commission findings
 
 **What we did not review:**
-- Classified CIA records
 - Casey's personal papers
 - Complete hearing transcripts
 - Medical records regarding his illness

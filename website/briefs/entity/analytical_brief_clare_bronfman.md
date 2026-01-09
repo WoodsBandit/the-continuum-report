@@ -19,7 +19,6 @@
 | **Status** | Pleaded guilty September 2019; sentenced to 81 months federal imprisonment |
 | **Document Type** | Editorial analysis of federal court records |
 | **Sources** | *United States v. Keith Raniere, et al.*, Case No. 18-CR-204 (E.D.N.Y.) |
-| **Continuum Layer** | Layer 5: Parallel Cases |
 | **Network** | NXIVM |
 
 ---
@@ -104,14 +103,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Keith Raniere | 5 | Financial supporter | Court records |
-| NXIVM | 5 | Financial backer | Court records |
-| Sara Bronfman | 5 | Sister, NXIVM involvement | Public record |
-| Seagram Company | 3 | Family wealth source | Public record |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Keith Raniere](/briefs/keith-raniere.html) | Financial supporter | Court records |
+| [NXIVM](/briefs/nxivm-case.html) | Financial backer | Court records |
+| Sara Bronfman | Sister, NXIVM involvement | Public record |
+| Seagram Company | Family wealth source | Public record |
 
 ---
 

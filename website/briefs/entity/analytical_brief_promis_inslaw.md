@@ -19,7 +19,6 @@
 | **Status** | Congressional investigation concluded 1992; no criminal prosecutions |
 | **Document Type** | Editorial analysis of congressional investigation records |
 | **Primary Sources** | House Judiciary Committee Report #102-857, "The INSLAW Affair" (September 10, 1992) |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -32,7 +31,7 @@ The INSLAW affair was the subject of a three-year congressional investigation th
 
 ## Executive Summary
 
-**Editorial Assessment:** The PROMIS/INSLAW affair represents one of the most significant alleged intelligence-related scandals of the 1980s. The case centers on PROMIS (Prosecutors Management Information System) software developed by INSLAW Inc. and allegations that the Department of Justice stole the software and distributed it, with modifications, to foreign governments and intelligence agencies. The House Judiciary Committee concluded after a three-year investigation that DOJ engaged in fraud against INSLAW. In our view, this case provides documented evidence of the intersection between government agencies, intelligence operations, and private enterprise that characterizes Layer 2 of The Continuum.
+**Editorial Assessment:** The PROMIS/INSLAW affair represents one of the most significant alleged intelligence-related scandals of the 1980s. The case centers on PROMIS (Prosecutors Management Information System) software developed by INSLAW Inc. and allegations that the Department of Justice stole the software and distributed it, with modifications, to foreign governments and intelligence agencies. The House Judiciary Committee concluded after a three-year investigation that DOJ engaged in fraud against INSLAW. In our view, this case provides documented evidence of the intersection between government agencies, intelligence operations, and private enterprise that characterizes Intelligence Operations of The Continuum.
 
 ---
 
@@ -110,7 +109,7 @@ The congressional report found:
 
 **Regarding the lack of prosecutions:** Despite congressional findings of fraud and misconduct, no criminal prosecutions resulted from the INSLAW investigation. This lack of accountability is notable given the severity of the findings.
 
-**Our editorial judgment:** The PROMIS/INSLAW affair represents a documented case where congressional investigation found government misconduct involving software theft and potential intelligence agency involvement. The case connects to Layer 1 through the alleged involvement of Robert Maxwell (father of Ghislaine Maxwell). In our view, this case exemplifies the type of intelligence-related operation that characterizes Layer 2 of The Continuum.
+**Our editorial judgment:** The PROMIS/INSLAW affair represents a documented case where congressional investigation found government misconduct involving software theft and potential intelligence agency involvement. The case connects to the Epstein Network through the alleged involvement of Robert Maxwell (father of Ghislaine Maxwell). In our view, this case exemplifies the type of intelligence-related operation that characterizes Intelligence Operations of The Continuum.
 
 ---
 
@@ -130,18 +129,18 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
 *This section identifies connections to other layers of The Continuum.*
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Robert Maxwell | 2 | Alleged PROMIS distribution | Secondary sources |
-| CIA | 2 | Alleged involvement | Congressional testimony |
-| DOJ | 2 | Congressional findings of misconduct | House Judiciary Report |
-| Mossad | 2 | Alleged involvement | Ben-Menashe affidavit |
-| Earl Brian | 2 | Deposition testimony | Congressional record |
-| Ghislaine Maxwell | 1 | Via Robert Maxwell family connection | Inference |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Robert Maxwell](/briefs/robert-maxwell.html) | Alleged PROMIS distribution | Secondary sources |
+| [CIA](/briefs/cia.html) | Alleged involvement | Congressional testimony |
+| DOJ | Congressional findings of misconduct | House Judiciary Report |
+| [Mossad](/briefs/mossad.html) | Alleged involvement | Ben-Menashe affidavit |
+| Earl Brian | Deposition testimony | Congressional record |
+| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Via Robert Maxwell family connection | Inference |
 
 ---
 
@@ -171,7 +170,6 @@ This brief is based on the following sources:
 - Complete congressional hearing transcripts
 - Original affidavits from Riconosciuto and Ben-Menashe
 - DOJ internal records and responses
-- Classified intelligence documents (if any exist)
 - INSLAW bankruptcy court records
 
 **Important limitation:** The congressional investigation examined allegations but made findings only regarding DOJ misconduct against INSLAW. Allegations regarding intelligence distribution and foreign government involvement were examined but not conclusively established.

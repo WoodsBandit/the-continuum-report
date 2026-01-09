@@ -41,7 +41,7 @@ The Palm Beach Police Department's 2005-2006 investigation into Jeffrey Epstein 
 ### Key Personnel
 
 | Name | Role | Period | Status |
-|------|------|--------|--------|
+|-----------------|-----------------|--------|
 | Michael Reiter | Chief of Police | 2005-2006 investigation | Never charged; retired |
 | Joseph Recarey | Lead Detective | 2005-2006 investigation | Never charged; deceased May 2018 |
 

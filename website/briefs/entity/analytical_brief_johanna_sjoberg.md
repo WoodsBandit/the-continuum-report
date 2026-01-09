@@ -19,7 +19,6 @@
 | **Status** | Alleged victim; provided deposition testimony |
 | **Document Type** | Editorial analysis of deposition testimony |
 | **Sources** | *Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.) |
-| **Continuum Layer** | Layer 1: Epstein Core (Victim/Witness) |
 | **Network** | Epstein Network |
 
 ---
@@ -98,13 +97,13 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Alleged perpetrator | Court records |
-| Ghislaine Maxwell | 1 | Alleged recruiter | Deposition testimony |
-| Virginia Giuffre | 1 | Fellow alleged victim | Court records |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Alleged perpetrator | Court records |
+| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Alleged recruiter | Deposition testimony |
+| [Virginia Giuffre](/briefs/virginia-giuffre.html) | Fellow alleged victim | Court records |
 
 ---
 

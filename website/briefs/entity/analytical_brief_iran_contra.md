@@ -19,7 +19,6 @@
 | **Status** | Congressional investigation concluded November 1987; criminal convictions obtained; presidential pardons issued 1992 |
 | **Document Type** | Editorial analysis of joint congressional committee investigation |
 | **Primary Sources** | Report of the Congressional Committees Investigating the Iran-Contra Affair (November 1987), H. Rept. No. 100-433, S. Rept. No. 100-216 |
-| **Continuum Layer** | Layer 2: Intelligence Operations |
 | **Network** | Intelligence |
 
 ---
@@ -149,17 +148,17 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
 *This section identifies connections to other layers of The Continuum.*
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| CIA | 2 | Operational support | Congressional Report |
-| BCCI | 2-3 | Contemporary operations | Secondary analysis |
-| PROMIS/INSLAW | 2 | Contemporary period | Secondary analysis |
-| NSC | 2 | Institutional base | Congressional Report |
-| Enterprise operators | 2 | Covert network | Congressional Report |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [CIA](/briefs/cia.html) | Operational support | Congressional Report |
+| [BCCI](/briefs/bcci.html) | Contemporary operations | Secondary analysis |
+| [PROMIS/INSLAW](/briefs/promis-inslaw-case.html) | Contemporary period | Secondary analysis |
+| NSC | Institutional base | Congressional Report |
+| Enterprise operators | Covert network | Congressional Report |
 
 ---
 
@@ -196,7 +195,6 @@ This brief is based on the following sources:
 
 **What we did not review:**
 - Complete hearing transcripts (11 weeks of public hearings)
-- Classified appendices
 - Independent Counsel investigation files
 - Complete depositions and exhibits
 - Foreign government documents

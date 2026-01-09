@@ -19,7 +19,6 @@
 | **Status** | Arrested December 2020 (France); died in custody February 2022 |
 | **Document Type** | Editorial analysis of civil litigation records |
 | **Sources** | *Giuffre v. Maxwell*, No. 15-cv-07433-LAP (S.D.N.Y.); Flight logs |
-| **Continuum Layer** | Layer 1: Epstein Core |
 | **Network** | Epstein Network |
 
 ---
@@ -133,14 +132,14 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Close associate | Court filings |
-| Ghislaine Maxwell | 1 | Network connection | Flight logs |
-| MC2 Model Management | 1 | Business founded with Epstein funding | Published accounts |
-| Flight logs | 1 | Multiple appearances | Epstein flight records |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Close associate | Court filings |
+| [Ghislaine Maxwell](/briefs/ghislaine-maxwell.html) | Network connection | Flight logs |
+| MC2 Model Management | Business founded with Epstein funding | Published accounts |
+| Flight logs | Multiple appearances | Epstein flight records |
 
 ---
 

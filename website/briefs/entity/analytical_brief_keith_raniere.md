@@ -19,7 +19,6 @@
 | **Status** | Convicted June 2019; serving 120-year federal sentence |
 | **Document Type** | Editorial analysis of federal court records |
 | **Primary Sources** | United States v. Keith Raniere, Case No. 18-CR-204 (E.D.N.Y.) |
-| **Continuum Layer** | Layer 5: Parallel Cases |
 | **Network** | Parallel Blackmail Operations |
 
 ---
@@ -130,13 +129,13 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| NXIVM Case | 5 | Subject of prosecution | Federal court records |
-| Clare Bronfman | 5 | Financial enabler | Federal court records |
-| Allison Mack | 5 | Co-defendant | Federal court records |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [NXIVM Case](/briefs/nxivm-case.html) | Subject of prosecution | Federal court records |
+| [Clare Bronfman](/briefs/clare-bronfman.html) | Financial enabler | Federal court records |
+| [Allison Mack](/briefs/allison-mack.html) | Co-defendant | Federal court records |
 
 ---
 

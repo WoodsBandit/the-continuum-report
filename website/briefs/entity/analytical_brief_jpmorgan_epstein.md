@@ -19,7 +19,6 @@
 | **Status** | USVI case settled June 2023 ($75 million); Jane Doe case settled June 2023 ($290 million) |
 | **Document Type** | Editorial analysis of federal court complaint |
 | **Primary Sources** | Government of the U.S. Virgin Islands v. JPMorgan Chase Bank, N.A., Case No. 1:22-cv-10904 (S.D.N.Y.) |
-| **Continuum Layer** | Layer 3: Financial Networks |
 | **Network** | Financial |
 
 ---
@@ -32,7 +31,7 @@ The U.S. Virgin Islands filed suit against JP Morgan Chase alleging the bank "kn
 
 ## Executive Summary
 
-**Editorial Assessment:** The USVI v. JP Morgan case represents one of the most significant documented connections between established financial institutions and the Epstein trafficking operation. The complaint alleges JP Morgan maintained Epstein as a client for over a decade despite documented warning signs of criminal activity, and that "human trafficking was the principal business of the accounts Epstein maintained at JP Morgan." In our assessment, this case provides documented evidence linking Layer 1 (Epstein Core) to Layer 3 (Financial Networks) through specific allegations of financial facilitation of trafficking. The settlements totaling $365 million, while not admissions of liability, reflect the severity of the allegations.
+**Editorial Assessment:** The USVI v. JP Morgan case represents one of the most significant documented connections between established financial institutions and the Epstein trafficking operation. The complaint alleges JP Morgan maintained Epstein as a client for over a decade despite documented warning signs of criminal activity, and that "human trafficking was the principal business of the accounts Epstein maintained at JP Morgan." In our assessment, this case provides documented evidence linking the Epstein Network to Financial Networks through specific allegations of financial facilitation of trafficking. The settlements totaling $365 million, while not admissions of liability, reflect the severity of the allegations.
 
 ---
 
@@ -92,7 +91,7 @@ JP Morgan settled the USVI case for $75 million in June 2023. The bank also sett
 
 **Regarding the broader network:** In our assessment, the JP Morgan case demonstrates how financial institutions can enable criminal enterprises through inaction. The complaint's characterization of "human trafficking" as "the principal business" of Epstein's JP Morgan accounts is significant. If accurate, this means a major U.S. bank processed transactions that were primarily related to trafficking.
 
-**Our editorial judgment:** The USVI v. JP Morgan case provides some of the most detailed public documentation of the financial infrastructure supporting Epstein's operation. While the settlements do not establish legal liability, they establish that JP Morgan considered its exposure serious enough to pay $365 million to resolve the claims. This case is central to understanding Layer 3 (Financial Networks) of The Continuum.
+**Our editorial judgment:** The USVI v. JP Morgan case provides some of the most detailed public documentation of the financial infrastructure supporting Epstein's operation. While the settlements do not establish legal liability, they establish that JP Morgan considered its exposure serious enough to pay $365 million to resolve the claims. This case is central to understanding Financial Networks of The Continuum.
 
 ---
 
@@ -112,16 +111,16 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ---
 
-## Cross-Network Connections
+## Connections
 
 *This section identifies connections to other layers of The Continuum.*
 
-| Connected Entity | Layer | Connection Type | Source |
-|-----------------|-------|-----------------|--------|
-| Jeffrey Epstein | 1 | Banking client | USVI Complaint |
-| Jane Doe victims | 1 | Alleged facilitation | Class action |
-| Bank Secrecy Act | 3 | Alleged violations | USVI Complaint |
-| USVI Government | 3 | Enforcement action | Federal filing |
+| Connected Entity | Connection Type | Source |
+|-----------------|-----------------|--------|
+| [Jeffrey Epstein](/briefs/jeffrey-epstein.html) | Banking client | USVI Complaint |
+| Jane Doe victims | Alleged facilitation | Class action |
+| Bank Secrecy Act | Alleged violations | USVI Complaint |
+| USVI Government | Enforcement action | Federal filing |
 
 ---
 
