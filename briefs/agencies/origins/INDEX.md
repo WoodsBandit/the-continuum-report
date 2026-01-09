@@ -1,7 +1,8 @@
 # FEDERAL AGENCY ORIGIN STORIES INDEX
 
 **Created:** January 7, 2026
-**Status:** 15 of 83 agencies completed (18%)
+**Last Updated:** January 8, 2026
+**Status:** 26 of 83 agencies completed (31%)
 
 ---
 
@@ -27,33 +28,61 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 | EPA | William Ruckelshaus, (Rachel Carson influence) | 1970 | Unknown | Republican | `epa-origin.md` |
 | DHS | Tom Ridge, George W. Bush, Joseph Lieberman | 2002 | Catholic (Ridge), Orthodox Jewish (Lieberman) | Bipartisan | `dhs-origin.md` |
 
-### Batch 3: Other Key Agencies
+### Batch 3: Civil War & Reconstruction Era
 | Agency | Founder(s) | Year | Religion | Politics | File |
 |--------|-----------|------|----------|----------|------|
-| Peace Corps | JFK, Sargent Shriver | 1961 | Roman Catholic | Democratic | `peace-corps-origin.md` |
-| TVA | George Norris, FDR, Arthur Morgan | 1933 | Social Gospel (A. Morgan) | Progressive/Democratic | `tva-origin.md` |
-| IRS | George Boutwell, Abraham Lincoln | 1862 | Unknown | Republican/Abolitionist | `irs-origin.md` |
-| DOJ | Amos Akerman, Ulysses Grant | 1870 | Unknown | Republican/Reconstruction | `doj-origin.md` |
 | USPS | Benjamin Franklin | 1775/1792 | Deist | Founding Era | `usps-origin.md` |
+| IRS | George Boutwell, Abraham Lincoln | 1862 | Unknown | Republican/Abolitionist | `irs-origin.md` |
+| USDA | Isaac Newton, Abraham Lincoln | 1862 | Unknown | Republican | `usda-origin.md` |
+| Interior | Thomas Ewing Sr., Zachary Taylor | 1849 | Presbyterian→Catholic | Whig | `interior-origin.md` |
+| DOJ | Amos Akerman, Ulysses Grant | 1870 | Unknown | Republican/Reconstruction | `doj-origin.md` |
+
+### Batch 4: Progressive & Early 20th Century
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| Commerce | George B. Cortelyou, Theodore Roosevelt | 1903 | Unknown | Republican | `commerce-origin.md` |
+| Labor | William B. Wilson, Woodrow Wilson | 1913 | Not Catholic (worked with Catholics) | Democratic/Labor | `labor-origin.md` |
+| TVA | George Norris, FDR, Arthur Morgan | 1933 | Social Gospel (A. Morgan) | Progressive/Democratic | `tva-origin.md` |
+| Peace Corps | JFK, Sargent Shriver | 1961 | Roman Catholic | Democratic | `peace-corps-origin.md` |
+
+### Batch 5: Post-WWII Cabinet Departments
+| Agency | Founder(s) | Year | Religion | Politics | File |
+|--------|-----------|------|----------|----------|------|
+| Defense | James Forrestal, Harry Truman | 1947 | Lapsed Catholic | Democratic (non-New Deal) | `defense-origin.md` |
+| HHS/HEW | Oveta Culp Hobby, Eisenhower | 1953 | Episcopalian | Republican (ex-Democrat) | `hhs-origin.md` |
+| HUD | Robert C. Weaver, LBJ | 1965 | Unknown | Democratic/Civil Rights | `hud-origin.md` |
+| DOT | Alan S. Boyd, LBJ | 1966 | Unknown | Democratic | `dot-origin.md` |
+| Energy | James Schlesinger, Jimmy Carter | 1977 | Unknown | Republican (serving Democrat) | `energy-origin.md` |
+| Education | Shirley Hufstedler, Jimmy Carter | 1979 | Unknown | Democratic/Liberal | `education-origin.md` |
+| VA | Edward Derwinski, George H.W. Bush | 1989 | Polish Catholic | Republican | `va-origin.md` |
 
 ---
 
 ## KEY FINDINGS
 
 ### Religious Backgrounds of Agency Founders
-- **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps)
-- **Presbyterian:** Woodrow Wilson (Fed), Allen Dulles (CIA)
+- **Roman Catholic:** Charles Bonaparte (FBI), Joseph Kennedy (SEC), Tom Ridge (DHS), JFK/Shriver (Peace Corps), Derwinski (VA)
+- **Presbyterian:** Woodrow Wilson (Fed), Allen Dulles (CIA), Thomas Ewing Sr. (Interior - converted to Catholic)
 - **Deist:** Thomas Jefferson (State), Benjamin Franklin (USPS)
-- **Episcopalian:** Frances Perkins (SSA)
+- **Episcopalian:** Frances Perkins (SSA), Oveta Culp Hobby (HHS)
 - **Jewish:** Paul Warburg (Fed), Joseph Lieberman (DHS)
 - **Social Gospel/Humanist:** Arthur Morgan (TVA)
-- **Unknown/Not Documented:** Alexander Hamilton, many others
+- **Lapsed Catholic:** James Forrestal (Defense) - raised strict Catholic but drifted away
+- **Unknown/Not Documented:** Many others including Hamilton, Lincoln officials, Carter appointees
 
 ### Political Patterns
-- **Progressive Republicans:** Theodore Roosevelt (FBI), George Norris (TVA), William Ruckelshaus (EPA)
+- **Progressive Republicans:** Theodore Roosevelt (FBI, Commerce), George Norris (TVA), William Ruckelshaus (EPA)
 - **New Deal Democrats:** FDR (multiple), Frances Perkins (SSA), Joseph Kennedy (SEC)
-- **Cold War Bipartisanship:** CIA, NASA, DHS
+- **Cold War Bipartisanship:** CIA, NASA, DHS, Defense
 - **Founding Era Federalist/Anti-Federalist:** Hamilton (Treasury) vs. Jefferson (State)
+- **Great Society Democrats:** LBJ appointees (HUD, DOT)
+- **Cross-Party Appointments:** Schlesinger (R) by Carter (D), Hobby (ex-D) by Eisenhower (R)
+
+### Historical "Firsts"
+- **Robert Weaver (HUD):** First African American Cabinet Secretary
+- **Frances Perkins (SSA/Labor):** First woman in Cabinet
+- **Oveta Culp Hobby (HHS):** Second woman in Cabinet; first in Republican administration
+- **Shirley Hufstedler (Education):** Highest-ranking woman in federal judiciary at appointment
 
 ### Views on Constitution/America
 - **Hamilton:** 51 Federalist Papers; strong central government; implied powers
@@ -61,13 +90,11 @@ Each file documents: Who founded it, whose idea was it, founder backgrounds, rel
 - **Boutwell (IRS):** Abolitionist; "he who would be no slave, must consent to have no slave"
 - **Akerman (DOJ):** Former Confederate turned civil rights champion; prosecuted KKK
 - **Kennedy (Peace Corps):** Counter "Ugly American"; service and sacrifice
+- **William B. Wilson (Labor):** Scottish immigrant miner who became labor advocate
 
 ---
 
-## PENDING ORIGIN STORIES (68 agencies)
-
-### Cabinet Departments
-- USDA, Interior, Labor, Commerce, HHS, Education, HUD, DOT, Energy, VA
+## PENDING ORIGIN STORIES (57 agencies)
 
 ### Intelligence Community
 - NSA, DIA, NRO, NGA, ODNI
