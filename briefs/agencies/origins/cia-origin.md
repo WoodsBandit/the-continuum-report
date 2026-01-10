@@ -49,7 +49,7 @@ National Security Act of 1947
 - **Party:** Republican
 - **Philosophy:** Active in Republican politics in 1930s
 - **Cold War View:** May 1941 - urged U.S. to enter WWII out of "enlightened selfishness"
-- **Approach:** Saw clandestine activities as essential part of struggle against communism, "even if it did not always comply with the law"
+- **Approach:** Saw clandestine activities as essential part of struggle against communism, "even if it did not always comply with the law" (per SourceWatch characterization of documented CIA operations under his leadership)
 
 #### Role in CIA
 - October 1941: Recruited by Donovan to OSS

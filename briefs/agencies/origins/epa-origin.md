@@ -50,8 +50,8 @@ Reorganization Plan No. 3 of 1970 (executive reorganization approved by Congress
 - EPA created 90 days before it had to operate
 
 #### Politics and Environment
-- "Nixon was largely indifferent to environmental issues but sensitive about his own popularity"
-- "Succumbed to public pressure" for environmental action
+- Per Karen Hao (The New Republic): "Nixon was largely indifferent to environmental issues but sensitive about his own popularity"
+- "Succumbed to public pressure" for environmental action (based on EPA oral history interviews)
 - Strategic calculation: Co-opted environmental movement before Democrats could claim it
 
 ---
