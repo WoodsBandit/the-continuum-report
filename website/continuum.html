@@ -2323,7 +2323,7 @@
         <span class="layer-separator" id="theologySeparator" style="display: none;">›</span>
         <span class="layer-crumb active" data-level="macro" title="View macro categories">MACRO</span>
         <span class="layer-separator">›</span>
-        <span class="layer-crumb" data-level="entities" title="View entities">[CATEGORY]</span>
+        <span class="layer-crumb" data-level="entities" title="View entities">ENTITIES</span>
         <span class="layer-separator">›</span>
         <span class="layer-crumb" data-level="web" title="View connections">[ENTITY]</span>
     </div>
@@ -4161,6 +4161,12 @@
                     }
                 }
 
+                // FIX: Set default category when navigating to entities level
+                // This ensures breadcrumb shows "PEOPLE" instead of "[CATEGORY]" placeholder
+                if (level === 'entities' && !this.selectedCategory) {
+                    this.selectedCategory = 'people';
+                }
+
                 this.transitionToLevel(level);
             },
 
@@ -4177,8 +4183,8 @@
                         if (level === 'macro') {
                             crumb.textContent = 'MACRO';
                         } else if (level === 'entities') {
-                            // Show selected category or placeholder
-                            crumb.textContent = this.selectedCategory ? this.selectedCategory.toUpperCase() : '[CATEGORY]';
+                            // Show selected category or generic label
+                            crumb.textContent = this.selectedCategory ? this.selectedCategory.toUpperCase() : 'ENTITIES';
                         } else if (level === 'web') {
                             // Show focused entity name or placeholder
                             crumb.textContent = this.focusedEntity?.name || '[ENTITY]';

@@ -64,7 +64,7 @@
 |--------|------|--------|-------|
 | [ ] | Fix Cloudflare tunnel stability | BUG_REPORT_2026-01-04 | Site frequently returns Error 1033 |
 | [ ] | Create /sources/ route | BUG_REPORT_2026-01-04 | Main nav link returns 404 |
-| [ ] | Update copyright year to 2026 | BUG_REPORT_2026-01-04 | All pages show 2025 |
+| [x] | Update copyright year to 2026 | BUG_REPORT_2026-01-04 | Verified already 2026 (Session 22) |
 | [ ] | Add mobile nav to legal.html | BUG_REPORT_2026-01-04 | Missing hamburger menu |
 
 ---
@@ -146,6 +146,9 @@
 
 | Completed | Task | Verified By |
 |-----------|------|-------------|
+| 2026-01-08 | Breadcrumb `[CATEGORY]` placeholder bug fix | Session 22 |
+| 2026-01-08 | Copyright year already 2026 (verified, no fix needed) | Session 22 |
+| 2026-01-08 | PDF links already have `target="_blank"` (verified, no fix needed) | Session 22 |
 | 2026-01-05 | Website bug fixes FIX01-FIX14 (14 issues resolved) | Session 16 |
 | 2026-01-05 | Binary connection model implementation (removed all strength scoring) | Session 12 |
 | 2026-01-05 | Server automation cleanup (disabled cron jobs, improved scripts) | Session 13 |
@@ -196,15 +199,15 @@
 
 | Category | Count |
 |----------|-------|
-| Critical Priority | 3 (1 fixed) |
+| Critical Priority | 3 (2 fixed, 1 verified ok) |
 | High Priority | 8 |
 | Medium Priority | 14 |
 | Low Priority / Backlog | 14+ |
-| Completed (tracked) | 18 |
+| Completed (tracked) | 21 |
 | Blocked | 3 |
-| **Total Outstanding** | **39+** |
+| **Total Outstanding** | **36+** |
 
 ---
 
 *This document should be updated by every Claude session that completes or discovers tasks.*
-*Last Updated: 2026-01-05 (Session 16)*
+*Last Updated: 2026-01-08 (Session 22)*

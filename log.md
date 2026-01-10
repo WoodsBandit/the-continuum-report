@@ -2,12 +2,151 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-07 (Session 19)
+**Last Updated:** 2026-01-08 (Session 22)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-08 — Session 22: Breadcrumb Bug Fix Implementation
+
+**Operator:** WoodsBandit
+**Duration:** ~30 minutes
+**Primary Task:** Fix P0 breadcrumb `[CATEGORY]` placeholder bug from Session 21 audit
+
+#### Summary
+
+Implemented fix for the breadcrumb placeholder bug identified in Session 21. The issue was that the breadcrumb showed `[CATEGORY]` instead of meaningful text when no category was selected. Root cause: `updateLayerIndicator()` was called before `selectedCategory` was set during transitions.
+
+#### Changes Made
+
+**File:** `\\192.168.1.139\continuum\website\continuum.html`
+
+1. **Line 2326:** Changed initial HTML placeholder from `[CATEGORY]` to `ENTITIES`
+   ```html
+   <span class="layer-crumb" data-level="entities">ENTITIES</span>
+   ```
+
+2. **Lines 4164-4168:** Added default category logic in `navigateToLevel()`:
+   ```javascript
+   // FIX: Set default category when navigating to entities level
+   if (level === 'entities' && !this.selectedCategory) {
+       this.selectedCategory = 'people';
+   }
+   ```
+
+3. **Line 4187:** Changed JavaScript fallback from `'[CATEGORY]'` to `'ENTITIES'`
+
+#### Testing Results
+
+| Scenario | Before | After |
+|----------|--------|-------|
+| Initial page load | `[CATEGORY]` | `ENTITIES` ✓ |
+| Click macro box | Shows category | `PEOPLE` ✓ |
+| Navigate via breadcrumb | `[CATEGORY]` | `PEOPLE` (defaults correctly) ✓ |
+
+#### Session 21 P0 Bug Status
+
+| Bug | Status |
+|-----|--------|
+| Breadcrumb `[CATEGORY]` placeholder | ✅ **FIXED** |
+| PDF links don't open in new tab | Already fixed (has `target="_blank"`) |
+
+#### Next from Session 21 Audit
+
+- [ ] Sync connections from briefs to connections.json (P1)
+- [ ] Rename "Zoom to Documents" to "View Source Documents" (P1)
+- [ ] Add timeout + error handling to brief loading (P1)
+
+---
+
+### 2026-01-08 — Session 21: Comprehensive Site Audit & Strategic Brainstorm
+
+**Operator:** WoodsBandit
+**Duration:** ~1.5 hours
+**Primary Task:** Full site review via Chrome, bug identification, strategic brainstorming
+
+#### Summary
+
+Deep audit of thecontinuumreport.com using Chrome browser automation. Reviewed all major pages (Homepage, Continuum, Sources), tested entity interactions, brief loading, navigation behavior. Compiled comprehensive findings covering bugs, areas of consideration, pivot points, document handling issues, and roadmap recommendations.
+
+#### Bugs Found
+
+**Critical (P0):**
+| Bug | Impact | Fix |
+|-----|--------|-----|
+| PDF links don't open in new tab | Users lose place in Continuum when viewing docs | Add `target="_blank" rel="noopener"` |
+| Breadcrumb shows `[CATEGORY]` placeholder | Confusing UX on MACRO view | Update breadcrumb logic |
+
+**High (P1):**
+| Bug | Impact | Fix |
+|-----|--------|-----|
+| Multiple entities show 0 connections | William Casey, Meyer Lansky, Oliver North, Roy Cohn | Sync briefs to connections.json |
+| Brief loading sometimes slow/stuck | Extended "Loading..." state | Add timeout + error handling |
+| "Zoom to Documents" unclear naming | Users may not understand | Rename to "View Source Documents" |
+
+**Medium (P2):**
+- Copyright year shows 2025 (should be 2026)
+- Keyboard shortcuts (Ctrl+H, 1, 2, 3) not discoverable
+
+#### Areas of Consideration
+
+1. **Content Architecture:** 288 briefs exist, only 40 in manifest — is this the right ratio?
+2. **Connection sync:** Briefs list connections not in connections.json
+3. **Trust signals:** Source links need verification; Alternative Interpretations compliance check needed
+4. **UX improvements:** Click-outside-to-close, mobile nav, entity name truncation
+
+#### Pivot Point Suggestions
+
+| Pivot | Rationale |
+|-------|-----------|
+| Broaden beyond Epstein | NXIVM, BCCI already partially present |
+| Financial enablers deep dive | $1.365B+ bank penalties = strong documentation |
+| Agency Origin Stories | 15/83 complete; unique differentiator |
+| Intelligence connections | CIA theme started (18/150+ docs) |
+
+#### Document Handling Issues
+
+- **DOJ 33k OCR backlog** — 33,564 image-based PDFs blocking research
+- **Paperless queue** — 13,557 pending from Session 7
+- **Citation gaps** — Briefs reference docs but links may not resolve
+
+#### Roadmap Recommendations
+
+**Immediate:**
+- [ ] Fix PDF links to open in new tabs
+- [ ] Fix breadcrumb placeholder
+- [ ] Sync connections from briefs
+- [ ] Update copyright year
+
+**Short-term:**
+- [ ] Remove "Layer" terminology from briefs
+- [ ] Click-outside-to-close for brief panel
+- [ ] Audit briefs for 5-7 Alternative Interpretations
+- [ ] Rename "Zoom to Documents"
+
+**Medium-term:**
+- [ ] Complete DOJ 33k OCR
+- [ ] Finish Agency Origin Stories (68 remaining)
+- [ ] Timeline visualization
+- [ ] Full-text search
+
+#### What's Working Well
+
+- Visual design (dark purple/gold theme)
+- Legal framework (Milkovich protection)
+- Source hosting (local PDFs build trust)
+- Zoom Framework (MACRO → ENTITIES → WEB)
+- Brief structure (opinion/fact separation)
+- Sources page (70 docs, searchable)
+
+#### Session Notes
+
+- Session 20 running concurrently in another terminal
+- User feedback: "Zoom to Documents" button unclear; PDF links should open new tabs
+
+---
 
 ### 2026-01-07 — Session 19: Agency Origin Stories
 
@@ -1167,6 +1306,117 @@ Successfully consolidated name variants:
 - [ ] Full extraction from financial-enablers, cia-history, regulatory-actions
 - [ ] Strategic sampling of DOJ 33k collection
 - [ ] Relationship mapping from extracted entities
+
+---
+
+### 2026-01-08 — Session 20: Site Audit & UX Review
+
+**Operator:** WoodsBandit
+**Primary Task:** Full site audit, bug fixes, UX feedback review
+
+#### Bugs Fixed This Session
+
+| Issue | Root Cause | Fix | Commit |
+|-------|-----------|-----|--------|
+| Macro category boxes invisible | D3 inline `opacity:0` overriding CSS | Added `!important` CSS rule | `ae06ada` |
+| Zero entities when clicking categories | Property mismatch `e.brief` vs `e.brief_file` | Changed filter to `e.brief_file` | `2766cae` |
+| 3 entities missing from hierarchy | Not in entityParents mapping | Added jpmorgan-chase-bank, us-treasury, san-francisco | `b7c19d9` |
+
+#### User Feedback — Issues to Address
+
+**Priority 1: Data Sync Issues**
+1. **Connection count mismatch** — William Casey shows connections in brief's "Cross-Network Connections" but 0 connections on webpage. Brief connections not synced to connections.json
+2. **Source hyperlinks missing** — Briefs list sources without clickable hyperlinks (e.g., William Casey)
+
+**Priority 2: Brief Content Cleanup**
+3. **Remove "Layer" terminology** — Appears in:
+   - Document Classification section
+   - Cross-Network Connections section
+   - Executive summaries (e.g., CIA brief)
+   - Must be removed from ALL briefs
+4. **Rename section** — "Cross-Network Connections" → just "Connections"
+5. **Remove repetitive elements** — Audit briefs for redundant content
+6. **"What we did not review"** — Remove "classified records" (it's a given), add remaining items to acquisition list
+
+**Priority 3: Hyperlink Enhancements**
+7. **Connected Entity links** — Entity names in Connections section should hyperlink to their briefs
+8. **Source document links** — "What we reviewed" should have hyperlinked source documents
+
+**Priority 4: UI/UX Improvements**
+9. **Click outside to close** — Clicking outside brief window should close it
+10. **Layer navigation closes panel** — Going back to previous layer should close summary overview
+
+---
+
+#### Brainstorm: Solutions
+
+**Connection Sync Issue (#1)**
+```
+Option A: Auto-generate connections.json from briefs
+- Parse "Connections" section of each brief
+- Extract entity relationships
+- Rebuild connections.json from authoritative brief data
+- Pro: Single source of truth (briefs)
+- Con: Requires parsing markdown
+
+Option B: Bidirectional sync script
+- Compare brief connections vs connections.json
+- Flag mismatches for manual review
+- Pro: Catches errors
+- Con: Manual intervention needed
+
+RECOMMENDED: Option A with validation
+```
+
+**Remove "Layer" Terminology (#3, #4)**
+```
+Solution: Batch find-replace across all briefs
+1. Find: "Layer" in Document Classification → Replace with category name
+2. Find: "Cross-Network Connections" → Replace: "Connections"
+3. Grep all briefs for remaining "layer" mentions
+4. Manual review of executive summaries
+
+Script approach:
+- sed -i 's/Cross-Network Connections/Connections/g' *.md
+- Manual review for context-dependent "layer" usage
+```
+
+**Source Hyperlinks (#2, #7, #8)**
+```
+Solution: Brief template enhancement
+1. Define hyperlink format: [ECF 1234-5](/sources/ecf/1234-5.pdf)
+2. Create source URL resolver function
+3. Update briefs with actual hyperlinks
+4. For missing sources: add to acquisition list
+
+For Connected Entity links:
+- Format: [Entity Name](/briefs/entity-id.html)
+- Auto-generate during brief build process
+```
+
+**UI/UX Fixes (#9, #10)**
+```
+Solution: JavaScript event handlers
+
+Click outside to close:
+- Add click handler on overlay/backdrop
+- Check if click target is outside modal
+- Call closeBrief() function
+
+Layer navigation closes panel:
+- In handleBreadcrumbClick() or similar
+- Add closeBriefPanel() before level transition
+```
+
+#### Files to Modify
+
+| File | Changes Needed |
+|------|----------------|
+| `website/briefs/entity/*.md` | Remove "Layer", add hyperlinks |
+| `website/data/connections.json` | Sync with brief connections |
+| `website/continuum.html` | UI/UX click handlers |
+| `scripts/build_briefs.py` (new) | Auto-hyperlink generation |
+| `scripts/sync_connections.py` (new) | Brief→connections sync |
 
 ---
 

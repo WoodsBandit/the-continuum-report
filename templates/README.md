@@ -12,6 +12,8 @@
 |----------|---------|----------------|
 | `analytical-brief.md` | Full entity brief (person, org, case) | 1500-3000 words |
 | `connection-brief.md` | Relationship documentation between two entities | 800-1500 words |
+| `summary-connections-brief.md` | Aggregate all connections for one entity | 1500-4000 words |
+| `agency-brief.md` | US executive agency documentation | 1500-2500 words |
 | `opinion-narrative-short.md` | Quick-read editorial on specific topic/event | 500-1000 words |
 | `opinion-narrative-long.md` | In-depth thematic analysis | 2000-5000 words |
 
@@ -25,6 +27,8 @@ When creating new documents, reference these exemplary briefs:
 |---------------|----------------------|
 | Analytical Brief | `analytical_brief_jeffrey_epstein.md` |
 | Connection Brief | `ghislaine-maxwell_jeffrey-epstein.md` |
+| Summary Connections | `jeffrey-epstein_connections.md` |
+| Agency Brief | `analytical_brief_cia.md` |
 
 ---
 
@@ -101,7 +105,9 @@ Before publishing any document:
 | Type | Convention | Example |
 |------|------------|---------|
 | Analytical Brief | `analytical_brief_[subject].md` | `analytical_brief_jeffrey_epstein.md` |
-| Connection Brief | `[entity-a]_[entity-b].md` | `ghislaine-maxwell_jeffrey-epstein.md` |
+| Connection Brief (pair) | `[entity-a]_[entity-b].md` | `ghislaine-maxwell_jeffrey-epstein.md` |
+| Summary Connections | `[entity-slug]_connections.md` | `jeffrey-epstein_connections.md` |
+| Agency Brief | `analytical_brief_[agency].md` | `analytical_brief_cia.md` |
 | Opinion Narrative | `[topic]-[date].md` | `wexner-co-conspirator-2025-12-23.md` |
 
 For connection briefs, order entities alphabetically by last name.
