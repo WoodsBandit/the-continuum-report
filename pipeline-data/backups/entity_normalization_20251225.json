@@ -1,0 +1,103 @@
+{
+  "canonical": {
+    "ghislaine-maxwell": {
+      "variants": [
+        "defendant-ghislaine-maxwell",
+        "defendant-maxwell"
+      ],
+      "display_name": "Ghislaine Maxwell",
+      "merged_mention_count": 94,
+      "merged_source_count": 89
+    },
+    "jeffrey-epstein": {
+      "variants": [
+        "defendant-epstein"
+      ],
+      "display_name": "Jeffrey Epstein",
+      "merged_mention_count": 62,
+      "merged_source_count": 61
+    },
+    "virginia-giuffre": {
+      "variants": [
+        "plaintiff-virginia-giuffre"
+      ],
+      "display_name": "Virginia Giuffre",
+      "merged_mention_count": 73,
+      "merged_source_count": 55
+    },
+    "david-boies": {
+      "variants": [],
+      "display_name": "David Boies",
+      "merged_mention_count": 31,
+      "merged_source_count": 27
+    },
+    "brad-edwards": {
+      "variants": [
+        "bradley-edwards"
+      ],
+      "display_name": "Brad Edwards",
+      "merged_mention_count": 27,
+      "merged_source_count": 23
+    },
+    "bill-clinton": {
+      "variants": [
+        "president-clinton"
+      ],
+      "display_name": "Bill Clinton",
+      "merged_mention_count": 27,
+      "merged_source_count": 27
+    },
+    "meredith-schultz": {
+      "variants": [
+        "meridith-schultz"
+      ],
+      "display_name": "Meredith Schultz",
+      "merged_mention_count": 38,
+      "merged_source_count": 36
+    },
+    "stanley-pottinger": {
+      "variants": [
+        "stan-pottinger"
+      ],
+      "display_name": "Stanley Pottinger",
+      "merged_mention_count": 14,
+      "merged_source_count": 14
+    },
+    "north-andrews-avenue": {
+      "variants": [
+        "north-andrews-ave"
+      ],
+      "display_name": "North Andrews Avenue",
+      "merged_mention_count": 34,
+      "merged_source_count": 34
+    },
+    "las-olas-blvd": {
+      "variants": [
+        "las-olas-boulevard"
+      ],
+      "display_name": "Las Olas Boulevard",
+      "merged_mention_count": 33,
+      "merged_source_count": 33
+    },
+    "university-st": {
+      "variants": [
+        "university-street"
+      ],
+      "display_name": "University Street",
+      "merged_mention_count": 35,
+      "merged_source_count": 34
+    }
+  },
+  "lookup": {
+    "defendant-ghislaine-maxwell": "ghislaine-maxwell",
+    "defendant-maxwell": "ghislaine-maxwell",
+    "plaintiff-virginia-giuffre": "virginia-giuffre",
+    "bradley-edwards": "brad-edwards",
+    "president-clinton": "bill-clinton",
+    "meridith-schultz": "meredith-schultz",
+    "stan-pottinger": "stanley-pottinger",
+    "north-andrews-ave": "north-andrews-avenue",
+    "las-olas-boulevard": "las-olas-blvd",
+    "university-street": "university-st"
+  }
+}

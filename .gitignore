@@ -125,3 +125,6 @@ config/ollama/models/
 documents/inbox/
 documents/
 website/sources/
+
+# Exclude document inbox (large PDFs - 18GB+)
+inbox/

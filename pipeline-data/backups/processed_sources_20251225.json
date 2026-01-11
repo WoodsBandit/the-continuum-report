@@ -1,0 +1,6 @@
+{
+  "_schema_version": "1.0",
+  "_description": "Tracks all source documents processed through the pipeline to prevent duplicate processing",
+  "_last_updated": null,
+  "sources": []
+}
