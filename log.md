@@ -2,12 +2,76 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-11 (Session 24)
+**Last Updated:** 2026-01-11 (Session 24b)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-11 — Session 24b: Minimal Directory Structure
+
+**Operator:** WoodsBandit
+**Duration:** ~20 minutes
+**Primary Task:** Eliminate directory confusion and establish minimal structure
+
+#### Summary
+
+Major structural simplification following Session 24's cleanup. Eliminated redundant directories, consolidated documentation, and established single sources of truth.
+
+#### Changes Made
+
+**Briefs Consolidation:**
+- Merged `briefs/` (579 files) into `website/briefs/` (now 524 files)
+- `website/briefs/` is now the SINGLE source of truth for all briefs
+- Old `briefs/` → `_archive/briefs_root_merged/`
+
+**Directory Renames:**
+- `documents/` → `inbox/` (clearer purpose: PDFs awaiting Paperless)
+- `indexes/` → `pipeline-data/` (clearer: machine-generated JSON)
+
+**Documentation Consolidation:**
+- `config/` → `docs/config/`
+- `sops/` → `docs/sops/`
+- All documentation now under `docs/`
+
+**Note:** `downloads/` could not be renamed due to SMB file lock on large files
+
+#### Final Structure (17 directories)
+
+```
+T:/
+├── _archive/        # Historical content
+├── agents/          # AI agents
+├── audits/          # Audit reports
+├── database/        # Paperless mount
+├── docker/          # Docker configs
+├── docs/            # ALL docs (config/, sops/, github/, infrastructure/)
+├── downloads/       # Source collections
+├── inbox/           # PDFs → Paperless
+├── logs/            # App logs
+├── pending_approval/# Review queue
+├── pipeline-data/   # JSON indexes
+├── reports/         # Analysis reports
+├── research/        # Research materials
+├── scripts/         # ALL scripts
+├── src/             # Python source
+├── templates/       # Brief templates
+├── tests/           # pytest
+├── website/         # LIVE SITE
+│   └── briefs/      # SINGLE source for all briefs
+└── work/            # Scratch
+```
+
+#### Key Principles Established
+
+1. **ONE briefs location:** `website/briefs/` only
+2. **ONE approval queue:** `pending_approval/` only
+3. **ALL docs in `docs/`** — no scattered config/, sops/
+4. **ALL scripts in `scripts/`**
+5. **ALL archives in `_archive/`**
+
+---
 
 ### 2026-01-11 — Session 24: Network Directory Deep Cleanup
 

@@ -193,70 +193,62 @@ Four-level hierarchical model for understanding how events connect across scales
 
 ---
 
-## Directory Structure — MANDATORY REFERENCE
+## Directory Structure — MINIMAL
 
-⚠️ **All Claude sessions MUST understand this structure before making changes.**
+⚠️ **READ THIS BEFORE ANY FILE OPERATIONS**
 
-### Root Files
+### Root (17 directories)
 
-| File | Purpose |
-|------|---------|
-| `CLAUDE.md` | **This file** — Primary context for all Claude sessions |
-| `index.md` | Quick navigation index to all resources |
-| `log.md` | Chronological session log — UPDATE AFTER EVERY SESSION |
-| `MASTER_TODO_LIST.md` | Single source of truth for all outstanding tasks |
-| `BUGS.md` | Bug tracking with priority levels |
-| `README.md` | Public GitHub readme |
+| Directory | What It Is |
+|-----------|------------|
+| `_archive/` | Old/backup content. Move stuff here, nowhere else. |
+| `agents/` | AI agent definitions and task specs |
+| `audits/` | Completed audit reports |
+| `database/` | Paperless mount point (don't touch) |
+| `docker/` | Docker configs |
+| `docs/` | ALL documentation: `config/`, `sops/`, `github/`, `infrastructure/` |
+| `downloads/` | Source document collections (doj-combined, fbi-vault, house-oversight) |
+| `inbox/` | PDFs awaiting Paperless processing |
+| `logs/` | Application logs |
+| `pending_approval/` | Briefs awaiting review (NEVER approve same session) |
+| `pipeline-data/` | Machine-generated JSON indexes |
+| `reports/` | Generated analysis reports |
+| `research/` | Active research materials |
+| `scripts/` | ALL Python/shell scripts |
+| `src/` | Python package source |
+| `templates/` | Brief templates |
+| `tests/` | pytest tests |
+| `website/` | **LIVE PUBLIC SITE** |
+| `work/` | Scratch/temp files |
 
-### Directory Reference
+### website/ (THE LIVE SITE)
 
-| Directory | Purpose | Key Contents |
-|-----------|---------|--------------|
-| **`_archive/`** | 📦 **Consolidated archive for ALL old/backup content** | `briefs_backups/`, `indexes_backup/`, `published/`, `work_logs_dec2025/` — Move old files HERE, not scattered backups |
-| **`agents/`** | 🤖 **Custom AI agent definitions** | `REFERENCE.md` (agent system overview), `tasks/` (active task specs), `themes/` (research themes), `memos/` (strategic directives) |
-| **`audits/`** | 📋 **Completed audit reports** | Legal compliance audits, source citation audits — Historical record of verification work |
-| **`briefs/`** | 📝 **Working analytical briefs (Markdown)** | `entity/` (708 entity briefs), `connections/` (connection briefs), `agencies/` (83 federal agency briefs) — SOURCE OF TRUTH for brief content |
-| **`config/`** | ⚙️ **Configuration and reference documentation** | `legal_framework.md`, `document_corpus.md`, `technical_infrastructure.md`, `CLAUDE_PROJECT_KNOWLEDGE.md` |
-| **`database/`** | 💾 **Database files** | Paperless database mount point |
-| **`docker/`** | 🐳 **Docker configuration** | Container definitions, compose overrides |
-| **`docs/`** | 📚 **Documentation organized by topic** | `docker/`, `github/`, `infrastructure/`, `session/`, `status/` — Reference docs moved from root |
-| **`documents/`** | 📄 **Document staging area** | `inbox/` (PDFs awaiting Paperless processing ~494MB), `working/` (active processing), `public/` (reviewed for publication) |
-| **`downloads/`** | ⬇️ **Downloaded source collections** | `doj-combined/` (3GB), `house-oversight/`, `fbi-vault/`, `executive-power/`, `legacy-root-files/` — Large file storage |
-| **`indexes/`** | 🗂️ **Pipeline index files** | `entity_registry.json`, `co_occurrence.json`, `source_mentions.json`, `tag_map.json` — Machine-generated indexes |
-| **`logs/`** | 📊 **Application logs** | Pipeline execution logs, error logs, progress tracking |
-| **`pending_approval/`** | ⏳ **Briefs awaiting review** | Briefs created but not yet approved for publication — NEVER approve in same session that created them |
-| **`reports/`** | 📈 **Generated analysis reports** | Gap analyses, acquisition lists, timelines, security scans, frontend assessments |
-| **`research/`** | 🔬 **Active research materials** | `cia-history/`, `foia/` (FOIA templates), `prince-andrew/`, `meeting-notes/`, `outreach/` |
-| **`scripts/`** | 🔧 **All Python and shell scripts** | Pipeline scripts, build scripts, upload helpers, utility scripts — ALL executable code goes here |
-| **`sops/`** | 📋 **Standard Operating Procedures** | `SOP-002` through `SOP-005` — Mandatory procedures for document handling, brief generation, etc. |
-| **`src/`** | 💻 **Python package source** | `continuum_report/` package with `lib/` — Importable Python modules |
-| **`templates/`** | 📋 **Brief templates** | `analytical-brief.md`, `connection-brief.md` — Standard formats for new briefs |
-| **`tests/`** | 🧪 **Test files** | pytest test suite for Python code |
-| **`website/`** | 🌐 **LIVE WEBSITE FILES** | `continuum.html` (main UI), `briefs/` (HTML versions), `sources/` (121 cited PDFs), `data/` (entities.json, connections.json, manifest.json) |
-| **`work/`** | 🔨 **Active working directory** | Scratch files, gap analyses, processing queues — Temporary work in progress |
+| Path | What It Is |
+|------|------------|
+| `website/briefs/` | **SINGLE source of truth for ALL briefs** (entity/, connections/, agencies/) |
+| `website/data/` | JSON data (entities.json, connections.json, manifest.json) |
+| `website/sources/` | Cited PDFs only (121 files) |
+| `website/continuum.html` | Main interactive UI |
 
-### Critical Rules
+### Rules
 
-1. **`_archive/`** — ALL archived content goes here. No scattered `backup/`, `old/`, or dated folders elsewhere.
-2. **`scripts/`** — ALL executable scripts go here. Never leave `.py` or `.sh` files in other directories.
-3. **`pending_approval/`** — Briefs MUST go here before publication. Never approve in the same session.
-4. **`website/`** — This is LIVE. Changes here are PUBLIC immediately.
-5. **`briefs/`** vs **`website/briefs/`** — Working markdown in `briefs/`, published HTML in `website/briefs/`.
+1. **ONE briefs location:** `website/briefs/` only. No separate `briefs/` at root.
+2. **ONE approval queue:** `pending_approval/` only. No `website/briefs/review/`.
+3. **Scripts in `scripts/`** — never leave .py/.sh elsewhere.
+4. **Archive to `_archive/`** — never create backup/, old/, dated folders.
+5. **`website/` is LIVE** — changes are PUBLIC immediately.
 
-### Workflow Paths
+### Workflows
 
 ```
-Document Acquisition:
-  Download → documents/inbox/ → Paperless OCR → website/sources/ (if cited)
-
-Brief Creation:
-  Research → briefs/entity/ or briefs/connections/ → pending_approval/ → (new session) → website/briefs/
-
-Archive:
-  Old files → _archive/{descriptive_folder}/
+PDFs:     Download → inbox/ → Paperless OCR → website/sources/ (if cited)
+Briefs:   Research → pending_approval/ → (new session) → website/briefs/
+Archive:  Old files → _archive/{folder}/
 ```
 
 ---
+
+## Technical Infrastructure
 
 ## Technical Infrastructure
 
