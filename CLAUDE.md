@@ -193,60 +193,68 @@ Four-level hierarchical model for understanding how events connect across scales
 
 ---
 
-## File Structure
+## Directory Structure — MANDATORY REFERENCE
+
+⚠️ **All Claude sessions MUST understand this structure before making changes.**
+
+### Root Files
+
+| File | Purpose |
+|------|---------|
+| `CLAUDE.md` | **This file** — Primary context for all Claude sessions |
+| `index.md` | Quick navigation index to all resources |
+| `log.md` | Chronological session log — UPDATE AFTER EVERY SESSION |
+| `MASTER_TODO_LIST.md` | Single source of truth for all outstanding tasks |
+| `BUGS.md` | Bug tracking with priority levels |
+| `README.md` | Public GitHub readme |
+
+### Directory Reference
+
+| Directory | Purpose | Key Contents |
+|-----------|---------|--------------|
+| **`_archive/`** | 📦 **Consolidated archive for ALL old/backup content** | `briefs_backups/`, `indexes_backup/`, `published/`, `work_logs_dec2025/` — Move old files HERE, not scattered backups |
+| **`agents/`** | 🤖 **Custom AI agent definitions** | `REFERENCE.md` (agent system overview), `tasks/` (active task specs), `themes/` (research themes), `memos/` (strategic directives) |
+| **`audits/`** | 📋 **Completed audit reports** | Legal compliance audits, source citation audits — Historical record of verification work |
+| **`briefs/`** | 📝 **Working analytical briefs (Markdown)** | `entity/` (708 entity briefs), `connections/` (connection briefs), `agencies/` (83 federal agency briefs) — SOURCE OF TRUTH for brief content |
+| **`config/`** | ⚙️ **Configuration and reference documentation** | `legal_framework.md`, `document_corpus.md`, `technical_infrastructure.md`, `CLAUDE_PROJECT_KNOWLEDGE.md` |
+| **`database/`** | 💾 **Database files** | Paperless database mount point |
+| **`docker/`** | 🐳 **Docker configuration** | Container definitions, compose overrides |
+| **`docs/`** | 📚 **Documentation organized by topic** | `docker/`, `github/`, `infrastructure/`, `session/`, `status/` — Reference docs moved from root |
+| **`documents/`** | 📄 **Document staging area** | `inbox/` (PDFs awaiting Paperless processing ~494MB), `working/` (active processing), `public/` (reviewed for publication) |
+| **`downloads/`** | ⬇️ **Downloaded source collections** | `doj-combined/` (3GB), `house-oversight/`, `fbi-vault/`, `executive-power/`, `legacy-root-files/` — Large file storage |
+| **`indexes/`** | 🗂️ **Pipeline index files** | `entity_registry.json`, `co_occurrence.json`, `source_mentions.json`, `tag_map.json` — Machine-generated indexes |
+| **`logs/`** | 📊 **Application logs** | Pipeline execution logs, error logs, progress tracking |
+| **`pending_approval/`** | ⏳ **Briefs awaiting review** | Briefs created but not yet approved for publication — NEVER approve in same session that created them |
+| **`reports/`** | 📈 **Generated analysis reports** | Gap analyses, acquisition lists, timelines, security scans, frontend assessments |
+| **`research/`** | 🔬 **Active research materials** | `cia-history/`, `foia/` (FOIA templates), `prince-andrew/`, `meeting-notes/`, `outreach/` |
+| **`scripts/`** | 🔧 **All Python and shell scripts** | Pipeline scripts, build scripts, upload helpers, utility scripts — ALL executable code goes here |
+| **`sops/`** | 📋 **Standard Operating Procedures** | `SOP-002` through `SOP-005` — Mandatory procedures for document handling, brief generation, etc. |
+| **`src/`** | 💻 **Python package source** | `continuum_report/` package with `lib/` — Importable Python modules |
+| **`templates/`** | 📋 **Brief templates** | `analytical-brief.md`, `connection-brief.md` — Standard formats for new briefs |
+| **`tests/`** | 🧪 **Test files** | pytest test suite for Python code |
+| **`website/`** | 🌐 **LIVE WEBSITE FILES** | `continuum.html` (main UI), `briefs/` (HTML versions), `sources/` (121 cited PDFs), `data/` (entities.json, connections.json, manifest.json) |
+| **`work/`** | 🔨 **Active working directory** | Scratch files, gap analyses, processing queues — Temporary work in progress |
+
+### Critical Rules
+
+1. **`_archive/`** — ALL archived content goes here. No scattered `backup/`, `old/`, or dated folders elsewhere.
+2. **`scripts/`** — ALL executable scripts go here. Never leave `.py` or `.sh` files in other directories.
+3. **`pending_approval/`** — Briefs MUST go here before publication. Never approve in the same session.
+4. **`website/`** — This is LIVE. Changes here are PUBLIC immediately.
+5. **`briefs/`** vs **`website/briefs/`** — Working markdown in `briefs/`, published HTML in `website/briefs/`.
+
+### Workflow Paths
 
 ```
-/continuum/
-├── CLAUDE.md                    # This file (main context)
-├── index.md, log.md            # Quick nav + session log
-├── entities_index.md           # Master entity index (2,008+)
-│
-├── config/                      # ⭐ DETAILED REFERENCE DOCS
-│   ├── legal_framework.md       # Complete legal guidelines
-│   ├── document_corpus.md       # Full document inventory
-│   ├── technical_infrastructure.md # Server, API, containers
-│   ├── file_structure.md        # Complete directory reference
-│   ├── CLAUDE_CODE_CONTINUUM_TASK.md # System specs
-│   └── CLAUDE_PROJECT_KNOWLEDGE.md   # UI/UX spec
-│
-├── agents/                      # 14 custom agent definitions
-│   ├── REFERENCE.md             # Agent system overview
-│   ├── logs/index.md            # Project dashboard
-│   ├── tasks/                   # Active task tracking
-│   └── themes/                  # Theme-based research
-│
-├── briefs/                      # Working brief copies (markdown)
-│   ├── entity/                  # 37 entity briefs
-│   └── connections/             # 86 connection briefs
-│
-├── data/                        # Canonical JSON files
-│   ├── entities.json
-│   ├── connections.json
-│   └── connection_briefs.json
-│
-├── templates/                   # Standardized templates
-│   ├── analytical-brief.md
-│   ├── connection-brief.md
-│   └── README.md
-│
-├── website/                     # Live site files
-│   ├── continuum.html           # Main interactive interface
-│   ├── sources/index.html       # Source archive
-│   ├── briefs/                  # 123 HTML briefs
-│   └── sources/                 # 33,745 PDFs
-│
-├── reports/                     # Generated reports
-│   ├── MASTER_DOCUMENT_ACQUISITION_LIST.md # 249 docs
-│   ├── epstein-financial-master-timeline.md
-│   └── session_history.md       # Historical session states
-│
-└── downloads/                   # Large collections
-    ├── house-oversight/         # DOJ 33k original
-    ├── doj-combined/            # DataSets 1-7
-    └── fbi-vault/               # FBI Parts 1-8
-```
+Document Acquisition:
+  Download → documents/inbox/ → Paperless OCR → website/sources/ (if cited)
 
-**📄 For complete file structure, see: [/config/file_structure.md](/config/file_structure.md)**
+Brief Creation:
+  Research → briefs/entity/ or briefs/connections/ → pending_approval/ → (new session) → website/briefs/
+
+Archive:
+  Old files → _archive/{descriptive_folder}/
+```
 
 ---
 
