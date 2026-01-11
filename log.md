@@ -1726,3 +1726,38 @@ Cleaned up git tracking to exclude all source documents (PDFs). Git now tracks o
 > **Git tracks code and structure, not source documents.**  
 > Source docs (PDFs) remain local-only on the network share.
 
+
+---
+
+### 2026-01-11 — Session 24d: Issue Fixes
+
+**Operator:** WoodsBandit  
+**Duration:** ~10 minutes  
+**Primary Task:** Find and fix remaining issues
+
+#### Issues Found & Fixed
+
+| Issue | Action | Count |
+|-------|--------|-------|
+| `.bak` files in website | Moved to `_archive/briefs_bak/` | 310 |
+| REJECTED files in website | Moved to `_archive/rejected_briefs/` | 6 |
+| `__MACOSX` junk dirs | Deleted | 4 |
+| Missing maximize button | Added to detail panel | 1 |
+
+#### UI Enhancement
+
+Added maximize button (⛶) to the detail panel in `continuum.html`:
+- Click to expand panel to near-fullscreen
+- Click again to restore normal size
+- Positioned next to close button
+
+#### Remaining (Low Priority)
+
+- `inbox/inbox/` nested structure (untracked, not urgent)
+- Misplaced scripts in `agents/` (may be intentional)
+- Empty directories in inbox (untracked)
+
+#### Commit
+
+- `b6bf36a` - Fix issues: bak files, REJECTED files, maximize button
+
