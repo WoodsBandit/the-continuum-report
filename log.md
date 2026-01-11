@@ -1681,3 +1681,48 @@ Each session entry should include:
 ---
 
 *This log is updated at the end of each significant Claude session.*
+
+---
+
+### 2026-01-11 — Session 24c: Git Tracking Cleanup
+
+**Operator:** WoodsBandit  
+**Duration:** ~15 minutes  
+**Primary Task:** Remove source documents from git, track only code/structure
+
+#### Summary
+
+Cleaned up git tracking to exclude all source documents (PDFs). Git now tracks only code, markdown, and configuration files—not the 30GB+ of source documents.
+
+#### Changes Made
+
+**Gitignore Updates:**
+- Added `*.pdf` to exclude all PDFs globally
+- Added `downloads/` (30GB source collections)
+- Added `inbox/` (18GB PDFs awaiting processing)
+- Added `docs/config/ollama/models/` (74MB+ model blobs)
+- Added SSH key patterns (`id_ed25519*`, `*.pub`)
+
+**Removed from Git Tracking:**
+- 18 PDFs from `_archive/` and `reports/`
+- Ollama model blobs (74MB)
+- SSH keys that were accidentally committed
+
+#### Git Status After Cleanup
+
+| Metric | Value |
+|--------|-------|
+| Files tracked | 2,276 |
+| PDFs tracked | 0 |
+| Repo focus | Code & structure only |
+
+#### Commits
+
+- `f821f2d` - Structural cleanup: minimize directories
+- `f7a311e` - Remove source docs from git tracking
+
+#### Rule Established
+
+> **Git tracks code and structure, not source documents.**  
+> Source docs (PDFs) remain local-only on the network share.
+
