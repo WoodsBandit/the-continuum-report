@@ -1761,3 +1761,15 @@ Added maximize button (⛶) to the detail panel in `continuum.html`:
 
 - `b6bf36a` - Fix issues: bak files, REJECTED files, maximize button
 
+
+#### Maximize Button Test Results
+
+| Test | Result |
+|------|--------|
+| Button exists in DOM | ✓ Pass |
+| Click expands panel | ✓ Pass |
+| Click again restores | ✓ Pass |
+| Header visible when maximized | ✓ Pass (after CSS fix) |
+
+**CSS Fix Applied:** Commit `b6dae97` adjusted top offset from 20px to 100px to clear navigation bar.
+
