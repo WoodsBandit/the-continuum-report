@@ -220,9 +220,9 @@
             margin-top: 0.5rem;
             line-height: 1.4;
         }
-        .detail-close {
+        .detail-close, .detail-maximize {
             position: absolute;
-            top: 1rem; right: 1rem;
+            top: 1rem;
             width: 32px; height: 32px;
             background: rgba(139, 111, 192, 0.3);
             border: none; border-radius: 50%;
@@ -230,7 +230,18 @@
             cursor: pointer;
             display: flex; align-items: center; justify-content: center;
         }
-        .detail-close:hover { background: var(--gold); color: var(--void); }
+        .detail-close { right: 1rem; }
+        .detail-maximize { right: 3.5rem; font-size: 0.9rem; }
+        .detail-close:hover, .detail-maximize:hover { background: var(--gold); color: var(--void); }
+        #detailPanel.maximized {
+            width: calc(100vw - 80px);
+            max-height: calc(100vh - 40px);
+            top: 20px;
+            border-radius: 12px;
+            right: -100vw;
+        }
+        #detailPanel.maximized.active { right: 40px; }
+        #detailPanel.maximized .detail-content { max-height: calc(100vh - 180px); }
         .detail-content {
             padding: 1.25rem;
             overflow-y: auto;
@@ -2355,6 +2366,7 @@
     </div>
 
     <div id="detailPanel">
+        <button class="detail-maximize" id="maximizeDetail" title="Maximize">⛶</button>
         <button class="detail-close" id="closeDetail">&times;</button>
         <div class="detail-header">
             <div class="detail-type" id="detailType">Person</div>
@@ -6024,6 +6036,13 @@
             });
 
             document.getElementById('closeDetail').addEventListener('click', () => Graph.clearSelection());
+            document.getElementById('maximizeDetail').addEventListener('click', () => {
+                const panel = document.getElementById('detailPanel');
+                const btn = document.getElementById('maximizeDetail');
+                panel.classList.toggle('maximized');
+                btn.textContent = panel.classList.contains('maximized') ? '⛶' : '⛶';
+                btn.title = panel.classList.contains('maximized') ? 'Restore' : 'Maximize';
+            });
             document.getElementById('zoomIn').addEventListener('click', () => Graph.zoomIn());
             document.getElementById('zoomOut').addEventListener('click', () => Graph.zoomOut());
             document.getElementById('resetView').addEventListener('click', () => Graph.resetView());
