@@ -193,50 +193,63 @@ Four-level hierarchical model for understanding how events connect across scales
 
 ---
 
-## Directory Structure — MINIMAL
+## Directory Structure — FINAL
 
 ⚠️ **READ THIS BEFORE ANY FILE OPERATIONS**
 
-### Root (17 directories)
+### Git Tracking Policy
 
-| Directory | What It Is |
-|-----------|------------|
-| `_archive/` | Old/backup content. Move stuff here, nowhere else. |
-| `agents/` | AI agent definitions and task specs |
-| `audits/` | Completed audit reports |
-| `database/` | Paperless mount point (don't touch) |
-| `docker/` | Docker configs |
-| `docs/` | ALL documentation: `config/`, `sops/`, `github/`, `infrastructure/` |
-| `downloads/` | Source document collections (doj-combined, fbi-vault, house-oversight) |
-| `inbox/` | PDFs awaiting Paperless processing |
-| `logs/` | Application logs |
-| `pending_approval/` | Briefs awaiting review (NEVER approve same session) |
-| `pipeline-data/` | Machine-generated JSON indexes |
-| `reports/` | Generated analysis reports |
-| `research/` | Active research materials |
-| `scripts/` | ALL Python/shell scripts |
-| `src/` | Python package source |
-| `templates/` | Brief templates |
-| `tests/` | pytest tests |
-| `website/` | **LIVE PUBLIC SITE** |
-| `work/` | Scratch/temp files |
+**Git tracks CODE and STRUCTURE only — not source documents.**
+
+| Tracked in Git | Local Only (not in git) |
+|----------------|------------------------|
+| `_archive/`, `agents/`, `audits/` | `database/` (Paperless mount) |
+| `docs/`, `logs/`, `pending_approval/` | `docker/` (Docker volumes) |
+| `pipeline-data/`, `reports/`, `research/` | `downloads/` (~30GB source docs) |
+| `scripts/`, `src/`, `templates/`, `tests/` | `inbox/` (~18GB PDFs) |
+| `website/`, `work/` | All `*.pdf` files |
+
+### Root (18 directories)
+
+| Directory | Purpose | Git? |
+|-----------|---------|------|
+| `_archive/` | Old/backup content. Archive here, nowhere else. | ✓ |
+| `agents/` | AI agent definitions and task specs | ✓ |
+| `audits/` | Completed audit reports | ✓ |
+| `database/` | Paperless mount point (don't touch) | ✗ |
+| `docker/` | Docker configs and volumes | ✗ |
+| `docs/` | ALL docs: `config/`, `sops/`, `github/`, `infrastructure/` | ✓ |
+| `downloads/` | Source collections (doj-combined, fbi-vault, house-oversight) | ✗ |
+| `inbox/` | PDFs awaiting Paperless processing | ✗ |
+| `logs/` | Application logs | ✓ |
+| `pending_approval/` | Briefs awaiting review (NEVER approve same session) | ✓ |
+| `pipeline-data/` | Machine-generated JSON indexes | ✓ |
+| `reports/` | Generated analysis reports | ✓ |
+| `research/` | Active research materials | ✓ |
+| `scripts/` | ALL Python/shell scripts | ✓ |
+| `src/` | Python package source | ✓ |
+| `templates/` | Brief templates | ✓ |
+| `tests/` | pytest tests | ✓ |
+| `website/` | **LIVE PUBLIC SITE** | ✓ |
+| `work/` | Scratch/temp files | ✓ |
 
 ### website/ (THE LIVE SITE)
 
-| Path | What It Is |
-|------|------------|
-| `website/briefs/` | **SINGLE source of truth for ALL briefs** (entity/, connections/, agencies/) |
-| `website/data/` | JSON data (entities.json, connections.json, manifest.json) |
-| `website/sources/` | Cited PDFs only (121 files) |
+| Path | Purpose |
+|------|---------|
+| `website/briefs/` | **SINGLE source of truth for ALL briefs** |
+| `website/data/` | JSON data (entities.json, connections.json) |
+| `website/sources/` | Cited PDFs only |
 | `website/continuum.html` | Main interactive UI |
 
 ### Rules
 
-1. **ONE briefs location:** `website/briefs/` only. No separate `briefs/` at root.
-2. **ONE approval queue:** `pending_approval/` only. No `website/briefs/review/`.
-3. **Scripts in `scripts/`** — never leave .py/.sh elsewhere.
-4. **Archive to `_archive/`** — never create backup/, old/, dated folders.
-5. **`website/` is LIVE** — changes are PUBLIC immediately.
+1. **ONE briefs location:** `website/briefs/` only
+2. **ONE approval queue:** `pending_approval/` only
+3. **Scripts in `scripts/`** — never leave .py/.sh elsewhere
+4. **Archive to `_archive/`** — never create backup/, old/, dated folders
+5. **`website/` is LIVE** — changes are PUBLIC immediately
+6. **No PDFs in git** — source docs are local only
 
 ### Workflows
 
