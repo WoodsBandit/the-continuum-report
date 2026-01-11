@@ -84,7 +84,7 @@
             background: rgba(10, 10, 11, 0.95);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--gold-dim);
-            z-index: 100;
+            z-index: 1000;  /* Above transition overlay */
         }
         .logo {
             font-family: 'Cinzel', serif;
@@ -137,6 +137,18 @@
         .node.active .node-circle { stroke-width: 3; filter: drop-shadow(0 0 10px var(--gold-glow)); }
         .node.pinned .node-circle { stroke-dasharray: 4 2; }
         .node.pinned .node-label::after { content: ' 📌'; font-size: 9px; }
+
+        /* FOCAL NODE STYLING (central entity of a network) */
+        .node.focal .node-circle {
+            stroke: #FFD700 !important;
+            stroke-width: 4 !important;
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6));
+        }
+        .node.focal .node-label {
+            fill: #FFD700;
+            font-weight: 600;
+            font-size: 13px;
+        }
         .node-label {
             font-family: 'Source Sans 3', sans-serif;
             font-size: 11px; fill: var(--mist);
@@ -856,6 +868,483 @@
         #tooltip .tooltip-name { font-weight: 500; margin-bottom: 0.3rem; }
         #tooltip .tooltip-connections { font-size: 0.75rem; color: var(--smoke); }
 
+        /* LAYER INDICATOR (Breadcrumb) */
+        #layerIndicator {
+            position: fixed;
+            top: 52px;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1.5rem;
+            background: rgba(18, 16, 26, 0.95);
+            border-bottom: 1px solid rgba(139, 111, 192, 0.2);
+            z-index: 999;  /* Above transition overlay, below header */
+            backdrop-filter: blur(10px);
+        }
+        .layer-crumb {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--smoke);
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        .layer-crumb:hover {
+            color: var(--gold);
+            background: rgba(201, 162, 39, 0.1);
+        }
+        .layer-crumb.active {
+            color: var(--gold);
+            font-weight: 600;
+            background: rgba(201, 162, 39, 0.15);
+        }
+        .layer-crumb.disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        .layer-separator {
+            color: rgba(139, 111, 192, 0.5);
+            font-size: 0.8rem;
+        }
+        .layer-count {
+            margin-left: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--smoke);
+        }
+        .layer-count span { color: var(--gold); }
+
+        /* TRANSITION OVERLAY - positioned to not cover header/indicators */
+        #transitionOverlay {
+            position: fixed;
+            top: 85px;  /* Below header and layer indicator */
+            left: 0;
+            right: 60px;  /* Leave space for level indicator */
+            bottom: 0;
+            background: radial-gradient(ellipse at center, rgba(45, 36, 69, 0.92), rgba(10, 10, 11, 0.97));
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            z-index: 200;  /* Below header (1000) and indicators */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #transitionOverlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .transition-content {
+            text-align: center;
+        }
+        .transition-text {
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        /* NETWORK CLUSTER NODES (for zoomed-out view) */
+        .network-cluster {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .network-cluster:hover {
+            filter: brightness(1.2);
+        }
+        .network-cluster-bg {
+            fill: var(--deep);
+            stroke-width: 2;
+            rx: 16;
+            transition: all 0.3s ease;
+        }
+        .network-cluster:hover .network-cluster-bg {
+            stroke-width: 3;
+            filter: drop-shadow(0 0 15px var(--gold-glow));
+        }
+        .network-cluster-title {
+            font-family: 'Cinzel', serif;
+            font-size: 13px;
+            fill: var(--pure);
+            text-anchor: middle;
+            font-weight: 500;
+        }
+        .network-cluster-count {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            fill: var(--gold);
+            text-anchor: middle;
+        }
+        .network-cluster-status {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9px;
+            fill: var(--smoke);
+            text-anchor: middle;
+        }
+        .network-cluster-center {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 8px;
+            fill: var(--gold);
+            text-anchor: middle;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        .network-cluster.placeholder .network-cluster-bg {
+            stroke-dasharray: 6 4;
+            opacity: 0.6;
+        }
+        .network-cluster.placeholder .network-cluster-title {
+            fill: var(--smoke);
+        }
+
+        /* LAYER NODES (for macro view) */
+        .layer-node {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .layer-node:hover {
+            filter: brightness(1.2);
+        }
+        .layer-node-bg {
+            fill: var(--void);
+            stroke-width: 3;
+            transition: all 0.3s ease;
+        }
+        .layer-node:hover .layer-node-bg {
+            stroke-width: 4;
+            filter: drop-shadow(0 0 20px var(--gold-glow));
+        }
+        .layer-node-title {
+            font-family: 'Cinzel', serif;
+            font-size: 13px;
+            fill: var(--pure);
+            text-anchor: middle;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+        }
+        .layer-node-verse {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 10px;
+            fill: var(--gold);
+            text-anchor: middle;
+            font-style: italic;
+        }
+        .layer-node-desc {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11px;
+            fill: var(--smoke);
+            text-anchor: middle;
+        }
+
+        /* DOCUMENT NODES (for zoomed-in document view) */
+        .document-node {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .document-node:hover {
+            filter: brightness(1.2);
+        }
+        .document-node-bg {
+            fill: rgba(26, 16, 37, 0.95);
+            stroke: rgba(139, 111, 192, 0.6);
+            stroke-width: 1;
+            stroke-dasharray: 4 2;
+            rx: 8;
+            transition: all 0.3s ease;
+        }
+        .document-node:hover .document-node-bg {
+            stroke: var(--gold);
+            stroke-width: 2;
+            filter: drop-shadow(0 0 8px var(--gold-glow));
+        }
+        .document-node-icon {
+            font-size: 1.5rem;
+            fill: var(--gold);
+            text-anchor: middle;
+        }
+        .document-node-title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 9px;
+            fill: var(--pure);
+            text-anchor: middle;
+        }
+        .document-node-desc {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 8px;
+            fill: var(--smoke);
+            text-anchor: middle;
+        }
+        .document-connection {
+            stroke: rgba(139, 111, 192, 0.4);
+            stroke-dasharray: 4 4;
+            stroke-width: 1;
+        }
+
+        /* LEVEL INDICATOR BADGE */
+        .level-badge {
+            position: fixed;
+            bottom: 80px;
+            left: 1.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(18, 16, 26, 0.95);
+            border: 1px solid var(--gold-dim);
+            border-radius: 8px;
+            z-index: 50;
+            display: none;
+        }
+        .level-badge.visible { display: block; }
+        .level-badge-title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--smoke);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .level-badge-value {
+            font-family: 'Cinzel', serif;
+            font-size: 1rem;
+            color: var(--gold);
+            margin-top: 0.25rem;
+        }
+
+        /* ZOOM HINT */
+        .zoom-hint {
+            position: fixed;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0.5rem 1rem;
+            background: rgba(18, 16, 26, 0.95);
+            border: 1px solid var(--purple-dim);
+            border-radius: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--smoke);
+            z-index: 50;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+        .zoom-hint.visible { opacity: 1; }
+        .zoom-hint .hint-key {
+            display: inline-block;
+            padding: 0.15rem 0.4rem;
+            background: rgba(139, 111, 192, 0.3);
+            border-radius: 4px;
+            margin: 0 0.25rem;
+            color: var(--gold);
+        }
+
+        /* NODE TRANSITIONS */
+        .node-entering {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        .node-entered {
+            opacity: 1;
+            transform: scale(1);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .node-exiting {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        /* LEVEL INDICATOR (Side Panel) */
+        #levelIndicator {
+            position: fixed;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 998;  /* Above transition overlay */
+            padding: 1rem 0.5rem;
+            background: rgba(18, 16, 26, 0.9);
+            border: 1px solid rgba(139, 111, 192, 0.3);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+        .level-track {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+        .level-node {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .level-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(139, 111, 192, 0.4);
+            border: 2px solid rgba(139, 111, 192, 0.6);
+            transition: all 0.3s ease;
+        }
+        .level-node:hover .level-dot {
+            background: rgba(139, 111, 192, 0.7);
+            transform: scale(1.1);
+        }
+        .level-node.active .level-dot {
+            background: var(--gold);
+            border-color: var(--gold);
+            box-shadow: 0 0 10px rgba(201, 162, 39, 0.5);
+        }
+        .level-node.visited .level-dot {
+            background: rgba(201, 162, 39, 0.5);
+            border-color: rgba(201, 162, 39, 0.7);
+        }
+        .level-node.disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        .level-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--smoke);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+            position: absolute;
+            right: 100%;
+            margin-right: 0.5rem;
+        }
+        .level-node:hover .level-label,
+        .level-node.active .level-label {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .level-node.active .level-label {
+            color: var(--gold);
+            font-weight: 600;
+        }
+        .level-connector {
+            width: 2px;
+            height: 20px;
+            background: linear-gradient(to bottom, rgba(139, 111, 192, 0.4), rgba(139, 111, 192, 0.2));
+        }
+        .level-connector.active {
+            background: linear-gradient(to bottom, var(--gold), rgba(201, 162, 39, 0.3));
+        }
+        .zoom-percentage {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--smoke);
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid rgba(139, 111, 192, 0.2);
+        }
+        @keyframes levelPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+        .level-node.transitioning .level-dot {
+            animation: levelPulse 0.5s ease;
+        }
+
+        /* ZOOM WARNING BANNER */
+        #zoomWarning {
+            position: fixed;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            padding: 1rem 1.5rem;
+            background: rgba(18, 16, 26, 0.98);
+            border: 2px solid var(--gold);
+            border-radius: 12px;
+            z-index: 997;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 30px rgba(201, 162, 39, 0.3);
+            min-width: 280px;
+        }
+        #zoomWarning.active {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+            pointer-events: auto;
+        }
+        #zoomWarning.bounce {
+            animation: warningBounce 0.4s ease;
+        }
+        @keyframes warningBounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            25% { transform: translateX(-50%) translateY(-8px); }
+            50% { transform: translateX(-50%) translateY(0); }
+            75% { transform: translateX(-50%) translateY(-4px); }
+        }
+        .warning-content {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        .warning-icon {
+            font-size: 1.5rem;
+            animation: warningPulse 1s ease infinite;
+        }
+        @keyframes warningPulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+        .warning-text {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 0.9rem;
+            color: var(--pure);
+        }
+        .warning-direction {
+            color: var(--gold);
+            font-weight: 600;
+        }
+        .warning-target {
+            color: var(--gold);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .warning-hint {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--smoke);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .warning-progress {
+            width: 100%;
+            height: 4px;
+            background: rgba(139, 111, 192, 0.3);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        .warning-progress-bar {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--gold), #f4d03f);
+            border-radius: 2px;
+            transition: width 0.15s ease;
+        }
+
         /* RESPONSIVE */
         @media (max-width: 768px) {
             header { padding: 0.5rem 1rem; }
@@ -864,7 +1353,7 @@
             .header-stats { display: none; }
             #detailPanel { width: 100%; right: -100%; border-radius: 0; }
             #legend {
-                bottom: auto; top: 70px; left: 0.5rem;
+                bottom: auto; top: 100px; left: 0.5rem;
                 flex-wrap: wrap; gap: 0.75rem; padding: 0.5rem 0.75rem;
             }
             .legend-item { font-size: 0.65rem; }
@@ -872,6 +1361,60 @@
             .brief-container { padding: 1rem; }
             .brief-content { padding: 1.5rem; }
             .brief-header { padding: 1rem; }
+            /* Layer indicator mobile */
+            #layerIndicator {
+                top: 48px;
+                padding: 0.4rem 0.75rem;
+                gap: 0.25rem;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .layer-crumb {
+                font-size: 0.6rem;
+                padding: 0.2rem 0.4rem;
+                white-space: nowrap;
+            }
+            .layer-separator { font-size: 0.7rem; }
+            .zoom-hint { display: none; }
+            /* Level indicator mobile: horizontal at bottom */
+            #levelIndicator {
+                right: auto;
+                left: 50%;
+                top: auto;
+                bottom: 70px;
+                transform: translateX(-50%);
+                flex-direction: row;
+                padding: 0.5rem 1rem;
+            }
+            .level-track {
+                flex-direction: row;
+                gap: 0;
+            }
+            .level-connector {
+                width: 20px;
+                height: 2px;
+            }
+            .level-label {
+                position: absolute;
+                top: 100%;
+                right: auto;
+                left: 50%;
+                transform: translateX(-50%) translateY(5px);
+                margin-right: 0;
+                margin-top: 0.3rem;
+            }
+            .level-node:hover .level-label,
+            .level-node.active .level-label {
+                transform: translateX(-50%) translateY(0);
+            }
+            .zoom-percentage {
+                margin-top: 0;
+                margin-left: 0.75rem;
+                padding-top: 0;
+                padding-left: 0.75rem;
+                border-top: none;
+                border-left: 1px solid rgba(139, 111, 192, 0.2);
+            }
         }
     </style>
 </head>
@@ -894,6 +1437,23 @@
             <span id="entityCount">0</span> entities · <span id="connectionCount">0</span> connections
         </div>
     </header>
+
+    <!-- Layer Indicator (Breadcrumb Navigation) -->
+    <div id="layerIndicator">
+        <span class="layer-crumb active" data-level="macro" title="View macro categories">MACRO</span>
+        <span class="layer-separator">›</span>
+        <span class="layer-crumb" data-level="entities" title="View entities">[CATEGORY]</span>
+        <span class="layer-separator">›</span>
+        <span class="layer-crumb" data-level="web" title="View connections">[ENTITY]</span>
+    </div>
+
+    <!-- Transition Overlay -->
+    <div id="transitionOverlay">
+        <div class="transition-content">
+            <div class="loading-spinner"></div>
+            <div class="transition-text">Transitioning...</div>
+        </div>
+    </div>
 
     <div id="graphContainer">
         <svg id="graphSvg"></svg>
@@ -1005,6 +1565,48 @@
         <button class="control-btn" id="zoomIn" title="Zoom In">+</button>
         <button class="control-btn" id="zoomOut" title="Zoom Out">&minus;</button>
         <button class="control-btn" id="resetView" title="Reset View">&#x27F2;</button>
+    </div>
+
+    <!-- Zoom Hint -->
+    <div class="zoom-hint" id="zoomHint">
+        <span class="hint-key">1</span> Macro
+        <span class="hint-key">2</span> Entities
+        <span class="hint-key">3</span> Web
+    </div>
+
+    <!-- Zoom Warning Banner -->
+    <div id="zoomWarning">
+        <div class="warning-content">
+            <div class="warning-icon">⚠</div>
+            <div class="warning-text">
+                <span class="warning-direction">Zoom out</span> to view <span class="warning-target">Networks</span>
+            </div>
+        </div>
+        <div class="warning-hint">Continue zooming to proceed</div>
+        <div class="warning-progress">
+            <div class="warning-progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- Level Indicator (Side Panel) -->
+    <div id="levelIndicator">
+        <div class="level-track">
+            <div class="level-node" data-level="macro">
+                <div class="level-dot"></div>
+                <div class="level-label">MACRO</div>
+            </div>
+            <div class="level-connector"></div>
+            <div class="level-node active" data-level="entities">
+                <div class="level-dot"></div>
+                <div class="level-label">ENTITIES</div>
+            </div>
+            <div class="level-connector"></div>
+            <div class="level-node" data-level="web">
+                <div class="level-dot"></div>
+                <div class="level-label">WEB</div>
+            </div>
+        </div>
+        <div class="zoom-percentage" id="zoomPercentage">100%</div>
     </div>
 
     <div id="tooltip">
@@ -1670,6 +2272,893 @@
         };
 
         // ============================================================
+        // HIERARCHY MANAGER (Hierarchical Zoom)
+        // ============================================================
+        const HierarchyManager = {
+            data: null,
+            currentLevel: 'macro',
+            previousLevel: null,
+            focusedNetwork: 'epstein-network',
+            focusedEntity: null,
+            selectedCategory: null,  // PEOPLE, GOV, MEDIA, or FINANCIAL
+            transitioning: false,
+            transitionCooldown: false,
+            lastTransitionTime: 0,
+            lastZoomScale: 1.0,
+
+            // Warning/bounce-stop state
+            pendingTransition: null,        // { from: 'entities', to: 'networks', direction: 'out' }
+            warningShownAt: 0,
+            bounceStopActive: false,
+
+            // Bidirectional zoom thresholds - ADJUSTED for better readability
+            thresholds: {
+                // Zooming OUT thresholds (scale decreasing) - triggers when going BELOW
+                ENTITIES_TO_NETWORKS: 0.22,    // Below this → show network clusters
+                NETWORKS_TO_MACRO: 0.35,       // Below this → show macro layer view
+                DOCUMENTS_TO_ENTITIES: 1.0,    // Below this when in documents → return to entities
+
+                // Zooming IN thresholds (scale increasing) - triggers when going ABOVE
+                MACRO_TO_NETWORKS: 2.0,        // Above this when in macro → show networks (zoom in to see networks)
+                NETWORKS_TO_ENTITIES: 1.4,     // Above this when in networks → show entities
+                ENTITIES_TO_DOCUMENTS: 2.5     // Above this when focused on entity → show documents
+            },
+
+            // WARNING thresholds - bounce-stop triggers here, actual transition requires continued zoom
+            warningThresholds: {
+                // Zooming OUT warnings
+                ENTITIES_TO_NETWORKS: 0.28,    // Warning at 28%, transition at 22%
+                NETWORKS_TO_MACRO: 0.42,       // Warning at 42%, transition at 35%
+                DOCUMENTS_TO_ENTITIES: 1.15,   // Warning at 115%, transition at 100%
+
+                // Zooming IN warnings
+                MACRO_TO_NETWORKS: 1.7,        // Warning at 170%, transition at 200%
+                NETWORKS_TO_ENTITIES: 1.2,     // Warning at 120%, transition at 140%
+                ENTITIES_TO_DOCUMENTS: 2.2     // Warning at 220%, transition at 250%
+            },
+
+            // Safe zoom values - middle of each level's range to prevent re-triggers
+            safeZoom: {
+                macro: 1.0,       // Full page view for macro
+                networks: 1.0,    // Identity transform - cards already at screen center
+                entities: 1.0,
+                documents: 3.0
+            },
+
+            async init() {
+                try {
+                    const response = await fetch('/data/hierarchy.json');
+                    if (response.ok) {
+                        this.data = await response.json();
+                        console.log('Hierarchy data loaded:', this.data);
+                    } else {
+                        console.warn('Hierarchy data not available, using defaults');
+                        this.data = this.getDefaultHierarchy();
+                    }
+                } catch (e) {
+                    console.warn('Error loading hierarchy:', e);
+                    this.data = this.getDefaultHierarchy();
+                }
+                this.updateLayerIndicator();
+                this.updateSideLevelIndicator();
+                this.updateZoomPercentage(1.0);
+            },
+
+            getDefaultHierarchy() {
+                return {
+                    // Macro categories - the four cardinal boxes
+                    categories: [
+                        { id: 'people', name: 'PEOPLE', subtitle: 'Every person in The Continuum', position: 'top', color: '#c9a227' },
+                        { id: 'gov', name: 'GOV', subtitle: 'Government agencies, employees, foreign intelligence', position: 'left', color: '#c9a227' },
+                        { id: 'media', name: 'MEDIA', subtitle: 'Media companies and personalities', position: 'bottom', color: '#c9a227' },
+                        { id: 'financial', name: 'FINANCIAL', subtitle: 'Banks and financial entities', position: 'right', color: '#c9a227' }
+                    ],
+                    // Legacy layer structure for compatibility
+                    layers: [{ id: 'intelligence', name: 'Intelligence Networks', children: ['epstein-network'], level: 1 }],
+                    networks: [{
+                        id: 'epstein-network',
+                        name: 'Epstein Network',
+                        parent: 'intelligence',
+                        entityCount: 15,
+                        connectionCount: 78,
+                        entities: [],
+                        color: '#c9a227'
+                    }],
+                    zoomConfig: {
+                        thresholds: this.thresholds
+                    }
+                };
+            },
+
+            // Check zoom scale and determine if level transition needed (BIDIRECTIONAL with BOUNCE-STOP)
+            checkZoomLevel(scale, focusedNode = null) {
+                // Don't check during active transition or cooldown
+                if (this.transitioning || this.transitionCooldown) {
+                    this.lastZoomScale = scale;
+                    this.updateZoomPercentage(scale);
+                    return false;
+                }
+
+                // Prevent rapid re-triggers (500ms minimum between transitions)
+                const now = Date.now();
+                if (now - this.lastTransitionTime < 500) {
+                    this.lastZoomScale = scale;
+                    this.updateZoomPercentage(scale);
+                    return false;
+                }
+
+                const zoomingIn = scale > this.lastZoomScale;
+                const zoomingOut = scale < this.lastZoomScale;
+                this.lastZoomScale = scale;
+
+                // Update zoom percentage display
+                this.updateZoomPercentage(scale);
+
+                // Determine current transition context
+                let potentialTransition = null;
+                let direction = null;
+                let warningThreshold = null;
+                let actualThreshold = null;
+                let inWarningZone = false;
+                let pastThreshold = false;
+
+                // ZOOM OUT CHECKS
+                if (this.currentLevel === 'documents') {
+                    warningThreshold = this.warningThresholds.DOCUMENTS_TO_ENTITIES;
+                    actualThreshold = this.thresholds.DOCUMENTS_TO_ENTITIES;
+                    if (scale < warningThreshold) {
+                        inWarningZone = true;
+                        direction = 'out';
+                        potentialTransition = { from: 'documents', to: 'entities' };
+                        pastThreshold = scale < actualThreshold;
+                    }
+                } else if (this.currentLevel === 'entities') {
+                    warningThreshold = this.warningThresholds.ENTITIES_TO_NETWORKS;
+                    actualThreshold = this.thresholds.ENTITIES_TO_NETWORKS;
+                    if (scale < warningThreshold) {
+                        inWarningZone = true;
+                        direction = 'out';
+                        potentialTransition = { from: 'entities', to: 'networks' };
+                        pastThreshold = scale < actualThreshold;
+                    }
+                    // Also check for zoom IN to documents
+                    if (!inWarningZone && focusedNode) {
+                        warningThreshold = this.warningThresholds.ENTITIES_TO_DOCUMENTS;
+                        actualThreshold = this.thresholds.ENTITIES_TO_DOCUMENTS;
+                        if (scale > warningThreshold) {
+                            inWarningZone = true;
+                            direction = 'in';
+                            potentialTransition = { from: 'entities', to: 'documents', focusNode: focusedNode };
+                            pastThreshold = scale > actualThreshold;
+                        }
+                    }
+                } else if (this.currentLevel === 'networks') {
+                    // Check zoom OUT to macro
+                    warningThreshold = this.warningThresholds.NETWORKS_TO_MACRO;
+                    actualThreshold = this.thresholds.NETWORKS_TO_MACRO;
+                    if (scale < warningThreshold) {
+                        inWarningZone = true;
+                        direction = 'out';
+                        potentialTransition = { from: 'networks', to: 'macro' };
+                        pastThreshold = scale < actualThreshold;
+                    }
+                    // Check zoom IN to entities
+                    if (!inWarningZone) {
+                        warningThreshold = this.warningThresholds.NETWORKS_TO_ENTITIES;
+                        actualThreshold = this.thresholds.NETWORKS_TO_ENTITIES;
+                        if (scale > warningThreshold) {
+                            inWarningZone = true;
+                            direction = 'in';
+                            potentialTransition = { from: 'networks', to: 'entities' };
+                            pastThreshold = scale > actualThreshold;
+                        }
+                    }
+                } else if (this.currentLevel === 'macro') {
+                    warningThreshold = this.warningThresholds.MACRO_TO_NETWORKS;
+                    actualThreshold = this.thresholds.MACRO_TO_NETWORKS;
+                    if (scale > warningThreshold) {
+                        inWarningZone = true;
+                        direction = 'in';
+                        potentialTransition = { from: 'macro', to: 'networks' };
+                        pastThreshold = scale > actualThreshold;
+                    }
+                }
+
+                // Handle warning zone and bounce-stop logic
+                if (inWarningZone && potentialTransition) {
+                    // Calculate progress through warning zone (0 = just entered, 1 = at threshold)
+                    let progress;
+                    if (direction === 'out') {
+                        // Zooming out: warningThreshold > actualThreshold
+                        progress = (warningThreshold - scale) / (warningThreshold - actualThreshold);
+                    } else {
+                        // Zooming in: warningThreshold < actualThreshold
+                        progress = (scale - warningThreshold) / (actualThreshold - warningThreshold);
+                    }
+                    progress = Math.max(0, Math.min(1, progress));
+
+                    // Show or update warning
+                    this.showWarning(direction, potentialTransition.to, progress);
+                    this.pendingTransition = potentialTransition;
+
+                    // Check if we should proceed with transition
+                    // Require: past threshold AND minimum 300ms in warning zone
+                    const timeInWarning = now - this.warningShownAt;
+                    if (pastThreshold && timeInWarning > 300) {
+                        console.log(`Bounce-stop confirmed: ${potentialTransition.from} → ${potentialTransition.to}`);
+                        this.hideWarning();
+                        if (potentialTransition.focusNode) {
+                            this.focusedEntity = potentialTransition.focusNode;
+                        }
+                        this.transitionToLevel(potentialTransition.to);
+                        return true;
+                    }
+                } else {
+                    // Not in warning zone - hide warning if it was showing
+                    if (this.bounceStopActive) {
+                        this.hideWarning();
+                    }
+                }
+
+                return false;  // No transition triggered
+            },
+
+            // Update zoom percentage display
+            updateZoomPercentage(scale) {
+                const el = document.getElementById('zoomPercentage');
+                if (el) {
+                    el.textContent = Math.round(scale * 100) + '%';
+                }
+            },
+
+            // Show zoom warning with bounce-stop
+            showWarning(direction, targetLevel, progress = 0) {
+                const warning = document.getElementById('zoomWarning');
+                const directionEl = warning.querySelector('.warning-direction');
+                const targetEl = warning.querySelector('.warning-target');
+                const progressBar = warning.querySelector('.warning-progress-bar');
+
+                directionEl.textContent = direction === 'out' ? 'Zoom out' : 'Zoom in';
+                targetEl.textContent = targetLevel.toUpperCase();
+
+                // Update progress bar (0 to 1)
+                if (progressBar) {
+                    progressBar.style.width = Math.min(100, progress * 100) + '%';
+                }
+
+                if (!warning.classList.contains('active')) {
+                    warning.classList.add('active');
+                    // Trigger bounce animation
+                    warning.classList.add('bounce');
+                    setTimeout(() => warning.classList.remove('bounce'), 400);
+                    this.warningShownAt = Date.now();
+                    this.bounceStopActive = true;
+                }
+            },
+
+            // Hide zoom warning
+            hideWarning() {
+                const warning = document.getElementById('zoomWarning');
+                if (warning) {
+                    warning.classList.remove('active');
+                }
+                this.pendingTransition = null;
+                this.bounceStopActive = false;
+            },
+
+            // Update warning progress bar
+            updateWarningProgress(progress) {
+                const progressBar = document.querySelector('#zoomWarning .warning-progress-bar');
+                if (progressBar) {
+                    progressBar.style.width = Math.min(100, progress * 100) + '%';
+                }
+            },
+
+            // Transition between hierarchy levels
+            async transitionToLevel(targetLevel) {
+                if (this.transitioning || targetLevel === this.currentLevel) return;
+
+                // Lock transitions and enable cooldown
+                this.transitioning = true;
+                this.transitionCooldown = true;
+                this.previousLevel = this.currentLevel;
+
+                console.log(`Transitioning: ${this.currentLevel} → ${targetLevel}`);
+
+                const overlay = document.getElementById('transitionOverlay');
+                const transitionText = overlay.querySelector('.transition-text');
+
+                // Add transitioning class to target level node for pulse animation
+                const targetNode = document.querySelector(`#levelIndicator .level-node[data-level="${targetLevel}"]`);
+                if (targetNode) {
+                    targetNode.classList.add('transitioning');
+                    setTimeout(() => targetNode.classList.remove('transitioning'), 500);
+                }
+
+                // Set transition message based on direction
+                if (this.getLevelDepth(targetLevel) < this.getLevelDepth(this.currentLevel)) {
+                    transitionText.textContent = 'Ascending...';
+                } else {
+                    transitionText.textContent = 'Descending...';
+                }
+
+                // Show overlay
+                overlay.classList.add('active');
+
+                // Fade out current view
+                if (Graph.nodeElements) {
+                    Graph.nodeElements.transition().duration(200)
+                        .style('opacity', 0)
+                        .attr('transform', d => `translate(${d.x}, ${d.y}) scale(0.8)`);
+                }
+                if (Graph.linkElements) {
+                    Graph.linkElements.transition().duration(200)
+                        .style('opacity', 0);
+                }
+
+                await this.sleep(300);
+
+                // Update current level
+                this.currentLevel = targetLevel;
+                this.updateLayerIndicator();
+
+                // Rebuild view for new level
+                await this.rebuildViewForLevel(targetLevel);
+
+                // Set lastZoomScale to SAFE value for new level to prevent re-trigger
+                // The render functions handle the actual D3 zoom transform
+                const safeZoom = this.safeZoom[targetLevel] || 1.0;
+                this.lastZoomScale = safeZoom;
+                this.updateZoomPercentage(safeZoom);
+
+                // Hide overlay
+                await this.sleep(100);
+                overlay.classList.remove('active');
+
+                // Release transition lock and record time
+                this.transitioning = false;
+                this.lastTransitionTime = Date.now();
+
+                console.log(`Transition complete. Safe zoom set to ${safeZoom}`);
+
+                // Release cooldown after additional delay to prevent re-triggers
+                setTimeout(() => {
+                    this.transitionCooldown = false;
+                    console.log('Transition cooldown released');
+                }, 600);
+            },
+
+            getLevelDepth(level) {
+                const depths = { macro: 0, entities: 1, web: 2 };
+                return depths[level] || 1;
+            },
+
+            async rebuildViewForLevel(level) {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                // Clear existing elements
+                if (Graph.g) {
+                    Graph.g.selectAll('.network-cluster').remove();
+                    Graph.g.selectAll('.layer-node').remove();
+                    Graph.g.selectAll('.document-node').remove();
+                    Graph.g.selectAll('.document-connection').remove();
+                }
+
+                switch(level) {
+                    case 'macro':
+                        await this.renderMacroView();
+                        break;
+                    case 'entities':
+                        await this.renderEntitiesView();
+                        break;
+                    case 'web':
+                        // Web level shows document sources for focused entity
+                        await this.renderDocumentsView();
+                        break;
+                    // Legacy support for old level names
+                    case 'networks':
+                        await this.renderNetworksView();
+                        break;
+                    case 'documents':
+                        await this.renderDocumentsView();
+                        break;
+                }
+            },
+
+            async renderMacroView() {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                // Hide entity nodes and links
+                if (Graph.nodeElements) Graph.nodeElements.style('display', 'none');
+                if (Graph.linkElements) Graph.linkElements.style('display', 'none');
+
+                // Hide legend in macro view
+                const legend = document.getElementById('legend');
+                if (legend) legend.style.display = 'none';
+
+                // Get categories from hierarchy data (new structure)
+                const categories = this.data?.categories || [
+                    { id: 'people', name: 'PEOPLE', subtitle: 'Every person in The Continuum', position: 'top', color: '#c9a227' },
+                    { id: 'gov', name: 'GOV', subtitle: 'Government agencies, employees, foreign intelligence', position: 'left', color: '#c9a227' },
+                    { id: 'media', name: 'MEDIA', subtitle: 'Media companies and personalities', position: 'bottom', color: '#c9a227' },
+                    { id: 'financial', name: 'FINANCIAL', subtitle: 'Banks and financial entities', position: 'right', color: '#c9a227' }
+                ];
+
+                // Create layer nodes group
+                const layerGroup = Graph.g.append('g').attr('class', 'layer-nodes');
+
+                const centerX = width / 2;
+                const centerY = height / 2;
+                const centerRadius = Math.min(width, height) * 0.08;
+
+                // Calculate positions for cardinal directions
+                const boxOffset = Math.min(width, height) * 0.32;
+                const positions = {
+                    top: { x: centerX, y: centerY - boxOffset },
+                    left: { x: centerX - boxOffset, y: centerY },
+                    bottom: { x: centerX, y: centerY + boxOffset },
+                    right: { x: centerX + boxOffset, y: centerY }
+                };
+
+                // Store category positions for line drawing
+                const categoryPositions = {};
+
+                // Draw gold connecting lines FIRST (behind boxes)
+                const linesGroup = layerGroup.append('g').attr('class', 'macro-connection-lines');
+
+                categories.forEach((category) => {
+                    const pos = positions[category.position];
+                    if (!pos) return;
+
+                    categoryPositions[category.id] = pos;
+
+                    // Draw line from center to category box
+                    linesGroup.append('line')
+                        .attr('class', 'macro-connection-line')
+                        .attr('x1', centerX)
+                        .attr('y1', centerY)
+                        .attr('x2', pos.x)
+                        .attr('y2', pos.y)
+                        .attr('stroke', '#c9a227')
+                        .attr('stroke-width', 2)
+                        .style('opacity', 0)
+                        .transition().duration(400)
+                        .style('opacity', 0.6);
+                });
+
+                // Render category boxes
+                categories.forEach((category, i) => {
+                    const pos = positions[category.position];
+                    if (!pos) return;
+
+                    const node = layerGroup.append('g')
+                        .attr('class', 'layer-node macro-category-box')
+                        .attr('data-category', category.id)
+                        .attr('transform', `translate(${pos.x}, ${pos.y})`)
+                        .style('opacity', 0)
+                        .style('cursor', 'pointer')
+                        .on('click', () => this.handleMacroCategoryClick(category.id));
+
+                    // Box background - 220x100
+                    node.append('rect')
+                        .attr('class', 'layer-node-bg')
+                        .attr('width', 220)
+                        .attr('height', 100)
+                        .attr('x', -110)
+                        .attr('y', -50)
+                        .attr('rx', 12)
+                        .attr('stroke', category.color || '#c9a227');
+
+                    // Category name (large)
+                    node.append('text')
+                        .attr('class', 'layer-node-title')
+                        .attr('x', 0)
+                        .attr('y', -10)
+                        .attr('dominant-baseline', 'middle')
+                        .attr('text-anchor', 'middle')
+                        .text(category.name);
+
+                    // Subtitle (smaller description)
+                    node.append('text')
+                        .attr('class', 'layer-node-desc')
+                        .attr('x', 0)
+                        .attr('y', 15)
+                        .attr('dominant-baseline', 'middle')
+                        .attr('text-anchor', 'middle')
+                        .text(category.subtitle);
+
+                    // Fade in with stagger
+                    node.transition().duration(300).delay(i * 50)
+                        .style('opacity', 1);
+                });
+
+                // Add central "Continuum" node
+                const continuum = layerGroup.append('g')
+                    .attr('class', 'layer-node continuum-node')
+                    .attr('transform', `translate(${centerX}, ${centerY})`)
+                    .style('opacity', 0);
+
+                continuum.append('circle')
+                    .attr('r', centerRadius)
+                    .attr('fill', 'var(--void)')
+                    .attr('stroke', 'var(--gold)')
+                    .attr('stroke-width', 3);
+
+                continuum.append('text')
+                    .attr('class', 'layer-node-title')
+                    .attr('x', 0)
+                    .attr('y', -10)
+                    .attr('dominant-baseline', 'middle')
+                    .attr('text-anchor', 'middle')
+                    .attr('fill', 'var(--gold)')
+                    .attr('font-size', '12px')
+                    .text('THE');
+
+                continuum.append('text')
+                    .attr('class', 'layer-node-title')
+                    .attr('x', 0)
+                    .attr('y', 10)
+                    .attr('dominant-baseline', 'middle')
+                    .attr('text-anchor', 'middle')
+                    .attr('fill', 'var(--gold)')
+                    .attr('font-size', '12px')
+                    .text('CONTINUUM');
+
+                continuum.transition().duration(300)
+                    .style('opacity', 1);
+
+                // Set zoom to identity (scale 1.0) for macro level
+                Graph.svg.transition().duration(500)
+                    .call(Graph.zoom.transform, d3.zoomIdentity);
+                this.lastZoomScale = 1.0;
+
+                // Update breadcrumb for macro level
+                this.updateBreadcrumb('macro', null, null);
+            },
+
+            // Handle macro category box click - navigate to entities layer
+            handleMacroCategoryClick(categoryId) {
+                this.selectedCategory = categoryId;
+                this.transitionToLevel('entities');
+                this.updateBreadcrumb('entities', categoryId, null);
+            },
+
+            // Update breadcrumb display
+            updateBreadcrumb(level, category, focalEntity) {
+                const indicator = document.getElementById('layerIndicator');
+                if (!indicator) return;
+
+                const crumbs = indicator.querySelectorAll('.layer-crumb');
+                crumbs.forEach(crumb => {
+                    const crumbLevel = crumb.dataset.level;
+                    crumb.classList.toggle('active', crumbLevel === level);
+
+                    // Update text based on current state
+                    if (crumbLevel === 'entities' && category) {
+                        crumb.textContent = category.toUpperCase();
+                    } else if (crumbLevel === 'web' && focalEntity) {
+                        crumb.textContent = focalEntity;
+                    }
+                });
+            },
+
+            async renderNetworksView() {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                // Hide entity nodes and links
+                if (Graph.nodeElements) Graph.nodeElements.style('display', 'none');
+                if (Graph.linkElements) Graph.linkElements.style('display', 'none');
+
+                // Get networks from hierarchy data
+                const networks = this.data?.networks || [];
+
+                // Create network cluster nodes
+                const networkGroup = Graph.g.append('g').attr('class', 'network-clusters');
+
+                const cols = Math.ceil(Math.sqrt(networks.length));
+                const spacing = 220;
+                const startX = (width - (cols - 1) * spacing) / 2;
+                const startY = height / 2 - 50;
+
+                networks.forEach((network, i) => {
+                    const col = i % cols;
+                    const row = Math.floor(i / cols);
+                    const x = startX + col * spacing;
+                    const y = startY + row * spacing;
+
+                    const isPlaceholder = network.placeholder || network.entityCount === 0;
+
+                    const node = networkGroup.append('g')
+                        .attr('class', `network-cluster ${isPlaceholder ? 'placeholder' : ''}`)
+                        .attr('transform', `translate(${x}, ${y})`)
+                        .style('opacity', 0)
+                        .on('click', () => {
+                            if (!isPlaceholder) {
+                                this.drillIntoNetwork(network.id);
+                            }
+                        })
+                        .on('dblclick', () => {
+                            if (!isPlaceholder) {
+                                this.drillIntoNetwork(network.id);
+                            }
+                        });
+
+                    // Uniform box size: 220x100 with padding (matches layer nodes)
+                    node.append('rect')
+                        .attr('class', 'network-cluster-bg')
+                        .attr('width', 220)
+                        .attr('height', 100)
+                        .attr('x', -110)
+                        .attr('y', -50)
+                        .attr('stroke', network.color || '#c9a227');
+
+                    node.append('text')
+                        .attr('class', 'network-cluster-title')
+                        .attr('x', 0)
+                        .attr('y', -25)
+                        .attr('dominant-baseline', 'middle')
+                        .text(network.name);
+
+                    // Split stats into two lines to prevent overflow
+                    node.append('text')
+                        .attr('class', 'network-cluster-count')
+                        .attr('x', 0)
+                        .attr('y', 0)
+                        .attr('dominant-baseline', 'middle')
+                        .text(`${network.entityCount} entities`);
+
+                    node.append('text')
+                        .attr('class', 'network-cluster-count')
+                        .attr('x', 0)
+                        .attr('y', 18)
+                        .attr('dominant-baseline', 'middle')
+                        .text(`${network.connectionCount} connections`);
+
+                    node.append('text')
+                        .attr('class', 'network-cluster-status')
+                        .attr('x', 0)
+                        .attr('y', 35)
+                        .attr('dominant-baseline', 'middle')
+                        .text(network.status || '');
+
+                    // Add central figure indicator for networks with a defined center
+                    if (network.id === 'epstein-network') {
+                        node.append('text')
+                            .attr('class', 'network-cluster-center')
+                            .attr('x', 0)
+                            .attr('y', -40)
+                            .attr('dominant-baseline', 'middle')
+                            .text('⬤ Jeffrey Epstein');
+                    }
+
+                    // Fade in
+                    node.transition().duration(300).delay(i * 80)
+                        .style('opacity', 1);
+                });
+
+                // Set zoom to identity for networks level - cards are already positioned at screen center
+                Graph.svg.transition().duration(500)
+                    .call(Graph.zoom.transform, d3.zoomIdentity);
+                this.lastZoomScale = 1.0;
+            },
+
+            async renderEntitiesView() {
+                // Remove any network/layer/document nodes
+                Graph.g.selectAll('.network-clusters').remove();
+                Graph.g.selectAll('.layer-nodes').remove();
+                Graph.g.selectAll('.document-nodes').remove();
+
+                // Show legend when in entities view
+                const legend = document.getElementById('legend');
+                if (legend) legend.style.display = 'flex';
+
+                // Show entity nodes and links
+                if (Graph.nodeElements) {
+                    Graph.nodeElements.style('display', null)
+                        .style('opacity', 0)
+                        .transition().duration(300)
+                        .style('opacity', 1)
+                        .attr('transform', d => `translate(${d.x}, ${d.y})`);
+                }
+                if (Graph.linkElements) {
+                    Graph.linkElements.style('display', null)
+                        .style('opacity', 0)
+                        .transition().duration(300)
+                        .style('opacity', d => d.bidirectional || d.type === 'documented' ? 0.7 : 0.4);
+                }
+
+                // Set zoom to safe value for entities level and fit the graph
+                const safeZoom = this.safeZoom.entities;
+                setTimeout(() => {
+                    Graph.resetView();
+                    // Update lastZoomScale to match after resetView
+                    this.lastZoomScale = safeZoom;
+                }, 100);
+            },
+
+            async renderDocumentsView() {
+                if (!this.focusedEntity) {
+                    await this.renderEntitiesView();
+                    return;
+                }
+
+                const entity = this.focusedEntity;
+                const sources = entity.sources || [];
+
+                if (sources.length === 0) {
+                    await this.renderEntitiesView();
+                    return;
+                }
+
+                // Dim other nodes
+                if (Graph.nodeElements) {
+                    Graph.nodeElements.classed('dimmed', d => d.id !== entity.id);
+                }
+                if (Graph.linkElements) {
+                    Graph.linkElements.classed('dimmed', true);
+                }
+
+                // Create document nodes around the entity
+                const docGroup = Graph.g.append('g').attr('class', 'document-nodes');
+
+                const radius = 150;
+                sources.slice(0, 8).forEach((source, i) => {
+                    const angle = (i / Math.min(sources.length, 8)) * Math.PI * 2 - Math.PI / 2;
+                    const x = entity.x + Math.cos(angle) * radius;
+                    const y = entity.y + Math.sin(angle) * radius;
+
+                    // Connection line
+                    docGroup.append('line')
+                        .attr('class', 'document-connection')
+                        .attr('x1', entity.x)
+                        .attr('y1', entity.y)
+                        .attr('x2', x)
+                        .attr('y2', y)
+                        .style('opacity', 0)
+                        .transition().duration(300).delay(i * 50)
+                        .style('opacity', 1);
+
+                    // Document node
+                    const node = docGroup.append('g')
+                        .attr('class', 'document-node')
+                        .attr('transform', `translate(${x}, ${y})`)
+                        .style('opacity', 0)
+                        .on('click', () => {
+                            PDFViewer.open(source);
+                        });
+
+                    node.append('rect')
+                        .attr('class', 'document-node-bg')
+                        .attr('width', 100)
+                        .attr('height', 60)
+                        .attr('x', -50)
+                        .attr('y', -30);
+
+                    node.append('text')
+                        .attr('class', 'document-node-icon')
+                        .attr('y', -5)
+                        .text('📄');
+
+                    node.append('text')
+                        .attr('class', 'document-node-title')
+                        .attr('y', 12)
+                        .text(`ECF ${source.ecf}`);
+
+                    const desc = source.description || '';
+                    const shortDesc = desc.length > 18 ? desc.substring(0, 16) + '...' : desc;
+                    node.append('text')
+                        .attr('class', 'document-node-desc')
+                        .attr('y', 24)
+                        .text(shortDesc);
+
+                    // Fade in
+                    node.transition().duration(300).delay(i * 50)
+                        .style('opacity', 1);
+                });
+
+                // Zoom to center on entity
+                const scale = 1.5;
+                Graph.svg.transition().duration(500)
+                    .call(Graph.zoom.transform,
+                        d3.zoomIdentity
+                            .translate(window.innerWidth / 2 - entity.x * scale, window.innerHeight / 2 - entity.y * scale)
+                            .scale(scale));
+            },
+
+            drillIntoLayer(layerId) {
+                this.focusedNetwork = null;
+                this.transitionToLevel('networks');
+            },
+
+            drillIntoNetwork(networkId) {
+                this.focusedNetwork = networkId;
+                this.focusedEntity = null;
+                this.transitionToLevel('entities');
+            },
+
+            // Navigate to a specific level from breadcrumb click
+            navigateToLevel(level) {
+                if (level === this.currentLevel) return;
+
+                // Reset focused items when going up
+                if (this.getLevelDepth(level) < this.getLevelDepth(this.currentLevel)) {
+                    if (level === 'macro' || level === 'entities') {
+                        this.focusedEntity = null;
+                    }
+                    if (level === 'macro') {
+                        this.focusedNetwork = null;
+                        this.selectedCategory = null;
+                    }
+                }
+
+                this.transitionToLevel(level);
+            },
+
+            updateLayerIndicator() {
+                // Update breadcrumb indicator
+                const indicator = document.getElementById('layerIndicator');
+                if (indicator) {
+                    const crumbs = indicator.querySelectorAll('.layer-crumb');
+                    crumbs.forEach(crumb => {
+                        const level = crumb.dataset.level;
+                        crumb.classList.toggle('active', level === this.currentLevel);
+
+                        // Update text based on current state - new breadcrumb format: MACRO > [CATEGORY] > [ENTITY]
+                        if (level === 'macro') {
+                            crumb.textContent = 'MACRO';
+                        } else if (level === 'entities') {
+                            // Show selected category or placeholder
+                            crumb.textContent = this.selectedCategory ? this.selectedCategory.toUpperCase() : '[CATEGORY]';
+                        } else if (level === 'web') {
+                            // Show focused entity name or placeholder
+                            crumb.textContent = this.focusedEntity?.name || '[ENTITY]';
+                        }
+                    });
+                }
+
+                // Update side level indicator
+                this.updateSideLevelIndicator();
+            },
+
+            // Update the side panel level indicator
+            updateSideLevelIndicator() {
+                const levels = ['macro', 'entities', 'web'];
+                const currentIndex = levels.indexOf(this.currentLevel);
+
+                // Update level nodes
+                document.querySelectorAll('#levelIndicator .level-node').forEach(node => {
+                    const nodeLevel = node.dataset.level;
+                    const nodeIndex = levels.indexOf(nodeLevel);
+
+                    node.classList.remove('active', 'visited', 'transitioning');
+
+                    if (nodeLevel === this.currentLevel) {
+                        node.classList.add('active');
+                    } else if (nodeIndex < currentIndex) {
+                        node.classList.add('visited');
+                    }
+
+                    // Disable web level if no entity is focused
+                    if (nodeLevel === 'web') {
+                        node.classList.toggle('disabled', !this.focusedEntity);
+                    }
+                });
+
+                // Update connectors
+                document.querySelectorAll('#levelIndicator .level-connector').forEach((conn, i) => {
+                    conn.classList.toggle('active', i < currentIndex);
+                });
+            },
+
+            sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+        };
+
+        // ============================================================
         // GRAPH VISUALIZATION
         // ============================================================
         const Graph = {
@@ -1707,19 +3196,46 @@
                 this.g = this.svg.append('g');
 
                 this.zoom = d3.zoom()
-                    .scaleExtent([0.1, 4])
-                    .on('zoom', (event) => this.g.attr('transform', event.transform));
+                    .scaleExtent([0.05, 4])  // Allow zooming out further for macro view
+                    .on('zoom', (event) => {
+                        this.g.attr('transform', event.transform);
+                        // Check if zoom level triggers hierarchy transition (BIDIRECTIONAL for all levels)
+                        // Only check if not in transition and not in cooldown
+                        if (!HierarchyManager.transitioning && !HierarchyManager.transitionCooldown) {
+                            const transitioned = HierarchyManager.checkZoomLevel(event.transform.k, this.activeNode);
+                            // If transition was triggered, stop processing further zoom events
+                            if (transitioned) {
+                                return;
+                            }
+                        } else {
+                            // Still update the zoom percentage display during cooldown
+                            HierarchyManager.updateZoomPercentage(event.transform.k);
+                        }
+                    });
                 this.svg.call(this.zoom);
+
+                const centerX = width / 2;
+                const centerY = height / 2;
 
                 this.nodes = data.entities.map(e => {
                     const connectionCount = data.connections.filter(
                         c => c.source === e.id || c.target === e.id
                     ).length;
-                    return {
+                    const isFocal = this.isFocalEntity(e);
+                    const node = {
                         ...e,
-                        radius: this.getRadius(e.type, connectionCount),
-                        connectionCount
+                        radius: this.getRadius(e.type, connectionCount, isFocal),
+                        connectionCount,
+                        isFocal: isFocal
                     };
+                    // Pin focal entity to center
+                    if (isFocal) {
+                        node.fx = centerX;
+                        node.fy = centerY;
+                        node.x = centerX;
+                        node.y = centerY;
+                    }
+                    return node;
                 });
 
                 // Store entity list for brief navigation
@@ -1777,7 +3293,8 @@
                     .attr('class', 'link')
                     .attr('stroke', d => this.getLinkColor(d))
                     .attr('stroke-width', d => this.getLinkWidth(d))
-                    .attr('stroke-opacity', d => d.bidirectional || d.type === 'documented' ? 0.7 : 0.4);
+                    .attr('stroke-opacity', d => d.bidirectional || d.type === 'documented' ? 0.7 : 0.4)
+                    .style('display', 'none');  // Hidden initially - start at macro
 
                 this.nodeElements = this.g.append('g')
                     .attr('class', 'nodes')
@@ -1785,7 +3302,8 @@
                     .data(this.nodes)
                     .enter()
                     .append('g')
-                    .attr('class', 'node')
+                    .attr('class', d => d.isFocal ? 'node focal' : 'node')
+                    .style('display', 'none')  // Hidden initially - start at macro
                     .call(d3.drag()
                         .on('start', (event, d) => this.dragStart(event, d))
                         .on('drag', (event, d) => this.dragging(event, d))
@@ -1816,7 +3334,14 @@
                 document.getElementById('entityCount').textContent = this.nodes.length;
                 document.getElementById('connectionCount').textContent = this.links.length;
 
-                setTimeout(() => this.resetView(), 500);
+                // Start at macro level - will be rendered after HierarchyManager initializes
+                setTimeout(() => {
+                    if (HierarchyManager.data && HierarchyManager.currentLevel === 'macro') {
+                        HierarchyManager.renderMacroView();
+                    } else {
+                        this.resetView();
+                    }
+                }, 600);
             },
 
             showError(message) {
@@ -1828,9 +3353,28 @@
                 `;
             },
 
-            getRadius(type, connectionCount) {
-                const baseRadii = { person: 22, organization: 20, case: 20, location: 18 };
-                return (baseRadii[type] || 20) + Math.min(connectionCount, 10);
+            // Standard node radius for all non-focal entities (normalized)
+            STANDARD_NODE_RADIUS: 22,
+            FOCAL_NODE_RADIUS: 32,  // 1.45x larger for focal entity
+
+            getRadius(type, connectionCount, isFocal = false) {
+                // Focal entity gets larger radius
+                if (isFocal) {
+                    return this.FOCAL_NODE_RADIUS;
+                }
+                // All non-focal nodes get uniform size regardless of type
+                return this.STANDARD_NODE_RADIUS;
+            },
+
+            // Check if an entity is the focal point of the current network
+            isFocalEntity(entity) {
+                // For Epstein Network, Jeffrey Epstein is the focal entity
+                if (HierarchyManager.focusedNetwork === 'epstein-network') {
+                    return entity.id === 'jeffrey-epstein' ||
+                           entity.name?.toLowerCase() === 'jeffrey epstein';
+                }
+                // Add more network focal entities as needed
+                return false;
             },
 
             getLinkColor(link) {
@@ -1952,6 +3496,8 @@
 
             selectNode(node) {
                 this.activeNode = node;
+                // Track focused entity for document view
+                HierarchyManager.focusedEntity = node;
 
                 const connectedIds = new Set([node.id]);
                 const connectionData = {};
@@ -2022,6 +3568,20 @@
                                 <line x1="10" y1="9" x2="8" y2="9"/>
                             </svg>
                             View Full Brief
+                        </button>
+                    `;
+                }
+                // Add document zoom button if entity has sources
+                if (node.sources && node.sources.length > 0) {
+                    html += `
+                        <button class="action-btn" onclick="HierarchyManager.focusedEntity = Graph.activeNode; HierarchyManager.transitionToLevel('web')">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <line x1="11" y1="8" x2="11" y2="14"/>
+                                <line x1="8" y1="11" x2="14" y2="11"/>
+                            </svg>
+                            Zoom to Documents
                         </button>
                     `;
                 }
@@ -2250,9 +3810,45 @@
         document.addEventListener('DOMContentLoaded', () => {
             Graph.init();
             PDFViewer.init();
+            HierarchyManager.init();
+
+            // Briefly show zoom hint on load
+            const zoomHint = document.getElementById('zoomHint');
+            if (zoomHint) {
+                setTimeout(() => {
+                    zoomHint.classList.add('visible');
+                    setTimeout(() => {
+                        zoomHint.classList.remove('visible');
+                    }, 5000);
+                }, 2000);
+            }
 
             document.getElementById('searchInput').addEventListener('input', (e) => {
                 Graph.filterNodes(e.target.value);
+            });
+
+            // Layer indicator (breadcrumb) click handlers
+            document.querySelectorAll('.layer-crumb').forEach(crumb => {
+                crumb.addEventListener('click', () => {
+                    const level = crumb.dataset.level;
+                    if (level) {
+                        HierarchyManager.navigateToLevel(level);
+                    }
+                });
+            });
+
+            // Side level indicator click handlers
+            document.querySelectorAll('#levelIndicator .level-node').forEach(node => {
+                node.addEventListener('click', () => {
+                    const level = node.dataset.level;
+                    if (level && !node.classList.contains('disabled')) {
+                        // Don't navigate to web layer without a focused entity
+                        if (level === 'web' && !HierarchyManager.focusedEntity) {
+                            return;
+                        }
+                        HierarchyManager.navigateToLevel(level);
+                    }
+                });
             });
 
             document.querySelectorAll('.legend-item').forEach(item => {
@@ -2277,12 +3873,21 @@
 
             // Keyboard shortcuts
             document.addEventListener('keydown', (e) => {
-                // Close modals on Escape
+                // Close modals or navigate hierarchy on Escape
                 if (e.key === 'Escape') {
                     if (document.getElementById('pdfViewer').classList.contains('active')) {
                         PDFViewer.close();
                     } else if (document.getElementById('briefViewer').classList.contains('active')) {
                         BriefViewer.close();
+                    } else if (HierarchyManager.currentLevel === 'web' || HierarchyManager.currentLevel === 'documents') {
+                        // Exit web/document view back to entities
+                        HierarchyManager.transitionToLevel('entities');
+                    } else if (HierarchyManager.currentLevel === 'entities') {
+                        // Exit entities view back to macro
+                        HierarchyManager.transitionToLevel('macro');
+                    } else if (HierarchyManager.currentLevel === 'macro') {
+                        // Already at top level - do nothing or clear selection
+                        Graph.clearSelection();
                     } else {
                         Graph.clearSelection();
                         document.getElementById('searchInput').value = '';
@@ -2305,12 +3910,45 @@
                     if (e.key === 'ArrowRight') BriefViewer.next();
                 }
 
+                // Hierarchy level navigation (1-3 keys for new 3-level structure)
+                if (!document.getElementById('briefViewer').classList.contains('active') &&
+                    !document.getElementById('pdfViewer').classList.contains('active')) {
+                    if (e.key === '1') HierarchyManager.navigateToLevel('macro');
+                    if (e.key === '2') HierarchyManager.navigateToLevel('entities');
+                    if (e.key === '3' && HierarchyManager.focusedEntity) {
+                        HierarchyManager.transitionToLevel('web');
+                    }
+                }
+
                 // Graph zoom (when not in modals)
                 if (!document.getElementById('briefViewer').classList.contains('active') &&
                     !document.getElementById('pdfViewer').classList.contains('active')) {
                     if (e.key === '+' || e.key === '=') Graph.zoomIn();
                     if (e.key === '-') Graph.zoomOut();
                     if (e.key === '0') Graph.resetView();
+
+                    // Arrow key level navigation (up/right = go deeper, down/left = go shallower)
+                    const levels = ['macro', 'entities', 'web'];
+                    const currentIndex = levels.indexOf(HierarchyManager.currentLevel);
+
+                    if (e.key === 'ArrowUp' || e.key === 'ArrowRight') {
+                        // Go deeper in hierarchy
+                        if (currentIndex < levels.length - 1) {
+                            const nextLevel = levels[currentIndex + 1];
+                            // Don't go to web without a focused entity
+                            if (nextLevel === 'web' && !HierarchyManager.focusedEntity) {
+                                return;
+                            }
+                            HierarchyManager.navigateToLevel(nextLevel);
+                        }
+                    }
+
+                    if (e.key === 'ArrowDown' || e.key === 'ArrowLeft') {
+                        // Go shallower in hierarchy
+                        if (currentIndex > 0) {
+                            HierarchyManager.navigateToLevel(levels[currentIndex - 1]);
+                        }
+                    }
                 }
             });
 

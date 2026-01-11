@@ -27,6 +27,17 @@
             --color-organization: #8b6fc0;
             --color-case: #60a5fa;
             --color-location: #4ade80;
+
+            /* Entity Type Colors - Aligned with design spec */
+            --entity-person-gov: #E57373;        /* Person: Gov Employee - Reddish */
+            --entity-person-ceo: #4DD0E1;        /* Person: CEO/Board - Tealish */
+            --entity-person-other: #FFD54F;      /* Person: Other - Yellow */
+            --entity-org-banking: #81C784;       /* Org: Banking - Green */
+            --entity-org-media: #F48FB1;         /* Org: Media - Pink */
+            --entity-org-gov: #5C6BC0;           /* Org: Government - Dark Blue */
+            --entity-org-other: #9575CD;         /* Org: Other - Purple */
+            --entity-case: #FFB74D;              /* Case - Orange */
+            --entity-general: #9E9E9E;           /* Unknown - Gray */
         }
 
         html, body {
@@ -166,9 +177,9 @@
         /* DETAIL PANEL */
         #detailPanel {
             position: fixed;
-            right: -420px; top: 60px;
+            right: -420px; top: 90px;
             width: 400px;
-            max-height: calc(100vh - 80px);
+            max-height: calc(100vh - 110px);
             background: rgba(18, 16, 26, 0.98);
             border: 1px solid var(--gold-dim);
             border-right: none;
@@ -270,6 +281,262 @@
             background: rgba(154, 154, 154, 0.2);
             color: var(--smoke);
         }
+
+        /* ═══════════════════════════════════════════════════════════
+           CONNECTIONS PANEL - PHASE 4 DROPDOWN UPDATES
+           ═══════════════════════════════════════════════════════════ */
+
+        /* Hide old badge labels */
+        .connection-evidence {
+            display: none !important;
+        }
+
+        /* Updated connection item for expandable dropdown */
+        .connection-item {
+            flex-direction: column;
+            align-items: stretch;
+            padding: 0;
+            cursor: default;
+        }
+
+        /* Connection header - clickable to expand */
+        .connection-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.75rem 1.25rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .connection-header:hover {
+            background: rgba(201, 162, 39, 0.1);
+        }
+
+        /* Expand/collapse icon */
+        .connection-expand-icon {
+            font-size: 10px;
+            color: var(--smoke);
+            transition: transform 0.2s;
+            width: 12px;
+            text-align: center;
+        }
+
+        .connection-item.expanded .connection-expand-icon {
+            transform: rotate(90deg);
+        }
+
+        /* Connection info within header */
+        .connection-header-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        /* Dropdown container */
+        .connection-dropdown {
+            padding: 0 1.25rem 0.75rem 2.5rem;
+            border-bottom: 1px solid rgba(139, 111, 192, 0.15);
+            animation: dropdownExpand 0.2s ease-out;
+        }
+
+        @keyframes dropdownExpand {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Summary text */
+        .connection-summary {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: var(--mist);
+            padding: 0.75rem;
+            background: rgba(18, 16, 26, 0.6);
+            border: 1px solid rgba(139, 111, 192, 0.2);
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+        }
+
+        /* Sources section */
+        .connection-sources {
+            padding-top: 0.5rem;
+        }
+
+        .connection-sources-header {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .connection-sources-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .connection-source-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: rgba(45, 36, 69, 0.4);
+            border: 1px solid rgba(139, 111, 192, 0.2);
+            border-radius: 4px;
+            color: var(--gold);
+            text-decoration: none;
+            font-size: 0.75rem;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .connection-source-link:hover {
+            background: rgba(45, 36, 69, 0.7);
+            border-color: var(--gold);
+        }
+
+        .connection-source-link .source-icon {
+            font-size: 0.9rem;
+        }
+
+        .connection-source-link .source-title {
+            flex: 1;
+            color: var(--mist);
+        }
+
+        .connection-source-link .source-date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--smoke);
+        }
+
+        .no-sources {
+            font-size: 0.75rem;
+            color: var(--smoke);
+            font-style: italic;
+        }
+
+        /* View Connections Brief button */
+        .view-connections-brief-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.4rem 0.75rem;
+            background: rgba(201, 162, 39, 0.15);
+            border: 1px solid rgba(201, 162, 39, 0.4);
+            border-radius: 4px;
+            color: var(--gold);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .view-connections-brief-btn:hover {
+            background: rgba(201, 162, 39, 0.25);
+            border-color: var(--gold);
+        }
+
+        /* Connections section header update */
+        .connections-section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .connections-section-header h4 {
+            margin: 0;
+        }
+
+        /* Connections Brief Modal (fallback) */
+        .connections-brief-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .connections-brief-backdrop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 10, 11, 0.9);
+        }
+
+        .connections-brief-content {
+            position: relative;
+            width: 90%;
+            max-width: 800px;
+            max-height: 80vh;
+            background: rgba(18, 16, 26, 0.98);
+            border: 1px solid var(--gold-dim);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .connections-brief-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: rgba(201, 162, 39, 0.1);
+            border-bottom: 1px solid var(--gold-dim);
+        }
+
+        .connections-brief-header h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            color: var(--gold);
+            margin: 0;
+        }
+
+        .connections-brief-header .close-btn {
+            background: none;
+            border: none;
+            color: var(--mist);
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .connections-brief-header .close-btn:hover {
+            background: var(--gold);
+            color: var(--void);
+        }
+
+        .connections-brief-body {
+            padding: 1.5rem;
+            overflow-y: auto;
+            flex: 1;
+        }
+
         .source-list { list-style: none; }
         .source-item {
             padding: 0.5rem 0;
@@ -792,6 +1059,271 @@
         }
         .ecf-table-row td {
             transition: background 0.2s ease;
+        }
+
+        /* ═══════════════════════════════════════════════════════════
+           ENTITIES LAYER STYLES
+           ═══════════════════════════════════════════════════════════ */
+
+        .entities-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: var(--void, #0a0a0b);
+            z-index: 10;
+        }
+
+        /* Filter Search Bar */
+        .entities-search-container {
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(26, 16, 37, 0.95);
+            border: 1px solid rgba(201, 162, 39, 0.3);
+            border-radius: 8px;
+            padding: 8px 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .entities-search-icon {
+            color: var(--smoke, #a8a8a8);
+            display: flex;
+            align-items: center;
+        }
+
+        .entities-filter-search {
+            width: 300px;
+            padding: 8px 12px;
+            background: rgba(10, 10, 11, 0.8);
+            border: 1px solid rgba(107, 82, 128, 0.4);
+            border-radius: 4px;
+            color: var(--mist, #d4d4d4);
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .entities-filter-search:focus {
+            border-color: var(--gold, #c9a227);
+        }
+
+        .entities-filter-search::placeholder {
+            color: rgba(168, 168, 168, 0.6);
+        }
+
+        .entities-result-count {
+            font-size: 12px;
+            color: var(--smoke, #a8a8a8);
+            font-family: 'JetBrains Mono', monospace;
+            white-space: nowrap;
+        }
+
+        /* Zoomable Viewport */
+        .entities-viewport {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            cursor: grab;
+        }
+
+        .entities-viewport:active,
+        .entities-viewport.panning {
+            cursor: grabbing;
+        }
+
+        /* Card Grid Container */
+        .entities-card-grid {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            transform-origin: center center;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 220px));
+            gap: 20px;
+            padding: 160px 60px 60px 60px;
+            width: max-content;
+            max-width: calc(100vw - 60px);
+            min-width: min(700px, calc(100vw - 60px));
+        }
+
+        /* Entity Card */
+        .entity-card {
+            width: 200px;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(45, 31, 61, 0.6), rgba(26, 16, 37, 0.8));
+            border: 1px solid rgba(107, 82, 128, 0.4);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .entity-card:hover {
+            border-color: var(--gold, #c9a227);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .entity-card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .entity-card-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Cinzel', serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--void, #0a0a0b);
+            flex-shrink: 0;
+        }
+
+        /* Entity type colors */
+        .entity-card[data-type="person"] .entity-card-avatar {
+            background: var(--color-person, #FFD54F);
+        }
+
+        .entity-card[data-type="organization"] .entity-card-avatar {
+            background: var(--color-organization, #9575CD);
+        }
+
+        .entity-card[data-type="case"] .entity-card-avatar {
+            background: var(--color-case, #FFB74D);
+        }
+
+        .entity-card-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .entity-card-name {
+            font-family: 'Cinzel', serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--pure, #f8f8f8);
+            line-height: 1.3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .entity-card-type {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--smoke, #a8a8a8);
+        }
+
+        .entity-card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 4px;
+        }
+
+        .entity-card-tag {
+            font-size: 9px;
+            padding: 2px 6px;
+            background: rgba(201, 162, 39, 0.2);
+            border: 1px solid rgba(201, 162, 39, 0.3);
+            border-radius: 3px;
+            color: var(--light-gold, #e8d48b);
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .entity-card-connections {
+            font-size: 11px;
+            color: var(--smoke, #a8a8a8);
+            margin-top: auto;
+            padding-top: 8px;
+        }
+
+        /* Card visibility for filtering */
+        .entity-card.filtered-out {
+            display: none;
+        }
+
+        /* No results message */
+        .entities-no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--smoke, #a8a8a8);
+            font-size: 16px;
+            font-family: 'Source Sans 3', sans-serif;
+        }
+
+        /* Category header in entities layer */
+        .entities-category-header {
+            position: absolute;
+            top: 140px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99;
+            font-family: 'Cinzel', serif;
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            color: var(--gold, #c9a227);
+            text-transform: uppercase;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .entities-search-container {
+                top: 70px;
+                padding: 6px 12px;
+            }
+
+            .entities-filter-search {
+                width: 200px;
+                font-size: 13px;
+            }
+
+            .entities-card-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 180px));
+                gap: 15px;
+                padding: 140px 20px 40px 20px;
+                min-width: auto;
+            }
+
+            .entity-card {
+                width: 160px;
+                padding: 15px;
+            }
+
+            .entity-card-avatar {
+                width: 32px;
+                height: 32px;
+                font-size: 12px;
+            }
+
+            .entity-card-name {
+                font-size: 12px;
+            }
         }
 
         /* LEGEND */
@@ -1440,11 +1972,11 @@
 
     <!-- Layer Indicator (Breadcrumb Navigation) -->
     <div id="layerIndicator">
-        <span class="layer-crumb" data-level="macro" title="View all layers">THE CONTINUUM</span>
+        <span class="layer-crumb active" data-level="macro" title="View macro categories">MACRO</span>
         <span class="layer-separator">›</span>
-        <span class="layer-crumb" data-level="networks" title="View networks">EPSTEIN NETWORK</span>
+        <span class="layer-crumb" data-level="entities" title="View entities">[CATEGORY]</span>
         <span class="layer-separator">›</span>
-        <span class="layer-crumb active" data-level="entities" title="View entities">15 Entities</span>
+        <span class="layer-crumb" data-level="web" title="View connections">[ENTITY]</span>
     </div>
 
     <!-- Transition Overlay -->
@@ -1457,6 +1989,34 @@
 
     <div id="graphContainer">
         <svg id="graphSvg"></svg>
+    </div>
+
+    <!-- Entities Layer - Index/Card Grid View -->
+    <div id="entitiesLayer" class="entities-layer" style="display: none;">
+
+        <!-- Filter Search Bar (SEPARATE from top global search) -->
+        <div class="entities-search-container">
+            <span class="entities-search-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+            </span>
+            <input type="text"
+                   id="entitiesFilterSearch"
+                   class="entities-filter-search"
+                   placeholder="Filter by name, tags, connections..."
+                   autocomplete="off">
+            <span class="entities-result-count" id="entitiesResultCount"></span>
+        </div>
+
+        <!-- Zoomable/Pannable Card Container -->
+        <div class="entities-viewport" id="entitiesViewport">
+            <div class="entities-card-grid" id="entitiesGrid">
+                <!-- Cards populated dynamically -->
+            </div>
+        </div>
+
     </div>
 
     <div id="detailPanel">
@@ -1570,9 +2130,8 @@
     <!-- Zoom Hint -->
     <div class="zoom-hint" id="zoomHint">
         <span class="hint-key">1</span> Macro
-        <span class="hint-key">2</span> Networks
-        <span class="hint-key">3</span> Entities
-        <span class="hint-key">4</span> Documents
+        <span class="hint-key">2</span> Entities
+        <span class="hint-key">3</span> Web
     </div>
 
     <!-- Zoom Warning Banner -->
@@ -1597,19 +2156,14 @@
                 <div class="level-label">MACRO</div>
             </div>
             <div class="level-connector"></div>
-            <div class="level-node" data-level="networks">
-                <div class="level-dot"></div>
-                <div class="level-label">NETWORKS</div>
-            </div>
-            <div class="level-connector"></div>
             <div class="level-node active" data-level="entities">
                 <div class="level-dot"></div>
                 <div class="level-label">ENTITIES</div>
             </div>
             <div class="level-connector"></div>
-            <div class="level-node" data-level="documents">
+            <div class="level-node" data-level="web">
                 <div class="level-dot"></div>
-                <div class="level-label">SOURCES</div>
+                <div class="level-label">WEB</div>
             </div>
         </div>
         <div class="zoom-percentage" id="zoomPercentage">100%</div>
@@ -2286,6 +2840,7 @@
             previousLevel: null,
             focusedNetwork: 'epstein-network',
             focusedEntity: null,
+            selectedCategory: null,  // PEOPLE, GOV, MEDIA, or FINANCIAL
             transitioning: false,
             transitionCooldown: false,
             lastTransitionTime: 0,
@@ -2351,7 +2906,15 @@
 
             getDefaultHierarchy() {
                 return {
-                    layers: [{ id: 'intelligence', name: 'Intelligence Networks', children: ['epstein-network'] }],
+                    // Macro categories - the four cardinal boxes
+                    categories: [
+                        { id: 'people', name: 'PEOPLE', subtitle: 'Every person in The Continuum', position: 'top', color: '#c9a227' },
+                        { id: 'gov', name: 'GOV', subtitle: 'Government & intelligence', position: 'left', color: '#c9a227' },
+                        { id: 'media', name: 'MEDIA', subtitle: 'Media companies and personalities', position: 'bottom', color: '#c9a227' },
+                        { id: 'financial', name: 'FINANCIAL', subtitle: 'Banks and financial entities', position: 'right', color: '#c9a227' }
+                    ],
+                    // Legacy layer structure for compatibility
+                    layers: [{ id: 'intelligence', name: 'Intelligence Networks', children: ['epstein-network'], level: 1 }],
                     networks: [{
                         id: 'epstein-network',
                         name: 'Epstein Network',
@@ -2626,8 +3189,8 @@
             },
 
             getLevelDepth(level) {
-                const depths = { macro: 0, networks: 1, entities: 2, documents: 3 };
-                return depths[level] || 2;
+                const depths = { macro: 0, entities: 1, web: 2 };
+                return depths[level] || 1;
             },
 
             async rebuildViewForLevel(level) {
@@ -2646,11 +3209,16 @@
                     case 'macro':
                         await this.renderMacroView();
                         break;
-                    case 'networks':
-                        await this.renderNetworksView();
-                        break;
                     case 'entities':
                         await this.renderEntitiesView();
+                        break;
+                    case 'web':
+                        // Web level shows document sources for focused entity
+                        await this.renderDocumentsView();
+                        break;
+                    // Legacy support for old level names
+                    case 'networks':
+                        await this.renderNetworksView();
                         break;
                     case 'documents':
                         await this.renderDocumentsView();
@@ -2662,33 +3230,88 @@
                 const width = window.innerWidth;
                 const height = window.innerHeight;
 
+                // Hide entities layer if visible
+                const entitiesLayer = document.getElementById('entitiesLayer');
+                if (entitiesLayer) entitiesLayer.style.display = 'none';
+
+                // Show graph container (for macro SVG elements)
+                document.getElementById('graphContainer').style.display = 'block';
+
                 // Hide entity nodes and links
                 if (Graph.nodeElements) Graph.nodeElements.style('display', 'none');
                 if (Graph.linkElements) Graph.linkElements.style('display', 'none');
 
-                // Get layers from hierarchy data
-                const layers = this.data?.layers?.filter(l => l.level === 1) || [];
+                // Hide legend in macro view
+                const legend = document.getElementById('legend');
+                if (legend) legend.style.display = 'none';
 
-                // Create layer nodes
+                // Clear selected category when going to macro
+                this.selectedCategory = null;
+
+                // Get categories from hierarchy data (new structure)
+                const categories = this.data?.categories || [
+                    { id: 'people', name: 'PEOPLE', subtitle: 'Every person in The Continuum', position: 'top', color: '#c9a227' },
+                    { id: 'gov', name: 'GOV', subtitle: 'Government & intelligence', position: 'left', color: '#c9a227' },
+                    { id: 'media', name: 'MEDIA', subtitle: 'Media companies and personalities', position: 'bottom', color: '#c9a227' },
+                    { id: 'financial', name: 'FINANCIAL', subtitle: 'Banks and financial entities', position: 'right', color: '#c9a227' }
+                ];
+
+                // Create layer nodes group
                 const layerGroup = Graph.g.append('g').attr('class', 'layer-nodes');
 
                 const centerX = width / 2;
                 const centerY = height / 2;
+                const centerRadius = Math.min(width, height) * 0.08;
 
-                // Position layers in a circle around center - sized to fill page
-                const circleRadius = Math.min(width, height) * 0.32;  // Responsive radius
-                layers.forEach((layer, i) => {
-                    const angle = (i / layers.length) * Math.PI * 2 - Math.PI / 2;
-                    const x = centerX + Math.cos(angle) * circleRadius;
-                    const y = centerY + Math.sin(angle) * circleRadius;
+                // Calculate positions for cardinal directions
+                const boxOffset = Math.min(width, height) * 0.32;
+                const positions = {
+                    top: { x: centerX, y: centerY - boxOffset },
+                    left: { x: centerX - boxOffset, y: centerY },
+                    bottom: { x: centerX, y: centerY + boxOffset },
+                    right: { x: centerX + boxOffset, y: centerY }
+                };
+
+                // Store category positions for line drawing
+                const categoryPositions = {};
+
+                // Draw gold connecting lines FIRST (behind boxes)
+                const linesGroup = layerGroup.append('g').attr('class', 'macro-connection-lines');
+
+                categories.forEach((category) => {
+                    const pos = positions[category.position];
+                    if (!pos) return;
+
+                    categoryPositions[category.id] = pos;
+
+                    // Draw line from center to category box
+                    linesGroup.append('line')
+                        .attr('class', 'macro-connection-line')
+                        .attr('x1', centerX)
+                        .attr('y1', centerY)
+                        .attr('x2', pos.x)
+                        .attr('y2', pos.y)
+                        .attr('stroke', '#c9a227')
+                        .attr('stroke-width', 2)
+                        .style('opacity', 0)
+                        .transition().duration(400)
+                        .style('opacity', 0.6);
+                });
+
+                // Render category boxes
+                categories.forEach((category, i) => {
+                    const pos = positions[category.position];
+                    if (!pos) return;
 
                     const node = layerGroup.append('g')
-                        .attr('class', 'layer-node')
-                        .attr('transform', `translate(${x}, ${y})`)
+                        .attr('class', 'layer-node macro-category-box')
+                        .attr('data-category', category.id)
+                        .attr('transform', `translate(${pos.x}, ${pos.y})`)
                         .style('opacity', 0)
-                        .on('click', () => this.drillIntoLayer(layer.id));
+                        .style('cursor', 'pointer')
+                        .on('click', () => this.handleMacroCategoryClick(category.id));
 
-                    // Uniform box size: 220x100 with 20px padding on each side
+                    // Box background - 220x100
                     node.append('rect')
                         .attr('class', 'layer-node-bg')
                         .attr('width', 220)
@@ -2696,30 +3319,32 @@
                         .attr('x', -110)
                         .attr('y', -50)
                         .attr('rx', 12)
-                        .attr('stroke', layer.color || '#c9a227');
+                        .attr('stroke', category.color || '#c9a227');
 
+                    // Category name (large)
                     node.append('text')
                         .attr('class', 'layer-node-title')
                         .attr('x', 0)
                         .attr('y', -10)
                         .attr('dominant-baseline', 'middle')
-                        .text(layer.name);
+                        .attr('text-anchor', 'middle')
+                        .text(category.name);
 
-                    const childCount = layer.children?.length || 0;
+                    // Subtitle (smaller description)
                     node.append('text')
                         .attr('class', 'layer-node-desc')
                         .attr('x', 0)
                         .attr('y', 15)
                         .attr('dominant-baseline', 'middle')
-                        .text(`${childCount} network${childCount !== 1 ? 's' : ''}`);
+                        .attr('text-anchor', 'middle')
+                        .text(category.subtitle);
 
-                    // Fade in
+                    // Fade in with stagger
                     node.transition().duration(300).delay(i * 50)
                         .style('opacity', 1);
                 });
 
-                // Add central "Continuum" node - sized responsively
-                const centerRadius = Math.min(width, height) * 0.08;
+                // Add central "Continuum" node
                 const continuum = layerGroup.append('g')
                     .attr('class', 'layer-node continuum-node')
                     .attr('transform', `translate(${centerX}, ${centerY})`)
@@ -2736,6 +3361,7 @@
                     .attr('x', 0)
                     .attr('y', -10)
                     .attr('dominant-baseline', 'middle')
+                    .attr('text-anchor', 'middle')
                     .attr('fill', 'var(--gold)')
                     .attr('font-size', '12px')
                     .text('THE');
@@ -2745,6 +3371,7 @@
                     .attr('x', 0)
                     .attr('y', 10)
                     .attr('dominant-baseline', 'middle')
+                    .attr('text-anchor', 'middle')
                     .attr('fill', 'var(--gold)')
                     .attr('font-size', '12px')
                     .text('CONTINUUM');
@@ -2752,10 +3379,46 @@
                 continuum.transition().duration(300)
                     .style('opacity', 1);
 
-                // Set zoom to identity (scale 1.0) for macro level - elements already positioned at screen center
+                // Set zoom to identity (scale 1.0) for macro level
                 Graph.svg.transition().duration(500)
                     .call(Graph.zoom.transform, d3.zoomIdentity);
                 this.lastZoomScale = 1.0;
+
+                // Update breadcrumb for macro level
+                this.updateBreadcrumb('macro', null, null);
+            },
+
+            // Handle macro category box click - navigate to entities layer
+            handleMacroCategoryClick(categoryId) {
+                this.selectedCategory = categoryId;
+                this.currentLevel = 'entities';
+
+                // Hide macro view elements
+                Graph.g.selectAll('.layer-nodes').remove();
+
+                // Show entities layer with card grid
+                EntitiesLayer.show(categoryId);
+
+                this.updateBreadcrumb('entities', categoryId, null);
+            },
+
+            // Update breadcrumb display
+            updateBreadcrumb(level, category, focalEntity) {
+                const indicator = document.getElementById('layerIndicator');
+                if (!indicator) return;
+
+                const crumbs = indicator.querySelectorAll('.layer-crumb');
+                crumbs.forEach(crumb => {
+                    const crumbLevel = crumb.dataset.level;
+                    crumb.classList.toggle('active', crumbLevel === level);
+
+                    // Update text based on current state
+                    if (crumbLevel === 'entities' && category) {
+                        crumb.textContent = category.toUpperCase();
+                    } else if (crumbLevel === 'web' && focalEntity) {
+                        crumb.textContent = focalEntity;
+                    }
+                });
             },
 
             async renderNetworksView() {
@@ -2865,28 +3528,10 @@
                 Graph.g.selectAll('.layer-nodes').remove();
                 Graph.g.selectAll('.document-nodes').remove();
 
-                // Show entity nodes and links
-                if (Graph.nodeElements) {
-                    Graph.nodeElements.style('display', null)
-                        .style('opacity', 0)
-                        .transition().duration(300)
-                        .style('opacity', 1)
-                        .attr('transform', d => `translate(${d.x}, ${d.y})`);
-                }
-                if (Graph.linkElements) {
-                    Graph.linkElements.style('display', null)
-                        .style('opacity', 0)
-                        .transition().duration(300)
-                        .style('opacity', d => d.bidirectional || d.type === 'documented' ? 0.7 : 0.4);
-                }
-
-                // Set zoom to safe value for entities level and fit the graph
-                const safeZoom = this.safeZoom.entities;
-                setTimeout(() => {
-                    Graph.resetView();
-                    // Update lastZoomScale to match after resetView
-                    this.lastZoomScale = safeZoom;
-                }, 100);
+                // Always show card grid - default to 'people' if no category selected
+                const category = this.selectedCategory || 'people';
+                this.selectedCategory = category;  // Store it for breadcrumb
+                EntitiesLayer.show(category);
             },
 
             async renderDocumentsView() {
@@ -2995,11 +3640,12 @@
 
                 // Reset focused items when going up
                 if (this.getLevelDepth(level) < this.getLevelDepth(this.currentLevel)) {
-                    if (level === 'macro' || level === 'networks') {
+                    if (level === 'macro' || level === 'entities') {
                         this.focusedEntity = null;
                     }
                     if (level === 'macro') {
                         this.focusedNetwork = null;
+                        this.selectedCategory = null;
                     }
                 }
 
@@ -3015,14 +3661,15 @@
                         const level = crumb.dataset.level;
                         crumb.classList.toggle('active', level === this.currentLevel);
 
-                        // Update text based on current state
-                        if (level === 'networks') {
-                            const network = this.data?.networks?.find(n => n.id === this.focusedNetwork);
-                            crumb.textContent = network?.name || 'NETWORKS';
+                        // Update text based on current state - new breadcrumb format: MACRO > [CATEGORY] > [ENTITY]
+                        if (level === 'macro') {
+                            crumb.textContent = 'MACRO';
                         } else if (level === 'entities') {
-                            const network = this.data?.networks?.find(n => n.id === this.focusedNetwork);
-                            const count = network?.entityCount || Graph.nodes?.length || 0;
-                            crumb.textContent = `${count} Entities`;
+                            // Show selected category or placeholder
+                            crumb.textContent = this.selectedCategory ? this.selectedCategory.toUpperCase() : '[CATEGORY]';
+                        } else if (level === 'web') {
+                            // Show focused entity name or placeholder
+                            crumb.textContent = this.focusedEntity?.name || '[ENTITY]';
                         }
                     });
                 }
@@ -3033,7 +3680,7 @@
 
             // Update the side panel level indicator
             updateSideLevelIndicator() {
-                const levels = ['macro', 'networks', 'entities', 'documents'];
+                const levels = ['macro', 'entities', 'web'];
                 const currentIndex = levels.indexOf(this.currentLevel);
 
                 // Update level nodes
@@ -3049,8 +3696,8 @@
                         node.classList.add('visited');
                     }
 
-                    // Disable documents level if no entity is focused
-                    if (nodeLevel === 'documents') {
+                    // Disable web level if no entity is focused
+                    if (nodeLevel === 'web') {
                         node.classList.toggle('disabled', !this.focusedEntity);
                     }
                 });
@@ -3063,6 +3710,507 @@
 
             sleep(ms) {
                 return new Promise(resolve => setTimeout(resolve, ms));
+            }
+        };
+
+        // ============================================================
+        // ENTITIES LAYER LOGIC
+        // ============================================================
+
+        const EntitiesLayer = {
+            // State
+            currentCategory: null,
+            zoom: 1,
+            pan: { x: 0, y: 0 },
+            isPanning: false,
+            lastPanPoint: { x: 0, y: 0 },
+            filteredEntities: [],
+
+            // Zoom limits
+            ZOOM_MIN: 0.3,
+            ZOOM_MAX: 2.0,
+            ZOOM_STEP: 0.1,
+
+            // Initialize the entities layer
+            init() {
+                this.initFilterSearch();
+                this.initPanZoom();
+            },
+
+            // Show the entities layer for a category
+            show(category) {
+                this.currentCategory = category;
+                HierarchyManager.selectedCategory = category;
+
+                // Hide graph container, show entities layer
+                document.getElementById('graphContainer').style.display = 'none';
+                document.getElementById('entitiesLayer').style.display = 'block';
+
+                // Render cards
+                this.renderCards(category);
+
+                // Reset view
+                this.resetView();
+
+                // Clear filter
+                const filterInput = document.getElementById('entitiesFilterSearch');
+                if (filterInput) filterInput.value = '';
+
+                // Update layer indicator
+                HierarchyManager.updateLayerIndicator();
+                HierarchyManager.updateSideLevelIndicator();
+            },
+
+            // Hide the entities layer
+            hide() {
+                document.getElementById('entitiesLayer').style.display = 'none';
+                document.getElementById('graphContainer').style.display = 'block';
+            },
+
+            // Render entity cards for a category
+            renderCards(category) {
+                const grid = document.getElementById('entitiesGrid');
+                if (!grid) return;
+
+                // Get entities from Graph.nodes (loaded from data)
+                const allEntities = Graph.nodes || [];
+
+                // Category filter logic - checks tags, names, and summaries
+                const categoryFilters = {
+                    'people': (e) => e.type === 'person',
+                    'gov': (e) => {
+                        const tagStr = (e.tags || []).join(' ').toLowerCase();
+                        const nameStr = (e.name || '').toLowerCase();
+                        const summaryStr = (e.summary || '').toLowerCase();
+                        return tagStr.includes('government') ||
+                               tagStr.includes('gov') ||
+                               tagStr.includes('agency') ||
+                               tagStr.includes('cia') ||
+                               tagStr.includes('fbi') ||
+                               tagStr.includes('intelligence') ||
+                               tagStr.includes('prosecutor') ||
+                               tagStr.includes('official') ||
+                               summaryStr.includes('government') ||
+                               summaryStr.includes(' cia ') ||
+                               summaryStr.includes(' fbi ') ||
+                               (e.type === 'organization' && e.subtype === 'government');
+                    },
+                    'media': (e) => {
+                        const tagStr = (e.tags || []).join(' ').toLowerCase();
+                        const nameStr = (e.name || '').toLowerCase();
+                        const summaryStr = (e.summary || '').toLowerCase();
+                        return tagStr.includes('media') ||
+                               tagStr.includes('journalist') ||
+                               tagStr.includes('news') ||
+                               tagStr.includes('publisher') ||
+                               summaryStr.includes('journalist') ||
+                               summaryStr.includes('media') ||
+                               (e.type === 'organization' && e.subtype === 'media');
+                    },
+                    'financial': (e) => {
+                        const tagStr = (e.tags || []).join(' ').toLowerCase();
+                        const nameStr = (e.name || '').toLowerCase();
+                        const summaryStr = (e.summary || '').toLowerCase();
+                        // Check tags
+                        const tagMatch = tagStr.includes('financial') ||
+                                        tagStr.includes('banking') ||
+                                        tagStr.includes('bank') ||
+                                        tagStr.includes('finance') ||
+                                        tagStr.includes('investment') ||
+                                        tagStr.includes('hedge') ||
+                                        tagStr.includes('fund');
+                        // Check name for known financial entities
+                        const nameMatch = nameStr.includes('bank') ||
+                                         nameStr.includes('jp morgan') ||
+                                         nameStr.includes('deutsche') ||
+                                         nameStr.includes('goldman') ||
+                                         nameStr.includes('morgan stanley');
+                        // Check summary for financial keywords
+                        const summaryMatch = summaryStr.includes('hedge fund') ||
+                                            summaryStr.includes('investment') ||
+                                            summaryStr.includes('banker') ||
+                                            summaryStr.includes('financier') ||
+                                            summaryStr.includes('wall street');
+                        // Check subtype
+                        const subtypeMatch = e.type === 'organization' && e.subtype === 'banking';
+                        return tagMatch || nameMatch || summaryMatch || subtypeMatch;
+                    }
+                };
+
+                // If 'people' category, show all persons; for others filter by tags
+                // For now, default to showing all entities if category doesn't match
+                let filterFn = categoryFilters[category];
+                if (!filterFn) {
+                    filterFn = () => true;
+                }
+
+                // Filter and sort entities
+                this.filteredEntities = allEntities.filter(filterFn);
+
+                // Sort by connection count (most connected first)
+                this.filteredEntities.sort((a, b) => {
+                    const aConns = a.connectionCount || (a.connections || []).length || 0;
+                    const bConns = b.connectionCount || (b.connections || []).length || 0;
+                    return bConns - aConns;
+                });
+
+                // If no filtered entities but we have entities, show all for that category as fallback
+                if (this.filteredEntities.length === 0 && allEntities.length > 0 && category === 'people') {
+                    this.filteredEntities = allEntities.filter(e => e.type === 'person');
+                }
+
+                // Generate HTML
+                if (this.filteredEntities.length === 0) {
+                    grid.innerHTML = `
+                        <div class="entities-no-results">
+                            No entities found in ${category.toUpperCase()} category
+                        </div>
+                    `;
+                } else {
+                    grid.innerHTML = this.filteredEntities.map(entity => this.createCardHTML(entity)).join('');
+                }
+
+                // Update count
+                this.updateResultCount(this.filteredEntities.length);
+
+                // Attach click handlers
+                this.attachCardHandlers();
+            },
+
+            // Create HTML for a single entity card
+            createCardHTML(entity) {
+                const name = entity.name || entity.nm || entity.id || 'Unknown';
+                const initials = this.getInitials(name);
+                const type = entity.type || 'entity';
+                const tags = (entity.tags || []).slice(0, 3);
+                const connCount = entity.connectionCount || (entity.connections || []).length || 0;
+
+                return `
+                    <div class="entity-card"
+                         data-entity-id="${entity.id}"
+                         data-type="${type}"
+                         data-name="${name.toLowerCase()}"
+                         data-tags="${(entity.tags || []).join(' ').toLowerCase()}"
+                         data-connections="${connCount}">
+                        <div class="entity-card-header">
+                            <div class="entity-card-avatar">${initials}</div>
+                            <div class="entity-card-info">
+                                <div class="entity-card-name" title="${name}">${name}</div>
+                                <div class="entity-card-type">${type}</div>
+                            </div>
+                        </div>
+                        ${tags.length > 0 ? `
+                            <div class="entity-card-tags">
+                                ${tags.map(tag => `<span class="entity-card-tag">${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <div class="entity-card-connections">${connCount} connection${connCount !== 1 ? 's' : ''}</div>
+                    </div>
+                `;
+            },
+
+            // Get initials from name
+            getInitials(name) {
+                if (!name) return '?';
+                return name.split(' ')
+                    .filter(word => word.length > 0)
+                    .map(word => word[0])
+                    .join('')
+                    .substring(0, 2)
+                    .toUpperCase();
+            },
+
+            // Update result count display
+            updateResultCount(count) {
+                const countEl = document.getElementById('entitiesResultCount');
+                if (countEl) {
+                    countEl.textContent = `${count} ${count === 1 ? 'entity' : 'entities'}`;
+                }
+            },
+
+            // Attach click handlers to cards
+            attachCardHandlers() {
+                document.querySelectorAll('.entity-card').forEach(card => {
+                    card.addEventListener('click', (e) => {
+                        const entityId = card.dataset.entityId;
+                        if (!entityId) return;
+                        this.navigateToWebWithEntity(entityId);
+                    });
+                });
+            },
+
+            // Navigate to Web layer with focal entity
+            navigateToWebWithEntity(entityId) {
+                // Find entity data
+                const entity = Graph.nodes.find(n => n.id === entityId);
+                if (!entity) {
+                    console.warn('Entity not found:', entityId);
+                    return;
+                }
+
+                // Store focal entity
+                HierarchyManager.focusedEntity = entity;
+
+                // Hide entities layer, show graph
+                this.hide();
+
+                // IMPORTANT: Ensure graph container is visible
+                document.getElementById('graphContainer').style.display = 'block';
+
+                // Transition to web layer
+                HierarchyManager.currentLevel = 'web';
+                HierarchyManager.updateLayerIndicator();
+                HierarchyManager.updateSideLevelIndicator();
+
+                // Show entity nodes and links with proper opacity
+                if (Graph.nodeElements) {
+                    Graph.nodeElements.style('display', null)
+                        .style('opacity', 1);
+                }
+                if (Graph.linkElements) {
+                    Graph.linkElements.style('display', null)
+                        .style('opacity', d => d.bidirectional || d.type === 'documented' ? 0.7 : 0.4);
+                }
+
+                // Show legend
+                const legend = document.getElementById('legend');
+                if (legend) legend.style.display = 'flex';
+
+                // Focus on the entity (opens detail panel)
+                Graph.selectNode(entity);
+
+                // Zoom to entity - handle invalid positions
+                if (entity.x === undefined || entity.y === undefined || isNaN(entity.x) || isNaN(entity.y)) {
+                    // Run simulation briefly to get positions
+                    Graph.simulation.alpha(0.3).restart();
+                    setTimeout(() => {
+                        this.zoomToEntity(entity);
+                    }, 500);
+                } else {
+                    setTimeout(() => {
+                        this.zoomToEntity(entity);
+                    }, 100);
+                }
+            },
+
+            // Helper function to zoom to entity
+            zoomToEntity(entity) {
+                if (!entity.x || !entity.y) {
+                    Graph.resetView();
+                    return;
+                }
+
+                const transform = d3.zoomIdentity
+                    .translate(window.innerWidth / 2, window.innerHeight / 2)
+                    .scale(1.5)
+                    .translate(-entity.x, -entity.y);
+                Graph.svg.transition().duration(500)
+                    .call(Graph.zoom.transform, transform);
+            },
+
+            // Initialize filter search
+            initFilterSearch() {
+                const searchInput = document.getElementById('entitiesFilterSearch');
+                if (!searchInput) return;
+
+                let searchTimeout;
+                searchInput.addEventListener('input', (e) => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => {
+                        this.filterCards(e.target.value);
+                    }, 150);
+                });
+
+                searchInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        searchInput.value = '';
+                        this.filterCards('');
+                        searchInput.blur();
+                    }
+                });
+            },
+
+            // Filter visible cards
+            filterCards(query) {
+                const cards = document.querySelectorAll('.entity-card');
+                const searchTerms = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+
+                let visibleCount = 0;
+
+                cards.forEach(card => {
+                    if (searchTerms.length === 0) {
+                        card.classList.remove('filtered-out');
+                        visibleCount++;
+                        return;
+                    }
+
+                    const name = card.dataset.name || '';
+                    const tags = card.dataset.tags || '';
+                    const searchableText = `${name} ${tags}`;
+
+                    const matches = searchTerms.every(term => searchableText.includes(term));
+
+                    if (matches) {
+                        card.classList.remove('filtered-out');
+                        visibleCount++;
+                    } else {
+                        card.classList.add('filtered-out');
+                    }
+                });
+
+                this.updateResultCount(visibleCount);
+
+                // Show no results message if needed
+                const grid = document.getElementById('entitiesGrid');
+                let noResults = grid.querySelector('.entities-no-results');
+
+                if (visibleCount === 0 && searchTerms.length > 0) {
+                    if (!noResults) {
+                        noResults = document.createElement('div');
+                        noResults.className = 'entities-no-results';
+                        grid.appendChild(noResults);
+                    }
+                    noResults.textContent = `No entities match "${query}"`;
+                    noResults.style.display = 'block';
+                } else if (noResults) {
+                    noResults.style.display = 'none';
+                }
+            },
+
+            // Initialize pan and zoom
+            initPanZoom() {
+                const viewport = document.getElementById('entitiesViewport');
+                const grid = document.getElementById('entitiesGrid');
+                if (!viewport || !grid) return;
+
+                // Mouse wheel zoom
+                viewport.addEventListener('wheel', (e) => {
+                    if (e.target.closest('.entities-search-container')) return;
+                    e.preventDefault();
+                    const delta = e.deltaY > 0 ? -this.ZOOM_STEP : this.ZOOM_STEP;
+                    this.setZoom(this.zoom + delta, e.clientX, e.clientY);
+                }, { passive: false });
+
+                // Pan with mouse drag
+                viewport.addEventListener('mousedown', (e) => {
+                    if (e.target.closest('.entity-card') || e.target.closest('.entities-search-container')) return;
+                    this.isPanning = true;
+                    this.lastPanPoint = { x: e.clientX, y: e.clientY };
+                    viewport.classList.add('panning');
+                });
+
+                document.addEventListener('mousemove', (e) => {
+                    if (!this.isPanning) return;
+
+                    const dx = e.clientX - this.lastPanPoint.x;
+                    const dy = e.clientY - this.lastPanPoint.y;
+
+                    this.pan.x += dx;
+                    this.pan.y += dy;
+                    this.lastPanPoint = { x: e.clientX, y: e.clientY };
+
+                    this.updateTransform();
+                });
+
+                document.addEventListener('mouseup', () => {
+                    this.isPanning = false;
+                    viewport.classList.remove('panning');
+                });
+
+                // Touch support
+                let lastTouchDistance = 0;
+
+                viewport.addEventListener('touchstart', (e) => {
+                    if (e.target.closest('.entity-card') || e.target.closest('.entities-search-container')) return;
+
+                    if (e.touches.length === 1) {
+                        this.isPanning = true;
+                        this.lastPanPoint = {
+                            x: e.touches[0].clientX,
+                            y: e.touches[0].clientY
+                        };
+                    } else if (e.touches.length === 2) {
+                        lastTouchDistance = this.getTouchDistance(e.touches);
+                    }
+                }, { passive: true });
+
+                viewport.addEventListener('touchmove', (e) => {
+                    if (e.touches.length === 1 && this.isPanning) {
+                        const dx = e.touches[0].clientX - this.lastPanPoint.x;
+                        const dy = e.touches[0].clientY - this.lastPanPoint.y;
+
+                        this.pan.x += dx;
+                        this.pan.y += dy;
+                        this.lastPanPoint = {
+                            x: e.touches[0].clientX,
+                            y: e.touches[0].clientY
+                        };
+
+                        this.updateTransform();
+                    } else if (e.touches.length === 2) {
+                        const distance = this.getTouchDistance(e.touches);
+                        const delta = (distance - lastTouchDistance) * 0.005;
+                        lastTouchDistance = distance;
+
+                        const centerX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                        const centerY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+
+                        this.setZoom(this.zoom + delta, centerX, centerY);
+                    }
+                }, { passive: true });
+
+                viewport.addEventListener('touchend', () => {
+                    this.isPanning = false;
+                    lastTouchDistance = 0;
+                });
+            },
+
+            // Get distance between two touch points
+            getTouchDistance(touches) {
+                const dx = touches[0].clientX - touches[1].clientX;
+                const dy = touches[0].clientY - touches[1].clientY;
+                return Math.sqrt(dx * dx + dy * dy);
+            },
+
+            // Set zoom level
+            setZoom(newZoom, pivotX, pivotY) {
+                const oldZoom = this.zoom;
+                this.zoom = Math.max(this.ZOOM_MIN, Math.min(this.ZOOM_MAX, newZoom));
+
+                // Adjust pan to zoom toward cursor
+                if (pivotX !== undefined && pivotY !== undefined) {
+                    const viewport = document.getElementById('entitiesViewport');
+                    if (viewport) {
+                        const rect = viewport.getBoundingClientRect();
+                        const viewportCenterX = rect.width / 2;
+                        const viewportCenterY = rect.height / 2;
+
+                        const cursorOffsetX = pivotX - rect.left - viewportCenterX - this.pan.x;
+                        const cursorOffsetY = pivotY - rect.top - viewportCenterY - this.pan.y;
+
+                        const zoomRatio = this.zoom / oldZoom;
+
+                        this.pan.x -= cursorOffsetX * (zoomRatio - 1);
+                        this.pan.y -= cursorOffsetY * (zoomRatio - 1);
+                    }
+                }
+
+                this.updateTransform();
+            },
+
+            // Update grid transform
+            updateTransform() {
+                const grid = document.getElementById('entitiesGrid');
+                if (!grid) return;
+
+                grid.style.transform = `translate(calc(-50% + ${this.pan.x}px), calc(-50% + ${this.pan.y}px)) scale(${this.zoom})`;
+            },
+
+            // Reset view to default
+            resetView() {
+                this.zoom = 1;
+                this.pan = { x: 0, y: 0 };
+                this.updateTransform();
             }
         };
 
@@ -3086,6 +4234,86 @@
                 location: '#4ade80'
             },
 
+            // Entity type colors - Aligned with design spec
+            entityColors: {
+                // Person types
+                'person-gov': '#E57373',      // Government Employee - Reddish
+                'person-ceo': '#4DD0E1',      // CEO/Board Member - Tealish
+                'person-other': '#FFD54F',    // Other Person - Yellow
+
+                // Organization types
+                'org-banking': '#81C784',     // Banking/Financial - Green
+                'org-media': '#F48FB1',       // Media - Pink
+                'org-gov': '#5C6BC0',         // Government Agency - Dark Blue
+                'org-other': '#9575CD',       // Other Organization - Purple
+
+                // Case type
+                'case': '#FFB74D',            // Legal Case - Orange
+
+                // Fallback
+                'general': '#9E9E9E'          // Unknown - Gray
+            },
+
+            // Classify an entity and return its colors (supports type/tag detection)
+            getEntityColors(entity) {
+                const tags = entity.tags || [];
+                const type = (entity.type || '').toLowerCase();
+                const tagStr = tags.join(' ').toLowerCase();
+                const summaryStr = (entity.summary || '').toLowerCase();
+
+                // Case entities
+                if (type === 'case') {
+                    return [this.entityColors['case']];
+                }
+
+                // Organization entities
+                if (type === 'organization') {
+                    if (tagStr.includes('banking') || tagStr.includes('bank') ||
+                        tagStr.includes('finance') || tagStr.includes('financial')) {
+                        return [this.entityColors['org-banking']];
+                    }
+                    if (tagStr.includes('media') || tagStr.includes('news') ||
+                        tagStr.includes('journalist')) {
+                        return [this.entityColors['org-media']];
+                    }
+                    if (tagStr.includes('government') || tagStr.includes('agency') ||
+                        tagStr.includes('cia') || tagStr.includes('fbi') ||
+                        tagStr.includes('intelligence')) {
+                        return [this.entityColors['org-gov']];
+                    }
+                    return [this.entityColors['org-other']];
+                }
+
+                // Person entities
+                if (type === 'person') {
+                    // Check for government/official tags or summary keywords
+                    if (tagStr.includes('government') || tagStr.includes('official') ||
+                        tagStr.includes('prosecutor') || tagStr.includes('agent') ||
+                        tagStr.includes('cia') || tagStr.includes('fbi') ||
+                        summaryStr.includes('prosecutor') || summaryStr.includes(' fbi ') ||
+                        summaryStr.includes(' cia ') || summaryStr.includes('attorney general')) {
+                        return [this.entityColors['person-gov']];
+                    }
+
+                    // Check for CEO/executive tags or summary keywords
+                    if (tagStr.includes('ceo') || tagStr.includes('executive') ||
+                        tagStr.includes('chairman') || tagStr.includes('director') ||
+                        tagStr.includes('board') || tagStr.includes('founder') ||
+                        tagStr.includes('ceo-board') ||
+                        summaryStr.includes('ceo') || summaryStr.includes('chairman') ||
+                        summaryStr.includes('hedge fund') || summaryStr.includes('financier') ||
+                        summaryStr.includes('banker') || summaryStr.includes('investor')) {
+                        return [this.entityColors['person-ceo']];
+                    }
+
+                    // Default person color
+                    return [this.entityColors['person-other']];
+                }
+
+                // Unknown type
+                return [this.entityColors['general']];
+            },
+
             async init() {
                 try {
                     const data = await loadData();
@@ -3096,12 +4324,104 @@
                 }
             },
 
+            // Calculate node depths from focal entity using BFS
+            calculateNodeDepths(nodes, links, focalId) {
+                const depths = {};
+                const adjacency = {};
+
+                // Build adjacency list
+                nodes.forEach(n => { adjacency[n.id] = []; });
+                links.forEach(l => {
+                    const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+                    const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+                    if (adjacency[sourceId]) adjacency[sourceId].push(targetId);
+                    if (adjacency[targetId]) adjacency[targetId].push(sourceId);
+                });
+
+                // BFS from focal node
+                const queue = [focalId];
+                depths[focalId] = 0;
+                let maxDepth = 0;
+
+                while (queue.length > 0) {
+                    const current = queue.shift();
+                    const neighbors = adjacency[current] || [];
+                    for (const neighbor of neighbors) {
+                        if (depths[neighbor] === undefined) {
+                            depths[neighbor] = depths[current] + 1;
+                            maxDepth = Math.max(maxDepth, depths[neighbor]);
+                            queue.push(neighbor);
+                        }
+                    }
+                }
+
+                // Assign max+1 depth to disconnected nodes
+                nodes.forEach(n => {
+                    if (depths[n.id] === undefined) {
+                        depths[n.id] = maxDepth + 1;
+                    }
+                });
+
+                return { depths, maxDepth: maxDepth + 1 };
+            },
+
+            // Create or get gradient ID for an entity's colors
+            getGradientId(entity) {
+                const colors = this.getEntityColors(entity);
+                if (colors.length === 1) {
+                    return null; // Single color, no gradient needed
+                }
+                // Create a unique ID based on colors
+                return 'gradient-' + colors.map(c => c.replace('#', '')).join('-');
+            },
+
+            // Create SVG gradient definitions for all entities
+            createGradients(defs, nodes) {
+                const createdGradients = new Set();
+
+                nodes.forEach(node => {
+                    const colors = this.getEntityColors(node);
+                    if (colors.length > 1) {
+                        const gradientId = this.getGradientId(node);
+                        if (!createdGradients.has(gradientId)) {
+                            createdGradients.add(gradientId);
+
+                            const gradient = defs.append('linearGradient')
+                                .attr('id', gradientId)
+                                .attr('x1', '0%')
+                                .attr('y1', '0%')
+                                .attr('x2', '100%')
+                                .attr('y2', '100%');
+
+                            const step = 100 / (colors.length - 1);
+                            colors.forEach((color, i) => {
+                                gradient.append('stop')
+                                    .attr('offset', `${i * step}%`)
+                                    .attr('stop-color', color);
+                            });
+                        }
+                    }
+                });
+            },
+
+            // Get stroke style for a node (gradient URL or single color)
+            getNodeStroke(node) {
+                const colors = this.getEntityColors(node);
+                if (colors.length === 1) {
+                    return colors[0];
+                }
+                return `url(#${this.getGradientId(node)})`;
+            },
+
             buildGraph(data) {
                 this.svg = d3.select('#graphSvg');
                 const width = window.innerWidth;
                 const height = window.innerHeight;
 
                 this.g = this.svg.append('g');
+
+                // Create defs for gradients
+                this.defs = this.svg.append('defs');
 
                 this.zoom = d3.zoom()
                     .scaleExtent([0.05, 4])  // Allow zooming out further for macro view
@@ -3125,26 +4445,45 @@
                 const centerX = width / 2;
                 const centerY = height / 2;
 
+                // Find focal entity ID
+                const focalEntity = data.entities.find(e => this.isFocalEntity(e));
+                const focalId = focalEntity ? focalEntity.id : null;
+
                 this.nodes = data.entities.map(e => {
                     const connectionCount = data.connections.filter(
                         c => c.source === e.id || c.target === e.id
                     ).length;
                     const isFocal = this.isFocalEntity(e);
+                    const entityColors = this.getEntityColors(e);
                     const node = {
                         ...e,
                         radius: this.getRadius(e.type, connectionCount, isFocal),
                         connectionCount,
-                        isFocal: isFocal
+                        isFocal: isFocal,
+                        entityColors: entityColors
                     };
-                    // Pin focal entity to center
+                    // Pin focal entity to center-top area for top-down layout
                     if (isFocal) {
                         node.fx = centerX;
-                        node.fy = centerY;
+                        node.fy = height * 0.15; // Position focal at top 15%
                         node.x = centerX;
-                        node.y = centerY;
+                        node.y = height * 0.15;
                     }
                     return node;
                 });
+
+                // Calculate node depths for top-down layout
+                const { depths, maxDepth } = this.calculateNodeDepths(this.nodes, data.connections, focalId);
+                this.nodeDepths = depths;
+                this.maxNodeDepth = maxDepth;
+
+                // Assign depth to each node
+                this.nodes.forEach(node => {
+                    node.depth = depths[node.id] || maxDepth;
+                });
+
+                // Create gradients for multi-tag entities
+                this.createGradients(this.defs, this.nodes);
 
                 // Store entity list for brief navigation
                 BriefViewer.entityList = this.nodes.filter(n => n.brief_file).sort((a, b) =>
@@ -3162,19 +4501,28 @@
 
                 // Pre-calculate stable positions before rendering
                 // Run simulation silently for 300 iterations to find equilibrium
+                // Calculate Y positions based on depth for top-down gravity flow
+                const depthSpacing = (height * 0.7) / (this.maxNodeDepth || 1);
+                const topOffset = height * 0.15; // Start below focal
+
                 this.simulation = d3.forceSimulation(this.nodes)
                     .force('link', d3.forceLink(this.links)
                         .id(d => d.id)
-                        .distance(d => 150 - (d.strength / 3))
-                        .strength(d => 0.3 + (d.strength / 200)))
+                        .distance(d => 120 - (d.strength / 4))
+                        .strength(d => 0.4 + (d.strength / 150)))
                     .force('charge', d3.forceManyBody()
-                        .strength(d => -200 - (d.connectionCount * 20))
-                        .distanceMax(500))
-                    .force('center', d3.forceCenter(width / 2, height / 2))
+                        .strength(d => -150 - (d.connectionCount * 15))
+                        .distanceMax(400))
+                    .force('centerX', d3.forceX(width / 2).strength(0.05))
+                    // Top-down gravity: pull nodes to Y positions based on depth
+                    .force('depthY', d3.forceY(d => {
+                        if (d.isFocal) return topOffset;
+                        return topOffset + (d.depth * depthSpacing);
+                    }).strength(0.3))
                     .force('collision', d3.forceCollide()
-                        .radius(d => d.radius + 25)
-                        .strength(1)
-                        .iterations(3))
+                        .radius(d => d.radius + 20)
+                        .strength(0.8)
+                        .iterations(2))
                     .stop(); // Don't start automatically
 
                 // Run 300 iterations silently to find stable positions
@@ -3227,7 +4575,7 @@
                 this.nodeElements.append('circle')
                     .attr('class', 'node-circle')
                     .attr('r', d => d.radius)
-                    .attr('stroke', d => this.colors[d.type] || this.colors.person);
+                    .attr('stroke', d => this.getNodeStroke(d));
 
                 this.nodeElements.append('text')
                     .attr('class', 'node-label')
@@ -3482,7 +4830,7 @@
                 // Add document zoom button if entity has sources
                 if (node.sources && node.sources.length > 0) {
                     html += `
-                        <button class="action-btn" onclick="HierarchyManager.focusedEntity = Graph.activeNode; HierarchyManager.transitionToLevel('documents')">
+                        <button class="action-btn" onclick="HierarchyManager.focusedEntity = Graph.activeNode; HierarchyManager.transitionToLevel('web')">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="11" cy="11" r="8"/>
                                 <path d="m21 21-4.35-4.35"/>
@@ -3508,31 +4856,58 @@
                     });
 
                     html += `<div class="detail-section">
-                        <h4>Connections (${connections.length})</h4>
+                        <div class="connections-section-header">
+                            <h4>Connections (${connections.length})</h4>
+                            <button class="view-connections-brief-btn" onclick="ConnectionsPanel.openConnectionsBrief('${node.id}')">
+                                📋 View Brief
+                            </button>
+                        </div>
                         <ul class="connection-list">`;
 
                     connections.forEach(conn => {
-                        const link = connectionData[conn.id];
-                        // Determine evidence label based on connection data
-                        let evidenceLabel, evidenceClass;
-                        if (link?.bidirectional || link?.type === 'documented') {
-                            evidenceLabel = 'Documented';
-                            evidenceClass = 'documented';
-                        } else if (link?.type === 'interpreted' || link?.strength >= 50) {
-                            evidenceLabel = 'Referenced';
-                            evidenceClass = 'referenced';
-                        } else {
-                            evidenceLabel = 'Associated';
-                            evidenceClass = 'associated';
+                        const linkFromGraph = connectionData[conn.id];
+
+                        // Look up rich connection data from the entity's connections array
+                        let richConnectionData = null;
+                        if (node.connections && Array.isArray(node.connections)) {
+                            richConnectionData = node.connections.find(c =>
+                                c.targetId === conn.id || c.target === conn.id
+                            );
                         }
 
-                        html += `<li class="connection-item" data-entity="${conn.id}">
-                            <div>
-                                <div class="connection-name">${conn.name}</div>
-                                <div class="connection-type" style="color: ${this.colors[conn.type]}">${conn.type}</div>
+                        // Use rich data if available, fall back to link data
+                        const summary = richConnectionData?.summary ||
+                                       linkFromGraph?.summary ||
+                                       linkFromGraph?.description ||
+                                       'Connection documented in source materials.';
+                        const sources = richConnectionData?.sources ||
+                                       linkFromGraph?.sources ||
+                                       [];
+
+                        html += `<li class="connection-item" data-entity="${conn.id}" data-target-entity="${conn.id}">
+                            <div class="connection-header">
+                                <span class="connection-expand-icon">▶</span>
+                                <div class="connection-header-info">
+                                    <div class="connection-name">${conn.name}</div>
+                                    <div class="connection-type" style="color: ${this.colors[conn.type]}">${conn.type}</div>
+                                </div>
                             </div>
-                            <div class="connection-meta">
-                                <span class="connection-evidence ${evidenceClass}">${evidenceLabel}</span>
+                            <div class="connection-dropdown" style="display: none;" data-loaded="false">
+                                <div class="connection-summary">${summary}</div>
+                                <div class="connection-sources">
+                                    <div class="connection-sources-header">SOURCES:</div>
+                                    <ul class="connection-sources-list">
+                                        ${sources.length > 0 ? sources.map(s => `
+                                            <li>
+                                                <a class="connection-source-link" href="#" onclick="ConnectionsPanel.openSource('${s.id || s.ecf}'); return false;">
+                                                    <span class="source-icon">📄</span>
+                                                    <span class="source-title">${s.title || s.description || 'Source Document'}</span>
+                                                    ${s.date ? `<span class="source-date">${s.date}</span>` : ''}
+                                                </a>
+                                            </li>
+                                        `).join('') : '<li class="no-sources">No source documents linked</li>'}
+                                    </ul>
+                                </div>
                             </div>
                         </li>`;
                     });
@@ -3562,9 +4937,28 @@
 
                 document.getElementById('detailContent').innerHTML = html;
 
-                // Connection click handlers
-                document.querySelectorAll('.connection-item').forEach(item => {
-                    item.addEventListener('click', () => {
+                // Connection dropdown toggle handlers
+                document.querySelectorAll('.connection-header').forEach(header => {
+                    header.addEventListener('click', (e) => {
+                        const item = header.closest('.connection-item');
+                        if (!item) return;
+
+                        // Toggle expanded state
+                        const isExpanded = item.classList.contains('expanded');
+                        const dropdown = item.querySelector('.connection-dropdown');
+
+                        if (isExpanded) {
+                            item.classList.remove('expanded');
+                            dropdown.style.display = 'none';
+                        } else {
+                            item.classList.add('expanded');
+                            dropdown.style.display = 'block';
+                        }
+                    });
+
+                    // Double-click to navigate to entity
+                    header.addEventListener('dblclick', (e) => {
+                        const item = header.closest('.connection-item');
                         const targetNode = this.nodes.find(n => n.id === item.dataset.entity);
                         if (targetNode) this.selectNode(targetNode);
                     });
@@ -3713,12 +5107,141 @@
         };
 
         // ============================================================
+        // CONNECTIONS PANEL - PHASE 4
+        // ============================================================
+        const ConnectionsPanel = {
+            currentEntityId: null,
+
+            // Toggle dropdown expansion for a connection item
+            toggleDropdown(item) {
+                const dropdown = item.querySelector('.connection-dropdown');
+                const isExpanded = item.classList.contains('expanded');
+
+                if (isExpanded) {
+                    item.classList.remove('expanded');
+                    dropdown.style.display = 'none';
+                } else {
+                    item.classList.add('expanded');
+                    dropdown.style.display = 'block';
+                }
+            },
+
+            // Open a source document
+            openSource(sourceId) {
+                // Try PDFViewer first
+                if (typeof PDFViewer !== 'undefined' && PDFViewer.open) {
+                    // Find source in current node's sources
+                    const node = Graph.activeNode;
+                    if (node && node.sources) {
+                        const source = node.sources.find(s => s.id === sourceId || s.ecf === sourceId);
+                        if (source) {
+                            PDFViewer.open(source);
+                            return;
+                        }
+                    }
+                }
+                console.warn('Source document not found:', sourceId);
+            },
+
+            // Open the full Connections Brief document
+            openConnectionsBrief(entityId) {
+                if (!entityId) {
+                    console.warn('No entity ID provided');
+                    return;
+                }
+
+                // Get entity name for display
+                const entity = Graph.nodes?.find(n => n.id === entityId);
+                const entityName = entity?.name || entityId;
+
+                // Normalize entity ID for file lookup
+                const normalizedId = entityId
+                    .toLowerCase()
+                    .replace(/\s+/g, '-')
+                    .replace(/[^a-z0-9-]/g, '');
+
+                // Try multiple paths - webserver may serve from different roots
+                const pathsToTry = [
+                    `briefs/connections/${normalizedId}_connections.md`,
+                    `/briefs/connections/${normalizedId}_connections.md`,
+                    `/continuum/briefs/connections/${normalizedId}_connections.md`,
+                    `../briefs/connections/${normalizedId}_connections.md`
+                ];
+
+                const tryFetch = (paths, index = 0) => {
+                    if (index >= paths.length) {
+                        // All paths failed
+                        this.showBriefModal(entityName, `
+                            <div style="text-align: center; padding: 2rem;">
+                                <h3 style="color: var(--gold); margin-bottom: 1rem;">Connections Brief Not Available</h3>
+                                <p style="color: var(--mist); line-height: 1.6;">
+                                    The connections brief for <strong>${entityName}</strong> could not be loaded.
+                                </p>
+                                <p style="color: var(--smoke); font-size: 0.85rem; margin-top: 1rem;">
+                                    Paths tried: ${paths.join(', ')}
+                                </p>
+                            </div>
+                        `);
+                        return;
+                    }
+
+                    fetch(paths[index])
+                        .then(response => {
+                            if (!response.ok) throw new Error('Not found');
+                            return response.text();
+                        })
+                        .then(markdown => {
+                            const html = typeof marked !== 'undefined' ? marked.parse(markdown) : `<pre>${markdown}</pre>`;
+                            this.showBriefModal(entityName, html);
+                        })
+                        .catch(() => tryFetch(paths, index + 1));
+                };
+
+                tryFetch(pathsToTry);
+            },
+
+            // Display brief in modal
+            showBriefModal(title, content) {
+                // Remove existing modal if present
+                const existing = document.querySelector('.connections-brief-modal');
+                if (existing) existing.remove();
+
+                const modal = document.createElement('div');
+                modal.className = 'connections-brief-modal';
+                modal.innerHTML = `
+                    <div class="connections-brief-backdrop" onclick="this.parentElement.remove()"></div>
+                    <div class="connections-brief-content">
+                        <div class="connections-brief-header">
+                            <h2>${title} — Connections Brief</h2>
+                            <button class="close-btn" onclick="this.closest('.connections-brief-modal').remove()">✕</button>
+                        </div>
+                        <div class="connections-brief-body brief-content">
+                            ${content}
+                        </div>
+                    </div>
+                `;
+
+                document.body.appendChild(modal);
+
+                // Close on escape key
+                const escHandler = (e) => {
+                    if (e.key === 'Escape') {
+                        modal.remove();
+                        document.removeEventListener('keydown', escHandler);
+                    }
+                };
+                document.addEventListener('keydown', escHandler);
+            }
+        };
+
+        // ============================================================
         // EVENT LISTENERS
         // ============================================================
         document.addEventListener('DOMContentLoaded', () => {
             Graph.init();
             PDFViewer.init();
             HierarchyManager.init();
+            EntitiesLayer.init();
 
             // Briefly show zoom hint on load
             const zoomHint = document.getElementById('zoomHint');
@@ -3750,8 +5273,8 @@
                 node.addEventListener('click', () => {
                     const level = node.dataset.level;
                     if (level && !node.classList.contains('disabled')) {
-                        // Don't navigate to documents without a focused entity
-                        if (level === 'documents' && !HierarchyManager.focusedEntity) {
+                        // Don't navigate to web layer without a focused entity
+                        if (level === 'web' && !HierarchyManager.focusedEntity) {
                             return;
                         }
                         HierarchyManager.navigateToLevel(level);
@@ -3787,15 +5310,15 @@
                         PDFViewer.close();
                     } else if (document.getElementById('briefViewer').classList.contains('active')) {
                         BriefViewer.close();
-                    } else if (HierarchyManager.currentLevel === 'documents') {
-                        // Exit document view back to entities
+                    } else if (HierarchyManager.currentLevel === 'web' || HierarchyManager.currentLevel === 'documents') {
+                        // Exit web/document view back to entities
                         HierarchyManager.transitionToLevel('entities');
-                    } else if (HierarchyManager.currentLevel === 'networks') {
-                        // Exit networks view back to entities
-                        HierarchyManager.transitionToLevel('entities');
+                    } else if (HierarchyManager.currentLevel === 'entities') {
+                        // Exit entities view back to macro
+                        HierarchyManager.transitionToLevel('macro');
                     } else if (HierarchyManager.currentLevel === 'macro') {
-                        // Exit macro view back to networks
-                        HierarchyManager.transitionToLevel('networks');
+                        // Already at top level - do nothing or clear selection
+                        Graph.clearSelection();
                     } else {
                         Graph.clearSelection();
                         document.getElementById('searchInput').value = '';
@@ -3818,14 +5341,13 @@
                     if (e.key === 'ArrowRight') BriefViewer.next();
                 }
 
-                // Hierarchy level navigation (1-4 keys)
+                // Hierarchy level navigation (1-3 keys for new 3-level structure)
                 if (!document.getElementById('briefViewer').classList.contains('active') &&
                     !document.getElementById('pdfViewer').classList.contains('active')) {
                     if (e.key === '1') HierarchyManager.navigateToLevel('macro');
-                    if (e.key === '2') HierarchyManager.navigateToLevel('networks');
-                    if (e.key === '3') HierarchyManager.navigateToLevel('entities');
-                    if (e.key === '4' && HierarchyManager.focusedEntity) {
-                        HierarchyManager.transitionToLevel('documents');
+                    if (e.key === '2') HierarchyManager.navigateToLevel('entities');
+                    if (e.key === '3' && HierarchyManager.focusedEntity) {
+                        HierarchyManager.transitionToLevel('web');
                     }
                 }
 
@@ -3837,15 +5359,15 @@
                     if (e.key === '0') Graph.resetView();
 
                     // Arrow key level navigation (up/right = go deeper, down/left = go shallower)
-                    const levels = ['macro', 'networks', 'entities', 'documents'];
+                    const levels = ['macro', 'entities', 'web'];
                     const currentIndex = levels.indexOf(HierarchyManager.currentLevel);
 
                     if (e.key === 'ArrowUp' || e.key === 'ArrowRight') {
                         // Go deeper in hierarchy
                         if (currentIndex < levels.length - 1) {
                             const nextLevel = levels[currentIndex + 1];
-                            // Don't go to documents without a focused entity
-                            if (nextLevel === 'documents' && !HierarchyManager.focusedEntity) {
+                            // Don't go to web without a focused entity
+                            if (nextLevel === 'web' && !HierarchyManager.focusedEntity) {
                                 return;
                             }
                             HierarchyManager.navigateToLevel(nextLevel);

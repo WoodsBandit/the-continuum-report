@@ -1,0 +1,376 @@
+{
+  "generated": "2025-12-19T00:00:00.000Z",
+  "count": 37,
+  "entities": [
+    {
+      "id": "alan-dershowitz",
+      "name": "Alan Dershowitz",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged; categorically denies all allegations",
+      "summary": "Harvard law professor mentioned in court filings; member of Epstein defense team; has categorically denied all accusations",
+      "brief_file": "analytical_brief_alan_dershowitz.md",
+      "mentions": ["virginia-giuffre", "jeffrey-epstein", "ghislaine-maxwell", "nadia-marcinkova"]
+    },
+    {
+      "id": "bill-clinton",
+      "name": "Bill Clinton",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Former U.S. President documented on Epstein flights; Freeh report found no wrongdoing; Giuffre stated 'not aware of Clinton sex'",
+      "brief_file": "analytical_brief_bill_clinton.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "virginia-giuffre"]
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Former U.S. President with limited references (3 docs) in court filings; Alessi testimony states 'never stayed overnight'",
+      "brief_file": "analytical_brief_donald_trump.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "virginia-giuffre"]
+    },
+    {
+      "id": "emmy-taylor",
+      "name": "Emmy Taylor",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Ghislaine Maxwell's assistant; potential victimization acknowledged; her perspective absent from record",
+      "brief_file": "analytical_brief_emmy_taylor.md",
+      "mentions": ["ghislaine-maxwell", "virginia-giuffre", "jeffrey-epstein"]
+    },
+    {
+      "id": "epstein-florida-case",
+      "name": "Epstein Florida Case",
+      "type": "case",
+      "network": "epstein-network",
+      "status": "Concluded with NPA (2008)",
+      "summary": "2008 non-prosecution agreement resulting in controversial plea deal; CVRA litigation noted",
+      "brief_file": "analytical_brief_epstein_florida_case.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "sarah-kellen", "nadia-marcinkova"]
+    },
+    {
+      "id": "ghislaine-maxwell",
+      "name": "Ghislaine Maxwell",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Convicted December 2021; 20-year sentence",
+      "summary": "Convicted of sex trafficking; currently serving federal sentence; criminal conviction established as matter of law",
+      "brief_file": "analytical_brief_ghislaine_maxwell.md",
+      "mentions": ["jeffrey-epstein", "virginia-giuffre", "prince-andrew", "robert-maxwell"]
+    },
+    {
+      "id": "giuffre-v-maxwell-case",
+      "name": "Giuffre v. Maxwell",
+      "type": "case",
+      "network": "epstein-network",
+      "status": "Settled 2017; documents unsealed 2024",
+      "summary": "Civil defamation case producing primary source documents; 2024 unsealing provides core documentation",
+      "brief_file": "analytical_brief_giuffre_v_maxwell_case.md",
+      "mentions": ["virginia-giuffre", "ghislaine-maxwell", "jeffrey-epstein"]
+    },
+    {
+      "id": "glenn-dubin",
+      "name": "Glenn Dubin",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Hedge fund manager mentioned in testimony; no basis for characterizing wrongdoing found in documents reviewed",
+      "brief_file": "analytical_brief_glenn_dubin.md",
+      "mentions": ["jeffrey-epstein", "virginia-giuffre"]
+    },
+    {
+      "id": "jeffrey-epstein",
+      "name": "Jeffrey Epstein",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Died August 2019 (ruled suicide)",
+      "summary": "Central figure; convicted 2008 Florida; died awaiting federal trial 2019; Maxwell conviction validated core allegations",
+      "brief_file": "analytical_brief_jeffrey_epstein.md",
+      "mentions": ["ghislaine-maxwell", "virginia-giuffre", "les-wexner", "jean-luc-brunel"]
+    },
+    {
+      "id": "lesley-groff",
+      "name": "Lesley Groff",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Executive assistant; thin record in court filings; administrative role doesn't establish criminal knowledge",
+      "brief_file": "analytical_brief_lesley_groff.md",
+      "mentions": ["jeffrey-epstein", "sarah-kellen", "nadia-marcinkova"]
+    },
+    {
+      "id": "nadia-marcinkova",
+      "name": "Nadia Marcinkova",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Potential victim status acknowledged; brought to US as teenager; 'inner circle' characterization removed",
+      "brief_file": "analytical_brief_nadia_marcinkova.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "sarah-kellen"]
+    },
+    {
+      "id": "prince-andrew",
+      "name": "Prince Andrew",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged; civil case settled 2022",
+      "summary": "Duke of York; settlement without admission; 'victim' acknowledgment was general",
+      "brief_file": "analytical_brief_prince_andrew.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "virginia-giuffre"]
+    },
+    {
+      "id": "sarah-kellen",
+      "name": "Sarah Kellen",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged; named as co-conspirator",
+      "summary": "Named co-conspirator in NPA; absence of charges noted; designation unexplained by prosecutors",
+      "brief_file": "analytical_brief_sarah_kellen.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "nadia-marcinkova", "lesley-groff"]
+    },
+    {
+      "id": "terramar-project",
+      "name": "The Terramar Project",
+      "type": "organization",
+      "network": "epstein-network",
+      "status": "Dissolved 2019",
+      "summary": "Ocean conservation nonprofit; no allegations of illegal activity explicitly stated",
+      "brief_file": "analytical_brief_terramar_project.md",
+      "mentions": ["ghislaine-maxwell", "jeffrey-epstein"]
+    },
+    {
+      "id": "virginia-giuffre",
+      "name": "Virginia Giuffre",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Plaintiff; key witness",
+      "summary": "Central plaintiff in civil litigation; Maxwell conviction validated her allegations against Maxwell",
+      "brief_file": "analytical_brief_virginia_giuffre.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "prince-andrew", "alan-dershowitz"]
+    },
+    {
+      "id": "jean-luc-brunel",
+      "name": "Jean-Luc Brunel",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Died February 2022 (ruled suicide)",
+      "summary": "French model scout; indicted in France for rape, sexual harassment; died awaiting trial in French custody",
+      "brief_file": "analytical_brief_jean_luc_brunel.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "virginia-giuffre"]
+    },
+    {
+      "id": "johanna-sjoberg",
+      "name": "Johanna Sjoberg",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Witness",
+      "summary": "Key witness; testified in Maxwell trial; provided sworn statements about Epstein operations",
+      "brief_file": "analytical_brief_johanna_sjoberg.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "prince-andrew"]
+    },
+    {
+      "id": "juan-alessi",
+      "name": "Juan Alessi",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Witness",
+      "summary": "Former Epstein household manager (11 years); key witness providing testimony about household operations",
+      "brief_file": "analytical_brief_juan_alessi.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell", "donald-trump"]
+    },
+    {
+      "id": "les-wexner",
+      "name": "Les Wexner",
+      "type": "person",
+      "network": "epstein-network",
+      "status": "Never criminally charged",
+      "summary": "Billionaire L Brands founder; extensive financial relationship with Epstein; power of attorney granted",
+      "brief_file": "analytical_brief_les_wexner.md",
+      "mentions": ["jeffrey-epstein", "ghislaine-maxwell"]
+    },
+    {
+      "id": "cia",
+      "name": "Central Intelligence Agency",
+      "type": "organization",
+      "network": "intel-operations-network",
+      "status": "Active federal agency",
+      "summary": "U.S. foreign intelligence service; documented in BCCI, Iran-Contra, INSLAW congressional investigations",
+      "brief_file": "analytical_brief_cia.md",
+      "mentions": ["bcci", "iran-contra-case", "promis-inslaw-case", "william-casey"]
+    },
+    {
+      "id": "mossad",
+      "name": "Mossad",
+      "type": "organization",
+      "network": "intel-operations-network",
+      "status": "Active Israeli agency",
+      "summary": "Israeli intelligence; alleged PROMIS involvement per congressional testimony; Robert Maxwell connections",
+      "brief_file": "analytical_brief_mossad.md",
+      "mentions": ["robert-maxwell", "promis-inslaw-case", "cia"]
+    },
+    {
+      "id": "robert-maxwell",
+      "name": "Robert Maxwell",
+      "type": "person",
+      "network": "intel-operations-network",
+      "status": "Died November 1991",
+      "summary": "Ghislaine's father; media baron; received Israeli state funeral; alleged intelligence ties per published accounts",
+      "brief_file": "analytical_brief_robert_maxwell.md",
+      "mentions": ["ghislaine-maxwell", "mossad", "promis-inslaw-case"]
+    },
+    {
+      "id": "promis-inslaw-case",
+      "name": "PROMIS/INSLAW Affair",
+      "type": "case",
+      "network": "intel-operations-network",
+      "status": "House Judiciary investigation 1992",
+      "summary": "Software tracking case; congressional investigation documented DOJ misconduct; alleged intelligence distribution",
+      "brief_file": "analytical_brief_promis_inslaw.md",
+      "mentions": ["cia", "mossad", "robert-maxwell"]
+    },
+    {
+      "id": "iran-contra-case",
+      "name": "Iran-Contra Affair",
+      "type": "case",
+      "network": "intel-operations-network",
+      "status": "Congressional investigation 1987",
+      "summary": "Arms-for-hostages scandal; documented covert operations; 'Enterprise' network; CIA support documented",
+      "brief_file": "analytical_brief_iran_contra.md",
+      "mentions": ["cia", "william-casey", "oliver-north", "bcci"]
+    },
+    {
+      "id": "maxwell-family-network",
+      "name": "Maxwell Family Network",
+      "type": "case",
+      "network": "intel-operations-network",
+      "status": "Historical analysis",
+      "summary": "Analysis of Maxwell family connections across intelligence, media, and finance sectors",
+      "brief_file": "analytical_brief_maxwell_family_network.md",
+      "mentions": ["robert-maxwell", "ghislaine-maxwell", "mossad"]
+    },
+    {
+      "id": "bcci",
+      "name": "BCCI",
+      "type": "organization",
+      "network": "intel-operations-network",
+      "status": "Collapsed 1991; Senate investigation 1992",
+      "summary": "Bank of Credit and Commerce International; Senate investigation documented CIA knowledge and intelligence connections",
+      "brief_file": "analytical_brief_bcci.md",
+      "mentions": ["cia", "iran-contra-case"]
+    },
+    {
+      "id": "william-casey",
+      "name": "William Casey",
+      "type": "person",
+      "network": "intel-operations-network",
+      "status": "Died May 1987",
+      "summary": "CIA Director 1981-1987; documented role in Iran-Contra; suggested Secord recruitment per congressional record",
+      "brief_file": "analytical_brief_william_casey.md",
+      "mentions": ["cia", "iran-contra-case", "oliver-north"]
+    },
+    {
+      "id": "oliver-north",
+      "name": "Oliver North",
+      "type": "person",
+      "network": "intel-operations-network",
+      "status": "Convictions vacated on appeal",
+      "summary": "NSC staff; central figure in Iran-Contra; ran 'Enterprise' covert operations with CIA support",
+      "brief_file": "analytical_brief_oliver_north.md",
+      "mentions": ["cia", "iran-contra-case", "william-casey"]
+    },
+    {
+      "id": "jpmorgan-epstein-case",
+      "name": "JP Morgan Epstein Case",
+      "type": "case",
+      "network": "financial-network",
+      "status": "Settled 2023 ($365 million total)",
+      "summary": "USVI lawsuit; alleged bank facilitated trafficking; 'human trafficking was principal business' of accounts",
+      "brief_file": "analytical_brief_jpmorgan_epstein.md",
+      "mentions": ["jeffrey-epstein", "deutsche-bank"]
+    },
+    {
+      "id": "deutsche-bank",
+      "name": "Deutsche Bank",
+      "type": "organization",
+      "network": "financial-network",
+      "status": "NYSDFS Consent Order 2020 ($150 million)",
+      "summary": "Regulatory findings of compliance failures; banked Epstein 2013-2018 after JP Morgan terminated him",
+      "brief_file": "analytical_brief_deutsche_bank.md",
+      "mentions": ["jeffrey-epstein", "jpmorgan-epstein-case"]
+    },
+    {
+      "id": "intelligence-financial-nexus",
+      "name": "Intelligence-Financial Nexus",
+      "type": "case",
+      "network": "financial-network",
+      "status": "Analytical framework",
+      "summary": "Analysis of documented connections between intelligence operations and financial systems across cases",
+      "brief_file": "analytical_brief_intelligence_financial_nexus.md",
+      "mentions": ["bcci", "cia", "jpmorgan-epstein-case"]
+    },
+    {
+      "id": "roy-cohn",
+      "name": "Roy Cohn",
+      "type": "person",
+      "network": "political-network",
+      "status": "Died August 1986; disbarred 1986",
+      "summary": "Attorney/political fixer; McCarthy counsel; alleged Plaza Hotel blackmail operations per sworn testimony",
+      "brief_file": "analytical_brief_roy_cohn.md",
+      "mentions": ["donald-trump", "meyer-lansky"]
+    },
+    {
+      "id": "meyer-lansky",
+      "name": "Meyer Lansky",
+      "type": "person",
+      "network": "political-network",
+      "status": "Died January 1983",
+      "summary": "Historical organized crime figure; Operation Underworld participant; documented intelligence collaboration",
+      "brief_file": "analytical_brief_meyer_lansky.md",
+      "mentions": ["roy-cohn"]
+    },
+    {
+      "id": "keith-raniere",
+      "name": "Keith Raniere",
+      "type": "person",
+      "network": "nxivm-network",
+      "status": "Convicted June 2019; 120-year sentence",
+      "summary": "NXIVM founder convicted of racketeering, sex trafficking, forced labor, child exploitation",
+      "brief_file": "analytical_brief_keith_raniere.md",
+      "mentions": ["allison-mack", "clare-bronfman", "nxivm-case"]
+    },
+    {
+      "id": "allison-mack",
+      "name": "Allison Mack",
+      "type": "person",
+      "network": "nxivm-network",
+      "status": "Pleaded guilty April 2019; 36-month sentence",
+      "summary": "Actress ('Smallville'); DOS first-line master; cooperated with prosecution; victim-to-perpetrator trajectory",
+      "brief_file": "analytical_brief_allison_mack.md",
+      "mentions": ["keith-raniere", "clare-bronfman", "nxivm-case"]
+    },
+    {
+      "id": "clare-bronfman",
+      "name": "Clare Bronfman",
+      "type": "person",
+      "network": "nxivm-network",
+      "status": "Pleaded guilty September 2019; 81-month sentence",
+      "summary": "Seagram heiress; financial backer providing millions to NXIVM; above-guidelines sentence reflects role",
+      "brief_file": "analytical_brief_clare_bronfman.md",
+      "mentions": ["keith-raniere", "allison-mack", "nxivm-case"]
+    },
+    {
+      "id": "nxivm-case",
+      "name": "NXIVM/Raniere Case",
+      "type": "case",
+      "network": "nxivm-network",
+      "status": "Raniere convicted 2019; sentenced 2020",
+      "summary": "Federal prosecution; collateral-based coercion documented; structural parallel to other blackmail operations",
+      "brief_file": "analytical_brief_nxivm_case.md",
+      "mentions": ["keith-raniere", "allison-mack", "clare-bronfman"]
+    }
+  ]
+}
