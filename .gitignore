@@ -121,10 +121,18 @@ config/ollama/models/
 *.seg
 *.index
 
-# Exclude document inbox (large PDFs)
-documents/inbox/
+# =============================================================================
+# SOURCE DOCUMENTS - LOCAL ONLY (not code, don't track)
+# =============================================================================
+downloads/
+inbox/
 documents/
 website/sources/
+*.pdf
 
-# Exclude document inbox (large PDFs - 18GB+)
-inbox/
+# Ollama models (large binaries)
+docs/config/ollama/models/
+
+# SSH keys (never commit)
+id_ed25519*
+*.pub
