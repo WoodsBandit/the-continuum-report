@@ -77,7 +77,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload safety report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: safety-report
           path: safety-report.json
@@ -117,7 +117,7 @@ jobs:
           generateSarif: true
 
       - name: Upload Bandit report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: bandit-report
           path: bandit-report.json
