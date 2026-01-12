@@ -65,17 +65,9 @@ Issues = "https://github.com/continuum-report/continuum/issues"
 # =============================================================================
 # CLI ENTRY POINTS
 # =============================================================================
-[project.scripts]
-# Main pipeline command
-continuum-pipeline = "continuum_report.scripts.continuum_pipeline:main"
-# Graph building
-continuum-graph = "continuum_report.scripts.build_graph:main"
-# Brief watcher daemon
-continuum-watcher = "continuum_report.scripts.brief_watcher:main"
-# Entity discovery
-continuum-entities = "continuum_report.scripts.entity_discovery:main"
-# Export sources
-continuum-export = "continuum_report.scripts.export_sources:main"
+# CLI entry points disabled - scripts run directly from pipeline/scripts/
+# [project.scripts]
+# continuum-pipeline = "continuum_report.scripts.continuum_pipeline:main"
 
 # =============================================================================
 # OPTIONAL DEPENDENCIES
@@ -140,11 +132,11 @@ all = [
 # =============================================================================
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/continuum_report"]
+packages = ["pipeline/src/continuum_report"]
 
 [tool.hatch.build.targets.sdist]
 include = [
-    "/src",
+    "/pipeline",
     "/tests",
     "/README.md",
     "/LICENSE",
@@ -154,7 +146,7 @@ include = [
 [tool.ruff]
 target-version = "py310"
 line-length = 100
-src = ["src", "scripts"]
+src = ["pipeline/src", "pipeline/scripts"]
 
 [tool.ruff.lint]
 select = [

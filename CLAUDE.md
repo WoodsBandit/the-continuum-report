@@ -2,7 +2,7 @@
 
 > "For there is nothing hidden that will not be disclosed, and nothing concealed that will not be known or brought out into the open." — Luke 8:17
 
-**Last Updated:** 2026-01-05
+**Last Updated:** 2026-01-11
 **Tagline:** *Another Node in the Decentralized Intelligence Agency*
 
 ---
@@ -116,7 +116,7 @@ NO MANIFEST ENTRY = NO VISUALIZATION
 **To Add a New Entity:**
 1. Create the analytical brief in `website/briefs/entity/`
 2. Add entry to `manifest.json` (curated list)
-3. Run `python scripts/rebuild_entities_from_manifest.py`
+3. Run `python pipeline/scripts/rebuild_entities_from_manifest.py`
 4. Update `connections.json` if adding connections
 
 **Build Scripts:**
@@ -205,11 +205,11 @@ Four-level hierarchical model for understanding how events connect across scales
 |----------------|------------------------|
 | `_archive/`, `agents/`, `audits/` | `database/` (Paperless mount) |
 | `docs/`, `logs/`, `pending_approval/` | `docker/` (Docker volumes) |
-| `pipeline-data/`, `reports/`, `research/` | `downloads/` (~30GB source docs) |
-| `scripts/`, `src/`, `templates/`, `tests/` | `inbox/` (~18GB PDFs) |
-| `website/`, `work/` | All `*.pdf` files |
+| `pipeline/`, `reports/`, `research/` | `downloads/` (~30GB source docs) |
+| `templates/`, `tests/`, `website/`, `work/` | `inbox/` (~18GB PDFs) |
+| | All `*.pdf` files |
 
-### Root (18 directories)
+### Root (15 directories)
 
 | Directory | Purpose | Git? |
 |-----------|---------|------|
@@ -218,16 +218,14 @@ Four-level hierarchical model for understanding how events connect across scales
 | `audits/` | Completed audit reports | ✓ |
 | `database/` | Paperless mount point (don't touch) | ✗ |
 | `docker/` | Docker configs and volumes | ✗ |
-| `docs/` | ALL docs: `config/`, `sops/`, `github/`, `infrastructure/` | ✓ |
+| `docs/` | ALL docs: `config/`, `infrastructure/`, `sops/` | ✓ |
 | `downloads/` | Source collections (doj-combined, fbi-vault, house-oversight) | ✗ |
 | `inbox/` | PDFs awaiting Paperless processing | ✗ |
 | `logs/` | Application logs | ✓ |
 | `pending_approval/` | Briefs awaiting review (NEVER approve same session) | ✓ |
-| `pipeline-data/` | Machine-generated JSON indexes | ✓ |
+| `pipeline/` | **ALL pipeline code:** `src/`, `scripts/`, `data/` | ✓ |
 | `reports/` | Generated analysis reports | ✓ |
 | `research/` | Active research materials | ✓ |
-| `scripts/` | ALL Python/shell scripts | ✓ |
-| `src/` | Python package source | ✓ |
 | `templates/` | Brief templates | ✓ |
 | `tests/` | pytest tests | ✓ |
 | `website/` | **LIVE PUBLIC SITE** | ✓ |
@@ -246,22 +244,30 @@ Four-level hierarchical model for understanding how events connect across scales
 
 1. **ONE briefs location:** `website/briefs/` only
 2. **ONE approval queue:** `pending_approval/` only
-3. **Scripts in `scripts/`** — never leave .py/.sh elsewhere
+3. **Scripts in `pipeline/scripts/`** — never leave .py/.sh elsewhere
 4. **Archive to `_archive/`** — never create backup/, old/, dated folders
 5. **`website/` is LIVE** — changes are PUBLIC immediately
 6. **No PDFs in git** — source docs are local only
+
+### Key Subdirectories
+
+| Directory | Subdirs | Purpose |
+|-----------|---------|---------|
+| `_archive/` | `briefs/`, `data/`, `misc/`, `reports/` | Consolidated backups |
+| `agents/` | `logs/`, `memos/`, `tasks/`, `themes/` | Agent system + definitions |
+| `docs/` | `config/`, `infrastructure/`, `sops/` | All documentation |
+| `pipeline/` | `src/`, `scripts/`, `data/` | All pipeline code + outputs |
+| `reports/` | `status/` | Key reports only (old → _archive) |
 
 ### Workflows
 
 ```
 PDFs:     Download → inbox/ → Paperless OCR → website/sources/ (if cited)
 Briefs:   Research → pending_approval/ → (new session) → website/briefs/
-Archive:  Old files → _archive/{folder}/
+Archive:  Old files → _archive/{category}/
 ```
 
 ---
-
-## Technical Infrastructure
 
 ## Technical Infrastructure
 

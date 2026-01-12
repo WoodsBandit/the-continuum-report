@@ -2,12 +2,89 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-11 (Session 24b)
+**Last Updated:** 2026-01-11 (Session 24d)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-11 — Session 24d: Pipeline Consolidation
+
+**Operator:** WoodsBandit
+**Duration:** ~10 minutes
+**Primary Task:** Consolidate src/, scripts/, pipeline-data/ into single /pipeline folder
+
+#### Changes Made
+
+**Folder Consolidation (3 folders → 1):**
+- Created `pipeline/` with subdirs: `src/`, `scripts/`, `data/`
+- Moved `src/continuum_report/` → `pipeline/src/continuum_report/`
+- Moved `scripts/*` (62 files) → `pipeline/scripts/`
+- Moved `pipeline-data/*` → `pipeline/data/`
+- Removed empty root folders
+
+**pyproject.toml Updated:**
+- `packages = ["pipeline/src/continuum_report"]`
+- `src = ["pipeline/src", "pipeline/scripts"]`
+- Disabled CLI entry points (scripts run directly)
+
+**CLAUDE.md Updated:**
+- Root directories: 18 → 15
+- All `scripts/` references → `pipeline/scripts/`
+- Added `pipeline/` to Key Subdirectories table
+
+#### Files Modified
+- `T:\pyproject.toml`
+- `T:\CLAUDE.md`
+
+---
+
+### 2026-01-11 — Session 24c: Directory Consolidation Final
+
+**Operator:** WoodsBandit
+**Duration:** ~15 minutes
+**Primary Task:** Complete directory cleanup - consolidate duplicates, minimize structure
+
+#### Summary
+
+Final consolidation pass to eliminate fragmented folders and establish minimal, consistent structure.
+
+#### Changes Made
+
+**_archive/ Consolidation (13 folders → 4):**
+- Created: `briefs/`, `data/`, `misc/`, `reports/`
+- Moved all dated backup folders into consolidated structure
+- All old brief backups → `_archive/briefs/`
+- All data backups → `_archive/data/`
+- Old reports → `_archive/reports/`
+
+**docs/ Cleanup (8 folders → 3):**
+- Moved loose files (entities_index.md, CONFIGURATION.md, etc.) → `config/`
+- Merged `docker/` and `github/` → `infrastructure/`
+- Moved `session/` → `logs/`
+- Moved `status/` → `reports/status/`
+- Final structure: `config/`, `infrastructure/`, `sops/`
+
+**reports/ Cleanup (40+ files → 7):**
+- Kept only key reports: MASTER_DOCUMENT_ACQUISITION_LIST, LEGAL_AUDIT_REPORT, etc.
+- Archived all dated/one-off reports → `_archive/reports/`
+
+**agents/ Cleanup:**
+- Moved data folders (cia-history, epstein-extraction, etc.) → `work/`
+- Moved misplaced Python scripts → `scripts/`
+- Clean structure: agent definitions + logs/, memos/, tasks/, themes/
+
+**CLAUDE.md Updated:**
+- Added Key Subdirectories table
+- Fixed duplicate header
+- Updated Last Updated date
+
+#### Files Modified
+- `T:\CLAUDE.md` — Updated structure documentation
+- Synced to local `Documents/Claude Docs/continuum/CLAUDE.md`
+
+---
 
 ### 2026-01-11 — Session 24b: Minimal Directory Structure
 
