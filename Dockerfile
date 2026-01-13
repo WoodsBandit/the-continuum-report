@@ -4,7 +4,7 @@
 # =============================================================================
 # STAGE 1: BUILDER
 # =============================================================================
-FROM python:3.11-slim as builder
+FROM python:3.14-slim as builder
 
 # Install build dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -23,7 +23,7 @@ RUN pip install --upgrade pip setuptools wheel && \
 # =============================================================================
 # STAGE 2: RUNTIME
 # =============================================================================
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 # Set metadata
 LABEL maintainer="The Continuum Report"
