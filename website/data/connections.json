@@ -1,7 +1,6 @@
 {
-  "generated": "2026-01-09T02:39:08.788074+00:00",
-  "count": 99,
-  "source": "updated with new connection briefs",
+  "generated": "2026-01-15T22:12:00.526291",
+  "count": 100,
   "connections": [
     {
       "source": "alan-dershowitz",
@@ -554,7 +553,7 @@
       "bidirectional": false,
       "source_mentions_target": true,
       "target_mentions_source": false,
-      "summary": "The connection between Deutsche Bank and the JP Morgan case is contextual—both banks maintained relationships with Epstein, but at different times. Deutsche Bank accepted Epstein after JP Morgan terminated him, suggesting Epstein sought alternative banking services after losing access to JP Morgan.",
+      "summary": "The connection between Deutsche Bank and the JP Morgan case is contextual\u00e2\u20ac\u201dboth banks maintained relationships with Epstein, but at different times. Deutsche Bank accepted Epstein after JP Morgan terminated him, suggesting Epstein sought alternative banking services after losing access to JP Morgan.",
       "brief_file": "deutsche-bank_jpmorgan-epstein-case.md"
     },
     {
@@ -739,7 +738,7 @@
       "bidirectional": false,
       "source_mentions_target": true,
       "target_mentions_source": false,
-      "summary": "The documentary record does not establish a direct connection between the Epstein Florida case (2008) and The Terramar Project (founded 2012). The connection is temporal and contextual—both involve individuals associated with Epstein, but at different times and in different contexts.",
+      "summary": "The documentary record does not establish a direct connection between the Epstein Florida case (2008) and The Terramar Project (founded 2012). The connection is temporal and contextual\u00e2\u20ac\u201dboth involve individuals associated with Epstein, but at different times and in different contexts.",
       "brief_file": "epstein-florida-case_terramar-project.md"
     },
     {
@@ -871,7 +870,7 @@
       "strength": 50,
       "type": "referenced",
       "evidence": [
-        "Court Filing — Inner Circle",
+        "Court Filing \u00e2\u20ac\u201d Inner Circle",
         "Deposition with Fifth Amendment"
       ],
       "bidirectional": true,
@@ -886,7 +885,7 @@
       "strength": 50,
       "type": "documented",
       "evidence": [
-        "Court Filing — \"Inner Circle\"",
+        "Court Filing \u00e2\u20ac\u201d \"Inner Circle\"",
         "Deposition Motion Practice",
         "Subpoena Served on Brunel",
         "Fifth Amendment Invocations"
@@ -910,7 +909,7 @@
       "bidirectional": false,
       "source_mentions_target": true,
       "target_mentions_source": false,
-      "summary": "Jeffrey Epstein is the central subject of the JP Morgan litigation. The USVI alleged that his accounts at JP Morgan were used primarily for trafficking activities—a severe allegation that, if true, means a major U.S. bank processed transactions principally related to criminal enterprise.",
+      "summary": "Jeffrey Epstein is the central subject of the JP Morgan litigation. The USVI alleged that his accounts at JP Morgan were used primarily for trafficking activities\u00e2\u20ac\u201da severe allegation that, if true, means a major U.S. bank processed transactions principally related to criminal enterprise.",
       "brief_file": "jeffrey-epstein_jpmorgan-epstein-case.md"
     },
     {
@@ -1038,7 +1037,7 @@
       "bidirectional": false,
       "source_mentions_target": true,
       "target_mentions_source": false,
-      "summary": "The documentary record does not establish a direct relationship between The Terramar Project and Virginia Giuffre. The organization appears in the Giuffre v. Maxwell litigation only as a subject of discovery—Giuffre's attorneys sought Maxwell's Terramar communications and issued subpoenas to the organization.",
+      "summary": "The documentary record does not establish a direct relationship between The Terramar Project and Virginia Giuffre. The organization appears in the Giuffre v. Maxwell litigation only as a subject of discovery\u00e2\u20ac\u201dGiuffre's attorneys sought Maxwell's Terramar communications and issued subpoenas to the organization.",
       "brief_file": "terramar-project_virginia-giuffre.md"
     },
     {
@@ -1500,6 +1499,18 @@
       "target_mentions_source": true,
       "summary": "Indirect theoretical network connection through Trump; temporal gap makes direct contact implausible.",
       "brief_file": "roy-cohn_jeffrey-epstein.md"
+    },
+    {
+      "source": "meyer-lansky",
+      "target": "roy-cohn",
+      "type": "documented",
+      "brief_file": "meyer-lansky_roy-cohn.md",
+      "summary": "",
+      "evidence": [],
+      "strength": 50,
+      "bidirectional": true,
+      "source_mentions_target": true,
+      "target_mentions_source": true
     }
   ]
 }
