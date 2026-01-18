@@ -2,12 +2,365 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-11 (Session 24d)
+**Last Updated:** 2026-01-18 (Session 27)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-18 — Session 27: Directory Structure Documentation
+
+**Operator:** WoodsBandit
+**Duration:** ~30 minutes
+**Primary Task:** Document canonical directory structure to ensure consistency across sessions
+
+#### Summary
+
+User requested documentation of the current directory structure as the canonical organization. Updated CLAUDE.md and index.md to reflect the actual simplified structure (6 directories + 7 root files), removing all references to non-existent directories that had been archived or consolidated.
+
+#### Changes Made
+
+**T:\CLAUDE.md:**
+- Rewrote Directory Structure section with accurate 6-directory root layout
+- Updated Navigation section (removed references to agents/memos/)
+- Fixed all broken internal links to archived paths
+- Updated Data Overview counts (285 entities, 103 connections, 528+ briefs)
+- Updated Session State to current date
+- Updated Reference Documents Quick Links
+
+**T:\index.md:**
+- Rewrote Directory Structure tree diagram
+- Updated Key Files section with current counts
+- Updated Statistics section with accurate numbers
+- Replaced outdated session info with Recent Sessions table
+- Added Current Priorities section
+
+**C:\Users\Xx LilMan xX\CLAUDE.md:**
+- Removed reference to non-existent local CLAUDE.md
+- Simplified to read T:\CLAUDE.md as single canonical source
+
+#### Canonical Directory Structure (as of 2026-01-18)
+
+```
+T:/ (\\192.168.1.139\continuum\)
+├── _archive/             # ALL historical/archived content
+├── briefs/               # WORKING briefs (research, not public)
+├── downloads/            # Source document collections (LOCAL ONLY)
+├── meeting-notes/        # Meeting documentation
+├── paperless/            # Paperless-ngx integration
+├── website/              # LIVE PUBLIC WEBSITE
+├── BUGS.md
+├── CLAUDE.md             # Canonical project briefing
+├── CONTRIBUTING.md
+├── index.md              # Quick reference index
+├── log.md                # This file
+├── MASTER_TODO_LIST.md
+└── README.md
+```
+
+#### Key Principles Established
+
+1. **T:\CLAUDE.md is CANONICAL** — single source of truth for project documentation
+2. **TWO briefs locations:** `briefs/` (working) and `website/briefs/` (published)
+3. **ALL archives in `_archive/`** — no scattered backup folders
+4. **`website/` is LIVE** — changes are PUBLIC immediately
+5. **`downloads/` and `paperless/` are LOCAL ONLY** — not tracked in git
+
+---
+
+### 2026-01-17 — Session 26: Vietnam War Research & Primary Source Acquisition
+
+**Operator:** WoodsBandit
+**Duration:** ~90 minutes
+**Primary Task:** Comprehensive Vietnam War research + primary source document acquisition
+
+#### Summary
+
+Two-phase session: (1) Deep-dive research into Vietnam War causation, financial interests, and power dynamics using parallel research agents, generating 5 comprehensive markdown reports. (2) Identified knowledge gaps and acquired ~580MB of primary source documents including Pentagon Papers volumes, congressional hearings, and declassified intelligence documents.
+
+#### Phase 1: Research Reports Generated (~95KB)
+
+#### Research Coverage
+
+| Report | Focus | Size |
+|--------|-------|------|
+| `Vietnam_War_Origins_Report.md` | French colonialism, Geneva Accords, Gulf of Tonkin, CIA ops, key decision-makers | 24KB |
+| `Vietnam_War_Military_Industrial_Complex_Report.md` | Defense contractors, Brown & Root/LBJ, revolving door, war profiteering | 20KB |
+| `Vietnam_War_Banking_Financing_Report.md` | War financing, Federal Reserve, Rothschild analysis, Nixon Shock | 14KB |
+| `Vietnam_War_Pentagon_Papers_Report.md` | Declassified revelations, Ellsberg, government deception by administration | 22KB |
+| `Vietnam_War_Cold_War_Geopolitics_Report.md` | Domino theory, CFR influence, Wise Men, Rockefeller networks | 13KB |
+
+#### Key Findings Documented
+
+- **Gulf of Tonkin**: NSA declassified docs confirm August 4 attack never happened
+- **Defense Profits**: Bell Helicopter revenue 1233% increase (1962-1967)
+- **Brown & Root**: $2B+ Vietnam contracts, LBJ quid pro quo documented
+- **Fed Pressure**: Martin quote "to my everlasting shame, I finally gave in" to LBJ
+- **CFR Role**: 12 of 14 "Wise Men" were CFR members
+- **Rothschild**: No credible documentation of Vietnam War involvement found (distinguished fact from conspiracy)
+
+#### Files Created (Phase 1)
+
+All deposited to: `C:\Users\Xx LilMan xX\Documents\Claude Docs\continuum\paperless\inbox\`
+
+- `Vietnam_War_Origins_Report.md`
+- `Vietnam_War_Military_Industrial_Complex_Report.md`
+- `Vietnam_War_Banking_Financing_Report.md`
+- `Vietnam_War_Pentagon_Papers_Report.md` (previously named Pentagon_Papers_Report.md)
+- `Vietnam_War_Cold_War_Geopolitics_Report.md`
+
+#### Phase 2: Primary Source Acquisition (~580MB)
+
+Identified gaps in research and acquired primary source PDFs:
+
+| Category | Documents | Size |
+|----------|-----------|------|
+| Pentagon Papers | 12 volumes | 477 MB |
+| Cold War Policy | NSC-68, SEATO, Eisenhower Address | 8 MB |
+| Congressional | Church Committee, JEC Vietnam Spending | 48 MB |
+| Financial | 1968 Surtax, Fed analyses, NBER | 8 MB |
+| Intelligence | CIA Vietnam, McCoy Heroin book | 38 MB |
+
+**Key Acquisitions:**
+- Pentagon Papers Part IV-C-2b: Gulf of Tonkin incident (45.8 MB)
+- Pentagon Papers Part IV-B-5: Diem Coup November 1963 (53 MB)
+- Pentagon Papers Part V-A-Vol-IID: Johnson administration deception (25 MB)
+- Church Committee Assassination Plots Report (22.9 MB)
+- JEC Vietnam Spending Vol 1 (24.7 MB)
+- McCoy "Politics of Heroin" (37.9 MB)
+
+**Failed Downloads (need alternative sources):**
+- NSA Hanyok "Skunks, Bogies" study (nsa.gov blocked)
+- Geneva Accords 1954 full text
+- GAO RMK-BRJ construction audit
+
+#### Methodology
+
+Used 6 parallel research agents with web search capability to:
+1. Identify knowledge gaps from initial research
+2. Locate downloadable primary source PDFs
+3. Acquire documents from National Archives, Internet Archive, Congress.gov, and academic sources
+
+**Acquisition Report:** `VIETNAM_WAR_ACQUISITION_REPORT.md` (in Paperless inbox)
+
+---
+
+### 2026-01-15 — Session 25d: Major Brief Processing & Manifest Update
+
+**Operator:** WoodsBandit
+**Duration:** ~45 minutes
+**Primary Task:** Process all briefs, review for accuracy/legal compliance, update manifests
+
+#### Summary
+
+Comprehensive processing of all 518 briefs across entity, connections, and agencies categories. Implemented 5-phase workflow: triage, accuracy review, legal compliance, hyperlink audit, and manifest updates. Successfully expanded website from 40 to 285 published entities.
+
+#### Phase Results
+
+| Phase | Task | Result |
+|-------|------|--------|
+| **1. Triage** | Categorize 518 briefs | 242 entity ready, 119 conn ready, 20 agency ready |
+| **2. Accuracy** | Cross-ref ECF citations | 87/94 citations verified (92.5%) |
+| **3. Legal** | Check disclaimers | 278 compliant, 8 fixed |
+| **4. Hyperlinks** | Verify source links | 96 source docs available |
+| **5. Manifest** | Update entities.json | 40 → 285 entities |
+
+#### Manifest Changes
+
+**entities.json:**
+- Before: 40 entities
+- After: **285 entities** (+245)
+- By type: 246 person, 15 location, 14 organization, 10 case
+
+**connections.json:**
+- Before: 99 connections
+- After: **103 connections** (+4)
+- Added: FBI investigation links, Lansky-Cohn
+
+#### Fixes Applied
+
+- Added disclaimer headers to 8 non-compliant briefs
+- JPMorgan, SF, Treasury (already in manifest) now have proper disclaimers
+- Location briefs (Fort Lauderdale streets) updated
+
+#### Files Modified
+
+| File | Change |
+|------|--------|
+| `entities.json` | +245 entities |
+| `connections.json` | +4 connections |
+| `8 brief files` | Added disclaimer headers |
+| `entities.json.bak` | Backup created |
+
+#### Briefs Requiring Future Work
+
+- 7 location briefs (streets) - structural issues
+- 88 agency briefs - incomplete/stubs
+- 2 connection briefs - need completion
+
+---
+
+### 2026-01-14 — Session 25: Archive Consolidation
+
+**Operator:** WoodsBandit
+**Duration:** ~20 minutes
+**Primary Task:** Consolidate 300+ scattered backup files into organized date-based structure
+
+#### Summary
+
+Consolidated all .bak files and backup directories scattered across multiple locations into a unified date-based archive structure. Used file modification dates to organize backups properly.
+
+#### Before State
+
+| Location | Files | Issue |
+|----------|-------|-------|
+| `_archive/briefs/briefs_backups/` | 95 | Scattered |
+| `_archive/briefs/briefs_bak/` | 73 | Scattered |
+| `_archive/briefs/briefs_root_merged/` | 95 | Confusing name |
+| `website/briefs/entity/*.bak` | 22 | In production dir |
+| `website/data/*.bak` | 1 | In production dir |
+| `_archive/data/indexes_backup/` | 5 | Scattered |
+
+#### After State
+
+**`_archive/backups/`** (consolidated .bak files by date):
+
+| Date | Files | Content |
+|------|-------|---------|
+| 2025-12-23-merge | 4 | JSON data backups |
+| 2025-12-24 | 102 | Entity/connection .bak files |
+| 2025-12-25 | 100 | Briefs + indexes .bak files |
+| 2026-01-05 | 1 | entities.json.bak |
+| 2026-01-11 | 101 | Entity/connection .bak files |
+
+**`_archive/briefs/`** (full brief snapshots by date):
+
+| Date | Files | Content |
+|------|-------|---------|
+| 2025-12-23 | 66 | Brief snapshot (renamed from briefs_20251223) |
+| 2025-12-25 | 136 | Brief snapshot (renamed from briefs_backups) |
+| 2025-12-28 | 582 | Brief snapshot (renamed from briefs_root_merged) |
+
+#### Changes Made
+
+1. **Created date-based structure** in `_archive/backups/`
+2. **Moved 291 .bak files** from 5 scattered locations to date folders
+3. **Renamed archive directories** to use YYYY-MM-DD format
+4. **Removed empty directories**: briefs_bak, indexes_backup
+5. **Cleaned production directories**: website/briefs and website/data now have 0 .bak files
+
+#### Directories Removed
+- `_archive/briefs/briefs_bak/` (empty after consolidation)
+- `_archive/data/indexes_backup/` (empty after consolidation)
+
+#### Directories Renamed
+- `briefs_backups` → `2025-12-25`
+- `briefs_root_merged` → `2025-12-28`
+- `briefs_20251223` → `2025-12-23`
+
+---
+
+### 2026-01-14 — Session 25b: Pipeline Archival
+
+**Operator:** WoodsBandit
+**Duration:** ~15 minutes
+**Primary Task:** Archive stale pipeline v1, prepare for rebuild from scratch
+
+#### Summary
+
+Pipeline data was stale (last updated 2025-12-26) with empty connection_contexts.json and no backup rotation. User requested archival before starting fresh rebuild.
+
+#### Pipeline State Before Archival
+
+| File | Last Modified | Status |
+|------|---------------|--------|
+| `entity_registry.json` | 2025-12-28 | Current |
+| `source_mentions.json` | 2025-12-26 | **STALE** |
+| `co_occurrence.json` | 2025-12-26 | **STALE** |
+| `connection_contexts.json` | 2025-12-26 | **EMPTY** (187 bytes) |
+
+#### Changes Made
+
+1. **Archived pipeline/** → `_archive/pipeline_v1_2025/`
+   - `data/` — 14 JSON files + backups (~43MB)
+   - `scripts/` — 62 Python/shell scripts
+   - `src/` — continuum_report Python package
+
+2. **Updated CLAUDE.md:**
+   - Removed pipeline/ from directory structure
+   - Added "PIPELINE STATUS: ARCHIVED" notice
+   - Updated directory count 15 → 14
+   - Updated _archive subdirs list
+
+3. **Updated MASTER_TODO_LIST.md:**
+   - Added "Pipeline Rebuild" section to HIGH PRIORITY
+   - Added completion entry for archival
+   - Removed obsolete "Remote access for pipeline" task
+   - Updated statistics
+
+#### Files Modified
+
+| File | Change |
+|------|--------|
+| `T:\CLAUDE.md` | Removed pipeline refs, added archive notice |
+| `T:\MASTER_TODO_LIST.md` | Added pipeline rebuild tasks |
+| `T:\log.md` | This entry |
+
+#### Next Steps (Pipeline v2)
+
+- [ ] Design new pipeline architecture
+- [ ] Rebuild entity extraction
+- [ ] Rebuild connection builder
+- [ ] Rebuild manifest sync
+
+---
+
+### 2026-01-14 — Session 25c: Work Directory Cleanup
+
+**Operator:** WoodsBandit
+**Duration:** ~10 minutes
+**Primary Task:** Archive stale work/ directory contents, extract valuable reports
+
+#### Summary
+
+The `work/` directory contained stale agent experiments and pipeline data from Dec 24-25 plus a few recent reports. Archived all stale content, extracted valuable reports to `reports/`, and removed the empty directory.
+
+#### Contents Analyzed
+
+| Item | Date | Action |
+|------|------|--------|
+| `epstein-extraction/` | 12/24 | Archived (100+ ECF extracts) |
+| `cia-history/` | 12/24 | Archived |
+| `overseer/` | 12/24 | Archived |
+| `redaction-extractor/` | 12/24 | Archived |
+| `connections/` | 1/5 | Archived (FRAMEWORK.md copied to reports/) |
+| `overnight-fixes/` | 1/5 | Archived (investigation report copied to reports/) |
+| `gap-analysis-2026-01-09.md` | 1/9 | Copied to reports/ |
+| Pipeline JSON files | 12/25 | Archived |
+
+#### New Structure
+
+**`_archive/work/`** (7 dated folders):
+- `2025-12-24-cia-history/`
+- `2025-12-24-epstein-extraction/`
+- `2025-12-24-overseer/`
+- `2025-12-24-redaction-extractor/`
+- `2025-12-25-pipeline-data/`
+- `2026-01-05-connections/`
+- `2026-01-05-overnight-fixes/`
+
+**`reports/`** (3 new files):
+- `connections-framework-v3.md` — Canonical connection schema
+- `gap-analysis-2026-01-09.md` — Entity/connection gap analysis
+- `tower-shutdown-investigation-2026-01-05.md` — Server freeze investigation
+
+#### Result
+
+- `work/` directory removed (empty)
+- Root directories: 14 → 13
+
+---
 
 ### 2026-01-11 — Session 24d: Pipeline Consolidation
 
