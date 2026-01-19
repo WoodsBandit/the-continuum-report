@@ -43,7 +43,7 @@ Nadia Bjorlin is an American actress and singer who has appeared in television p
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1327-28, filed 01/04/24:**
+**[ECF Doc. 1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf), filed 01/04/24:**
 
 Court filing containing a reference to Nadia Bjorlin.
 
@@ -96,7 +96,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1327-28 | 01/04/24 | Court Filing |
+| [1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf) | 01/04/24 | Court Filing |
 
 ---
 

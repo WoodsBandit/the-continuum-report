@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-31, filed 01/03/24:**
+**[ECF Doc. 1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf), filed 01/03/24:**
 
 Jeff Pagliuca is referenced in court filings related to the case.
 
-**ECF Doc. 1325-4, filed 01/04/24:**
+**[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf), filed 01/04/24:**
 
 Additional reference to Pagliuca in litigation documents.
 
-**ECF Doc. 1327-14, filed 01/04/24:**
+**[ECF Doc. 1327-14](/sources/giuffre-v-maxwell/ecf-1327-14.pdf), filed 01/04/24:**
 
 Further reference to Pagliuca in court filings.
 

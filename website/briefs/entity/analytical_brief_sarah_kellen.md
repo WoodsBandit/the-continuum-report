@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Co-Conspirator Designation
 
-**ECF Doc. 1327-12, filed 01/05/24** (Defendant's Submission Regarding Search Terms):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24** (Defendant's Submission Regarding Search Terms):
 
 The document lists discovery requests seeking communications with:
 
@@ -49,7 +49,7 @@ Court filings reference Kellen as one of multiple individuals identified as co-c
 
 ### Maxwell's Testimony Regarding Kellen
 
-**ECF Doc. 1327-21, filed 01/05/24, p. 57:4-11** (Maxwell Deposition):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf), filed 01/05/24, p. 57:4-11** (Maxwell Deposition):
 
 > "I have no idea what Sarah Kellen did"
 
@@ -59,7 +59,7 @@ When asked if she observed Kellen with girls under 18 at Epstein's home:
 
 ### Civil Litigation Naming Kellen as Defendant
 
-**ECF Doc. 1327-25, filed 01/05/24** (Janusz Banasiak Deposition):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf), filed 01/05/24** (Janusz Banasiak Deposition):
 
 References a Palm Beach County case:
 
@@ -71,7 +71,7 @@ Court filings also reference:
 
 ### Fifth Amendment Invocations
 
-**ECF Doc. 1331-13, filed 01/05/24, p. 15** (Plaintiff's Opposition to Motion in Limine):
+**[ECF Doc. 1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf), filed 01/05/24, p. 15** (Plaintiff's Opposition to Motion in Limine):
 
 > "Ms. Giuffre took the depositions of Sarah Kellen and Nadia Marcinkova. Again, they both took the Fifth on all substantive questions."
 
@@ -123,27 +123,27 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-8 | 01/03/24 | Deposition Transcript/Reference |
-| 1320-10 | 01/03/24 | Deposition Transcript/Reference |
-| 1320-13 | 01/03/24 | Exhibit |
-| 1320-21 | 01/03/24 | Deposition Transcript/Reference |
-| 1320-24 | 01/03/24 | Deposition Transcript/Reference |
-| 1320-27 | 01/03/24 | Deposition Transcript/Reference |
-| 1320-28 | 01/03/24 | Court Document |
-| 1320-32 | 01/03/24 | Deposition Transcript/Reference |
-| 1325-4 | 01/04/24 | Deposition Transcript/Reference |
-| 1327-12 | 01/05/24 | Court Document |
-| 1327-21 | 01/05/24 | Exhibit |
-| 1327-25 | 01/05/24 | Exhibit |
-| 1328-8 | 01/05/24 | Deposition Transcript/Reference |
-| 1328-15 | 01/05/24 | Exhibit |
-| 1328-17 | 01/05/24 | Deposition Transcript/Reference |
-| 1328-34 | 01/05/24 | Exhibit |
-| 1328-43 | 01/05/24 | Exhibit |
-| 1330-14 | 01/05/24 | Exhibit |
-| 1331-13 | 01/05/24 | Plaintiff's Opposition |
-| 1331-31 | 01/05/24 | Court Document |
-| 1331-35 | 01/05/24 | Subpoena |
+| [1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf) | 01/03/24 | Deposition Transcript/Reference |
+| [1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf) | 01/03/24 | Deposition Transcript/Reference |
+| [1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf) | 01/03/24 | Exhibit |
+| [1320-21](/sources/giuffre-v-maxwell/ecf-1320-21.pdf) | 01/03/24 | Deposition Transcript/Reference |
+| [1320-24](/sources/giuffre-v-maxwell/ecf-1320-24.pdf) | 01/03/24 | Deposition Transcript/Reference |
+| [1320-27](/sources/giuffre-v-maxwell/ecf-1320-27.pdf) | 01/03/24 | Deposition Transcript/Reference |
+| [1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf) | 01/03/24 | Court Document |
+| [1320-32](/sources/giuffre-v-maxwell/ecf-1320-32.pdf) | 01/03/24 | Deposition Transcript/Reference |
+| [1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf) | 01/04/24 | Deposition Transcript/Reference |
+| [1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf) | 01/05/24 | Court Document |
+| [1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf) | 01/05/24 | Exhibit |
+| [1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf) | 01/05/24 | Exhibit |
+| [1328-8](/sources/giuffre-v-maxwell/ecf-1328-8.pdf) | 01/05/24 | Deposition Transcript/Reference |
+| [1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf) | 01/05/24 | Exhibit |
+| [1328-17](/sources/giuffre-v-maxwell/ecf-1328-17.pdf) | 01/05/24 | Deposition Transcript/Reference |
+| [1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf) | 01/05/24 | Exhibit |
+| [1328-43](/sources/giuffre-v-maxwell/ecf-1328-43.pdf) | 01/05/24 | Exhibit |
+| [1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf) | 01/05/24 | Exhibit |
+| [1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf) | 01/05/24 | Plaintiff's Opposition |
+| [1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf) | 01/05/24 | Court Document |
+| [1331-35](/sources/giuffre-v-maxwell/ecf-1331-35.pdf) | 01/05/24 | Subpoena |
 
 ---
 

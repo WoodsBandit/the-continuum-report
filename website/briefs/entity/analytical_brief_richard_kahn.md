@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. R
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1327-25, filed 01/05/24**:
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf), filed 01/05/24**:
 
 Court filing referencing Richard Kahn.
 
-**ECF Doc. 1328-34, filed 01/05/24**:
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf), filed 01/05/24**:
 
 Additional court reference to Kahn.
 
-**ECF Doc. 1330-14, filed 01/05/24**:
+**[ECF Doc. 1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf), filed 01/05/24**:
 
 Court filing mentioning Kahn.
 
@@ -112,9 +112,9 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1327-25 | 01/05/24 | Court Filing |
-| 1328-34 | 01/05/24 | Court Filing |
-| 1330-14 | 01/05/24 | Court Filing |
+| [1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf) | 01/05/24 | Court Filing |
+| [1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf) | 01/05/24 | Court Filing |
+| [1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf) | 01/05/24 | Court Filing |
 
 ---
 

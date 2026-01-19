@@ -25,15 +25,15 @@ Connection between Sarah Kellen and this entity is documented in 10 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Sarah Kellen and this entity is documented in 9 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Sarah Kellen and this entity is documented in 5 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection between Sarah Kellen and this entity is documented in 5 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection between Sarah Kellen and this entity is documented in 3 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection between Sarah Kellen and this entity is documented in 3 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -253,15 +253,15 @@ Connection referenced in 4 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -291,15 +291,15 @@ Connection between Sarah Kellen and this entity is documented in 1 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -329,15 +329,15 @@ Connection between Sarah Kellen and this entity is documented in 1 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -367,15 +367,15 @@ Connection between Sarah Kellen and this entity is documented in 1 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -405,15 +405,15 @@ Connection between Sarah Kellen and this entity is documented in 1 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -443,15 +443,15 @@ Connection between Sarah Kellen and this entity is documented in 1 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Deposition Transcript/Reference, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Deposition Transcript/Reference, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-13** (Exhibit, filed 01/03/24):
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** (Exhibit, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -477,27 +477,27 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-8** — Deposition Transcript/Reference, Filed: 01/03/24
-2. **ECF Doc. 1320-10** — Deposition Transcript/Reference, Filed: 01/03/24
-3. **ECF Doc. 1320-13** — Exhibit, Filed: 01/03/24
-4. **ECF Doc. 1320-21** — Deposition Transcript/Reference, Filed: 01/03/24
-5. **ECF Doc. 1320-24** — Deposition Transcript/Reference, Filed: 01/03/24
-6. **ECF Doc. 1320-27** — Deposition Transcript/Reference, Filed: 01/03/24
-7. **ECF Doc. 1320-28** — Court Document, Filed: 01/03/24
-8. **ECF Doc. 1320-32** — Deposition Transcript/Reference, Filed: 01/03/24
-9. **ECF Doc. 1325-4** — Deposition Transcript/Reference, Filed: 01/04/24
-10. **ECF Doc. 1327-12** — Court Document, Filed: 01/05/24
-11. **ECF Doc. 1327-21** — Exhibit, Filed: 01/05/24
-12. **ECF Doc. 1327-25** — Exhibit, Filed: 01/05/24
-13. **ECF Doc. 1328-8** — Deposition Transcript/Reference, Filed: 01/05/24
-14. **ECF Doc. 1328-15** — Exhibit, Filed: 01/05/24
-15. **ECF Doc. 1328-17** — Deposition Transcript/Reference, Filed: 01/05/24
-16. **ECF Doc. 1328-34** — Exhibit, Filed: 01/05/24
-17. **ECF Doc. 1328-43** — Exhibit, Filed: 01/05/24
-18. **ECF Doc. 1330-14** — Exhibit, Filed: 01/05/24
-19. **ECF Doc. 1331-13** — Plaintiff's Opposition, Filed: 01/05/24
-20. **ECF Doc. 1331-31** — Court Document, Filed: 01/05/24
-21. **ECF Doc. 1331-35** — Subpoena, Filed: 01/05/24
+1. **[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** — Deposition Transcript/Reference, Filed: 01/03/24
+2. **[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** — Deposition Transcript/Reference, Filed: 01/03/24
+3. **[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf)** — Exhibit, Filed: 01/03/24
+4. **[ECF Doc. 1320-21](/sources/giuffre-v-maxwell/ecf-1320-21.pdf)** — Deposition Transcript/Reference, Filed: 01/03/24
+5. **[ECF Doc. 1320-24](/sources/giuffre-v-maxwell/ecf-1320-24.pdf)** — Deposition Transcript/Reference, Filed: 01/03/24
+6. **[ECF Doc. 1320-27](/sources/giuffre-v-maxwell/ecf-1320-27.pdf)** — Deposition Transcript/Reference, Filed: 01/03/24
+7. **[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** — Court Document, Filed: 01/03/24
+8. **[ECF Doc. 1320-32](/sources/giuffre-v-maxwell/ecf-1320-32.pdf)** — Deposition Transcript/Reference, Filed: 01/03/24
+9. **[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf)** — Deposition Transcript/Reference, Filed: 01/04/24
+10. **[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** — Court Document, Filed: 01/05/24
+11. **[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** — Exhibit, Filed: 01/05/24
+12. **[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** — Exhibit, Filed: 01/05/24
+13. **[ECF Doc. 1328-8](/sources/giuffre-v-maxwell/ecf-1328-8.pdf)** — Deposition Transcript/Reference, Filed: 01/05/24
+14. **[ECF Doc. 1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf)** — Exhibit, Filed: 01/05/24
+15. **[ECF Doc. 1328-17](/sources/giuffre-v-maxwell/ecf-1328-17.pdf)** — Deposition Transcript/Reference, Filed: 01/05/24
+16. **[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** — Exhibit, Filed: 01/05/24
+17. **[ECF Doc. 1328-43](/sources/giuffre-v-maxwell/ecf-1328-43.pdf)** — Exhibit, Filed: 01/05/24
+18. **[ECF Doc. 1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf)** — Exhibit, Filed: 01/05/24
+19. **[ECF Doc. 1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf)** — Plaintiff's Opposition, Filed: 01/05/24
+20. **[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** — Court Document, Filed: 01/05/24
+21. **[ECF Doc. 1331-35](/sources/giuffre-v-maxwell/ecf-1331-35.pdf)** — Subpoena, Filed: 01/05/24
 
 ---
 

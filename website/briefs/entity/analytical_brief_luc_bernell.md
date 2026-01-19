@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. L
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-7, filed 01/03/24:**
+**[ECF Doc. 1320-7](/sources/giuffre-v-maxwell/ecf-1320-7.pdf), filed 01/03/24:**
 
 Luc Bernell is referenced in court filings.
 
-**ECF Doc. 1328-17, filed 01/04/24:**
+**[ECF Doc. 1328-17](/sources/giuffre-v-maxwell/ecf-1328-17.pdf), filed 01/04/24:**
 
 Additional reference to Bernell in litigation documents.
 
@@ -96,8 +96,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-7 | 01/03/24 | Court Filing |
-| 1328-17 | 01/04/24 | Litigation Document |
+| [1320-7](/sources/giuffre-v-maxwell/ecf-1320-7.pdf) | 01/03/24 | Court Filing |
+| [1328-17](/sources/giuffre-v-maxwell/ecf-1328-17.pdf) | 01/04/24 | Litigation Document |
 
 ---
 

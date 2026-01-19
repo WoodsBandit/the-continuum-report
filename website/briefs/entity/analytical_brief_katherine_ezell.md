@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. K
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-15, filed 01/03/24:**
+**[ECF Doc. 1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf), filed 01/03/24:**
 
 Katherine Ezell is referenced in court filings.
 

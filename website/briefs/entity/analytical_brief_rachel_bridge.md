@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. R
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-15, filed 01/04/24:**
+**[ECF Doc. 1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf), filed 01/04/24:**
 
 Rachel Bridge is referenced in court filings.
 
-**ECF Doc. 1328-44, filed 01/04/24:**
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/04/24:**
 
 Additional reference to Bridge in litigation documents.
 

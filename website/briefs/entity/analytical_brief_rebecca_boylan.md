@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. R
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24:**
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24:**
 
 Rebecca Boylan is referenced in court filings.
 

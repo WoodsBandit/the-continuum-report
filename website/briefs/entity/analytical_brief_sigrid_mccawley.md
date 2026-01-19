@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances as Counsel
 
-**ECF Doc. 1320-31, filed 01/03/24:**
+**[ECF Doc. 1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf), filed 01/03/24:**
 
 Court filing with Sigrid McCawley appearing as counsel for plaintiff.
 
-**ECF Doc. 1320-32, filed 01/03/24:**
+**[ECF Doc. 1320-32](/sources/giuffre-v-maxwell/ecf-1320-32.pdf), filed 01/03/24:**
 
 Additional court filing in which McCawley appears as counsel.
 
-**ECF Doc. 1320-36, filed 01/03/24:**
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf), filed 01/03/24:**
 
 Court filing with McCawley listed among plaintiff's attorneys.
 
-**ECF Doc. 1325-4, filed 01/04/24:**
+**[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf), filed 01/04/24:**
 
 Court document with McCawley appearing as counsel of record.
 
-**ECF Doc. 1330-3, filed 01/05/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24:**
 
 Additional court filing with McCawley appearing for plaintiff.
 
@@ -122,11 +122,11 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-31 | 01/03/24 | Court Filing |
-| 1320-32 | 01/03/24 | Court Filing |
-| 1320-36 | 01/03/24 | Court Filing |
-| 1325-4 | 01/04/24 | Court Filing |
-| 1330-3 | 01/05/24 | Court Filing |
+| [1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf) | 01/03/24 | Court Filing |
+| [1320-32](/sources/giuffre-v-maxwell/ecf-1320-32.pdf) | 01/03/24 | Court Filing |
+| [1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf) | 01/03/24 | Court Filing |
+| [1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf) | 01/04/24 | Court Filing |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/05/24 | Court Filing |
 
 ---
 

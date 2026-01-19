@@ -25,15 +25,15 @@ Connection between Virginia Giuffre and this entity is documented in 30 court fi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Virginia Giuffre and this entity is documented in 6 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Virginia Giuffre and this entity is documented in 6 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection between Virginia Giuffre and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection between Virginia Giuffre and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection between Virginia Giuffre and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -253,15 +253,15 @@ Connection between Virginia Giuffre and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -291,15 +291,15 @@ Connection between Virginia Giuffre and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -329,15 +329,15 @@ Connection between Virginia Giuffre and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -367,15 +367,15 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1320-6** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** (Plaintiff's Reply in Support of Motion to Compel, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-34** (Declaration in Support of Sanctions Motion, filed 01/03/24):
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** (Declaration in Support of Sanctions Motion, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-36** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** (Declaration in Support of Motion to Reopen Deposition, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -401,15 +401,15 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-6** — Plaintiff's Reply in Support of Motion to Compel, Filed: 01/03/24
-2. **ECF Doc. 1320-34** — Declaration in Support of Sanctions Motion, Filed: 01/03/24
-3. **ECF Doc. 1320-36** — Declaration in Support of Motion to Reopen Deposition, Filed: 01/03/24
-4. **ECF Doc. 1320-37** — Plaintiff's Second Amended Discovery Responses, Filed: 01/03/24
-5. **ECF Doc. 1320-39** — Letter re Document Production, Filed: 01/03/24
-6. **ECF Doc. 1327-12** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
-7. **ECF Doc. 1327-19** — Plaintiff's Supplement to Motion for Adverse Inference, Filed: 01/05/24
-8. **ECF Doc. 1331-19** — Plaintiff's Motion to Compel, Filed: 01/05/24
-9. **ECF Doc. 1331-35** — Notice of Deposition of Sarah Ransome, Filed: 01/05/24
+1. **[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf)** — Plaintiff's Reply in Support of Motion to Compel, Filed: 01/03/24
+2. **[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf)** — Declaration in Support of Sanctions Motion, Filed: 01/03/24
+3. **[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf)** — Declaration in Support of Motion to Reopen Deposition, Filed: 01/03/24
+4. **[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf)** — Plaintiff's Second Amended Discovery Responses, Filed: 01/03/24
+5. **[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf)** — Letter re Document Production, Filed: 01/03/24
+6. **[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
+7. **[ECF Doc. 1327-19](/sources/giuffre-v-maxwell/ecf-1327-19.pdf)** — Plaintiff's Supplement to Motion for Adverse Inference, Filed: 01/05/24
+8. **[ECF Doc. 1331-19](/sources/giuffre-v-maxwell/ecf-1331-19.pdf)** — Plaintiff's Motion to Compel, Filed: 01/05/24
+9. **[ECF Doc. 1331-35](/sources/giuffre-v-maxwell/ecf-1331-35.pdf)** — Notice of Deposition of Sarah Ransome, Filed: 01/05/24
 
 ---
 

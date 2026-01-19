@@ -39,31 +39,31 @@ The documents analyzed herein relate to matters of significant public concern. A
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24**:
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24**:
 
 Gore's name appears in court filings related to the Giuffre v. Maxwell litigation. The context of the mention relates to discovery and witness identification.
 
-**ECF Doc. 1320-37, filed 01/03/24**:
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24**:
 
 Additional reference to Gore in court filings.
 
-**ECF Doc. 1328-4, filed 01/05/24**:
+**[ECF Doc. 1328-4](/sources/giuffre-v-maxwell/ecf-1328-4.pdf), filed 01/05/24**:
 
 Gore's name appears in materials filed as part of the litigation record.
 
-**ECF Doc. 1328-5, filed 01/05/24**:
+**[ECF Doc. 1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf), filed 01/05/24**:
 
 Further reference in court materials.
 
-**ECF Doc. 1328-18, filed 01/05/24**:
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/05/24**:
 
 Gore mentioned in litigation documents.
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Gore's name appears in filings.
 
-**ECF Doc. 1330-4, filed 01/05/24**:
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/05/24**:
 
 Additional reference in court record.
 
@@ -127,13 +127,13 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-12 | 01/03/24 | Court Filing |
-| 1320-37 | 01/03/24 | Court Filing |
-| 1328-4 | 01/05/24 | Court Filing |
-| 1328-5 | 01/05/24 | Court Filing |
-| 1328-18 | 01/05/24 | Plaintiff's Response |
-| 1330-2 | 01/05/24 | Court Filing |
-| 1330-4 | 01/05/24 | Court Filing |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
+| [1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf) | 01/03/24 | Court Filing |
+| [1328-4](/sources/giuffre-v-maxwell/ecf-1328-4.pdf) | 01/05/24 | Court Filing |
+| [1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf) | 01/05/24 | Court Filing |
+| [1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf) | 01/05/24 | Plaintiff's Response |
+| [1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf) | 01/05/24 | Court Filing |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/05/24 | Court Filing |
 
 ---
 

@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. K
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Kevin Thompson is identified among individuals with potentially relevant knowledge for discovery purposes. Two mentions appear within this document.
 

@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. L
 
 ### Deposition Testimony
 
-**ECF Doc. 1331-4, filed 01/05/24** (Motion re Sanctions):
+**[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf), filed 01/05/24** (Motion re Sanctions):
 
 Court filings reference deposition testimony from housekeeper Louella Rabuyo dated October 20, 2009:
 
@@ -53,15 +53,15 @@ According to court filings, on the day police executed a search warrant at Epste
 - Computers had been removed from the residence
 - When police arrived, they found monitors, mice, keyboards, and wires but the computers themselves were missing
 
-**ECF Doc. 1328-7, filed 01/05/24**:
+**[ECF Doc. 1328-7](/sources/giuffre-v-maxwell/ecf-1328-7.pdf), filed 01/05/24**:
 
 Court filing referencing Rabuyo.
 
-**ECF Doc. 1328-8, filed 01/05/24**:
+**[ECF Doc. 1328-8](/sources/giuffre-v-maxwell/ecf-1328-8.pdf), filed 01/05/24**:
 
 Additional court reference to Rabuyo.
 
-**ECF Doc. 1330-3, filed 01/05/24**:
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24**:
 
 Court filing referencing Rabuyo's testimony.
 
@@ -128,10 +128,10 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1328-7 | 01/05/24 | Court Filing |
-| 1328-8 | 01/05/24 | Court Filing |
-| 1330-3 | 01/05/24 | Court Filing |
-| 1331-4 | 01/05/24 | Motion re Sanctions (quotes Rabuyo testimony) |
+| [1328-7](/sources/giuffre-v-maxwell/ecf-1328-7.pdf) | 01/05/24 | Court Filing |
+| [1328-8](/sources/giuffre-v-maxwell/ecf-1328-8.pdf) | 01/05/24 | Court Filing |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/05/24 | Court Filing |
+| [1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf) | 01/05/24 | Motion re Sanctions (quotes Rabuyo testimony) |
 
 ---
 

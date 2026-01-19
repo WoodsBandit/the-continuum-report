@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. D
 
 ### Deposition Testimony
 
-**ECF Doc. 1328-14, filed 01/05/24** (Deposition of David Rodgers):
+**[ECF Doc. 1328-14](/sources/giuffre-v-maxwell/ecf-1328-14.pdf), filed 01/05/24** (Deposition of David Rodgers):
 
 David Rodgers was deposed on June 3, 2016, and testified about flight logs and passengers on Epstein's aircraft.
 
@@ -51,7 +51,7 @@ The deposition covered:
 
 ### Flight Log Evidence
 
-**ECF Doc. 1331-32** (Flight Log References):
+**[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** (Flight Log References):
 
 Flight logs entered as exhibits document extensive travel between Epstein properties on private aircraft. These logs, maintained by pilots including Rodgers, recorded:
 - Passenger manifests
@@ -62,11 +62,11 @@ The flight logs document that Ghislaine Maxwell traveled on Epstein's aircraft o
 
 ### References in Other Testimony
 
-**ECF Doc. 1328-23, filed 01/05/24**:
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf), filed 01/05/24**:
 
 Court filings reference Rodgers' flight logs as evidence of travel patterns by Epstein and his associates.
 
-**ECF Doc. 1328-24, filed 01/05/24**:
+**[ECF Doc. 1328-24](/sources/giuffre-v-maxwell/ecf-1328-24.pdf), filed 01/05/24**:
 
 Additional references to Rodgers' records appear in discovery materials.
 

@@ -43,7 +43,7 @@ Tipper Gore is a public figure, author, and photographer. She was married to Vic
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24:**
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24:**
 
 Tipper Gore is referenced in court filings.
 

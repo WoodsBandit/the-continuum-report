@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. G
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1327-28, filed 01/04/24:**
+**[ECF Doc. 1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf), filed 01/04/24:**
 
 Court filing containing a reference to Gwendolyn Beck.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional reference to Beck in court documents.
 

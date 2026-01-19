@@ -39,39 +39,39 @@ The documents analyzed herein relate to matters of significant public concern. N
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-20, filed 01/03/24:**
+**[ECF Doc. 1320-20](/sources/giuffre-v-maxwell/ecf-1320-20.pdf), filed 01/03/24:**
 
 Court filing referencing Nicole Simmons.
 
-**ECF Doc. 1320-28, filed 01/03/24:**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24:**
 
 Additional court reference to Simmons.
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Court document mentioning Simmons.
 
-**ECF Doc. 1320-34, filed 01/03/24:**
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf), filed 01/03/24:**
 
 Court filing referencing Simmons.
 
-**ECF Doc. 1320-36, filed 01/03/24:**
+**[ECF Doc. 1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf), filed 01/03/24:**
 
 Additional reference to Simmons in court documents.
 
-**ECF Doc. 1328-18, filed 01/05/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/05/24:**
 
 Court filing mentioning Simmons.
 
-**ECF Doc. 1328-4, filed 01/05/24:**
+**[ECF Doc. 1328-4](/sources/giuffre-v-maxwell/ecf-1328-4.pdf), filed 01/05/24:**
 
 Additional court reference to Simmons.
 
-**ECF Doc. 1331-30, filed 01/05/24:**
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf), filed 01/05/24:**
 
 Court document referencing Simmons.
 
-**ECF Doc. 1331-35, filed 01/05/24:**
+**[ECF Doc. 1331-35](/sources/giuffre-v-maxwell/ecf-1331-35.pdf), filed 01/05/24:**
 
 Additional reference in court filings.
 

@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. A
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1330-1, filed 01/08/24:**
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/08/24:**
 
 Adriana Mucinska is referenced in court filings.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional reference to Mucinska in court documents.
 
-**ECF Doc. 1330-4, filed 01/08/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/08/24:**
 
 Further reference to Mucinska in litigation documents.
 
@@ -100,9 +100,9 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1330-1 | 01/08/24 | Court Filing |
-| 1330-3 | 01/08/24 | Court Filing |
-| 1330-4 | 01/08/24 | Court Filing |
+| [1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | 01/08/24 | Court Filing |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/08/24 | Court Filing |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/08/24 | Court Filing |
 
 ---
 

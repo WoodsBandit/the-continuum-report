@@ -43,7 +43,7 @@ Virginia Giuffre filed a defamation lawsuit against Ghislaine Maxwell in 2015 (C
 
 ### Legal Representation
 
-**ECF Doc. 1331-19, filed 01/05/24:**
+**[ECF Doc. 1331-19](/sources/giuffre-v-maxwell/ecf-1331-19.pdf), filed 01/05/24:**
 
 Giuffre was represented by:
 - Boies, Schiller & Flexner LLP (Sigrid McCawley, Meredith Schultz, David Boies)
@@ -65,13 +65,13 @@ According to pleadings in *Giuffre v. Maxwell*, Giuffre alleged:
 
 The litigation involved extensive discovery disputes:
 
-**ECF Doc. 1327-12, filed 01/05/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24:**
 
 Discovery requests sought communications with thirteen specific individuals: Jeffrey Epstein, Virginia Roberts, Prince Andrew, Ross Gow, Alan Dershowitz, Emmy Taylor, Sarah Kellen, Glenn and Eva Dubin, Jean Luc Brunel, Nadia Marcincova, and Bill and Hillary Clinton.
 
 ### Maxwell's Characterization of Multiple Victims
 
-**ECF Doc. 1320-6, filed 01/03/24, pp. 89-90:**
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf), filed 01/03/24, pp. 89-90:**
 
 During Maxwell's deposition, Giuffre's counsel confronted her with a police report containing statements from approximately 30 alleged victims:
 
@@ -81,7 +81,7 @@ During Maxwell's deposition, Giuffre's counsel confronted her with a police repo
 
 ### FBI Contact
 
-**ECF Doc. 1320-39, filed 01/03/24:**
+**[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24:**
 
 Produced emails from August 27, 2014 show Giuffre contacted FBI agent Jason Richards seeking information related to Ron Eppinger. The FBI agent advised her to file a Freedom of Information Act request.
 
@@ -127,15 +127,15 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433 (S.D.N.Y.):
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-6 | 01/03/24 | Plaintiff's Reply in Support of Motion to Compel |
-| 1320-34 | 01/03/24 | Declaration in Support of Sanctions Motion |
-| 1320-36 | 01/03/24 | Declaration in Support of Motion to Reopen Deposition |
-| 1320-37 | 01/03/24 | Plaintiff's Second Amended Discovery Responses |
-| 1320-39 | 01/03/24 | Letter re Document Production |
-| 1327-12 | 01/05/24 | Defendant's Submission Regarding Search Terms |
-| 1327-19 | 01/05/24 | Plaintiff's Supplement to Motion for Adverse Inference |
-| 1331-19 | 01/05/24 | Plaintiff's Motion to Compel |
-| 1331-35 | 01/05/24 | Notice of Deposition of Sarah Ransome |
+| [1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf) | 01/03/24 | Plaintiff's Reply in Support of Motion to Compel |
+| [1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf) | 01/03/24 | Declaration in Support of Sanctions Motion |
+| [1320-36](/sources/giuffre-v-maxwell/ecf-1320-36.pdf) | 01/03/24 | Declaration in Support of Motion to Reopen Deposition |
+| [1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf) | 01/03/24 | Plaintiff's Second Amended Discovery Responses |
+| [1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf) | 01/03/24 | Letter re Document Production |
+| [1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf) | 01/05/24 | Defendant's Submission Regarding Search Terms |
+| [1327-19](/sources/giuffre-v-maxwell/ecf-1327-19.pdf) | 01/05/24 | Plaintiff's Supplement to Motion for Adverse Inference |
+| [1331-19](/sources/giuffre-v-maxwell/ecf-1331-19.pdf) | 01/05/24 | Plaintiff's Motion to Compel |
+| [1331-35](/sources/giuffre-v-maxwell/ecf-1331-35.pdf) | 01/05/24 | Notice of Deposition of Sarah Ransome |
 
 ---
 

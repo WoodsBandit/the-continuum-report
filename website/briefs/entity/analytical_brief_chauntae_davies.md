@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. C
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1330-3, filed 01/05/24**:
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24**:
 
 Court filing referencing Chauntae Davies.
 
@@ -112,7 +112,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1330-3 | 01/05/24 | Court Filing |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/05/24 | Court Filing |
 
 ---
 

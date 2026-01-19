@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Flight Log Documentation
 
-**ECF Doc. 1331-12, filed 01/05/24, p. 2:**
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/05/24, p. 2:**
 
 > "On December 14, 2006 (Flight #1920), Sarah Ransome flew from TIST (USVI) to EWR (Newark, NJ) with Jeffrey Epstein and Nadia Marcinkova. See Giuffre 07139."
 
@@ -47,7 +47,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 **IMPORTANT:** The following are allegations from a sworn affidavit. They represent one individual's account and have not been tested in court. Nadia Marcinkova has never been charged with any crime and has not had an opportunity to respond to these characterizations in the documents we reviewed.
 
-**ECF Doc. 1331-12, filed 01/05/24, pp. 8-9** and **ECF Doc. 1331-32, filed 01/05/24, pp. 2-3:**
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/05/24, pp. 8-9** and **[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf), filed 01/05/24, pp. 2-3:**
 
 Sarah Ransome provided a sworn affidavit dated January 5, 2017. Ransome states she was 22 years old in summer 2006—an adult at the time of the events described.
 
@@ -67,7 +67,7 @@ The affidavit was executed on January 5, 2017, in Barcelona, Spain, before Hsiao
 
 ### Fifth Amendment Invocations
 
-**ECF Doc. 1331-13, filed 01/05/24, p. 15** (Plaintiff's Opposition to Motion in Limine):
+**[ECF Doc. 1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf), filed 01/05/24, p. 15** (Plaintiff's Opposition to Motion in Limine):
 
 > "Ms. Giuffre took the depositions of Sarah Kellen and Nadia Marcinkova. Again, they both took the Fifth on all substantive questions."
 
@@ -121,20 +121,20 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-8 | 01/03/24 | Court Filing |
-| 1320-10 | 01/03/24 | Court Filing |
-| 1327-25 | 01/05/24 | Deposition of Janusz Banasiak |
-| 1328-7 | 01/05/24 | Court Document |
-| 1328-8 | 01/05/24 | Court Document |
-| 1328-16 | 01/05/24 | Court Document |
-| 1328-23 | 01/05/24 | Court Document |
-| 1328-34 | 01/05/24 | Court Document |
-| 1328-44 | 01/05/24 | Court Document |
-| 1330-3 | 01/05/24 | Court Document |
-| 1330-14 | 01/05/24 | Court Document |
-| 1331-12 | 01/05/24 | Letter Motion with Sarah Ransome Affidavit |
-| 1331-13 | 01/05/24 | Plaintiff's Opposition to Motion in Limine |
-| 1331-32 | 01/05/24 | Sarah Ransome Affidavit |
+| [1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf) | 01/03/24 | Court Filing |
+| [1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf) | 01/03/24 | Court Filing |
+| [1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf) | 01/05/24 | Deposition of Janusz Banasiak |
+| [1328-7](/sources/giuffre-v-maxwell/ecf-1328-7.pdf) | 01/05/24 | Court Document |
+| [1328-8](/sources/giuffre-v-maxwell/ecf-1328-8.pdf) | 01/05/24 | Court Document |
+| [1328-16](/sources/giuffre-v-maxwell/ecf-1328-16.pdf) | 01/05/24 | Court Document |
+| [1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf) | 01/05/24 | Court Document |
+| [1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf) | 01/05/24 | Court Document |
+| [1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf) | 01/05/24 | Court Document |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/05/24 | Court Document |
+| [1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf) | 01/05/24 | Court Document |
+| [1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf) | 01/05/24 | Letter Motion with Sarah Ransome Affidavit |
+| [1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf) | 01/05/24 | Plaintiff's Opposition to Motion in Limine |
+| [1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf) | 01/05/24 | Sarah Ransome Affidavit |
 
 ---
 

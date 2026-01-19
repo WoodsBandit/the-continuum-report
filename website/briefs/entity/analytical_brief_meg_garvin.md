@@ -43,11 +43,11 @@ Meg Garvin is a legal professional known for her work in victims' rights. She ha
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Meg Garvin is referenced in discovery documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Garvin is identified among individuals with potentially relevant knowledge for discovery purposes.
 

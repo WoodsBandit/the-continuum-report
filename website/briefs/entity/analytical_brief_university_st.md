@@ -1,3 +1,13 @@
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> *The Continuum Report — Another Node in the Decentralized Intelligence Agency*
+>
+> This document constitutes opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of fact.
+> Readers are encouraged to review cited sources and form independent conclusions.
+
+---
+
 ---
 entity_name: "University Street"
 entity_type: "LOCATION"

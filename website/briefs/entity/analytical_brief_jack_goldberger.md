@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-8, filed 01/03/24:**
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf), filed 01/03/24:**
 
 Court filing referencing Jack Goldberger's involvement as defense counsel.
 
-**ECF Doc. 1320-13, filed 01/03/24:**
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf), filed 01/03/24:**
 
 Additional court reference to Goldberger in connection with the defense team.
 
-**ECF Doc. 1328-15, filed 01/05/24:**
+**[ECF Doc. 1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf), filed 01/05/24:**
 
 Court document mentioning Goldberger's role.
 
-**ECF Doc. 1330-3, filed 01/05/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24:**
 
 Court filing referencing Goldberger.
 
-**ECF Doc. 1331-13, filed 01/05/24:**
+**[ECF Doc. 1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf), filed 01/05/24:**
 
 Additional court reference to defense counsel.
 

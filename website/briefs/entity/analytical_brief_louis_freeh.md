@@ -43,15 +43,15 @@ Louis Freeh served as Director of the FBI from September 1993 to June 2001. Foll
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-28, filed 01/03/24:**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24:**
 
 Court filing referencing Louis Freeh.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Louis Freeh is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1327-4, filed 01/04/24:**
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf), filed 01/04/24:**
 
 Additional court reference to Louis Freeh.
 
@@ -106,9 +106,9 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-28 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1327-4 | 01/04/24 | Court Filing |
+| [1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf) | 01/04/24 | Court Filing |
 
 ---
 

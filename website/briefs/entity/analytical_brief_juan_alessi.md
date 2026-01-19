@@ -49,7 +49,7 @@ Juan Alessi worked as house manager at Jeffrey Epstein's Palm Beach residence fr
 
 ### Deposition Testimony — Giuffre v. Maxwell
 
-**ECF Doc. 1327-24 (Filed 01/05/24):**
+**[ECF Doc. 1327-24](/sources/giuffre-v-maxwell/ecf-1327-24.pdf) (Filed 01/05/24):**
 
 Alessi provided deposition testimony in the Giuffre v. Maxwell civil case. Key topics addressed included:
 - Visitor patterns at the Palm Beach residence

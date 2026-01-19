@@ -61,7 +61,7 @@ Based on our review of court filings, the logs document that Maxwell traveled on
 
 ### David Rodgers as Log Custodian
 
-**ECF Doc. 1328-14, filed 01/05/24** (Deposition of David Rodgers, June 3, 2016):
+**[ECF Doc. 1328-14](/sources/giuffre-v-maxwell/ecf-1328-14.pdf), filed 01/05/24** (Deposition of David Rodgers, June 3, 2016):
 
 David Rodgers, Epstein's pilot, was deposed on June 3, 2016, and testified about flight logs and passengers on Epstein's aircraft. The flight logs he maintained as a professional pilot were entered as exhibits during his deposition.
 

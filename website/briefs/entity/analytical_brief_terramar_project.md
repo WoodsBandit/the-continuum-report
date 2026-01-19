@@ -48,13 +48,13 @@ Based on email communications in the court record, The Terramar Project had:
 
 ### Epstein's January 2015 Email to Maxwell
 
-**ECF Doc. 1330-5, filed 01/05/24, p. 2:**
+**[ECF Doc. 1330-5](/sources/giuffre-v-maxwell/ecf-1330-5.pdf), filed 01/05/24, p. 2:**
 
 > "ok, with me, You have done nothing wrong and i woudl urge you to start acting like it. go outside, head high, not as an esacping convict. go to parties. deal with it. . i had lisa svenson the swedish ocean ambassador yesteday she said no one on her ocean panel takes this stuff seriously and you would be welcoe to the ocean conferenec water conference etc."
 
 ### Maxwell's Use of Terramar Email
 
-**ECF Doc. 1330-9, filed 01/05/24, p. 5:**
+**[ECF Doc. 1330-9](/sources/giuffre-v-maxwell/ecf-1330-9.pdf), filed 01/05/24, p. 5:**
 
 An email from Maxwell dated April 22, 2015, sent from "Ghislaine@theterramarproject.org," addressed allegations in media reports:
 
@@ -62,25 +62,25 @@ An email from Maxwell dated April 22, 2015, sent from "Ghislaine@theterramarproj
 
 ### Email Signature Usage
 
-**ECF Doc. 1330-21, filed 01/05/24, p. 2** and **ECF Doc. 1320-1, filed 01/03/24, p. 2:**
+**[ECF Doc. 1330-21](/sources/giuffre-v-maxwell/ecf-1330-21.pdf), filed 01/05/24, p. 2** and **[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf), filed 01/03/24, p. 2:**
 
 Maxwell's emails during January 2015 included The Terramar Project signature line with links to the organization's social media platforms.
 
 ### Discovery Requests
 
-**ECF Doc. 1327-2, filed 01/05/24, p. 2:**
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf), filed 01/05/24, p. 2:**
 
 Plaintiff's counsel requested:
 
 > "please use IMAP Capable software (or a functional equivalent) to capture all of the sent/received emails from Ms. Maxwell's various email accounts, including but not limited to the following: (1) GMaxl@ellmax.com (and any other accounts at ellmax.com); (2) gmaxl@mindspring.com (and any other accounts at mindspring.com); (3) any of Ms. Maxwell's email account associated with The Terramar Project (including any account ending in @theterramarproject.org); and (4) any other email accounts either used in the past, or currently in use."
 
-**ECF Doc. 1328-23, filed 01/05/24, pp. 19-20:**
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf), filed 01/05/24, pp. 19-20:**
 
 Financial discovery requests sought:
 
 > "[information regarding] all financial transactions involving (directly or indirectly) Jeffrey Epstein, the Clinton Foundation, Ellmax LLC, The TerraMar Project, and any other person listed in the Rule 26 disclosures of either side in this case."
 
-**ECF Doc. 1328-24, filed 01/05/24, p. 2:**
+**[ECF Doc. 1328-24](/sources/giuffre-v-maxwell/ecf-1328-24.pdf), filed 01/05/24, p. 2:**
 
 > "Attached hereto as Sealed Composite Exhibit 9 are true copies of Ellmax, LLC and The TerraMar Project Subpoenas."
 

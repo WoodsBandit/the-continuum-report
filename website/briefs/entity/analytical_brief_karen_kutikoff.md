@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. K
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Court filing referencing Karen Kutikoff.
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Additional reference to Kutikoff in court documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Kutikoff is identified among individuals with potentially relevant knowledge.
 
-**ECF Doc. 1327-12, filed 01/04/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/04/24:**
 
 Court filing mentioning Kutikoff.
 
-**ECF Doc. 1328-18, filed 01/05/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/05/24:**
 
 Additional court reference to Karen Kutikoff.
 

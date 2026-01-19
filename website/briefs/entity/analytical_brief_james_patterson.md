@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24**:
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24**:
 
 Court filing referencing James Patterson.
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Additional court reference to Patterson.
 
-**ECF Doc. 1331-36, filed 01/05/24**:
+**[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf), filed 01/05/24**:
 
 Court filing mentioning Patterson.
 

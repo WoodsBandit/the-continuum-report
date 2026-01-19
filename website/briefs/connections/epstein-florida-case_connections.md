@@ -25,15 +25,15 @@ Connection between Epstein Florida Case and this entity is documented in 18 cour
 
 ### Documented Evidence
 
-**ECF Doc. 1325-3** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-18** (Plaintiff's Response re Discovery, filed 01/05/24):
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf)** (Plaintiff's Response re Discovery, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1330-1** (Declaration of Paul G. Cassell, filed 01/05/24):
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** (Declaration of Paul G. Cassell, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Epstein Florida Case and this entity is documented in 6 court
 
 ### Documented Evidence
 
-**ECF Doc. 1325-3** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-18** (Plaintiff's Response re Discovery, filed 01/05/24):
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf)** (Plaintiff's Response re Discovery, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1330-1** (Declaration of Paul G. Cassell, filed 01/05/24):
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** (Declaration of Paul G. Cassell, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection referenced in 3 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1325-3** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-18** (Plaintiff's Response re Discovery, filed 01/05/24):
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf)** (Plaintiff's Response re Discovery, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1330-1** (Declaration of Paul G. Cassell, filed 01/05/24):
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** (Declaration of Paul G. Cassell, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection referenced in 3 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1325-3** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Jane Doe #3 and #4 Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-18** (Plaintiff's Response re Discovery, filed 01/05/24):
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf)** (Plaintiff's Response re Discovery, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1330-1** (Declaration of Paul G. Cassell, filed 01/05/24):
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** (Declaration of Paul G. Cassell, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -173,12 +173,12 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1325-3** — Jane Doe #3 and #4 Motion for Joinder, Filed: 01/04/24
-2. **ECF Doc. 1328-18** — Plaintiff's Response re Discovery, Filed: 01/05/24
-3. **ECF Doc. 1330-1** — Declaration of Paul G. Cassell, Filed: 01/05/24
-4. **ECF Doc. 1331-4** — Plaintiff's Response re Sanctions, Filed: 01/05/24
-5. **ECF Doc. 1320-40** — Maxwell's Rule 26 Disclosures, Filed: 01/03/24
-6. **ECF Doc. 1320-9** — Jane Doe #3 and #4 Motion (duplicate), Filed: 01/03/24
+1. **[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** — Jane Doe #3 and #4 Motion for Joinder, Filed: 01/04/24
+2. **[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf)** — Plaintiff's Response re Discovery, Filed: 01/05/24
+3. **[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** — Declaration of Paul G. Cassell, Filed: 01/05/24
+4. **[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf)** — Plaintiff's Response re Sanctions, Filed: 01/05/24
+5. **[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** — Maxwell's Rule 26 Disclosures, Filed: 01/03/24
+6. **[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** — Jane Doe #3 and #4 Motion (duplicate), Filed: 01/03/24
 
 ---
 

@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. V
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Vicky Ward is identified among individuals with relevant knowledge for discovery purposes.
 
-**ECF Doc. 1327-12, filed 01/05/24** (Defendant's Submission Regarding Search Terms):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24** (Defendant's Submission Regarding Search Terms):
 
 Court filing referencing Ward.
 
-**ECF Doc. 1330-3, filed 01/05/24**:
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24**:
 
 Additional court reference to Ward.
 

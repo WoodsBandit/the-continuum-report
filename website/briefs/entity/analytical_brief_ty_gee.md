@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1327-19, filed 01/04/24:**
+**[ECF Doc. 1327-19](/sources/giuffre-v-maxwell/ecf-1327-19.pdf), filed 01/04/24:**
 
 Ty Gee is referenced in court filings.
 
-**ECF Doc. 1331-30, filed 01/08/24:**
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf), filed 01/08/24:**
 
 Additional reference to Gee in litigation documents.
 

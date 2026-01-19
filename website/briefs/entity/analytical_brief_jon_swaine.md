@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1330-22, filed 01/03/24:**
+**[ECF Doc. 1330-22](/sources/giuffre-v-maxwell/ecf-1330-22.pdf), filed 01/03/24:**
 
 Jon Swaine is referenced in court filings.
 

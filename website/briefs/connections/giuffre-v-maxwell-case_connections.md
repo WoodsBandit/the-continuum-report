@@ -25,15 +25,15 @@ Connection between Giuffre v. Maxwell Civil Case and this entity is documented i
 
 ### Documented Evidence
 
-**ECF Doc. 1327-22** (Deposition of Joseph Recarey, filed 01/05/24):
+**[ECF Doc. 1327-22](/sources/giuffre-v-maxwell/ecf-1327-22.pdf)** (Deposition of Joseph Recarey, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-23** (Deposition of Johanna Sjoberg, filed 01/05/24):
+**[ECF Doc. 1327-23](/sources/giuffre-v-maxwell/ecf-1327-23.pdf)** (Deposition of Johanna Sjoberg, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-24** (Deposition of John Alessi, filed 01/05/24):
+**[ECF Doc. 1327-24](/sources/giuffre-v-maxwell/ecf-1327-24.pdf)** (Deposition of John Alessi, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Giuffre v. Maxwell Civil Case and this entity is documented i
 
 ### Documented Evidence
 
-**ECF Doc. 1327-22** (Deposition of Joseph Recarey, filed 01/05/24):
+**[ECF Doc. 1327-22](/sources/giuffre-v-maxwell/ecf-1327-22.pdf)** (Deposition of Joseph Recarey, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-23** (Deposition of Johanna Sjoberg, filed 01/05/24):
+**[ECF Doc. 1327-23](/sources/giuffre-v-maxwell/ecf-1327-23.pdf)** (Deposition of Johanna Sjoberg, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-24** (Deposition of John Alessi, filed 01/05/24):
+**[ECF Doc. 1327-24](/sources/giuffre-v-maxwell/ecf-1327-24.pdf)** (Deposition of John Alessi, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Giuffre v. Maxwell Civil Case and this entity is documented i
 
 ### Documented Evidence
 
-**ECF Doc. 1327-22** (Deposition of Joseph Recarey, filed 01/05/24):
+**[ECF Doc. 1327-22](/sources/giuffre-v-maxwell/ecf-1327-22.pdf)** (Deposition of Joseph Recarey, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-23** (Deposition of Johanna Sjoberg, filed 01/05/24):
+**[ECF Doc. 1327-23](/sources/giuffre-v-maxwell/ecf-1327-23.pdf)** (Deposition of Johanna Sjoberg, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-24** (Deposition of John Alessi, filed 01/05/24):
+**[ECF Doc. 1327-24](/sources/giuffre-v-maxwell/ecf-1327-24.pdf)** (Deposition of John Alessi, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -135,12 +135,12 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1327-22** — Deposition of Joseph Recarey, Filed: 01/05/24
-2. **ECF Doc. 1327-23** — Deposition of Johanna Sjoberg, Filed: 01/05/24
-3. **ECF Doc. 1327-24** — Deposition of John Alessi, Filed: 01/05/24
-4. **ECF Doc. 1327-25** — Deposition of Janusz Banasiak, Filed: 01/05/24
-5. **ECF Doc. 1328-14** — Deposition of David Rodgers, Filed: 01/05/24
-6. **ECF Doc. 1331-4** — Motion re Sanctions, Filed: 01/05/24
+1. **[ECF Doc. 1327-22](/sources/giuffre-v-maxwell/ecf-1327-22.pdf)** — Deposition of Joseph Recarey, Filed: 01/05/24
+2. **[ECF Doc. 1327-23](/sources/giuffre-v-maxwell/ecf-1327-23.pdf)** — Deposition of Johanna Sjoberg, Filed: 01/05/24
+3. **[ECF Doc. 1327-24](/sources/giuffre-v-maxwell/ecf-1327-24.pdf)** — Deposition of John Alessi, Filed: 01/05/24
+4. **[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** — Deposition of Janusz Banasiak, Filed: 01/05/24
+5. **[ECF Doc. 1328-14](/sources/giuffre-v-maxwell/ecf-1328-14.pdf)** — Deposition of David Rodgers, Filed: 01/05/24
+6. **[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf)** — Motion re Sanctions, Filed: 01/05/24
 
 ---
 

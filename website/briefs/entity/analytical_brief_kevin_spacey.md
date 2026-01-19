@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. K
 
 ### Deposition Testimony Regarding Africa Trip
 
-**ECF Doc. 1328-44, filed 01/05/24** (Marcinkova Deposition):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/05/24** (Marcinkova Deposition):
 
 Testimony referenced a trip to Africa involving Bill Clinton, Jeffrey Epstein, and Kevin Spacey:
 

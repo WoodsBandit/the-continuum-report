@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. F
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-42, filed 01/03/24:**
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf), filed 01/03/24:**
 
 Frederick Fekkai is referenced in court filings.
 

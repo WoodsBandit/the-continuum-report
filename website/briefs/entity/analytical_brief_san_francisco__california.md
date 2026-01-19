@@ -1,5 +1,16 @@
 # Analytical Brief: San Francisco, California
 
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> *The Continuum Report — Another Node in the Decentralized Intelligence Agency*
+>
+> This document constitutes opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of fact.
+> Readers are encouraged to review cited sources and form independent conclusions.
+
+---
+
+
 ## 1. SUMMARY
 
 San Francisco, California is a major metropolitan city located on the West Coast of the United States. It serves as the cultural, commercial, and financial center of Northern California and is the 17th most populous city in the United States. The city is known as a global hub for technology, finance, and innovation.

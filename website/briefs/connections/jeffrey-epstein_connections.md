@@ -25,15 +25,15 @@ Connection between Jeffrey Epstein and this entity is documented in 9 court fili
 
 ### Documented Evidence
 
-**ECF Doc. 1331-11** (Rodriguez Deposition Testimony, filed None):
+**[ECF Doc. 1331-11](/sources/giuffre-v-maxwell/ecf-1331-11.pdf)** (Rodriguez Deposition Testimony, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-12** (Ransome Affidavit, filed None):
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** (Ransome Affidavit, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-32** (Flight Log References, filed None):
+**[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** (Flight Log References, filed None):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Jeffrey Epstein and this entity is documented in 6 court fili
 
 ### Documented Evidence
 
-**ECF Doc. 1331-11** (Rodriguez Deposition Testimony, filed None):
+**[ECF Doc. 1331-11](/sources/giuffre-v-maxwell/ecf-1331-11.pdf)** (Rodriguez Deposition Testimony, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-12** (Ransome Affidavit, filed None):
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** (Ransome Affidavit, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-32** (Flight Log References, filed None):
+**[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** (Flight Log References, filed None):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection referenced in 2 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1331-11** (Rodriguez Deposition Testimony, filed None):
+**[ECF Doc. 1331-11](/sources/giuffre-v-maxwell/ecf-1331-11.pdf)** (Rodriguez Deposition Testimony, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-12** (Ransome Affidavit, filed None):
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** (Ransome Affidavit, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-32** (Flight Log References, filed None):
+**[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** (Flight Log References, filed None):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection referenced in 2 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1331-11** (Rodriguez Deposition Testimony, filed None):
+**[ECF Doc. 1331-11](/sources/giuffre-v-maxwell/ecf-1331-11.pdf)** (Rodriguez Deposition Testimony, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-12** (Ransome Affidavit, filed None):
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** (Ransome Affidavit, filed None):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-32** (Flight Log References, filed None):
+**[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** (Flight Log References, filed None):
 
 > Document references connection context. See primary source for full details.
 
@@ -173,11 +173,11 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1331-11** — Rodriguez Deposition Testimony, Filed: None
-2. **ECF Doc. 1331-12** — Ransome Affidavit, Filed: None
-3. **ECF Doc. 1331-32** — Flight Log References, Filed: None
-4. **ECF Doc. 1330-1** — CVRA Case Background, Filed: None
-5. **ECF Doc. 1325-3** — Jane Doe Joinder Motion, Filed: None
+1. **[ECF Doc. 1331-11](/sources/giuffre-v-maxwell/ecf-1331-11.pdf)** — Rodriguez Deposition Testimony, Filed: None
+2. **[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** — Ransome Affidavit, Filed: None
+3. **[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** — Flight Log References, Filed: None
+4. **[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** — CVRA Case Background, Filed: None
+5. **[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** — Jane Doe Joinder Motion, Filed: None
 
 ---
 

@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-4, filed 01/03/24:**
+**[ECF Doc. 1320-4](/sources/giuffre-v-maxwell/ecf-1320-4.pdf), filed 01/03/24:**
 
 James Christe is referenced in court filings.
 
-**ECF Doc. 1320-5, filed 01/03/24:**
+**[ECF Doc. 1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf), filed 01/03/24:**
 
 Additional reference to Christe in litigation documents.
 

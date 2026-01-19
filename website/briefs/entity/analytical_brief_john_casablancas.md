@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-44, filed 01/03/24:**
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/03/24:**
 
 John Casablancas is referenced in court filings.
 

@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1331-12, filed 01/08/24:**
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/08/24:**
 
 Court filing containing a reference to Sarah Emma Ashley.
 
-**ECF Doc. 1331-32, filed 01/08/24:**
+**[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf), filed 01/08/24:**
 
 Additional reference to Ashley in court documents.
 

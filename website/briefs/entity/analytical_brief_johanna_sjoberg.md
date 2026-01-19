@@ -41,7 +41,7 @@ Johanna Sjoberg is an alleged victim of Jeffrey Epstein who provided deposition 
 
 ### Deposition Testimony
 
-**ECF Doc. 1327-23 (Filed 01/05/24):**
+**[ECF Doc. 1327-23](/sources/giuffre-v-maxwell/ecf-1327-23.pdf) (Filed 01/05/24):**
 
 Johanna Sjoberg provided deposition testimony in the Giuffre v. Maxwell civil case on May 18, 2016. Her testimony addressed:
 - Circumstances of her initial contact with the Epstein operation

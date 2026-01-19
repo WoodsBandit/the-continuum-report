@@ -39,19 +39,19 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Court filing referencing Steven Olson.
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Additional reference to Olson in court documents.
 
-**ECF Doc. 1325-4, filed 01/04/24:**
+**[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf), filed 01/04/24:**
 
 Court filing mentioning Olson.
 
-**ECF Doc. 1328-18, filed 01/05/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/05/24:**
 
 Additional court reference to Steven Olson.
 

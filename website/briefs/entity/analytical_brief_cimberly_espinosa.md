@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. C
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Cimberly Espinosa is identified among individuals with potentially relevant knowledge for discovery purposes.
 
@@ -91,7 +91,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
 
 ---
 

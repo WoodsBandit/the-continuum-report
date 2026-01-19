@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. D
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-13, filed 01/03/24:**
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf), filed 01/03/24:**
 
 Douglas Schoettle is referenced in discovery documents.
 
-**ECF Doc. 1330-4, filed 01/08/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/08/24:**
 
 Additional reference to Schoettle in court filings.
 

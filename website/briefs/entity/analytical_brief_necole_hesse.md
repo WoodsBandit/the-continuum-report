@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. N
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1327-28, filed 01/03/24:**
+**[ECF Doc. 1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf), filed 01/03/24:**
 
 Necole Hesse is referenced in court filings.
 

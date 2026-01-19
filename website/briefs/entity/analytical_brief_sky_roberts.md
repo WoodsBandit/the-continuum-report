@@ -39,27 +39,27 @@ The documents analyzed herein relate to matters of significant public concern. "
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-21, filed 01/03/24**:
+**[ECF Doc. 1320-21](/sources/giuffre-v-maxwell/ecf-1320-21.pdf), filed 01/03/24**:
 
 Sky Roberts is referenced in court filings.
 
-**ECF Doc. 1320-37, filed 01/03/24**:
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24**:
 
 Additional reference to Sky Roberts in court documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Sky Roberts is identified among individuals referenced in discovery.
 
-**ECF Doc. 1327-19, filed 01/05/24**:
+**[ECF Doc. 1327-19](/sources/giuffre-v-maxwell/ecf-1327-19.pdf), filed 01/05/24**:
 
 Court filing referencing Sky Roberts.
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Additional reference in court documents.
 
-**ECF Doc. 1330-3, filed 01/05/24**:
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24**:
 
 Further reference to Sky Roberts.
 

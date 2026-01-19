@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Judith Lightfoot is referenced in discovery documents.
 
-**ECF Doc. 1328-18, filed 01/04/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/04/24:**
 
 Additional reference to Lightfoot in court filings.
 
-**ECF Doc. 1331-4, filed 01/08/24:**
+**[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf), filed 01/08/24:**
 
 Further reference to Lightfoot in litigation documents.
 

@@ -39,19 +39,19 @@ The documents analyzed herein relate to matters of significant public concern. B
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Court filing referencing Bob Josefsberg.
 
-**ECF Doc. 1330-1, filed 01/05/24:**
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/05/24:**
 
 Additional reference to Josefsberg in court documents.
 
-**ECF Doc. 1330-2, filed 01/05/24:**
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24:**
 
 Court filing mentioning Josefsberg.
 
-**ECF Doc. 1330-4, filed 01/05/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/05/24:**
 
 Additional court reference to Bob Josefsberg.
 
@@ -114,10 +114,10 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-37 | 01/03/24 | Court Filing |
-| 1330-1 | 01/05/24 | Court Filing |
-| 1330-2 | 01/05/24 | Court Filing |
-| 1330-4 | 01/05/24 | Court Filing |
+| [1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf) | 01/03/24 | Court Filing |
+| [1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | 01/05/24 | Court Filing |
+| [1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf) | 01/05/24 | Court Filing |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/05/24 | Court Filing |
 
 ---
 

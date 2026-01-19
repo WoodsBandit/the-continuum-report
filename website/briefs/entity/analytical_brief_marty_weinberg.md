@@ -43,11 +43,11 @@ Marty Weinberg is a criminal defense attorney known for representing high-profil
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-8, filed 01/03/24:**
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf), filed 01/03/24:**
 
 Court filing containing a reference to Marty Weinberg.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional reference to Weinberg in court documents.
 
@@ -100,8 +100,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-8 | 01/03/24 | Court Filing |
-| 1330-3 | 01/08/24 | Court Filing |
+| [1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf) | 01/03/24 | Court Filing |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/08/24 | Court Filing |
 
 ---
 

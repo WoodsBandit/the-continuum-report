@@ -39,19 +39,19 @@ The documents analyzed herein relate to matters of significant public concern. E
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-15, filed 01/03/24:**
+**[ECF Doc. 1320-15](/sources/giuffre-v-maxwell/ecf-1320-15.pdf), filed 01/03/24:**
 
 Court filing referencing Ellen Brockman.
 
-**ECF Doc. 1320-31, filed 01/03/24:**
+**[ECF Doc. 1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf), filed 01/03/24:**
 
 Additional reference to Brockman in court documents.
 
-**ECF Doc. 1320-39, filed 01/03/24:**
+**[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24:**
 
 Court filing mentioning Brockman.
 
-**ECF Doc. 1330-2, filed 01/05/24:**
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24:**
 
 Additional court reference to Ellen Brockman.
 

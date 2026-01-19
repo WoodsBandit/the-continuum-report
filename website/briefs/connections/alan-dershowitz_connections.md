@@ -25,15 +25,15 @@ Connection between Alan Dershowitz and this entity is documented in 20 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-9** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1325-3** (Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Alan Dershowitz and this entity is documented in 12 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-9** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1325-3** (Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection referenced in 3 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-9** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1325-3** (Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection between Alan Dershowitz and this entity is documented in 1 court fili
 
 ### Documented Evidence
 
-**ECF Doc. 1320-9** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1325-3** (Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection referenced in 2 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-9** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1325-3** (Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1320-9** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** (Motion for Joinder (Jane Doe #3 & #4), filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1325-3** (Motion for Joinder, filed 01/04/24):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** (Motion for Joinder, filed 01/04/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -249,15 +249,15 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-9** — Motion for Joinder (Jane Doe #3 & #4), Filed: 01/03/24
-2. **ECF Doc. 1320-40** — Maxwell's Rule 26 Disclosures, Filed: 01/03/24
-3. **ECF Doc. 1325-3** — Motion for Joinder, Filed: 01/04/24
-4. **ECF Doc. 1327-12** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
-5. **ECF Doc. 1328-19** — Media Exhibits, Filed: 01/05/24
-6. **ECF Doc. 1328-31** — Motion Filing, Filed: 01/05/24
+1. **[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf)** — Motion for Joinder (Jane Doe #3 & #4), Filed: 01/03/24
+2. **[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** — Maxwell's Rule 26 Disclosures, Filed: 01/03/24
+3. **[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf)** — Motion for Joinder, Filed: 01/04/24
+4. **[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
+5. **[ECF Doc. 1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf)** — Media Exhibits, Filed: 01/05/24
+6. **[ECF Doc. 1328-31](/sources/giuffre-v-maxwell/ecf-1328-31.pdf)** — Motion Filing, Filed: 01/05/24
 7. **ECF Doc. 1329-0** — Court Order, Filed: 01/05/24
-8. **ECF Doc. 1330-1** — Declaration of Paul G. Cassell, Filed: 01/05/24
-9. **ECF Doc. 1331-12** — Affidavit of Sarah Ransome, Filed: 01/05/24
+8. **[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** — Declaration of Paul G. Cassell, Filed: 01/05/24
+9. **[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** — Affidavit of Sarah Ransome, Filed: 01/05/24
 
 ---
 

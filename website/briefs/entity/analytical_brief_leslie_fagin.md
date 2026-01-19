@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. L
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-4, filed 01/03/24:**
+**[ECF Doc. 1320-4](/sources/giuffre-v-maxwell/ecf-1320-4.pdf), filed 01/03/24:**
 
 Court filing referencing Leslie Fagin.
 
-**ECF Doc. 1320-5, filed 01/03/24:**
+**[ECF Doc. 1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf), filed 01/03/24:**
 
 Additional reference to Fagin in court documents.
 
-**ECF Doc. 1320-29, filed 01/03/24:**
+**[ECF Doc. 1320-29](/sources/giuffre-v-maxwell/ecf-1320-29.pdf), filed 01/03/24:**
 
 Court filing mentioning Leslie Fagin.
 
-**ECF Doc. 1327-21, filed 01/05/24:**
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf), filed 01/05/24:**
 
 Court document referencing Fagin.
 
-**ECF Doc. 1327-28, filed 01/05/24:**
+**[ECF Doc. 1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf), filed 01/05/24:**
 
 Additional court reference to Leslie Fagin.
 
@@ -119,11 +119,11 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-4 | 01/03/24 | Court Filing |
-| 1320-5 | 01/03/24 | Court Filing |
-| 1320-29 | 01/03/24 | Court Filing |
-| 1327-21 | 01/05/24 | Court Filing |
-| 1327-28 | 01/05/24 | Court Filing |
+| [1320-4](/sources/giuffre-v-maxwell/ecf-1320-4.pdf) | 01/03/24 | Court Filing |
+| [1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf) | 01/03/24 | Court Filing |
+| [1320-29](/sources/giuffre-v-maxwell/ecf-1320-29.pdf) | 01/03/24 | Court Filing |
+| [1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf) | 01/05/24 | Court Filing |
+| [1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf) | 01/05/24 | Court Filing |
 
 ---
 

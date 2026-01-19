@@ -41,23 +41,23 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 **IMPORTANT:** The following are allegations made by Virginia Giuffre in media interviews and her unpublished manuscript. They were characterized by Maxwell's defense as false. The Continuum Report presents them as part of the litigation record, not as established facts.
 
-**ECF Doc. 1320-28, filed 01/03/24, pp. 7-8** (Maxwell's Opposition to Extending Deposition Deadline, quoting Sharon Churcher's article "Teenage girl recruited by paedophile Jeffrey Epstein reveals how she twice met Bill Clinton," *Daily Mail*, Mar. 5, 2011):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, pp. 7-8** (Maxwell's Opposition to Extending Deposition Deadline, quoting Sharon Churcher's article "Teenage girl recruited by paedophile Jeffrey Epstein reveals how she twice met Bill Clinton," *Daily Mail*, Mar. 5, 2011):
 
 > "On one occasion, she adds, Epstein did invite two young brunettes to dinner which he gave on his Caribbean island for Mr. Clinton shortly after he left office. But as far as she knows, the ex-President did not take the bait. 'I'd have been about 17 at the time,' she says. 'I flew to the Caribbean with Jeffrey and then Ghislaine Maxwell went to pick up Bill in a huge black helicopter that Jeffrey bought her...'"
 >
 > "'We all dined together that night. Jeffrey was at the head of the table. Bill was at his left. I sat across from him... I only met Bill twice but Jeffrey told me they were good friends.'"
 
-**ECF Doc. 1320-28, filed 01/03/24, p. 8** (quoting Giuffre's unpublished manuscript *The Billionaire Playboys' Club*):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, p. 8** (quoting Giuffre's unpublished manuscript *The Billionaire Playboys' Club*):
 
 > "The next big dinner party on the island had another significant guest appearance being the one and only, Bill Clinton... This wasn't a big party as such, only a few of us eating at the diner table. There was Jeffrey at the head of it all, as always. On the left side was Emmy, Ghislaine and I sitting across the table from us was Bill with two lovely girls who were visiting from New York..."
 
 ### Rebuttal Evidence in Court Record
 
-**ECF Doc. 1320-28, filed 01/03/24, p. 8:**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, p. 8:**
 
 > "Former FBI Director Louis Freeh submitted a report wherein he concluded that President Clinton 'did not, in fact travel to, nor was he present on, Little St. James Island between January 1, 2001 and January 1, 2003.' Further, if any Secret Service agents had accompanied Clinton to that location, 'they would have been required to make and file shift logs, travel vouchers, and related documentation relating to the visit,' and there was a 'total absence' of any such documentation."
 
-**ECF Doc. 1320-28, filed 01/03/24, pp. 6, 9:**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, pp. 6, 9:**
 
 > "Plaintiff admits she has 'made no allegations of illegal actions by Bill Clinton.'"
 >
@@ -65,7 +65,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Deposition Testimony References
 
-**ECF Doc. 1331-18, filed 01/05/24, p. 43:2-12** (Confidential Deposition, June 20, 2016):
+**[ECF Doc. 1331-18](/sources/giuffre-v-maxwell/ecf-1331-18.pdf), filed 01/05/24, p. 43:2-12** (Confidential Deposition, June 20, 2016):
 
 > "THE WITNESS: I do remember having several conversations about Bill Clinton and others.
 > BY MR. EDWARDS:
@@ -74,7 +74,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Fifth Amendment Invocations
 
-**ECF Doc. 1328-44, filed 01/05/24, pp. 54:2-17** (Videotaped Deposition of Nadia Marcinkova, April 13, 2010):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/05/24, pp. 54:2-17** (Videotaped Deposition of Nadia Marcinkova, April 13, 2010):
 
 > "Q. Do you know Bill Clinton?
 > A. Fifth.

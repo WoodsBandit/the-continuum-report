@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. H
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1330-4, filed 01/03/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/03/24:**
 
 Henry Rosovsky is referenced in court filings.
 

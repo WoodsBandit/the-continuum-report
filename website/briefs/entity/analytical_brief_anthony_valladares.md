@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. A
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Anthony Valladares is referenced in discovery documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Valladares is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1330-2, filed 01/08/24:**
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/08/24:**
 
 Additional reference to Valladares in court filings.
 
@@ -100,9 +100,9 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-37 | 01/03/24 | Discovery Documents |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1330-2 | 01/08/24 | Court Filing |
+| [1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf) | 01/03/24 | Discovery Documents |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf) | 01/08/24 | Court Filing |
 
 ---
 

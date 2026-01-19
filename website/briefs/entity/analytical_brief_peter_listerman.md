@@ -43,11 +43,11 @@ Peter Listerman has been described in media reports as a Russian businessman who
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Peter Listerman is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional reference to Listerman in court documents.
 

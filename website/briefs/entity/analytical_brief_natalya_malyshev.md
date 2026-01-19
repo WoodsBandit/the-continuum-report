@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. N
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1331-12, filed 01/08/24:**
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/08/24:**
 
 Court filing referencing Natalya Malyshev. This document relates to Sarah Ransome's sworn statements.
 
-**ECF Doc. 1331-30, filed 01/08/24:**
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf), filed 01/08/24:**
 
 Additional reference to Malyshev in court documents.
 
@@ -98,8 +98,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1331-12 | 01/08/24 | Court Filing (Sarah Ransome related) |
-| 1331-30 | 01/08/24 | Court Filing |
+| [1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf) | 01/08/24 | Court Filing (Sarah Ransome related) |
+| [1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf) | 01/08/24 | Court Filing |
 
 ---
 

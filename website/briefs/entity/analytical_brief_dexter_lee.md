@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. D
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-9, filed 01/03/24:**
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf), filed 01/03/24:**
 
 Dexter Lee is referenced in court filings.
 

@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. P
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Philip Guderyon is referenced in discovery documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Guderyon is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1330-2, filed 01/08/24:**
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/08/24:**
 
 Additional reference to Guderyon in court filings.
 

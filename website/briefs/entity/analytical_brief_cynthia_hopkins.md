@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. C
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1327-25, filed 01/05/24:**
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf), filed 01/05/24:**
 
 Court document referencing Cynthia Hopkins as court reporter.
 
-**ECF Doc. 1328-15, filed 01/05/24:**
+**[ECF Doc. 1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf), filed 01/05/24:**
 
 Additional reference to Hopkins in deposition transcript.
 
-**ECF Doc. 1328-34, filed 01/05/24:**
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf), filed 01/05/24:**
 
 Court filing mentioning Hopkins.
 
-**ECF Doc. 1328-44, filed 01/05/24:**
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/05/24:**
 
 Additional court reference to Cynthia Hopkins.
 
-**ECF Doc. 1330-14, filed 01/05/24:**
+**[ECF Doc. 1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf), filed 01/05/24:**
 
 Court document referencing Hopkins as court reporter.
 
@@ -119,11 +119,11 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1327-25 | 01/05/24 | Court Filing (Deposition) |
-| 1328-15 | 01/05/24 | Court Filing (Deposition) |
-| 1328-34 | 01/05/24 | Court Filing |
-| 1328-44 | 01/05/24 | Court Filing (Deposition) |
-| 1330-14 | 01/05/24 | Court Filing |
+| [1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf) | 01/05/24 | Court Filing (Deposition) |
+| [1328-15](/sources/giuffre-v-maxwell/ecf-1328-15.pdf) | 01/05/24 | Court Filing (Deposition) |
+| [1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf) | 01/05/24 | Court Filing |
+| [1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf) | 01/05/24 | Court Filing (Deposition) |
+| [1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf) | 01/05/24 | Court Filing |
 
 ---
 

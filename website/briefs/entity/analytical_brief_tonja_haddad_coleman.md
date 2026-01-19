@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Tonja Haddad Coleman is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1327-4, filed 01/04/24:**
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf), filed 01/04/24:**
 
 Additional reference to Coleman in court documents.
 

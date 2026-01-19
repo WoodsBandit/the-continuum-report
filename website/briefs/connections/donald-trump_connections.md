@@ -25,11 +25,11 @@ Connection between Donald Trump and this entity is documented in 14 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1328-42** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-36** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
+**[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf)** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -59,11 +59,11 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1328-42** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-36** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
+**[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf)** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -93,11 +93,11 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1328-42** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-36** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
+**[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf)** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -127,11 +127,11 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1328-42** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-36** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
+**[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf)** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -161,11 +161,11 @@ Connection referenced in 1 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1328-42** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** (Deposition of Juan Alessi (Epstein's house manager), filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-36** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
+**[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf)** (Epstein's Motion to Quash Trial Subpoena, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -191,8 +191,8 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1328-42** — Deposition of Juan Alessi (Epstein's house manager), Filed: 01/05/24
-2. **ECF Doc. 1331-36** — Epstein's Motion to Quash Trial Subpoena, Filed: 01/05/24
+1. **[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** — Deposition of Juan Alessi (Epstein's house manager), Filed: 01/05/24
+2. **[ECF Doc. 1331-36](/sources/giuffre-v-maxwell/ecf-1331-36.pdf)** — Epstein's Motion to Quash Trial Subpoena, Filed: 01/05/24
 
 ---
 

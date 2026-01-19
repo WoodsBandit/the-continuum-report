@@ -68,7 +68,7 @@ Based on subsequent DOJ OPR Report (2020) and NPA document:
 
 #### Virginia Giuffre FBI Contact (August 27, 2014)
 
-**Source:** ECF Doc. 1320-39, filed 01/03/24
+**Source:** [ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24
 
 **Documented Event:**
 - Giuffre contacted FBI Agent Jason Richards
@@ -300,7 +300,7 @@ This is not necessarily improper — FBI investigative files often remain sealed
 ## Sources
 
 **Primary:**
-- ECF Doc. 1320-39 (Giuffre-Richards contact)
+- [ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf) (Giuffre-Richards contact)
 - DOJ co-conspirator email (House Oversight release)
 - 2020 DOJ OPR Report
 - 2008 NPA document

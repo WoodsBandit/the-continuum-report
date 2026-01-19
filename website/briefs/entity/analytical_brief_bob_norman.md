@@ -43,11 +43,11 @@ Bob Norman is a journalist known for his work in South Florida media. He has wor
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-19, filed 01/04/24:**
+**[ECF Doc. 1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf), filed 01/04/24:**
 
 Bob Norman is referenced in court filings.
 
-**ECF Doc. 1330-4, filed 01/08/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/08/24:**
 
 Additional reference to Norman in court documents.
 
@@ -100,8 +100,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1328-19 | 01/04/24 | Court Filing |
-| 1330-4 | 01/08/24 | Court Filing |
+| [1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf) | 01/04/24 | Court Filing |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/08/24 | Court Filing |
 
 ---
 

@@ -25,15 +25,15 @@ Connection between Lesley Groff and this entity is documented in 8 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Lesley Groff and this entity is documented in 3 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Lesley Groff and this entity is documented in 4 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection between Lesley Groff and this entity is documented in 2 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection referenced in 3 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -253,15 +253,15 @@ Connection referenced in 3 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1328-34** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** (Deposition Transcript - co-conspirator identification, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-30** (Court Filing, filed 01/05/24):
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** (Court Filing, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1331-31** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** (Court Filing - Jane Doe 43 case reference, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -287,10 +287,10 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1328-34** — Deposition Transcript - co-conspirator identification, Filed: 01/05/24
-2. **ECF Doc. 1331-30** — Court Filing, Filed: 01/05/24
-3. **ECF Doc. 1331-31** — Court Filing - Jane Doe 43 case reference, Filed: 01/05/24
-4. **ECF Doc. 1331-34** — Email Exhibit, Filed: 01/05/24
+1. **[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** — Deposition Transcript - co-conspirator identification, Filed: 01/05/24
+2. **[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf)** — Court Filing, Filed: 01/05/24
+3. **[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf)** — Court Filing - Jane Doe 43 case reference, Filed: 01/05/24
+4. **[ECF Doc. 1331-34](/sources/giuffre-v-maxwell/ecf-1331-34.pdf)** — Email Exhibit, Filed: 01/05/24
 
 ---
 

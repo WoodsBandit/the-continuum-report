@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24**:
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24**:
 
 Court filing referencing Tom Pritzker.
 
-**ECF Doc. 1330-3, filed 01/05/24**:
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24**:
 
 Additional court reference to Pritzker.
 

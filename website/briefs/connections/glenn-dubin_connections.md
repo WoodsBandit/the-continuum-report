@@ -25,15 +25,15 @@ Connection between Glenn Dubin and this entity is documented in 20 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-3** (Maxwell Deposition Excerpts, filed 01/03/24):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** (Maxwell Deposition Excerpts, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-21** (Maxwell Deposition Excerpts, filed 01/05/24):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** (Maxwell Deposition Excerpts, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-44** (Marcinkova Deposition, filed 01/05/24):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** (Marcinkova Deposition, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Glenn Dubin and this entity is documented in 7 court filing r
 
 ### Documented Evidence
 
-**ECF Doc. 1320-3** (Maxwell Deposition Excerpts, filed 01/03/24):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** (Maxwell Deposition Excerpts, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-21** (Maxwell Deposition Excerpts, filed 01/05/24):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** (Maxwell Deposition Excerpts, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-44** (Marcinkova Deposition, filed 01/05/24):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** (Marcinkova Deposition, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection referenced in 4 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-3** (Maxwell Deposition Excerpts, filed 01/03/24):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** (Maxwell Deposition Excerpts, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-21** (Maxwell Deposition Excerpts, filed 01/05/24):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** (Maxwell Deposition Excerpts, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-44** (Marcinkova Deposition, filed 01/05/24):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** (Marcinkova Deposition, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection referenced in 4 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-3** (Maxwell Deposition Excerpts, filed 01/03/24):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** (Maxwell Deposition Excerpts, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-21** (Maxwell Deposition Excerpts, filed 01/05/24):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** (Maxwell Deposition Excerpts, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-44** (Marcinkova Deposition, filed 01/05/24):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** (Marcinkova Deposition, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection referenced in 1 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-3** (Maxwell Deposition Excerpts, filed 01/03/24):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** (Maxwell Deposition Excerpts, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-21** (Maxwell Deposition Excerpts, filed 01/05/24):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** (Maxwell Deposition Excerpts, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-44** (Marcinkova Deposition, filed 01/05/24):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** (Marcinkova Deposition, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection referenced in 1 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-3** (Maxwell Deposition Excerpts, filed 01/03/24):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** (Maxwell Deposition Excerpts, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-21** (Maxwell Deposition Excerpts, filed 01/05/24):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** (Maxwell Deposition Excerpts, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-44** (Marcinkova Deposition, filed 01/05/24):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** (Marcinkova Deposition, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -249,9 +249,9 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-3** — Maxwell Deposition Excerpts, Filed: 01/03/24
-2. **ECF Doc. 1327-21** — Maxwell Deposition Excerpts, Filed: 01/05/24
-3. **ECF Doc. 1328-44** — Marcinkova Deposition, Filed: 01/05/24
+1. **[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf)** — Maxwell Deposition Excerpts, Filed: 01/03/24
+2. **[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf)** — Maxwell Deposition Excerpts, Filed: 01/05/24
+3. **[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** — Marcinkova Deposition, Filed: 01/05/24
 
 ---
 

@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. E
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-5, filed 01/03/24:**
+**[ECF Doc. 1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf), filed 01/03/24:**
 
 Eva Anderson is referenced in court filings.
 
-**ECF Doc. 1327-28, filed 01/04/24:**
+**[ECF Doc. 1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf), filed 01/04/24:**
 
 Additional reference to Anderson in litigation documents.
 

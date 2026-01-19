@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. I
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-13, filed 01/03/24:**
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf), filed 01/03/24:**
 
 Ivan Robles is referenced in discovery documents.
 
-**ECF Doc. 1328-44, filed 01/04/24:**
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/04/24:**
 
 Additional reference to Robles in court filings.
 

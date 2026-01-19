@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Jarred Weisfeld is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1327-12, filed 01/04/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/04/24:**
 
 Additional reference to Weisfeld in court filings.
 

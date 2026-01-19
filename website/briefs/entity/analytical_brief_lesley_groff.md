@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Co-Conspirator Designation
 
-**ECF Doc. 1328-34, filed 01/05/24, pp. 11:11-16** (Deposition Testimony):
+**[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf), filed 01/05/24, pp. 11:11-16** (Deposition Testimony):
 
 > "the agreement between Mr. Epstein and the U.S. Attorney's office mentions people that are called co-conspirators of Epstein. And Leslie Groff is named as one of those co-conspirators."
 
@@ -47,7 +47,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Civil Litigation
 
-**ECF Doc. 1331-31, filed 01/05/24:**
+**[ECF Doc. 1331-31](/sources/giuffre-v-maxwell/ecf-1331-31.pdf), filed 01/05/24:**
 
 Groff was named as a defendant in related litigation:
 
@@ -55,7 +55,7 @@ Groff was named as a defendant in related litigation:
 
 ### Email Communications
 
-**ECF Doc. 1331-34, filed 01/05/24** (Email Exhibit):
+**[ECF Doc. 1331-34](/sources/giuffre-v-maxwell/ecf-1331-34.pdf), filed 01/05/24** (Email Exhibit):
 
 An email from Sarah Ransome to Lesley Groff:
 
@@ -107,7 +107,7 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1328-34 | 01/05/24 | Deposition Transcript - co-conspirator identification |
+| [1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf) | 01/05/24 | Deposition Transcript - co-conspirator identification |
 | 1331-30 | 01/05/24 | Court Filing |
 | 1331-31 | 01/05/24 | Court Filing - Jane Doe 43 case reference |
 | 1331-34 | 01/05/24 | Email Exhibit |

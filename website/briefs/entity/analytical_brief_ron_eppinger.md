@@ -47,15 +47,15 @@ According to documented sources:
 
 ### Virginia Giuffre's Connection to Eppinger
 
-**ECF Doc. 1320-37, filed 01/03/24**:
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24**:
 
 Court filings reference Ron Eppinger in connection with Virginia Giuffre's history.
 
-**ECF Doc. 1320-39, filed 01/03/24**:
+**[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24**:
 
 This filing documents that emails from August 27, 2014 show Giuffre contacted FBI agent Jason Richards seeking information related to Ron Eppinger. The FBI agent advised her to file a Freedom of Information Act request.
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Additional court references to Eppinger in the context of Giuffre's background.
 

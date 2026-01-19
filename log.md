@@ -2,12 +2,59 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-18 (Session 27)
+**Last Updated:** 2026-01-18 (Session 27b)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-18 — Session 27b: Brief Hyperlink Audit & Data Integrity Fix
+
+**Operator:** WoodsBandit
+**Duration:** ~60 minutes
+**Primary Task:** Audit all briefs to ensure ECF document references have hyperlinks; fix website data integrity issue
+
+#### Summary
+
+1. **Website Fix**: continuum.html was broken due to corrupted connections.json. Fixed by removing garbage metadata line and 3 orphan connections referencing non-existent entities (fbi, epstein_investigation, maxwell_arrest, wexner_coconspirator). Connection count updated from 103 to 100.
+
+2. **Hyperlink Audit**: Comprehensive audit of all published briefs to ensure ECF document references link to source PDFs. Used parallel agents to process 200+ files.
+
+#### Changes Made
+
+**T:\website\data\connections.json:**
+- Removed corrupted line 4: `"source": "updated with new connection briefs"`
+- Removed 3 orphan connections with invalid entity references
+- Updated count from 103 to 100
+
+**T:\website\briefs\entity\** (167+ files modified):
+- Added ~800+ ECF hyperlinks across entity briefs
+- Converted plain text `ECF Doc. XXXX-XX` to `[ECF Doc. XXXX-XX](/sources/giuffre-v-maxwell/ecf-XXXX-XX.pdf)`
+- Fixed both inline refs and bold-format refs (`**ECF Doc. XXXX-XX**`)
+
+**T:\website\briefs\connections\** (17 files modified):
+- Added ~400 ECF hyperlinks across connection briefs
+- Same pattern conversion as entity briefs
+
+#### Processing Summary
+
+| Category | Files | Hyperlinks Added |
+|----------|-------|------------------|
+| Entity briefs A-C | 45 | ~155 |
+| Entity briefs D-K | 86 | ~150 |
+| Entity briefs L-Z | 36 | ~220 |
+| Bold-format refs | 70 | ~152 |
+| Connection briefs | 17 | ~400 |
+| **Total** | **236** | **~1,077** |
+
+#### Notes
+
+- Agency briefs (100+ files) contain no ECF references - they're federal agency research, not case-related
+- Roy Cohn ↔ Donald Trump connection brief has no ECF refs - based on historical records (1970s-80s), not Giuffre case
+- Donald Trump entity brief now properly hyperlinked at line 42
+
+---
 
 ### 2026-01-18 — Session 27: Directory Structure Documentation
 

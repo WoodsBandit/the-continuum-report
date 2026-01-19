@@ -25,15 +25,15 @@ Connection between Nadia Marcinkova and this entity is documented in 8 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Nadia Marcinkova and this entity is documented in 6 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Nadia Marcinkova and this entity is documented in 3 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection between Nadia Marcinkova and this entity is documented in 5 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection between Nadia Marcinkova and this entity is documented in 2 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection between Nadia Marcinkova and this entity is documented in 4 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -253,15 +253,15 @@ Connection referenced in 4 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -291,15 +291,15 @@ Connection between Nadia Marcinkova and this entity is documented in 1 court fil
 
 ### Documented Evidence
 
-**ECF Doc. 1320-8** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-10** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-25** (Deposition of Janusz Banasiak, filed 01/05/24):
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** (Deposition of Janusz Banasiak, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -325,20 +325,20 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-8** — Court Filing, Filed: 01/03/24
-2. **ECF Doc. 1320-10** — Court Filing, Filed: 01/03/24
-3. **ECF Doc. 1327-25** — Deposition of Janusz Banasiak, Filed: 01/05/24
-4. **ECF Doc. 1328-7** — Court Document, Filed: 01/05/24
-5. **ECF Doc. 1328-8** — Court Document, Filed: 01/05/24
-6. **ECF Doc. 1328-16** — Court Document, Filed: 01/05/24
-7. **ECF Doc. 1328-23** — Court Document, Filed: 01/05/24
-8. **ECF Doc. 1328-34** — Court Document, Filed: 01/05/24
-9. **ECF Doc. 1328-44** — Court Document, Filed: 01/05/24
-10. **ECF Doc. 1330-3** — Court Document, Filed: 01/05/24
-11. **ECF Doc. 1330-14** — Court Document, Filed: 01/05/24
-12. **ECF Doc. 1331-12** — Letter Motion with Sarah Ransome Affidavit, Filed: 01/05/24
-13. **ECF Doc. 1331-13** — Plaintiff's Opposition to Motion in Limine, Filed: 01/05/24
-14. **ECF Doc. 1331-32** — Sarah Ransome Affidavit, Filed: 01/05/24
+1. **[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf)** — Court Filing, Filed: 01/03/24
+2. **[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf)** — Court Filing, Filed: 01/03/24
+3. **[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf)** — Deposition of Janusz Banasiak, Filed: 01/05/24
+4. **[ECF Doc. 1328-7](/sources/giuffre-v-maxwell/ecf-1328-7.pdf)** — Court Document, Filed: 01/05/24
+5. **[ECF Doc. 1328-8](/sources/giuffre-v-maxwell/ecf-1328-8.pdf)** — Court Document, Filed: 01/05/24
+6. **[ECF Doc. 1328-16](/sources/giuffre-v-maxwell/ecf-1328-16.pdf)** — Court Document, Filed: 01/05/24
+7. **[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** — Court Document, Filed: 01/05/24
+8. **[ECF Doc. 1328-34](/sources/giuffre-v-maxwell/ecf-1328-34.pdf)** — Court Document, Filed: 01/05/24
+9. **[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** — Court Document, Filed: 01/05/24
+10. **[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf)** — Court Document, Filed: 01/05/24
+11. **[ECF Doc. 1330-14](/sources/giuffre-v-maxwell/ecf-1330-14.pdf)** — Court Document, Filed: 01/05/24
+12. **[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf)** — Letter Motion with Sarah Ransome Affidavit, Filed: 01/05/24
+13. **[ECF Doc. 1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf)** — Plaintiff's Opposition to Motion in Limine, Filed: 01/05/24
+14. **[ECF Doc. 1331-32](/sources/giuffre-v-maxwell/ecf-1331-32.pdf)** — Sarah Ransome Affidavit, Filed: 01/05/24
 
 ---
 

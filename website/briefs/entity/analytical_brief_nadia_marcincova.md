@@ -43,23 +43,23 @@ Nadia Marcincova is described as a Slovakian former model who became associated 
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-28, filed 01/03/24:**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24:**
 
 Nadia Marcincova is referenced in court filings related to the Epstein household.
 
-**ECF Doc. 1320-8, filed 01/03/24:**
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf), filed 01/03/24:**
 
 Additional reference to Marcincova in litigation documents.
 
-**ECF Doc. 1327-12, filed 01/04/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/04/24:**
 
 Marcincova appears in discovery-related materials.
 
-**ECF Doc. 1331-13, filed 01/08/24:**
+**[ECF Doc. 1331-13](/sources/giuffre-v-maxwell/ecf-1331-13.pdf), filed 01/08/24:**
 
 Reference to Marcincova in court documents.
 
-**ECF Doc. 1331-30, filed 01/08/24:**
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf), filed 01/08/24:**
 
 Marcincova mentioned in litigation filings.
 

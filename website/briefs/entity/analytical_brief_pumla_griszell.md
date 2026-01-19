@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. P
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1331-30, filed 01/08/24:**
+**[ECF Doc. 1331-30](/sources/giuffre-v-maxwell/ecf-1331-30.pdf), filed 01/08/24:**
 
 Pumla Griszell is referenced in court filings.
 
-**ECF Doc. 1331-34, filed 01/08/24:**
+**[ECF Doc. 1331-34](/sources/giuffre-v-maxwell/ecf-1331-34.pdf), filed 01/08/24:**
 
 Additional reference to Griszell in litigation documents.
 

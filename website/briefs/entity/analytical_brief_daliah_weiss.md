@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. D
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-13, filed 01/03/24:**
+**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf), filed 01/03/24:**
 
 Daliah Weiss is referenced in court filings.
 

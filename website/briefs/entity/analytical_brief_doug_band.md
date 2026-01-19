@@ -43,11 +43,11 @@ Doug Band served in the Clinton White House and subsequently as a counselor to P
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-4, filed 01/03/24:**
+**[ECF Doc. 1320-4](/sources/giuffre-v-maxwell/ecf-1320-4.pdf), filed 01/03/24:**
 
 Court filing containing a reference to Doug Band.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional reference to Band in court documents.
 

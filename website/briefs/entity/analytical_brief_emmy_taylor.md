@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Identification
 
-**ECF Doc. 1320-28, filed 01/03/24, p. 7** (quoting Daily Mail article):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, p. 7** (quoting Daily Mail article):
 
 > "Emmy Taylor, Ghislaine's blonde British assistant"
 
@@ -47,7 +47,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 **IMPORTANT:** The following is testimony from a deposition in civil litigation. It represents allegations, not established facts. Emmy Taylor has not been charged with any crime and has not had an opportunity to respond to these characterizations in the documents we reviewed.
 
-**ECF Doc. 1328-12, filed 01/05/24, pp. 13:17-25, 14:1** (Deposition Transcript):
+**[ECF Doc. 1328-12](/sources/giuffre-v-maxwell/ecf-1328-12.pdf), filed 01/05/24, pp. 13:17-25, 14:1** (Deposition Transcript):
 
 > "Q. And what happened that second time you came to the house?
 > A. At that point, I met Emmy Taylor, and she took me up to Jeffrey's bathroom and he was present. And her and I both massaged Jeffrey. She was showing me how to massage.
@@ -55,17 +55,17 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Reference in Clinton Dinner Account
 
-**ECF Doc. 1320-28, filed 01/03/24, p. 7** (quoting Giuffre's Daily Mail interview):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, p. 7** (quoting Giuffre's Daily Mail interview):
 
 > "'We all dined together that night. Jeffrey was at the head of the table. Bill was at his left. I sat across from him. Emmy Taylor, Ghislaine's blonde British assistant, sat at my right.'"
 
 ### Discovery References
 
-**ECF Doc. 1327-12, filed 01/05/24, p. 2:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24, p. 2:**
 
 > "[Discovery requests sought communications with] thirteen specific witnesses, namely Jeffrey Epstein, Virginia Roberts, Prince Andrew, Ross Gow, Alan Dershowitz, Emmy Taylor, Sarah Kellen, Glenn and Eva Dubin, Jean Luc Brunel, Nadia Marcincova and Bill and Hillary Clinton"
 
-**ECF Doc. 1320-10, filed 01/03/24, p. 15** (Deposition Time Allocation):
+**[ECF Doc. 1320-10](/sources/giuffre-v-maxwell/ecf-1320-10.pdf), filed 01/03/24, p. 15** (Deposition Time Allocation):
 
 > "Emmy Taylor (3 ½ Hours)"
 

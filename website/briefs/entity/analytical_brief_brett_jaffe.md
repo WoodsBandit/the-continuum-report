@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. B
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-16, filed 01/03/24:**
+**[ECF Doc. 1320-16](/sources/giuffre-v-maxwell/ecf-1320-16.pdf), filed 01/03/24:**
 
 Court filing referencing Brett Jaffe.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Brett Jaffe is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional court reference to Brett Jaffe.
 
@@ -102,9 +102,9 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-16 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1330-3 | 01/08/24 | Court Filing |
+| [1320-16](/sources/giuffre-v-maxwell/ecf-1320-16.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/08/24 | Court Filing |
 
 ---
 

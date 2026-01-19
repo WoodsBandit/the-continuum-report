@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. A
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-18, filed 01/03/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/03/24:**
 
 Ahmed El Moghazi is referenced in court filings.
 
@@ -92,7 +92,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1328-18 | 01/03/24 | Court Filing |
+| [1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf) | 01/03/24 | Court Filing |
 
 ---
 

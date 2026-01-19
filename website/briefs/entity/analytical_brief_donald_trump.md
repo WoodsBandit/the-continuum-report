@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Deposition Testimony
 
-**ECF Doc. 1328-42, filed 01/05/24, pp. 6:6-13** (Deposition of Juan Alessi, Epstein's former house manager):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf), filed 01/05/24, pp. 6:6-13** (Deposition of Juan Alessi, Epstein's former house manager):
 
 > "Q. Now, Mr. Trump had a home in Palm Beach, correct?
 > A. Uh-huh.

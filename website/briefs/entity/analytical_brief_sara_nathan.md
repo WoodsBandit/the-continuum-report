@@ -43,15 +43,15 @@ Sara Nathan is a journalist who has worked for media outlets including the New Y
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-18, filed 01/04/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/04/24:**
 
 Sara Nathan is referenced in court filings.
 
-**ECF Doc. 1328-4, filed 01/04/24:**
+**[ECF Doc. 1328-4](/sources/giuffre-v-maxwell/ecf-1328-4.pdf), filed 01/04/24:**
 
 Additional reference to Nathan in court documents.
 
-**ECF Doc. 1328-5, filed 01/04/24:**
+**[ECF Doc. 1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf), filed 01/04/24:**
 
 Further reference to Nathan in litigation documents.
 

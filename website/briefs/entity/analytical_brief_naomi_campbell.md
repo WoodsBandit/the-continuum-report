@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. N
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24**:
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24**:
 
 Naomi Campbell's name appears in court filings related to the Giuffre v. Maxwell litigation in the context of identifying individuals within Epstein's social network.
 
-**ECF Doc. 1320-19, filed 01/03/24**:
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf), filed 01/03/24**:
 
 Additional reference to Campbell in court documents.
 
@@ -108,8 +108,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-12 | 01/03/24 | Court Filing |
-| 1320-19 | 01/03/24 | Court Filing |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
+| [1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf) | 01/03/24 | Court Filing |
 
 ---
 

@@ -39,19 +39,19 @@ The documents analyzed herein relate to matters of significant public concern. M
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24**:
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24**:
 
 Marvin Minsky's name appears in court filings related to the Giuffre v. Maxwell litigation.
 
-**ECF Doc. 1320-19, filed 01/03/24**:
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf), filed 01/03/24**:
 
 Additional reference to Minsky in court documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Minsky is referenced in Maxwell's required discovery disclosures.
 
-**ECF Doc. 1330-4, filed 01/05/24**:
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/05/24**:
 
 Court filing referencing Minsky.
 
@@ -120,10 +120,10 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-12 | 01/03/24 | Court Filing |
-| 1320-19 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1330-4 | 01/05/24 | Court Filing |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
+| [1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/05/24 | Court Filing |
 
 ---
 

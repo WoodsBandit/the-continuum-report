@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. D
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24:**
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24:**
 
 Dore Louis is referenced in court filings.
 
-**ECF Doc. 1327-12, filed 01/04/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/04/24:**
 
 Additional reference to Louis in litigation documents.
 

@@ -25,15 +25,15 @@ Connection between The Terramar Project and this entity is documented in 23 cour
 
 ### Documented Evidence
 
-**ECF Doc. 1320-1** (Exhibit - January 10, 2015 Email, filed 01/03/24):
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** (Exhibit - January 10, 2015 Email, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-2** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-12** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between The Terramar Project and this entity is documented in 10 cour
 
 ### Documented Evidence
 
-**ECF Doc. 1320-1** (Exhibit - January 10, 2015 Email, filed 01/03/24):
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** (Exhibit - January 10, 2015 Email, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-2** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-12** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1320-1** (Exhibit - January 10, 2015 Email, filed 01/03/24):
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** (Exhibit - January 10, 2015 Email, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-2** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-12** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Associated through mutual connections or contextual references in source materia
 
 ### Documented Evidence
 
-**ECF Doc. 1320-1** (Exhibit - January 10, 2015 Email, filed 01/03/24):
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** (Exhibit - January 10, 2015 Email, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-2** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-12** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection between The Terramar Project and this entity is documented in 2 court
 
 ### Documented Evidence
 
-**ECF Doc. 1320-1** (Exhibit - January 10, 2015 Email, filed 01/03/24):
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** (Exhibit - January 10, 2015 Email, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-2** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-12** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection referenced in 1 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-1** (Exhibit - January 10, 2015 Email, filed 01/03/24):
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** (Exhibit - January 10, 2015 Email, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-2** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** (June 30, 2016 Letter re: Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-12** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** (Defendant's Submission Regarding Search Terms, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -249,16 +249,16 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-1** — Exhibit - January 10, 2015 Email, Filed: 01/03/24
-2. **ECF Doc. 1327-2** — June 30, 2016 Letter re: Search Terms, Filed: 01/05/24
-3. **ECF Doc. 1327-12** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
-4. **ECF Doc. 1327-13** — Exhibit A - Search Terms Letter, Filed: 01/05/24
-5. **ECF Doc. 1328-23** — Plaintiff's Response re: Financial Discovery, Filed: 01/05/24
-6. **ECF Doc. 1328-24** — Declaration re: Subpoenas, Filed: 01/05/24
-7. **ECF Doc. 1330-5** — January 25, 2015 Epstein Email, Filed: 01/05/24
-8. **ECF Doc. 1330-9** — April 22, 2015 Maxwell Email, Filed: 01/05/24
-9. **ECF Doc. 1330-21** — Email Communications January 2015, Filed: 01/05/24
-10. **ECF Doc. 1330-22** — Email Communications January 2015, Filed: 01/05/24
+1. **[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf)** — Exhibit - January 10, 2015 Email, Filed: 01/03/24
+2. **[ECF Doc. 1327-2](/sources/giuffre-v-maxwell/ecf-1327-2.pdf)** — June 30, 2016 Letter re: Search Terms, Filed: 01/05/24
+3. **[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
+4. **[ECF Doc. 1327-13](/sources/giuffre-v-maxwell/ecf-1327-13.pdf)** — Exhibit A - Search Terms Letter, Filed: 01/05/24
+5. **[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** — Plaintiff's Response re: Financial Discovery, Filed: 01/05/24
+6. **[ECF Doc. 1328-24](/sources/giuffre-v-maxwell/ecf-1328-24.pdf)** — Declaration re: Subpoenas, Filed: 01/05/24
+7. **[ECF Doc. 1330-5](/sources/giuffre-v-maxwell/ecf-1330-5.pdf)** — January 25, 2015 Epstein Email, Filed: 01/05/24
+8. **[ECF Doc. 1330-9](/sources/giuffre-v-maxwell/ecf-1330-9.pdf)** — April 22, 2015 Maxwell Email, Filed: 01/05/24
+9. **[ECF Doc. 1330-21](/sources/giuffre-v-maxwell/ecf-1330-21.pdf)** — Email Communications January 2015, Filed: 01/05/24
+10. **[ECF Doc. 1330-22](/sources/giuffre-v-maxwell/ecf-1330-22.pdf)** — Email Communications January 2015, Filed: 01/05/24
 
 ---
 

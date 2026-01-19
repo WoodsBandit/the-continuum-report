@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. D
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Darshanee Majaliyana is referenced in discovery documents.
 
-**ECF Doc. 1328-18, filed 01/04/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/04/24:**
 
 Additional reference to Majaliyana in court filings.
 

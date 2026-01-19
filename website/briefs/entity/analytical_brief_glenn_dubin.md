@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Maxwell's Testimony Regarding the Dubins
 
-**ECF Doc. 1327-21, filed 01/05/24, pp. 269:12-25, 270:1-3** (Maxwell Deposition):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf), filed 01/05/24, pp. 269:12-25, 270:1-3** (Maxwell Deposition):
 
 > "Q. Do you know Glenn Dubin?
 > A. I do.
@@ -52,14 +52,14 @@ The documents analyzed herein relate to matters of significant public concern. T
 > A. Yes.
 > Q. Did you ever send Virginia to Glenn's condo at the Breakers to give him a..."
 
-**ECF Doc. 1320-3, filed 01/03/24, pp. 61:14-19** (Maxwell Deposition):
+**[ECF Doc. 1320-3](/sources/giuffre-v-maxwell/ecf-1320-3.pdf), filed 01/03/24, pp. 61:14-19** (Maxwell Deposition):
 
 > "Q. Did you ever instruct Johanna to massage Glenn Dubin?
 > A. I don't believe -- I have no recollection of it."
 
 ### Fifth Amendment Invocation
 
-**ECF Doc. 1328-44, filed 01/05/24, p. 55:3-4** (Nadia Marcinkova Deposition, April 13, 2010):
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/05/24, p. 55:3-4** (Nadia Marcinkova Deposition, April 13, 2010):
 
 > "Q. Do you know Glenn Dubin?
 > A. Fifth."

@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. L
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-21, filed 01/03/24:**
+**[ECF Doc. 1320-21](/sources/giuffre-v-maxwell/ecf-1320-21.pdf), filed 01/03/24:**
 
 Court filing referencing Lynn Miller.
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Additional reference to Miller in court documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Lynn Miller is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1325-4, filed 01/04/24:**
+**[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf), filed 01/04/24:**
 
 Court document referencing Miller.
 
-**ECF Doc. 1328-7, filed 01/05/24:**
+**[ECF Doc. 1328-7](/sources/giuffre-v-maxwell/ecf-1328-7.pdf), filed 01/05/24:**
 
 Additional court reference to Lynn Miller.
 
@@ -119,11 +119,11 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-21 | 01/03/24 | Court Filing |
-| 1320-33 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1325-4 | 01/04/24 | Court Filing |
-| 1328-7 | 01/05/24 | Court Filing |
+| [1320-21](/sources/giuffre-v-maxwell/ecf-1320-21.pdf) | 01/03/24 | Court Filing |
+| [1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf) | 01/04/24 | Court Filing |
+| [1328-7](/sources/giuffre-v-maxwell/ecf-1328-7.pdf) | 01/05/24 | Court Filing |
 
 ---
 

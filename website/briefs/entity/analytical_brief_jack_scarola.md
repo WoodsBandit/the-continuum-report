@@ -39,31 +39,31 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-15, filed 01/03/24:**
+**[ECF Doc. 1320-15](/sources/giuffre-v-maxwell/ecf-1320-15.pdf), filed 01/03/24:**
 
 Court filing referencing Jack Scarola in connection with victims' legal representation.
 
-**ECF Doc. 1320-18, filed 01/03/24:**
+**[ECF Doc. 1320-18](/sources/giuffre-v-maxwell/ecf-1320-18.pdf), filed 01/03/24:**
 
 Additional court filing mentioning Scarola's involvement in proceedings.
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Court document referencing Scarola.
 
-**ECF Doc. 1320-39, filed 01/03/24:**
+**[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24:**
 
 Court filing with reference to Scarola.
 
-**ECF Doc. 1330-1, filed 01/05/24:**
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/05/24:**
 
 Court filing referencing Scarola's role in litigation.
 
-**ECF Doc. 1330-3, filed 01/05/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/05/24:**
 
 Additional court reference to Scarola.
 
-**ECF Doc. 1330-4, filed 01/05/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/05/24:**
 
 Court document mentioning Scarola's involvement.
 

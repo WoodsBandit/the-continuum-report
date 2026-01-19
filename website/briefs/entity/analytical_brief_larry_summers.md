@@ -43,7 +43,7 @@ Lawrence H. Summers served as U.S. Secretary of the Treasury from 1999 to 2001 u
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1330-4, filed 01/08/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/08/24:**
 
 Court filing containing a reference to Larry Summers.
 
@@ -98,7 +98,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1330-4 | 01/08/24 | Court Filing |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/08/24 | Court Filing |
 
 ---
 

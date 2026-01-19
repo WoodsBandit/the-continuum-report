@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. R
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24**:
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24**:
 
 Robert Giuffre is referenced in court filings related to Virginia Giuffre's background and circumstances.
 
-**ECF Doc. 1320-39, filed 01/03/24**:
+**[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24**:
 
 Additional reference to Robert Giuffre in court documents.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Robert Giuffre is identified among individuals with potentially relevant knowledge for discovery purposes.
 
-**ECF Doc. 1327-4, filed 01/05/24**:
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf), filed 01/05/24**:
 
 Court filing referencing Robert Giuffre.
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Additional reference in court documents.
 
@@ -128,11 +128,11 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-37 | 01/03/24 | Court Filing |
-| 1320-39 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1327-4 | 01/05/24 | Court Filing |
-| 1330-2 | 01/05/24 | Court Filing |
+| [1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf) | 01/03/24 | Court Filing |
+| [1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf) | 01/05/24 | Court Filing |
+| [1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf) | 01/05/24 | Court Filing |
 
 ---
 

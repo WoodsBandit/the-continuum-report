@@ -39,17 +39,17 @@ The documents analyzed herein relate to matters of significant public concern. P
 
 ### Role as Solicitor
 
-**ECF Doc. 1320-1, filed 01/03/24**:
+**[ECF Doc. 1320-1](/sources/giuffre-v-maxwell/ecf-1320-1.pdf), filed 01/03/24**:
 
 An email dated January 10, 2015 was sent from Maxwell's email address (gmaxl@ellmax.com) to Philip Barden and Ross Gow. This communication occurred during the period when Giuffre's allegations first became public.
 
-**ECF Doc. 1320-14, filed 01/03/24**:
+**[ECF Doc. 1320-14](/sources/giuffre-v-maxwell/ecf-1320-14.pdf), filed 01/03/24**:
 
 An email dated February 24, 2015 from Ross Gow was sent to Maxwell and Philip Barden with subject matter referenced as "VR cried rape - pr" (where "VR" appears to refer to Virginia Roberts/Giuffre).
 
 ### Privilege Log Appearances
 
-**ECF Doc. 1320-16, filed 01/03/24**:
+**[ECF Doc. 1320-16](/sources/giuffre-v-maxwell/ecf-1320-16.pdf), filed 01/03/24**:
 
 Philip Barden appears in Ghislaine Maxwell's Privilege Log dated May 16, 2016. The log entry references communications from January 11-17, 2015 involving Barden alongside other individuals including Ross Gow, Alan Dershowitz, and Jeffrey Epstein.
 
@@ -57,7 +57,7 @@ The privilege claims suggest that communications with Barden were asserted to be
 
 ### Barden Declaration
 
-**ECF Doc. 1331-19, filed 01/05/24**:
+**[ECF Doc. 1331-19](/sources/giuffre-v-maxwell/ecf-1331-19.pdf), filed 01/05/24**:
 
 Court filings reference a "Barden Declaration" submitted in connection with the litigation. This declaration appears to have been filed in support of privilege claims or other Maxwell positions.
 
@@ -65,33 +65,33 @@ The filing references the Barden Declaration in relation to Ross Gow, indicating
 
 ### Discovery References
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Barden is referenced in Maxwell's required disclosures as an individual with relevant knowledge or involvement in the case.
 
-**ECF Doc. 1327-12, filed 01/05/24**:
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24**:
 
 Additional references to Barden in discovery materials.
 
-**ECF Doc. 1327-19, filed 01/05/24**:
+**[ECF Doc. 1327-19](/sources/giuffre-v-maxwell/ecf-1327-19.pdf), filed 01/05/24**:
 
 Barden appears in court filings regarding discovery disputes.
 
-**ECF Doc. 1327-21, filed 01/05/24**:
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf), filed 01/05/24**:
 
 Further references to Barden in litigation documents.
 
 ### Connection to Other Filings
 
-**ECF Doc. 1330-9, filed 01/05/24**:
+**[ECF Doc. 1330-9](/sources/giuffre-v-maxwell/ecf-1330-9.pdf), filed 01/05/24**:
 
 Court filings reference Barden in connection with communications and legal strategy.
 
-**ECF Doc. 1330-21, filed 01/05/24**:
+**[ECF Doc. 1330-21](/sources/giuffre-v-maxwell/ecf-1330-21.pdf), filed 01/05/24**:
 
 Additional court references to Barden's involvement.
 
-**ECF Doc. 1330-22, filed 01/05/24**:
+**[ECF Doc. 1330-22](/sources/giuffre-v-maxwell/ecf-1330-22.pdf), filed 01/05/24**:
 
 Email communications from January 11, 2015 show correspondence between Maxwell, Barden, and Gow during the early days of the public allegations.
 

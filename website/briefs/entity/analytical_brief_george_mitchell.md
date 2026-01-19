@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. G
 
 ### Appearance in Court Documents
 
-**ECF Doc. 1320-28, filed 01/03/24**:
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24**:
 
 George Mitchell's name appears in court filings related to discovery and witness identification in the Giuffre v. Maxwell litigation.
 
-**ECF Doc. 1320-9, filed 01/03/24** (Jane Doe #3 and #4 Motion):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf), filed 01/03/24** (Jane Doe #3 and #4 Motion):
 
 The December 2014 joinder motion filed by attorneys Edwards and Cassell named several prominent individuals in the context of Giuffre's allegations. Mitchell was named among those she alleged being directed to have sexual contact with.
 

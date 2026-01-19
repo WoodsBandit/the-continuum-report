@@ -43,7 +43,7 @@ Cameron Diaz is a well-known American actress who has starred in numerous films 
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-12, filed 01/03/24:**
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24:**
 
 Cameron Diaz is referenced in court filings.
 
@@ -96,7 +96,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-12 | 01/03/24 | Court Filing |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
 
 ---
 

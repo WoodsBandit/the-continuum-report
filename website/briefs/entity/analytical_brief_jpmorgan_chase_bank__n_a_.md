@@ -1,5 +1,16 @@
 # Analytical Brief: JPMorgan Chase Bank, N.A.
 
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> *The Continuum Report — Another Node in the Decentralized Intelligence Agency*
+>
+> This document constitutes opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of fact.
+> Readers are encouraged to review cited sources and form independent conclusions.
+
+---
+
+
 ## 1. SUMMARY
 
 JPMorgan Chase Bank, N.A. is one of the largest national banking associations in the United States, headquartered in Columbus, Ohio. As a federally chartered bank, it operates under the regulatory oversight of the Office of the Comptroller of the Currency (OCC). The bank is a subsidiary of JPMorgan Chase & Co., one of the world's largest financial institutions by assets.

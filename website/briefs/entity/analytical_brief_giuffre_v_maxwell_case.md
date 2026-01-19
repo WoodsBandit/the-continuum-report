@@ -86,7 +86,7 @@ The defamation framework meant discovery explored the truth or falsity of Giuffr
 
 ### Testimony Regarding Evidence Spoliation
 
-**ECF Doc. 1327-25:**
+**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf):**
 
 Janusz Banasiak testified that computers were removed from Epstein's Palm Beach residence before a search warrant was executed:
 
@@ -94,7 +94,7 @@ Janusz Banasiak testified that computers were removed from Epstein's Palm Beach 
 - Computers were removed from the cabana, living room, and small office
 - The removal occurred before police executed their warrant
 
-**ECF Doc. 1331-4:**
+**[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf):**
 
 Court filings state that when police executed the warrant, they found that computers had been removed, "leaving the monitors, mice, keyboards, and wires behind." Testimony indicated Maxwell called the housekeeper on the morning of the warrant and told her not to come in.
 

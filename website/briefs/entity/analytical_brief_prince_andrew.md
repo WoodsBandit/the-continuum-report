@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. P
 
 ### Discovery in Giuffre v. Maxwell
 
-**ECF Doc. 1327-12, filed 01/05/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24:**
 
 Maxwell's First Request for Production responses stated that Giuffre's requests "sought, inter alia: all communications with thirteen specific witnesses, namely Jeffrey Epstein, Virginia Roberts, Prince Andrew, Ross Gow, Alan Dershowitz, Emmy Taylor, Sarah Kellen, Glenn and Eva Dubin, Jean Luc Brunel, Nadia Marcincova and Bill and Hillary Clinton."
 
-**ECF Doc. 1327-14, filed 01/05/24:**
+**[ECF Doc. 1327-14](/sources/giuffre-v-maxwell/ecf-1327-14.pdf), filed 01/05/24:**
 
 Maxwell's attorney Laura Menninger distinguished Prince Andrew from hundreds of other proposed witness names, noting he was among a limited group "for whom Giuffre had specifically requested all communications."
 
@@ -133,15 +133,15 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-12 | 01/03/24 | Court Filing |
-| 1320-19 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1325-1 | 01/04/24 | Motion to Quash Trial Subpoena |
-| 1327-12 | 01/05/24 | Defendant's Submission Regarding Search Terms |
-| 1327-14 | 01/05/24 | Counsel Correspondence |
-| 1328-19 | 01/05/24 | Court Filing |
-| 1328-42 | 01/05/24 | Court Filing |
-| 1330-1 | 01/05/24 | Court Filing |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
+| [1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1325-1](/sources/giuffre-v-maxwell/ecf-1325-1.pdf) | 01/04/24 | Motion to Quash Trial Subpoena |
+| [1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf) | 01/05/24 | Defendant's Submission Regarding Search Terms |
+| [1327-14](/sources/giuffre-v-maxwell/ecf-1327-14.pdf) | 01/05/24 | Counsel Correspondence |
+| [1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf) | 01/05/24 | Court Filing |
+| [1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf) | 01/05/24 | Court Filing |
+| [1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | 01/05/24 | Court Filing |
 
 ---
 

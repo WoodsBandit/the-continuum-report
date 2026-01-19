@@ -43,11 +43,11 @@ Chelsea Clinton is the daughter of former President Bill Clinton and former Secr
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-23, filed 01/04/24:**
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf), filed 01/04/24:**
 
 Chelsea Clinton is referenced in court filings.
 
-**ECF Doc. 1330-3, filed 01/08/24:**
+**[ECF Doc. 1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf), filed 01/08/24:**
 
 Additional reference to Clinton in court documents.
 
@@ -100,8 +100,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1328-23 | 01/04/24 | Court Filing |
-| 1330-3 | 01/08/24 | Court Filing |
+| [1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf) | 01/04/24 | Court Filing |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/08/24 | Court Filing |
 
 ---
 

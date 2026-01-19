@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. L
 
 ### Role in Giuffre v. Maxwell Civil Litigation
 
-**ECF Doc. 1327-12, filed 01/05/24** (Defendant's Submission Regarding Search Terms):
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24** (Defendant's Submission Regarding Search Terms):
 
 Court filings show Menninger appeared as counsel of record for Ghislaine Maxwell in the civil defamation action.
 
-**ECF Doc. 1327-14, filed 01/05/24** (Counsel Correspondence):
+**[ECF Doc. 1327-14](/sources/giuffre-v-maxwell/ecf-1327-14.pdf), filed 01/05/24** (Counsel Correspondence):
 
 Maxwell's attorney Laura Menninger distinguished certain individuals from the larger group of proposed witnesses, noting that Prince Andrew was among a limited group:
 
@@ -53,23 +53,23 @@ This filing addressed discovery disputes regarding the scope of witness lists.
 
 ### Declarations and Motions
 
-**ECF Doc. 1320-11, filed 01/03/24**:
+**[ECF Doc. 1320-11](/sources/giuffre-v-maxwell/ecf-1320-11.pdf), filed 01/03/24**:
 
 Menninger filed appearances and motions on behalf of Maxwell throughout the civil litigation.
 
-**ECF Doc. 1320-12, filed 01/03/24**:
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf), filed 01/03/24**:
 
 Court filings reference Menninger's work on discovery matters.
 
-**ECF Doc. 1320-16, filed 01/03/24**:
+**[ECF Doc. 1320-16](/sources/giuffre-v-maxwell/ecf-1320-16.pdf), filed 01/03/24**:
 
 Additional filings by Menninger on procedural matters.
 
-**ECF Doc. 1320-31, filed 01/03/24**:
+**[ECF Doc. 1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf), filed 01/03/24**:
 
 Menninger filed declarations in support of various motions.
 
-**ECF Doc. 1325-4, filed 01/04/24**:
+**[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf), filed 01/04/24**:
 
 Menninger appeared on sealed matters.
 
@@ -125,15 +125,15 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-11 | 01/03/24 | Court Filing (Menninger appearance) |
-| 1320-12 | 01/03/24 | Court Filing |
-| 1320-16 | 01/03/24 | Court Filing |
-| 1320-31 | 01/03/24 | Declaration/Motion |
-| 1325-4 | 01/04/24 | Sealed Matter |
-| 1327-12 | 01/05/24 | Defendant's Submission re Search Terms |
-| 1327-14 | 01/05/24 | Counsel Correspondence |
-| 1328-31 | 01/05/24 | Court Filing |
-| 1331-35 | 01/05/24 | Court Filing |
+| [1320-11](/sources/giuffre-v-maxwell/ecf-1320-11.pdf) | 01/03/24 | Court Filing (Menninger appearance) |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
+| [1320-16](/sources/giuffre-v-maxwell/ecf-1320-16.pdf) | 01/03/24 | Court Filing |
+| [1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf) | 01/03/24 | Declaration/Motion |
+| [1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf) | 01/04/24 | Sealed Matter |
+| [1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf) | 01/05/24 | Defendant's Submission re Search Terms |
+| [1327-14](/sources/giuffre-v-maxwell/ecf-1327-14.pdf) | 01/05/24 | Counsel Correspondence |
+| [1328-31](/sources/giuffre-v-maxwell/ecf-1328-31.pdf) | 01/05/24 | Court Filing |
+| [1331-35](/sources/giuffre-v-maxwell/ecf-1331-35.pdf) | 01/05/24 | Court Filing |
 
 ---
 

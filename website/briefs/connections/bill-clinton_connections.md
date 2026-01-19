@@ -25,15 +25,15 @@ Connection between Bill Clinton and this entity is documented in 12 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-28** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-4** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-23** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Bill Clinton and this entity is documented in 14 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-28** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-4** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-23** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Bill Clinton and this entity is documented in 13 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-28** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-4** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-23** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection between Bill Clinton and this entity is documented in 4 court filing 
 
 ### Documented Evidence
 
-**ECF Doc. 1320-28** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-4** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-23** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection referenced in 4 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-28** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-4** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-23** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection referenced in 1 document(s). This connection appears in source materi
 
 ### Documented Evidence
 
-**ECF Doc. 1320-28** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** (Maxwell's Opposition to Extending Deposition Deadline, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1327-4** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
+**[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** (Maxwell's Initial Rule 26(a)(1)(A) Disclosures, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1328-23** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** (Plaintiff's Response re Financial Protective Order, filed 01/05/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -249,11 +249,11 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-28** — Maxwell's Opposition to Extending Deposition Deadline, Filed: 01/03/24
-2. **ECF Doc. 1327-4** — Maxwell's Initial Rule 26(a)(1)(A) Disclosures, Filed: 01/05/24
-3. **ECF Doc. 1328-23** — Plaintiff's Response re Financial Protective Order, Filed: 01/05/24
-4. **ECF Doc. 1328-44** — Sealed Composite Exhibit 9 - Nadia Marcinkova Deposition, Filed: 01/05/24
-5. **ECF Doc. 1331-18** — Sealed Exhibit F - Confidential Deposition Transcript, Filed: 01/05/24
+1. **[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf)** — Maxwell's Opposition to Extending Deposition Deadline, Filed: 01/03/24
+2. **[ECF Doc. 1327-4](/sources/giuffre-v-maxwell/ecf-1327-4.pdf)** — Maxwell's Initial Rule 26(a)(1)(A) Disclosures, Filed: 01/05/24
+3. **[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf)** — Plaintiff's Response re Financial Protective Order, Filed: 01/05/24
+4. **[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf)** — Sealed Composite Exhibit 9 - Nadia Marcinkova Deposition, Filed: 01/05/24
+5. **[ECF Doc. 1331-18](/sources/giuffre-v-maxwell/ecf-1331-18.pdf)** — Sealed Exhibit F - Confidential Deposition Transcript, Filed: 01/05/24
 
 ---
 

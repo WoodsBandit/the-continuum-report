@@ -41,7 +41,7 @@ Jean-Luc Brunel was a French modeling agent who operated MC2 Model Management, a
 
 ### Court Characterization
 
-**ECF Doc. 1325-3 (Giuffre v. Maxwell):**
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf) (Giuffre v. Maxwell):**
 
 Court filings described Brunel's relationship with Epstein:
 
@@ -49,7 +49,7 @@ Court filings described Brunel's relationship with Epstein:
 
 ### Subpoena in Giuffre v. Maxwell
 
-**ECF Doc. 1320-31 (Filed 01/03/24):**
+**[ECF Doc. 1320-31](/sources/giuffre-v-maxwell/ecf-1320-31.pdf) (Filed 01/03/24):**
 
 Virginia Giuffre served a subpoena on Jean-Luc Brunel to produce documents:
 
@@ -57,7 +57,7 @@ Virginia Giuffre served a subpoena on Jean-Luc Brunel to produce documents:
 
 ### Deposition Testimony — Fifth Amendment Invocations
 
-**ECF Doc. 1328-44 (Filed 01/05/24):**
+**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf) (Filed 01/05/24):**
 
 Deposition questions regarding Brunel were met with Fifth Amendment invocations:
 
@@ -76,7 +76,7 @@ According to Epstein flight logs (Document IDs 204, 205 in Paperless), Jean-Luc 
 
 ### Litigation Motion Practice
 
-**ECF Doc. 1320-28 (Filed 01/03/24):**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf) (Filed 01/03/24):**
 
 Court documents indicate disputes over Brunel's deposition:
 

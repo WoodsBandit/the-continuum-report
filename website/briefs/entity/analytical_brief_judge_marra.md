@@ -47,23 +47,23 @@ On February 21, 2019, Judge Marra ruled that federal prosecutors violated the Cr
 
 ### Appearances in Giuffre v. Maxwell Documents
 
-**ECF Doc. 1320-18, filed 01/03/24:**
+**[ECF Doc. 1320-18](/sources/giuffre-v-maxwell/ecf-1320-18.pdf), filed 01/03/24:**
 
 Court filing referencing Judge Marra.
 
-**ECF Doc. 1328-18, filed 01/05/24:**
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/05/24:**
 
 Additional reference to Judge Marra in court documents.
 
-**ECF Doc. 1328-4, filed 01/05/24:**
+**[ECF Doc. 1328-4](/sources/giuffre-v-maxwell/ecf-1328-4.pdf), filed 01/05/24:**
 
 Court filing mentioning Judge Marra.
 
-**ECF Doc. 1328-5, filed 01/05/24:**
+**[ECF Doc. 1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf), filed 01/05/24:**
 
 Reference to Judge Marra.
 
-**ECF Doc. 1330-1, filed 01/08/24:**
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/08/24:**
 
 Additional court reference to Judge Marra.
 

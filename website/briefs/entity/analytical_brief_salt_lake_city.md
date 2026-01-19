@@ -104,7 +104,7 @@ The following ECF documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP 
 
 ### Legal Representation Context
 
-**ECF Doc. 1331-19, filed 01/05/24:**
+**[ECF Doc. 1331-19](/sources/giuffre-v-maxwell/ecf-1331-19.pdf), filed 01/05/24:**
 
 Virginia Giuffre was represented by multiple law firms during the litigation, including:
 - Boies, Schiller & Flexner LLP (Sigrid McCawley, Meredith Schultz, David Boies)

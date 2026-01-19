@@ -41,14 +41,14 @@ Leslie Wexner is the founder of L Brands (formerly The Limited), which owned Vic
 
 ### Deposition Testimony — Giuffre v. Maxwell
 
-**ECF Doc. 1327.10 (Filed 01/05/24):**
+**[ECF Doc. 1327-10](/sources/giuffre-v-maxwell/ecf-1327-10.pdf) (Filed 01/05/24):**
 
 Deposition testimony confirmed the questioner's awareness of the Wexner-Epstein relationship:
 
 > Q. You know Mr. Les Wexner, correct?
 > A. I do.
 
-**ECF Doc. 1320-5 (Filed 01/03/24):**
+**[ECF Doc. 1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf) (Filed 01/03/24):**
 
 Maxwell was questioned about allegations regarding Wexner:
 
@@ -64,7 +64,7 @@ Maxwell also testified:
 
 ### Discovery Search Terms
 
-**ECF Doc. 1327-18 (Filed 01/05/24):**
+**[ECF Doc. 1327-18](/sources/giuffre-v-maxwell/ecf-1327-18.pdf) (Filed 01/05/24):**
 
 The litigation discovery included "Wexner" as a search term, indicating the name was considered relevant to the case.
 
@@ -139,7 +139,7 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
 | 1327-10 | 01/05/24 | Deposition excerpt (Wexner questions) |
-| 1320-5 | 01/03/24 | Maxwell deposition (denials) |
+| [1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf) | 01/03/24 | Maxwell deposition (denials) |
 | 1327-18 | 01/05/24 | Discovery search terms |
 
 **Secondary Sources:**

@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. A
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Allyson Chambers is referenced in discovery documents.
 
-**ECF Doc. 1328-5, filed 01/04/24:**
+**[ECF Doc. 1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf), filed 01/04/24:**
 
 Additional reference to Chambers in court filings.
 
@@ -96,8 +96,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-33 | 01/03/24 | Discovery Documents |
-| 1328-5 | 01/04/24 | Court Filing |
+| [1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf) | 01/03/24 | Discovery Documents |
+| [1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf) | 01/04/24 | Court Filing |
 
 ---
 

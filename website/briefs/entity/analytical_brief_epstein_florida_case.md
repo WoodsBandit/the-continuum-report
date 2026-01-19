@@ -41,7 +41,7 @@ The 2008 non-prosecution agreement between Jeffrey Epstein and the U.S. Attorney
 
 **2005-2006: Palm Beach Police Investigation**
 
-**ECF Doc. 1331-4, filed 01/05/24:**
+**[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf), filed 01/05/24:**
 
 According to court filings, when Palm Beach Police executed a search warrant on Epstein's mansion, they found that computers had been removed from their places, "leaving the monitors, mice, keyboards, and wires behind."
 
@@ -49,7 +49,7 @@ Deposition testimony from housekeeper Louella Rabuyo dated October 20, 2009, ind
 
 **July 7, 2008: CVRA Case Filed**
 
-**ECF Doc. 1330-1, filed 01/05/24:**
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/05/24:**
 
 Attorney Bradley J. Edwards filed an emergency petition to enforce the rights of "Jane Doe No. 1" and "Jane Doe No. 2" under the Crime Victims' Rights Act (CVRA), 18 U.S.C. § 3771, alleging that the Government had failed to provide them rights with regard to a plea arrangement it was pursuing with Epstein.
 
@@ -59,7 +59,7 @@ The petition alleged:
 
 **December 30, 2014: Jane Doe #3 and #4 Seek to Join**
 
-**ECF Doc. 1325-3, filed 01/04/24:**
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf), filed 01/04/24:**
 
 Attorneys Bradley J. Edwards and Paul G. Cassell filed a motion for Jane Doe #3 and Jane Doe #4 to join the CVRA action. The motion included detailed allegations:
 

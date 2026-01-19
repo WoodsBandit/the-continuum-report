@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. K
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Kimberley Roberts is referenced in discovery documents.
 
-**ECF Doc. 1330-2, filed 01/08/24:**
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/08/24:**
 
 Additional reference to Roberts in court filings.
 

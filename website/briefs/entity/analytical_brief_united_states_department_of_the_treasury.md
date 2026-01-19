@@ -1,5 +1,16 @@
 # Analytical Brief: United States Department of the Treasury
 
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> *The Continuum Report — Another Node in the Decentralized Intelligence Agency*
+>
+> This document constitutes opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of fact.
+> Readers are encouraged to review cited sources and form independent conclusions.
+
+---
+
+
 ## 1. SUMMARY
 
 The United States Department of the Treasury is a cabinet-level federal executive department of the United States government. Established in 1789, it serves as the national treasury and is responsible for managing government revenue, producing currency, collecting taxes, managing government accounts and debt, supervising national banks, and enforcing financial laws. The department is headed by the Secretary of the Treasury, who serves as a principal advisor to the President on economic and fiscal policy matters.

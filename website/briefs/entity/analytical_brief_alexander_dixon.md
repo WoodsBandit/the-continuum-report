@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. A
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-5, filed 01/03/24:**
+**[ECF Doc. 1320-5](/sources/giuffre-v-maxwell/ecf-1320-5.pdf), filed 01/03/24:**
 
 Alexander Dixon is referenced in court filings.
 
-**ECF Doc. 1327-28, filed 01/04/24:**
+**[ECF Doc. 1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf), filed 01/04/24:**
 
 Additional reference to Dixon in litigation documents.
 
@@ -97,7 +97,7 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
 | 1320-5 | 01/03/24 | Court Filing |
-| 1327-28 | 01/04/24 | Litigation Document |
+| [1327-28](/sources/giuffre-v-maxwell/ecf-1327-28.pdf) | 01/04/24 | Litigation Document |
 
 ---
 

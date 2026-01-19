@@ -25,15 +25,15 @@ Connection between Prince Andrew and this entity is documented in 27 court filin
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -63,15 +63,15 @@ Connection between Prince Andrew and this entity is documented in 14 court filin
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -101,15 +101,15 @@ Connection between Prince Andrew and this entity is documented in 10 court filin
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -139,15 +139,15 @@ Connection between Prince Andrew and this entity is documented in 4 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -177,15 +177,15 @@ Connection between Prince Andrew and this entity is documented in 1 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -215,15 +215,15 @@ Connection between Prince Andrew and this entity is documented in 1 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -253,15 +253,15 @@ Connection between Prince Andrew and this entity is documented in 1 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -291,15 +291,15 @@ Connection between Prince Andrew and this entity is documented in 1 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -329,15 +329,15 @@ Connection between Prince Andrew and this entity is documented in 1 court filing
 
 ### Documented Evidence
 
-**ECF Doc. 1320-12** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-19** (Court Filing, filed 01/03/24):
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** (Court Filing, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
-**ECF Doc. 1320-40** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** (Maxwell's Rule 26 Disclosures, filed 01/03/24):
 
 > Document references connection context. See primary source for full details.
 
@@ -363,15 +363,15 @@ Readers should review primary sources to form independent conclusions.
 
 All sources cited in this Connection Analysis:
 
-1. **ECF Doc. 1320-12** — Court Filing, Filed: 01/03/24
-2. **ECF Doc. 1320-19** — Court Filing, Filed: 01/03/24
-3. **ECF Doc. 1320-40** — Maxwell's Rule 26 Disclosures, Filed: 01/03/24
-4. **ECF Doc. 1325-1** — Motion to Quash Trial Subpoena, Filed: 01/04/24
-5. **ECF Doc. 1327-12** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
-6. **ECF Doc. 1327-14** — Counsel Correspondence, Filed: 01/05/24
-7. **ECF Doc. 1328-19** — Court Filing, Filed: 01/05/24
-8. **ECF Doc. 1328-42** — Court Filing, Filed: 01/05/24
-9. **ECF Doc. 1330-1** — Court Filing, Filed: 01/05/24
+1. **[ECF Doc. 1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf)** — Court Filing, Filed: 01/03/24
+2. **[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf)** — Court Filing, Filed: 01/03/24
+3. **[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf)** — Maxwell's Rule 26 Disclosures, Filed: 01/03/24
+4. **[ECF Doc. 1325-1](/sources/giuffre-v-maxwell/ecf-1325-1.pdf)** — Motion to Quash Trial Subpoena, Filed: 01/04/24
+5. **[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf)** — Defendant's Submission Regarding Search Terms, Filed: 01/05/24
+6. **[ECF Doc. 1327-14](/sources/giuffre-v-maxwell/ecf-1327-14.pdf)** — Counsel Correspondence, Filed: 01/05/24
+7. **[ECF Doc. 1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf)** — Court Filing, Filed: 01/05/24
+8. **[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf)** — Court Filing, Filed: 01/05/24
+9. **[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf)** — Court Filing, Filed: 01/05/24
 
 ---
 

@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-37, filed 01/03/24**:
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24**:
 
 Stephen Hawking's name appears in court filings related to the Giuffre v. Maxwell litigation.
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Additional reference to Hawking in court documents.
 
-**ECF Doc. 1330-4, filed 01/05/24**:
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/05/24**:
 
 Further reference to Hawking in court filings.
 

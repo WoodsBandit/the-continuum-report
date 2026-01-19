@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. T
 
 ### Role as Epstein's Attorney
 
-**ECF Doc. 1320-9, filed 01/03/24** (Motion for Joinder):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf), filed 01/03/24** (Motion for Joinder):
 
 Dershowitz is referenced as "a member of Epstein's defense team" during the 2006-2008 federal investigation and NPA negotiations.
 
-**ECF Doc. 1328-31, filed 01/05/24:**
+**[ECF Doc. 1328-31](/sources/giuffre-v-maxwell/ecf-1328-31.pdf), filed 01/05/24:**
 
 Discovery disclosures sought "communications among counsel for Defendant and Epstein and Dershowitz," indicating coordination between defense teams.
 
@@ -51,11 +51,11 @@ Discovery disclosures sought "communications among counsel for Defendant and Eps
 
 **IMPORTANT:** The following are allegations made by Virginia Giuffre in court filings. Alan Dershowitz has categorically denied all allegations and has never been charged with any crime. Giuffre's allegations have not been proven in any court proceeding.
 
-**ECF Doc. 1320-9, filed 01/03/24** (Motion for Joinder, December 30, 2014):
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf), filed 01/03/24** (Motion for Joinder, December 30, 2014):
 
 The motion alleged that Epstein "required Jane Doe #3 to have sexual relations with Dershowitz on numerous occasions while she was a minor, not only in Florida but also on private planes, in New York, New Mexico, and the U.S. Virgin Islands."
 
-**ECF Doc. 1328-19, filed 01/05/24** (Media exhibit):
+**[ECF Doc. 1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf), filed 01/05/24** (Media exhibit):
 
 According to media reports included as exhibits, Giuffre alleged she "had sex with [Dershowitz] six times beginning when she was 16 at Epstein's residences, as well as on his jet and private island."
 
@@ -63,7 +63,7 @@ The same exhibit quotes allegations that Dershowitz "was so comfortable with the
 
 ### Dershowitz's Categorical Denial
 
-**ECF Doc. 1328-19, filed 01/05/24:**
+**[ECF Doc. 1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf), filed 01/05/24:**
 
 Dershowitz categorically denied all allegations. Court exhibits show he characterized himself as the victim of false allegations and challenged Giuffre's credibility.
 
@@ -73,13 +73,13 @@ According to media reports in the exhibits, Dershowitz claimed to possess eviden
 
 ### Defamation Litigation and Settlement
 
-**ECF Doc. 1320-40, filed 01/03/24:**
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24:**
 
 Dershowitz sued Virginia Giuffre's attorneys, Brad Edwards and Paul Cassell, for defamation. The parties reached a settlement documented in a "Joint Statement of Brad Edwards, Paul Cassell and Alan Dershowitz (Apr. 8, 2016)" resolving "All Proceedings Against Professor Dershowitz."
 
 ### Sarah Ransome Affidavit
 
-**ECF Doc. 1331-12, filed 01/05/24** (Affidavit of Sarah Ransome, dated January 5, 2017):
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/05/24** (Affidavit of Sarah Ransome, dated January 5, 2017):
 
 **Note:** Sarah Ransome states she was 22 years old in 2006—an adult at the time of the events she describes.
 
@@ -133,15 +133,15 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-9 | 01/03/24 | Motion for Joinder (Jane Doe #3 & #4) |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1325-3 | 01/04/24 | Motion for Joinder |
-| 1327-12 | 01/05/24 | Defendant's Submission Regarding Search Terms |
-| 1328-19 | 01/05/24 | Media Exhibits |
-| 1328-31 | 01/05/24 | Motion Filing |
+| [1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf) | 01/03/24 | Motion for Joinder (Jane Doe #3 & #4) |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf) | 01/04/24 | Motion for Joinder |
+| [1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf) | 01/05/24 | Defendant's Submission Regarding Search Terms |
+| [1328-19](/sources/giuffre-v-maxwell/ecf-1328-19.pdf) | 01/05/24 | Media Exhibits |
+| [1328-31](/sources/giuffre-v-maxwell/ecf-1328-31.pdf) | 01/05/24 | Motion Filing |
 | 1329-0_1 | 01/05/24 | Court Order |
-| 1330-1 | 01/05/24 | Declaration of Paul G. Cassell |
-| 1331-12 | 01/05/24 | Affidavit of Sarah Ransome |
+| [1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | 01/05/24 | Declaration of Paul G. Cassell |
+| [1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf) | 01/05/24 | Affidavit of Sarah Ransome |
 
 ---
 

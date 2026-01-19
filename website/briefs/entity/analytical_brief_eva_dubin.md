@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. E
 
 ### Discovery Requests
 
-**ECF Doc. 1327-12, filed 01/05/24**:
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24**:
 
 The First Request for Production responses stated that plaintiff's requests:
 
@@ -49,7 +49,7 @@ Eva Dubin appears on the list of thirteen specific witnesses for whom Giuffre re
 
 ### Maxwell's Testimony Regarding Friendship
 
-**ECF Doc. 1327-21, filed 01/05/24, pp. 269-270** (Maxwell Deposition):
+**[ECF Doc. 1327-21](/sources/giuffre-v-maxwell/ecf-1327-21.pdf), filed 01/05/24, pp. 269-270** (Maxwell Deposition):
 
 When asked about her relationship with Glenn Dubin, Maxwell responded:
 

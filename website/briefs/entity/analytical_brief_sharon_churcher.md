@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### The March 2011 Daily Mail Article
 
-**ECF Doc. 1320-28, filed 01/03/24, pp. 7-8** (Maxwell's Opposition to Extending Deposition Deadline):
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24, pp. 7-8** (Maxwell's Opposition to Extending Deposition Deadline):
 
 Court filings quote Sharon Churcher's article "Teenage girl recruited by paedophile Jeffrey Epstein reveals how she twice met Bill Clinton," published in the *Daily Mail* on March 5, 2011.
 
@@ -47,27 +47,27 @@ This article was one of the first major media pieces to present Virginia Giuffre
 
 ### References in Litigation
 
-**ECF Doc. 1320-19, filed 01/03/24**:
+**[ECF Doc. 1320-19](/sources/giuffre-v-maxwell/ecf-1320-19.pdf), filed 01/03/24**:
 
 Court filings reference Churcher and her reporting.
 
-**ECF Doc. 1320-30, filed 01/03/24**:
+**[ECF Doc. 1320-30](/sources/giuffre-v-maxwell/ecf-1320-30.pdf), filed 01/03/24**:
 
 Additional references to Churcher's journalism.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Churcher is identified among individuals with relevant knowledge for discovery purposes.
 
-**ECF Doc. 1325-4, filed 01/04/24**:
+**[ECF Doc. 1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf), filed 01/04/24**:
 
 Churcher referenced in sealed matter.
 
-**ECF Doc. 1328-18, filed 01/05/24**:
+**[ECF Doc. 1328-18](/sources/giuffre-v-maxwell/ecf-1328-18.pdf), filed 01/05/24**:
 
 Court filing referencing Churcher.
 
-**ECF Doc. 1330-4, filed 01/05/24**:
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/05/24**:
 
 Additional reference to Churcher in court documents.
 

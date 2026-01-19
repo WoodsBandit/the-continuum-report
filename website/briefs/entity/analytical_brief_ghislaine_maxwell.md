@@ -51,7 +51,7 @@ She was sentenced to 20 years in federal prison on June 28, 2022.
 
 ### Witness Testimony Regarding Maxwell's Role
 
-**ECF Doc. 1331-12, filed 01/05/24** (Sarah Ransome Affidavit):
+**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/05/24** (Sarah Ransome Affidavit):
 
 > "During one of my visits to the island I met Ghislaine Maxwell. Watching her interact with the other girls on the island, it became clear to me that she recruited all or many of them to the island. Once they were there, she appeared to be in charge of their activities, including what they did, who they did it with, and how they were supposed to stay in line. She assumed the same supervisory role with me as soon as I arrived."
 
@@ -61,7 +61,7 @@ She was sentenced to 20 years in federal prison on June 28, 2022.
 
 In her deposition testimony during the Giuffre v. Maxwell case, Maxwell denied the allegations. When confronted with a police report containing statements from approximately 30 alleged victims, Maxwell testified:
 
-**ECF Doc. 1320-6, filed 01/03/24, pp. 89-90:**
+**[ECF Doc. 1320-6](/sources/giuffre-v-maxwell/ecf-1320-6.pdf), filed 01/03/24, pp. 89-90:**
 
 > "Q. Are you saying these 30 girls are lying when they gave these reports to police officers?"
 >
@@ -71,7 +71,7 @@ In her deposition testimony during the Giuffre v. Maxwell case, Maxwell denied t
 
 The Giuffre v. Maxwell litigation involved extensive discovery battles. According to court filings:
 
-**ECF Doc. 1327-12, filed 01/05/24:**
+**[ECF Doc. 1327-12](/sources/giuffre-v-maxwell/ecf-1327-12.pdf), filed 01/05/24:**
 
 Maxwell's counsel conducted forensic examination of devices using search terms including "Prince Andrew," "Epstein," and names of other individuals. The defense claimed searches "yielded 284 additional documents" but asserted "not a single responsive, non-privileged document was located."
 

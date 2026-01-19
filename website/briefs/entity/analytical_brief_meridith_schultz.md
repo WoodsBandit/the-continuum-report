@@ -39,23 +39,23 @@ The documents analyzed herein relate to matters of significant public concern. M
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-17, filed 01/03/24:**
+**[ECF Doc. 1320-17](/sources/giuffre-v-maxwell/ecf-1320-17.pdf), filed 01/03/24:**
 
 Meridith Schultz is referenced in court filings.
 
-**ECF Doc. 1320-20, filed 01/03/24:**
+**[ECF Doc. 1320-20](/sources/giuffre-v-maxwell/ecf-1320-20.pdf), filed 01/03/24:**
 
 Additional reference to Schultz in litigation documents.
 
-**ECF Doc. 1320-28, filed 01/03/24:**
+**[ECF Doc. 1320-28](/sources/giuffre-v-maxwell/ecf-1320-28.pdf), filed 01/03/24:**
 
 Further reference to Schultz in court filings.
 
-**ECF Doc. 1320-33, filed 01/03/24:**
+**[ECF Doc. 1320-33](/sources/giuffre-v-maxwell/ecf-1320-33.pdf), filed 01/03/24:**
 
 Reference to Schultz in litigation documents.
 
-**ECF Doc. 1320-34, filed 01/03/24:**
+**[ECF Doc. 1320-34](/sources/giuffre-v-maxwell/ecf-1320-34.pdf), filed 01/03/24:**
 
 Court filing mentioning Schultz.
 

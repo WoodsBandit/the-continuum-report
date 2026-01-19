@@ -39,19 +39,19 @@ The documents analyzed herein relate to matters of significant public concern. P
 
 ### Role as Victims' Rights Counsel
 
-**ECF Doc. 1330-1, filed 01/05/24** (Declaration of Paul G. Cassell):
+**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/05/24** (Declaration of Paul G. Cassell):
 
 Professor Cassell provided a declaration in the Giuffre v. Maxwell litigation explaining the CVRA case and the 2008 non-prosecution agreement.
 
 According to court filings referencing Cassell's work, on July 7, 2008, attorney Bradley J. Edwards filed an emergency petition to enforce the rights of "Jane Doe No. 1" and "Jane Doe No. 2" under the Crime Victims' Rights Act (CVRA), 18 U.S.C. § 3771. Cassell later joined Edwards as co-counsel.
 
-**ECF Doc. 1325-3, filed 01/04/24** (Jane Doe #3 and #4 Motion for Joinder):
+**[ECF Doc. 1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf), filed 01/04/24** (Jane Doe #3 and #4 Motion for Joinder):
 
 On December 30, 2014, attorneys Bradley J. Edwards and Paul G. Cassell filed a motion for Jane Doe #3 (Virginia Giuffre) and Jane Doe #4 to join the CVRA action.
 
 ### Motion Contents
 
-**ECF Doc. 1320-9, filed 01/03/24**:
+**[ECF Doc. 1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf), filed 01/03/24**:
 
 The motion filed by Edwards and Cassell included detailed allegations regarding Jane Doe #4:
 
@@ -67,7 +67,7 @@ During her first visit:
 
 ### Dershowitz Defamation Dispute
 
-**ECF Doc. 1330-2, filed 01/05/24**:
+**[ECF Doc. 1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf), filed 01/05/24**:
 
 Alan Dershowitz sued Virginia Giuffre's attorneys, including Paul Cassell and Brad Edwards, for defamation. The parties reached a settlement documented in a "Joint Statement of Brad Edwards, Paul Cassell and Alan Dershowitz (Apr. 8, 2016)" resolving "All Proceedings Against Professor Dershowitz."
 
@@ -124,20 +124,20 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-9 | 01/03/24 | Jane Doe #3 and #4 Motion |
-| 1320-12 | 01/03/24 | Court Filing |
-| 1320-15 | 01/03/24 | Court Filing |
-| 1320-18 | 01/03/24 | Plaintiff's Response |
-| 1320-37 | 01/03/24 | Court Filing |
-| 1320-39 | 01/03/24 | Court Filing |
-| 1320-40 | 01/03/24 | Maxwell's Rule 26 Disclosures |
-| 1325-3 | 01/04/24 | Jane Doe #3 and #4 Motion for Joinder |
-| 1325-4 | 01/04/24 | Court Filing |
-| 1328-5 | 01/05/24 | Court Filing |
-| 1330-1 | 01/05/24 | Declaration of Paul G. Cassell |
-| 1330-2 | 01/05/24 | Joint Statement (Dershowitz settlement) |
-| 1330-3 | 01/05/24 | Court Filing |
-| 1330-4 | 01/05/24 | Court Filing |
+| [1320-9](/sources/giuffre-v-maxwell/ecf-1320-9.pdf) | 01/03/24 | Jane Doe #3 and #4 Motion |
+| [1320-12](/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | 01/03/24 | Court Filing |
+| [1320-15](/sources/giuffre-v-maxwell/ecf-1320-15.pdf) | 01/03/24 | Court Filing |
+| [1320-18](/sources/giuffre-v-maxwell/ecf-1320-18.pdf) | 01/03/24 | Plaintiff's Response |
+| [1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf) | 01/03/24 | Court Filing |
+| [1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf) | 01/03/24 | Court Filing |
+| [1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | 01/03/24 | Maxwell's Rule 26 Disclosures |
+| [1325-3](/sources/giuffre-v-maxwell/ecf-1325-3.pdf) | 01/04/24 | Jane Doe #3 and #4 Motion for Joinder |
+| [1325-4](/sources/giuffre-v-maxwell/ecf-1325-4.pdf) | 01/04/24 | Court Filing |
+| [1328-5](/sources/giuffre-v-maxwell/ecf-1328-5.pdf) | 01/05/24 | Court Filing |
+| [1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | 01/05/24 | Declaration of Paul G. Cassell |
+| [1330-2](/sources/giuffre-v-maxwell/ecf-1330-2.pdf) | 01/05/24 | Joint Statement (Dershowitz settlement) |
+| [1330-3](/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | 01/05/24 | Court Filing |
+| [1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf) | 01/05/24 | Court Filing |
 
 ---
 

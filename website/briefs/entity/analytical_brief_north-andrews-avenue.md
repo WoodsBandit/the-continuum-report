@@ -1,5 +1,16 @@
 # Analytical Brief: North Andrews Avenue
 
+> **ANALYTICAL BRIEF — EDITORIAL COMMENTARY**
+>
+> *The Continuum Report — Another Node in the Decentralized Intelligence Agency*
+>
+> This document constitutes opinion and analysis based on public court records.
+> Interpretive conclusions represent editorial judgment, not assertions of fact.
+> Readers are encouraged to review cited sources and form independent conclusions.
+
+---
+
+
 **Entity ID:** north-andrews-avenue
 **Entity Type:** Location (Street Address)
 **Classification:** Administrative/Procedural

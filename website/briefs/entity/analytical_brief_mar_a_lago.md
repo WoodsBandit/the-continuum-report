@@ -57,17 +57,17 @@ Court filings contain accounts describing Giuffre's employment at Mar-a-Lago and
 
 ### Employment Context
 
-**ECF Doc. 1320-37, filed 01/03/24:**
+**[ECF Doc. 1320-37](/sources/giuffre-v-maxwell/ecf-1320-37.pdf), filed 01/03/24:**
 
 Court documents reference Mar-a-Lago as the location where Virginia Giuffre was employed at the time of her alleged recruitment. The documents indicate that Virginia's father, Robert Giuffre, also worked at the property.
 
-**ECF Doc. 1320-40, filed 01/03/24** (Maxwell's Rule 26 Disclosures):
+**[ECF Doc. 1320-40](/sources/giuffre-v-maxwell/ecf-1320-40.pdf), filed 01/03/24** (Maxwell's Rule 26 Disclosures):
 
 Mar-a-Lago is referenced in discovery materials as a relevant location in connection with the circumstances of Giuffre's recruitment.
 
 ### Geographic Context
 
-**ECF Doc. 1328-42, filed 01/05/24, pp. 6:6-13** (Deposition of Juan Alessi, Epstein's former house manager):
+**[ECF Doc. 1328-42](/sources/giuffre-v-maxwell/ecf-1328-42.pdf), filed 01/05/24, pp. 6:6-13** (Deposition of Juan Alessi, Epstein's former house manager):
 
 Testimony from Epstein's house manager establishes that Donald Trump maintained social contact with Epstein consistent with both being Palm Beach residents:
 

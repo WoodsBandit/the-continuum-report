@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. J
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-18, filed 01/03/24:**
+**[ECF Doc. 1320-18](/sources/giuffre-v-maxwell/ecf-1320-18.pdf), filed 01/03/24:**
 
 Judge Lynch is referenced in court filings.
 
-**ECF Doc. 1330-4, filed 01/08/24:**
+**[ECF Doc. 1330-4](/sources/giuffre-v-maxwell/ecf-1330-4.pdf), filed 01/08/24:**
 
 Additional reference to Judge Lynch in litigation documents.
 

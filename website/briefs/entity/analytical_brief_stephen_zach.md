@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-15, filed 01/03/24:**
+**[ECF Doc. 1320-15](/sources/giuffre-v-maxwell/ecf-1320-15.pdf), filed 01/03/24:**
 
 Stephen Zach is referenced in discovery documents.
 
-**ECF Doc. 1320-39, filed 01/03/24:**
+**[ECF Doc. 1320-39](/sources/giuffre-v-maxwell/ecf-1320-39.pdf), filed 01/03/24:**
 
 Additional reference to Zach in court filings.
 

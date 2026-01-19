@@ -39,15 +39,15 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1320-8, filed 01/03/24:**
+**[ECF Doc. 1320-8](/sources/giuffre-v-maxwell/ecf-1320-8.pdf), filed 01/03/24:**
 
 Court filing referencing Sarah Vickers.
 
-**ECF Doc. 1320-20, filed 01/03/24:**
+**[ECF Doc. 1320-20](/sources/giuffre-v-maxwell/ecf-1320-20.pdf), filed 01/03/24:**
 
 Additional reference to Vickers in court documents.
 
-**ECF Doc. 1320-32, filed 01/03/24:**
+**[ECF Doc. 1320-32](/sources/giuffre-v-maxwell/ecf-1320-32.pdf), filed 01/03/24:**
 
 Court filing mentioning Vickers.
 

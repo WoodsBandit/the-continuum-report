@@ -88,7 +88,7 @@ The reference to "planes" (plural) indicates flight log evidence encompassed mul
 
 ### Pilot Operations
 
-**ECF Doc. 1328-14, filed 01/05/24** (Deposition of David Rodgers):
+**[ECF Doc. 1328-14](/sources/giuffre-v-maxwell/ecf-1328-14.pdf), filed 01/05/24** (Deposition of David Rodgers):
 
 David Rodgers was deposed on June 3, 2016, regarding his role as Epstein's pilot. Rodgers operated multiple aircraft in Epstein's fleet and maintained flight logs for all aircraft he piloted.
 

@@ -39,7 +39,7 @@ The documents analyzed herein relate to matters of significant public concern. S
 
 ### Appearances in Court Documents
 
-**ECF Doc. 1328-23, filed 01/03/24:**
+**[ECF Doc. 1328-23](/sources/giuffre-v-maxwell/ecf-1328-23.pdf), filed 01/03/24:**
 
 Shari Scharfer Rollins is referenced in court filings.
 
