@@ -54,6 +54,20 @@
 - Roy Cohn ↔ Donald Trump connection brief has no ECF refs - based on historical records (1970s-80s), not Giuffre case
 - Donald Trump entity brief now properly hyperlinked at line 42
 
+#### Phase 2: External Source Hyperlinks
+
+Added hyperlinks to 17 briefs with external source document tables (books, congressional reports, court cases, documentaries):
+
+| Source Type | Examples |
+|-------------|----------|
+| Congressional Reports | Kerry Committee BCCI Report, Walsh Iran-Contra Report, Tower Commission |
+| Court Dockets | CourtListener for NXIVM, Epstein, Giuffre v. Maxwell |
+| DOJ Press Releases | NXIVM sentencings, official announcements |
+| FBI Vault | Roy Cohn files, Trump Management Company investigation |
+| Internet Archive | Books (Wayne Barrett, Nicholas von Hoffman), Congressional testimony |
+| IMDb | "Where's My Roy Cohn?" documentary |
+| News Archives | Miami Herald "Perversion of Justice", Vanity Fair 2003 Epstein profile |
+
 ---
 
 ### 2026-01-18 — Session 27: Directory Structure Documentation

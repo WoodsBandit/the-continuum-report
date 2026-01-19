@@ -73,10 +73,10 @@ A third interpretation posits that each man used the other for his own purposes:
 
 | Source | Description |
 |--------|-------------|
-| Report of the Congressional Committees Investigating the Iran-Contra Affair (1987) | Primary congressional investigation documenting Casey-North relationship |
+| [Report of the Congressional Committees Investigating the Iran-Contra Affair (1987)](https://archive.org/details/reportofcongress87unit) | Primary congressional investigation documenting Casey-North relationship |
 | North Testimony to Congress (1987) | Oliver North's immunized testimony describing interactions with Casey |
-| Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993) | Independent counsel's conclusions on the Casey-North operational collaboration |
-| Tower Commission Report (1987) | Initial presidential review board findings |
+| [Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993)](https://archive.org/details/WalshReport) | Independent counsel's conclusions on the Casey-North operational collaboration |
+| [Tower Commission Report (1987)](https://archive.org/details/towercommission00unit) | Initial presidential review board findings |
 
 ---
 

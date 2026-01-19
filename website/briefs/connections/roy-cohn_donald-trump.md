@@ -62,11 +62,12 @@ The manner in which the relationship ended—with Trump reportedly distancing hi
 
 | Source | Description |
 |--------|-------------|
-| Wayne Barrett, "Trump: The Deals and the Downfall" (1992) | Investigative biography documenting Cohn-Trump relationship |
-| Marie Brenner, "After the Gold Rush," Vanity Fair (1990) | Profile discussing Cohn's influence on Trump |
-| Department of Justice case records (1973-1975) | Housing discrimination lawsuit documentation |
-| New York State Bar disciplinary records (1986) | Cohn disbarment proceedings |
-| Matt Tyrnauer, "Where's My Roy Cohn?" documentary (2019) | Documentary film on Cohn's life and influence |
+| [Wayne Barrett, "Trump: The Deals and the Downfall" (1992)](https://archive.org/details/trumpgreatestsho0000barr) | Investigative biography documenting Cohn-Trump relationship |
+| [Marie Brenner, "After the Gold Rush," Vanity Fair (1990)](https://longform.org/posts/after-the-gold-rush) | Profile discussing Cohn's influence on Trump |
+| [United States v. Trump, 1:73-cv-01529 (E.D.N.Y.)](https://clearinghouse.net/case/15342/) | Housing discrimination lawsuit documentation |
+| [FBI Vault: Trump Management Company](https://vault.fbi.gov/trump-management-company) | FBI investigation records (1972-1974) |
+| [In re Cohn, 118 A.D.2d 15 (N.Y. App. Div. 1986)](https://www.leagle.com/decision/1986133118ad2d151131) | Cohn disbarment proceedings |
+| [Matt Tyrnauer, "Where's My Roy Cohn?" (2019)](https://www.imdb.com/title/tt7193362/) | Documentary film on Cohn's life and influence |
 
 ---
 

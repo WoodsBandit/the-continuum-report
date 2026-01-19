@@ -62,11 +62,11 @@ This connection should be understood as speculative network analysis rather than
 
 | Source | Description |
 |--------|-------------|
-| Matt Tyrnauer, "Where's My Roy Cohn?" documentary (2019) | Documentary examining Cohn's influence and methods |
-| Julie K. Brown, "Perversion of Justice," Miami Herald (2018) | Investigative series on Epstein's crimes and connections |
+| [Matt Tyrnauer, "Where's My Roy Cohn?" documentary (2019)](https://www.imdb.com/title/tt7193362/) | Documentary examining Cohn's influence and methods |
+| [Julie K. Brown, "Perversion of Justice," Miami Herald (2018)](https://www.miamiherald.com/news/local/article220097825.html) | Investigative series on Epstein's crimes and connections |
 | New York Magazine, various profiles (1990s-2000s) | Coverage of Epstein's social prominence |
-| Wayne Barrett, "Trump: The Deals and the Downfall" (1992) | Documentation of Cohn-Trump relationship |
-| Court records, United States v. Epstein (2019) | Federal case documentation |
+| [Wayne Barrett, "Trump: The Deals and the Downfall" (1992)](https://archive.org/details/trumpgreatestsho0000barr) | Documentation of Cohn-Trump relationship |
+| [Court records, United States v. Epstein (2019)](https://www.courtlistener.com/docket/15887848/united-states-v-epstein/) | Federal case documentation |
 
 ---
 

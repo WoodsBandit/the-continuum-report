@@ -177,7 +177,7 @@ This brief is based on publicly documented accounts and court records.
 
 | Document/Source | Description |
 |-----------------|-------------|
-| Vanity Fair, March 2003 | "The Talented Mr. Epstein" article by Vicky Ward |
+| [Vanity Fair, March 2003](https://archive.vanityfair.com/article/2003/3/the-talented-mr-epstein) | "The Talented Mr. Epstein" article by Vicky Ward |
 | [ECF Doc. 1320-4](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-4.pdf) | Court filing referencing Annie Farmer |
 | [ECF Doc. 1320-40](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-40.pdf) | Maxwell's Rule 26 Disclosures |
 | [ECF Doc. 1327-28](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-28.pdf) | Court filing referencing Farmer |
@@ -186,8 +186,8 @@ This brief is based on publicly documented accounts and court records.
 
 | Source | Description |
 |--------|-------------|
-| NPR (August 2019) | "Why The Media Didn't Pay Much Attention To Jeffrey Epstein" |
-| The Daily Beast (2015, 2019) | Vicky Ward articles on Epstein and Vanity Fair |
+| [NPR (August 2019)](https://www.npr.org/2019/08/22/753337520/why-the-media-didnt-pay-much-attention-to-jeffrey-epstein) | "Why The Media Didn't Pay Much Attention To Jeffrey Epstein" |
+| [The Daily Beast (2019)](https://www.thedailybeast.com/i-tried-to-warn-you-about-sleazy-billionaire-jeffrey-epstein-in-2003/) | Vicky Ward articles on Epstein and Vanity Fair |
 | Mediaite (2019) | Coverage of Ward-Carter dispute |
 
 ---

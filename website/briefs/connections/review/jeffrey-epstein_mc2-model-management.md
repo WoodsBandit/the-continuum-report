@@ -124,8 +124,8 @@ Reasonable observers might interpret this evidence differently:
 |---|--------|-------------|------|
 | 1 | Maritza Vasquez Deposition | Sworn deposition of former MC2 bookkeeper confirming Epstein investment | Court records |
 | 2 | SDFL Civil Complaint | Racketeering allegations involving MC2 | U.S. District Court, S.D. Florida |
-| 3 | Virginia Giuffre 2014 Filing | Allegations of MC2 as trafficking cover | U.S. District Court, S.D. Florida |
-| 4 | Virginia Giuffre 2016 Deposition | Testimony regarding Brunel and Epstein relationship | Court records (unsealed 2019) |
+| 3 | [Giuffre v. Maxwell](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/) | Allegations of MC2 as trafficking cover | U.S. District Court, S.D. Florida |
+| 4 | [Giuffre v. Maxwell Deposition](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/) | Testimony regarding Brunel and Epstein relationship | Court records (unsealed 2019) |
 | 5 | Virginia Giuffre 2015 Affidavit | Additional testimony on Epstein-Brunel relationship | Court records |
 | 6 | Court Documents | Visa and housing scheme allegations | U.S. District Court filings |
 

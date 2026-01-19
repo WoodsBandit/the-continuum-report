@@ -62,9 +62,9 @@ The prosecution's case demonstrated how financial enablement can constitute crim
 
 | Source | Description |
 |--------|-------------|
-| United States v. Raniere, 18-CR-204 (E.D.N.Y.) | Federal criminal case against NXIVM leadership |
-| United States v. Bronfman, Sentencing Proceedings | Sentencing hearing and judgment |
-| DOJ Press Releases | Official Department of Justice announcements |
+| [United States v. Raniere, 18-CR-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Federal criminal case against NXIVM leadership |
+| [United States v. Bronfman, Sentencing Proceedings](https://www.justice.gov/usao-edny/pr/nxivm-executive-board-member-clare-bronfman-sentenced-81-months-prison-identity-theft) | Sentencing hearing and judgment |
+| [DOJ Press Release - Raniere Sentencing](https://www.justice.gov/usao-edny/pr/nxivm-leader-keith-raniere-sentenced-120-years-prison-racketeering-and-sex-trafficking) | Official Department of Justice announcements |
 
 ---
 

@@ -69,9 +69,9 @@ A third perspective frames the BCCI relationship as a legitimate Cold War calcul
 
 | Source | Description |
 |--------|-------------|
-| The BCCI Affair: A Report to the Senate Committee on Foreign Relations (Kerry Committee Report, 1992) | Primary Senate investigation into BCCI and intelligence relationships |
-| Senate Subcommittee on Terrorism, Narcotics and International Operations Hearings | Congressional testimony on CIA-BCCI connections |
-| Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993) | Documentation of financial mechanisms used in Iran-Contra operations |
+| [The BCCI Affair: A Report to the Senate Committee on Foreign Relations (Kerry Committee Report, 1992)](https://irp.fas.org/congress/1992_rpt/bcci/) | Primary Senate investigation into BCCI and intelligence relationships |
+| [Senate Subcommittee on Terrorism, Narcotics and International Operations Hearings](https://archive.org/details/TheBCCIAffair) | Congressional testimony on CIA-BCCI connections |
+| [Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993)](https://archive.org/details/WalshReport) | Documentation of financial mechanisms used in Iran-Contra operations |
 
 ---
 

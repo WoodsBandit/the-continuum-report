@@ -204,7 +204,7 @@ This brief is based on publicly available sources including court documents from
 
 | Source | Description |
 |--------|-------------|
-| *Giuffre v. Maxwell* unsealed documents (January 2024) | Depositions including Johanna Sjoberg testimony |
+| [*Giuffre v. Maxwell* unsealed documents (January 2024)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/) | Depositions including Johanna Sjoberg testimony |
 | [Daily Beast interview (July 2019)](https://www.thedailybeast.com/israels-ehud-barak-i-visited-epsteins-island-but-never-met-any-girls/) | Barak's acknowledgment of island visit and relationship |
 | [Times of Israel reporting](https://www.timesofisrael.com/barak-says-he-visited-epstein-at-home-but-didnt-attend-sex-parties) | Barak's statements on Epstein relationship |
 | [Haaretz reporting](https://www.haaretz.com/israel-news/2019-07-17/ty-article/barak-plans-to-sue-daily-mail-for-implying-he-met-young-women-at-epsteins-ny-home/0000017f-db79-db22-a17f-fff9b0570000) | Carbyne investment details |

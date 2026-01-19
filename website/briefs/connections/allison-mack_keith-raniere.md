@@ -66,10 +66,10 @@ The significant disparity between Mack's sentence (3 years) and Raniere's senten
 
 | Source | Description |
 |--------|-------------|
-| United States v. Raniere, 18-CR-204 (E.D.N.Y.) | Federal criminal case against NXIVM leadership |
+| [United States v. Raniere, 18-CR-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Federal criminal case against NXIVM leadership |
 | Mack Plea Agreement | Written plea agreement and allocution transcript |
 | Mack Sentencing Proceedings | Sentencing hearing transcript and judgment |
-| DOJ Press Releases | Official Department of Justice announcements |
+| [DOJ Press Release - Raniere Sentencing](https://www.justice.gov/usao-edny/pr/nxivm-leader-keith-raniere-sentenced-120-years-prison-racketeering-and-sex-trafficking) | Official Department of Justice announcements |
 
 ---
 

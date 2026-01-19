@@ -68,11 +68,11 @@ The significant difference in their sentences (3 years versus 81 months) reflect
 
 | Source | Description |
 |--------|-------------|
-| United States v. Raniere, 18-CR-204 (E.D.N.Y.) | Federal criminal case docket |
-| Superseding Indictment | Charging document naming all defendants |
+| [United States v. Raniere, 18-CR-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Federal criminal case docket |
+| [Superseding Indictment](https://www.justice.gov/usao-edny/press-release/file/1046381/download) | Charging document naming all defendants |
 | Mack Sentencing Proceedings | Sentencing hearing and judgment |
-| Bronfman Sentencing Proceedings | Sentencing hearing and judgment |
-| DOJ Press Releases | Official Department of Justice announcements |
+| [Bronfman Sentencing - DOJ Press Release](https://www.justice.gov/usao-edny/pr/nxivm-executive-board-member-clare-bronfman-sentenced-81-months-prison-identity-theft) | Sentencing hearing and judgment |
+| [DOJ Press Release - Raniere Sentencing](https://www.justice.gov/usao-edny/pr/nxivm-leader-keith-raniere-sentenced-120-years-prison-racketeering-and-sex-trafficking) | Official Department of Justice announcements |
 
 ---
 

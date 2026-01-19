@@ -60,10 +60,10 @@ The circumstantial evidence—overlapping social venues, shared associates, and 
 
 | Source | Description |
 |--------|-------------|
-| Nicholas von Hoffman, "Citizen Cohn" (1988) | Biography detailing Cohn's organized crime representations |
+| [Nicholas von Hoffman, "Citizen Cohn" (1988)](https://archive.org/details/citizenco00vonh) | Biography detailing Cohn's organized crime representations |
 | Robert Lacey, "Little Man: Meyer Lansky and the Gangster Life" (1991) | Biography of Lansky and his operations |
-| FBI files on Roy Cohn (declassified) | Bureau surveillance and investigation records |
-| Senate Rackets Committee records | Organized crime investigation documentation |
+| [FBI files on Roy Cohn (declassified)](https://vault.fbi.gov/roy-cohn) | Bureau surveillance and investigation records |
+| [Senate Rackets Committee records](https://en.wikipedia.org/wiki/United_States_Senate_Select_Committee_on_Improper_Activities_in_Labor_and_Management) | Organized crime investigation documentation |
 | New York State Bar records (1986) | Disbarment proceedings referencing client relationships |
 
 ---

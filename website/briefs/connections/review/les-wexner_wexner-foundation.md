@@ -109,11 +109,11 @@ Reasonable observers might interpret this evidence differently:
 
 | # | Source | Description | Link |
 |---|--------|-------------|------|
-| 1 | Wexner Foundation Letter | September 2019 public statement | [wexnerfoundation.org] |
-| 2 | Foundation History | Institutional background | [wexnerfoundation.org/about] |
-| 3 | 2020 Review | Independent review findings | [Foundation public statement] |
-| 4 | News Reports | Financial relationship coverage | [Multiple news sources] |
-| 5 | DOJ Release | FBI co-conspirator email (July 2019) | [Congressional Disclosure] |
+| 1 | [Wexner Foundation Letter](https://www.wexnerfoundation.org/letter-from-les/) | September 2019 public statement | wexnerfoundation.org |
+| 2 | [Foundation History](https://www.wexnerfoundation.org/about/) | Institutional background | wexnerfoundation.org |
+| 3 | [2020 Review](https://www.wexnerfoundation.org/wp-content/uploads/Wexner-Foundation-Report-Following-Independent-Review4.pdf) | Independent review findings | Foundation public statement |
+| 4 | [Times of Israel](https://www.timesofisrael.com/the-relationship-between-epstein-and-jewish-philanthropist-wexner-explained/) | Financial relationship coverage | Multiple news sources |
+| 5 | [Inside Philanthropy](https://www.insidephilanthropy.com/home/2019-8-13-in-past-ties-between-leslie-wexner-and-jeffrey-epstein-troubling-lessons-for-the-elite-world-of-philanthropy) | FBI co-conspirator email (July 2019) | Congressional Disclosure |
 
 ---
 

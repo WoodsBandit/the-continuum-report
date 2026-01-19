@@ -68,8 +68,8 @@ A third perspective frames Casey's role as reflecting longstanding CIA instituti
 
 | Source | Description |
 |--------|-------------|
-| Report of the Congressional Committees Investigating the Iran-Contra Affair (1987) | Primary congressional investigation findings |
-| Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993) | Independent counsel investigation conclusions |
+| [Report of the Congressional Committees Investigating the Iran-Contra Affair (1987)](https://archive.org/details/reportofcongress87unit) | Primary congressional investigation findings |
+| [Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993)](https://archive.org/details/WalshReport) | Independent counsel investigation conclusions |
 | Senate Select Committee on Intelligence Reports | Oversight committee documentation |
 
 ---

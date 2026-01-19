@@ -77,10 +77,10 @@ A third perspective suggests Casey's approaches were less innovative than often 
 
 | Source | Description |
 |--------|-------------|
-| Report of the Congressional Committees Investigating the Iran-Contra Affair (1987) | Documentation of Enterprise financial structures |
-| The BCCI Affair: A Report to the Senate Committee on Foreign Relations (Kerry Committee Report, 1992) | Analysis of intelligence-banking relationships |
-| Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993) | Financial documentation from Iran-Contra investigation |
-| Tower Commission Report (1987) | Initial findings on NSC and CIA operational methods |
+| [Report of the Congressional Committees Investigating the Iran-Contra Affair (1987)](https://archive.org/details/reportofcongress87unit) | Documentation of Enterprise financial structures |
+| [The BCCI Affair: A Report to the Senate Committee on Foreign Relations (Kerry Committee Report, 1992)](https://irp.fas.org/congress/1992_rpt/bcci/) | Analysis of intelligence-banking relationships |
+| [Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report, 1993)](https://archive.org/details/WalshReport) | Financial documentation from Iran-Contra investigation |
+| [Tower Commission Report (1987)](https://archive.org/details/towercommission00unit) | Initial findings on NSC and CIA operational methods |
 
 ---
 
