@@ -106,14 +106,14 @@ NXIVM operated under self-help ideology; Maxwell's role was personal/financial r
 ## Source Documents
 
 ### Primary Sources
-- USA v. Maxwell, Case No. 20-cr-330 (EDNY)
-- USA v. Raniere et al., Case No. 18-cr-204 (EDNY)
-- Maxwell trial transcripts (November-December 2021)
-- Mack plea agreement and sentencing documents
+- [USA v. Maxwell, Case No. 20-cr-330 (S.D.N.Y.)](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/)
+- [USA v. Raniere et al., Case No. 18-cr-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/)
+- [Maxwell trial transcripts - CourtListener](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/)
+- [Mack plea agreement and sentencing documents - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204)
 
 ### Government Documents
-- DOJ press releases on Maxwell conviction and sentencing
-- EDNY sentencing memoranda for both defendants
+- [DOJ Maxwell Case Page](https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell)
+- [DOJ Raniere Sentencing Press Release](https://www.justice.gov/usao-edny/pr/nxivm-leader-keith-raniere-sentenced-120-years-prison-racketeering-and-sex-trafficking)
 
 ### Secondary Analysis
 - Legal commentary comparing enabler prosecutions

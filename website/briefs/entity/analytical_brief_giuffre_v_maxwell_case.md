@@ -86,7 +86,7 @@ The defamation framework meant discovery explored the truth or falsity of Giuffr
 
 ### Testimony Regarding Evidence Spoliation
 
-**[ECF Doc. 1327-25](/sources/giuffre-v-maxwell/ecf-1327-25.pdf):**
+**[ECF Doc. 1327-25](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf):**
 
 Janusz Banasiak testified that computers were removed from Epstein's Palm Beach residence before a search warrant was executed:
 
@@ -94,7 +94,7 @@ Janusz Banasiak testified that computers were removed from Epstein's Palm Beach 
 - Computers were removed from the cabana, living room, and small office
 - The removal occurred before police executed their warrant
 
-**[ECF Doc. 1331-4](/sources/giuffre-v-maxwell/ecf-1331-4.pdf):**
+**[ECF Doc. 1331-4](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf):**
 
 Court filings state that when police executed the warrant, they found that computers had been removed, "leaving the monitors, mice, keyboards, and wires behind." Testimony indicated Maxwell called the housekeeper on the morning of the warrant and told her not to come in.
 
@@ -142,12 +142,12 @@ This brief is based on 194 documents from Case No. 15-cv-07433-LAP (S.D.N.Y.). K
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1327-22 | 01/05/24 | Deposition of Joseph Recarey |
-| 1327-23 | 01/05/24 | Deposition of Johanna Sjoberg |
-| 1327-24 | 01/05/24 | Deposition of John Alessi |
-| 1327-25 | 01/05/24 | Deposition of Janusz Banasiak |
-| 1328-14 | 01/05/24 | Deposition of David Rodgers |
-| 1331-4 | 01/05/24 | Motion re Sanctions |
+| [1327-22](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-22.pdf) | 01/05/24 | Deposition of Joseph Recarey |
+| [1327-23](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-23.pdf) | 01/05/24 | Deposition of Johanna Sjoberg |
+| [1327-24](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-24.pdf) | 01/05/24 | Deposition of John Alessi |
+| [1327-25](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-25.pdf) | 01/05/24 | Deposition of Janusz Banasiak |
+| [1328-14](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-14.pdf) | 01/05/24 | Deposition of David Rodgers |
+| [1331-4](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-4.pdf) | 01/05/24 | Motion re Sanctions |
 
 ---
 

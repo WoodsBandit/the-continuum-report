@@ -136,9 +136,10 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 This brief synthesizes information from multiple sources:
 
 **Primary Sources:**
-- Maxwell criminal trial records (*United States v. Maxwell*)
-- FBI complaint documentation
-- Court filings referencing Maria Farmer in *Giuffre v. Maxwell*
+- [Maxwell criminal trial records (*United States v. Maxwell*)](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/) - CourtListener docket
+- [DOJ Case Page: United States v. Ghislaine Maxwell](https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell) - Official DOJ case information
+- FBI complaint documentation (1996)
+- [Court filings referencing Maria Farmer in *Giuffre v. Maxwell*](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/) - CourtListener docket
 
 **Secondary Sources:**
 - Maria Farmer's public statements and interviews
@@ -146,9 +147,9 @@ This brief synthesizes information from multiple sources:
 
 | Source Type | Description |
 |-------------|-------------|
-| Criminal Trial | Annie Farmer testimony referencing Maria |
+| [Criminal Trial (CourtListener)](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/) | Annie Farmer testimony referencing Maria |
 | FBI Records | 1996 complaint documentation |
-| Civil Litigation | References in Giuffre v. Maxwell filings |
+| [Civil Litigation (CourtListener)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/) | References in Giuffre v. Maxwell filings |
 
 ---
 

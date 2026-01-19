@@ -70,8 +70,8 @@ Mack's case attracted significant media attention due to her prior career as a t
 |--------|-------------|
 | [United States v. Raniere, 18-CR-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Federal criminal case docket |
 | [Criminal Complaint](https://www.justice.gov/usao-edny/press-release/file/1055196/dl) | Initial charging document |
-| Mack Plea Allocution Transcript | Court transcript of guilty plea |
-| Sentencing Memoranda | Prosecution and defense sentencing submissions |
+| [Mack Plea Allocution Transcript - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Court transcript of guilty plea |
+| [Sentencing Memoranda - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Prosecution and defense sentencing submissions |
 | [Judgment and Commitment Order](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Final sentencing order |
 
 ---

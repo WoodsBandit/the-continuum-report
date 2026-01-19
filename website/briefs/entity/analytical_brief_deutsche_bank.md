@@ -126,11 +126,11 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 ## Source Documents
 
 **Regulatory Records:**
-- NYSDFS Consent Order, Deutsche Bank AG (July 6, 2020)
-- $150 million penalty
+- [NYSDFS Consent Order, Deutsche Bank AG (July 6, 2020)](https://www.dfs.ny.gov/industry_guidance/enforcement_discipline/ea20200706_deutsche_bank) - $150 million penalty
+- [NY DFS Press Release](https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071)
 
 **Federal Court Records:**
-- Government of the U.S. Virgin Islands v. JPMorgan Chase Bank, N.A., Complaint, Case No. 1:22-cv-10904-UA (S.D.N.Y., filed December 27, 2022) — paragraphs 71-72 regarding Deutsche Bank
+- [Government of the U.S. Virgin Islands v. JPMorgan Chase Bank, N.A.](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/), Case No. 1:22-cv-10904-UA (S.D.N.Y., filed December 27, 2022) - paragraphs 71-72 regarding Deutsche Bank
 
 ---
 

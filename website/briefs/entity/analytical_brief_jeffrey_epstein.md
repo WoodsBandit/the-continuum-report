@@ -59,7 +59,7 @@ Flight logs entered as exhibits document extensive travel between these location
 
 ### Sarah Ransome Affidavit
 
-**[ECF Doc. 1331-12](/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/05/24:**
+**[ECF Doc. 1331-12](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf), filed 01/05/24:**
 
 Sarah Ransome provided a sworn affidavit dated January 5, 2017, stating:
 
@@ -71,7 +71,7 @@ Ransome also testified regarding observations of minors:
 
 ### Alfredo Rodriguez Testimony
 
-**[ECF Doc. 1331-11](/sources/giuffre-v-maxwell/ecf-1331-11.pdf), filed 01/05/24:**
+**[ECF Doc. 1331-11](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-11.pdf), filed 01/05/24:**
 
 Alfredo Rodriguez, a former employee at Epstein's Palm Beach mansion, provided deposition testimony on August 7, 2009. When asked whether he told police officers that girls appeared to be 18 years or older, Rodriguez testified that he had made such statements but did so because he "was fearful of reprise from Ms. Maxwell and Mr. Epstein."
 
@@ -93,7 +93,7 @@ Court filings reference multiple Jane Doe plaintiffs who filed civil cases again
 
 ### The 2008 Non-Prosecution Agreement
 
-**[ECF Doc. 1330-1](/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/05/24:**
+**[ECF Doc. 1330-1](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf), filed 01/05/24:**
 
 According to court filings in *Jane Doe #1 and #2 v. United States*:
 
@@ -143,11 +143,11 @@ Key documents include:
 
 | Document | Description |
 |----------|-------------|
-| ECF Doc. 1331-11 | Rodriguez Deposition Testimony |
-| ECF Doc. 1331-12 | Ransome Affidavit |
-| ECF Doc. 1331-32 | Flight Log References |
-| ECF Doc. 1330-1 | CVRA Case Background |
-| ECF Doc. 1325-3 | Jane Doe Joinder Motion |
+| [ECF Doc. 1331-11](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-11.pdf) | Rodriguez Deposition Testimony |
+| [ECF Doc. 1331-12](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-12.pdf) | Ransome Affidavit |
+| [ECF Doc. 1331-32](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf) | Flight Log References |
+| [ECF Doc. 1330-1](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | CVRA Case Background |
+| [ECF Doc. 1325-3](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf) | Jane Doe Joinder Motion |
 
 ---
 

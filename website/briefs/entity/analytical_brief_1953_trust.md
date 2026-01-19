@@ -260,10 +260,10 @@ This brief is based on analysis of the following sources:
 
 | Document | Description |
 |----------|-------------|
-| Jeffrey Epstein Estate Probate Report | Compiled analysis of USVI Superior Court Case No. ST-21-RV-00005 |
+| [Jeffrey Epstein Estate Probate Report](https://www.vicourts.org/workspaces/One.aspx?objectId=16911882&contextId=15978985) | Compiled analysis of USVI Superior Court Case No. ST-21-RV-00005 |
 | Last Will and Testament of Jeffrey E. Epstein | Signed August 8, 2019; filed with USVI probate court |
-| USVI v. Epstein Estate (Second Amended Complaint) | Government allegations against estate and executors |
-| USVI Settlement Agreement | December 2022 settlement terms ($105M+) |
+| [USVI v. Epstein Estate (Second Amended Complaint)](https://usvidoj.com/u-s-virgin-islands-attorney-general-settles-sex-trafficking-case-against-estate-of-jeffrey-epstein-and-co-defendants-for-over-105-million/) | Government allegations against estate and executors |
+| [USVI Settlement Agreement](https://www.npr.org/2022/12/01/1140096222/jeffrey-epsteins-estate-reaches-a-105m-settlement-with-the-u-s-virgin-islands) | December 2022 settlement terms ($105M+) |
 | Epstein Financial Master Timeline | Compiled chronology of estate events |
 
 ---

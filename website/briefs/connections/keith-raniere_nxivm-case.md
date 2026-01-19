@@ -81,11 +81,11 @@ The case has broader implications for understanding and identifying organization
 |--------|-------------|
 | [United States v. Raniere, 18-CR-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Federal criminal case docket |
 | [Superseding Indictment](https://www.justice.gov/usao-edny/press-release/file/1046381/download) | Formal charging document |
-| Trial Transcripts | Complete record of trial proceedings |
-| Verdict Form | Jury verdict on all counts |
-| Sentencing Transcript | October 27, 2020 sentencing hearing |
+| [Trial Transcripts - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Complete record of trial proceedings |
+| [Verdict - DOJ Press Release](https://www.justice.gov/usao-edny/pr/jury-finds-nxivm-leader-keith-raniere-guilty-all-counts) | Jury verdict on all counts |
+| [Sentencing Transcript - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | October 27, 2020 sentencing hearing |
 | [Judgment and Commitment Order](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Final sentencing order |
-| Notice of Appeal | Appellate filings |
+| [Notice of Appeal - CourtListener](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Appellate filings |
 | [DOJ Press Release - Sentencing](https://www.justice.gov/usao-edny/pr/nxivm-leader-keith-raniere-sentenced-120-years-prison-racketeering-and-sex-trafficking) | Official Department of Justice announcements |
 
 ---

@@ -39,11 +39,11 @@ The documents analyzed herein relate to matters of significant public concern. E
 
 ### Appearances in Court Documents
 
-**[ECF Doc. 1320-13](/sources/giuffre-v-maxwell/ecf-1320-13.pdf), filed 01/03/24**:
+**[ECF Doc. 1320-13](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-13.pdf), filed 01/03/24**:
 
 Court filing referencing El Zorro Ranch.
 
-**[ECF Doc. 1328-44](/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/05/24**:
+**[ECF Doc. 1328-44](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf), filed 01/05/24**:
 
 Additional court reference to the property.
 
@@ -117,8 +117,8 @@ All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|
-| 1320-13 | 01/03/24 | Court Filing |
-| 1328-44 | 01/05/24 | Court Filing |
+| [1320-13](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-13.pdf) | 01/03/24 | Court Filing |
+| [1328-44](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf) | 01/05/24 | Court Filing |
 
 ---
 

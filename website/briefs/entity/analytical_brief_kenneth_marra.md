@@ -176,6 +176,10 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 This brief is based on 7 documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.), that reference Judge Marra, as well as publicly reported judicial rulings.
 
+**Related Cases:**
+- [Doe v. United States, No. 9:08-cv-80736 (S.D. Fla.) - CourtListener](https://www.courtlistener.com/docket/4502088/doe-v-united-states/) - The CVRA case over which Judge Marra presided
+- [DOJ Case Records Page](https://www.justice.gov/epstein/court-records/doe-v-united-states-no-908-cv-80736-sd-fla-2008) - DOJ archive of case documents
+
 | Document | Description |
 |----------|-------------|
 | [ECF Doc. 1320-9](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-9.pdf) | Jane Doe #3 and #4 Motion for Joinder (December 30, 2014) |

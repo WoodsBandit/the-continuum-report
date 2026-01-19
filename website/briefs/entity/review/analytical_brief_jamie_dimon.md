@@ -195,11 +195,11 @@ Key documents include:
 | Document | Description |
 |----------|-------------|
 | [USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) | Original complaint filed 12/27/22 |
-| USVI v. JPMorgan Second Amended Complaint | April 2023 filing with Staley-Epstein emails |
-| Jane Doe 1 v. JPMorgan Settlement | $290 million class action settlement (June 2023) |
-| USVI v. JPMorgan Settlement | $75 million government settlement (September 2023) |
-| OCC Consent Order (January 2013) | Bank-wide BSA/AML compliance failures |
-| OCC Penalty Order (January 2014) | $350 million civil penalty |
+| [USVI v. JPMorgan Second Amended Complaint](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | April 2023 filing with Staley-Epstein emails |
+| [Jane Doe 1 v. JPMorgan Settlement](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | $290 million class action settlement (June 2023) |
+| [USVI v. JPMorgan Settlement](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | $75 million government settlement (September 2023) |
+| [OCC Consent Order (January 2013)](https://www.occ.treas.gov/news-issuances/news-releases/2013/nr-occ-2013-8.html) | Bank-wide BSA/AML compliance failures |
+| [OCC Penalty Order (January 2014)](https://www.occ.treas.gov/news-issuances/news-releases/2014/nr-occ-2014-1.html) | $350 million civil penalty |
 
 ---
 

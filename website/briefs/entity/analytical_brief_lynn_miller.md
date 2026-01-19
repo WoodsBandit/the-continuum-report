@@ -115,7 +115,7 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 
 ## Source Documents
 
-All documents are from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.):
+All documents are from [*Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/):
 
 | ECF Doc. No. | Filed | Document Description |
 |--------------|-------|---------------------|

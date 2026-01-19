@@ -146,10 +146,10 @@ Key documents include:
 
 | Document | Description |
 |----------|-------------|
-| Complaint | Initial filing alleging TVPA violations |
-| NYSDFS Consent Order (July 6, 2020) | Regulatory findings and $150 million penalty |
+| [Complaint](https://www.courtlistener.com/docket/65893857/doe-1-v-deutsche-bank-aktiengesellschaft/) | Initial filing alleging TVPA violations |
+| [NYSDFS Consent Order (July 6, 2020)](https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071) | Regulatory findings and $150 million penalty |
 | Settlement Notice | Confirmation of confidential settlement |
-| Related: USVI v. JPMorgan Complaint | Paragraphs 71-72 citing Deutsche Bank regulatory findings |
+| [Related: USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) | Paragraphs 71-72 citing Deutsche Bank regulatory findings |
 
 **Regulatory Records:**
 - New York State Department of Financial Services Consent Order, Deutsche Bank AG (July 6, 2020)

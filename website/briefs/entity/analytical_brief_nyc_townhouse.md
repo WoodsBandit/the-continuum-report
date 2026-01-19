@@ -175,7 +175,8 @@ The Continuum Report presents one analytical framework. Readers are encouraged t
 | [ECF Doc. 1320-5](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-5.pdf) | Maxwell deposition transcript |
 
 **Secondary Sources:**
-- Federal indictment, *United States v. Epstein*, No. 19-cr-490 (S.D.N.Y. 2019)
+- [Federal indictment, *United States v. Epstein*, No. 19-cr-490 (S.D.N.Y. 2019)](https://www.courtlistener.com/docket/15887848/united-states-v-epstein/) - CourtListener docket
+- [DOJ Victim Services Page - United States v. Jeffrey Epstein](https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-jeffrey-epstein-19-cr-490-rmb) - Official DOJ case page
 - Manhattan property records
 - Whitney Webb, "One Nation Under Blackmail" (2022)
 - Contemporary news reporting (2019-2021)

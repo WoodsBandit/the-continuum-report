@@ -147,7 +147,7 @@ Based on co-occurrence analysis of court documents, Palm Beach appears frequentl
 
 ## Source Documents
 
-This brief is based on documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.), and related filings.
+This brief is based on documents from [*Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/), and related filings.
 
 Key documents include:
 

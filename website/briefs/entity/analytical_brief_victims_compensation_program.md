@@ -216,6 +216,7 @@ Key documents include:
 | Document | Description |
 |----------|-------------|
 | USVI Superior Court Case No. ST-21-RV-00005 | Epstein Estate probate proceedings |
+| [USVI v. JPMorgan Complaint](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | CourtListener docket for USVI civil action against JPMorgan |
 | [USVI v. JPMorgan Settlement](https://thecontinuumreport.com/sources/financial-enablers/jpmorgan/usvi-v-jpmorgan-settlement-2023-09.pdf) | USVI settlement including estate payment details |
 | Estate Probate Reports (2020-2025) | Asset valuations and distribution records |
 | Contemporaneous News Reporting (2020-2021) | Program announcements and closure reporting |

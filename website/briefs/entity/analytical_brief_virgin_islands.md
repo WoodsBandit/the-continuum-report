@@ -196,7 +196,7 @@ This brief is based on analysis of the USVI v. JPMorgan complaint and 13 documen
 
 | Document | Description |
 |----------|-------------|
-| [USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) | 30-page complaint filed 12/27/22 detailing USVI allegations |
+| [USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) ([CourtListener docket](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/)) | 30-page complaint filed 12/27/22 detailing USVI allegations |
 | [ECF Doc. 1320-7](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-7.pdf) | Court filing referencing Virgin Islands |
 | [ECF Doc. 1320-12](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-12.pdf) | Court filing referencing Virgin Islands |
 | [ECF Doc. 1320-19](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-19.pdf) | Court filing referencing Virgin Islands |

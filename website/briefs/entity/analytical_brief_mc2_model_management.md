@@ -223,8 +223,8 @@ This brief is based on court filings, sworn depositions, and investigative repor
 | [ECF Doc. 1325-3](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf) | Joinder Motion describing Brunel and modeling agency allegations |
 | [ECF Doc. 1328-44](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf) | Deposition with Fifth Amendment invocations regarding Brunel |
 | Maritza Vasquez Deposition (2010) | Former MC2 bookkeeper testimony on Epstein investment |
-| Bloomberg (Aug 2019) | Reporting on MC2 retail clients |
-| Daily Beast (2019) | Reporting on MC2 asset sales |
+| [Bloomberg (Aug 2019)](https://www.bloomberg.com/news/articles/2019-08-17/jeffrey-epstein-linked-mc2-models-said-nordstrom-macy-s-clients-jzfhoxuy) | Reporting on MC2 retail clients |
+| [Daily Beast (Oct 2019)](https://www.thedailybeast.com/epstein-pal-jean-luc-brunel-linked-to-new-modeling-ventures-as-mc2-sells-off-assets/) | Reporting on MC2 asset sales |
 | [Modeling Agency Network Research](https://thecontinuumreport.com/sources/financial-enablers/deutsche-bank/epstein-modeling-agency-network.md) | Compiled research document |
 
 ---

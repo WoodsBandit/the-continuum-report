@@ -205,11 +205,11 @@ This brief is based on analysis of federal court filings in USVI v. JPMorgan Cha
 | Document | Description |
 |----------|-------------|
 | [USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) | Original complaint filed 12/27/22 |
-| Second Amended Complaint (April 2023) | Included unredacted Staley-Epstein emails |
-| Settlement Documents (September 2023) | $75 million USVI settlement |
-| Jane Doe 1 v. JPMorgan Settlement | $290 million class action settlement (June 2023) |
-| Court Docket | Full case record, S.D.N.Y. |
-| News Reporting | Settlement announcements and case coverage |
+| [Second Amended Complaint (April 2023)](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | Included unredacted Staley-Epstein emails |
+| [Settlement Documents (September 2023)](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | $75 million USVI settlement |
+| [Jane Doe 1 v. JPMorgan Settlement](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | $290 million class action settlement (June 2023) |
+| [Court Docket](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | Full case record, S.D.N.Y. |
+| [News Reporting (CNN, September 2023)](https://edition.cnn.com/2023/09/26/business/jpmorgan-jeffrey-epstein-us-virgin-islands) | Settlement announcements and case coverage |
 
 ---
 

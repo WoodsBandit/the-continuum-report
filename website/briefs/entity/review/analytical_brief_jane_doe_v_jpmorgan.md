@@ -210,11 +210,11 @@ This brief is based on analysis of federal court filings in Jane Doe 1 v. JPMorg
 | Document | Description |
 |----------|-------------|
 | [Jane Doe 1 v. JPMorgan Complaint](https://thecontinuumreport.com/sources/jpmorgan/jane-doe-1-v-jpmorgan-complaint-2022-11-24.pdf) | Original class action complaint filed 11/24/22 |
-| Settlement Agreement (June 2023) | $290 million class action settlement |
-| Class Certification Documents | Documents establishing class definition |
+| [Settlement Agreement (June 2023)](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | $290 million class action settlement |
+| [Class Certification Documents](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | Documents establishing class definition |
 | [USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) | Parallel USVI government complaint |
-| Court Docket | Full case record, S.D.N.Y. |
-| Settlement Distribution Documents | Class member compensation methodology |
+| [Court Docket](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | Full case record, S.D.N.Y. |
+| [Settlement Distribution Documents](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | Class member compensation methodology |
 
 ---
 

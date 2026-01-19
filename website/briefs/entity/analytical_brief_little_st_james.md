@@ -158,7 +158,7 @@ Based on court document analysis, Little St. James Island is connected to:
 
 ## Source Documents
 
-This brief is based on 7 documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433 (S.D.N.Y.), that reference Little St. James Island.
+This brief is based on 7 documents from [*Giuffre v. Maxwell*, Case No. 15-cv-07433 (S.D.N.Y.)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/), that reference Little St. James Island.
 
 | Document | Description |
 |----------|-------------|

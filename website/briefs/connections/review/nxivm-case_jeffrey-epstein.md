@@ -95,14 +95,14 @@ Despite structural parallels, these were entirely separate criminal enterprises 
 ## Source Documents
 
 ### Primary Sources
-- USA v. Raniere et al., Case No. 18-cr-204 (EDNY)
-- USA v. Maxwell, Case No. 20-cr-330 (EDNY)
-- Raniere trial transcripts (May-June 2019)
-- Maxwell trial transcripts (November-December 2021)
+- [USA v. Raniere et al., Case No. 18-cr-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/)
+- [USA v. Maxwell, Case No. 20-cr-330 (S.D.N.Y.)](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/)
+- [Raniere trial transcripts - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204)
+- [Maxwell trial transcripts - CourtListener](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/)
 
 ### Government Documents
-- DOJ press releases on both prosecutions
-- EDNY sentencing memoranda
+- [DOJ Raniere Sentencing Press Release](https://www.justice.gov/usao-edny/pr/nxivm-leader-keith-raniere-sentenced-120-years-prison-racketeering-and-sex-trafficking)
+- [DOJ Maxwell Case Page](https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell)
 
 ### Limitations
 This brief compares two separate federal cases. No evidence of operational connection exists. Analysis focuses on prosecution patterns and legal frameworks, not implied coordination between criminal enterprises.

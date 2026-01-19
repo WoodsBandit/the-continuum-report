@@ -164,7 +164,7 @@ Based on court document co-occurrence analysis:
 
 ## Source Documents
 
-This brief is based on 4 documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.).
+This brief is based on 4 documents from [*Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/).
 
 Key documents include:
 

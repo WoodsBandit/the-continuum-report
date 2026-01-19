@@ -215,7 +215,7 @@ Based on court document co-occurrence analysis:
 
 ## Source Documents
 
-This brief is based on documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.), and *United States v. Maxwell*, Case No. 20-cr-330 (S.D.N.Y.).
+This brief is based on documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433-LAP (S.D.N.Y.) ([CourtListener docket](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/)), and *United States v. Maxwell*, Case No. 20-cr-330 (S.D.N.Y.) ([CourtListener docket](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/)).
 
 Key documents include:
 

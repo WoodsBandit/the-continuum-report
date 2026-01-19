@@ -173,8 +173,8 @@ This brief is based on documents from multiple proceedings and public sources:
 | [ECF Doc. 1330-1](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-1.pdf) | Declaration of Paul G. Cassell (CVRA case history) |
 | [ECF Doc. 1331-36](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-36.pdf) | Epstein Motion to Quash (references Acosta nomination) |
 | [DOJ OPR Report](https://www.justice.gov/opr/page/file/1336471/dl) | Office of Professional Responsibility findings (Nov. 2020) |
-| Judge Marra CVRA Ruling | February 21, 2019 ruling finding CVRA violation |
-| 11th Circuit Opinion | En banc reversal of CVRA ruling (2021) |
+| [Judge Marra CVRA Ruling](https://www.courtlistener.com/docket/4502088/doe-v-united-states/) | February 21, 2019 ruling finding CVRA violation |
+| [11th Circuit Opinion](https://www.courtlistener.com/opinion/4873749/in-re-courtney-wild/) | En banc reversal of CVRA ruling (2021) |
 | News accounts | Contemporaneous reporting on July 2019 press conference |
 
 ---

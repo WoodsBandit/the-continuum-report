@@ -315,11 +315,11 @@ This brief is based on documents from *Giuffre v. Maxwell*, Case No. 15-cv-07433
 | [ECF Doc. 1325-3](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1325-3.pdf) | Joinder Motion describing Brunel relationship and modeling agency allegations |
 | [ECF Doc. 1328-44](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-44.pdf) | Deposition excerpt with Fifth Amendment invocations regarding Brunel |
 | Maritza Vasquez Deposition (2010) | Former MC2 bookkeeper testimony on Epstein investment, model housing, international scouts |
-| Virginia Giuffre Deposition (2016) | Testimony regarding Brunel, made public 2019 |
-| S.D. Fla. Complaint Filings (2014) | Racketeering allegations regarding MC2 |
+| [Virginia Giuffre Deposition (2016)](https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/) | Testimony regarding Brunel, made public 2019 |
+| [S.D. Fla. Complaint Filings (2014)](https://www.thefashionlaw.com/a-french-modeling-honcho-is-at-the-center-of-jeffrey-epsteins-web-of-underage-girls/) | Racketeering allegations regarding MC2 |
 | November 2020 Prosecutor Subpoena | Visa and immigration document requests to Brunel |
-| Bloomberg (August 2019) | Reporting on MC2 retail clients |
-| The Daily Beast (2019) | Reporting on MC2 asset sales and Brunel search |
+| [Bloomberg (August 2019)](https://www.bloomberg.com/news/articles/2019-08-17/jeffrey-epstein-linked-mc2-models-said-nordstrom-macy-s-clients-jzfhoxuy) | Reporting on MC2 retail clients |
+| [The Daily Beast (2019)](https://www.thedailybeast.com/epstein-pal-jean-luc-brunel-linked-to-new-modeling-ventures-as-mc2-sells-off-assets/) | Reporting on MC2 asset sales and Brunel search |
 | French Criminal Charges (2020-2021) | Brunel arrest and charging documents |
 
 ---

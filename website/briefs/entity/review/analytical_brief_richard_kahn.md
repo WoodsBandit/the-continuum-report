@@ -207,11 +207,11 @@ Key documents include:
 
 | Document | Description |
 |----------|-------------|
-| Last Will and Testament (August 8, 2019) | Epstein's will appointing Kahn as co-executor |
-| USVI v. Estate Amended Complaint (2020) | Government complaint naming Kahn as individual defendant |
-| USVI Settlement Agreement (December 2022) | $105+ million settlement terms |
-| Estate Probate Filings (2019-2025) | Ongoing administration records |
-| VCP Program Reports (2020-2021) | Victim compensation documentation |
+| [Last Will and Testament (August 8, 2019)](https://www.justice.gov/epstein/court-records/matter-estate-jeffrey-e-epstein-deceased-no-st-21-rv-00005-vi-super-ct-2021) | Epstein's will appointing Kahn as co-executor |
+| [USVI v. Estate Amended Complaint (2020)](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | Government complaint naming Kahn as individual defendant |
+| [USVI Settlement Agreement (December 2022)](https://usvidoj.com/u-s-virgin-islands-attorney-general-settles-sex-trafficking-case-against-estate-of-jeffrey-epstein-and-co-defendants-for-over-105-million/) | $105+ million settlement terms |
+| [Estate Probate Filings (2019-2025)](https://www.justice.gov/epstein/court-records/matter-estate-jeffrey-e-epstein-deceased-no-st-21-rv-00005-vi-super-ct-2021) | Ongoing administration records |
+| [VCP Program Reports (2020-2021)](https://www.epsteinvcp.com/) | Victim compensation documentation |
 | House Oversight Committee Document Release (November 2025) | 20,000+ pages of estate documents |
 
 ---

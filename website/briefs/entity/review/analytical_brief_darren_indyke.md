@@ -181,11 +181,11 @@ Key documents include:
 
 | Document | Description |
 |----------|-------------|
-| Last Will and Testament (August 8, 2019) | Epstein's will naming Indyke as co-executor |
-| USVI v. Epstein Estate Amended Complaint (2020) | Government allegations against executors |
-| USVI Settlement Agreement (December 2022) | $105M+ settlement terms |
-| Dropsite News Email Cache (2005-2008) | Vetted by Distributed Denial of Secrets |
-| Estate Probate Filings (2019-2025) | Ongoing administration records |
+| [Last Will and Testament (August 8, 2019)](https://www.justice.gov/epstein/court-records/matter-estate-jeffrey-e-epstein-deceased-no-st-21-rv-00005-vi-super-ct-2021) | Epstein's will naming Indyke as co-executor |
+| [USVI v. Epstein Estate Amended Complaint (2020)](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | Government allegations against executors |
+| [USVI Settlement Agreement (December 2022)](https://usvidoj.com/u-s-virgin-islands-attorney-general-settles-sex-trafficking-case-against-estate-of-jeffrey-epstein-and-co-defendants-for-over-105-million/) | $105M+ settlement terms |
+| [Dropsite News Email Cache (2005-2008)](https://www.dropsitenews.com/p/jeffrey-epstein-leslie-abigail-wexner-pro-israel-philanthropic-foundation) | Vetted by Distributed Denial of Secrets |
+| [Estate Probate Filings (2019-2025)](https://www.justice.gov/epstein/court-records/matter-estate-jeffrey-e-epstein-deceased-no-st-21-rv-00005-vi-super-ct-2021) | Ongoing administration records |
 
 ---
 

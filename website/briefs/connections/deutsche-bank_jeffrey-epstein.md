@@ -76,8 +76,8 @@ Unlike civil litigation settlements, the Consent Order contains specific regulat
 
 | Document | Description | Source |
 |----------|-------------|--------|
-| NYSDFS Consent Order | $150 million penalty, July 2020 | Regulatory record |
-| USVI v. JPMorgan Complaint | Paragraphs 71-72 citing Deutsche Bank findings | S.D.N.Y. Case No. 1:22-cv-10904 |
+| [NYSDFS Consent Order](https://www.dfs.ny.gov/industry_guidance/enforcement_discipline/ea20200706_deutsche_bank) | $150 million penalty, July 2020 | [NY DFS Press Release](https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071) |
+| [USVI v. JPMorgan Complaint](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | Paragraphs 71-72 citing Deutsche Bank findings | S.D.N.Y. Case No. 1:22-cv-10904 |
 
 ---
 

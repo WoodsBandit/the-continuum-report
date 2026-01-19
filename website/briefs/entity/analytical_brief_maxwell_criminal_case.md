@@ -239,10 +239,12 @@ This brief is based on public records from Case No. 20 Cr. 330 (S.D.N.Y.) and re
 | Document | Description |
 |----------|-------------|
 | [DOJ Sentencing Press Release (June 28, 2022)](https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-conspiring-jeffrey-epstein-sexually-abuse) | Official announcement of 20-year sentence |
-| [Second Circuit Opinion, No. 22-1426 (Sept. 17, 2024)](https://law.justia.com/cases/federal/appellate-courts/ca2/22-1426/22-1426-2024-09-17.html) | Appellate decision affirming conviction |
+| [Second Circuit Opinion, No. 22-1426 (Sept. 17, 2024)](https://law.justia.com/cases/federal/appellate-courts/ca2/22-1426/22-1426-2024-09-17.html) ([CourtListener](https://www.courtlistener.com/docket/66672526/united-states-v-maxwell/)) | Appellate decision affirming conviction |
+| [Criminal Case Docket (CourtListener)](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/) | Full docket for Case No. 20-cr-330 (S.D.N.Y.) |
+| [DOJ Case Page](https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell) | DOJ official case information page |
 | Original Indictment (July 2, 2020) | Six-count indictment covering 1994-1997 conduct |
 | Second Superseding Indictment (April 2021) | Added sex trafficking count; expanded timeframe to 1994-2004 |
-| Trial Transcript | Record of November-December 2021 trial proceedings |
+| [Trial Transcript](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/) | Record of November-December 2021 trial proceedings |
 
 Related civil case documents providing additional context:
 

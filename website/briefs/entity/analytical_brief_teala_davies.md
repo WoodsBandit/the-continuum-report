@@ -182,7 +182,7 @@ This brief is based on publicly available court filings, news coverage, and offi
 | Document | Description |
 |----------|-------------|
 | [Statement of Teala Davies, August 27, 2019](https://www.gloriaallred.com/wp-content/uploads/2021/01/2019-08-27-Epstein-Teala-Davies.pdf) | Victim impact statement at SDNY hearing |
-| [Complaint, Davies v. Indyke, No. 1:19-cv-10788](https://justice.gov/multimedia/Court%20Records/Davies%20v.%20Indyke,%20No.%20119-cv-10788%20(S.D.N.Y.%202019)/001.pdf) | Civil complaint against Epstein estate |
+| [Complaint, Davies v. Indyke, No. 1:19-cv-10788](https://justice.gov/multimedia/Court%20Records/Davies%20v.%20Indyke,%20No.%20119-cv-10788%20(S.D.N.Y.%202019)/001.pdf) ([CourtListener docket](https://www.courtlistener.com/docket/16496453/davies-v-indyke/)) | Civil complaint against Epstein estate |
 | [CBS News - Teala Davies lawsuit coverage](https://www.cbsnews.com/news/jeffrey-epstein-sued-teala-davies-accuses-epstein-of-sexually-abusing-her-photo-shows-them-helicopter/) | News coverage of lawsuit filing |
 | [NPR - Accusers' Day in Court](https://www.npr.org/2019/08/27/754666834/despite-jeffrey-epsteins-death-his-accusers-are-getting-their-day-in-court) | Coverage of August 2019 hearing |
 | [CBS News - DOJ Epstein Files Release 2025](https://www.cbsnews.com/live-updates/epstein-files-released-2025/) | Coverage of FBI interview notes release |

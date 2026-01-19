@@ -61,7 +61,7 @@ Based on our review of court filings, the logs document that Maxwell traveled on
 
 ### David Rodgers as Log Custodian
 
-**[ECF Doc. 1328-14](/sources/giuffre-v-maxwell/ecf-1328-14.pdf), filed 01/05/24** (Deposition of David Rodgers, June 3, 2016):
+**[ECF Doc. 1328-14](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-14.pdf), filed 01/05/24** (Deposition of David Rodgers, June 3, 2016):
 
 David Rodgers, Epstein's pilot, was deposed on June 3, 2016, and testified about flight logs and passengers on Epstein's aircraft. The flight logs he maintained as a professional pilot were entered as exhibits during his deposition.
 
@@ -185,7 +185,7 @@ Key documents include:
 | [ECF Doc. 1320-6](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1320-6.pdf) | Plaintiff's Reply re Motion to Compel (cites flight log statistics) |
 | [ECF Doc. 1327-19](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1327-19.pdf) | Plaintiff's Supplement to Motion for Adverse Inference |
 | [ECF Doc. 1328-8](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-8.pdf) | Declaration referencing flight logs as Exhibit 9 |
-| ECF Doc. 1328-14 | Deposition of David Rodgers (June 3, 2016) |
+| [ECF Doc. 1328-14](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1328-14.pdf) | Deposition of David Rodgers (June 3, 2016) |
 | [ECF Doc. 1330-3](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1330-3.pdf) | Plaintiff's Rule 26 Disclosures (lists flight logs as Exhibit 6) |
 | [ECF Doc. 1331-32](https://thecontinuumreport.com/sources/giuffre-v-maxwell/ecf-1331-32.pdf) | Flight Log References |
 

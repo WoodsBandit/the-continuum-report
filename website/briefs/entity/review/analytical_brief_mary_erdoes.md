@@ -183,9 +183,9 @@ This brief is based on analysis of federal court filings in USVI v. JPMorgan Cha
 | Document | Description |
 |----------|-------------|
 | [USVI v. JPMorgan Complaint](https://thecontinuumreport.com/sources/financial-enablers/2022-USVI-V-JPMORGAN-COMPLAINT-EPSTEIN-TRAFFICKING.pdf) | Original complaint filed 12/27/22; references Erdoes by title |
-| Second Amended Complaint (April 2023) | Expanded allegations; included unredacted Staley-Epstein emails |
-| Settlement Documents (September 2023) | $75 million USVI settlement |
-| Jane Doe 1 v. JPMorgan Settlement | $290 million class action settlement (June 2023) |
+| [Second Amended Complaint (April 2023)](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | Expanded allegations; included unredacted Staley-Epstein emails |
+| [Settlement Documents (September 2023)](https://www.courtlistener.com/docket/66683865/government-of-the-united-states-virgin-islands-v-jpmorgan-chase-bank-na/) | $75 million USVI settlement |
+| [Jane Doe 1 v. JPMorgan Settlement](https://www.courtlistener.com/docket/65894178/doe-1-v-jp-morgan-chase-co/) | $290 million class action settlement (June 2023) |
 | Public corporate filings | JPMorgan organizational structure and Erdoes biography |
 
 ---

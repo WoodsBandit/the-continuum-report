@@ -71,8 +71,8 @@ The plea deal structure allowed Bronfman to avoid trial on racketeering charges 
 | Source | Description |
 |--------|-------------|
 | [United States v. Raniere, 18-CR-204 (E.D.N.Y.)](https://www.courtlistener.com/docket/6368930/united-states-v-raniere/) | Federal criminal case docket |
-| Bronfman Plea Agreement | Written plea agreement filed with court |
-| Sentencing Transcript | Transcript of September 30, 2020 hearing |
+| [Bronfman Plea Agreement - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Written plea agreement filed with court |
+| [Sentencing Transcript - GovInfo](https://www.govinfo.gov/app/details/USCOURTS-nyed-1_18-cr-00204) | Transcript of September 30, 2020 hearing |
 | [DOJ Press Release - Bronfman Sentencing](https://www.justice.gov/usao-edny/pr/nxivm-executive-board-member-clare-bronfman-sentenced-81-months-prison-identity-theft) | Official prosecution announcements |
 
 ---
