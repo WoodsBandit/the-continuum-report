@@ -26,6 +26,8 @@
 | **[log.md](log.md)** | Session activity log — chronological record of all Claude sessions |
 | **[MASTER_TODO_LIST.md](MASTER_TODO_LIST.md)** | Outstanding tasks and priorities |
 | **[BUGS.md](BUGS.md)** | Bug tracking (25 issues across 4 phases) |
+| **[PENDING_ENTITY_BRIEFS.md](PENDING_ENTITY_BRIEFS.md)** | Entities needing briefs |
+| **[PENDING_CONNECTION_BRIEFS.md](PENDING_CONNECTION_BRIEFS.md)** | Connections needing briefs |
 
 > **New Claude Sessions:** Start with this file, then check [log.md](log.md) for recent activity, [MASTER_TODO_LIST.md](MASTER_TODO_LIST.md) for current tasks, and [index.md](index.md) for quick navigation.
 
@@ -127,6 +129,93 @@ NO MANIFEST ENTRY = NO VISUALIZATION
 - ❌ Add entities directly to entities.json without manifest entry
 - ❌ Run build scripts that bypass manifest filtering
 - ❌ Assume all briefs should become visible entities
+
+---
+
+## Entity & Connection Workflow — MANDATORY
+
+⚠️ **Every session that creates/modifies entities or connections MUST follow this workflow.**
+
+### Tracking Files
+
+| File | Purpose |
+|------|---------|
+| **[PENDING_ENTITY_BRIEFS.md](PENDING_ENTITY_BRIEFS.md)** | Entities in entities.json without briefs |
+| **[PENDING_CONNECTION_BRIEFS.md](PENDING_CONNECTION_BRIEFS.md)** | Connections in connections.json without briefs |
+
+### Entity Workflow
+
+```
+Source Document → Extract Entity → Add to entities.json → PENDING_ENTITY_BRIEFS.md
+                                                              ↓
+                                          Create brief in website/briefs/entity/
+                                                              ↓
+                                          Remove from PENDING (auto-sync)
+```
+
+**Steps:**
+1. Extract entity from source document (ECF filing, deposition, etc.)
+2. Add to `website/data/entities.json` with proper structure
+3. Entity automatically tracked in `PENDING_ENTITY_BRIEFS.md`
+4. Create brief: `website/briefs/entity/analytical_brief_{entity_id}.md`
+5. Update pending file to remove entry
+
+### Connection Workflow
+
+```
+Source Document → Identify Connection → Add to connections.json → PENDING_CONNECTION_BRIEFS.md
+                                                                        ↓
+                                              Create brief in website/briefs/connections/
+                                                                        ↓
+                                              Remove from PENDING (auto-sync)
+```
+
+**Steps:**
+1. Identify connection between entities in source document
+2. Add to `website/data/connections.json` with evidence array
+3. Connection automatically tracked in `PENDING_CONNECTION_BRIEFS.md`
+4. Create brief: `website/briefs/connections/{entity1}_{entity2}.md` (**alphabetical order!**)
+5. Update pending file to remove entry
+
+### Connection Brief Naming Convention (CRITICAL)
+
+**Filenames MUST use alphabetically-sorted entity IDs:**
+- ✅ `alan-dershowitz_virginia-giuffre.md` (a < v)
+- ✅ `bcci_cia.md` (b < c)
+- ✅ `donald-trump_roy-cohn.md` (d < r)
+- ❌ ~~`roy-cohn_donald-trump.md`~~ (wrong order - website won't find it)
+
+### Session End Checklist
+
+Before ending any session that touched entities/connections:
+- [ ] Check `PENDING_ENTITY_BRIEFS.md` — any new entities need briefs?
+- [ ] Check `PENDING_CONNECTION_BRIEFS.md` — any new connections need briefs?
+- [ ] Verify no orphaned entries (briefs exist but still listed as pending)
+- [ ] Update pending files if briefs were created this session
+
+### Quick Audit Commands
+
+```bash
+# Find entities without briefs
+grep -l "^| " PENDING_ENTITY_BRIEFS.md | head -20
+
+# Find connections without briefs
+grep -l "^| " PENDING_CONNECTION_BRIEFS.md | head -20
+
+# Full validation (run from T:\)
+python -c "
+import json, os
+with open('website/data/entities.json') as f:
+    for e in json.load(f)['entities']:
+        path = f'website/briefs/entity/analytical_brief_{e[\"id\"].replace(\"-\",\"_\")}.md'
+        if not os.path.exists(path): print(f'Entity missing brief: {e[\"id\"]}')
+with open('website/data/connections.json') as f:
+    for c in json.load(f)['connections']:
+        ids = sorted([c['source'], c['target']])
+        path = f'website/briefs/connections/{ids[0]}_{ids[1]}.md'
+        if not os.path.exists(path): print(f'Connection missing brief: {ids[0]} <-> {ids[1]}')
+"
+```
 
 ---
 

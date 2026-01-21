@@ -2,12 +2,66 @@
 
 > Chronological record of Claude session activities, research progress, and system changes.
 
-**Last Updated:** 2026-01-18 (Session 27b)
+**Last Updated:** 2026-01-20 (Session 27c)
 **Related:** [index.md](index.md) | [CLAUDE.md](CLAUDE.md)
 
 ---
 
 ## Session Log
+
+### 2026-01-20 — Session 27c: Entity/Connection Pending Workflow System
+
+**Operator:** WoodsBandit
+**Duration:** ~30 minutes
+**Primary Task:** Create tracking system for pending entity and connection briefs
+
+#### Summary
+
+Established a workflow system to track entities and connections that need briefs created. This prevents orphaned entries in JSON files without corresponding documentation.
+
+#### Changes Made
+
+**New Files Created:**
+- `T:\PENDING_ENTITY_BRIEFS.md` — Tracks entities in entities.json without briefs
+- `T:\PENDING_CONNECTION_BRIEFS.md` — Tracks connections in connections.json without briefs
+
+**T:\CLAUDE.md Updated:**
+- Added "Entity & Connection Workflow — MANDATORY" section with complete workflow documentation
+- Added tracking files to Navigation section
+- Includes naming convention rules, validation commands, and session end checklist
+
+**Brief Naming Fixes (13 files created):**
+Entity briefs (7 copies for naming alignment):
+- `analytical_brief_iran_contra_case.md`
+- `analytical_brief_jpmorgan_chase_bank.md`
+- `analytical_brief_jpmorgan_epstein_case.md`
+- `analytical_brief_promis_inslaw_case.md`
+- `analytical_brief_san_francisco.md`
+- `analytical_brief_the_terramar_project.md`
+- `analytical_brief_us_treasury.md`
+
+Connection briefs (6 copies for terramar naming):
+- `bill-clinton_the-terramar-project.md`
+- `epstein-florida-case_the-terramar-project.md`
+- `ghislaine-maxwell_the-terramar-project.md`
+- `giuffre-v-maxwell-case_the-terramar-project.md`
+- `jeffrey-epstein_the-terramar-project.md`
+- `the-terramar-project_virginia-giuffre.md`
+
+#### Audit Results
+
+| Category | In JSON | Have Briefs | Pending |
+|----------|---------|-------------|---------|
+| Entities | 285 | 285 | 0 |
+| Connections | 100 | 100 | 0 |
+
+#### Workflow Established
+
+```
+Source Document → Extract → Add to JSON → PENDING file → Create Brief → Remove from PENDING
+```
+
+---
 
 ### 2026-01-18 — Session 27b: Brief Hyperlink Audit & Data Integrity Fix
 
