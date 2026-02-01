@@ -2,7 +2,7 @@
 
 > "For there is nothing hidden that will not be disclosed, and nothing concealed that will not be known or brought out into the open." — Luke 8:17
 
-**Last Updated:** 2026-01-18
+**Last Updated:** 2026-01-11
 **Tagline:** *Another Node in the Decentralized Intelligence Agency*
 
 ---
@@ -24,12 +24,10 @@
 |----------|---------|
 | **[index.md](index.md)** | Quick reference index — fast navigation to all resources |
 | **[log.md](log.md)** | Session activity log — chronological record of all Claude sessions |
-| **[MASTER_TODO_LIST.md](MASTER_TODO_LIST.md)** | Outstanding tasks and priorities |
-| **[BUGS.md](BUGS.md)** | Bug tracking (25 issues across 4 phases) |
-| **[PENDING_ENTITY_BRIEFS.md](PENDING_ENTITY_BRIEFS.md)** | Entities needing briefs |
-| **[PENDING_CONNECTION_BRIEFS.md](PENDING_CONNECTION_BRIEFS.md)** | Connections needing briefs |
+| **[entities_index.md](entities_index.md)** | Master entity index — 2,008+ entities with source citations |
+| **[agents/memos/index.md](agents/memos/index.md)** | Strategic memos — foundational directives for all sessions |
 
-> **New Claude Sessions:** Start with this file, then check [log.md](log.md) for recent activity, [MASTER_TODO_LIST.md](MASTER_TODO_LIST.md) for current tasks, and [index.md](index.md) for quick navigation.
+> **New Claude Sessions:** Start with this file, then check [log.md](log.md) for recent activity, [agents/memos/](agents/memos/) for strategic directives, and [index.md](index.md) for quick navigation.
 
 ---
 
@@ -71,7 +69,7 @@ Every analytical brief MUST include:
 - ❌ Treat Fifth Amendment as evidence of guilt
 - ❌ Publish without Alternative Interpretations section
 
-**📄 Legal templates available in: [briefs/templates/](briefs/templates/)**
+**📄 For complete legal guidelines, see: [/config/legal_framework.md](/config/legal_framework.md)**
 
 ---
 
@@ -94,10 +92,12 @@ This should be dripping through every session, every agent spawned, every decisi
 
 ### Cascade Compliance
 
-When foundational documents change (CLAUDE.md), changes must cascade:
-1. Update related documentation (index.md, MASTER_TODO_LIST.md)
-2. All downstream instructions inherit changes
+When foundational documents change (CLAUDE.md, REFERENCE.md), changes must cascade:
+1. Check `/agents/memos/` for current strategic directives
+2. All downstream agents and instructions inherit changes
 3. No orphaned instructions — the bottom follows the top
+
+**📄 For current strategic memos, see: [/agents/memos/index.md](/agents/memos/index.md)**
 
 ### Data Architecture — Source of Truth (Non-Negotiable)
 
@@ -116,106 +116,18 @@ NO MANIFEST ENTRY = NO VISUALIZATION
 **To Add a New Entity:**
 1. Create the analytical brief in `website/briefs/entity/`
 2. Add entry to `manifest.json` (curated list)
-3. Manually update `entities.json` (pipeline rebuild pending)
+3. Run `python pipeline/scripts/rebuild_entities_from_manifest.py`
 4. Update `connections.json` if adding connections
 
-**⚠️ PIPELINE STATUS: ARCHIVED**
-- Old pipeline archived to `_archive/pipeline_v1_2025/` (2026-01-14)
-- Data was stale (last updated 2025-12-26)
-- New pipeline rebuild planned
-- Manual JSON edits required until rebuild complete
+**Build Scripts:**
+- `rebuild_entities_from_manifest.py` — Rebuilds entities.json from manifest (USE THIS)
+- `build_graph.py` — Auto-filters to manifest, won't overwrite curated manifest.json
+- `build_connections_from_briefs.py` — Builds connections from connection briefs
 
 **NEVER:**
 - ❌ Add entities directly to entities.json without manifest entry
 - ❌ Run build scripts that bypass manifest filtering
 - ❌ Assume all briefs should become visible entities
-
----
-
-## Entity & Connection Workflow — MANDATORY
-
-⚠️ **Every session that creates/modifies entities or connections MUST follow this workflow.**
-
-### Tracking Files
-
-| File | Purpose |
-|------|---------|
-| **[PENDING_ENTITY_BRIEFS.md](PENDING_ENTITY_BRIEFS.md)** | Entities in entities.json without briefs |
-| **[PENDING_CONNECTION_BRIEFS.md](PENDING_CONNECTION_BRIEFS.md)** | Connections in connections.json without briefs |
-
-### Entity Workflow
-
-```
-Source Document → Extract Entity → Add to entities.json → PENDING_ENTITY_BRIEFS.md
-                                                              ↓
-                                          Create brief in website/briefs/entity/
-                                                              ↓
-                                          Remove from PENDING (auto-sync)
-```
-
-**Steps:**
-1. Extract entity from source document (ECF filing, deposition, etc.)
-2. Add to `website/data/entities.json` with proper structure
-3. Entity automatically tracked in `PENDING_ENTITY_BRIEFS.md`
-4. Create brief: `website/briefs/entity/analytical_brief_{entity_id}.md`
-5. Update pending file to remove entry
-
-### Connection Workflow
-
-```
-Source Document → Identify Connection → Add to connections.json → PENDING_CONNECTION_BRIEFS.md
-                                                                        ↓
-                                              Create brief in website/briefs/connections/
-                                                                        ↓
-                                              Remove from PENDING (auto-sync)
-```
-
-**Steps:**
-1. Identify connection between entities in source document
-2. Add to `website/data/connections.json` with evidence array
-3. Connection automatically tracked in `PENDING_CONNECTION_BRIEFS.md`
-4. Create brief: `website/briefs/connections/{entity1}_{entity2}.md` (**alphabetical order!**)
-5. Update pending file to remove entry
-
-### Connection Brief Naming Convention (CRITICAL)
-
-**Filenames MUST use alphabetically-sorted entity IDs:**
-- ✅ `alan-dershowitz_virginia-giuffre.md` (a < v)
-- ✅ `bcci_cia.md` (b < c)
-- ✅ `donald-trump_roy-cohn.md` (d < r)
-- ❌ ~~`roy-cohn_donald-trump.md`~~ (wrong order - website won't find it)
-
-### Session End Checklist
-
-Before ending any session that touched entities/connections:
-- [ ] Check `PENDING_ENTITY_BRIEFS.md` — any new entities need briefs?
-- [ ] Check `PENDING_CONNECTION_BRIEFS.md` — any new connections need briefs?
-- [ ] Verify no orphaned entries (briefs exist but still listed as pending)
-- [ ] Update pending files if briefs were created this session
-
-### Quick Audit Commands
-
-```bash
-# Find entities without briefs
-grep -l "^| " PENDING_ENTITY_BRIEFS.md | head -20
-
-# Find connections without briefs
-grep -l "^| " PENDING_CONNECTION_BRIEFS.md | head -20
-
-# Full validation (run from T:\)
-python -c "
-import json, os
-with open('website/data/entities.json') as f:
-    for e in json.load(f)['entities']:
-        path = f'website/briefs/entity/analytical_brief_{e[\"id\"].replace(\"-\",\"_\")}.md'
-        if not os.path.exists(path): print(f'Entity missing brief: {e[\"id\"]}')
-with open('website/data/connections.json') as f:
-    for c in json.load(f)['connections']:
-        ids = sorted([c['source'], c['target']])
-        path = f'website/briefs/connections/{ids[0]}_{ids[1]}.md'
-        if not os.path.exists(path): print(f'Connection missing brief: {ids[0]} <-> {ids[1]}')
-"
-```
 
 ---
 
@@ -226,9 +138,10 @@ with open('website/data/connections.json') as f:
 | Category | Count | Status |
 |----------|-------|--------|
 | **Source Documents (Public)** | 121 PDFs | ✅ Cited sources at thecontinuumreport.com/sources |
-| **Published Entities** | 285 | ✅ In website/data/entities.json |
-| **Working Briefs** | 528+ | ✅ In briefs/ (entity: 314, connections: 131, agencies: 83+) |
-| **Connections** | 103 | ✅ In website/data/connections.json |
+| **Manifest Entities** | 40 | ✅ Curated for UI display |
+| **Total Briefs** | 288+ | ✅ Research corpus (not all displayed) |
+| **Master Entity Index** | 2,008+ | ✅ See entities_index.md |
+| **Connections** | 70 | ✅ Between manifest entities only |
 | **Paperless Docs** | ~372 | ✅ OCR processed, growing |
 
 ### Major Document Collections
@@ -237,7 +150,9 @@ with open('website/data/connections.json') as f:
 - **Giuffre v. Maxwell:** 96 court documents (public, cited in briefs)
 - **Financial Enablers:** Court complaints and regulatory filings (public)
 - **Florida Case:** NPA, indictment, OPR report (public)
-- **Archived Collections:** FBI vault, congressional investigations, historical docs (in `downloads/`, not public)
+- **Archived Collections:** FBI vault, congressional investigations, historical docs (in `/archive/`, not public)
+
+**📄 For complete inventory, see: [/config/document_corpus.md](/config/document_corpus.md)**
 
 ---
 
@@ -261,7 +176,7 @@ with open('website/data/connections.json') as f:
 - **Total bank penalties:** $1.365B+
 - **Combined documented impact:** $1.436-1.555 BILLION
 
-**Timeline:** See `_archive/reports/` for historical analysis
+**Timeline:** `/reports/epstein-financial-master-timeline.md`
 
 ---
 
@@ -278,9 +193,9 @@ Four-level hierarchical model for understanding how events connect across scales
 
 ---
 
-## Directory Structure — CANONICAL
+## Directory Structure — FINAL
 
-⚠️ **READ THIS BEFORE ANY FILE OPERATIONS — Updated 2026-01-18**
+⚠️ **READ THIS BEFORE ANY FILE OPERATIONS**
 
 ### Git Tracking Policy
 
@@ -288,88 +203,109 @@ Four-level hierarchical model for understanding how events connect across scales
 
 | Tracked in Git | Local Only (not in git) |
 |----------------|------------------------|
-| `_archive/`, `briefs/`, `website/` | `downloads/` (~30GB source docs) |
-| `meeting-notes/`, `paperless/` (structure only) | `paperless/data/`, `paperless/media/` |
-| All `.md`, `.html`, `.json`, `.py` files | All `*.pdf` files |
+| `_archive/`, `agents/`, `audits/` | `database/` (Paperless mount) |
+| `docs/`, `logs/`, `pending_approval/` | `docker/` (Docker volumes) |
+| `bnis/`, `reports/`, `research/` | `downloads/` (~30GB source docs) |
+| `templates/`, `tests/`, `website/`, `work/` | `inbox/` (~18GB PDFs) |
+| | All `*.pdf` files |
 
-### Root Structure (6 directories + 7 files)
-
-```
-T:/ (\\192.168.1.139\continuum\)
-├── _archive/             # ALL historical/archived content
-├── briefs/               # WORKING briefs (research, not public)
-├── downloads/            # Source document collections (LOCAL ONLY)
-├── meeting-notes/        # Meeting notes
-├── paperless/            # Paperless-ngx integration
-├── website/              # LIVE PUBLIC WEBSITE
-├── BUGS.md               # Bug tracking
-├── CLAUDE.md             # This file (canonical project briefing)
-├── CONTRIBUTING.md       # Contribution guidelines
-├── index.md              # Quick reference index
-├── log.md                # Session activity log
-├── MASTER_TODO_LIST.md   # Master TODO list
-└── README.md             # Project README
-```
-
-### Directory Details
+### Root (15 directories)
 
 | Directory | Purpose | Git? |
 |-----------|---------|------|
-| `_archive/` | ALL archived content — backups, old briefs, pipeline v1, work sessions | ✓ |
-| `briefs/` | WORKING briefs (research corpus, not all public) | ✓ |
-| `downloads/` | Raw source documents (doj-combined, fbi-vault, house-oversight) | ✗ |
-| `meeting-notes/` | Meeting documentation | ✓ |
-| `paperless/` | Paperless-ngx mount (data/, export/, inbox/, media/) | ✗ |
-| `website/` | **LIVE PUBLIC SITE** — changes are PUBLIC immediately | ✓ |
-
-### briefs/ (Working Research)
-
-| Path | Count | Purpose |
-|------|-------|---------|
-| `briefs/agencies/` | 83+ | Agency research briefs |
-| `briefs/connections/` | 131 | Connection briefs |
-| `briefs/entity/` | 314 | Entity briefs |
-| `briefs/narratives/` | — | Narrative briefs |
-| `briefs/templates/` | 7 | Brief templates |
+| `_archive/` | Old/backup content. Archive here, nowhere else. | ✓ |
+| `agents/` | AI agent definitions and task specs | ✓ |
+| `audits/` | Completed audit reports | ✓ |
+| `database/` | Paperless mount point (don't touch) | ✗ |
+| `docker/` | Docker configs and volumes | ✗ |
+| `docs/` | ALL docs: `config/`, `infrastructure/`, `sops/` | ✓ |
+| `downloads/` | Source collections (doj-combined, fbi-vault, house-oversight) | ✗ |
+| `inbox/` | PDFs awaiting Paperless processing | ✗ |
+| `logs/` | Application logs | ✓ |
+| `pending_approval/` | Briefs awaiting review (NEVER approve same session) | ✓ |
+| `bnis/` | **Breaking News Intelligence System** — news monitoring, entity matching, approval workflow | ✓ |
+| `reports/` | Generated analysis reports | ✓ |
+| `research/` | Active research materials | ✓ |
+| `templates/` | Brief templates | ✓ |
+| `tests/` | pytest tests | ✓ |
+| `website/` | **LIVE PUBLIC SITE** | ✓ |
+| `work/` | Scratch/temp files | ✓ |
 
 ### website/ (THE LIVE SITE)
 
 | Path | Purpose |
 |------|---------|
-| `website/briefs/` | **PUBLISHED briefs** (curated subset of working briefs) |
-| `website/data/` | JSON data (entities.json, connections.json, manifest.json) |
-| `website/sources/` | Cited PDFs only (PUBLIC at thecontinuumreport.com/sources) |
-| `website/*.html` | index, about, legal, continuum pages |
-
-### _archive/ (Historical Content)
-
-| Subdirectory | Purpose |
-|--------------|---------|
-| `backups/` | Date-based .bak files (2025-12-23, 2025-12-24, etc.) |
-| `briefs/` | Old brief snapshots by date |
-| `data/` | Archived data files |
-| `misc/` | Miscellaneous archived items |
-| `pipeline_v1_2025/` | Archived pipeline v1 (stale, rebuild pending) |
-| `reports/` | Old reports |
-| `scripts/` | Archived scripts |
-| `tests/` | Archived tests |
-| `work/` | Archived work sessions |
+| `website/briefs/` | **SINGLE source of truth for ALL briefs** |
+| `website/data/` | JSON data (entities.json, connections.json) |
+| `website/sources/` | Cited PDFs only |
+| `website/continuum.html` | Main interactive UI |
 
 ### Rules
 
-1. **TWO briefs locations:** `briefs/` (working) and `website/briefs/` (published)
-2. **Archive to `_archive/`** — never create backup/, old/, dated folders elsewhere
-3. **`website/` is LIVE** — changes are PUBLIC immediately
-4. **No PDFs in git** — source docs are local only
-5. **Paperless inbox** — all new documents go to `paperless/inbox/` for OCR
+1. **ONE briefs location:** `website/briefs/` only
+2. **ONE approval queue:** `pending_approval/` only
+3. **BNIS scripts in `bnis/scripts/`** — news monitoring automation
+4. **Archive to `_archive/`** — never create backup/, old/, dated folders
+5. **`website/` is LIVE** — changes are PUBLIC immediately
+6. **No PDFs in git** — source docs are local only
+
+### Key Subdirectories
+
+| Directory | Subdirs | Purpose |
+|-----------|---------|---------|
+| `_archive/` | `briefs/`, `data/`, `misc/`, `reports/` | Consolidated backups |
+| `agents/` | `logs/`, `memos/`, `tasks/`, `themes/` | Agent system + definitions |
+| `docs/` | `config/`, `infrastructure/`, `sops/` | All documentation |
+| `bnis/` | `scripts/`, `config/`, `templates/`, `data/`, `logs/` | Breaking News Intelligence System |
+| `reports/` | `status/` | Key reports only (old → _archive) |
 
 ### Workflows
 
 ```
-PDFs:       Download → paperless/inbox/ → Paperless OCR → website/sources/ (if cited)
-Briefs:     Research → briefs/ → (review) → website/briefs/
-Archive:    Old files → _archive/{category}/
+PDFs:     Download → inbox/ → Paperless OCR → website/sources/ (if cited)
+Briefs:   Research → pending_approval/ → (new session) → website/briefs/
+Archive:  Old files → _archive/{category}/
+News:     Twitter → raw_news/ → pending_summaries/ → (approval) → website/briefs/breaking_news/
 ```
+
+---
+
+## Breaking News Intelligence System (BNIS)
+
+Automated system to monitor Twitter/X for breaking news, compile intelligence reports, match mentions to existing entities, and build connections upward through the hierarchical framework.
+
+### Components
+
+| Script | Purpose | Schedule |
+|--------|---------|----------|
+| `news_fetcher.py` | Monitor Twitter via RSSHub | Every 15 min |
+| `news_processor.py` | Analyze with Claude Code CLI | Hourly |
+| `entity_matcher.py` | Fuzzy-match to 2,008+ entities | (library) |
+| `approval_daemon.py` | Validate & approve summaries | Every 2 hrs |
+| `publish.py` | Publish to website | Every 2 hrs |
+| `hierarchy_updater.py` | Propagate Ground level | After publish |
+| `archive_old_stories.py` | Archive expired stories | Daily |
+
+### Story Lifecycle
+
+| Status | Age | Action |
+|--------|-----|--------|
+| BREAKING | <24h | High priority, Ground level badge |
+| DEVELOPING | 1-7d | Can update, may merge stories |
+| ARCHIVED | >7d | Removed from Ground level |
+| PROMOTED | 3+ connections | Queued for full analytical brief |
+
+### Key Files
+
+- **Config:** `bnis/config/news_config.json` — keywords, sources, thresholds
+- **Templates:** `bnis/templates/` — Claude Code prompts, summary format
+- **Data:** `website/data/breaking_news.json` — active stories index
+
+### Session Separation (CRITICAL)
+
+BNIS enforces the same-session rule: `news_processor.py` creates → `approval_daemon.py` (DIFFERENT session) approves.
+
+**📄 Full documentation: [bnis/README.md](bnis/README.md)**
 
 ---
 
@@ -424,7 +360,7 @@ curl -H "Authorization: Token $TOKEN" \
 - **Pages:** index, about, legal, continuum, sources
 - **Routing:** Cloudflare tunnel → continuum-web (8081)
 
-**📄 Docker configs archived in: `_archive/docker/`**
+**📄 For complete technical details, see: [/config/technical_infrastructure.md](/config/technical_infrastructure.md)**
 
 ---
 
@@ -510,7 +446,9 @@ New Document → Paperless (OCR + index) → Used in brief? → Export to /websi
 
 ## Document Acquisition — MANDATORY STANDARD ⭐
 
-**⚠️ ANY Claude session tasked with acquiring documents MUST follow:**
+**⚠️ ANY Claude session tasked with acquiring documents MUST read and follow:**
+
+**📄 [/sops/SOP-005-document-acquisition-standard.md](/sops/SOP-005-document-acquisition-standard.md)**
 
 ### The Cardinal Rule
 
@@ -545,41 +483,46 @@ Every acquisition session MUST produce:
 
 ## Agent System
 
-**Architecture:** Single Claude Code session acts as Overseer; specialized agents spawned via Task tool for parallel work.
+**Architecture:** Single Claude Code session acts as Overseer; 14 specialized agents spawned via Task tool for parallel work.
 
-### Key Agent Types
+### 14 Custom Agents
 
 | Agent | Purpose |
 |-------|---------|
-| Explore | Codebase exploration and search |
+| overseer | Meta-coordination |
+| legal-auditor | First Amendment compliance |
 | brief-generator | Full analytical briefs |
 | connection-brief-generator | Relationship documentation |
+| citation-mapper | ECF → PDF linking |
 | entity-extractor | Extract entities from docs |
+| financial-analyst | Money flow analysis |
 | document-acquisition | Download sources |
-| security-auditor | Security scanning |
-| code-reviewer | Code review and quality |
+| paperless-integrator | Paperless API integration |
+| [+5 more] | See /agents/REFERENCE.md |
 
-**Agent definitions archived in:** `_archive/misc/`
+**Agent Definitions:** `/continuum/agents/`
+**Active Tasks:** `/continuum/agents/tasks/`
 
 ---
 
-## Session State (2026-01-18)
+## Session State (2025-12-25)
 
 ### Recently Completed
 
-- ✅ Vietnam War research + primary source acquisition (Session 26)
-- ✅ Major brief processing — 40 → 285 published entities (Session 25d)
-- ✅ Archive consolidation and pipeline v1 archival (Session 25)
-- ✅ Directory structure cleanup and git tracking fix (Session 24)
+- ✅ Entity Index Manager (2,008+ entities extracted)
+- ✅ Connection Brief Template Audit (70 briefs standardized)
+- ✅ FBI Theme Complete (brief + 3 connections + timeline + FOIA templates)
+- ✅ Legal Compliance Audit (116 files fixed, liability risk VERY LOW)
+- ✅ Source Citation Audit (23 files, ~333 hyperlinks, 100% compliance)
+- ✅ Sources Archive (thecontinuumreport.com/sources LIVE)
 
 ### Active Work
 
-- [ ] DOJ 33k OCR processing (33,564 files)
-- [ ] Wexner brief update with FBI co-conspirator designation
-- [ ] Pipeline v2 rebuild
-- [ ] Cloudflare tunnel stability
+- [ ] Connection Brief Overseer Phase 2 (88 briefs queued)
+- [ ] DOJ 33k OCR processing
+- [ ] Cycle 2 document extraction
 
-**📄 For complete session history, see: [log.md](log.md)**
+**📄 For complete session history, see: [/reports/session_history.md](/reports/session_history.md)**
 
 ---
 
@@ -587,13 +530,14 @@ Every acquisition session MUST produce:
 
 | Document | Purpose |
 |----------|---------|
-| [CLAUDE.md](CLAUDE.md) | This file — complete project briefing |
-| [index.md](index.md) | Quick reference index |
-| [log.md](log.md) | Session activity log |
-| [MASTER_TODO_LIST.md](MASTER_TODO_LIST.md) | Outstanding tasks and priorities |
-| [BUGS.md](BUGS.md) | Bug tracking |
-| [briefs/templates/](briefs/templates/) | Brief templates and README |
-| [website/data/manifest.json](website/data/manifest.json) | Entity manifest (source of truth for UI) |
+| [/config/legal_framework.md](/config/legal_framework.md) | Complete legal guidelines and templates |
+| [/config/document_corpus.md](/config/document_corpus.md) | Full document inventory and acquisition list |
+| [/config/technical_infrastructure.md](/config/technical_infrastructure.md) | Server, API, container configuration |
+| [/config/file_structure.md](/config/file_structure.md) | Complete directory structure |
+| [connection_brief_reference.md](connection_brief_reference.md) | Entity/connection JSON schemas |
+| [/agents/REFERENCE.md](/agents/REFERENCE.md) | Agent system reference |
+| [/templates/README.md](/templates/README.md) | Template usage guide |
+| [/reports/session_history.md](/reports/session_history.md) | Historical session states |
 
 ---
 
@@ -642,19 +586,20 @@ This is a foundational trust principle:
 ### Procedure
 1. **Search** for completed item across all .md files:
    ```bash
-   grep -rln "TASK_KEYWORDS" T:/*.md T:/briefs/*.md
+   grep -rln "TASK_KEYWORDS" T:/*.md T:/config/*.md
    ```
 2. **Update ALL matching files** - mark `[x]`, remove from pinned lists, add dates
 3. **Update MASTER_TODO_LIST.md** (T:\ is canonical):
    - Mark item `[x]` with completion date
    - Move to COMPLETED ITEMS section
    - Update statistics
+4. **Sync** T:\MASTER_TODO_LIST.md → local copy
 
 ### Files to Check
 | File | Location | Priority |
 |------|----------|----------|
 | MASTER_TODO_LIST.md | T:\ | **Canonical** |
-| CLAUDE.md | T:\ | Update if contains item |
-| log.md | T:\ | Add session entry |
+| MASTER_TODO_LIST.md | Local | Sync from T:\ |
+| CLAUDE.md | T:\ and Local | Update if contains item |
 
 **This prevents TODO drift between files.**

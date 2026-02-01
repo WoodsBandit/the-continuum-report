@@ -1,0 +1,226 @@
+{
+  "version": "2.0",
+  "generated": "2026-01-31",
+  "description": "BNIS v2 Multi-Source Intelligence Configuration",
+
+  "global": {
+    "max_concurrent_fetches": 5,
+    "default_refresh_minutes": 30,
+    "dedup_window_hours": 48,
+    "topic_detection_threshold": 0.75
+  },
+
+  "adapters": {
+    "twitter": {
+      "enabled": true,
+      "method": "rsshub",
+      "rsshub_url": "http://192.168.1.139:1200",
+      "accounts": [
+        {"handle": "CourthouseNews", "priority": "high", "category": "legal"},
+        {"handle": "DropsiteNews", "priority": "high", "category": "investigative"},
+        {"handle": "JulieKBrown", "priority": "high", "category": "epstein"},
+        {"handle": "TheJusticeDept", "priority": "high", "category": "official"},
+        {"handle": "FBI", "priority": "medium", "category": "official"}
+      ],
+      "search_terms": [
+        "Epstein documents", "Maxwell court", "DOJ Epstein"
+      ],
+      "refresh_interval_minutes": 15
+    },
+
+    "newsapi": {
+      "enabled": false,
+      "api_key": "${NEWSAPI_KEY}",
+      "comment": "Get free key at newsapi.org",
+      "sources": [
+        "reuters", "associated-press", "bbc-news",
+        "the-new-york-times", "the-washington-post"
+      ],
+      "domains": [
+        "courthousenews.com", "lawandcrime.com",
+        "dropsitenesw.com", "mintpressnews.com"
+      ],
+      "language": "en",
+      "sort_by": "publishedAt",
+      "refresh_interval_minutes": 30,
+      "rate_limit": {
+        "requests_per_day": 100,
+        "note": "Free tier limit"
+      }
+    },
+
+    "gdelt": {
+      "enabled": true,
+      "comment": "No API key needed - free and unlimited",
+      "base_url": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "output_format": "json",
+      "max_records": 250,
+      "themes": [
+        "TAX_FNCACT_ARREST", "TAX_FNCACT_LAWSUIT",
+        "TAX_FNCACT_INVESTIGATION"
+      ],
+      "source_lang": "eng",
+      "refresh_interval_minutes": 60
+    },
+
+    "youtube": {
+      "enabled": false,
+      "api_key": "${YOUTUBE_API_KEY}",
+      "comment": "Get key from Google Cloud Console",
+      "channels": [
+        {"id": "UCYwVLVsVfD6A5kdGIH-9MCg", "name": "Law & Crime Network"},
+        {"id": "UC1DGpYiEiqBrQtYXFbLhMVQ", "name": "60 Minutes"}
+      ],
+      "search_queries": [
+        "Epstein documents", "Maxwell trial", "DOJ release"
+      ],
+      "fetch_transcripts": true,
+      "max_results_per_query": 10,
+      "max_video_age_days": 7,
+      "refresh_interval_minutes": 60,
+      "rate_limit": {
+        "units_per_day": 10000,
+        "search_cost": 100,
+        "video_details_cost": 1
+      }
+    },
+
+    "reddit": {
+      "enabled": false,
+      "client_id": "${REDDIT_CLIENT_ID}",
+      "client_secret": "${REDDIT_SECRET}",
+      "user_agent": "BNIS/2.0 (continuum intelligence)",
+      "comment": "Register app at reddit.com/prefs/apps",
+      "subreddits": [
+        {"name": "news", "priority": "high", "sort": "hot"},
+        {"name": "politics", "priority": "medium", "sort": "hot"},
+        {"name": "law", "priority": "high", "sort": "new"},
+        {"name": "conspiracy", "priority": "low", "note": "monitor for disinfo", "sort": "hot"}
+      ],
+      "include_comments": true,
+      "comment_depth": 2,
+      "min_score": 100,
+      "refresh_interval_minutes": 30,
+      "rate_limit": {
+        "requests_per_minute": 60
+      }
+    },
+
+    "rss": {
+      "enabled": true,
+      "feeds": [
+        {
+          "name": "Courthouse News",
+          "url": "https://www.courthousenews.com/feed/",
+          "category": "legal",
+          "priority": "high"
+        },
+        {
+          "name": "Law & Crime",
+          "url": "https://lawandcrime.com/feed/",
+          "category": "legal",
+          "priority": "high"
+        },
+        {
+          "name": "PACER RSS - SDNY",
+          "url": "https://ecf.nysd.uscourts.gov/cgi-bin/rss_outside.pl",
+          "category": "court",
+          "priority": "high",
+          "note": "Federal court filings"
+        }
+      ],
+      "refresh_interval_minutes": 30
+    },
+
+    "local_news": {
+      "enabled": false,
+      "markets": [
+        {
+          "name": "New York",
+          "priority": "high",
+          "outlets": [
+            {"name": "NY Times", "rss": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"},
+            {"name": "NY Post", "rss": "https://nypost.com/feed/"}
+          ]
+        },
+        {
+          "name": "South Florida",
+          "priority": "critical",
+          "note": "Key Epstein jurisdiction",
+          "outlets": [
+            {"name": "Miami Herald", "rss": "https://www.miamiherald.com/latest-news/rss"},
+            {"name": "Palm Beach Post", "rss": "https://www.palmbeachpost.com/rss/"}
+          ]
+        },
+        {
+          "name": "Washington DC",
+          "priority": "high",
+          "outlets": [
+            {"name": "Washington Post", "rss": "https://feeds.washingtonpost.com/rss/politics"},
+            {"name": "Politico", "rss": "https://www.politico.com/rss/politicopicks.xml"}
+          ]
+        }
+      ],
+      "refresh_interval_minutes": 60
+    }
+  },
+
+  "keywords": {
+    "high_priority": [
+      "Jeffrey Epstein", "Ghislaine Maxwell", "Virginia Giuffre",
+      "Les Wexner", "Alan Dershowitz", "Prince Andrew",
+      "Bill Clinton", "Donald Trump", "Jean-Luc Brunel",
+      "NXIVM", "Keith Raniere", "PROMIS", "INSLAW"
+    ],
+    "medium_priority": [
+      "court filing", "unsealed", "deposition",
+      "trafficking", "DOJ release", "FBI documents", "FOIA"
+    ],
+    "low_priority": [
+      "Florida case", "SDNY", "indictment", "grand jury"
+    ],
+    "entity_aliases": {
+      "jeffrey-epstein": ["Jeffrey Epstein", "Epstein", "JE"],
+      "ghislaine-maxwell": ["Ghislaine Maxwell", "Maxwell", "GM"],
+      "les-wexner": ["Les Wexner", "Wexner", "L Brands"],
+      "prince-andrew": ["Prince Andrew", "Duke of York"]
+    }
+  },
+
+  "topic_aggregation": {
+    "enabled": true,
+    "min_sources_for_topic": 2,
+    "fan_out_on_high_relevance": true,
+    "high_relevance_threshold": 0.8,
+    "merge_similar_stories": true,
+    "similarity_threshold": 0.85,
+    "max_stories_per_topic": 50
+  },
+
+  "thresholds": {
+    "min_relevance_score": 0.6,
+    "connection_min_strength": 50,
+    "auto_add_entity_mentions": 3,
+    "max_stories_per_hour": 25,
+    "breaking_badge_hours": 24,
+    "developing_days": 7
+  },
+
+  "legal_compliance": {
+    "require_opinion_header": true,
+    "require_public_record_section": true,
+    "require_alternative_interpretations": true,
+    "min_alt_interpretations_breaking": 3,
+    "min_alt_interpretations_full": 5,
+    "require_right_of_response": true
+  },
+
+  "output": {
+    "raw_news_dir": "raw_news",
+    "pending_summaries_dir": "pending_summaries",
+    "published_summaries_dir": "published_summaries",
+    "topic_dossiers_dir": "topic_dossiers",
+    "website_briefs_dir": "website/briefs/breaking_news",
+    "website_data_dir": "website/data"
+  }
+}
