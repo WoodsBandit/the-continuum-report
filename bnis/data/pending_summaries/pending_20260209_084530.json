@@ -1,0 +1,1079 @@
+{
+  "items": [
+    {
+      "id": "2026-02-09_gdelt_da8bb23407af",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "mirror.co.uk",
+      "source_url": "https://www.mirror.co.uk/news/us-news/rfk-jr-went-dinosaur-bone-36689473",
+      "content": {
+        "title": "RFK Jr went  dinosaur bone hunting  with paedophile Jeffrey Epstein and Ghislaine Maxwell",
+        "text": "RFK Jr went  dinosaur bone hunting  with paedophile Jeffrey Epstein and Ghislaine Maxwell",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T17:00:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.480013+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United Kingdom"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://i2-prod.mirror.co.uk/article36689656.ece/ALTERNATES/s1200/1_Trump-Makes-Announcement-From-White-Houses-Oval-Office.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "ghislaine maxwell",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-09_gdelt_54a346cd7b35",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "thedailybeast.com",
+      "source_url": "https://www.thedailybeast.com/bank-busted-moving-money-for-ghislaine-maxwell-post-jeffrey-epstein-arrest/",
+      "content": {
+        "title": "Bank Busted Moving Money for Ghislaine Maxwell After Jeffrey Epstein Arrest",
+        "text": "Bank Busted Moving Money for Ghislaine Maxwell After Jeffrey Epstein Arrest",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-09T02:15:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.480061+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.thedailybeast.com/resizer/v2/WNQC5MJBYNF7JNRNNVMAI7JRQU.png?smart=true&auth=061f1a7fd549bb960d204f4245510e4c04292845e228b4edf77b543b9c660e23"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "ghislaine maxwell",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-09_rss_ae983ace01f1",
+      "source_type": "rss",
+      "source_adapter": "rss_v2",
+      "source_name": "Law & Crime",
+      "source_url": "https://lawandcrime.com/crime/i-will-kill-him-for-the-future-notorious-jan-6-rioter-pardoned-by-trump-pleads-guilty-to-threatening-to-assassinate-high-ranking-congressman/",
+      "content": {
+        "title": "'I will kill him for the future': Notorious Jan. 6 rioter pardoned by Trump pleads guilty to threatening to assassinate high-ranking congressman",
+        "text": "Left: House Minority Leader Hakeem Jeffries, D-N.Y., speaks to reporters on day 17 of the government shutdown, at the Capitol in Washington, Friday, Oct. 17, 2025 (AP Photo/J. Scott Applewhite). Right: Christopher Moynihan during the Jan. 6 riot (FBI court filings). A New York man who received a pardon from President Donald Trump for ransacking a desk in Congress during the Jan. 6 riot is once again a convicted criminal after he admitted to threatening House Minority Leader Hakeem Jeffries. Christopher Moynihan, 35, pleaded guilty to second-degree aggravated harassment, a misdemeanor, the Dutchess County District Attorney said in a press release. As part of the plea agreement, prosecutors dropped the felony making a terrorist threat charge. District Attorney Anthony Parisi said the resolution of the case \"ensures accountability and public safety.\" \"Threats against elected officials are not political speech, they are criminal acts that strike at the heart of public safety and our democratic system. My office treats these cases with the utmost seriousness because words intended to intimidate or terrorize can have real-world consequences,\" he said. As Law&Crime previously reported, Moynihan said in text messages that he planned to \"eliminate\" Jeffries. \"Hakeem Jeffries makes a speech in a few days in NYC I cannot allow this terrorist to live,\" Moynihan wrote, according to a criminal complaint obtained by CBS News. He continued: \"Even if I am hated, he must be eliminated, I will kill him for the future,\" the complaint reportedly stated. Moynihan was referencing Jeffries' speech at the Economic Club of New York. In a statement, Jeffries deemed the threat \"credible\" and said the suspect had \"every intention to carry it out.\" \"The person arrested, along with thousands of violent felons who stormed the US Capitol during the January 6th attack, was pardoned by Donald Trump on the President's very first day in office,\" the Democratic Congressman from New York said. \"Since the blanket pardon that occurred earlier this year, many of the criminals released have committed additional crimes throughout the country. Unfortunately, our brave men and women in law enforcement are being forced to spend their time keeping our communities safe from these violent individuals who should never have been pardoned.\" Cops arrested Moynihan on Sunday and took him to the Dutchess County Justice Center on a $10,000 cash bail, a $30,000 bond, or an $80,000 partially secured bond. He is slated to appear in court on Thursday. As Law&Crime previously reported, Moynihan was memorably seen rifling through papers in the Senate chamber on Jan. 6 — insisting that there must be evidence in the papers that Donald Trump supporters could \"use against\" lawmakers voting to certify Joe Biden's electoral win. He was sentenced in February 2023 to 21 months in prison, the Justice Department announced in a press release. He was convicted in August 2022 of obstructing an official proceeding of Congress, which carried a potential 20-year prison sentence, as well as five misdemeanors of trespass and disorderly conduct that had a combined maximum of 3 1/2 years behind bars. U.S. District Judge Christopher R. Cooper, a Barack Obama appointee, convicted Moynihan after a stipulated trial, in which the defendant and prosecutors agreed to a specific set of facts that formed the basis of the conviction. Christopher Patrick Moynihan (via FBI court filings). According to that agreed-upon set of facts, Moynihan was among a group of rioters who broke through a security perimeter on the east side of the Capitol building. He entered the building at around 2:40 p.m., almost 30 minutes after the initial breach by riotous Trump supporters angry over Biden winning the 2020 presidential election. The crowd had descended on the Capitol building as Congress had begun to certify Biden's victory, forcing lawmakers and staffers to either flee or shelter in place for hours. By 2:45 p.m., Moynihan was inside the Senate Gallery, which had been evacuated just moments earlier. He is seen approaching a senator's desk and quickly rifling through a notebook. He removes papers and takes pictures with his cellphone. \"There's gotta be something in here we can f—ing use against these scumbags,\" Moynihan said as he pawed through the papers. More coverage: 'Openly mocked': Jan. 6 rioter claims he was 'wrongly' injected with 'massive levels of estrogen' that made him grow breasts while behind bars Jacob Chansley, the so-called \"QAnon shaman\" who pleaded guilty to the same obstruction charge and was sentenced to more than three years in prison, is also in the video, chanting and screaming while brandishing an American flag. Moynihan was also spotted standing near Paul Hodgkins, the first Jan. 6 defendant to plead guilty to the obstruction of an official proceeding of Congress charge — a charge the Supreme Court later said was wrongly applied to the accused rioters. Prosecutors had asked Cooper to sentence Moynihan to more than three years in prison. \"Moynihan watched as rioters attacked police trying to defend the [Rotunda] door, and continued pushing his way forward,\" the government's sentencing memo said. \"Moynihan also occupied the dais of the Senate, joining other rioters in shouts and chanting. Moynihan did not leave the Senate Chamber until he was forced out by police.\" Lawyers for Moynihan argued that he should be sentenced to one year plus one day in prison. \"He entered the Capitol with a large crowd of people, walked through the halls chanting along with others in the crowd, and walked into the Senate chamber,\" defense attorney A.J. Kramer wrote in Moynihan's brief. \"There, he looked through papers on a Senator's desk, taking video with his phone.\" Kramer added that Moynihan's \"scumbags\" line was something his client \"said to himself[.]\" In addition to the prison time, Cooper also imposed three years of supervised release and $2,000 in restitution toward the estimated $2.8 million dollars in damage to the Capitol and costs to Capitol police. Moynihan, along with other rioters, was pardoned by Trump on Jan. 20, 2025. Marisa Sarnoff contributed to this report.The post 'I will kill him for the future': Notorious Jan. 6 rioter pardoned by Trump pleads guilty to threatening to assassinate high-ranking congressman first appeared on Law & Crime.",
+        "summary": null,
+        "language": "en"
+      },
+      "metadata": {
+        "author": "David Harris",
+        "published_at": "2026-02-08T21:52:55+00:00",
+        "fetched_at": "2026-02-09T08:45:36.751383+00:00",
+        "category": "legal",
+        "tags": [
+          "Crime",
+          "death threat",
+          "Donald Trump",
+          "Jan. 6",
+          "New York",
+          "threat",
+          "threats"
+        ],
+        "location": null,
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "court filing",
+          "donald trump"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-09_gdelt_41788ed42c96",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "dallasnews.com",
+      "source_url": "https://www.dallasnews.com/news/national/2026/02/08/fbi-concluded-jeffrey-epstein-wasnt-running-sex-trafficking-ring-for-powerful-men-files-show/",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T16:45:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.481194+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/PJ6ZVM775FHC3ORMULMS6KGWKU.jpg?auth=ccde44fea567e46d373e2d4bf2bf9d5d326e98112949303eb5c3fe9553ad125f&quality=80&smart=true"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_326049e9ef1f",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "9news.com.au",
+      "source_url": "https://www.9news.com.au/world/jeffrey-epstein-not-running-sex-trafficking-ring-for-powerful-men-fbi-says/76bd71d2-d8db-409a-b732-57d0c8ba577c",
+      "content": {
+        "title": "Jeffrey Epstein : FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "Jeffrey Epstein : FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-09T00:00:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.481211+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "Australia"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://imageresizer.static9.net.au/bPwM5YCTtlHWTuGE_SKMC3pFppg=/1418x1326:5781x3781/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F4954559e-56cd-43ae-8ded-60fbd37a47c9"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_4696c60b6056",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "moneycontrol.com",
+      "source_url": "https://www.moneycontrol.com/world/ghislaine-maxwell-won-t-answer-questions-during-congressional-deposition-what-the-fifth-amendment-means-article-13818816.html",
+      "content": {
+        "title": "Ghislaine Maxwell wont answer questions during congressional deposition : What the fifth amendment means ? ",
+        "text": "Ghislaine Maxwell wont answer questions during congressional deposition : What the fifth amendment means ? ",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-09T07:45:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.481226+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "India"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://images.moneycontrol.com/static-mcnews/2025/09/20250911171508_maxwell.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "ghislaine maxwell",
+          "deposition"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_2a9ac768018f",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "wwaytv3.com",
+      "source_url": "https://www.wwaytv3.com/fbi-concluded-jeffrey-epstein-wasnt-running-a-sex-trafficking-ring-for-powerful-men-files-show/",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T23:45:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484302+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.wwaytv3.com/content/uploads/2025/11/p/u/mgn-1280x960-50716c00-saeha.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_8b4e5e628bf3",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "adn.com",
+      "source_url": "https://www.adn.com/nation-world/2026/02/08/fbi-concluded-jeffrey-epstein-wasnt-running-a-sex-trafficking-ring-for-powerful-men-files-show/",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T19:45:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484330+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.adn.com/resizer/v2/NTCTF2L5HARZORCS322EN7CIOY.jpg?smart=true&auth=73d28fd3343a1cf8d0e4ac32ad79aaa51b49db7f822e8f67ff61bd8bfcd00bc7"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_964e8a7e3adb",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "winnipegfreepress.com",
+      "source_url": "https://www.winnipegfreepress.com/world/2026/02/08/fbi-concluded-jeffrey-epstein-wasnt-running-a-sex-trafficking-ring-for-powerful-men-files-show",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show – Winnipeg Free Press",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show – Winnipeg Free Press",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T16:30:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484365+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "Canada"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_45b834dbea98",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "thehindu.com",
+      "source_url": "https://www.thehindu.com/news/international/fbi-concluded-jeffrey-epstein-wasnt-running-a-sex-trafficking-ring-for-powerful-men-files-show/article70608675.ece",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T21:15:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484403+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "India"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://th-i.thgim.com/public/incoming/d3xgpu/article70571704.ece/alternates/LANDSCAPE_1200/Justice_Department_Jeffrey_Epstein_14041.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_beb373ab3de0",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "ksl.com",
+      "source_url": "https://www.ksl.com:443/article/51445152/fbi-concluded-jeffrey-epstein-wasnt-running-a-sex-trafficking-ring-for-powerful-men-files-show",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T20:15:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484417+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://img.ksl.com/slc/3143/314373/31437379.jpg?filter=kslv2/responsive_story_lg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_e061598448d7",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "japantoday.com",
+      "source_url": "https://japantoday.com/category/world/fbi-concluded-jeffrey-epstein-wasn%E2%80%99t-running-a-sex-trafficking-ring-for-powerful-men-files-show",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T23:45:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484432+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "Japan"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_1c45ae74fb76",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "durangoherald.com",
+      "source_url": "https://www.durangoherald.com/articles/fbi-concluded-jeffrey-epstein-wasnt-running-a-sex-trafficking-ring-for-powerful-men-files-show/",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T16:15:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484460+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://imengine.public.prod.dur.navigacloud.com/?uuid=3c3cdd0d-f9f0-5bf3-a415-2ba59adf49f9&function=fit&type=preview"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_39e58effe4fe",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "yahoo.com",
+      "source_url": "https://www.yahoo.com/news/articles/fbi-concluded-jeffrey-epstein-wasn-153019688.html",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T16:30:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484698+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://s.yimg.com/ny/api/res/1.2/77zsmEKn0BEs_OKGhcOIqQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/4aedc984e9bd55ea6ad4b856460c1fed"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_167df1dc18b1",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "wral.com",
+      "source_url": "https://www.wral.com/news/ap/049c9-fbi-concluded-jeffrey-epstein-wasn-t-running-a-sex-trafficking-ring-for-powerful-men-files-show/",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show :: WRAL . com",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show :: WRAL . com",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T16:00:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484715+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://images.wral.com/8a27a6bd-0bbf-5185-862b-745ba63fe778"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_84ea1baafcf5",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "hindustantimes.com",
+      "source_url": "https://www.hindustantimes.com/india-news/fbi-concluded-jeffrey-epstein-wasn-t-running-a-sex-trafficking-ring-for-powerful-men-files-show-101770569100882.html",
+      "content": {
+        "title": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "text": "FBI concluded Jeffrey Epstein wasnt running a sex trafficking ring for powerful men , files show",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T21:45:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484730+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "India"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.hindustantimes.com/ht-img/img/2025/06/30/550x309/ht-generic_india1_1751287243850_1751287256749.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    },
+    {
+      "id": "2026-02-09_gdelt_b03a5cf167ad",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "oregonlive.com",
+      "source_url": "https://www.oregonlive.com/politics/2026/02/files-reveal-why-the-fbi-concluded-jeffrey-epstein-wasnt-running-a-trafficking-ring-for-powerful-men.html",
+      "content": {
+        "title": "Files reveal why the FBI concluded Jeffrey Epstein wasnt running a trafficking ring for powerful men",
+        "text": "Files reveal why the FBI concluded Jeffrey Epstein wasnt running a trafficking ring for powerful men",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-02-08T19:15:00+00:00",
+        "fetched_at": "2026-02-09T08:45:34.484744+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.oregonlive.com/resizer/v2/ROW7CJOKCJDEFJ5YZLXK5XNXEQ.jpg?auth=494acc5b51a8fc4438faef8020d143686b409aed0c263ea07a0d6ec3bdf1533b&smart=true&quality=90"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.7000000000000001,
+        "keywords_matched": [
+          "trafficking",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9700000000000002
+    }
+  ],
+  "count": 17,
+  "awaiting_approval": true,
+  "generated_at": "2026-02-09T08:45:30.023804+00:00"
+}

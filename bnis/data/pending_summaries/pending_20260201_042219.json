@@ -1,0 +1,1139 @@
+{
+  "items": [
+    {
+      "id": "2026-02-01_gdelt_fa18fac9609e",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "businesstoday.in",
+      "source_url": "https://www.businesstoday.in/world/us/story/epstein-files-bombshell-donald-trump-compromised-by-israel-claims-fbi-report-513790-2026-01-31",
+      "content": {
+        "title": "Epstein Files bombshell : Donald Trump  compromised by Israel , claims FBI report",
+        "text": "Epstein Files bombshell : Donald Trump  compromised by Israel , claims FBI report",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-31T07:00:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.140267+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "India"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202601/697d81f7b8149-setback-for-trump-fbi-report-makes-huge-allegations-against-president-311545735-16x9.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "promis",
+          "donald trump"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_e50015f41408",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "aol.co.uk",
+      "source_url": "https://www.aol.co.uk/articles/ghislaine-maxwell-claims-25-accomplices-041012643.html",
+      "content": {
+        "title": "Ghislaine Maxwell claims 25 accomplices of Jeffrey Epstein reached  secret settlements  ",
+        "text": "Ghislaine Maxwell claims 25 accomplices of Jeffrey Epstein reached  secret settlements  ",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-30T04:45:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.141934+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United Kingdom"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://s.yimg.com/cv/apiv2/aolfp/images/og-image.png"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "jeffrey epstein",
+          "ghislaine maxwell"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_d1ee667be958",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "radaronline.com",
+      "source_url": "https://radaronline.com/p/prince-andrew-jeffrey-epstein-buckingham-palace-after-house-arrest/",
+      "content": {
+        "title": "Ex - Prince Andrew Invited Jeffrey Epstein to Buckingham Palace Days After He Was Freed From House Arrest",
+        "text": "Ex - Prince Andrew Invited Jeffrey Epstein to Buckingham Palace Days After He Was Freed From House Arrest",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-31T19:30:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.142122+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://media.radaronline.com/brand-img/vgeSheRe1/1200x628/prince-andrew-jeffrey-epstein-buckingham-palace-after-house-arrest-5-1769884241618.jpg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "jeffrey epstein",
+          "prince andrew"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Prince Andrew",
+            "matched_id": "prince-andrew",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_3166a1f4898a",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "aol.com",
+      "source_url": "https://www.aol.com/articles/jeffrey-epstein-vacationing-bill-clinton-225402954.html",
+      "content": {
+        "title": "Jeffrey Epstein Vacationing With Bill Clinton Exposed in New Photos",
+        "text": "Jeffrey Epstein Vacationing With Bill Clinton Exposed in New Photos",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-31T02:00:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.142300+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://s.yimg.com/os/en/aol_ok_magazine_302/24a237365a632b371443e023864a7879"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "bill clinton",
+          "jeffrey epstein"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Bill Clinton",
+            "matched_id": "bill-clinton",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_ff71f91d5109",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "independent.co.uk",
+      "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/ghislaine-maxwell-secret-settlements-epstein-b2910600.html",
+      "content": {
+        "title": "Ghislaine Maxwell claims 25 accomplices of Jeffrey Epstein reached  secret settlements  ",
+        "text": "Ghislaine Maxwell claims 25 accomplices of Jeffrey Epstein reached  secret settlements  ",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-30T05:45:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.142330+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United Kingdom"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://static.independent.co.uk/2025/12/03/17/41/Trump-Epstein-Takeaways-3p2doy29.jpeg?&crop=1200:800"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "jeffrey epstein",
+          "ghislaine maxwell"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_d64efe2a1b9b",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "livemint.com",
+      "source_url": "https://www.livemint.com/news/us-news/donald-trumps-wife-melania-shared-close-bond-with-ghislaine-maxwell-new-epstein-files-reveal-cannot-wait-to-11769823440979.html",
+      "content": {
+        "title": "Donald Trump wife Melania shared close bond with Ghislaine Maxwell , new Epstein files reveal :  Cannot wait to …. ",
+        "text": "Donald Trump wife Melania shared close bond with Ghislaine Maxwell , new Epstein files reveal :  Cannot wait to …. ",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-31T03:30:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.142555+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "India"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.livemint.com/lm-img/img/2026/01/31/600x338/nn_1769826949396_1769826949573.jpeg"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "donald trump",
+          "ghislaine maxwell"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_f44e609a3fc7",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "nypost.com",
+      "source_url": "https://nypost.com/2026/01/29/us-news/ghislaine-maxwell-claims-25-jeffrey-epstein-accomplices-reached-secret-settlements-after-abuse-allegations-court-papers/",
+      "content": {
+        "title": "Ghislaine Maxwell claims 25 Jeffrey Epstein accomplices reached  secret settlement after abuse allegations : court papers",
+        "text": "Ghislaine Maxwell claims 25 Jeffrey Epstein accomplices reached  secret settlement after abuse allegations : court papers",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-29T19:00:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.143881+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://nypost.com/wp-content/uploads/sites/2/2026/01/ghislaine-epstein-twist-friends-doj-deals-comp.jpg?quality=75&strip=all"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "jeffrey epstein",
+          "ghislaine maxwell"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_f03ae4af3e4f",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "ibtimes.co.uk",
+      "source_url": "https://www.ibtimes.co.uk/ghislaine-maxwell-offered-prince-andrew-five-stunning-red-heads-island-newly-released-emails-1775189",
+      "content": {
+        "title": "Ghislaine Maxwell Offered Prince Andrew  Five Stunning Red Head on Island in Newly Released Emails",
+        "text": "Ghislaine Maxwell Offered Prince Andrew  Five Stunning Red Head on Island in Newly Released Emails",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-30T19:15:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.144571+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United Kingdom"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://d.ibtimes.co.uk/en/full/1787408/prince-andrew.png"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "prince andrew",
+          "ghislaine maxwell"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Prince Andrew",
+            "matched_id": "prince-andrew",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_067becb7c3fe",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "thedailybeast.com",
+      "source_url": "https://www.thedailybeast.com/jeffrey-epstein-victim-gave-bombshell-testimony-on-donald-trump-and-ghislaine-maxwell/",
+      "content": {
+        "title": "Jeffrey Epstein Victim Gave Bombshell Testimony on Donald Trump and Ghislaine Maxwell",
+        "text": "Jeffrey Epstein Victim Gave Bombshell Testimony on Donald Trump and Ghislaine Maxwell",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-31T04:00:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.144626+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "United States"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://www.thedailybeast.com/resizer/v2/CZKKF5I5HFA7TE62FCHIKOP4LY.jpg?smart=true&auth=6706b0f3e936bebb7da3cad1ad195fae9eb62a65a191a5f917b0399c3cce6bef"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "jeffrey epstein",
+          "donald trump",
+          "ghislaine maxwell"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Jeffrey Epstein",
+            "matched_id": "jeffrey-epstein",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Ghislaine Maxwell",
+            "matched_id": "ghislaine-maxwell",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 3,
+        "manifest_entities": 3,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 3
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_a9ebda6a2399",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "smh.com.au",
+      "source_url": "https://www.smh.com.au/lifestyle/family-of-prince-andrews-main-accuser-virginia-giuffre-issues-statement-20251031-p5n6pt.html",
+      "content": {
+        "title": "Family of Prince Andrew main accuser Virginia Giuffre issues statement",
+        "text": "Family of Prince Andrew main accuser Virginia Giuffre issues statement",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-30T04:15:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.144715+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "Australia"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/53945b4ba8541337017c6c14f9b5c968b7429f87"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "virginia giuffre",
+          "prince andrew"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Virginia Giuffre",
+            "matched_id": "virginia-giuffre",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Prince Andrew",
+            "matched_id": "prince-andrew",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_e602c67f882a",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "theage.com.au",
+      "source_url": "https://www.theage.com.au/lifestyle/family-of-prince-andrews-main-accuser-virginia-giuffre-issues-statement-20251031-p5n6pt.html",
+      "content": {
+        "title": "Family of Prince Andrew main accuser Virginia Giuffre issues statement",
+        "text": "Family of Prince Andrew main accuser Virginia Giuffre issues statement",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-30T04:15:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.144728+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "Australia"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/53945b4ba8541337017c6c14f9b5c968b7429f87"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "virginia giuffre",
+          "prince andrew"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Virginia Giuffre",
+            "matched_id": "virginia-giuffre",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Prince Andrew",
+            "matched_id": "prince-andrew",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_gdelt_60ef4127658a",
+      "source_type": "gdelt",
+      "source_adapter": "gdelt_v2",
+      "source_name": "brisbanetimes.com.au",
+      "source_url": "https://www.brisbanetimes.com.au/lifestyle/family-of-prince-andrews-main-accuser-virginia-giuffre-issues-statement-20251031-p5n6pt.html",
+      "content": {
+        "title": "Family of Prince Andrew main accuser Virginia Giuffre issues statement",
+        "text": "Family of Prince Andrew main accuser Virginia Giuffre issues statement",
+        "summary": null,
+        "language": "English"
+      },
+      "metadata": {
+        "author": null,
+        "published_at": "2026-01-30T04:15:00+00:00",
+        "fetched_at": "2026-02-01T04:22:26.144742+00:00",
+        "category": "news",
+        "tags": [],
+        "location": {
+          "country": "Australia"
+        },
+        "engagement": null
+      },
+      "media": {
+        "images": [
+          "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/53945b4ba8541337017c6c14f9b5c968b7429f87"
+        ],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "virginia giuffre",
+          "prince andrew"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Virginia Giuffre",
+            "matched_id": "virginia-giuffre",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Prince Andrew",
+            "matched_id": "prince-andrew",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_rss_b944b99bf2f7",
+      "source_type": "rss",
+      "source_adapter": "rss_v2",
+      "source_name": "Courthouse News",
+      "source_url": "https://www.courthousenews.com/federal-judge-blocks-trumps-new-voter-registration-requirements/",
+      "content": {
+        "title": "Federal judge blocks Trump’s new voter registration requirements",
+        "text": "WASHINGTON (CN) — A federal judge on Friday blocked the Trump administration from unilaterally imposing a series of new requirements for citizens registering to vote or applying for an absentee ballot, slamming President Donald Trump for clearly overstepping his constitutional authority. U.S. District Judge Colleen Kollar-Kotelly declared that two provisions of Trump’s March 25 executive order — seeking to impose new requirements for verifying the citizenship of people registering to vote or applying to receive absentee ballots — “are inconsistent with the constitutional separation of powers and cannot lawfully be implemented.” The Bill Clinton appointee granted partial summary judgment in a set of consolidated cases brought by the Democratic National Committee, the Democratic Governors Association, the Senate and House campaign committees, top Democratic leadership in Congress and several advocacy groups like the League of Women Voters and National Association for the Advancement of Colored People. Her order specifically blocks the Trump administration from enforcing Section 2(d) of the order, which directed agency heads to “assess citizenship” before providing voter registration forms to “enrollees of public assistance programs.” She also blocked Section 3(d), which directed Secretary of Defense Pete Hegseth to update a federal absentee voter registration and ballot request form to require documentary proof of citizenship. “These consolidated cases are about the limits of the president’s power to dictate the rules of federal elections,” Kollar-Kotelly wrote in the 110-page opinion. “The Framers of our Constitution recognized that power over elections could be abused, either to destroy the national government or to disempower the people from acting as a check on their elected representatives.” “Accordingly, they entrusted this power to the parts of our government that they believed would be most responsive to the will of the people: first to the states, and then, in some instances, to Congress,” Kollar-Kotelly continued. “They assigned no role at all to the president. Put simply, our Constitution does not allow the president to impose unilateral changes to federal election procedures.” Kollar-Kotelly explained that Congress made clear in the National Voter Registration Act that an individual registering to vote only needs to show they are a citizen by indicating as such on a registration form filed under penalty of perjury. Requiring another form to prove one’s citizenship amounts to “pre-screening,” which would be contrary to the will of Congress expressed in the 1993 statute. The Democrats — including Senate Minority Leader Chuck Schumer and House Minority Leader Hakeem Jeffries — and voter rights groups challenged Trump’s March 25 executive order, “Preserving and Protecting the Integrity of American Elections,” on March 31, in the U.S. District Court for the District of Columbia. They challenged it as an effort by the president to impose his own “design preferences” on congressionally mandated voter registration forms and wrongfully “wields federal dollars as a cudgel” to force compliance among the states. While signing the order, Trump maintained his position that there was widespread fraud during the 2020 presidential election that he lost to former President Joe Biden. “This country is so sick because of the election, the fake elections and the bad elections,” Trump said while signing the order, promising additional actions. “And we’re going to straighten it out one way or the other.” Kollar-Kotelly granted partial summary judgment to the Trump administration regarding Sections 4(a), 7(a) and 7(b), as the Democrats and rights groups had not established their challenges against those sections were ripe for the court’s review. Section 4(a) requires the Election Assistance Commission to add proof of citizenship as a requirement to its national mail voter registration form, a requirement normally left up to the states. Section 7(a) of the order instructs Attorney General Pam Bondi to coordinate with state attorneys general to prosecute noncitizens “unlawfully registered to vote or casting votes.” Section 7(b) orders the election commission to condition funding to states to prevent them from counting absentee or mail-in ballots received after Election Day. Those conditions would upend the processes of several states, such as Alabama, Idaho, Illinois, Mississippi, New Hampshire, and North Dakota, among others, who only begin counting such ballots after polls close on Election Day. Marc Elias, firm chair of the Elias Law Group and attorney for the plaintiffs, lauded Kollar-Kotelly’s ruling in a statement on X, calling it a “big win for the Democratic Party and fair elections.” Friday’s decision comes as the Trump administration has pursued other avenues to strong-arm states into adopting its concerns surrounding the 2020 election, including 24 lawsuits against states and D.C. to obtain their voter rolls, as well as an FBI raid on Georgia’s Fulton County Election and Operations Hub. During Wednesday’s raid, the FBI seized the county’s 2020 voting records while serving a search warrant that FBI Director Kash Patel said was approved by a federal judge who determined there was probable cause to conduct the search.",
+        "summary": null,
+        "language": "en"
+      },
+      "metadata": {
+        "author": "Ryan Knappenberger",
+        "published_at": "2026-01-31T01:03:37+00:00",
+        "fetched_at": "2026-02-01T04:22:26.941881+00:00",
+        "category": "legal",
+        "tags": [
+          "Elections",
+          "National",
+          "Politics"
+        ],
+        "location": null,
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "bill clinton",
+          "promis",
+          "donald trump"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Bill Clinton",
+            "matched_id": "bill-clinton",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_rss_f00206e52bb9",
+      "source_type": "rss",
+      "source_adapter": "rss_v2",
+      "source_name": "Law & Crime",
+      "source_url": "https://lawandcrime.com/high-profile/must-be-made-publicly-available-judge-dings-trump-admin-for-violating-court-order-over-access-to-hidden-spending-plans-in-win-for-transparency-groups/",
+      "content": {
+        "title": "'Must be made publicly available': Judge dings Trump admin for violating court order over access to hidden spending plans in win for transparency groups",
+        "text": "Left: Office of Management and Budget director Russell Vought testifies during a Senate Appropriations Committee hearing on the rescissions package on Capitol Hill, Wednesday, June 25, 2025, in Washington (AP Photo/Mariam Zuhaib). Center: Senior U.S. District Judge Emmet Sullivan (U.S. District Court photo). Right: President Donald Trump speaks with reporters in the Oval Office at the White House, Tuesday, Feb. 11, 2025, in Washington (AP Photo/Alex Brandon). A federal judge on Wednesday ordered the Trump administration to stop hiding information about agency spending in a matter-of-fact rebuke of the Office of Management and Budget (OMB). In the underlying litigation, Citizens for Responsibility and Ethics in Washington (CREW) and the Protect Democracy Project sued over access to the \"Public Apportionment Database,\" which was taken offline at OMB Director Russ Vought's behest in March 2025. In July 2025, Senior U.S. District Judge Emmet Sullivan, a Bill Clinton appointee, ordered the Trump administration to \"stop violating the law\" and restore access. In ruling for the plaintiffs, the court found the removal of the database violated the two prior year appropriations acts and certain provisions of the Paperwork Reduction Act. By August 2025, the database itself was back online. But, the plaintiffs quickly complained, several dozen documents in the database contain references to an \"undisclosed spend plan,\" according to an eight-page motion to enforce filed last September. Love true crime? Sign up for our newsletter, The Law&Crime Docket, to get the latest real-life crime stories delivered right to your inbox. The crux of the plaintiffs' motion is that mentioning those plans \"in legally binding footnotes\" means they are documents which \"apportion\" an appropriation under the relevant law. In other words, the non-public information is specifically about the funding in question and should be accessible within the same database. \"Stated differently, by incorporating by reference the terms in spend plans in legally binding footnotes apportioning appropriations, OMB has made the terms of the spend plans part of the apportionments,\" the motion to enforce reads. \"Thus, to comply with the statutory transparency requirements, OMB must disclose the spend plans in the Public Apportionments Database.\" In a 14-page memorandum opinion and order, Sullivan cites from Black's Law Dictionary to provide the U.S. Department of Justice with something not entirely unlike remedial legal education. From the order, at length: When a \"secondary document\" is incorporated by reference, it becomes \"part of [the] primary document.\" Moreover, \"[w]here a writing refers to another document, that other document . . . becomes constructively a part of the writing, and in that respect the two form a single instrument.\" Put otherwise, \"[t]he incorporated matter is to be interpreted as part of the writing.\" The court goes on to note that the Trump administration defendants \"fail to respond to Plaintiffs' incorporation-by-reference argument.\" And that argument, Sullivan says, is enough here. \"The Court agrees with Plaintiffs that when OMB conditions the ability of an agency to obligate funds upon OMB's agreement with the contents of a spend plan in a legally-binding footnote, OMB has incorporated-by-reference the terms of the spend plan into the apportionment and therefore the spend plan is a 'document apportioning an appropriation' that must be disclosed under the 2022 and 2023 Acts,\" the order reads. The government, for its part, argued that Joe Biden's administration similarly did not provide access to such spend plans. But, the court noted, the plaintiffs countered that the Biden administration's database documents \"rarely\" even contained such references. The court rejected the argument about the Biden precedent out of hand. In turn, the court also rejected a related defense claim that the plaintiffs waived their argument because the Biden administration established the practice of referencing undisclosed spend plans. \"[B]ecause Defendants illegally removed the database, Plaintiffs could not have known that OMB is now with significantly greater frequency incorporating spend plans by reference into apportionment documents,\" Sullivan explains. \"Plaintiffs have not waived this argument because until the illegally removed database was restored, Plaintiffs could not have known that documents 'required to be disclosed by the 2022 and 2023 Acts' were missing.\" The court then tidily summarized the issue and order: OMB has incorporated-by-reference the terms of certain spend plans in legally binding footnotes. Since the terms of such spend plans contain legally binding limits on the agencies' ability to obligate funds, the spend plans are \"documents apportioning an appropriation,\" and must be made publicly available under the 2022 and 2023 Acts and this Court's July 21, 2025, Order. Because the spend plans have not been made publicly available, Plaintiffs have not \"received all relief required by the Court's earlier order.\"The post 'Must be made publicly available': Judge dings Trump admin for violating court order over access to hidden spending plans in win for transparency groups first appeared on Law & Crime.",
+        "summary": null,
+        "language": "en"
+      },
+      "metadata": {
+        "author": "Colin Kalmbacher",
+        "published_at": "2026-01-30T22:58:07+00:00",
+        "fetched_at": "2026-02-01T04:22:27.940818+00:00",
+        "category": "legal",
+        "tags": [
+          "high profile",
+          "CREW",
+          "Donald Trump",
+          "Emmet Sullivan",
+          "OMB"
+        ],
+        "location": null,
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "bill clinton",
+          "donald trump"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Bill Clinton",
+            "matched_id": "bill-clinton",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_rss_ceb7c7e3fadf",
+      "source_type": "rss",
+      "source_adapter": "rss_v2",
+      "source_name": "Law & Crime",
+      "source_url": "https://lawandcrime.com/high-profile/they-are-not-committing-crimes-trump-admin-barred-from-arresting-legal-refugees-in-minnesota-under-new-dhs-policy-must-return-and-release-all-detainees/",
+      "content": {
+        "title": "'They are not committing crimes': Trump admin barred from arresting legal refugees in Minnesota under new DHS policy, must 'return and release' all detainees",
+        "text": "President Donald Trump speaks in the Cabinet Room of the White House, Friday, Oct. 17, 2025, in Washington (AP Photo/Alex Brandon). The Trump administration is barred from arresting and detaining legal refugees in Minnesota, a federal district court has ruled. Earlier this year, amid a widespread immigration crackdown in the Land of 10,000 Lakes, the U.S. Department of Homeland Security (DHS) — along with the U.S. Citizenship and Immigration Services (USCIS) — began an effort aimed at targeting and reexamining the legal status of some 5,600 refugees living in the state. On Jan. 18, a pseudonymous group of refugees sued over the policy in a petition for a writ of habeas corpus. Last week, the plaintiffs were joined by The Advocates for Human Rights, a Minneapolis-based nonprofit, and they moved for a temporary restraining order (TRO). To date, most of the filings in the case are under seal. On Wednesday, U.S. District Judge John Tunheim, a Bill Clinton appointee, revealed some details in a thundering 32-page memorandum opinion and order granting the plaintiffs a TRO. Love true crime? Sign up for our newsletter, The Law&Crime Docket, to get the latest real-life crime stories delivered right to your inbox. \"They are not committing crimes on our streets, nor did they illegally cross the border,\" the order reads. \"Refugees have a legal right to be in the United States, a right to work, a right to live peacefully — and importantly, a right not to be subjected to the terror of being arrested and detained without warrants or cause in their homes or on their way to religious services or to buy groceries.\" In ruling against the government, the judge preliminarily accepted several of the plaintiffs' legal arguments — particularly the claim that \"federal statutes governing refugees and immigrant detention do not permit prolonged detention of unadjusted refugees who have not been charged with any ground of removability.\" While the crux of the 53-page complaint is the Administrative Procedure Act (APA), Tunheim atypically relies on a claim under the Immigration and Nationality Act (INA) to enjoin DHS and USCIS. In the case, the Trump administration argued a section of the INA — 8 U.S.C. § 1159 — gives DHS the power to subject refugees to mandatory detention. The government cites language which provides that, after one year in the country, refugees who have not had their statuses adjusted must \"return or be returned to the custody of the Department of Homeland Security for inspection and examination.\" To hear the court tell it, the decision is something of an easy call because the statute contains no such detention authority. Rather, the court says, the \"custody\" language is simply — and only — about inspection and examination. And this process, the court notes, citing DHS guidance, should take roughly 48 hours. \"Because 8 U.S.C. § 1159 does not authorize prolonged detention of unadjusted refugees, and because the Named Plaintiffs, the putative Class, and the putative Detained Subclass are not subject to detention under [several other statutes], Plaintiffs have shown a likelihood of success on their claim that Defendants lack lawful authority to detain them,\" the order goes on. \"Section 1159 permits the inspection and examination necessary to adjudicate refugees' adjustment of status applications — nothing more.\" The court goes on to severely rubbish the government's interpretation of the \"custody\" phrase, at length (emphasis in original): [I]nterpreting the phrase \"be returned to the custody\" in § 1159(a) as mandating detention would lead to an illogical result. Because § 1159(a) makes refugees ineligible for adjustment until one year after entry, Defendants' interpretation would subject every refugee to detention, unless USCIS conducted the inspection and examination precisely at the one-year mark. That outcome is nonsensical and would cause many unadjusted refugees to celebrate their one-year anniversary in this country in a jail cell. Still, despite the lack of such authority, the complaint notes that several legal refugees have been detained under the new policy. The court's order offers relief to those detainees by directing DHS to immediately \"return and release\" all \"those refugees who are presently detained under the policy\" in Minnesota — and any refugees who were originally detained in the state but transported elsewhere. The order also contains a series of tight compliance deadlines: Within 7 days of this Order, Defendants shall file on the docket a status update concerning the status of the Detained Subclass members' release. Within 48 hours of this Order, Defendants shall produce and file under seal a list of individuals in detention that satisfy that definition of the putative Detained Subclass, as set forth in Paragraph 3 of this Order. The list must disclose the individuals' identities and their location of detention. \"At its best, America serves as a haven of individual liberties in a world too often full of tyranny and cruelty,\" Tunheim intones. \"We abandon that ideal when we subject our neighbors to fear and chaos.\"The post 'They are not committing crimes': Trump admin barred from arresting legal refugees in Minnesota under new DHS policy, must 'return and release' all detainees first appeared on Law & Crime.",
+        "summary": null,
+        "language": "en"
+      },
+      "metadata": {
+        "author": "Colin Kalmbacher",
+        "published_at": "2026-01-29T22:08:07+00:00",
+        "fetched_at": "2026-02-01T04:22:27.943437+00:00",
+        "category": "legal",
+        "tags": [
+          "high profile",
+          "Donald Trump",
+          "habeas corpus",
+          "immigration",
+          "Minnesota",
+          "Refugees"
+        ],
+        "location": null,
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.8,
+        "keywords_matched": [
+          "bill clinton",
+          "donald trump"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Donald Trump",
+            "matched_id": "donald-trump",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          },
+          {
+            "mentioned_name": "Bill Clinton",
+            "matched_id": "bill-clinton",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 2,
+        "manifest_entities": 2,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 2
+        },
+        "high_value": true
+      },
+      "intelligence_value": 1.0
+    },
+    {
+      "id": "2026-02-01_rss_f57986d87dfd",
+      "source_type": "rss",
+      "source_adapter": "rss_v2",
+      "source_name": "Courthouse News",
+      "source_url": "https://www.courthousenews.com/former-milwaukee-judge-moves-for-new-trial-acquittal-after-jury-finds-her-guilty-of-obstructing-ice/",
+      "content": {
+        "title": "Former Milwaukee judge moves for new trial, acquittal after jury finds her guilty of obstructing ICE",
+        "text": "MILWAUKEE (CN) — Former Milwaukee County Circuit Court Judge Hannah Dugan asked the court on Friday to overturn her conviction for obstructing ICE, echoing her unsuccessful pretrial motions for immunity. In December, a jury found Dugan, 66, guilty of obstructing Immigration and Customs Enforcement officers at the Milwaukee County Courthouse last spring. Jurors acquitted her of a lesser charge of concealing an individual facing deportation after a four-day trial that drew national attention. Prosecutors said Dugan intentionally split up a six-person arrest team so Eduardo Flores-Ruiz, who was in her courtroom for an unrelated pretrial hearing and had lived in the country illegally for more than a decade, could avoid arrest. She resigned in January in a letter to Wisconsin Governor Tony Evers amid pressure from state Republicans, but said she would continue fighting in federal court “for myself and for our independent judiciary.” On Friday, Dugan filed a post-trial briefing and motion asking U.S. District Judge Lynn Adelman, a Bill Clinton appointee, to overturn her conviction or order a new trial altogether. &#8220;Dugan files this motion as the first and only judge in United States history to stand trial on an indictment for wholly official, good faith acts untainted by graft, corruption or self dealing and that violated no individual constitutional right that the Reconstruction Amendments protect,&#8221; Dugan said in the 46-page filing. The filing largely echoed her legal team’s earlier argument that Dugan’s actions in April 2025 fell within her judicial duties and that she cannot be punished for discretionary official acts. She also asserted that ICE lacks authority to make arrests inside the county courthouse and that she was enforcing the law by telling officers so. The claim rests on common law and, if accepted by Lynn Adelman, could reshape how ICE operates nationwide. Dugan further said Adelman erred in responding to a jury question about whether she needed to know the identity of the person being targeted to obstruct or conceal the arrest. After reviewing the issue in chambers, Adelman gave an answer that Dugan argues misstated the law and lacked sufficient clarity. As is typical of this kind of motion, Dugan also asserted that the government failed to meet its burden and that the jury&#8217;s verdict should be overturned. Specifically, she took issue with whether the prosecution proved that she had the knowledge and intent required to obstruct. In addition to her post-trial briefing, Dugan renewed her motions to dismiss and for acquittal on the final day of trial based on her judicial immunity. Adelman had previously denied the argument pretrial. &#8220;With the full trial record now available, Dugan incorporates and relies again on her judicial immunity arguments and respectfully requests that the Court reconsider its prior rulings&#8230;The Court can certainly say as a matter of law now, after hearing the government&#8217;s case, that Dugan was entitled to immunity from this prosecution,&#8221; Dugan said in Friday&#8217;s motion. After his hearing was quickly rescheduled, Flores-Ruiz exited Dugan’s courtroom on April 18 through a jury door that led to a private hallway and back into a public hallway, where members of an ICE arrest team were waiting. No officers were inside the courtroom. According to court records and undisputed trial testimony, agents followed him out of the building and arrested him after a brief chase. In her acquittal motion, Dugan said directing Flores-Ruiz through the jury door amounted to, at most, a “trivial inconvenience,” noting it is only about 12 feet from the main courtroom exit. “Immaterial obstruction logically is no obstruction at all, certainly when someone’s liberty and reputation is at stake on a criminal charge…He emerged into the same public hallway in full view of the agents at the same time he would have emerged in any event,” Dugan said. She raised several other legal grounds for acquittal on the charges, but a bulk of the 22-page motion asserts simply that the judge did nothing wrong, and, if she did, she didn’t do it with any malice. Adelman is expected to rule on this motion after the government has had the opportunity to respond in March.",
+        "summary": null,
+        "language": "en"
+      },
+      "metadata": {
+        "author": "Destiny DeVooght",
+        "published_at": "2026-01-31T01:09:52+00:00",
+        "fetched_at": "2026-02-01T04:22:26.941688+00:00",
+        "category": "legal",
+        "tags": [
+          "Uncategorized"
+        ],
+        "location": null,
+        "engagement": null
+      },
+      "media": {
+        "images": [],
+        "video_url": null,
+        "video_transcript": null
+      },
+      "analysis": {
+        "relevance_score": 0.6000000000000001,
+        "keywords_matched": [
+          "bill clinton",
+          "indictment"
+        ],
+        "entities_detected": []
+      },
+      "entity_enrichment": {
+        "matches": [
+          {
+            "mentioned_name": "Bill Clinton",
+            "matched_id": "bill-clinton",
+            "confidence": "documented",
+            "similarity": 1.0,
+            "in_manifest": true,
+            "network": "epstein-network",
+            "entity_type": "person"
+          }
+        ],
+        "match_count": 1,
+        "manifest_entities": 1,
+        "networks": [
+          "epstein-network"
+        ],
+        "entity_types": {
+          "person": 1
+        },
+        "high_value": true
+      },
+      "intelligence_value": 0.9
+    }
+  ],
+  "count": 16,
+  "awaiting_approval": true,
+  "generated_at": "2026-02-01T04:22:19.316619+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "topics": [
+    {
+      "name": "epstein-network",
+      "networks": [
+        "epstein-network"
+      ],
+      "entities": [
+        "bill-clinton",
+        "prince-andrew",
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "virginia-giuffre",
+        "donald-trump"
+      ],
+      "item_count": 16,
+      "item_ids": [
+        "2026-02-01_gdelt_fa18fac9609e",
+        "2026-02-01_gdelt_e50015f41408",
+        "2026-02-01_gdelt_d1ee667be958",
+        "2026-02-01_gdelt_3166a1f4898a",
+        "2026-02-01_gdelt_ff71f91d5109",
+        "2026-02-01_gdelt_d64efe2a1b9b",
+        "2026-02-01_gdelt_f44e609a3fc7",
+        "2026-02-01_gdelt_f03ae4af3e4f",
+        "2026-02-01_gdelt_067becb7c3fe",
+        "2026-02-01_gdelt_a9ebda6a2399",
+        "2026-02-01_gdelt_e602c67f882a",
+        "2026-02-01_gdelt_60ef4127658a",
+        "2026-02-01_rss_b944b99bf2f7",
+        "2026-02-01_rss_f00206e52bb9",
+        "2026-02-01_rss_ceb7c7e3fadf",
+        "2026-02-01_rss_f57986d87dfd"
+      ]
+    }
+  ],
+  "count": 1
+}

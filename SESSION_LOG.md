@@ -78,6 +78,15 @@ Session resumed after context window refresh. Continued Tower reference purge:
      - rss_ae983: Jan 6 pardon follow-up (Law & Crime)
    - All follow voice guide with Alternative Interpretations
 
+6. **Directory Cleanup**
+   - Archived to `_archive/2026-02-09-cleanup/`:
+     - agents/, audits/, reports/, research/, templates/, work/, paperless/
+     - Old pending_approval content (analytical_brief_*.md, entities/)
+     - Root files: BUGS.md, PENDING_*.md, CONTRIBUTING.md
+   - Deleted empty: raw_news/
+   - Moved: pending_summaries → bnis/data/, narrative JSONs → bnis/data/pipeline_output/
+   - Clean structure: 11 essential directories remain
+
 ### Blockers
 
 - Docker requires restart for Paperless/nginx (BNIS works without it)

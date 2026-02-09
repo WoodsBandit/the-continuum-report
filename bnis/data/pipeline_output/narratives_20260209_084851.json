@@ -1,0 +1,84 @@
+{
+  "narratives": [
+    {
+      "id": "2026-02-09_gdelt_da8bb23407af",
+      "source_item": {
+        "id": "2026-02-09_gdelt_da8bb23407af",
+        "source_type": "gdelt",
+        "source_adapter": "gdelt_v2",
+        "source_name": "mirror.co.uk",
+        "source_url": "https://www.mirror.co.uk/news/us-news/rfk-jr-went-dinosaur-bone-36689473",
+        "content": {
+          "title": "RFK Jr went  dinosaur bone hunting  with paedophile Jeffrey Epstein and Ghislaine Maxwell",
+          "text": "RFK Jr went  dinosaur bone hunting  with paedophile Jeffrey Epstein and Ghislaine Maxwell",
+          "summary": null,
+          "language": "English"
+        },
+        "metadata": {
+          "author": null,
+          "published_at": "2026-02-08T17:00:00+00:00",
+          "fetched_at": "2026-02-09T08:45:34.480013+00:00",
+          "category": "news",
+          "tags": [],
+          "location": {
+            "country": "United Kingdom"
+          },
+          "engagement": null
+        },
+        "media": {
+          "images": [
+            "https://i2-prod.mirror.co.uk/article36689656.ece/ALTERNATES/s1200/1_Trump-Makes-Announcement-From-White-Houses-Oval-Office.jpg"
+          ],
+          "video_url": null,
+          "video_transcript": null
+        },
+        "analysis": {
+          "relevance_score": 0.8,
+          "keywords_matched": [
+            "ghislaine maxwell",
+            "jeffrey epstein"
+          ],
+          "entities_detected": []
+        },
+        "entity_enrichment": {
+          "matches": [
+            {
+              "mentioned_name": "Ghislaine Maxwell",
+              "matched_id": "ghislaine-maxwell",
+              "confidence": "documented",
+              "similarity": 1.0,
+              "in_manifest": true,
+              "network": "epstein-network",
+              "entity_type": "person"
+            },
+            {
+              "mentioned_name": "Jeffrey Epstein",
+              "matched_id": "jeffrey-epstein",
+              "confidence": "documented",
+              "similarity": 1.0,
+              "in_manifest": true,
+              "network": "epstein-network",
+              "entity_type": "person"
+            }
+          ],
+          "match_count": 2,
+          "manifest_entities": 2,
+          "networks": [
+            "epstein-network"
+          ],
+          "entity_types": {
+            "person": 2
+          },
+          "high_value": true
+        },
+        "intelligence_value": 1.0
+      },
+      "narrative": "I need permission to read the Continuum project files. Once you grant access, I'll be able to:\n\n1. **Read the project documentation** to understand the current state\n2. **Review recent session history** to see what's been worked on\n3. **Check priorities** from the TODO file\n\nCould you grant me permission to access the Continuum project directory (`C:\\Users\\Xx LilMan xX\\Documents\\Claude Docs\\Continuum\\`)? \n\nIn the meantime, based on your CLAUDE.md context, I understand The Continuum Report is:\n- An independent intelligence analysis publication\n- Hosted at https://thecontinuumreport.com\n- Uses Paperless OCR at localhost:8040\n- Local dev at localhost:8081\n- GitHub repo: WoodsBandit/the-continuum-report\n\nWhat would you like to work on today?",
+      "generated_at": "2026-02-09T08:48:51.509715+00:00",
+      "status": "pending_review"
+    }
+  ],
+  "count": 1,
+  "source_file": "C:\\Users\\Xx LilMan xX\\Documents\\Claude Docs\\Continuum\\pending_summaries\\pending_20260209_084530.json",
+  "generated_at": "2026-02-09T08:48:51.509964+00:00"
+}

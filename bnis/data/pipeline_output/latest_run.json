@@ -1,0 +1,74 @@
+{
+  "run_id": "20260209_084530",
+  "timestamp": "2026-02-09T08:45:30.023804+00:00",
+  "items_file": "C:\\Users\\Xx LilMan xX\\Documents\\Claude Docs\\Continuum\\bnis\\data\\pipeline_output\\enriched_items_20260209_084530.json",
+  "topics_file": "C:\\Users\\Xx LilMan xX\\Documents\\Claude Docs\\Continuum\\bnis\\data\\pipeline_output\\topics_20260209_084530.json",
+  "stats": {
+    "run_id": "20260209_084530",
+    "timestamp": "2026-02-09T08:45:30.023804+00:00",
+    "items_fetched": 255,
+    "items_relevant": 17,
+    "entities_matched": 19,
+    "high_value_items": 17,
+    "by_source": {
+      "gdelt": 250,
+      "rss": 5
+    },
+    "entities_found": {
+      "ghislaine-maxwell": {
+        "name": "Ghislaine Maxwell",
+        "count": 3,
+        "sources": [
+          "gdelt"
+        ]
+      },
+      "jeffrey-epstein": {
+        "name": "Jeffrey Epstein",
+        "count": 15,
+        "sources": [
+          "gdelt"
+        ]
+      },
+      "donald-trump": {
+        "name": "Donald Trump",
+        "count": 1,
+        "sources": [
+          "rss"
+        ]
+      }
+    },
+    "topics_detected": [
+      {
+        "name": "epstein-network",
+        "networks": [
+          "epstein-network"
+        ],
+        "entities": [
+          "ghislaine-maxwell",
+          "jeffrey-epstein",
+          "donald-trump"
+        ],
+        "item_count": 17,
+        "item_ids": [
+          "2026-02-09_gdelt_da8bb23407af",
+          "2026-02-09_gdelt_54a346cd7b35",
+          "2026-02-09_rss_ae983ace01f1",
+          "2026-02-09_gdelt_41788ed42c96",
+          "2026-02-09_gdelt_326049e9ef1f",
+          "2026-02-09_gdelt_4696c60b6056",
+          "2026-02-09_gdelt_2a9ac768018f",
+          "2026-02-09_gdelt_8b4e5e628bf3",
+          "2026-02-09_gdelt_964e8a7e3adb",
+          "2026-02-09_gdelt_45b834dbea98",
+          "2026-02-09_gdelt_beb373ab3de0",
+          "2026-02-09_gdelt_e061598448d7",
+          "2026-02-09_gdelt_1c45ae74fb76",
+          "2026-02-09_gdelt_39e58effe4fe",
+          "2026-02-09_gdelt_167df1dc18b1",
+          "2026-02-09_gdelt_84ea1baafcf5",
+          "2026-02-09_gdelt_b03a5cf167ad"
+        ]
+      }
+    ]
+  }
+}

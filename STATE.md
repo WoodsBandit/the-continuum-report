@@ -24,6 +24,14 @@ WoodsDen local hosting is being set up. Tower server is permanently gone.
 | Paperless-ngx | ⏳ Pending | Start after Docker restart |
 | Website (nginx) | ⏳ Pending | Start after Docker restart |
 
+### Directory Cleanup: COMPLETE
+
+Root directory restructured for clarity:
+- ✅ Archived old directories: agents/, audits/, reports/, research/, templates/, work/, paperless/
+- ✅ Consolidated BNIS data: pending_summaries → bnis/data/
+- ✅ Cleaned pending_approval: only new briefs remain
+- ✅ Archive location: `_archive/2026-02-09-cleanup/`
+
 ### Tower Reference Purge: COMPLETE
 
 All active code files purged of Tower (192.168.1.139) references:
@@ -31,7 +39,6 @@ All active code files purged of Tower (192.168.1.139) references:
 - ✅ Configuration files (.claude/settings.json, config.py variants)
 - ✅ Docker compose files
 - ✅ Work/extraction scripts
-- ⚠️ Markdown/JSON content files retain historical references (expected)
 
 ### BNIS Pipeline: FULLY OPERATIONAL
 

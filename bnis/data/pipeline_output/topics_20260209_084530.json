@@ -1,0 +1,36 @@
+{
+  "topics": [
+    {
+      "name": "epstein-network",
+      "networks": [
+        "epstein-network"
+      ],
+      "entities": [
+        "ghislaine-maxwell",
+        "jeffrey-epstein",
+        "donald-trump"
+      ],
+      "item_count": 17,
+      "item_ids": [
+        "2026-02-09_gdelt_da8bb23407af",
+        "2026-02-09_gdelt_54a346cd7b35",
+        "2026-02-09_rss_ae983ace01f1",
+        "2026-02-09_gdelt_41788ed42c96",
+        "2026-02-09_gdelt_326049e9ef1f",
+        "2026-02-09_gdelt_4696c60b6056",
+        "2026-02-09_gdelt_2a9ac768018f",
+        "2026-02-09_gdelt_8b4e5e628bf3",
+        "2026-02-09_gdelt_964e8a7e3adb",
+        "2026-02-09_gdelt_45b834dbea98",
+        "2026-02-09_gdelt_beb373ab3de0",
+        "2026-02-09_gdelt_e061598448d7",
+        "2026-02-09_gdelt_1c45ae74fb76",
+        "2026-02-09_gdelt_39e58effe4fe",
+        "2026-02-09_gdelt_167df1dc18b1",
+        "2026-02-09_gdelt_84ea1baafcf5",
+        "2026-02-09_gdelt_b03a5cf167ad"
+      ]
+    }
+  ],
+  "count": 1
+}

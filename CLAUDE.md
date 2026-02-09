@@ -101,25 +101,32 @@ Continuum/
 ├── _active/            # Work in progress
 ├── _archive/           # Completed/historical
 │
+├── bnis/               # Breaking News Intelligence System
+│   ├── run_bnis.py     # Main entry point
+│   ├── config/         # News source configuration
+│   ├── data/           # Pipeline data and output
+│   └── scripts/        # Processing scripts
+│
 ├── config/             # Project configuration
-│   ├── legal_framework.md
-│   ├── voice_guide.md
-│   └── entities_master.md
+│   └── voice_guide.md  # Editorial voice guide
 │
 ├── docker/             # Infrastructure
 │   ├── docker-compose.woodsden.yml
 │   └── nginx.conf
 │
-├── pipeline/           # BNIS automation
-│   ├── bnis/
-│   └── scripts/
+├── docs/               # Documentation
+│   ├── config/         # Configuration reference
+│   ├── sops/           # Standard Operating Procedures
+│   └── infrastructure/ # Infrastructure docs
 │
-├── website/            # PUBLIC SITE
-│   ├── briefs/         # All briefs (entity/, connections/)
-│   ├── data/           # JSON data files
-│   └── sources/        # Cited PDFs
+├── pending_approval/   # Briefs awaiting review
+├── pipeline/           # Processing pipeline scripts
+├── tests/              # Test suite
 │
-└── docs/               # Reference documentation
+└── website/            # PUBLIC SITE
+    ├── briefs/         # All briefs (entity/, connections/)
+    ├── data/           # JSON data files
+    └── sources/        # Cited PDFs
 ```
 
 ---
