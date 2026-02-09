@@ -2,7 +2,7 @@
 import re
 
 # Read a test file
-filepath = r"\\192.168.1.139\continuum\agents\epstein-extraction\findings\court-filings\ecf-1320-2.md"
+filepath = r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\work\epstein-extraction\findings\court-filings\ecf-1320-2.md"
 with open(filepath, 'r', encoding='utf-8') as f:
     content = f.read()
 

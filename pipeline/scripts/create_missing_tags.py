@@ -10,7 +10,7 @@ import sys
 import requests
 
 # Load from environment or .env file
-PAPERLESS_URL = os.environ.get("PAPERLESS_URL", "http://192.168.1.139:8040")
+PAPERLESS_URL = os.environ.get("PAPERLESS_URL", "http://localhost:8040")
 TOKEN = os.environ.get("PAPERLESS_TOKEN", "")
 
 if not TOKEN:

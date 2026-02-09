@@ -24,13 +24,22 @@ WoodsDen local hosting is being set up. Tower server is permanently gone.
 | Paperless-ngx | ⏳ Pending | Start after Docker restart |
 | Website (nginx) | ⏳ Pending | Start after Docker restart |
 
+### Tower Reference Purge: COMPLETE
+
+All active code files purged of Tower (192.168.1.139) references:
+- ✅ Pipeline scripts (17 files)
+- ✅ Configuration files (.claude/settings.json, config.py variants)
+- ✅ Docker compose files
+- ✅ Work/extraction scripts
+- ⚠️ Markdown/JSON content files retain historical references (expected)
+
 ### BNIS Pipeline: FULLY OPERATIONAL
 
 The Breaking News Intelligence System works without Docker:
 - News fetching (GDELT, RSS): ✅ Working
 - Entity matching: ✅ Working (3 entities found: Epstein, Maxwell, Trump)
 - Narrative generation: ✅ Working (Claude Code CLI integration fixed)
-- 17 items queued for review in `pending_approval/`
+- 3 briefs pending review in `pending_approval/`
 
 ### Next Immediate Action
 

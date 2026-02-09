@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-base = Path(r"\\192.168.1.139\continuum")
+base = Path(r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum")
 
 # Load all key files
 with open(base / "indexes" / "entity_registry_clean.json") as f:

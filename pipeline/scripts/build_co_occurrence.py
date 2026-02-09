@@ -80,7 +80,7 @@ def cross_reference_connections(pairs, connections_data, entities_data):
 
 def main():
     # Set up paths
-    base_dir = Path(r'\\192.168.1.139\continuum')
+    base_dir = Path(r'C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum')
     source_mentions_file = base_dir / 'indexes' / 'source_mentions.json'
     connections_file = base_dir / 'website' / 'data' / 'connections.json'
     entities_file = base_dir / 'website' / 'data' / 'entities.json'

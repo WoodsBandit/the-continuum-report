@@ -118,7 +118,7 @@ def main():
         # Test with actual document fetch instead of root endpoint
         test_page = client.get_documents_page(page=1, page_size=1)
         if test_page.get("count") is not None:
-            print(f"[OK] Paperless API: Connected (http://192.168.1.139:8040)")
+            print(f"[OK] Paperless API: Connected (http://localhost:8040)")
             print(f"  Total documents available: {test_page.get('count'):,}")
         else:
             print("ERROR: Paperless API returned unexpected response")

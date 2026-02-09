@@ -38,11 +38,51 @@ Append-only log of all Claude Code sessions. Most recent first.
 4. Configure Cloudflare tunnel to localhost:8081
 5. Complete directory cleanup
 
+### Continued Without Restart
+
+User chose to continue without Docker restart. Accomplished:
+
+1. **BNIS Pipeline Testing**
+   - Ran `run_bnis.py --fetch-only` - fetched 255 items, 17 relevant
+   - Entity matches: Jeffrey Epstein (15), Ghislaine Maxwell (3), Donald Trump (1)
+   - High-value items saved to `pending_summaries/`
+
+2. **Narrative Generation**
+   - Fixed Claude CLI integration (path finding, stdin piping, system prompt override)
+   - Generated 3 breaking news briefs successfully
+   - Output follows voice guide perfectly (measured language, alternative interpretations)
+
+3. **Pipeline Config Updates**
+   - Updated `pipeline/scripts/lib/config.py` - localhost URLs
+   - Updated `pipeline/scripts/.env.example` - WoodsDen settings
+
+### Session Continuation (Context Refresh)
+
+Session resumed after context window refresh. Continued Tower reference purge:
+
+4. **Complete Tower Reference Purge (All Active Code)**
+   - Fixed `pipeline/src/continuum_report/lib/config.py` - localhost URLs
+   - Fixed `.claude/settings.json` - PAPERLESS_URL to localhost
+   - Fixed 17 pipeline scripts with hardcoded Tower paths:
+     - analyze_data.py, analyze_gaps.py, build_co_occurrence.py
+     - build_source_mentions.py, validate_pipeline.py, pipeline_optimizer.py
+     - create_missing_tags.py, fix_sources.py, upload_doc.py, upload_helper.py
+     - entity_consolidator.py, invoke_claude.py, phase0_verify_and_collect.py
+     - docker-compose.pipeline.yml
+   - Fixed 3 work/epstein-extraction scripts
+
+5. **BNIS Brief Review**
+   - Verified 3 auto-generated briefs in `pending_approval/`:
+     - gdelt_54a: Maxwell bank transactions (Daily Beast)
+     - gdelt_da8: RFK Jr./Epstein connection (Mirror)
+     - rss_ae983: Jan 6 pardon follow-up (Law & Crime)
+   - All follow voice guide with Alternative Interpretations
+
 ### Blockers
 
-- Docker requires restart to be usable
+- Docker requires restart for Paperless/nginx (BNIS works without it)
 
-### Files Modified
+### Files Modified (Continued)
 
 **Session Continuity System:**
 - CLAUDE.md (rewritten as session startup guide)

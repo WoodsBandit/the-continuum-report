@@ -258,7 +258,7 @@ if __name__ == '__main__':
     consolidator = EntityConsolidator()
 
     # Process Phase 1 extractions
-    base_path = Path('//192.168.1.139/continuum/agents/epstein-extraction/findings')
+    base_path = Path('C:/Users/Xx LilMan xX/Documents/Claude Docs/Continuum/work/epstein-extraction/findings')
 
     # Court filings
     court_filings = base_path / 'court-filings'
@@ -271,7 +271,7 @@ if __name__ == '__main__':
         consolidator.process_directory(criminal_case)
 
     # Generate outputs
-    output_dir = Path('//192.168.1.139/continuum/agents/tasks')
+    output_dir = Path('C:/Users/Xx LilMan xX/Documents/Claude Docs/Continuum/work/tasks')
 
     # Markdown report
     report = consolidator.generate_report()

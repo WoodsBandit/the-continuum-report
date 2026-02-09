@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 
 # Define paths
-base_path = Path(r"\\192.168.1.139\continuum")
+base_path = Path(r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum")
 entity_registry_path = base_path / "indexes" / "entity_registry.json"
 co_occurrence_path = base_path / "indexes" / "co_occurrence.json"
 curated_entities_path = base_path / "website" / "data" / "entities.json"

@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timezone
 
 # Define paths
-BASE_PATH = Path(r"\\192.168.1.139\continuum")
+BASE_PATH = Path(r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum")
 INDEXES_PATH = BASE_PATH / "indexes"
 REPORTS_PATH = BASE_PATH / "reports"
 WORK_PATH = BASE_PATH / "work"

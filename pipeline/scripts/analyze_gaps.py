@@ -284,7 +284,7 @@ def generate_report(entity_registry, source_mentions, co_occurrence, connections
 
 
 def main():
-    base_dir = Path(r'\\192.168.1.139\continuum')
+    base_dir = Path(r'C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum')
 
     print("Loading data files...")
 

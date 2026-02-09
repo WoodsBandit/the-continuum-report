@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 
 # Load from environment - no hardcoded secrets
-PAPERLESS_URL = os.environ.get("PAPERLESS_URL", "http://192.168.1.139:8040")
+PAPERLESS_URL = os.environ.get("PAPERLESS_URL", "http://localhost:8040")
 API_TOKEN = os.environ.get("PAPERLESS_TOKEN", "")
 
 if not API_TOKEN:

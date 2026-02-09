@@ -19,7 +19,7 @@ Usage:
         print(f"Error: {result.error}")
 
 Environment:
-    CONTINUUM_BASE_DIR - Base directory (default: //192.168.1.139/continuum)
+    CONTINUUM_BASE_DIR - Base directory (default: C:/Users/Xx LilMan xX/Documents/Claude Docs/Continuum)
 """
 
 import json
@@ -46,7 +46,7 @@ logger = get_logger("invoke_claude")
 
 # Base directory for continuum
 # Use environment variable or default to Unraid path
-BASE_DIR = Path(os.environ.get("CONTINUUM_BASE_DIR", "/mnt/user/continuum"))
+BASE_DIR = Path(os.environ.get("CONTINUUM_BASE_DIR", "C:/Users/Xx LilMan xX/Documents/Claude Docs/Continuum"))
 
 # SOP file mapping
 SOP_FILES = {

@@ -9,8 +9,8 @@ from collections import defaultdict
 from pathlib import Path
 
 # Directories to process
-COURT_FILINGS = r"\\192.168.1.139\continuum\agents\epstein-extraction\findings\court-filings"
-CRIMINAL_CASE = r"\\192.168.1.139\continuum\agents\epstein-extraction\findings\criminal-case"
+COURT_FILINGS = r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\work\epstein-extraction\findings\court-filings"
+CRIMINAL_CASE = r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\work\epstein-extraction\findings\criminal-case"
 
 # Entity consolidation
 entities = {
@@ -293,7 +293,7 @@ print(f"\nGenerated {len(output_content)} characters")
 print(f"People: {total_people}, Organizations: {total_orgs}, Locations: {total_locs}")
 
 # Save to file
-output_path = r"\\192.168.1.139\continuum\agents\epstein-extraction\findings\synthesis\CONSOLIDATED_ENTITIES.md"
+output_path = r"C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\work\epstein-extraction\findings\synthesis\CONSOLIDATED_ENTITIES.md"
 with open(output_path, 'w', encoding='utf-8') as f:
     f.write(output_content)
 
