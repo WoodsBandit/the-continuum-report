@@ -143,6 +143,26 @@ Generate the brief now:
     return prompt
 
 
+def find_claude_cli() -> Optional[str]:
+    """Find the Claude CLI executable."""
+    import shutil
+
+    # Check common locations
+    locations = [
+        shutil.which("claude"),
+        Path.home() / "AppData" / "Roaming" / "npm" / "claude.cmd",
+        Path.home() / "AppData" / "Roaming" / "npm" / "claude",
+        Path("/usr/local/bin/claude"),
+        Path("/usr/bin/claude"),
+    ]
+
+    for loc in locations:
+        if loc and Path(loc).exists():
+            return str(loc)
+
+    return None
+
+
 def call_claude_code(prompt: str, timeout: int = 120) -> Optional[str]:
     """
     Call Claude Code CLI with a prompt.
@@ -155,6 +175,14 @@ def call_claude_code(prompt: str, timeout: int = 120) -> Optional[str]:
         Claude's response or None on error
     """
     try:
+        # Find Claude CLI
+        claude_path = find_claude_cli()
+        if not claude_path:
+            print("Claude CLI not found. Checked: npm global, /usr/local/bin, /usr/bin")
+            return None
+
+        print(f"  Using Claude CLI: {claude_path}")
+
         # Write prompt to temp file (handles encoding better)
         temp_prompt = LOGS_DIR / "temp_prompt.txt"
         temp_prompt.parent.mkdir(parents=True, exist_ok=True)
@@ -162,13 +190,23 @@ def call_claude_code(prompt: str, timeout: int = 120) -> Optional[str]:
             f.write(prompt)
 
         # Call Claude Code CLI
-        # Using --print to get just the response
+        # Using --print for non-interactive mode, piping prompt via stdin
+        import tempfile
+        temp_dir = tempfile.gettempdir()
+
+        system_prompt = "You are a news brief writer. Output ONLY the requested markdown. No questions, no conversation, just the brief."
+
         result = subprocess.run(
-            ["claude", "--print", "-p", prompt],
+            [claude_path, "--print", "--no-session-persistence",
+             "--system-prompt", system_prompt,
+             "--tools", ""],  # Disable all tools
+            input=prompt,
             capture_output=True,
             text=True,
             timeout=timeout,
-            encoding='utf-8'
+            encoding='utf-8',
+            cwd=temp_dir,  # Run from temp to avoid project context
+            shell=True if sys.platform == 'win32' else False
         )
 
         if result.returncode == 0:
