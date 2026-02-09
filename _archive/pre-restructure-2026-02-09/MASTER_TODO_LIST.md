@@ -19,14 +19,28 @@
 
 | Status | Task | Source | Notes |
 |--------|------|--------|-------|
+| [ ] | **Complete WoodsDen local hosting setup** | log.md:2026-02-09 | Configure web server, Cloudflare tunnel, test workflow |
 | [ ] | **Update Wexner brief with FBI co-conspirator designation** | session_log:370 | Marked as CRITICAL in FBI Theme research |
-| [x] | **Fix Claude's write access to SMB share** (`\\192.168.1.139\continuum\`) | CLAUDE.md:206 | FIXED 2026-01-04 |
+| [x] | **Fix Claude's write access to SMB share** (`\\192.168.1.139\continuum\`) | CLAUDE.md:206 | DEPRECATED - now using local hosting |
 | [ ] | **OCR the DOJ 33k image-based PDFs** (33,564 files) | session_log:95, 255 | Required for searchability |
 | [ ] | **Download Epstein Estate Nov 2025 release** (~150 remaining files) | session_log:269, 419 | Contains Trump "knew about the girls" emails; partial download (64/~200) |
 
 ---
 
 ## HIGH PRIORITY
+
+### WoodsDen Local Hosting (Tower is GONE - 2026-02-09)
+
+| Status | Task | Notes |
+|--------|------|-------|
+| [x] | Update CLAUDE.md with hosting directive | Completed 2026-02-09 |
+| [x] | Update project CLAUDE.md infrastructure section | Completed 2026-02-09 |
+| [x] | Remove all Tower/T:\ references from docs | Completed 2026-02-09 |
+| [ ] | Configure local web server | `python -m http.server 8081 --directory website` |
+| [ ] | Reconfigure Cloudflare tunnel | Point to localhost:8081 |
+| [ ] | Test thecontinuumreport.com routing | Verify site loads from WoodsDen |
+| [ ] | Set up local OCR solution | Tesseract or similar (Paperless is gone) |
+| [ ] | Update deployment scripts | Remove Tower SSH commands, use local paths |
 
 ### Document Acquisition (BLOCKED/Pending)
 

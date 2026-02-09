@@ -1,0 +1,26 @@
+# Cloudflare Tunnel Configuration for WoodsDen
+# The Continuum Report - Local Hosting
+#
+# Setup Instructions:
+# 1. Install cloudflared: winget install Cloudflare.cloudflared
+# 2. Login: cloudflared tunnel login
+# 3. Create tunnel: cloudflared tunnel create continuum-woodsden
+# 4. Copy tunnel ID and update this file
+# 5. Route DNS: cloudflared tunnel route dns continuum-woodsden thecontinuumreport.com
+# 6. Run: cloudflared tunnel --config cloudflared-config.yml run
+#
+# Or use Docker (in docker-compose.woodsden.yml)
+
+tunnel: TUNNEL_ID_HERE  # Replace with your tunnel ID from step 3
+credentials-file: C:\Users\Xx LilMan xX\.cloudflared\TUNNEL_ID_HERE.json
+
+ingress:
+  # Main website
+  - hostname: thecontinuumreport.com
+    service: http://localhost:8081
+
+  - hostname: www.thecontinuumreport.com
+    service: http://localhost:8081
+
+  # Catch-all (required)
+  - service: http_status:404

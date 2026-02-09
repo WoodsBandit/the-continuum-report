@@ -1,0 +1,123 @@
+# WoodsDen Local Infrastructure
+# The Continuum Report - Full Stack
+#
+# Usage:
+#   docker-compose -f docker-compose.woodsden.yml up -d
+#
+# Services:
+#   - Paperless-ngx (OCR, document management)
+#   - Redis (Paperless backend)
+#   - PostgreSQL (Paperless database)
+#   - nginx (website serving)
+#   - cloudflared (Cloudflare tunnel)
+
+version: "3.8"
+
+services:
+  # ===================
+  # PAPERLESS-NGX STACK
+  # ===================
+
+  broker:
+    image: redis:7
+    container_name: continuum-redis
+    restart: unless-stopped
+    volumes:
+      - Z:/paperless/redis:/data
+    networks:
+      - continuum-net
+
+  db:
+    image: postgres:15
+    container_name: continuum-postgres
+    restart: unless-stopped
+    volumes:
+      - Z:/paperless/pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: paperless
+      POSTGRES_USER: paperless
+      POSTGRES_PASSWORD: paperless_woodsden_2026
+    networks:
+      - continuum-net
+
+  paperless:
+    image: ghcr.io/paperless-ngx/paperless-ngx:latest
+    container_name: continuum-paperless
+    restart: unless-stopped
+    depends_on:
+      - db
+      - broker
+    ports:
+      - "8040:8000"
+    volumes:
+      - Z:/paperless/data:/usr/src/paperless/data
+      - Z:/paperless/media:/usr/src/paperless/media
+      - Z:/paperless/export:/usr/src/paperless/export
+      - Z:/paperless/consume:/usr/src/paperless/consume
+    environment:
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_DBHOST: db
+      PAPERLESS_DBNAME: paperless
+      PAPERLESS_DBUSER: paperless
+      PAPERLESS_DBPASS: paperless_woodsden_2026
+      PAPERLESS_SECRET_KEY: continuum_report_woodsden_secret_key_2026
+      PAPERLESS_TIME_ZONE: America/New_York
+      PAPERLESS_OCR_LANGUAGE: eng
+      PAPERLESS_ADMIN_USER: admin
+      PAPERLESS_ADMIN_PASSWORD: continuum2026
+      PAPERLESS_URL: http://localhost:8040
+      PAPERLESS_CORS_ALLOWED_HOSTS: http://localhost:8040,http://127.0.0.1:8040
+      # OCR Settings
+      PAPERLESS_OCR_MODE: skip_noarchive
+      PAPERLESS_OCR_CLEAN: clean
+      PAPERLESS_OCR_DESKEW: true
+      PAPERLESS_OCR_ROTATE_PAGES: true
+      PAPERLESS_OCR_OUTPUT_TYPE: pdfa
+      # Performance (WoodsDen has 48GB RAM)
+      PAPERLESS_TASK_WORKERS: 4
+      PAPERLESS_THREADS_PER_WORKER: 2
+    networks:
+      - continuum-net
+
+  # ===================
+  # WEB SERVER
+  # ===================
+
+  web:
+    image: nginx:alpine
+    container_name: continuum-web
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    volumes:
+      - type: bind
+        source: C:/Users/Xx LilMan xX/Documents/Claude Docs/Continuum/website
+        target: /usr/share/nginx/html
+        read_only: true
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - continuum-net
+
+  # ===================
+  # CLOUDFLARE TUNNEL
+  # ===================
+
+  # Note: Requires tunnel token from Cloudflare dashboard
+  # Get token at: https://dash.cloudflare.com/ -> Zero Trust -> Access -> Tunnels
+  #
+  # cloudflared:
+  #   image: cloudflare/cloudflared:latest
+  #   container_name: continuum-tunnel
+  #   restart: unless-stopped
+  #   command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+  #   networks:
+  #     - continuum-net
+  #   depends_on:
+  #     - web
+
+networks:
+  continuum-net:
+    driver: bridge
+
+# Volume mounts use Z: drive for maximum storage
+# Ensure Z:/paperless/ directory structure exists before starting

@@ -12,9 +12,10 @@
 
   "adapters": {
     "twitter": {
-      "enabled": true,
+      "enabled": false,
       "method": "rsshub",
-      "rsshub_url": "http://192.168.1.139:1200",
+      "rsshub_url": "http://localhost:1200",
+      "note": "DISABLED - RSSHub not running. Enable after setting up RSSHub locally or via Docker.",
       "accounts": [
         {"handle": "CourthouseNews", "priority": "high", "category": "legal"},
         {"handle": "DropsiteNews", "priority": "high", "category": "investigative"},
