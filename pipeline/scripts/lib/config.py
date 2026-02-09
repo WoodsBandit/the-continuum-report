@@ -50,8 +50,8 @@ class ContinuumSettings(BaseSettings):
     # =========================================================================
 
     paperless_url: str = Field(
-        default="http://192.168.1.139:8040",
-        description="Paperless-ngx server URL"
+        default="http://localhost:8040",
+        description="Paperless-ngx server URL (WoodsDen local)"
     )
 
     paperless_token: str = Field(
@@ -69,8 +69,8 @@ class ContinuumSettings(BaseSettings):
     # =========================================================================
 
     ollama_url: str = Field(
-        default="http://192.168.1.139:11434",
-        description="Ollama server URL"
+        default="http://localhost:11434",
+        description="Ollama server URL (WoodsDen local)"
     )
 
     ollama_model: str = Field(
@@ -93,8 +93,8 @@ class ContinuumSettings(BaseSettings):
     # =========================================================================
 
     continuum_base_dir: Path = Field(
-        default=Path("/continuum"),
-        description="Base directory for all Continuum data"
+        default=Path(os.environ.get("CONTINUUM_BASE_DIR", "C:/Users/Xx LilMan xX/Documents/Claude Docs/Continuum")),
+        description="Base directory for all Continuum data (WoodsDen local)"
     )
 
     @property

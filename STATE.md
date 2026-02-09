@@ -24,12 +24,19 @@ WoodsDen local hosting is being set up. Tower server is permanently gone.
 | Paperless-ngx | ⏳ Pending | Start after Docker restart |
 | Website (nginx) | ⏳ Pending | Start after Docker restart |
 
+### BNIS Pipeline: FULLY OPERATIONAL
+
+The Breaking News Intelligence System works without Docker:
+- News fetching (GDELT, RSS): ✅ Working
+- Entity matching: ✅ Working (3 entities found: Epstein, Maxwell, Trump)
+- Narrative generation: ✅ Working (Claude Code CLI integration fixed)
+- 17 items queued for review in `pending_approval/`
+
 ### Next Immediate Action
 
-**When ready to restart:**
+**When ready to start Docker:**
 
 ```bash
-# After restart:
 cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\docker"
 docker-compose -f docker-compose.woodsden.yml up -d
 ```
