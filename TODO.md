@@ -9,7 +9,7 @@
 | Priority | Task | Notes |
 |----------|------|-------|
 | 1 | Start Docker services | `docker-compose -f docker-compose.woodsden.yml up -d` |
-| 2 | Test Paperless OCR | Upload test PDF to Z:\paperless\consume\ |
+| 2 | Test Paperless OCR | Upload test PDF to data/paperless/consume/ |
 | 3 | Run Cloudflare tunnel setup | `powershell docker/setup-cloudflare-tunnel.ps1` |
 | 4 | Verify website loads | http://localhost:8081 |
 
@@ -51,11 +51,12 @@
 | Date | Task |
 |------|------|
 | 2026-02-09 | Docker Desktop installed |
-| 2026-02-09 | Z: drive structure created |
+| 2026-02-09 | data/ directory structure created (local, in project folder) |
 | 2026-02-09 | docker-compose.woodsden.yml created |
 | 2026-02-09 | Archived pre-restructure state |
 | 2026-02-09 | New session continuity system created |
 | 2026-02-09 | Tower references purged from core files |
+| 2026-02-09 | Network drive references purged from documentation |
 
 ---
 

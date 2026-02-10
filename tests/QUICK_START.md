@@ -3,8 +3,8 @@
 ## Installation
 
 ```bash
-# From project root
-cd \\\\192.168.1.139\\continuum
+# From project root (WoodsDen local)
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum"
 
 # Install all dependencies (includes test dependencies)
 pip install -r requirements.txt
@@ -233,8 +233,8 @@ TOTAL                      77     17    78%
 ### Import Errors
 
 ```bash
-# Ensure you're in project root
-cd \\\\192.168.1.139\\continuum
+# Ensure you're in project root (WoodsDen local)
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum"
 
 # Verify Python can find modules
 python -c "import scripts.lib.config"

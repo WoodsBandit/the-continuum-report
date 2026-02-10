@@ -39,10 +39,10 @@ The Continuum Report is an automated intelligence pipeline that:
 
 ### Installation
 
-#### 1. Clone/Access Repository
+#### 1. Access Repository
 
 ```bash
-cd //192.168.1.139/continuum
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum"
 ```
 
 #### 2. Install Dependencies
@@ -76,10 +76,10 @@ PAPERLESS_TOKEN=your_paperless_api_token_here
 
 **Optional (has sensible defaults):**
 ```bash
-PAPERLESS_URL=http://192.168.1.139:8040
-OLLAMA_URL=http://192.168.1.139:11434
+PAPERLESS_URL=http://localhost:8040
+OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=mistral
-CONTINUUM_BASE_DIR=/continuum
+CONTINUUM_BASE_DIR=C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum
 ```
 
 #### 4. Validate Setup
@@ -96,8 +96,8 @@ The Continuum Report - Configuration Check
 ============================================================
 
 Services:
-  Paperless:  http://192.168.1.139:8040
-  Ollama:     http://192.168.1.139:11434 (model: mistral)
+  Paperless:  http://localhost:8040
+  Ollama:     http://localhost:11434 (model: mistral)
 
 Validating connections...
   Paperless:  OK
@@ -309,11 +309,11 @@ All configuration via environment variables (`.env` file):
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `PAPERLESS_URL` | Paperless-ngx server URL | `http://192.168.1.139:8040` |
+| `PAPERLESS_URL` | Paperless-ngx server URL | `http://localhost:8040` |
 | `PAPERLESS_TOKEN` | API authentication token | *Required* |
-| `OLLAMA_URL` | Ollama server URL | `http://192.168.1.139:11434` |
+| `OLLAMA_URL` | Ollama server URL | `http://localhost:11434` |
 | `OLLAMA_MODEL` | LLM model name | `mistral` |
-| `CONTINUUM_BASE_DIR` | Base data directory | `/continuum` |
+| `CONTINUUM_BASE_DIR` | Base data directory | Project folder |
 | `LOG_LEVEL` | Logging verbosity | `INFO` |
 | `LOG_FORMAT` | Log format (console/json) | `console` |
 
@@ -321,7 +321,7 @@ All configuration via environment variables (`.env` file):
 
 ### Getting Your Paperless Token
 
-1. Open Paperless web UI: http://192.168.1.139:8040
+1. Open Paperless web UI: http://localhost:8040
 2. Navigate to: **Settings → API Tokens**
 3. Click: **Create Token**
 4. Copy the token value
@@ -484,7 +484,7 @@ python -m lib.config
 **Solution:**
 ```bash
 # Check if Paperless is running
-curl http://192.168.1.139:8040/api/
+curl http://localhost:8040/api/
 
 # Test connection
 python -m lib.paperless_client

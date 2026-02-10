@@ -226,7 +226,7 @@ This is not necessarily improper — FBI investigative files often remain sealed
 ### Immediate (Existing Sources)
 
 1. **2020 DOJ OPR Report** — Extract all FBI references
-   - Location: `\\192.168.1.139\continuum\website\sources\florida-case\`
+   - Location: `/sources/florida-case/`
    - Priority: FBI recommendations, FBI-DOJ communications
 
 2. **2008 NPA Document** — Extract FBI involvement

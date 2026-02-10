@@ -587,7 +587,8 @@ Working directories (temporary/intermediate):
 
 ? /t/database/paperless/
   - Empty directory
-  - Paperless-ngx runs on separate server (192.168.1.139:8040)
+  - Paperless-ngx runs locally via Docker (http://localhost:8040)
+  - Data stored in data/paperless/ directory
   - Why does this directory exist?
 
 ? /t/cache/timeline_events/
@@ -667,8 +668,7 @@ Immediately rotate this token and implement proper secrets management.
 ```
 Files containing sensitive information:
 ❌ /t/CLAUDE.md — Paperless-ngx API token
-❌ /t/CLAUDE.md — Server IP address (192.168.1.139)
-❌ /t/CLAUDE.md — SMB share path
+❌ /t/CLAUDE.md — Local service URLs (localhost ports)
 
 Backup exposure:
 ❌ /-md_backups/claude-desktop/CLAUDE.md
@@ -1489,7 +1489,7 @@ After:
    ```
 
 3. **Rotate Exposed API Token**
-   - Log into Paperless-ngx (http://192.168.1.139:8040)
+   - Log into Paperless-ngx (http://localhost:8040)
    - Generate new API token
    - Update scripts that reference token
    - Revoke old token `da99fe6aa0b8d021689126cf72b91986abbbd283`
@@ -1498,9 +1498,9 @@ After:
    ```bash
    # /t/.env
    PAPERLESS_API_TOKEN=<new-token>
-   PAPERLESS_BASE_URL=http://192.168.1.139:8040
-   SERVER_IP=192.168.1.139
-   SMB_SHARE=\\192.168.1.139\continuum
+   PAPERLESS_BASE_URL=http://localhost:8040
+   # All services run locally on WoodsDen via Docker
+   # No network shares or remote servers needed
    ```
 
 5. **Create .gitignore**

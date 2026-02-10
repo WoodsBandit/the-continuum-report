@@ -84,7 +84,7 @@
 #### FBI Co-Conspirator Identification (July 2019)
 
 **Source:** DOJ email release (House Oversight Congressional Disclosure)
-**Location:** `\\192.168.1.139\continuum\website\sources\financial-enablers\wexner\doj-co-conspirator-email-2025-12-23.md`
+**Location:** `website/sources/financial-enablers/wexner/doj-co-conspirator-email-2025-12-23.md`
 
 **Documented Facts:**
 - FBI New York office email (July 2019) identified "10 co-conspirators"

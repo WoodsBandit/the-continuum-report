@@ -27,9 +27,10 @@ User requested status update on Tailscale project for remote Tower/Claude Code a
 ### Findings
 
 1. **No documentation exists** for Tailscale remote access project
-2. **Current remote infrastructure:**
+2. **Current infrastructure (WoodsDen local):**
    - Cloudflare Tunnel → Website only (thecontinuumreport.com)
-   - SMB Share → Local LAN only (Tower ↔ WoodsDen)
+   - All services run locally via Docker on WoodsDen
+   - Paperless: http://localhost:8040 | Website dev: http://localhost:8081
 3. **Claude Code context storage discovered:**
    - `/continuum/.claude/agents/` — 10 agent definitions
    - `/continuum/.claude/rules/` — 2 project rules
@@ -49,9 +50,9 @@ Documented Claude Code per-project storage structure:
 
 ### Next Steps
 
-- [ ] Set up Tailscale on Tower for remote access
-- [ ] Configure laptop to join Tailnet
-- [ ] Enable remote Claude Code sessions via SSH or direct access
+- [x] ~~Set up Tailscale on Tower for remote access~~ (Project migrated to WoodsDen local)
+- [ ] Configure Tailscale on WoodsDen if remote access needed
+- [ ] Enable remote Claude Code sessions via Tailscale or other tunnel
 - [ ] Document configuration in technical_infrastructure.md
 
 ---

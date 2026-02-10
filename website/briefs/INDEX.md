@@ -204,10 +204,10 @@ All briefs cite primary sources from:
 
 | Source Type | Location | Access |
 |-------------|----------|--------|
-| Court Filings | Paperless-ngx | Internal (192.168.1.139:8040) |
-| Congressional Reports | Paperless-ngx | Internal |
-| Books (Webb) | Paperless-ngx | Internal |
-| Flight Logs | Paperless-ngx | Internal |
+| Court Filings | Paperless-ngx | Local (localhost:8040) |
+| Congressional Reports | Paperless-ngx | Local |
+| Books (Webb) | Paperless-ngx | Local |
+| Flight Logs | Paperless-ngx | Local |
 
 **Total Documents in Paperless:** 252
 

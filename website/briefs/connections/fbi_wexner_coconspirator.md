@@ -25,7 +25,7 @@
 **Document:** FBI New York office internal email
 **Date:** July 2019
 **Release:** House Oversight Committee Congressional disclosure
-**Location:** `\\192.168.1.139\continuum\website\sources\financial-enablers\wexner\doj-co-conspirator-email-2025-12-23.md`
+**Location:** `/sources/financial-enablers/wexner/doj-co-conspirator-email-2025-12-23.md`
 
 ### Documented Content
 

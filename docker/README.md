@@ -231,8 +231,8 @@ If you have Paperless or Ollama running outside Docker:
 
 ```bash
 # Modify .env
-PAPERLESS_URL=http://192.168.1.139:8040
-OLLAMA_URL=http://192.168.1.139:11434
+PAPERLESS_URL=http://localhost:8040
+OLLAMA_URL=http://localhost:11434
 
 # Start only the continuum service
 docker compose up continuum

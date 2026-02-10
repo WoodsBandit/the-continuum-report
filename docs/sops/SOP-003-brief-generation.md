@@ -22,7 +22,7 @@ Generate and update analytical intelligence products (entity briefs and connecti
 import os
 import time
 
-contexts_path = r"\\192.168.1.139\continuum\indexes\connection_contexts.json"
+contexts_path = r"project_root/indexes\connection_contexts.json"
 last_modified = os.path.getmtime(contexts_path)
 
 while True:
@@ -39,18 +39,18 @@ while True:
 ## 3. Prerequisites
 
 ### Required Files Must Exist
-- `\\192.168.1.139\continuum\indexes\connection_contexts.json` (recently updated by Stage 2)
-- `\\192.168.1.139\continuum\indexes\co_occurrence.json`
-- `\\192.168.1.139\continuum\indexes\entity_registry.json`
-- `\\192.168.1.139\continuum\indexes\source_mentions.json`
-- `\\192.168.1.139\continuum\templates\entity-brief-template.md`
-- `\\192.168.1.139\continuum\templates\connection-brief-template.md`
+- `project_root/indexes\connection_contexts.json` (recently updated by Stage 2)
+- `project_root/indexes\co_occurrence.json`
+- `project_root/indexes\entity_registry.json`
+- `project_root/indexes\source_mentions.json`
+- `project_root/templates\entity-brief-template.md`
+- `project_root/templates\connection-brief-template.md`
 
 ### Required Directories Must Exist
-- `\\192.168.1.139\continuum\briefs\entity\`
-- `\\192.168.1.139\continuum\briefs\connections\`
-- `\\192.168.1.139\continuum\pending_approval\entities\`
-- `\\192.168.1.139\continuum\pending_approval\connections\`
+- `project_root/briefs\entity\`
+- `project_root/briefs\connections\`
+- `project_root/pending_approval\entities\`
+- `project_root/pending_approval\connections\`
 
 ### System Requirements
 - Legal-auditor agent accessible via Claude Code
@@ -60,18 +60,18 @@ while True:
 ## 4. Inputs
 
 ### Primary Input
-**Connection Contexts:** `\\192.168.1.139\continuum\indexes\connection_contexts.json`
+**Connection Contexts:** `project_root/indexes\connection_contexts.json`
 - Focus on connections with `last_updated` == today (newly updated in Stage 2)
 
 ### Reference Inputs
 
-**Entity Registry:** `\\192.168.1.139\continuum\indexes\entity_registry.json`
-**Co-Occurrence Index:** `\\192.168.1.139\continuum\indexes\co_occurrence.json`
-**Source Mentions:** `\\192.168.1.139\continuum\indexes\source_mentions.json`
+**Entity Registry:** `project_root/indexes\entity_registry.json`
+**Co-Occurrence Index:** `project_root/indexes\co_occurrence.json`
+**Source Mentions:** `project_root/indexes\source_mentions.json`
 
 ### Template Inputs
 
-**Entity Brief Template:** `\\192.168.1.139\continuum\templates\entity-brief-template.md`
+**Entity Brief Template:** `project_root/templates\entity-brief-template.md`
 ```markdown
 ---
 entity_name: "{ENTITY_NAME}"
@@ -118,7 +118,7 @@ legal_review: "PENDING"
 *Last Updated: {TIMESTAMP}*
 ```
 
-**Connection Brief Template:** `\\192.168.1.139\continuum\templates\connection-brief-template.md`
+**Connection Brief Template:** `project_root/templates\connection-brief-template.md`
 
 **ARCHITECTURAL PRINCIPLE:** Connection briefs are the source of truth. No connection exists without a brief. Each brief contains: quote + source + summary.
 
@@ -175,11 +175,11 @@ legal_review: "PENDING"
 **Action:** Determine which briefs need creation or updating
 
 ```
-READ: \\192.168.1.139\continuum\indexes\connection_contexts.json
-READ: \\192.168.1.139\continuum\indexes\entity_registry.json
+READ: project_root/indexes\connection_contexts.json
+READ: project_root/indexes\entity_registry.json
 
 # Get last processing timestamp
-READ: \\192.168.1.139\continuum\logs\stage3_last_run.txt
+READ: project_root/logs\stage3_last_run.txt
 last_run_timestamp = PARSE timestamp from file
 
 # Identify changed connections
@@ -218,11 +218,11 @@ IF len(affected_entities) == 0 AND len(changed_connections) == 0:
 entity_briefs_to_generate = []
 
 FOR EACH entity_name IN affected_entities:
-    brief_path = \\192.168.1.139\continuum\briefs\entity\analytical_brief_{entity_name}.md
+    brief_path = project_root/briefs\entity\analytical_brief_{entity_name}.md
 
     # Normalize filename (replace special chars)
     brief_filename = NORMALIZE_FILENAME(f"analytical_brief_{entity_name}.md")
-    brief_path = \\192.168.1.139\continuum\briefs\entity\{brief_filename}
+    brief_path = project_root/briefs\entity\{brief_filename}
 
     IF FILE_EXISTS(brief_path):
         # EXISTING BRIEF - Check if update needed
@@ -422,7 +422,7 @@ FOR EACH brief_spec IN entity_briefs_to_generate:
             entity_data=entity,
             source_contents=source_contents,
             connections=connection_contexts,
-            template_path="\\192.168.1.139\continuum\templates\entity-brief-template.md"
+            template_path="project_root/templates\entity-brief-template.md"
         )
 
     ELSE:  # UPDATE
@@ -437,7 +437,7 @@ FOR EACH brief_spec IN entity_briefs_to_generate:
 
     # Write brief to briefs/ directory
     brief_filename = NORMALIZE_FILENAME(f"analytical_brief_{entity_name}.md")
-    brief_output_path = \\192.168.1.139\continuum\briefs\entity\{brief_filename}
+    brief_output_path = project_root/briefs\entity\{brief_filename}
 
     WRITE brief_content to brief_output_path
 
@@ -587,7 +587,7 @@ FOR EACH connection_id IN changed_connections:
 
     # Generate filename
     brief_filename = NORMALIZE_FILENAME(f"{connection_data.entity1}_{connection_data.entity2}.md")
-    brief_path = \\192.168.1.139\continuum\briefs\connections\{brief_filename}
+    brief_path = project_root/briefs\connections\{brief_filename}
 
     IF FILE_EXISTS(brief_path):
         # EXISTING BRIEF - Update with new context
@@ -660,7 +660,7 @@ FOR EACH brief_spec IN connection_briefs_to_generate:
             connection_data=connection_data,
             co_occurrence_data=co_occurrence_data,
             contexts=contexts_to_analyze,
-            template_path="\\192.168.1.139\continuum\templates\connection-brief-template.md"
+            template_path="project_root/templates\connection-brief-template.md"
         )
 
     ELSE:  # UPDATE
@@ -675,7 +675,7 @@ FOR EACH brief_spec IN connection_briefs_to_generate:
 
     # Write brief
     brief_filename = NORMALIZE_FILENAME(f"{connection_data.entity1}_{connection_data.entity2}.md")
-    brief_output_path = \\192.168.1.139\continuum\briefs\connections\{brief_filename}
+    brief_output_path = project_root/briefs\connections\{brief_filename}
 
     WRITE brief_content to brief_output_path
 
@@ -914,9 +914,9 @@ FUNCTION ADD_LEGAL_ISSUES(brief_content, review_result):
 FOR EACH brief IN all_briefs:
     # Determine destination
     IF brief in entity_briefs_generated:
-        dest_dir = "\\192.168.1.139\continuum\pending_approval\entities\"
+        dest_dir = "project_root/pending_approval\entities\"
     ELSE:
-        dest_dir = "\\192.168.1.139\continuum\pending_approval\connections\"
+        dest_dir = "project_root/pending_approval\connections\"
 
     # Get filename
     filename = BASENAME(brief.brief_path)
@@ -975,7 +975,7 @@ Stage 3 Processing Summary
 *Auto-generated by Stage 3: Brief Generation*
 '''
 
-WRITE review_log_content to \\192.168.1.139\continuum\pending_approval\REVIEW_LOG.md
+WRITE review_log_content to project_root/pending_approval\REVIEW_LOG.md
 
 LOG INFO: "Review log created"
 ```
@@ -985,7 +985,7 @@ LOG INFO: "Review log created"
 **Action:** Record completion timestamp for next run
 
 ```
-WRITE current_timestamp to \\192.168.1.139\continuum\logs\stage3_last_run.txt
+WRITE current_timestamp to project_root/logs\stage3_last_run.txt
 
 LOG INFO: "Stage 3 complete. {len(all_briefs)} briefs generated and awaiting approval."
 ```
@@ -1115,24 +1115,24 @@ Major update: 3.0
 ### Primary Outputs
 
 **Entity Briefs (New/Updated):**
-`\\192.168.1.139\continuum\briefs\entity\analytical_brief_{entity}.md`
+`project_root/briefs\entity\analytical_brief_{entity}.md`
 - Comprehensive analytical briefs for entities
 - Updated with new source material
 - Legal review status in metadata
 
 **Connection Briefs (New/Updated):**
-`\\192.168.1.139\continuum\briefs\connections\{entity1}_{entity2}.md`
+`project_root/briefs\connections\{entity1}_{entity2}.md`
 - Relationship analysis briefs for entity pairs
 - Context evidence and timeline
 - Legal review status in metadata
 
 **Pending Approval Copies:**
-`\\192.168.1.139\continuum\pending_approval\entities\`
-`\\192.168.1.139\continuum\pending_approval\connections\`
+`project_root/pending_approval\entities\`
+`project_root/pending_approval\connections\`
 - Copies of all new/updated briefs awaiting human review
 
 **Review Log:**
-`\\192.168.1.139\continuum\pending_approval\REVIEW_LOG.md`
+`project_root/pending_approval\REVIEW_LOG.md`
 - Summary of what was generated/updated
 - Legal review results
 - Instructions for human reviewer
@@ -1140,13 +1140,13 @@ Major update: 3.0
 ### Secondary Outputs
 
 **Processing Timestamp:**
-`\\192.168.1.139\continuum\logs\stage3_last_run.txt`
+`project_root/logs\stage3_last_run.txt`
 - Timestamp of last Stage 3 completion
 
 ### Log Outputs
 
 **Processing Log:**
-`\\192.168.1.139\continuum\logs\stage3_brief_generation.log`
+`project_root/logs\stage3_brief_generation.log`
 
 Example:
 ```
@@ -1187,19 +1187,19 @@ Example:
 
 ```bash
 # Count briefs generated
-ls \\192.168.1.139\continuum\pending_approval\entities\ | wc -l
-ls \\192.168.1.139\continuum\pending_approval\connections\ | wc -l
+ls project_root/pending_approval\entities\ | wc -l
+ls project_root/pending_approval\connections\ | wc -l
 
 # Check legal approval rate
-grep -r "legal_review: \"AUTO-APPROVED\"" \\192.168.1.139\continuum\pending_approval\ | wc -l
+grep -r "legal_review: \"AUTO-APPROVED\"" project_root/pending_approval\ | wc -l
 
 # Validate YAML frontmatter
-for file in \\192.168.1.139\continuum\pending_approval\entities\*.md; do
+for file in project_root/pending_approval\entities\*.md; do
     python -c "import yaml; yaml.safe_load(open('$file').read().split('---')[1])"
 done
 
 # Check review log exists
-ls -lh \\192.168.1.139\continuum\pending_approval\REVIEW_LOG.md
+ls -lh project_root/pending_approval\REVIEW_LOG.md
 ```
 
 ## 9. Error Handling
@@ -1262,7 +1262,7 @@ requires_manual_completion: true
 
 ## Instructions for Manual Completion
 Complete this brief manually using the source material above.
-Follow template: \\192.168.1.139\continuum\templates\entity-brief-template.md
+Follow template: project_root/templates\entity-brief-template.md
 ```
 
 ### 9.2 Legal Review Agent Failure
@@ -1295,7 +1295,7 @@ CATCH PermissionError during WRITE:
     LOG CRITICAL: "Cannot write brief to {path}: Permission denied"
 
     # Try alternate location
-    emergency_path = "\\192.168.1.139\continuum\backups\emergency\briefs\{filename}"
+    emergency_path = "project_root/backups\emergency\briefs\{filename}"
     WRITE brief to emergency_path
 
     LOG INFO: "Brief saved to emergency backup: {emergency_path}"
@@ -1327,7 +1327,7 @@ CATCH FileNotFoundError when reading template:
 
 **Stage 4: Publication (SOP-004)**
 
-**Trigger Condition:** Files detected in `\\192.168.1.139\continuum\approved\` directories
+**Trigger Condition:** Files detected in `project_root/approved\` directories
 
 **What Happens Before Stage 4:**
 **HUMAN INTERVENTION REQUIRED:**

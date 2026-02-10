@@ -14,7 +14,7 @@ WoodsDen local hosting is being set up. Tower server is permanently gone.
 | Component | Status | Notes |
 |-----------|--------|-------|
 | Docker Desktop | ✅ Installed | Restart required to activate |
-| Z: drive structure | ✅ Created | Ready for Paperless data |
+| data/ directory | ✅ Created | Paperless data in project folder |
 | docker-compose.yml | ✅ Ready | `docker/docker-compose.woodsden.yml` |
 | Cloudflare config | ✅ Ready | `docker/cloudflared-config.yml` + setup script |
 | BNIS pipeline | ✅ Ready | `bnis/run_bnis.py` - full orchestration |
@@ -82,10 +82,11 @@ docker-compose -f docker-compose.woodsden.yml up -d
 | Date | Task |
 |------|------|
 | 2026-02-09 | Docker Desktop installed |
-| 2026-02-09 | Z: drive directories created |
+| 2026-02-09 | data/ directory structure created (local, in project folder) |
 | 2026-02-09 | docker-compose.woodsden.yml created |
 | 2026-02-09 | Archived pre-restructure state |
 | 2026-02-09 | Tower references removed from CLAUDE.md |
+| 2026-02-09 | Network drive references purged from README.md, STATE.md, TODO.md |
 
 ---
 

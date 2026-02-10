@@ -22,7 +22,7 @@ Extract contextual information around entity mentions to identify relationships,
 import os
 import time
 
-registry_path = r"\\192.168.1.139\continuum\indexes\entity_registry.json"
+registry_path = r"project_root/indexes\entity_registry.json"
 last_modified = os.path.getmtime(registry_path)
 
 while True:
@@ -39,13 +39,13 @@ while True:
 ## 3. Prerequisites
 
 ### Required Files Must Exist
-- `\\192.168.1.139\continuum\indexes\entity_registry.json` (recently updated by Stage 1)
-- `\\192.168.1.139\continuum\indexes\source_mentions.json`
-- `\\192.168.1.139\continuum\indexes\co_occurrence.json`
-- `\\192.168.1.139\continuum\indexes\connection_contexts.json`
+- `project_root/indexes\entity_registry.json` (recently updated by Stage 1)
+- `project_root/indexes\source_mentions.json`
+- `project_root/indexes\co_occurrence.json`
+- `project_root/indexes\connection_contexts.json`
 
 ### Required Directories Must Exist
-- `\\192.168.1.139\continuum\sources\paperless_mirror\` (containing source documents)
+- `project_root/sources\paperless_mirror\` (containing source documents)
 
 ### System Requirements
 - Claude Code must have read access to source documents
@@ -55,17 +55,17 @@ while True:
 ## 4. Inputs
 
 ### Primary Input
-**Entity Registry:** `\\192.168.1.139\continuum\indexes\entity_registry.json`
+**Entity Registry:** `project_root/indexes\entity_registry.json`
 - Focus on entities with `last_seen` == today (newly mentioned in Stage 1)
 - OR entities in new sources from last Stage 1 run
 
 ### Reference Inputs
 
-**Source Mentions:** `\\192.168.1.139\continuum\indexes\source_mentions.json`
+**Source Mentions:** `project_root/indexes\source_mentions.json`
 - Maps entities to specific sources where they appear
 - Provides source file paths for context extraction
 
-**Co-Occurrence Index (Existing):** `\\192.168.1.139\continuum\indexes\co_occurrence.json`
+**Co-Occurrence Index (Existing):** `project_root/indexes\co_occurrence.json`
 ```json
 {
   "_schema_version": "1.0",
@@ -83,7 +83,7 @@ while True:
 }
 ```
 
-**Connection Contexts (Existing):** `\\192.168.1.139\continuum\indexes\connection_contexts.json`
+**Connection Contexts (Existing):** `project_root/indexes\connection_contexts.json`
 ```json
 {
   "_schema_version": "1.0",
@@ -116,8 +116,8 @@ while True:
 **Action:** Determine which entities have new source mentions since last run
 
 ```
-READ: \\192.168.1.139\continuum\indexes\entity_registry.json
-READ: \\192.168.1.139\continuum\indexes\connection_contexts.json
+READ: project_root/indexes\entity_registry.json
+READ: project_root/indexes\connection_contexts.json
 
 # Get last processing timestamp
 last_run_timestamp = connection_contexts._last_updated
@@ -378,7 +378,7 @@ Return JSON:
 **Action:** Merge new co-occurrence data with existing index
 
 ```
-READ: \\192.168.1.139\continuum\indexes\co_occurrence.json
+READ: project_root/indexes\co_occurrence.json
 PARSE as co_occurrence_index
 
 FOR EACH pair_key IN co_occurrences:
@@ -420,7 +420,7 @@ FOR EACH pair_key IN co_occurrences:
 co_occurrence_index._last_updated = current_timestamp
 
 # Write updated index
-WRITE co_occurrence_index to \\192.168.1.139\continuum\indexes\co_occurrence.json
+WRITE co_occurrence_index to project_root/indexes\co_occurrence.json
 LOG INFO: "Co-occurrence index updated"
 ```
 
@@ -437,7 +437,7 @@ No subjective strength scoring. The source documents speak for themselves.
 **Action:** Add new context snippets to connection_contexts.json
 
 ```
-READ: \\192.168.1.139\continuum\indexes\connection_contexts.json
+READ: project_root/indexes\connection_contexts.json
 PARSE as connection_contexts
 
 FOR EACH pair_key IN co_occurrences:
@@ -510,7 +510,7 @@ FOR EACH pair_key IN co_occurrences:
 connection_contexts._last_updated = current_timestamp
 
 # Write updated contexts
-WRITE connection_contexts to \\192.168.1.139\continuum\indexes\connection_contexts.json
+WRITE connection_contexts to project_root/indexes\connection_contexts.json
 LOG INFO: "Connection contexts index updated"
 ```
 
@@ -529,7 +529,7 @@ summary = {
     "context_snippets_added": total count of new context snippets
 }
 
-WRITE summary to \\192.168.1.139\continuum\logs\stage2_summary_{timestamp}.json
+WRITE summary to project_root/logs\stage2_summary_{timestamp}.json
 
 LOG INFO: "Stage 2 complete: Processed {len(changed_entities)} entities, found {len(co_occurrences)} co-occurrences"
 ```
@@ -545,7 +545,7 @@ LOG INFO: "Stage 2 complete: Processed {len(changed_entities)} entities, found {
 LOG INFO: "Stage 2 complete. Stage 3 will auto-trigger on connection_contexts.json change."
 
 # Optional: Write trigger file for explicit signaling
-trigger_file = \\192.168.1.139\continuum\triggers\stage3_trigger.json
+trigger_file = project_root/triggers\stage3_trigger.json
 WRITE {
     "triggered_by": "stage2",
     "timestamp": current_timestamp,
@@ -585,7 +585,7 @@ IF relevance_score < 0.5:
 **Scenario:** Source file referenced in source_mentions.json doesn't exist
 
 ```
-source_file_path = "\\192.168.1.139\continuum\sources\paperless_mirror\doc_000042.pdf"
+source_file_path = "project_root/sources\paperless_mirror\doc_000042.pdf"
 
 TRY:
     source_text = READ file at source_file_path
@@ -660,13 +660,13 @@ IF windows overlap:
 ### Primary Outputs
 
 **Updated Co-Occurrence Index:**
-`\\192.168.1.139\continuum\indexes\co_occurrence.json`
+`project_root/indexes\co_occurrence.json`
 - New entity pairs added
 - Existing pairs updated with new sources
 - Co-mention counts updated
 
 **Updated Connection Contexts:**
-`\\192.168.1.139\continuum\indexes\connection_contexts.json`
+`project_root/indexes\connection_contexts.json`
 - New connection entries created
 - Existing connections updated with new context snippets
 - Relationship type classifications added
@@ -675,21 +675,21 @@ IF windows overlap:
 ### Secondary Outputs
 
 **Processing Summary:**
-`\\192.168.1.139\continuum\logs\stage2_summary_{timestamp}.json`
+`project_root/logs\stage2_summary_{timestamp}.json`
 - List of entities processed
 - Count of co-occurrences found
 - Count of new vs updated connections
 - Processing statistics
 
 **Stage 3 Trigger:**
-`\\192.168.1.139\continuum\triggers\stage3_trigger.json`
+`project_root/triggers\stage3_trigger.json`
 - Signal for Stage 3 to begin
 - List of affected connections
 
 ### Log Outputs
 
 **Processing Log:**
-`\\192.168.1.139\continuum\logs\stage2_context_extraction.log`
+`project_root/logs\stage2_context_extraction.log`
 
 Example:
 ```
@@ -727,16 +727,16 @@ Example:
 
 ```bash
 # Verify JSON validity
-python -m json.tool \\192.168.1.139\continuum\indexes\co_occurrence.json > /dev/null
+python -m json.tool project_root/indexes\co_occurrence.json > /dev/null
 
 # Check update timestamp
-jq '._last_updated' \\192.168.1.139\continuum\indexes\connection_contexts.json
+jq '._last_updated' project_root/indexes\connection_contexts.json
 
 # Count new connections
-jq '.connections | length' \\192.168.1.139\continuum\indexes\connection_contexts.json
+jq '.connections | length' project_root/indexes\connection_contexts.json
 
 # Check average relevance score
-jq '[.connections[].contexts[].relevance_score] | add / length' \\192.168.1.139\continuum\indexes\connection_contexts.json
+jq '[.connections[].contexts[].relevance_score] | add / length' project_root/indexes\connection_contexts.json
 ```
 
 ## 9. Error Handling
@@ -794,7 +794,7 @@ CATCH IOError OR PermissionError during WRITE:
     LOG CRITICAL: "Cannot write to {file_path}: {error}"
 
     # Save to backup location
-    backup_path = "\\192.168.1.139\continuum\backups\emergency\{filename}_{timestamp}"
+    backup_path = "project_root/backups\emergency\{filename}_{timestamp}"
     WRITE data to backup_path
     LOG INFO: "Saved to emergency backup: {backup_path}"
 

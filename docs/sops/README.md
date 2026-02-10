@@ -143,7 +143,7 @@ This SOP suite provides comprehensive operational documentation for The Continuu
 ## Directory Structure
 
 ```
-\\192.168.1.139\continuum\
+project_root/
 ├── pending_approval/          # Stage 3 output - awaiting human review
 │   ├── entities/             # New/updated entity briefs
 │   ├── connections/          # New/updated connection briefs
@@ -206,7 +206,7 @@ This SOP suite provides comprehensive operational documentation for The Continuu
 2. **Bookmark RUNBOOK.md** - Your daily reference guide
 3. **Practice approval workflow:**
    ```bash
-   cd \\192.168.1.139\continuum\pending_approval
+   cd project_root/pending_approval
    cat REVIEW_LOG.md
    # Review briefs in entities/ and connections/
    # Move approved items to ../approved/
@@ -217,14 +217,14 @@ This SOP suite provides comprehensive operational documentation for The Continuu
 **Morning Routine:**
 ```bash
 # Check pending approvals
-ls \\192.168.1.139\continuum\pending_approval\entities\
-ls \\192.168.1.139\continuum\pending_approval\connections\
+ls project_root/pending_approval\entities\
+ls project_root/pending_approval\connections\
 
 # Read review log
-cat \\192.168.1.139\continuum\pending_approval\REVIEW_LOG.md
+cat project_root/pending_approval\REVIEW_LOG.md
 
 # Check for errors
-tail -50 \\192.168.1.139\continuum\logs\pipeline_errors.log
+tail -50 project_root/logs\pipeline_errors.log
 ```
 
 **Review and Approve:**
@@ -461,7 +461,7 @@ All briefs automatically reviewed against:
 
 ### Emergency Shutdown
 ```bash
-touch \\192.168.1.139\continuum\PIPELINE_HALTED
+touch project_root/PIPELINE_HALTED
 pkill -f run_stage
 ```
 
@@ -504,8 +504,8 @@ python scripts/emergency_remove.py --entity "entity_id" --reason "Legal takedown
 
 1. **This SOP Suite** - Complete operational documentation
 2. **RUNBOOK.md** - Daily operations quick reference
-3. **Error Logs** - `\\192.168.1.139\continuum\logs\`
-4. **Backup Systems** - `\\192.168.1.139\continuum\backups\`
+3. **Error Logs** - `project_root/logs\`
+4. **Backup Systems** - `project_root/backups\`
 
 ### Getting Help
 

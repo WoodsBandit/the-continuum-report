@@ -11,8 +11,6 @@
 #   - nginx (website serving)
 #   - cloudflared (Cloudflare tunnel)
 
-version: "3.8"
-
 services:
   # ===================
   # PAPERLESS-NGX STACK
@@ -23,7 +21,7 @@ services:
     container_name: continuum-redis
     restart: unless-stopped
     volumes:
-      - Z:/paperless/redis:/data
+      - ../data/paperless/redis:/data
     networks:
       - continuum-net
 
@@ -32,7 +30,7 @@ services:
     container_name: continuum-postgres
     restart: unless-stopped
     volumes:
-      - Z:/paperless/pgdata:/var/lib/postgresql/data
+      - ../data/paperless/pgdata:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: paperless
       POSTGRES_USER: paperless
@@ -50,10 +48,10 @@ services:
     ports:
       - "8040:8000"
     volumes:
-      - Z:/paperless/data:/usr/src/paperless/data
-      - Z:/paperless/media:/usr/src/paperless/media
-      - Z:/paperless/export:/usr/src/paperless/export
-      - Z:/paperless/consume:/usr/src/paperless/consume
+      - ../data/paperless/data:/usr/src/paperless/data
+      - ../data/paperless/media:/usr/src/paperless/media
+      - ../data/paperless/export:/usr/src/paperless/export
+      - ../data/paperless/consume:/usr/src/paperless/consume
     environment:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db
@@ -119,5 +117,4 @@ networks:
   continuum-net:
     driver: bridge
 
-# Volume mounts use Z: drive for maximum storage
-# Ensure Z:/paperless/ directory structure exists before starting
+# All data stored within project folder: ../data/paperless/

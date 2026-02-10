@@ -30,7 +30,6 @@
 | **Website** | https://thecontinuumreport.com |
 | **Local Dev** | http://localhost:8081 |
 | **Paperless OCR** | http://localhost:8040 |
-| **Data Storage** | Z:\ drive (1.9TB) |
 | **GitHub** | WoodsBandit/the-continuum-report |
 
 ### Docker Services
@@ -49,10 +48,9 @@ docker-compose -f docker-compose.woodsden.yml up -d
 
 | Purpose | Path |
 |---------|------|
-| Drop PDFs for OCR | Z:\paperless\consume\ |
-| OCR'd documents | Z:\paperless\media\ |
-| Source archives | Z:\continuum-sources\ |
-| Backups | Z:\backups\ |
+| Drop PDFs for OCR | data/paperless/consume/ |
+| OCR'd documents | data/paperless/media/ |
+| Paperless data | data/paperless/ |
 
 ---
 

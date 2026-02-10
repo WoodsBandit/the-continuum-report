@@ -10,12 +10,14 @@
 ## THE SITUATION
 
 ### Current State
-The Continuum Report runs on **local, manual, single-server infrastructure**:
-- Single Linux server (Tower) handling all workloads
-- Filesystem-based JSON data storage
+The Continuum Report runs on **local Docker infrastructure on WoodsDen**:
+- Single Windows workstation (WoodsDen) handling all workloads
+- Docker containers for all services (no network dependencies)
+- Paperless-ngx at http://localhost:8040
+- Website at http://localhost:8081
+- Filesystem-based JSON data storage in data/paperless/
 - Synchronous document processing daemon
 - Manual deployment procedures
-- Minimal monitoring and no disaster recovery
 
 ### The Problem
 Current architecture **cannot scale sustainably**:

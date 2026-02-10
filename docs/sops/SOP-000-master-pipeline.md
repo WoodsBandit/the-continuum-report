@@ -29,8 +29,8 @@ The Continuum Report operates on a **minimal human intervention** model. The pip
 **Result:** Webhook triggers pipeline execution
 
 ### Touchpoint 2: Analytical Product Approval
-**Location:** `\\192.168.1.139\continuum\pending_approval\`
-**Action:** User reviews briefs and moves approved items to `\\192.168.1.139\continuum\approved\`
+**Location:** `project_root/pending_approval\`
+**Action:** User reviews briefs and moves approved items to `project_root/approved\`
 **Frequency:** Periodic review sessions
 **Result:** Publication process triggered
 
@@ -144,7 +144,7 @@ pending_approval/ → [Human Review] → approved/ → website/ → archive/publ
 ## Directory Structure
 
 ```
-\\192.168.1.139\continuum\
+project_root/
 ├── pending_approval/           # Stage 3 output - awaiting human review
 │   ├── entities/              # New/updated entity briefs
 │   ├── connections/           # New/updated connection briefs
@@ -200,7 +200,7 @@ pending_approval/ → [Human Review] → approved/ → website/ → archive/publ
 ```
 DECISION POINT: When entity appears in new source
 
-READ: \\192.168.1.139\continuum\briefs\entity\analytical_brief_{entity}.md
+READ: project_root/briefs\entity\analytical_brief_{entity}.md
 
 IF file does NOT exist:
     → CREATE new brief using entity-brief-template.md
@@ -241,7 +241,7 @@ ELSE IF file exists:
 ```
 DECISION POINT: When entity pair co-occurs
 
-READ: \\192.168.1.139\continuum\indexes\co_occurrence.json
+READ: project_root/indexes\co_occurrence.json
 GET: co_mention_count for entity_pair
 
 IF co_mention_count < 2:
@@ -249,7 +249,7 @@ IF co_mention_count < 2:
     → NO brief generation
 
 ELSE:
-    READ: \\192.168.1.139\continuum\briefs\connections\{entity1}_{entity2}.md
+    READ: project_root/briefs\connections\{entity1}_{entity2}.md
 
     IF file does NOT exist:
         CHECK: connection_contexts.json for context snippets
@@ -360,7 +360,7 @@ ELSE IF any point FAILS:
 - **Database unavailable:** Queue operations, retry until restored
 
 ### Error Logging
-All errors logged to: `\\192.168.1.139\continuum\logs\pipeline_errors.log`
+All errors logged to: `project_root/logs\pipeline_errors.log`
 
 Format:
 ```
@@ -425,7 +425,7 @@ Format:
 
 ### Website Update Integration
 **Mechanism:** Direct file system operations in Stage 4
-**Target:** `\\192.168.1.139\continuum\website\`
+**Target:** `project_root/website\`
 **Validation:** JSON schema validation before writing
 
 ## Backup and Recovery
@@ -437,7 +437,7 @@ Format:
 - All briefs (entity + connection)
 - Configuration files
 
-**Location:** `\\192.168.1.139\continuum\backups\{timestamp}\`
+**Location:** `project_root/backups\{timestamp}\`
 
 ### Recovery Procedures
 **Index Corruption:**
@@ -469,14 +469,14 @@ Current SOP versions:
 ## Appendices
 
 ### Appendix A: File Path Reference
-All absolute paths use network share: `\\192.168.1.139\continuum\`
+All paths are relative to the project root directory (local hosting on WoodsDen via Docker).
 
 ### Appendix B: JSON Schema References
 See individual index files for embedded `_schema_version` fields
 
 ### Appendix C: Template Locations
-- Entity brief template: `\\192.168.1.139\continuum\templates\entity-brief-template.md`
-- Connection brief template: `\\192.168.1.139\continuum\templates\connection-brief-template.md`
+- Entity brief template: `project_root/templates\entity-brief-template.md`
+- Connection brief template: `project_root/templates\connection-brief-template.md`
 
 ### Appendix D: Related Documentation
 - Legal compliance checklist: See SOP-003 Section 6.3

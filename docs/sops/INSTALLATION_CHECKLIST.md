@@ -22,7 +22,7 @@ Check that all SOP files exist and are readable:
 
 **Verify:**
 ```bash
-ls -lh \\192.168.1.139\continuum\sops\
+ls -lh docs/sops/
 ```
 
 ---
@@ -32,16 +32,16 @@ ls -lh \\192.168.1.139\continuum\sops\
 Check that all required directories exist:
 
 ### Workflow Directories
-- [ ] `\\192.168.1.139\continuum\pending_approval\`
-- [ ] `\\192.168.1.139\continuum\pending_approval\entities\`
-- [ ] `\\192.168.1.139\continuum\pending_approval\connections\`
-- [ ] `\\192.168.1.139\continuum\approved\`
-- [ ] `\\192.168.1.139\continuum\approved\entities\`
-- [ ] `\\192.168.1.139\continuum\approved\connections\`
+- [ ] `pending_approval/`
+- [ ] `pending_approval/entities/`
+- [ ] `pending_approval/connections/`
+- [ ] `approved/`
+- [ ] `approved/entities/`
+- [ ] `approved/connections/`
 
 ### Archive Directories
-- [ ] `\\192.168.1.139\continuum\archive\`
-- [ ] `\\192.168.1.139\continuum\archive\published\`
+- [ ] `archive/`
+- [ ] `archive/published/`
 
 ---
 
@@ -49,25 +49,25 @@ Check that all required directories exist:
 
 Check that index files exist with proper schemas:
 
-- [ ] `\\192.168.1.139\continuum\indexes\processed_sources.json`
-- [ ] `\\192.168.1.139\continuum\indexes\connection_contexts.json`
-- [ ] `\\192.168.1.139\continuum\indexes\entity_registry.json` (pre-existing)
-- [ ] `\\192.168.1.139\continuum\indexes\source_mentions.json` (pre-existing)
-- [ ] `\\192.168.1.139\continuum\indexes\co_occurrence.json` (pre-existing)
+- [ ] `indexes/processed_sources.json`
+- [ ] `indexes/connection_contexts.json`
+- [ ] `indexes/entity_registry.json` (pre-existing)
+- [ ] `indexes/source_mentions.json` (pre-existing)
+- [ ] `indexes/co_occurrence.json` (pre-existing)
 
 **Verify:**
 ```bash
-ls -lh \\192.168.1.139\continuum\indexes\
-python -m json.tool \\192.168.1.139\continuum\indexes\processed_sources.json
+ls -lh indexes/
+python -m json.tool indexes/processed_sources.json
 ```
 
 ---
 
 ## 4. Supporting Files
 
-- [ ] `\\192.168.1.139\continuum\pending_approval\REVIEW_LOG.md` (template)
-- [ ] `\\192.168.1.139\continuum\templates\entity-brief-template.md`
-- [ ] `\\192.168.1.139\continuum\templates\connection-brief-template.md`
+- [ ] `pending_approval/REVIEW_LOG.md` (template)
+- [ ] `templates/entity-brief-template.md`
+- [ ] `templates/connection-brief-template.md`
 
 ---
 

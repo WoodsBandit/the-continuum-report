@@ -1,33 +1,34 @@
 # Technical Infrastructure — Complete Reference
 
 **The Continuum Report**
-**Last Updated:** 2025-12-29
+**Last Updated:** 2026-02-09
 
 ---
 
-## Server: Tower (Unraid)
+## Host: WoodsDen (Local Docker)
 
 | Spec | Value |
 |------|-------|
-| Hardware | Intel i7-10700K, 16GB RAM, 12TB storage |
-| IP | 192.168.1.139 |
-| MAC Address | 74:56:3c:eb:49:93 |
-| OS | Unraid |
-| SMB Share | `\\192.168.1.139\continuum\` |
-| Constraint | Memory limited — Claude Code preferred over local Ollama |
+| Platform | Windows with Docker Desktop |
+| Services | All run locally via Docker Compose |
+| Project Root | `C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\` |
+| Data Storage | `data/paperless/` (within project folder) |
 
 ---
 
-## Key Containers
+## Docker Containers
 
 | Container | Port | Purpose |
 |-----------|------|---------|
 | paperless-ngx | 8040 | Document management, OCR, search |
-| ollama-cpu | 11434 | Local LLM (Mistral 7B) — backup option |
-| continuum-python | — | Python runtime for scripts |
 | continuum-web | 8081 | Nginx serving the website |
-| cloudflared-tunnel | — | Secure tunnel to Cloudflare |
 | Redis | 6379 | Cache for Paperless |
+
+**Start services:**
+```bash
+cd docker
+docker-compose -f docker-compose.woodsden.yml up -d
+```
 
 ---
 
@@ -35,18 +36,19 @@
 
 | Setting | Value |
 |---------|-------|
-| URL | http://192.168.1.139:8040 |
-| API Token | da99fe6aa0b8d021689126cf72b91986abbbd283 |
+| URL | http://localhost:8040 |
+| Credentials | admin / continuum2026 |
 | Documents | ~200+ processed |
 | Content | Epstein case files, Whitney Webb books, court filings |
-| Inbox | `/continuum/documents/inbox/` |
+| Inbox | `data/paperless/consume/` |
+| Media | `data/paperless/media/` |
 
 ### Paperless API Quick Reference
 
 ```bash
 # Base configuration
-PAPERLESS_URL="http://192.168.1.139:8040"
-TOKEN="da99fe6aa0b8d021689126cf72b91986abbbd283"
+PAPERLESS_URL="http://localhost:8040"
+TOKEN="your_api_token_here"
 HEADERS="Authorization: Token $TOKEN"
 
 # Search documents
@@ -78,8 +80,8 @@ curl -H "$HEADERS" \
 ```python
 import requests
 
-PAPERLESS_URL = "http://192.168.1.139:8040"
-headers = {"Authorization": "Token da99fe6aa0b8d021689126cf72b91986abbbd283"}
+PAPERLESS_URL = "http://localhost:8040"
+headers = {"Authorization": "Token your_api_token_here"}
 
 # Search
 response = requests.get(
@@ -143,39 +145,28 @@ requests.patch(
 
 ---
 
-## WoodsDen Mount (Reverse SMB)
+## Local Development
 
 | Setting | Value |
 |---------|-------|
-| WoodsDen IP | 192.168.1.94 |
-| Windows Path | `C:\Users\Xx LilMan xX\Documents\Claude Docs` |
-| Share Name | `claude-docs` |
-| Host Mount | `/mnt/woodsden/claude-docs` ✅ |
-| Container Path | `/mnt/woodsden` (requires Docker mapping) |
-| Credentials | `/root/.woodsden-creds` |
+| Platform | WoodsDen (Windows + Docker Desktop) |
+| Project Path | `C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum` |
+| Docker Compose | `docker/docker-compose.woodsden.yml` |
+| Data Storage | `data/paperless/` |
 
-### Mount Scripts
-
-**Location:** `/mnt/user/continuum/scripts/`
-
-- `mount-woodsden.sh` — Mount WoodsDen share
-- `check-woodsden-mount.sh` — Verify mount status
-
-### After Reboot
+### Starting Services
 
 ```bash
-# Remount WoodsDen share
-/mnt/user/continuum/scripts/mount-woodsden.sh
-
-# Verify mount
-/mnt/user/continuum/scripts/check-woodsden-mount.sh
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\docker"
+docker-compose -f docker-compose.woodsden.yml up -d
 ```
 
-### For Container Access
+### Stopping Services
 
-Add Docker path mapping:
-- Container: `/mnt/woodsden`
-- Host: `/mnt/woodsden`
+```bash
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum\docker"
+docker-compose -f docker-compose.woodsden.yml down
+```
 
 ---
 
@@ -227,17 +218,15 @@ python /continuum/scripts/build_graph.py
 
 ---
 
-## Network Configuration
+## Service URLs
 
 | Resource | Location |
 |----------|----------|
-| Server IP | 192.168.1.139 |
-| WoodsDen IP | 192.168.1.94 |
-| SMB Share | `\\192.168.1.139\continuum\` |
-| Website | https://thecontinuumreport.com |
-| Paperless | http://192.168.1.139:8040 |
-| Ollama | http://192.168.1.139:11434 |
+| Website (Production) | https://thecontinuumreport.com |
+| Website (Local Dev) | http://localhost:8081 |
+| Paperless | http://localhost:8040 |
+| GitHub | WoodsBandit/the-continuum-report |
 
 ---
 
-*For CLAUDE.md summary, see: Section 6 (Technical Infrastructure)*
+*All services run locally on WoodsDen via Docker. There is no remote server.*

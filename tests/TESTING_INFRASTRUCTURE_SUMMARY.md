@@ -195,7 +195,8 @@ All dependencies successfully installed and working.
 ### 1. Install Dependencies
 
 ```bash
-cd \\\\192.168.1.139\\continuum
+# From project root (WoodsDen local)
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum"
 pip install -r requirements.txt
 ```
 

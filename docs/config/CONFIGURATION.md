@@ -57,14 +57,14 @@ nano .env  # or vim, code, etc.
 # REQUIRED: Your Paperless API token
 PAPERLESS_TOKEN=your_token_here
 
-# Optional: Override defaults
-PAPERLESS_URL=http://192.168.1.139:8040
-OLLAMA_URL=http://192.168.1.139:11434
+# Optional: Override defaults (local Docker services)
+PAPERLESS_URL=http://localhost:8040
+OLLAMA_URL=http://localhost:11434
 ```
 
 ### Step 3: Get Your Paperless Token
 
-1. Open Paperless web UI: http://192.168.1.139:8040
+1. Open Paperless web UI: http://localhost:8040
 2. Navigate to **Settings → API Tokens**
 3. Click **Create Token**
 4. Copy the token value
@@ -91,8 +91,8 @@ Directories:
   Reports:    /continuum/reports
 
 Services:
-  Paperless:  http://192.168.1.139:8040
-  Ollama:     http://192.168.1.139:11434 (model: mistral)
+  Paperless:  http://localhost:8040
+  Ollama:     http://localhost:11434 (model: mistral)
 
   Token:      [SET]
 
@@ -115,7 +115,7 @@ If you see "OK" for both services, you're ready to go!
 
 **Type:** String (URL)
 
-**Default:** `http://192.168.1.139:8040`
+**Default:** `http://localhost:8040`
 
 **Examples:**
 ```bash
@@ -126,7 +126,7 @@ PAPERLESS_URL=http://localhost:8040
 PAPERLESS_URL=https://paperless.example.com
 
 # Custom port
-PAPERLESS_URL=http://192.168.1.139:9000
+PAPERLESS_URL=http://localhost:9000
 ```
 
 **Validation:** Must be a valid HTTP/HTTPS URL
@@ -191,7 +191,7 @@ PAPERLESS_TIMEOUT=120
 
 **Type:** String (URL)
 
-**Default:** `http://192.168.1.139:11434`
+**Default:** `http://localhost:11434`
 
 **Examples:**
 ```bash
@@ -320,8 +320,8 @@ CONTINUUM_BASE_DIR=/home/user/continuum
 # Windows path
 CONTINUUM_BASE_DIR=C:\Users\User\continuum
 
-# Network share
-CONTINUUM_BASE_DIR=//nas/continuum
+# Project data directory
+CONTINUUM_BASE_DIR=data/paperless
 ```
 
 **Auto-created subdirectories:**
@@ -730,13 +730,13 @@ cp .env.development .env
 ```bash
 # Production settings - optimized for throughput and reliability
 
-# Paperless
-PAPERLESS_URL=http://192.168.1.139:8040
+# Paperless (local Docker)
+PAPERLESS_URL=http://localhost:8040
 PAPERLESS_TOKEN=secure_production_token_here
 PAPERLESS_TIMEOUT=60
 
-# Ollama
-OLLAMA_URL=http://192.168.1.139:11434
+# Ollama (local Docker)
+OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=mistral
 OLLAMA_CONTEXT_SIZE=1024
 OLLAMA_TIMEOUT=600
@@ -810,13 +810,13 @@ For systems with 32GB+ RAM and dedicated GPU.
 ```bash
 # High-performance settings - maximum throughput
 
-# Paperless
-PAPERLESS_URL=http://192.168.1.139:8040
+# Paperless (local Docker)
+PAPERLESS_URL=http://localhost:8040
 PAPERLESS_TOKEN=your_token_here
 PAPERLESS_TIMEOUT=60
 
-# Ollama - larger model, more context
-OLLAMA_URL=http://gpu-server:11434
+# Ollama - larger model, more context (local Docker)
+OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=llama2:13b
 OLLAMA_CONTEXT_SIZE=4096
 OLLAMA_TIMEOUT=900
@@ -868,17 +868,12 @@ CONTINUUM_BASE_DIR=C:\\Users\\Username\\continuum
 CONTINUUM_BASE_DIR=C:/Users/Username/continuum
 ```
 
-### Network Shares
+### Local Project Directory
 
 ```bash
-# WSL network share
-CONTINUUM_BASE_DIR=//nas/continuum
-
-# Linux CIFS mount
-CONTINUUM_BASE_DIR=/mnt/nas/continuum
-
-# Windows UNC path
-CONTINUUM_BASE_DIR=\\\\nas\\continuum
+# All services run locally via Docker on WoodsDen
+# Data is stored within the project folder
+CONTINUUM_BASE_DIR=data/paperless
 ```
 
 ### Docker Volumes
@@ -903,7 +898,7 @@ volumes:
 ```bash
 # Test API access
 curl -H "Authorization: Token YOUR_TOKEN" \
-     http://192.168.1.139:8040/api/
+     http://localhost:8040/api/
 
 # Expected: {"version": "1.x.x", ...}
 ```
@@ -1086,9 +1081,7 @@ ls -la .env
 # Use HTTPS in production
 PAPERLESS_URL=https://paperless.example.com
 
-# Firewall rules
-sudo ufw allow from 192.168.1.0/24 to any port 8040
-sudo ufw allow from 192.168.1.0/24 to any port 11434
+# Note: Firewall rules not needed for localhost services
 ```
 
 ### 5. Environment Isolation
@@ -1150,13 +1143,13 @@ file .env
 **Diagnosis:**
 ```bash
 # Test Paperless
-curl http://192.168.1.139:8040/api/
+curl http://localhost:8040/api/
 
 # Test Ollama
-curl http://192.168.1.139:11434/api/tags
+curl http://localhost:11434/api/tags
 
-# Check network
-ping 192.168.1.139
+# Check Docker services are running
+docker ps
 ```
 
 **Solutions:**
@@ -1187,7 +1180,7 @@ grep PAPERLESS_TOKEN .env
 
 # Test token manually
 curl -H "Authorization: Token YOUR_TOKEN" \
-     http://192.168.1.139:8040/api/documents/
+     http://localhost:8040/api/documents/
 ```
 
 **Solutions:**
@@ -1292,10 +1285,10 @@ grep -q "PAPERLESS_TOKEN=.\+" .env && echo "✓ Token set" || echo "✗ Token mi
 [ -w /continuum ] && echo "✓ Base dir writable" || echo "✗ Base dir not writable"
 
 # 4. Paperless reachable
-curl -sf http://192.168.1.139:8040/api/ > /dev/null && echo "✓ Paperless OK" || echo "✗ Paperless unreachable"
+curl -sf http://localhost:8040/api/ > /dev/null && echo "✓ Paperless OK" || echo "✗ Paperless unreachable"
 
 # 5. Ollama reachable
-curl -sf http://192.168.1.139:11434/api/tags > /dev/null && echo "✓ Ollama OK" || echo "✗ Ollama unreachable"
+curl -sf http://localhost:11434/api/tags > /dev/null && echo "✓ Ollama OK" || echo "✗ Ollama unreachable"
 
 # 6. Python configuration test
 cd scripts && python -m lib.config && echo "✓ Config valid" || echo "✗ Config invalid"
@@ -1331,14 +1324,14 @@ fi
 echo "✓ PAPERLESS_TOKEN is set"
 
 # Test Paperless
-if ! curl -sf http://192.168.1.139:8040/api/ > /dev/null 2>&1; then
+if ! curl -sf http://localhost:8040/api/ > /dev/null 2>&1; then
     echo "✗ Cannot connect to Paperless"
     exit 1
 fi
 echo "✓ Paperless reachable"
 
 # Test Ollama
-if ! curl -sf http://192.168.1.139:11434/api/tags > /dev/null 2>&1; then
+if ! curl -sf http://localhost:11434/api/tags > /dev/null 2>&1; then
     echo "✗ Cannot connect to Ollama"
     exit 1
 fi
@@ -1380,10 +1373,10 @@ Everything else has sensible defaults!
 ### Recommended Production Setup
 
 ```bash
-# Services
-PAPERLESS_URL=http://192.168.1.139:8040
+# Services (local Docker)
+PAPERLESS_URL=http://localhost:8040
 PAPERLESS_TOKEN=secure_token
-OLLAMA_URL=http://192.168.1.139:11434
+OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=mistral
 
 # Directories

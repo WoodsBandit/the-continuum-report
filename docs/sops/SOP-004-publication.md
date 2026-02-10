@@ -14,7 +14,7 @@ Publish human-approved analytical briefs to The Continuum Report website by upda
 
 ## 2. Trigger Condition
 
-**Primary Trigger:** Files detected in `\\192.168.1.139\continuum\approved\` directories
+**Primary Trigger:** Files detected in `project_root/approved\` directories
 **Monitoring Method:** Directory watch or periodic polling (every 60 seconds)
 **Trigger Script:**
 ```python
@@ -23,8 +23,8 @@ import os
 import time
 from pathlib import Path
 
-approved_entities = Path(r"\\192.168.1.139\continuum\approved\entities")
-approved_connections = Path(r"\\192.168.1.139\continuum\approved\connections")
+approved_entities = Path(r"project_root/approved\entities")
+approved_connections = Path(r"project_root/approved\connections")
 
 def check_for_approved_files():
     entity_files = list(approved_entities.glob("*.md"))
@@ -46,18 +46,18 @@ while True:
 ## 3. Prerequisites
 
 ### Required Files Must Exist
-- `\\192.168.1.139\continuum\website\data\entities.json`
-- `\\192.168.1.139\continuum\website\data\connections.json`
-- `\\192.168.1.139\continuum\website\continuum.html`
+- `project_root/website\data\entities.json`
+- `project_root/website\data\connections.json`
+- `project_root/website\continuum.html`
 
 ### Required Directories Must Exist
-- `\\192.168.1.139\continuum\approved\entities\`
-- `\\192.168.1.139\continuum\approved\connections\`
-- `\\192.168.1.139\continuum\website\briefs\entity\`
-- `\\192.168.1.139\continuum\website\briefs\connections\`
-- `\\192.168.1.139\continuum\website\sources\`
-- `\\192.168.1.139\continuum\archive\published\entities\`
-- `\\192.168.1.139\continuum\archive\published\connections\`
+- `project_root/approved\entities\`
+- `project_root/approved\connections\`
+- `project_root/website\briefs\entity\`
+- `project_root/website\briefs\connections\`
+- `project_root/website\sources\`
+- `project_root/archive\published\entities\`
+- `project_root/archive\published\connections\`
 
 ### System Requirements
 - Write access to website/ directory
@@ -69,25 +69,25 @@ while True:
 ### Primary Inputs
 
 **Approved Entity Briefs:**
-`\\192.168.1.139\continuum\approved\entities\*.md`
+`project_root/approved\entities\*.md`
 - Human-approved entity analytical briefs
 - Must have valid YAML frontmatter
 - Legal review must be resolved
 
 **Approved Connection Briefs:**
-`\\192.168.1.139\continuum\approved\connections\*.md`
+`project_root/approved\connections\*.md`
 - Human-approved connection briefs
 - Must have valid YAML frontmatter
 - Legal review must be resolved
 
 ### Reference Inputs
 
-**Entity Registry:** `\\192.168.1.139\continuum\indexes\entity_registry.json`
-**Source Mentions:** `\\192.168.1.139\continuum\indexes\source_mentions.json`
+**Entity Registry:** `project_root/indexes\entity_registry.json`
+**Source Mentions:** `project_root/indexes\source_mentions.json`
 
 ### Website Data Files (Existing)
 
-**Entities Data:** `\\192.168.1.139\continuum\website\data\entities.json`
+**Entities Data:** `project_root/website\data\entities.json`
 ```json
 {
   "_schema_version": "1.0",
@@ -108,7 +108,7 @@ while True:
 }
 ```
 
-**Connections Data:** `\\192.168.1.139\continuum\website\data\connections.json`
+**Connections Data:** `project_root/website\data\connections.json`
 ```json
 {
   "_schema_version": "1.0",
@@ -137,7 +137,7 @@ while True:
 ```
 # Scan for approved entity briefs
 approved_entity_briefs = []
-entity_dir = \\192.168.1.139\continuum\approved\entities\
+entity_dir = project_root/approved\entities\
 
 FOR EACH file IN entity_dir:
     IF file.endswith('.md'):
@@ -146,7 +146,7 @@ FOR EACH file IN entity_dir:
 
 # Scan for approved connection briefs
 approved_connection_briefs = []
-connection_dir = \\192.168.1.139\continuum\approved\connections\
+connection_dir = project_root/approved\connections\
 
 FOR EACH file IN connection_dir:
     IF file.endswith('.md'):
@@ -233,7 +233,7 @@ IF len(validation_errors) > 0:
 **Action:** Publish each approved entity brief
 
 ```
-READ: \\192.168.1.139\continuum\website\data\entities.json
+READ: project_root/website\data\entities.json
 PARSE as entities_data
 
 published_entities = []
@@ -290,7 +290,7 @@ FOR EACH brief_path IN approved_entity_briefs:
         LOG INFO: "Added new entity entry: {entity_name}"
 
     # Copy brief to website
-    website_brief_path = \\192.168.1.139\continuum\website\briefs\entity\{BASENAME(brief_path)}
+    website_brief_path = project_root/website\briefs\entity\{BASENAME(brief_path)}
     COPY brief from brief_path to website_brief_path
     LOG INFO: "Copied brief to website: {website_brief_path}"
 
@@ -305,7 +305,7 @@ FOR EACH brief_path IN approved_entity_briefs:
 entities_data._last_updated = current_timestamp
 
 # Write updated entities data
-WRITE entities_data to \\192.168.1.139\continuum\website\data\entities.json
+WRITE entities_data to project_root/website\data\entities.json
 LOG INFO: "Updated website entities.json"
 ```
 
@@ -397,7 +397,7 @@ FUNCTION GENERATE_TAGS(entity_type, content_body):
 **Action:** Publish each approved connection brief
 
 ```
-READ: \\192.168.1.139\continuum\website\data\connections.json
+READ: project_root/website\data\connections.json
 PARSE as connections_data
 
 published_connections = []
@@ -451,7 +451,7 @@ FOR EACH brief_path IN approved_connection_briefs:
         LOG INFO: "Added new connection entry: {entity1} ↔ {entity2}"
 
     # Copy brief to website
-    website_brief_path = \\192.168.1.139\continuum\website\briefs\connections\{BASENAME(brief_path)}
+    website_brief_path = project_root/website\briefs\connections\{BASENAME(brief_path)}
     COPY brief from brief_path to website_brief_path
     LOG INFO: "Copied brief to website: {website_brief_path}"
 
@@ -467,7 +467,7 @@ FOR EACH brief_path IN approved_connection_briefs:
 connections_data._last_updated = current_timestamp
 
 # Write updated connections data
-WRITE connections_data to \\192.168.1.139\continuum\website\data\connections.json
+WRITE connections_data to project_root/website\data\connections.json
 LOG INFO: "Updated website connections.json"
 ```
 
@@ -563,7 +563,7 @@ FOR EACH source_id IN all_referenced_sources:
         CONTINUE
 
     # Generate website source path
-    website_source_path = \\192.168.1.139\continuum\website\sources\{BASENAME(source_file_path)}
+    website_source_path = project_root/website\sources\{BASENAME(source_file_path)}
 
     # Check if already published
     IF FILE_EXISTS(website_source_path):
@@ -581,7 +581,7 @@ FOR EACH source_id IN all_referenced_sources:
 
 ```
 # Check if continuum.html needs updating
-html_path = \\192.168.1.139\continuum\website\continuum.html
+html_path = project_root/website\continuum.html
 
 # Option 1: Static HTML that loads JSON dynamically (no update needed)
 LOG INFO: "Website uses dynamic JSON loading, no HTML update required"
@@ -617,7 +617,7 @@ FOR EACH entity IN published_entities:
 
     # Create archive filename with timestamp
     archive_filename = f"{entity_id}_{archive_timestamp}.md"
-    archive_path = \\192.168.1.139\continuum\archive\published\entities\{archive_filename}
+    archive_path = project_root/archive\published\entities\{archive_filename}
 
     # Move brief to archive
     MOVE brief from brief_path to archive_path
@@ -630,7 +630,7 @@ FOR EACH connection IN published_connections:
 
     # Create archive filename with timestamp
     archive_filename = f"{connection_id}_{archive_timestamp}.md"
-    archive_path = \\192.168.1.139\continuum\archive\published\connections\{archive_filename}
+    archive_path = project_root/archive\published\connections\{archive_filename}
 
     # Move brief to archive
     MOVE brief from brief_path to archive_path
@@ -643,7 +643,7 @@ FOR EACH connection IN published_connections:
 
 ```
 # Check entity approved directory
-remaining_entity_files = LIST files in \\192.168.1.139\continuum\approved\entities\
+remaining_entity_files = LIST files in project_root/approved\entities\
 
 IF len(remaining_entity_files) > 0:
     LOG WARNING: "{len(remaining_entity_files)} files remain in approved/entities/"
@@ -653,7 +653,7 @@ ELSE:
     LOG INFO: "Approved entities directory empty"
 
 # Check connection approved directory
-remaining_connection_files = LIST files in \\192.168.1.139\continuum\approved\connections\
+remaining_connection_files = LIST files in project_root/approved\connections\
 
 IF len(remaining_connection_files) > 0:
     LOG WARNING: "{len(remaining_connection_files)} files remain in approved/connections/"
@@ -692,14 +692,14 @@ publication_report = f'''
 ## Archive
 
 All published briefs archived to:
-- \\192.168.1.139\continuum\archive\published\entities\
-- \\192.168.1.139\continuum\archive\published\connections\
+- project_root/archive\published\entities\
+- project_root/archive\published\connections\
 
 Archive timestamp: {archive_timestamp}
 
 ## Website Status
 
-**Live URL:** http://continuum.local/continuum.html
+**Live URL:** http://localhost:8081/continuum.html
 **Last Updated:** {current_timestamp}
 **Total Entities:** {total_entity_count}
 **Total Connections:** {total_connection_count}
@@ -708,7 +708,7 @@ Archive timestamp: {archive_timestamp}
 *Auto-generated by Stage 4: Publication*
 '''
 
-WRITE publication_report to \\192.168.1.139\continuum\logs\publication_report_{archive_timestamp}.md
+WRITE publication_report to project_root/logs\publication_report_{archive_timestamp}.md
 
 LOG INFO: "Publication report generated"
 ```
@@ -718,7 +718,7 @@ LOG INFO: "Publication report generated"
 **Action:** Record completion for monitoring
 
 ```
-WRITE current_timestamp to \\192.168.1.139\continuum\logs\stage4_last_run.txt
+WRITE current_timestamp to project_root/logs\stage4_last_run.txt
 
 LOG INFO: "Stage 4 complete. Published {total_briefs} briefs to website."
 ```
@@ -827,7 +827,7 @@ CATCH PermissionError OR IOError:
     LOG CRITICAL: "Cannot write to website directory: {website_path}"
 
     # Try alternate publication location
-    alternate_path = \\192.168.1.139\continuum\website_staging\
+    alternate_path = project_root/website_staging\
 
     IF alternate_path is accessible:
         LOG INFO: "Publishing to staging location: {alternate_path}"
@@ -849,35 +849,35 @@ CATCH PermissionError OR IOError:
 ### Primary Outputs
 
 **Updated Website Data:**
-- `\\192.168.1.139\continuum\website\data\entities.json` (new/updated entity entries)
-- `\\192.168.1.139\continuum\website\data\connections.json` (new/updated connection entries)
+- `project_root/website\data\entities.json` (new/updated entity entries)
+- `project_root/website\data\connections.json` (new/updated connection entries)
 
 **Published Briefs:**
-- `\\192.168.1.139\continuum\website\briefs\entity\*.md`
-- `\\192.168.1.139\continuum\website\briefs\connections\*.md`
+- `project_root/website\briefs\entity\*.md`
+- `project_root/website\briefs\connections\*.md`
 
 **Published Sources:**
-- `\\192.168.1.139\continuum\website\sources\*.pdf`
+- `project_root/website\sources\*.pdf`
 
 **Archived Content:**
-- `\\192.168.1.139\continuum\archive\published\entities\*_{timestamp}.md`
-- `\\192.168.1.139\continuum\archive\published\connections\*_{timestamp}.md`
+- `project_root/archive\published\entities\*_{timestamp}.md`
+- `project_root/archive\published\connections\*_{timestamp}.md`
 
 ### Secondary Outputs
 
 **Publication Report:**
-`\\192.168.1.139\continuum\logs\publication_report_{timestamp}.md`
+`project_root/logs\publication_report_{timestamp}.md`
 - Summary of what was published
 - Website statistics
 - Archive locations
 
 **Processing Timestamp:**
-`\\192.168.1.139\continuum\logs\stage4_last_run.txt`
+`project_root/logs\stage4_last_run.txt`
 
 ### Log Outputs
 
 **Processing Log:**
-`\\192.168.1.139\continuum\logs\stage4_publication.log`
+`project_root/logs\stage4_publication.log`
 
 Example:
 ```
@@ -916,21 +916,21 @@ Example:
 
 ```bash
 # Verify website JSON validity
-python -m json.tool \\192.168.1.139\continuum\website\data\entities.json > /dev/null
+python -m json.tool project_root/website\data\entities.json > /dev/null
 
 # Count published briefs
-ls \\192.168.1.139\continuum\website\briefs\entity\ | wc -l
-ls \\192.168.1.139\continuum\website\briefs\connections\ | wc -l
+ls project_root/website\briefs\entity\ | wc -l
+ls project_root/website\briefs\connections\ | wc -l
 
 # Verify approved directories empty
-ls \\192.168.1.139\continuum\approved\entities\
-ls \\192.168.1.139\continuum\approved\connections\
+ls project_root/approved\entities\
+ls project_root/approved\connections\
 
 # Check archive created
-ls -lh \\192.168.1.139\continuum\archive\published\entities\ | tail -5
+ls -lh project_root/archive\published\entities\ | tail -5
 
 # Test website accessibility
-curl http://continuum.local/briefs/entity/analytical_brief_John_Doe.md
+curl http://localhost:8081/briefs/entity/analytical_brief_John_Doe.md
 ```
 
 ## 9. Error Handling
@@ -995,7 +995,7 @@ CATCH DiskFullError:
     LOG CRITICAL: "Disk full - cannot complete publication"
 
     # Halt publication immediately
-    WRITE halt signal to \\192.168.1.139\continuum\PUBLICATION_HALTED
+    WRITE halt signal to project_root/PUBLICATION_HALTED
 
     # Don't move briefs out of approved/ (incomplete publication)
 
@@ -1145,7 +1145,7 @@ If both entities.json and connections.json are lost/corrupted:
 
 ```bash
 # Run rebuild script
-python \\192.168.1.139\continuum\scripts\rebuild_website_data.py
+python project_root/scripts\rebuild_website_data.py
 
 # Script will:
 # 1. Scan website/briefs/ for all published briefs

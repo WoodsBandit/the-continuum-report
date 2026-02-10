@@ -34,21 +34,21 @@ The Continuum Report currently operates on a **local, file-based architecture** 
 │                     THE CONTINUUM REPORT                        │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  Windows Workstation (WoodsDen)                                │
+│  Windows Workstation (WoodsDen) - LOCAL DEPLOYMENT            │
 │  ├─ Development environment                                   │
 │  ├─ Brief creation/editing                                    │
-│  └─ Static site generation                                    │
-│                                                                 │
-│          ↓ SMB Share (Network Storage)                        │
-│                                                                 │
-│  Linux Server (Tower - 192.168.1.139)                         │
-│  ├─ Paperless-ngx                                             │
-│  │  └─ Document ingestion & OCR                              │
-│  ├─ Ollama                                                     │
-│  │  └─ LLM inference                                           │
+│  ├─ Static site generation                                    │
+│  │                                                             │
+│  ├─ Docker Services (Local)                                   │
+│  │  ├─ Paperless-ngx (http://localhost:8040)                  │
+│  │  │  └─ Document ingestion & OCR                           │
+│  │  ├─ Ollama (http://localhost:11434)                        │
+│  │  │  └─ LLM inference                                       │
+│  │  └─ Website (http://localhost:8081)                        │
+│  │                                                             │
 │  ├─ brief_watcher.py daemon                                    │
 │  │  └─ File monitoring & processing                           │
-│  ├─ Storage: Filesystem-based JSON                            │
+│  ├─ Storage: data/paperless/ (local filesystem)               │
 │  └─ Static website files                                      │
 │                                                                 │
 │          ↓ HTTP/Static File Server                            │
@@ -63,7 +63,7 @@ The Continuum Report currently operates on a **local, file-based architecture** 
 
 #### **Paperless-ngx (Document Management)**
 - **Purpose**: Document ingestion, OCR, metadata extraction
-- **Current Deployment**: Bare metal service on Tower
+- **Current Deployment**: Docker container on WoodsDen (http://localhost:8040)
 - **Architecture Issues**:
   - Single instance (no HA)
   - Blocking I/O for document processing
@@ -72,7 +72,7 @@ The Continuum Report currently operates on a **local, file-based architecture** 
 
 #### **Ollama (LLM Inference)**
 - **Purpose**: Local language model processing
-- **Current Deployment**: Bare metal service on Tower
+- **Current Deployment**: Docker container on WoodsDen (http://localhost:11434)
 - **Architecture Issues**:
   - GPU resource contention with Paperless
   - No request queuing
@@ -95,7 +95,7 @@ The Continuum Report currently operates on a **local, file-based architecture** 
 
 #### **Storage Architecture**
 - **Current**: Filesystem-based JSON files
-- **Location**: SMB share + local storage
+- **Location**: Local storage (data/paperless/ within project folder)
 - **Issues**:
   - No ACID transactions
   - Difficult concurrent access management
@@ -171,7 +171,7 @@ Latency: 30-120 seconds per document
 Paperless-ngx OCR: 2-5 docs/min (limited by CPU)
 Ollama Inference: 1-10 requests/min (limited by GPU)
 brief_watcher.py: Sequential (effectively 1 doc/min due to blocking)
-Network throughput: 100 Mbps (SMB share bottleneck)
+Local storage throughput: Limited by disk I/O (SSD recommended)
 ```
 
 **Realistic current capacity:**
@@ -2903,19 +2903,19 @@ Parallel Activities:
 ### 13.1 Current State Costs
 
 ```
-Hardware (Self-hosted):
-├─ Tower server          ~$2,000 (capital)
-│                        + $200/month (power, cooling)
-├─ Network storage       ~$500/month
-└─ Network infrastructure ~$50/month
+Hardware (Local on WoodsDen):
+├─ WoodsDen workstation  ~$1,200 (capital)
+│                        + $50/month (power)
+├─ Local storage         Included in workstation
+└─ No network infrastructure needed (all local)
                          ───────────
-                         ~$750/month running costs
+                         ~$50/month running costs
 
 Development:
-├─ Windows workstation   ~$1,200 (capital)
+├─ Docker Desktop        Free (personal use)
 └─ Software licenses    ~$100/month
 
-Total: ~$850/month + initial capital
+Total: ~$150/month + initial capital
 ```
 
 ### 13.2 Cloud Architecture Costs (Estimate)

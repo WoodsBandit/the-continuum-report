@@ -17,8 +17,8 @@ This should work like Obsidian - connections are automatically detected based on
 - **Website location:** `/continuum/website/`
 - **Current page:** `continuum.html` (formerly zoom.html) has hardcoded sample data
 - **Analytical briefs:** 15 completed, stored as markdown files
-- **Server:** Unraid at 192.168.1.139
-- **Paperless API:** http://192.168.1.139:8040 (token: da99fe6aa0b8d021689126cf72b91986abbbd283)
+- **Server:** Local Docker on WoodsDen
+- **Paperless API:** http://localhost:8040 (token configured in .env)
 
 ---
 

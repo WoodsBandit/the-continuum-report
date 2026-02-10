@@ -61,7 +61,7 @@ scripts/lib/
 **Before:** Hardcoded credentials
 ```python
 PAPERLESS_TOKEN = "da99fe6aa0b8d021689126cf72b91986abbbd283"
-PAPERLESS_URL = "http://192.168.1.139:8040"
+PAPERLESS_URL = "http://localhost:8040"
 ```
 
 **After:** Environment variables
@@ -176,7 +176,7 @@ except PaperlessConnectionError:
 #### 1.1 Install Dependencies
 
 ```bash
-cd //192.168.1.139/continuum
+cd "C:\Users\Xx LilMan xX\Documents\Claude Docs\Continuum"
 pip install -r requirements.txt
 ```
 
@@ -198,11 +198,11 @@ nano .env  # or your preferred editor
 **Required variables:**
 ```bash
 # Paperless-ngx Configuration
-PAPERLESS_URL=http://192.168.1.139:8040
+PAPERLESS_URL=http://localhost:8040
 PAPERLESS_TOKEN=your_token_here
 
 # Ollama Configuration
-OLLAMA_URL=http://192.168.1.139:11434
+OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=mistral
 
 # Directories
@@ -222,7 +222,7 @@ Expected output:
 The Continuum Report - Configuration Check
 ============================================================
 
-Configuration: ContinuumSettings(paperless_url='http://192.168.1.139:8040', ...)
+Configuration: ContinuumSettings(paperless_url='http://localhost:8040', ...)
 
 Directories:
   Base:       /continuum
@@ -231,8 +231,8 @@ Directories:
   Checkpoints:/continuum/checkpoints
 
 Services:
-  Paperless:  http://192.168.1.139:8040
-  Ollama:     http://192.168.1.139:11434 (model: mistral)
+  Paperless:  http://localhost:8040
+  Ollama:     http://localhost:11434 (model: mistral)
 
   Token:      [SET]
 
@@ -268,7 +268,7 @@ from lib import PaperlessError, OllamaError
 
 **Before:**
 ```python
-PAPERLESS_URL = "http://192.168.1.139:8040"
+PAPERLESS_URL = "http://localhost:8040"
 PAPERLESS_TOKEN = "da99fe6aa0b8d021689126cf72b91986abbbd283"
 BASE_DIR = "/continuum"
 DATA_DIR = os.path.join(BASE_DIR, "entity_data")
@@ -429,9 +429,9 @@ import json
 import urllib.request
 
 # HARDCODED SECRETS - BAD!
-PAPERLESS_URL = "http://192.168.1.139:8040"
+PAPERLESS_URL = "http://localhost:8040"
 PAPERLESS_TOKEN = "da99fe6aa0b8d021689126cf72b91986abbbd283"
-OLLAMA_URL = "http://192.168.1.139:11434"
+OLLAMA_URL = "http://localhost:11434"
 MODEL = "mistral"
 
 # HARDCODED PATHS
@@ -783,13 +783,13 @@ nano .env
 
 **Error:**
 ```
-PaperlessConnectionError: Cannot connect to http://192.168.1.139:8040
+PaperlessConnectionError: Cannot connect to http://localhost:8040
 ```
 
 **Solution:**
-1. Check if Paperless is running: `curl http://192.168.1.139:8040`
+1. Check if Paperless Docker container is running: `docker ps | findstr paperless`
 2. Verify URL in `.env` file
-3. Check firewall/network connectivity
+3. Start the containers if needed: `docker-compose -f docker-compose.woodsden.yml up -d`
 4. Test with: `python -m lib.config`
 
 ### Issue 3: "Module 'lib' not found"
